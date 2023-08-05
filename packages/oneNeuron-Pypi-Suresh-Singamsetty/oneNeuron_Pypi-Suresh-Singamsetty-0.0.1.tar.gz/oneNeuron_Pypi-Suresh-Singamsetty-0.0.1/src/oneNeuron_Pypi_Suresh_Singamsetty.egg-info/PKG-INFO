@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: oneNeuron-Pypi-Suresh-Singamsetty
+Version: 0.0.1
+Summary: its an implementation of perceptron
+Home-page: https://github.com/Suresh-Singamsetty/oneNeuron_Pypi
+Author: USER_NAME
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Suresh-Singamsetty/oneNeuron_Pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_Pypi
+Perceptron Package Creation
+
+
+## Reference -
+[official python doc](https://packaging.python.org/tutorials/packaging-projects/)
+
+[Github docs for github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
+
