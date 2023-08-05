@@ -1,0 +1,13 @@
+carbonai/__init__.py,sha256=dPqFXGE3HaLs5ud76dzJWNaMmGZEauHlRRBhar7TkSU,259
+carbonai/config.json,sha256=h7KtFG5-83Rv5uzpdrnnGbEkaI7sn5HGooarljsJxw4,161
+carbonai/data/ademe_energy_mix_by_country.csv,sha256=eRV6NrswsXJ6JXmfjgsffZglQeJ0Hbk3UM4mxbDAapA,2508
+carbonai/magic_power_meter.py,sha256=KrDxg6iDqQY6uiIqi5fCYKk_rg20ny_-E8KVcxV0cNw,5014
+carbonai/nvidia_power.py,sha256=bB0LwDIk0o1dmeKxXYpmk1QQK1oNZOSpEpXjXoc_v40,3846
+carbonai/power_gadget.py,sha256=ohp-o_etXXWxJgelrr-X7dBAU8xFd173XccGh0NfkEw,25819
+carbonai/power_meter.py,sha256=yfqP78iH8-k6mJ_8SbFcyyZRVgGPFdDlgTNAa_rJnzo,29824
+carbonai/utils.py,sha256=4YuDWcoysGxtsdnKdvseUV6aQPE90eaV6KuLi3I9fx8,1925
+carbonai/version.py,sha256=7yApVeYpMJDUI3z9VlbaBrRVIRODWseMenRO7B9Fn-I,166
+carbonai-0.2.1.dist-info/LICENSE.txt,sha256=ZGocA8A9QMCZyaq_VPDVE9lZqIgyTeNNFGJrIZPbmiw,1069
+carbonai-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+carbonai-0.2.1.dist-info/METADATA,sha256=pLA8YrALDJtCjNPOoSa21v4-pDVZN3wDl51efkdAH-w,3179
+carbonai-0.2.1.dist-info/RECORD,,
