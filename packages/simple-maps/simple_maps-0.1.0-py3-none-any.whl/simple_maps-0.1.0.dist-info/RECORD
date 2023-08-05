@@ -1,0 +1,10 @@
+simple_maps/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+simple_maps/__main__.py,sha256=PAAjozieVGaCqXomP7rQdshnexL_gEVZnVX8vnfDlaI,119
+simple_maps/cartes.py,sha256=RW-KyGKAFbR2br1k6OPn--2fI6VuCLCsxzqESlcuQcY,4793
+simple_maps/cli.py,sha256=WijOkD1dgiotltTStO0CQHmVWCPqKp26v5WLj93k-gE,4850
+simple_maps/util.py,sha256=R5m8ZJmhjOGUPXPX_B0dAdcBh7BrQZ5agmywq5_Tzx4,919
+simple_maps-0.1.0.dist-info/entry_points.txt,sha256=3did8-_yaGxv24c_noLsUtHQJGDjYrIHQpZIdu3Xj7Q,51
+simple_maps-0.1.0.dist-info/LICENSE,sha256=V6Xme-t0Ds1esopqlhHDhxM7iML9JIMYp2G1yzgFZhk,1076
+simple_maps-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+simple_maps-0.1.0.dist-info/METADATA,sha256=VHOy1FMtqEqNE4N5kE4L9Nrnv-ziz0haels3Ne7HB5E,5018
+simple_maps-0.1.0.dist-info/RECORD,,
