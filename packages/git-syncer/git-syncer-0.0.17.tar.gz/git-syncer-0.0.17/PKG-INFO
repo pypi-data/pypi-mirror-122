@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: git-syncer
+Version: 0.0.17
+Summary: Allows cron job control and command execution on a remote machine using git infrastructure
+Home-page: https://github.com/asaf-kali/git-syncer
+Author: Asaf Kali
+Author-email: unknown@gmail.com
+License: https://github.com/asaf-kali/git-syncer/blob/main/LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Git syncer
+Allows cron job control and command execution on a remote machine using git infrastructure.
+
+
