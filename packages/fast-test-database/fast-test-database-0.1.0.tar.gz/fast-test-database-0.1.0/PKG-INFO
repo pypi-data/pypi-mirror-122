@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fast-test-database
+Version: 0.1.0
+Summary: Configure an in-memory database for running Django tests
+License: GPL3
+Author: Alexey Kotlyarov
+Author-email: a@koterpillar.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.0,<4.0)
