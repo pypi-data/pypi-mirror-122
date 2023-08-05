@@ -1,0 +1,10 @@
+applied_stats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+applied_stats/confidence_intervals.py,sha256=cCm1edOTAtGtIZ_nHp2-vJU_xbJKY1HL1m7Azimr8ro,1851
+applied_stats/continuous_distributions.py,sha256=7KFkTtAuXxruPkuvKkpUk8Lnbu5KzLGeVsSM6ITU5UQ,19766
+applied_stats/hypothesis_testing.py,sha256=k8r8ajvG76LZ_MF11XMqCBzU9S95Jic-G8BXx2jB5-s,4244
+applied_stats/mle.py,sha256=BlKFR0UHt3qYBHHGEZCg7SQHX9cHFNkyZJzJLLFcPVU,6548
+applied_stats-1.0.0.dist-info/LICENSE.txt,sha256=3YUt_7c8MVgQsuczv2Rw0zvTfGxNgoqru5_uCecI2VU,1093
+applied_stats-1.0.0.dist-info/METADATA,sha256=g9otEXVWBou3cznCU90Zb2_d2jb3E3bCzxouUe3AFP8,3738
+applied_stats-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+applied_stats-1.0.0.dist-info/top_level.txt,sha256=SPoP5i8eERYVznzghdjP3tD8UTln6jaJ-EnwQqFo3fI,14
+applied_stats-1.0.0.dist-info/RECORD,,
