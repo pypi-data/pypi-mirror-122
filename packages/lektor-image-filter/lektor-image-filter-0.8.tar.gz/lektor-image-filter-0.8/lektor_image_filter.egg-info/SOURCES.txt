@@ -1,0 +1,9 @@
+LICENCE
+README.md
+lektor_image_filter.py
+setup.py
+lektor_image_filter.egg-info/PKG-INFO
+lektor_image_filter.egg-info/SOURCES.txt
+lektor_image_filter.egg-info/dependency_links.txt
+lektor_image_filter.egg-info/entry_points.txt
+lektor_image_filter.egg-info/top_level.txt
