@@ -1,0 +1,4 @@
+[console_scripts]
+traceableai-install = traceableai.autoinstrumentation.download:install_lib_traceable
+traceableai-instrument = traceableai.autoinstrumentation.wrapper:run
+
