@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: numpydoc-lint
+Version: 0.0.3
+Summary: Run numpydoc.validate on all docstrings in a package.
+Home-page: UNKNOWN
+Author: Bruno Beltran <brunobeltran0@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+
