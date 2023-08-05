@@ -1,0 +1,3 @@
+[console_scripts]
+tubetone = tubetone.__main__:main
+
