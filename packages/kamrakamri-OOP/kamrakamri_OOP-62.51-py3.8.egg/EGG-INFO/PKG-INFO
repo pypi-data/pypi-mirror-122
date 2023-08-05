@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: kamrakamri-OOP
+Version: 62.51
+Summary: A text-based adventure game using OOP
+Home-page: UNKNOWN
+Author: Raz Raza
+Author-email: abcrazzak20@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
