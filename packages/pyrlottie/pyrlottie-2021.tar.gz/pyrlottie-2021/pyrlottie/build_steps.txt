@@ -1,0 +1,30 @@
+
+Linux
+
+Requirements:
+x86_64 GNU/Linux eg WSL Ubuntu
+cmake
+gcc
+g++
+
+CMD
+```
+cmake -Bbuild_linux
+cmake --build build_linux
+-> build_linux/example/lottie2gif
+```
+
+Windows
+
+Requirements
+Windows operating system
+Visual Studio 16 2019
+cmake
+
+CMD
+```
+cmake -Bbuild_windows
+cmake --build build_windows
+-> build_windows\Debug\rlottie.dll
+-> build_windows\example\Debug\lottie2gif.exe
+```
