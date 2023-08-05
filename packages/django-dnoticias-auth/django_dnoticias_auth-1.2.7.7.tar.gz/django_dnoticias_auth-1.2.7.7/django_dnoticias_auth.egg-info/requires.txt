@@ -1,0 +1,4 @@
+django
+requests
+mozilla_django_oidc
+django-dnoticias-services
