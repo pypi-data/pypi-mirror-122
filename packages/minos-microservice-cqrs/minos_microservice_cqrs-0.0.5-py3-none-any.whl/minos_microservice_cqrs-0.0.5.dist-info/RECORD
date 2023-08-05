@@ -1,0 +1,11 @@
+AUTHORS.md,sha256=frwXBfZsyQZ8-khR_hKY9LSogglUndPy94fVFl4A_9g,294
+HISTORY.md,sha256=2abYe7UjhOB1DS78lb0_PuESdxHfWFT-zwlxnVd7EuY,874
+LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos/cqrs/__init__.py,sha256=2nsCJ3fOfulSDj4MRhz9aBx0wlwQh3aXbHiFgOeMpfE,375
+minos/cqrs/exceptions.py,sha256=btOcjnKd3aSNOIErhMlJcq3avCt6Om8KQ28ZzFFA6gA,589
+minos/cqrs/handlers.py,sha256=IJxePh_gluvJ9VdPQ-UwZ5NE0ZUQioTxSvPLx4cqXyc,3402
+minos/cqrs/services.py,sha256=WjFYwac3J3Nl8tmnPRvvYiny0OcIJYDRny6nC9DqcXU,4694
+minos_microservice_cqrs-0.0.5.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_microservice_cqrs-0.0.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+minos_microservice_cqrs-0.0.5.dist-info/METADATA,sha256=Qut8yrCoa8i4Q8vNsa9Uz54TZhZIFPGtTyG4DWlavzY,3471
+minos_microservice_cqrs-0.0.5.dist-info/RECORD,,
