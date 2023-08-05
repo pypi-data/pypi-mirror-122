@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: reducto
+Version: 1.0.3
+Summary: Python source code stats in a command. 
+Home-page: https://github.com/plaguss/reducto
+Author: Agustín Piqueres
+Author-email: agustin.piqueres@gmail.com
