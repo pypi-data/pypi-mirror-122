@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: repmsa
+Version: 0.1.6
+Summary: Finding the representetive seq in MSA
+Home-page: UNKNOWN
+Author: Muhammet Celik
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+## Table of Contents
+- [What is repmsa?](#what-is-repmsa)
+- [Installation](#installation)
+- [Usage](#usage)
+
+## What is repmsa?
+
+Creating a percentage identity matrix from a multiple sequence alignment and then ranking them to select the best sequence representetive
+in the Multiple Sequence Alignment. repmsa ranks the sequences based on highest identity.
+
+## Installation
+
+`pip install repmsa`
+
+## Usage
+```python
+from repmsa import RankMatrix
+var = RankMatrix(msa_file)
+print(var.dm) #prints the distance matrix
+df #prints the distance matrix in data frame.
+var.id_iter #is the iterator from highest ranked to lowest rank.
+var.ranked #returns the ranked list in a listed tuple.
+var.topids() # returns the id of the highest ranked sequence, each time its called it moves the next highest one.
+var.seq_by_id('QIQ56215.1') # returns the sequence by the id that is provided.
+```
+
+
