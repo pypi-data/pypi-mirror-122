@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+eoepca_uma/__init__.py
+eoepca_uma/client.py
+eoepca_uma/main.py
+eoepca_uma/resource.py
+eoepca_uma/rpt.py
+eoepca_uma/utils.py
+eoepca_uma.egg-info/PKG-INFO
+eoepca_uma.egg-info/SOURCES.txt
+eoepca_uma.egg-info/dependency_links.txt
+eoepca_uma.egg-info/top_level.txt
+eoepca_uma/tests/__init__.py
+eoepca_uma/tests/rpt_test.py
