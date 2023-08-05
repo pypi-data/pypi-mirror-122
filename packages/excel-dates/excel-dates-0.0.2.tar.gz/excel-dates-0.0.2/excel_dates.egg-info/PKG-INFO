@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: excel-dates
+Version: 0.0.2
+Summary: Convert excel dates to datetime in Python
+Home-page: https://github.com/AutoActuary/excel-dates
+Author: Bart-Jan Hulsman
+Author-email: hulsmanbj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# excel-dates
+Convert excel dates to datetime in Python
+
+
