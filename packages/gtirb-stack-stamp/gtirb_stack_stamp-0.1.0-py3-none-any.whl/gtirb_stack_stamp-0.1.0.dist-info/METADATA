@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: gtirb-stack-stamp
+Version: 0.1.0
+Summary: Apply a stack-stamp transform to GTIRB
+Home-page: UNKNOWN
+Author: Grammatech
+Author-email: gtirb@grammatech.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: gtirb
+Requires-Dist: gtirb-rewriting
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+

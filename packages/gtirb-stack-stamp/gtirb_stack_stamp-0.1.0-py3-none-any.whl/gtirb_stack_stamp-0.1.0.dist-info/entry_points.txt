@@ -1,0 +1,3 @@
+[console_scripts]
+gtirb-stack-stamp = gtirb_stack_stamp.__main__:main
+
