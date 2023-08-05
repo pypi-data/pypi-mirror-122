@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: objectionloltotxt
+Version: 0.2.3
+Summary: Converts .objection files to readable Txt
+Home-page: https://github.com/Erdal-oz/objectiontotxt
+Author: Plright
+Author-email: plright1@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Erdal-oz/objectiontotxt/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# objectiontotxt
+A really really simple script to convert objection files from https://objection.lol/ to readable txt files.
+
+I am not experienced with creating projects or programming stuff for public use so if there are any problems i would appreciate feedback.
+
+
+
