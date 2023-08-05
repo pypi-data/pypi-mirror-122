@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: goap
+Version: 0.3.0
+Summary: Goal Oriented Action Planning alghorithm implementation in Python
+Author: Leonardo Pepe de Freitas
+Author-email: lpepefreitas@gmail.com
+Requires-Python: >=3.8.5,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: Automat (==0.8.0)
+Requires-Dist: networkx (==2.3)
+Requires-Dist: typing (>=3.7.4,<4.0.0)
