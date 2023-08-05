@@ -1,0 +1,177 @@
+Metadata-Version: 2.1
+Name: mlem
+Version: 0.1.0
+Summary: MLEM Prototype deployment tool
+Home-page: http://mlem.ai
+Author: Mikhail Sveshnikov
+Author-email: mike0sv@iterative.ai
+License: Apache License 2.0
+Download-URL: https://github.com/iterative/mlem
+Keywords: data-science data-version-control machine-learning git mlops developer-tools reproducibility collaboration ai
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: dill
+Requires-Dist: requests
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: docker
+Requires-Dist: pydantic (<2)
+Requires-Dist: click (<9)
+Requires-Dist: aiohttp (<4)
+Requires-Dist: aiohttp-swagger (<2)
+Requires-Dist: Jinja2 (<3)
+Requires-Dist: fsspec (>=2021.7.0)
+Requires-Dist: fusepy
+Requires-Dist: cached-property
+Requires-Dist: entrypoints
+Provides-Extra: all
+Requires-Dist: dvc (~=2.0) ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: lxml ; extra == 'all'
+Requires-Dist: openpyxl ; extra == 'all'
+Requires-Dist: xlrd ; extra == 'all'
+Requires-Dist: tables ; extra == 'all'
+Requires-Dist: pyarrow ; extra == 'all'
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: sqlalchemy ; extra == 'all'
+Requires-Dist: psycopg2-binary ; extra == 'all'
+Requires-Dist: scipy ; extra == 'all'
+Requires-Dist: scikit-learn ; extra == 'all'
+Requires-Dist: tensorflow ; extra == 'all'
+Requires-Dist: catboost ; extra == 'all'
+Requires-Dist: xgboost ; extra == 'all'
+Requires-Dist: lightgbm ; extra == 'all'
+Requires-Dist: uvicorn ; extra == 'all'
+Requires-Dist: fastapi ; extra == 'all'
+Requires-Dist: boto3 ; extra == 'all'
+Requires-Dist: sagemaker ; extra == 'all'
+Provides-Extra: catboost
+Requires-Dist: catboost ; extra == 'catboost'
+Provides-Extra: dvc
+Requires-Dist: dvc (~=2.0) ; extra == 'dvc'
+Provides-Extra: fastapi
+Requires-Dist: uvicorn ; extra == 'fastapi'
+Requires-Dist: fastapi ; extra == 'fastapi'
+Provides-Extra: lightgbm
+Requires-Dist: lightgbm ; extra == 'lightgbm'
+Provides-Extra: numpy
+Requires-Dist: numpy ; extra == 'numpy'
+Provides-Extra: pandas
+Requires-Dist: pandas ; extra == 'pandas'
+Requires-Dist: lxml ; extra == 'pandas'
+Requires-Dist: openpyxl ; extra == 'pandas'
+Requires-Dist: xlrd ; extra == 'pandas'
+Requires-Dist: tables ; extra == 'pandas'
+Requires-Dist: pyarrow ; extra == 'pandas'
+Provides-Extra: sagemaker
+Requires-Dist: boto3 ; extra == 'sagemaker'
+Requires-Dist: sagemaker ; extra == 'sagemaker'
+Provides-Extra: sklearn
+Requires-Dist: scipy ; extra == 'sklearn'
+Requires-Dist: scikit-learn ; extra == 'sklearn'
+Provides-Extra: sql
+Requires-Dist: sqlalchemy ; extra == 'sql'
+Requires-Dist: psycopg2-binary ; extra == 'sql'
+Provides-Extra: tensoflow
+Requires-Dist: tensorflow ; extra == 'tensoflow'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pylint-pytest ; extra == 'tests'
+Requires-Dist: pylint-plugin-utils ; extra == 'tests'
+Requires-Dist: pytest-lazy-fixture (==0.6.3) ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Requires-Dist: dvc (~=2.0) ; extra == 'tests'
+Requires-Dist: pandas ; extra == 'tests'
+Requires-Dist: lxml ; extra == 'tests'
+Requires-Dist: openpyxl ; extra == 'tests'
+Requires-Dist: xlrd ; extra == 'tests'
+Requires-Dist: tables ; extra == 'tests'
+Requires-Dist: pyarrow ; extra == 'tests'
+Requires-Dist: numpy ; extra == 'tests'
+Requires-Dist: sqlalchemy ; extra == 'tests'
+Requires-Dist: psycopg2-binary ; extra == 'tests'
+Requires-Dist: scipy ; extra == 'tests'
+Requires-Dist: scikit-learn ; extra == 'tests'
+Requires-Dist: tensorflow ; extra == 'tests'
+Requires-Dist: catboost ; extra == 'tests'
+Requires-Dist: xgboost ; extra == 'tests'
+Requires-Dist: lightgbm ; extra == 'tests'
+Requires-Dist: uvicorn ; extra == 'tests'
+Requires-Dist: fastapi ; extra == 'tests'
+Requires-Dist: boto3 ; extra == 'tests'
+Requires-Dist: sagemaker ; extra == 'tests'
+Provides-Extra: xgboost
+Requires-Dist: xgboost ; extra == 'xgboost'
+
+# mlem-prototype
+Project to share code ideas and concepts, track tasks and issues for upcoming MLEM tool
+
+## Examples
+[DVC Pipeline with mlem](examples/dvc-pipeline/README.md)
+
+## Current state
+Implemented mlem cli & api
+
+### API
+#### mlem.api.save
+Saves object to fs in format of `<name>.mlem` file and `<name>` dir with artifacts. .mlem file contains all metadata needed to restore objects and some other fields, like requirements for models or columns and types for data frames
+#### mlem.api.load
+Loads object which was saved with `mlem.api.save`
+### CLI
+#### mlem apply
+Usage: `mlem apply -m <method name> <model> <output> <inputs>`
+Loads model and input data, applies `model.method` to it and saves result to output path in mlem format.
+
+#### mlem deploy
+##### mlem deploy `<model>` heroku
+Deploys model to heroku. Needs HEROKU_API_KEY env (get it from heroku.com) and
+and also this
+```
+REGISTRY_HEROKU_COM_PASSWORD=${HEROKU_API_KEY}
+REGISTRY_HEROKU_COM_USERNAME=_
+```
+Deployment metadata is written to .mlem model file (subject to change in future)
+
+##### mlem deploy `<model>` sagemaker --method predict
+Deploys model to sagemaker. Need to set aws envs:
+```
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export AWS_DEFAULT_REGION=us-east-1
+```
+
+##### mlem deploy `<model>` status
+Checks status of deployment. For now there is no conventions what it will return
+
+##### mlem deploy `<model>` destroy
+Undeploy deployed model. Deployment meta is removed from .mlem file
+
+#### mlem apply-remote
+Same as `mlem apply`, but actually sends data to deployed model
+
+#### mlem pack `<model>` `<path>`
+Generate model package to `<path>`
+
+
+### API2
+#### mlem env create `<name>` `<type>`
+creates new target environment
+type is one of `[sagemaker, heroku]`
+
+#### mlem deploy2 `<model>` `<env_name>`
+deploys model to chosen taget env
+deploy metadata is saved to `<model>-<env_name>.deployed.yaml`
+
+#### mlem destory2 `<deploy-name>`
+destroy deploy described in some `<model>-<env_name>.deployed.yaml` file
+
+#### mlem status2 `<deploy-name>`
+get deployment status
+
+
