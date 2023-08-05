@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+metriql2metabase/__init__.py
+metriql2metabase/dbt_metabase.py
+metriql2metabase/metabase.py
+metriql2metabase/metadata.py
+metriql2metabase/bin/metriql-metabase
+metriql2metabase/models/__init__.py
+metriql2metabase/models/metabase.py
+metriql_metabase.egg-info/PKG-INFO
+metriql_metabase.egg-info/SOURCES.txt
+metriql_metabase.egg-info/dependency_links.txt
+metriql_metabase.egg-info/requires.txt
+metriql_metabase.egg-info/top_level.txt
