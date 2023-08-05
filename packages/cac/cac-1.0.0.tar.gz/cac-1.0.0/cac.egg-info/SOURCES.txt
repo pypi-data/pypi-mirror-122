@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cac/__init__.py
+cac.egg-info/PKG-INFO
+cac.egg-info/SOURCES.txt
+cac.egg-info/dependency_links.txt
+cac.egg-info/requires.txt
+cac.egg-info/top_level.txt
+cac/gradskip/__init__.py
+cac/gradskip/cac_sgd.py
+cac/pruning/__init__.py
+cac/pruning/auto_prune.py
+cac/relaxed_sync/__init__.py
+cac/relaxed_sync/relaxed_sync.py
