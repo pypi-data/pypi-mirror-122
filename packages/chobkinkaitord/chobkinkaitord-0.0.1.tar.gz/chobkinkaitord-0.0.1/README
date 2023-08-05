@@ -1,0 +1,33 @@
+# kaitord Library (chobkinkaitord)
+
+สวัสดีผู้อ่าน วนัสนันท์ นศ.จากมหาวิทยาลัยเทคโนโลยีมหานคร
+ไลบรารี่นี้ใช้สำหรับฝึกสร้างไลบรารี่เป็นของตัวเอง ไม่ได้แสวงหาผลกำไรแต่อย่างใด ฟังก์ชันมีดังนี้
+  - แสดงยอดเงินคงเหลือ
+  - ฝากเงิน
+  - ถอนเงิน
+
+
+### วิธีติดตั้งแสนง่าย
+
+เราจะติดตั้ง Library ผ่าน pip ของ python ได้เลย
+* SUPPORT PYTHON V3
+
+```sh
+python3 -m pip install chobkinkaitord
+```
+
+วิธีการใช้
+- เปิด Python แล้วพิพม์ตามนี้เลย
+
+```sh
+from chobkinkaitord import BankOnline
+
+# เปิดบัญชี
+myaccount = BankOnline("wanussanun")
+# แสดงยอดเงินคงเหลือ
+myaccount.check_money()
+# ฝากเงิน
+myaccount.deposit(100)
+# ถอนเงิน
+myaccount.withdraw(50)
+```
