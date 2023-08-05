@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: s3url2uri
+Version: 0.0.1
+Summary: S3 convert object url to S3 uri
+Home-page: UNKNOWN
+Author: myselfdesai (Amar Desai)
+Author-email: <amardesai.bgm@gmail.com>
+License: UNKNOWN
+Keywords: python,s3,aws,s3 uri to url,uri to url,uri2url
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
