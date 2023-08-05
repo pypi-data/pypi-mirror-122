@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: storm.scheduler
+Version: 0.1.1
+Summary: Simple task scheduling library.
+Home-page: UNKNOWN
+Author: Erik Olof Gunnar Andersson
+Author-email: me@eandersson.net
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Storm.Scheduler
+===============
+A simple task scheduling library.
+
+.. code-block:: shell
+
+    pip install storm.scheduler
+
+Example usage
+-------------
+A simple example would look something like this.
+
+.. code:: python
+
+    import storm_scheduler
+
+    schedule = storm_scheduler.Scheduler()
+    schedule.task(hello_world).every(3)
+    schedule.task(my_function).every(5, 'minutes')
+    schedule.loop()
+
+
