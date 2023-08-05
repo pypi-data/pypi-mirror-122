@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: torchps
+Version: 1.0.1
+Summary: Phase Space Sampling with PyTorch
+Home-page: https://github.com/NGoetz/TorchPS
+Author: Niklas Götz
+Author-email: goetz.niklas@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/NGoetz/TorchPS/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (==1.6)
+Requires-Dist: numpy (==1.19.1)
+Requires-Dist: python-dateutil
+
+# TorchPS
+A phase-space generator based on "RAMBO on diet" for PyTorch
+
+This is a PyTorch implementation of "RAMBO on diet" (arXiv:1308.2922) providing all the necessary functionalites for phase space sampling. 
+It maps the unit-hypercube into the final state particle phase space and can be used to integrate matrix elements with a 
+unit hypercube phase space generator.
+
+
