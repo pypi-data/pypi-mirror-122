@@ -1,0 +1,7 @@
+swolfpy_inputdata
+swolfpy_processmodels
+brightway2==2.3
+PySide2
+plotly
+graphviz
+pyDOE
