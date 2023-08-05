@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pandas-ods-reader
+Version: 0.1.0
+Summary: Read in an ODS file and return it as a pandas.DataFrame
+Home-page: https://github.com/iuvbio/pandas_ods_reader
+Author: iuvbio
+Author-email: cryptodemigod@protonmail.com
+License: MIT
+Description: pandas_ods_reader
+        ===
+        
+        Provides a function to read in a **.ods** or **.fods** file and returns a pandas DataFrame.
+        
+        It uses `ezodf` to read in **.ods** files. Since **.fods** files are essentially xml, `lxml` is used to read them. The correct parser is automatically chosen based on the file's extension.
+        
+        If a range is specified in the sheet to be imported, it seems that `ezodf` imports empty cells as well. Therefore, completely empty rows and columns are dropped from the DataFrame, before it is returned. Only trailing empty rows and columns are dropped.
+        
+        If the ODS file contains duplicated column names, they will be numbered and the number is appended to the column name in the resulting DataFrame.
+        
+        Dependencies
+        ---
+        
+        -   `ezodf`
+        -   `lxml`
+        -   `pandas`
+        
+        Installation
+        ---
+        
+        `pip install pandas_ods_reader`
+        
+        Usage
+        ---
+        
+        ```Python
+        from pandas_ods_reader import read_ods
+        
+        path = "path/to/file.ods"
+        
+        # by default the first sheet is imported
+        df = read_ods(path)
+        
+        # load a sheet based on its index (1 based)
+        sheet_idx = 2
+        df = read_ods(path, sheet_idx)
+        
+        # load a sheet based on its name
+        sheet_name = "sheet1"
+        df = read_ods(path, sheet_name)
+        
+        # load a file that does not contain a header row
+        # if no columns are provided, they will be numbered
+        df = read_ods(path, 1, headers=False)
+        
+        # load a file and provide custom column names
+        # if headers is True (the default), the header row will be overwritten
+        df = read_ods(path, 1, columns=["A", "B", "C"])
+        ```
+        
+        MIT License
+        
+        Copyright (c) 2019 iuvbio
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: data,io,pandas,ods
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Provides-Extra: test

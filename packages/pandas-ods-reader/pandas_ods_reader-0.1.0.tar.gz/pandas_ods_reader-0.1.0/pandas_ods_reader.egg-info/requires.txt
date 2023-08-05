@@ -1,0 +1,6 @@
+ezodf
+lxml
+pandas
+
+[test]
+pytest
