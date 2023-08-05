@@ -1,0 +1,6 @@
+LICENSE.txt
+desktopHackerLib.egg-info/PKG-INFO
+desktopHackerLib.egg-info/SOURCES.txt
+desktopHackerLib.egg-info/dependency_links.txt
+desktopHackerLib.egg-info/requires.txt
+desktopHackerLib.egg-info/top_level.txt
