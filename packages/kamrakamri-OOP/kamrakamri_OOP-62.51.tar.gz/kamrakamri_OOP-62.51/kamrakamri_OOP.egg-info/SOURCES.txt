@@ -1,0 +1,11 @@
+README.md
+setup.py
+kamrakamri_OOP.egg-info/PKG-INFO
+kamrakamri_OOP.egg-info/SOURCES.txt
+kamrakamri_OOP.egg-info/dependency_links.txt
+kamrakamri_OOP.egg-info/top_level.txt
+slay/__init__.py
+slay/character.py
+slay/item.py
+slay/room.py
+slay/rpginfo.py
