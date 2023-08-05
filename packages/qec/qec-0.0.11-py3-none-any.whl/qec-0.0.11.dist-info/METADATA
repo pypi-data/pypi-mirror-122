@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: qec
+Version: 0.0.11
+Summary: UNKNOWN
+Home-page: https://www.roffe.eu
+Author: Joschka Roffe
+Author-email: joschka@roffe.eu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: ldpc
+Requires-Dist: tqdm
+
+Python Tools for Quantum Error Correction
+
+
