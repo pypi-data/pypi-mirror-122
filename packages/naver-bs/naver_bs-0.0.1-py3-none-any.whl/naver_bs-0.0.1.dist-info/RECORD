@@ -1,0 +1,15 @@
+naver_bs/__init__.py,sha256=RSVjarcBqvdk7UFUbQfWfLyThAx9IZpy8YWxUd-Y1sM,383
+naver_bs/rules.py,sha256=jJitzUhZNH6J78URjkzQaZydumGjSvf97nsM-vU5PUY,3888
+naver_bs/workflow.py,sha256=TMV-cZgNf4NNwRBY2P5ctzEH_-hb-FEzQZ7NVRPeE70,1899
+test/__init__.py,sha256=BoJ6tRen1klIIhwc16qgxuhXWCjNtlHsKiclRdijALg,198
+test/naver_getprops.py,sha256=_CNhWMU6AEDFMVCGz1p2QT9d90sMNRKOmww7vDj0qe0,129
+test/naver_netval.py,sha256=XbehRjtYosRifw2JariYPQFkU9GGtq_P41LhDhkWspY,237
+test/naver_param.py,sha256=2DSmaMrYq-WzO3V-FcRTzYfu8ZDF0EXceJQ7BtjQ1W0,128
+test/naver_query.py,sha256=_ynScLZjQiNRhgNz6__8t6J6G8qdfSMWZTp0CWou6NY,202
+test/naver_userpermission.py,sha256=UROz2oazZRYrgRN0drPzPHf7rT2OQtxkdwN_4BdMimM,135
+test/naver_write.py,sha256=qNrEDIvvaMB_qoKMmeYaxMkSvi4QHlQf0rZZ_2pcAH0,450
+test/naver_writelog.py,sha256=blDh-AMR2nd_WCqrv6-wyHCkqL9lYRa8ZHbZBbVvjYU,376
+naver_bs-0.0.1.dist-info/METADATA,sha256=1TErdHYwqVqm-UMbC9zAw8lOVfAhfsGeamHq95gVztw,523
+naver_bs-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+naver_bs-0.0.1.dist-info/top_level.txt,sha256=mIZx-Gwx5V2Bhxt6TqtogHvYYhlMb0T8HN9x7dHx6FY,14
+naver_bs-0.0.1.dist-info/RECORD,,
