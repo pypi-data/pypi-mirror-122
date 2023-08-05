@@ -1,0 +1,7 @@
+orjson-3.6.4.dist-info/METADATA,sha256=sf56uhbLfEyy0efBoylIoj3dgTC3rz4gfB26xVHBROA,48046
+orjson-3.6.4.dist-info/WHEEL,sha256=xM0k3NE3Ab8yRS29pe_KmEeDDyxzgINs2V5jkJjqW4E,104
+orjson/__init__.py,sha256=VaaR45tI5Sv8xBtCjQf9TIx_T3ODG3dbbmzv08ypcSQ,22
+orjson/__init__.pyi,sha256=bHHE3XiAad-2Uf1GvTf95uufz6Mcyu0JSCF39tdZKMM,683
+orjson/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orjson/orjson.cpython-39-darwin.so,sha256=jR1wywUhiNJdxCXCEGNHminFNx7NrA628NpFYpkSQYE,467416
+orjson-3.6.4.dist-info/RECORD,,
