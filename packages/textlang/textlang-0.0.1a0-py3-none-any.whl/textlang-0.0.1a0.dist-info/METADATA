@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: textlang
+Version: 0.0.1a0
+Summary: textlang
+Home-page: https://github.com/JeanMaximilienCadic/textlang
+Author: CADIC Jean-Maximilien
+Author-email: git@cadic.jp
+License: MIT
+Platform: linux_debian_10_x86_64
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Requires-Dist: pycld2
+Requires-Dist: numpy
+
+textlang
+
