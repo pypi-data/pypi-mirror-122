@@ -1,0 +1,3 @@
+[console_scripts]
+pyanchorknit=pyanchorknit.cli.main:app()
+
