@@ -1,0 +1,5 @@
+pytorch==1.7.1
+numpy
+scipy
+pygame==1.9.4
+pytest
