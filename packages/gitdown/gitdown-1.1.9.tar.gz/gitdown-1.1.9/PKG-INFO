@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gitdown
+Version: 1.1.9
+Summary: A tool to download sub-dirs from github.
+Home-page: https://github.com/jmhIcoding/GitDown
+Author: jiangminghao
+Author-email: jiangminghao@iie.ac.cn
+License: UNKNOWN
+Description: 
+        A tool to download sub-dirs from github.
+        
+        For more details, please refer to the homepage: https://github.com/jmhIcoding/GitDown.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
