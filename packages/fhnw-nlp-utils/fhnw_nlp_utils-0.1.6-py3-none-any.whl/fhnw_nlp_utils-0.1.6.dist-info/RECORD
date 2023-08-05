@@ -1,0 +1,15 @@
+fhnw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fhnw/nlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fhnw/nlp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fhnw/nlp/utils/colab.py,sha256=5XiWtCz9R_MTtGC76BJgCNhdJPp2eGNYinv5C5NAK4A,144
+fhnw/nlp/utils/normalize.py,sha256=D4yWKsHVyG9F1X2Ay9B1zMtiQ7HLthAssmA7FExgcv0,6316
+fhnw/nlp/utils/params.py,sha256=THECzoa8PdlyxAT5Q2kJ7VPAy75G0qucotHEh8brh44,31930
+fhnw/nlp/utils/ploting.py,sha256=l4iwwRpXlpjlrwVbbszJZYzFRBJFyVJMGgsX9Us1PYk,9179
+fhnw/nlp/utils/processing.py,sha256=BqxkptFmuyA1Mz7ezjlVntZL0_QB1qE4R0WbWwC9qGM,2621
+fhnw/nlp/utils/storage.py,sha256=5MSYC9fzf9ZD6jXRWhsHvPmsq2vtyLzqHK30Zy0QDwo,4815
+fhnw/nlp/utils/system.py,sha256=1M9hVvT-L-usZoIbg3S26Z5UE-hdZB3zz_vgin02usc,1420
+fhnw/nlp/utils/text.py,sha256=lPBxWUBEPavq18KBb-g6lOfcdZCDWcGiiFGQJg6lkkQ,4796
+fhnw_nlp_utils-0.1.6.dist-info/METADATA,sha256=T4v6GXE_lBxO1J0orUDPrTjHwfFmirKGL880mfsZEsI,1245
+fhnw_nlp_utils-0.1.6.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+fhnw_nlp_utils-0.1.6.dist-info/top_level.txt,sha256=G3JGQX_1iq_fMxU1-sbRHKR8vesyWdKRcLPkdbd66MA,5
+fhnw_nlp_utils-0.1.6.dist-info/RECORD,,
