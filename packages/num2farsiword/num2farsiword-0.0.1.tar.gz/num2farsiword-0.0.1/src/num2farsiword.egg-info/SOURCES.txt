@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/num2farsiword/__init__.py
+src/num2farsiword/num_to_word.py
+src/num2farsiword.egg-info/PKG-INFO
+src/num2farsiword.egg-info/SOURCES.txt
+src/num2farsiword.egg-info/dependency_links.txt
+src/num2farsiword.egg-info/top_level.txt
