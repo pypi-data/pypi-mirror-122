@@ -1,0 +1,9 @@
+livelog/__init__.py,sha256=kAQqKH1jXmuVPEBNQ_HJsjd0QxICFWMy1Lqjm0AZYZw,76
+livelog/__main__.py,sha256=rZXc-IOQg2b_I2RTLuY1BWbG3ixkF-Zcm9ZFdqrk-H0,1315
+livelog/errors.py,sha256=Rp3iaVLJux6_eBfQwnR3IVZbTJPiYQU5GVTBVV3zSgo,1133
+livelog/logger.py,sha256=_WpL8qNdig6bD4WsBjfzNpToY0dYCPbmwaSqs4TZivs,5170
+livelog/reader.py,sha256=hxmXYRS-aMbu79D3zlM_TEYGEcrhRMPiaM9aTYFxXDg,6807
+livelog-0.0.9.dist-info/LICENSE,sha256=ux-WzPT6H9xDaIUDMWixZf4sOImoYbndhb-NfzkR4iU,32498
+livelog-0.0.9.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+livelog-0.0.9.dist-info/METADATA,sha256=UYYoiRR3i6Tfaggfyjsby6o5WqFwAe-j-j1cRV0A51k,1502
+livelog-0.0.9.dist-info/RECORD,,
