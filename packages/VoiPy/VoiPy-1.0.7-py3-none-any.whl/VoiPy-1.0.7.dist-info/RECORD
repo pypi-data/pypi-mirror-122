@@ -1,0 +1,15 @@
+VoiPy/__init__.py,sha256=q8cOQ6r_yNM_3_9QFl3ZH6TCrCi-cMRy6fHF7ACCO2M,219
+VoiPy/helper.py,sha256=hpRCFH-UxbpkpyajIUc3tL2Kkng9MWNko9nbfGnO03w,5633
+VoiPy/rtp.py,sha256=Z8ZsH7t8Wq6ZUi_tjUxLE4YJ9evlZO-XHixK-9ZGK0g,11906
+VoiPy/sip.py,sha256=xe1TUbASJFkc4mV6KGAGkO_x3oetzYvcf0iLKKAhOo0,30552
+VoiPy/sip_message.py,sha256=KJSyDODlZUfjDC5oGVAeAYhH14BNaiFDiby87secf4s,15687
+VoiPy/sip_methods.py,sha256=w1Okp0CXffM1Jg2bYa806E-MMren8MZB-EB5_0rmH9k,29243
+VoiPy/sip_receive.py,sha256=aIwn3IjVmea59wDNAIN92FPXB_OgdK9rqsMfuhfGib4,2671
+VoiPy/sip_template.py,sha256=0h5YFV-GsUvjqlptTU2iaaA5AJkukVfdZbmOV86ypbY,19019
+VoiPy/types.py,sha256=SL4RDyx65egmAe_iGnmFjt2mWVK664qj1B3n74QRcFo,9852
+VoiPy/voip.py,sha256=gERogH1dKL1nmwixo1vlMe2FcBTgkjJoi1pq8KTj5Rg,17128
+VoiPy-1.0.7.dist-info/LICENSE,sha256=RP1lMQkgyeVTQp-Rje12mzVsqiadxnh8z9sEWoHpPKg,35826
+VoiPy-1.0.7.dist-info/METADATA,sha256=tjJt8pYQ3VDPrfuGKdsWq8ZtsxbY61WSBPVQwJaXCGg,668
+VoiPy-1.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+VoiPy-1.0.7.dist-info/top_level.txt,sha256=51fyHJx6xzgymirP4p_ag35iGwBru7ACmP_MXsmlfXU,6
+VoiPy-1.0.7.dist-info/RECORD,,
