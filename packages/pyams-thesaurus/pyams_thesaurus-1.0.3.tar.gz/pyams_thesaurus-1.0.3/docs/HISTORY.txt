@@ -1,0 +1,23 @@
+Changelog
+=========
+
+1.0.3
+-----
+ - updated thesaurus manager attribute name used to display menu in ZMI home page
+
+1.0.2.1
+-------
+ - updated release tag
+
+1.0.2
+-----
+ - updated package description
+ - JS code cleanup
+
+1.0.1
+-----
+ - initialize NLTK library in doctests
+
+1.0.0
+-----
+ - initial release
