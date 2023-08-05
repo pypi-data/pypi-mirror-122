@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: trace_feature
+Version: 0.4
+Summary: A lib to trace bdd features.
+Home-page: https://github.com/vitorbribas/trace_feature
+Author: Rafael Fazzolino
+Author-email: fazzolino29@gmail.com
+License: MIT
+Download-URL: https://github.com/vitorbribas/trace_feature/archive/refs/tags/v_04.tar.gz
+Description: UNKNOWN
+Keywords: BDD,Trace
+Platform: UNKNOWN
