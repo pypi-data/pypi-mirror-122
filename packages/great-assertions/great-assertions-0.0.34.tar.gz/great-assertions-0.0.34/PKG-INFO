@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: great-assertions
+Version: 0.0.34
+Summary: Lightweight assertions inspired by the great-expectations library
+Home-page: UNKNOWN
+Author: Sam Treweek
+Author-email: samtreweek@gmail.com
+License: MIT
+Project-URL: Source code, https://github.com/serialbandicoot/great-assertions
+Project-URL: Issue tracker, https://github.com/serialbandicoot/great-assertions/issues
+Keywords: timezone
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: test
+Provides-Extra: devenv
+License-File: LICENSE
+
+UNKNOWN
+
