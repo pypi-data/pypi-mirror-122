@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: stepizer
+Version: 0.1.2
+Summary: The tool for better organization of the workflow.
+Home-page: https://gitlab.com/mateusz.baran/stepizer
+Author: Mateusz Baran
+Author-email: mateusz.baran.sanok@gmail.com
+Maintainer: Mateusz Baran
+Maintainer-email: mateusz.baran.sanok@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Stepizer
+
+Chain multiple functions or generators into one pipeline.
+
+Basic use case:
+```python
+from stepizer import Step
+
+
+def add_text(string: str) -> str:
+    return 'hello, ' + string + '!'
+
+
+pipeline = Step.chain(
+    add_text,
+    str.upper,
+)
+
+pipeline.run('world')
+# HELLO, WORLD!
+```
+
+
