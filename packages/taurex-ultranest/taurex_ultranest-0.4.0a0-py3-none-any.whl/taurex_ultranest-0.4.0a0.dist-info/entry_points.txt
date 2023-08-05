@@ -1,0 +1,3 @@
+[taurex.plugins]
+ultranest = taurex_ultranest
+
