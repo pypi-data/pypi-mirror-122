@@ -1,0 +1,11 @@
+aiofiles
+audible>=0.5.5
+click
+httpx==0.18.*
+Pillow
+tabulate
+toml
+tqdm
+
+[:platform_system == "Windows"]
+colorama
