@@ -1,0 +1,11 @@
+matplotlib
+numpy
+opencv
+py-opencv
+pyyaml
+scipy
+bbo-ccvtools
+pyqt5
+autograd
+imageio
+bbo-ccvtools
