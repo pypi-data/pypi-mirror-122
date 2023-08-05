@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: shabbat
+Version: 0.1.0
+Summary: Identify whether the current date and time is Saturday or not.
+Home-page: UNKNOWN
+Author: moshe cohen
+Author-email: moshe.cohen99435@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+
+# is shabbat
+
+
+
+## a simple module to save the shabbat in your code!
+
+
+
+
+
+**example of a telegram bot:**
+
+___
+
+```python3
+
+"""
+
+an example of telegram bot that will not work in shabbat!
+
+"""
+
+
+
+from pyrogram import Client, filters, types
+
+from shabbat import Shabbat
+
+
+
+
+
+app = Client("my_account")
+
+s = Shabbat()
+
+
+
+
+
+@app.on_message(filters.incoming)
+
+def shabbat_handler(_, m: types.Message):
+
+    if s.is_shabbat():
+
+        return m.reply_text("Today is Shabbat! send me your messages after that!")
+
+
+
+
+
+app.run()
+
+```
+
+
+
