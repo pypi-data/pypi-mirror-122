@@ -1,0 +1,11 @@
+LICENSE
+NOTICE
+README.md
+setup.cfg
+setup.py
+NEOPRENE/__init__.py
+NEOPRENE.egg-info/PKG-INFO
+NEOPRENE.egg-info/SOURCES.txt
+NEOPRENE.egg-info/dependency_links.txt
+NEOPRENE.egg-info/requires.txt
+NEOPRENE.egg-info/top_level.txt
