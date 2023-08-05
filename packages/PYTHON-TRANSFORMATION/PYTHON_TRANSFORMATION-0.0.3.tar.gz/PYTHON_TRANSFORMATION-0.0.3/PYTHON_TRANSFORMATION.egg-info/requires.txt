@@ -1,0 +1,6 @@
+pandas
+numpy
+hashlib
+num2words
+datetime
+math
