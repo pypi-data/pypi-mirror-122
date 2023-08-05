@@ -1,0 +1,8 @@
+unified_api_log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unified_api_log/gunicorn.py,sha256=1FSr8rYgIovw5YIECNzYjDkICc129XBOZU6-jOX36Hk,2671
+unified_api_log/log.py,sha256=gNoAdKGV5_Ipdzbprj7h8w1GgFmPNtrnwu-R0NsUUcY,2137
+Unified_FastAPI_Gunicorn_Log-0.2.0.dist-info/LICENSE,sha256=zWBaQBylGpEy6X3Ax0-TBQePUCfKhKJFFXJ_oGQ_PfA,1081
+Unified_FastAPI_Gunicorn_Log-0.2.0.dist-info/METADATA,sha256=RK6SNRA1HPlI1vR7yrWziN0zZhAeahDm4llMBTYhs10,1196
+Unified_FastAPI_Gunicorn_Log-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Unified_FastAPI_Gunicorn_Log-0.2.0.dist-info/top_level.txt,sha256=8H1SRtBwG6Bjlt9DCbmL1i-UQjRZcIsWdhA19-OzkpM,16
+Unified_FastAPI_Gunicorn_Log-0.2.0.dist-info/RECORD,,
