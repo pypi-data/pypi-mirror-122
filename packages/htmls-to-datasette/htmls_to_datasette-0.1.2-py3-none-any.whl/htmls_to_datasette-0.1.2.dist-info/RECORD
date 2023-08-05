@@ -1,0 +1,8 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+htmls_to_datasette/__main__.py,sha256=l9bU8YA-DKHGpnbIFasI5YNZwGFMtYjY_znDkj3ajp8,77
+htmls_to_datasette/cli.py,sha256=X-OtralLW00vuPPVRNHIcIGUsYgkL3Sc8aC1z-duMDw,9513
+htmls_to_datasette-0.1.2.dist-info/entry_points.txt,sha256=Z58nQjtD3FqVP-P7O0w2Ui5_OP5ccJfQNdANcF6Usb8,65
+htmls_to_datasette-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+htmls_to_datasette-0.1.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+htmls_to_datasette-0.1.2.dist-info/METADATA,sha256=00zGCCkOe1sCfC9VoPVEOyW5XlUcvlyx3BRvEedjxwk,5536
+htmls_to_datasette-0.1.2.dist-info/RECORD,,
