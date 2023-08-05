@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tap-fabdb
+Version: 0.0.1
+Summary: A Singer tap for extracting data from the FaB DB API, built with the Singer SDK.
+License: MIT
+Author: David Wallace
+Author-email: david.wallace@dutchie.com
+Requires-Python: >=3.6.2,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: singer-sdk (>=0.3.6,<0.4.0)
+Description-Content-Type: text/markdown
+
+<p align="center">
+    <em>tap-fabdb, a Singer tap for extracting data from the <a href="https://fabdb.net/resources/api" target="_blank">FaB DB API</a>.</em>
+</p>
+<p align="center">
+  <a href="https://github.com/dwallace0723/tap-fabdb/actions">
+    <img src="https://github.com/dwallace0723/tap-fabdb/actions/workflows/test.yml/badge.svg"  alt="GitHub Actions" />
+  </a>
+  <a href="https://github.com/dwallace0723/tap-fabdb/actions">
+    <img src="https://github.com/dwallace0723/tap-fabdb/actions/workflows/release.yml/badge.svg"  alt="GitHub Actions" />
+  </a>
+  <a href="https://github.com/dwallace0723/tap-fabdb/actions">
+    <img src="https://github.com/dwallace0723/tap-fabdb/actions/workflows/publish.yml/badge.svg"  alt="GitHub Actions" />
+  </a>
+  <a href="https://codeclimate.com/github/dwallace0723/tap-fabdb/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/875607d70a6dc02a82df/maintainability" />
+  </a>
+  <a href="https://codeclimate.com/github/dwallace0723/tap-fabdb/test_coverage">
+    <img src="https://api.codeclimate.com/v1/badges/875607d70a6dc02a82df/test_coverage" />
+  </a>
+  <a href="https://github.com/psf/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg"  alt="Black" />
+  </a>
+</p>

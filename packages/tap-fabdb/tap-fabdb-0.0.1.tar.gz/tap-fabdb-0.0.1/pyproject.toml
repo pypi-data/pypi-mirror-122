@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "tap-fabdb"
+version = "0.0.1"
+description = "A Singer tap for extracting data from the FaB DB API, built with the Singer SDK."
+authors = ["David Wallace <david.wallace@dutchie.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.10,>=3.6.2"
+singer-sdk = "^0.3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+black = "^21.8b0"
+flake8 = "^3.9.0"
+mypy = "^0.910"
+coverage = {version = "^5.5", extras = ["toml"]}
+pytest-cov = "^2.11.1"
+flake8-black = "^0.2.3"
+isort = "^5.9.3"
+flake8-isort = "^4.0.0"
+flake8-bugbear = "^21.3.2"
+flake8-bandit = "^2.1.2"
+flake8-docstrings = "^1.6.0"
+responses = "^0.13.4"
+types-requests = "^2.25.6"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# CLI declaration
+tap-fabdb = 'tap_fabdb.tap:TapFabDb.cli'
