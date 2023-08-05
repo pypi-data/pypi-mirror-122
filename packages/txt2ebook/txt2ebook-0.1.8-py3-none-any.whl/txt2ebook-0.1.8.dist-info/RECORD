@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=oHM24uMl9-2Ob6jwbSBKiU824UqQmVQfHPo24BcBV80,3653
+LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+txt2ebook/__init__.py,sha256=db8g83MWSDvD2oYaHzbG98Clm4dt4Qqzm5GU9e8QK4o,183
+txt2ebook/txt2ebook.py,sha256=yXtJAeIRWHRLd_Ew-5n7WsPzr3d1cwY0qgAohrh3TE4,13075
+txt2ebook-0.1.8.dist-info/entry_points.txt,sha256=e3yhlijFBC2Z23ismio5RhUg4yoU1BuoHVv4SWmYfbI,54
+txt2ebook-0.1.8.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+txt2ebook-0.1.8.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+txt2ebook-0.1.8.dist-info/METADATA,sha256=zLmG2KHnkwwpU4jc5xe_B6RH3138cm1uXfJzsjSykqs,2888
+txt2ebook-0.1.8.dist-info/RECORD,,
