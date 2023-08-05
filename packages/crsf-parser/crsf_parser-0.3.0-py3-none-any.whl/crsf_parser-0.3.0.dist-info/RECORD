@@ -1,0 +1,9 @@
+LICENSE,sha256=MY2zKWu1Cv6RnoyGTpKC-rqvh__UMMWI_0wrqXslvjU,1072
+crsf_parser/__init__.py,sha256=kvxOGOUShAsfdIXotelKARC1nWY-Y09yPCTwpamT2F0,3002
+crsf_parser/frames.py,sha256=eDaPmzhpKSN6EwVUaO6E1rBF1q0b2Dpys_tPFEtVmVk,1085
+crsf_parser/handling.py,sha256=gByqCPB8jZiUdeK7-j8bF3M2f5aoKa1iW4Z64YymclI,3565
+crsf_parser/payloads.py,sha256=rIDoDgnhAO2uTeHpu8sfJnC_5S7iGHEU4psw6syh2dQ,1597
+crsf_parser-0.3.0.dist-info/LICENSE,sha256=MY2zKWu1Cv6RnoyGTpKC-rqvh__UMMWI_0wrqXslvjU,1072
+crsf_parser-0.3.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+crsf_parser-0.3.0.dist-info/METADATA,sha256=qbckUxOP6lpU1IACaIXq57sn8vElaFSQ-SQjbEe7Imc,721
+crsf_parser-0.3.0.dist-info/RECORD,,
