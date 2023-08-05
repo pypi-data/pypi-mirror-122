@@ -1,0 +1,10 @@
+setup.py
+distributions_ahmed/__init__.py
+distributions_ahmed/binomialdistribution.py
+distributions_ahmed/gaussiandistribution.py
+distributions_ahmed/generaldistribution.py
+distributions_ahmed.egg-info/PKG-INFO
+distributions_ahmed.egg-info/SOURCES.txt
+distributions_ahmed.egg-info/dependency_links.txt
+distributions_ahmed.egg-info/not-zip-safe
+distributions_ahmed.egg-info/top_level.txt
