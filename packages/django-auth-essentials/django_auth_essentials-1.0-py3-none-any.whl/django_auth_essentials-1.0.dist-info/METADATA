@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: django-auth-essentials
+Version: 1.0
+Summary: A Django app that provides authentication, password change, password reset and account verification functionalities.
+Home-page: https://github.com/mah-di
+Author: Iqbal Mahdi
+Author-email: mahdiiqbal37@gmail.com
+License: MIT
+Keywords: django,authentication,email verification,account verification,auth
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Django (>=3.0)
+
+======================
+django-auth-essentials
+======================
+
+"django-auth-essentials" is a Django app that provides all the basic and necessary authentication and account verification functionalities you need for your django project, out of the bat.
+Once successfully integrated to your project, you don't need to worry about register, login/logout, password change/reset functionalities as "django-auth-essentials" takes care of those.
+"django-auth-essentials" also provides email/account verification options to make your life easier.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add ``django_auth_essentials`` to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'django_auth_essentials',
+    ]
+
+2. Include the django_auth_essentials URLconf in your project urls.py like this::
+
+    path('accounts/', include('django_auth_essentials.urls')),
+
+3. Start the development server ``python manage.py runserver``.
+
+4. Visit http://127.0.0.1:8000/accounts/login/ to test it yourself.
+
+Configuration
+-------------
+
+With above steps, you've successfully integrated "django_auth_essentials" to your project.
+But there is more you can do with "django_auth_essentials". It comes with several different configuration options. You can configure it as per your project requirements.
+
+The initial integration already provides register, login/logout and password changing functionalities. Below are some extra and handy configurations for "django_auth_essentials".
+
+User Email Configurations
+-------------------------
+
+``REQUIRE_EMAIL`` determines whether email is required when registering::
+
+    # by default it's set to False (Not required)
+    REQUIRE_EMAIL = True
+
+``UNIQUE_EMAIL`` determines if registering email should be unique or not::
+
+    # by default it's set to False (Not unique)
+    UNIQUE_EMAIL = True
+
+``ALLOW_VERIFICATION`` determines the integration of email verification feature::
+
+    # by default it's set to False (No verification)
+    ALLOW_VERIFICATION = True
+
+NOTE: If you have this setting turned on you don't need to specify ``UNIQUE_EMAIL`` or ``REQUIRE_EMAIL``
+
+Password Reset Configuration
+----------------------------
+
+``ALLOW_PASSWORD_RESET`` determines the integration of password resetting feature::
+
+    # by default it's set to False (Not integrated)
+    ALLOW_PASSWORD_RESET = True
+
+NOTE: For ``ALLOW_VERIFICATION`` and ``ALLOW_PASSWORD_RESET`` settings to work, you need to specify email settings for your project. Verification email and password resetting email will utilize those settings. For example::
+
+    ...
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+    # This Configuration is for gmail
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_USE_TLS = True
+    EMAIL_PORT = 587
+    EMAIL_HOST_USER = 'yourmail@gmail.com'
+    EMAIL_HOST_PASSWORD = 'yourpassword'
+
+Access Restricting Configurations
+---------------------------------
+
+NOTE: If you defined your own access restriction logics, you can avoid these settings completely.
+
+``RESTRICT_UNAUTHENTICATED_USER_ACCESS`` determines if "django_auth_essentials" 's default access restriction for unauthenticated users to regitration, login, password reset and email verification pages only should be implemented::
+
+    # by default set to False (Not implemented)
+    RESTRICT_UNAUTHENTICATED_USER_ACCESS = True
+
+``LOGIN_REQUIRED_EXEMPT_URLS`` a List  | Let's you add custom urls you want to be accessible to the unauthenticated users if you have ``RESTRICT_UNAUTHENTICATED_USER_ACCESS`` turned on::
+    
+    LOGIN_REQUIRED_EXEMPT_URLS = [
+        'allow/path/one/',
+        'allow/path/two/',
+    ]
+
+``UNAUTHENTICATED_SPECIFIC_URLS`` a List | Let's you add custom urls you want to be accessible specificly to the unauthenticated users::
+
+    UNAUTHENTICATED_SPECIFIC_URLS = [
+        'auth-user/not-allowed/one/',
+        'auth-user/not-allowed/two/',
+    ]
+
+NOTE: If you have any dynamic urls you want to include in the ``LOGIN_REQUIRED_EXEMPT_URLS`` and/or ``UNAUTHENTICATED_SPECIFIC_URLS`` configurations, simply specify the url path leading upto the dynamic part. For example if your dynamic url is something like "dynamic/url/<pk>/" all you need to do is add "dynamic/url/" to the desired setting.
+
