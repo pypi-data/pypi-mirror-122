@@ -1,0 +1,3 @@
+[cldfbench.commands]
+idspy = idspy.commands
+

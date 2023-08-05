@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: idspy
+Version: 0.3.0
+Summary: Python library providing shared code for IDS datasets
+Home-page: https://github.com/intercontinental-dictionary-series/idspy
+Author: Robert Forkel and Hans-Jörg Bibiko
+Author-email: dlce.rdm@eva.mpg.de
+License: Apache 2.0
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: clldutils
+Requires-Dist: openpyxl
+Requires-Dist: pybtex
+Requires-Dist: pylexibank (>=2.8.2)
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage (>=4.2) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest (>=5) ; extra == 'test'
+
+# idspy
+
+[![Build Status](https://github.com/intercontinental-dictionary-series/idspy/workflows/tests/badge.svg)](https://github.com/intercontinental-dictionary-series/idspy/actions?query=workflow%3Atests)
+[![codecov](https://codecov.io/gh/intercontinental-dictionary-series/idspy/branch/master/graph/badge.svg)](https://codecov.io/gh/intercontinental-dictionary-series/idspy)
+[![PyPI](https://img.shields.io/pypi/v/idspy.svg)](https://pypi.org/project/idspy)
+
+
