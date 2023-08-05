@@ -1,0 +1,3 @@
+[console_scripts]
+data_toolkit = data_toolkit.__main__:main
+

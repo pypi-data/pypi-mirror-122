@@ -1,0 +1,10 @@
+data_toolkit/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+data_toolkit/mock_dataset.py,sha256=RR17H76E2nGn2ASFTqjH5lTZ1Wezj2VWZ3QrZ3MjLWA,4600
+data_tools/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+data_tools/mock_dataset.py,sha256=RR17H76E2nGn2ASFTqjH5lTZ1Wezj2VWZ3QrZ3MjLWA,4600
+datatoolkit-0.0.1.dist-info/LICENSE,sha256=5gV4RjRFh-IExUFT0tqtOsEGnDomrK7BSTY0TOdnlWQ,1081
+datatoolkit-0.0.1.dist-info/METADATA,sha256=sXne9pdgw3GvKXaIIoKePx0muJEZOlrZOET7aAxgQ9g,566
+datatoolkit-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+datatoolkit-0.0.1.dist-info/entry_points.txt,sha256=M8JtFX3ADrk9XgAec9Dr9_ryVxTdM9J13oIOxkID8tE,61
+datatoolkit-0.0.1.dist-info/top_level.txt,sha256=iqSsSioBZYcXqa_fcW5eSfVQ9b9K1gMmX3VI7tx_l6c,13
+datatoolkit-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datatoolkit
+Version: 0.0.1
+Summary: A Dataset Utilities Library for Pandas
+Home-page: https://github.com/hsteinshiromoto/cartorio
+Author: Humberto STEIN SHIROMOTO
+Author-email: h.stein.shiromoto@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Pandas Multitool
+
+A collection of tools for visualization and data processing for exploratory data analysis.
+
