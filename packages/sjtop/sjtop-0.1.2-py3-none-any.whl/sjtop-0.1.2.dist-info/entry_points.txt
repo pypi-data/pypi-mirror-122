@@ -1,0 +1,3 @@
+[console_scripts]
+sjtop=sjtop.__main__:main
+
