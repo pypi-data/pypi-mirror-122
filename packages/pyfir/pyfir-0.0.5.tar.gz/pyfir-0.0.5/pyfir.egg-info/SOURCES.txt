@@ -1,0 +1,9 @@
+README.md
+setup.py
+fir/__init__.py
+fir/http.py
+fir/wsgi.py
+pyfir.egg-info/PKG-INFO
+pyfir.egg-info/SOURCES.txt
+pyfir.egg-info/dependency_links.txt
+pyfir.egg-info/top_level.txt
