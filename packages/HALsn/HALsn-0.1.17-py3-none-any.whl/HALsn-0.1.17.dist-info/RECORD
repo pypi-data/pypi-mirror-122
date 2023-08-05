@@ -1,0 +1,17 @@
+HALsn/SKU.py,sha256=w8rBiFBk376PnTXLRV7CSXI9fMIRDSI980fhM3if4yM,17458
+HALsn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HALsn/client.py,sha256=-IyLBxPGI0T2mMDMlpf1p8v1KU-FhaPqSPmyMdH1kXs,333
+HALsn/dataSupervisor.py,sha256=KZG6TyXa6PIEeFguxmJs2sTkZupmtJCg9B3jIhHReAY,7650
+HALsn/hardware.py,sha256=oHdTX6Xqa1s04RVQJW_NCNP6jnz9rhNqO9Kbb66aDHc,3655
+HALsn/hardwareMaster.py,sha256=SsAvrkuPrSF3xmtVIUx5nY1yX-Zut6yogaQ_0YH6qt0,5067
+HALsn/scheduler.py,sha256=geKxqQpBcmRAWgYuQACC9bBGQyA64XYS-Dq-Mn_gX1w,6093
+HALsn/serialSupervisor.py,sha256=L1AK_zcrYETL6B6rq-g5QE8Vy3puB3mClCKb80f0RFw,6922
+HALsn/server.py,sha256=Xle54CcVU38cFmJ5tGspnWRsA0iYoq5k1Fuwrk7i9Nc,64
+HALsn/sysLogger.py,sha256=KMfxdhiyeKNtgRTDdceLSne2X660N43fXQJ1THCIqoU,3291
+HALsn/os/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HALsn/os/os_setup.py,sha256=sMtI-bcTM3_mN0jdjuE0l4Hn_0P9g187ABc7BTNtpIA,5257
+HALsn-0.1.17.dist-info/LICENSE,sha256=SpMWUsJzXgFEzEe-gGBKhW1NK_-xVV9yo_Wjcw51dQw,1084
+HALsn-0.1.17.dist-info/METADATA,sha256=mJXdaZsxiY9oxOBTcG_9QLP3DsupL-x535hGYu4qqAE,415
+HALsn-0.1.17.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+HALsn-0.1.17.dist-info/top_level.txt,sha256=UC8BolHwyNyUfoB0T1zuzTv2CX70gl1m6_E6SAQdWNM,6
+HALsn-0.1.17.dist-info/RECORD,,
