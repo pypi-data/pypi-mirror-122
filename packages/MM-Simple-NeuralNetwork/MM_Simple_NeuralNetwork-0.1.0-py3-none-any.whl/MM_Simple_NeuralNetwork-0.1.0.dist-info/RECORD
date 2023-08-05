@@ -1,0 +1,12 @@
+Modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Modules/Network/Layer.py,sha256=CUXydc85p5BLYV0FKTKpzSsAkxEdRNPqIasvaveLFec,1703
+Modules/Network/Network.py,sha256=m3F-qvNsVFQdH4rWPd7GCvl0Zk30Q5ACX-O2HGDRTc0,5149
+Modules/Network/Neuron.py,sha256=40y-FuiSmf6slsvM4G1yZgJK6pdlL1EG-0GMojPr5do,2414
+Modules/Network/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Modules/UI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Modules/UI/Shared/MenuBar.py,sha256=pSnYCIFRoIRDrrFEnEIphhjSI2s0FFv0WMBUk4XZ6OU,415
+Modules/UI/Shared/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MM_Simple_NeuralNetwork-0.1.0.dist-info/METADATA,sha256=yhtCqF05IAhBbjA-G3ST7Ol5KetNODunRw7pH6w8JEI,672
+MM_Simple_NeuralNetwork-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MM_Simple_NeuralNetwork-0.1.0.dist-info/top_level.txt,sha256=h6iW7JznygeX5klov4OtcJXIKhCM_42e8o1o9eku5CU,8
+MM_Simple_NeuralNetwork-0.1.0.dist-info/RECORD,,
