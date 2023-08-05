@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: worker_killer
+Version: 0.1.5
+Summary: Worker killer - library for managing zombie processes
+Home-page: https://bitbucket.fixmost.com/projects/PAYS/repos/celery-worker-killer/
+Author: Aydar Gabdrahmanov
+Author-email: smith@fixmost.com
+License: MIT
+Download-URL: https://bitbucket.fixmost.com/projects/PAYS/repos/celery-worker-killer/browse?at=refs%2Ftags%2F0.1.3
+Description: Worker killer created for deleting stopped selenium processes. Such managing saves memory and speed usage of the system.
+Keywords: Celery-worker,Worker-killer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
