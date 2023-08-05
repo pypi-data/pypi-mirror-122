@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cochar
+Version: 0.1.1
+Summary: Call of Cthulhu character generator
+Home-page: https://github.com/ajwalkiewicz/cochar
+Author: Adam Walkiewicz
+License: GPL 3.0
+Project-URL: Documentation, https://ajwalkiewicz.github.io/cochar/_build/html/index.html
+Description: # README
+        
+        ## Installation
+        
+        ```
+        pip3 install cochar
+        ```
+        
+        ## Usage
+        
+        Example usage
+        
+        ## Example
+        
+        Example 
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
