@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BotUtils
+Version: 2.1.0
+Summary: Personal Utilities for Spaz's bots
+Home-page: UNKNOWN
+Author: Lil_SpazJoekp
+Author-email: lilspazjoekp@gmail.com
+License: Private
+Platform: UNKNOWN
+Provides-Extra: tunnel
+Provides-Extra: sqla
+License-File: LICENSE
+
+UNKNOWN
+
