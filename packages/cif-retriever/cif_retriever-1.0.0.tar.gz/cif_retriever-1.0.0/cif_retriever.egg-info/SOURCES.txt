@@ -1,0 +1,14 @@
+LICENSE
+README.md
+main.py
+setup.py
+cif_retriever.egg-info/PKG-INFO
+cif_retriever.egg-info/SOURCES.txt
+cif_retriever.egg-info/dependency_links.txt
+cif_retriever.egg-info/entry_points.txt
+cif_retriever.egg-info/requires.txt
+cif_retriever.egg-info/top_level.txt
+test/__init__.py
+test/test_retriver.py
+utilities/__init__.py
+utilities/utilities.py

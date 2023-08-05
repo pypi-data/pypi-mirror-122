@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cif_retriever
+Version: 1.0.0
+Summary: CIF file retriever form pymatgen
+Home-page: https://github.com/AlexiLJ/CIFretriver
+Author: O.L.
+Author-email: leiko.oleksandr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CIFretriver
+This python app retrieves data from the Materialproject API 
+===========================================================
+1. Make sure to get MP API KEY: https://materialsproject.org/open;
+2. Install requirements with python -m pip install -r  requirements.txt
+   or look at https://pymatgen.org/installation.html if you have any installation issues or MacOS;
+3. Run main.py module, it will demand the API KEY you've got and then creates config.json file
+   required for API authentification;
+4. Insert "pretty formula" aka "SnO2" or "TiO2", then a query will be got;
+5. You can save the query with the name 'pretty formula'.csv into the 'csv_data_set_for_elements' directory if you chose to,
+   that will be created or updated automatically;
+6. Then you can insert a material_id, this will retrieve you the conventional standard structure .cif file for requested material;
+7. You can also plot material bandstructure; 
+   If you using linux try: sudo apt-get install python3-tk;
+
+
+
