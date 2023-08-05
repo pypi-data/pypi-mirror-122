@@ -1,0 +1,11 @@
+kw6/__init__.py,sha256=Ev38NAUnFrb-y75b83g2lKyjvnJuOWpJ3aiI1CN3RUA,189
+kw6/camera.py,sha256=J6s--jTyGDx1Rb2XYLspbQXmFmV_QHmCpzF9_vSfovU,2302
+kw6/header.py,sha256=aqSwna9uZnqTuaTA9yO5aZxwWJ55YAcpHqNE0ijGUzU,595
+kw6/position.py,sha256=CrrXxl3cFNmoVhXGjzfi_UjmxmGyE_riu9vSWTQMOag,1603
+kw6/reader.py,sha256=7rYrixPDNIRCfB3AXx3ZFZTmD144meK41NbDdjtWNKI,11471
+kw6/settings.py,sha256=YG7wq9aDDUfm-ey8Ce46fldZkYBW7yHkgpfrTzVrbOA,59
+kw6/types.py,sha256=ypIo3dRhtEl-9tAMEdh2XO7gtvJODO2xXjNgy5M1XKM,39
+kw6-0.2.8.dist-info/LICENSE,sha256=XudxEgNioG8Dg7nVU3iAyWJ3RvkdeQdTblakew3WOuA,90835
+kw6-0.2.8.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+kw6-0.2.8.dist-info/METADATA,sha256=vjvCnzRlr_Jhu9JLxx6P79LFXaE49yZG1rMdgX1sL60,501
+kw6-0.2.8.dist-info/RECORD,,
