@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: yats
+Version: 1.0.1
+Summary: A fast lightweight Twitter scraper
+Home-page: https://github.com/GaryOma/yats
+Author: Gary SUBLET
+Author-email: gary.sublet@hotmail.fr
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# YATS - Yet Another Twitter Scraper
+
+YATS is an ultra-fast, login-less, dependency-free Twitter scraper.
+
+# Installation
+
+Run the following command, no dependency needed, only python 3.6+ & an internet connection.
+
+``` 
+pip install yats
+```
+
+# How to use it
+
+YATS will fetch all the tweets from a query, day after day. To get this query, simply go to [Twitter's official search query generator](https://twitter.com/search-advanced), and create your desired query.
+
+You can set the number of parallel threads using the `-t` argument.
+
+# Usage example
+
+## Get all Tweets from [Elon Musk](https://twitter.com/elonmusk) since the beginning, using 50 parallel threads
+
+```
+yats '(from:elonmusk)' -t 50 -v
+```
+
+
