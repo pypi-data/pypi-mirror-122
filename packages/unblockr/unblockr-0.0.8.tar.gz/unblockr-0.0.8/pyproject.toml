@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "unblockr"
+description = "Unblocker"
+authors = ["Bob Brown"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^3.141.0"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "selenium>=3.141.0",
+    "wheel"
+]
+[build-system.dependencies]
+python = "^3.8"
+selenium = "^3.141.0"
+
+build-backend = "setuptools.build_meta"
