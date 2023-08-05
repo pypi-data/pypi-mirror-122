@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+PYTHON_TRANSFORMATION.egg-info/PKG-INFO
+PYTHON_TRANSFORMATION.egg-info/SOURCES.txt
+PYTHON_TRANSFORMATION.egg-info/dependency_links.txt
+PYTHON_TRANSFORMATION.egg-info/requires.txt
+PYTHON_TRANSFORMATION.egg-info/top_level.txt
