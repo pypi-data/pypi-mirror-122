@@ -1,0 +1,7 @@
+include dash_latex/dash_latex.min.js
+include dash_latex/dash_latex.min.js.map
+include dash_latex/metadata.json
+include dash_latex/package-info.json
+include README.md
+include LICENSE
+include package.json

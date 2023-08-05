@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash-latex
+Version: 0.1.0
+Summary: A Dash wrapper around React Latex
+Home-page: UNKNOWN
+Author: Nathan Drezner <nathan@drezner.xyz>
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash
