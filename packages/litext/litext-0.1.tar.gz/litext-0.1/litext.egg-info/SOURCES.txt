@@ -1,0 +1,8 @@
+README.md
+litext.py
+setup.py
+litext.egg-info/PKG-INFO
+litext.egg-info/SOURCES.txt
+litext.egg-info/dependency_links.txt
+litext.egg-info/requires.txt
+litext.egg-info/top_level.txt
