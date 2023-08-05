@@ -1,0 +1,10 @@
+opendota/__init__.py,sha256=4LkrFx5QtIUsxUWvA1mbs03O41RDn6QujqlBe4y_7Ow,246
+opendota/cli.py,sha256=e0omPmE1CurC-WWm7YjWN1Ev29Hq75czfkKLH8SwpIA,551
+opendota/opendota.py,sha256=JmDrfkO4wn4It066W6UnSRwEv42f0Es2wdW64Med_KE,22650
+pyopendota-0.2.0.dist-info/AUTHORS.rst,sha256=oPn2na2vtwDDxf9ue6OF-iGY7SgGg0rx89WZ4W9ubBM,172
+pyopendota-0.2.0.dist-info/LICENSE,sha256=D-xa47bQrEdM7U8FzU6j1RY-ha2-T3hVSgQJSJ05J0w,1079
+pyopendota-0.2.0.dist-info/METADATA,sha256=2wHElinqM6GYQBlczjgx-_krnx8QdepWgkbn2EUBVuM,3807
+pyopendota-0.2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pyopendota-0.2.0.dist-info/entry_points.txt,sha256=Xus78zC9N8Z7CTtsWf5yoizIF6FP7a6-85137Bq9HMY,48
+pyopendota-0.2.0.dist-info/top_level.txt,sha256=qftq_mgDKDS4uml32O1b_WhuK07Fwmv_81DktBBbFuM,9
+pyopendota-0.2.0.dist-info/RECORD,,
