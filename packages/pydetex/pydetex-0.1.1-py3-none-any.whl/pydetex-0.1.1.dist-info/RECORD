@@ -1,0 +1,12 @@
+pydetex/__init__.py,sha256=gS4FADOVBwFadgp7T1gmdg0CdZLkrz5CWEiNRL-t2k8,816
+pydetex/gui.py,sha256=TlMsOUe7nSZlmlZlqTfhM2Grx2VDkOFGquc3qmEqMLY,4539
+pydetex/parsers.py,sha256=qYz_uBk6jhoeoLd8QJMzwjskfh5qu79k-_e4PfcivLU,8291
+pydetex/pipelines.py,sha256=0ITgJmJWt9mCCpJMdPfKW26X10TQJaKjWQPbRaIL6tI,574
+pydetex/version.py,sha256=X_w3f7xkL8jQGcOi8sz2ml2XVQhvWtrOoBDwn0lgtQE,811
+pydetex/res/icon.gif,sha256=fyoHtoD4imQuTxsu0hptZnT_xRWUlzAHbi-ngv5oWDY,13224
+pydetex/res/icon.ico,sha256=EkNniKOcYtOG15b6erwgCPiOrQLWE7BifLYHVXYUnsM,32038
+pydetex-0.1.1.dist-info/LICENSE,sha256=JlCw7T2RNpUl7DTMli5EKEa_xx1od14PH_YUiZ10m2U,1073
+pydetex-0.1.1.dist-info/METADATA,sha256=Lbp-WnDGCsLUtNGL9OpsNobxIQCHs2QRPXSmIqt6bmE,4135
+pydetex-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydetex-0.1.1.dist-info/top_level.txt,sha256=Wq8a0GOFTOacYXTd6dYgCj8JKf3Drbt59hmbegg5g4A,8
+pydetex-0.1.1.dist-info/RECORD,,
