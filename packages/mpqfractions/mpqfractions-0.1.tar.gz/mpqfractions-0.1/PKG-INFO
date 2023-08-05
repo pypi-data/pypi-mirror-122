@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mpqfractions
+Version: 0.1
+Summary: Drop-in replacement for fractions.Fraction, using gmpy
+Home-page: https://github.com/gesellkammer/mpqfractions
+Author: Eduardo Moguillansky
+Author-email: eduardo.moguillansky@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+
+This module provides the number class Rat (for rational), a drop-in replacement for the fractions.Fractions class,
+based on gmpy.mpq
+
+

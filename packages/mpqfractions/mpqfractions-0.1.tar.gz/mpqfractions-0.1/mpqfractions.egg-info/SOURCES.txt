@@ -1,0 +1,7 @@
+README.rst
+mpqfractions.py
+setup.py
+mpqfractions.egg-info/PKG-INFO
+mpqfractions.egg-info/SOURCES.txt
+mpqfractions.egg-info/dependency_links.txt
+mpqfractions.egg-info/top_level.txt
