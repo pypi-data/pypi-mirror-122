@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: oneNeuron-pypi-jhasid
+Version: 0.0.2
+Summary: it's an implementation of Perceptron
+Home-page: https://github.com/jhasid/oneNeuron_pypi
+Author: jhasid
+Author-email: siddharth.jha30@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/{USER_NAME}/{PROJECT_NAME}/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+oneNeuron_pypi
+
+# Reference
+
+[Packaging Reference](https://packaging.python.org/tutorials/packaging-projects/)
+
+[git hub docs for git hub actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registeries)
+
+## How to use
+
+```python
+from oneNeuron.pereceptron import Perceptron  #src file
+
+## get X,Y and then use as below
+model = Perceptron(eta=eta,epochs=epochs)
+model.fit(x,y)
+```
+
+
