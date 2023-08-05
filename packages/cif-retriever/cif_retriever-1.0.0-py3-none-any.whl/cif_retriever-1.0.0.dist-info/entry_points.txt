@@ -1,0 +1,3 @@
+[console_scripts]
+cifr = main:app
+
