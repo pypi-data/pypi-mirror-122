@@ -1,0 +1,3 @@
+[console_scripts]
+f2b = footnotes2biblio.__main__:main
+

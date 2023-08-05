@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/footnotes2biblio/__init__.py
+src/footnotes2biblio/__main__.py
+src/footnotes2biblio/footnote.py
+src/footnotes2biblio/parsers.py
+src/footnotes2biblio.egg-info/PKG-INFO
+src/footnotes2biblio.egg-info/SOURCES.txt
+src/footnotes2biblio.egg-info/dependency_links.txt
+src/footnotes2biblio.egg-info/entry_points.txt
+src/footnotes2biblio.egg-info/requires.txt
+src/footnotes2biblio.egg-info/top_level.txt
