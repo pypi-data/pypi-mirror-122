@@ -1,0 +1,6 @@
+setup.py
+maxez/hello.py
+maxez/maxez.egg-info/PKG-INFO
+maxez/maxez.egg-info/SOURCES.txt
+maxez/maxez.egg-info/dependency_links.txt
+maxez/maxez.egg-info/top_level.txt
