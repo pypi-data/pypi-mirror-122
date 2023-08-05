@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: primetools
+Version: 0.0.2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Rust
+Summary: Prime number tools written in rust.
+Author-email: valkyrie_pilot <valk@randomairborne.dev>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source, https://github.com/randomairborne/primetools
+
+# primetools
+## a prime number toolset for python, written in rust/PyO3
+This project is currently in development.
+To install, run
+```bash
+pip install primetools
+```
+```pycon
+>>> import primetools
+>>> primetools.get_primes_to(10)
+[3, 5, 7]
+>>> primetools.is_prime(42)
+False
+>>> primetools.is_prime(97)
+True
+```
+More functionality coming soon (tm)
+
+
