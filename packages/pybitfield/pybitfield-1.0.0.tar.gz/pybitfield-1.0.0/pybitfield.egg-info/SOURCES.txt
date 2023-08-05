@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+RELEASE_NOTES.md
+setup.py
+docs/ja-jp/README.md
+docs/ja-jp/RELEASE_NOTES.md
+pybitfield/__info__.py
+pybitfield/__init__.py
+pybitfield/bitfield.py
+pybitfield.egg-info/PKG-INFO
+pybitfield.egg-info/SOURCES.txt
+pybitfield.egg-info/dependency_links.txt
+pybitfield.egg-info/not-zip-safe
+pybitfield.egg-info/top_level.txt
