@@ -1,0 +1,10 @@
+setup.py
+probality_dist_valmapaura/Binomialdistribution.py
+probality_dist_valmapaura/Gaussiandistribution.py
+probality_dist_valmapaura/Generaldistribution.py
+probality_dist_valmapaura/__init__.py
+probality_dist_valmapaura.egg-info/PKG-INFO
+probality_dist_valmapaura.egg-info/SOURCES.txt
+probality_dist_valmapaura.egg-info/dependency_links.txt
+probality_dist_valmapaura.egg-info/not-zip-safe
+probality_dist_valmapaura.egg-info/top_level.txt
