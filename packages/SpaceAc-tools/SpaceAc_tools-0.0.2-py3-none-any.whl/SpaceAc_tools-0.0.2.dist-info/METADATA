@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SpaceAc-tools
+Version: 0.0.2
+Summary: A Python wrapper for the Space c Ground station
+Home-page: https://github.com/Retaehc-pop/SpaceAc_tools
+Author: Retaehc_pop
+Author-email: Papop2003@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >3.8.0
+Requires-Dist: PySide6 (==6.1.1)
+Requires-Dist: pyqtgraph (==0.12.1)
+Requires-Dist: PyQt5 (==5.12)
+Requires-Dist: PyQtChart (==5.13.0)
+Requires-Dist: folium (==0.12.1)
+
+#Space AC Tools#
+
+
