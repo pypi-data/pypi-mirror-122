@@ -1,0 +1,8 @@
+setup.py
+mksgrd_sample_package/__init__.py
+mksgrd_sample_package/functions.py
+mksgrd_sample_package.egg-info/PKG-INFO
+mksgrd_sample_package.egg-info/SOURCES.txt
+mksgrd_sample_package.egg-info/dependency_links.txt
+mksgrd_sample_package.egg-info/requires.txt
+mksgrd_sample_package.egg-info/top_level.txt
