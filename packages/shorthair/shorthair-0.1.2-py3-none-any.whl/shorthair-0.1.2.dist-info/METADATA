@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: shorthair
+Version: 0.1.2
+Summary: Shorthair provides a way to access JSON object, it returns None rather than raising KeyError when key does not exist.
+License: MIT
+Author: Aaron Zhang
+Author-email: rabbit.aaron@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
