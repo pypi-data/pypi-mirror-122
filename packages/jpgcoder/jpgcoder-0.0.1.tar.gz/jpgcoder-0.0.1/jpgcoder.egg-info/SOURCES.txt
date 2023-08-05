@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+jpgcoder/__init__.py
+jpgcoder.egg-info/PKG-INFO
+jpgcoder.egg-info/SOURCES.txt
+jpgcoder.egg-info/dependency_links.txt
+jpgcoder.egg-info/top_level.txt
