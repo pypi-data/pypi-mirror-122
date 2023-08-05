@@ -1,0 +1,6 @@
+pika
+setuptools
+stomp.py>=7
+
+[:python_version < "3.7"]
+dataclasses
