@@ -1,0 +1,11 @@
+{
+  "current_build": "7.3",
+  "supported_runtimes": {
+    "7.3": {
+      "url": "https://docs.databricks.com/release-notes/runtime/7.3.html",
+      "python_version": "3.7.5",
+      "release_date": "2020-09-24",
+      "eos_date": "2022-09-24"
+    }
+  }
+}
