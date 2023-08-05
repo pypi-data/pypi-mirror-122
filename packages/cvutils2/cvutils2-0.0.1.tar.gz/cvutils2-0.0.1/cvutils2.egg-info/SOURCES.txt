@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+cvutils/__init__.py
+cvutils/resize_img.py
+cvutils/resnet.py
+cvutils/video2img.py
+cvutils2.egg-info/PKG-INFO
+cvutils2.egg-info/SOURCES.txt
+cvutils2.egg-info/dependency_links.txt
+cvutils2.egg-info/requires.txt
+cvutils2.egg-info/top_level.txt
