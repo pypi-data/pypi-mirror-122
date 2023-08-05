@@ -1,0 +1,11 @@
+excel_dates/__init__.py,sha256=D9MoWCc_4g-jy4wdN3dVa0cdV9K1__QdrgadI6W3XlE,23
+excel_dates/convert.py,sha256=8eUNnYTycPjidaRc28R5PCv0nN77P2Gs-4U49FMnGyE,4021
+excel_dates/version.py,sha256=xLbQKBBOC9bGEPY9Aiawn9-v1vurkPsddqQLibGw2OE,142
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_doctests.py,sha256=FYBTr86GBrC80PQpZpGS5e_wzad2gVUAJVo2xQx9fLw,781
+test/test_excel_dates.py,sha256=BfSyhBJTlLTwtNoi_Gd_2vXh-4RXzJe3ICzLu5hTpuE,314
+excel_dates-0.0.2.dist-info/LICENSE,sha256=pYEgAHkEugtTOuBOQmo3NhNbd0TVr0b2ciMbej18ftw,1069
+excel_dates-0.0.2.dist-info/METADATA,sha256=gFrJNY23RFhGAYAGQHmzvow8-LKOR9V1TUyL1N3s7LY,603
+excel_dates-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+excel_dates-0.0.2.dist-info/top_level.txt,sha256=MjkwzZ5j_MK5K0d0rE_WljWSTzx1sEhhXAOEX38QD00,17
+excel_dates-0.0.2.dist-info/RECORD,,
