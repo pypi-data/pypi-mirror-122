@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+selenium_youtube_chrome/__init__.py
+selenium_youtube_chrome/youtube.py
+selenium_youtube_chrome.egg-info/PKG-INFO
+selenium_youtube_chrome.egg-info/SOURCES.txt
+selenium_youtube_chrome.egg-info/dependency_links.txt
+selenium_youtube_chrome.egg-info/requires.txt
+selenium_youtube_chrome.egg-info/top_level.txt
