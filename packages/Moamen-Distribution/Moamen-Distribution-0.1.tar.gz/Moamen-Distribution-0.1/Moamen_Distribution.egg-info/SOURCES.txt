@@ -1,0 +1,10 @@
+setup.py
+Moamen_Distribution.egg-info/PKG-INFO
+Moamen_Distribution.egg-info/SOURCES.txt
+Moamen_Distribution.egg-info/dependency_links.txt
+Moamen_Distribution.egg-info/not-zip-safe
+Moamen_Distribution.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
