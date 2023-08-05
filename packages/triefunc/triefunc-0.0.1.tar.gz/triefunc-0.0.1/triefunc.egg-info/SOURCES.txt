@@ -1,0 +1,8 @@
+setup.py
+trie/TrieNode.py
+trie/__init__.py
+trie/main.py
+triefunc.egg-info/PKG-INFO
+triefunc.egg-info/SOURCES.txt
+triefunc.egg-info/dependency_links.txt
+triefunc.egg-info/top_level.txt
