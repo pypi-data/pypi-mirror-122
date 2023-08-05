@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: omniblack.setup
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://gitlab.com/terryp/terry/-/tree/next/tooling/setup
+Author: Terry Patterson
+Author-email: Terryp@wegrok.net
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: tomlkit (~=0.7)
+Requires-Dist: python-box (~=5.4)
+Requires-Dist: setuptools (~=58.2)
+
+# Omniblack Setup
+
+Omniblack Setup is a library that gives setuptools [PEP 621] compatibility.
+
+At the moment omniblack.setup does not support all of [PEP 621]
+in particular when there is a string or table option this library only
+supports the table option right now.
+
+## Usage
+
+To use this library call `omniblack.setup:setup` in `setup.py`.
+
+```python
+from omniblack.setup import setup
+
+setup()
+```
+
+
+[PEP 621]:  https://www.python.org/dev/peps/pep-0621/
+
+
