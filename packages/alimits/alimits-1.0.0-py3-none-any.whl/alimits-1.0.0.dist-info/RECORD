@@ -1,0 +1,10 @@
+alimits/__init__.py,sha256=3NSHBh60M7PE-mgt6zuMCgHGfUEg_q5H5qQhrlleJnM,408
+alimits/storage/__init__.py,sha256=X2GvNv3aRf8t-5pLHNVfllXEr1D0bten2FxO9eomtW0,134
+alimits/storage/base.py,sha256=LuVnsVtwPl5NFMrq7D_capH34xO3SjWxVe46kevtAko,2460
+alimits/storage/memory.py,sha256=k2IlCQu3WGq1vy0COQenHUzBKRZuqSs_Nrb1VgIGcKo,4284
+alimits/storage/redis.py,sha256=_Cf8m2qr9FM926l-LQRCb9jVLQTkOidVo9IQBuQ9Igo,5254
+alimits/strategies.py,sha256=807u9ZAR9AILAfOV9OajxfQlP9_Vm7iyfHB-5IDpxgI,3897
+alimits-1.0.0.dist-info/LICENSE,sha256=Ko-aBegFAkCU7GTkPcQcmEyDTXIzDaxBaxFAyiJUl7s,1104
+alimits-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+alimits-1.0.0.dist-info/METADATA,sha256=bJlVxzAc_0MY-mIbWWOL6Ys7ifb1bNRnFWeZ1kcpg70,2921
+alimits-1.0.0.dist-info/RECORD,,
