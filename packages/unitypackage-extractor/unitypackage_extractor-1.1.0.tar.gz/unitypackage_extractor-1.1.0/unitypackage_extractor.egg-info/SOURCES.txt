@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+unitypackage_extractor/__init__.py
+unitypackage_extractor/__main__.py
+unitypackage_extractor/extractor.py
+unitypackage_extractor.egg-info/PKG-INFO
+unitypackage_extractor.egg-info/SOURCES.txt
+unitypackage_extractor.egg-info/dependency_links.txt
+unitypackage_extractor.egg-info/requires.txt
+unitypackage_extractor.egg-info/top_level.txt
