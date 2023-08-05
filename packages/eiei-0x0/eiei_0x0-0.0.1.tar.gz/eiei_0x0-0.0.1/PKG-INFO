@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: eiei_0x0
+Version: 0.0.1
+Summary: Function BankOnline
+Home-page: UNKNOWN
+Author: Sara_ser
+Author-email: 6314120011@mutacth.com
+License: MIT
+Description: Demo Library
+Keywords: eiei_0x0,Sara_ser,NECSINMUT,NECS1201,EIEI_0X0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
