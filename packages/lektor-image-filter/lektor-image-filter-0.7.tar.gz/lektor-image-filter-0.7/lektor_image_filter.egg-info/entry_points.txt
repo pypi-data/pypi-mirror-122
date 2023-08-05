@@ -1,0 +1,3 @@
+[lektor.plugins]
+image-filter = lektor_image_filter:ImageFilterPlugin
+
