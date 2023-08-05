@@ -1,0 +1,3 @@
+[console_scripts]
+rarity-cli = rarity.commands.rarity_cli:main
+
