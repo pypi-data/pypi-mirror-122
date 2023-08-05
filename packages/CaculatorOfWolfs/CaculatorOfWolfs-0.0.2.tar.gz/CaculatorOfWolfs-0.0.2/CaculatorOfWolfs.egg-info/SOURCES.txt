@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+CaculatorOfWolfs.egg-info/PKG-INFO
+CaculatorOfWolfs.egg-info/SOURCES.txt
+CaculatorOfWolfs.egg-info/dependency_links.txt
+CaculatorOfWolfs.egg-info/top_level.txt
+wolfuritest/__init__.py
