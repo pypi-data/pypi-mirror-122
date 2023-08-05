@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sjtop"
+version = "0.1.1"
+homepage = "https://github.com/yvictor/sjtop"
+description = "Terminal User Interface for Shioaji"
+authors = ["Yvictor <yvictor3141@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+sjtop = 'sjtop.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+textual = "^0.1.12"
+shioaji = "^0.3.3-alpha.3"
+pandas = ">=0.24.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.9b0"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

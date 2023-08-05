@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: sjtop
+Version: 0.1.1
+Summary: Terminal User Interface for Shioaji
+Home-page: https://github.com/yvictor/sjtop
+License: MIT
+Author: Yvictor
+Author-email: yvictor3141@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=0.24.1)
+Requires-Dist: shioaji (>=0.3.3-alpha.3,<0.4.0)
+Requires-Dist: textual (>=0.1.12,<0.2.0)
+Description-Content-Type: text/markdown
+
+# sjtop (WIP)
+
+sjtop is a TUI (Terminal User Interface) for Shioaji using Textual to develop.
+
+NOTE: This project is currently a work in progress
+
+### Installation
+```
+pip install sjtop
+```
+
+### Usage
+```
+sjtop
+```
+
+### Preview
+
+![screenshot](./imgs/sjtop.gif)
