@@ -1,0 +1,32 @@
+[project]
+name='omniblack.setup'
+version='0.0.1'
+description='PEP 621 support for setuptools'
+readme='./README.md'
+dependencies = [
+    'tomlkit ~= 0.7',
+    'python-box ~= 5.4',
+    'setuptools ~= 58.2',
+]
+
+[project.optional-dependencies]
+rich = ['rich ~= 10.11']
+
+[project.license]
+id = "Apache-2.0"
+file = "LICENSE.txt"
+
+[[project.authors]]
+name = "Terry Patterson"
+email = "Terryp@wegrok.net"
+[project.urls]
+homepage = "https://gitlab.com/terryp/terry/-/tree/next/tooling/setup"
+[build-system]
+requires = [
+    "python-box ~= 5.4",
+    "rich ~= 10.11",
+    "setuptools ~= 58.2",
+    "tomlkit ~= 0.7",
+]
+build-backend = "setuptools.build_meta"
+

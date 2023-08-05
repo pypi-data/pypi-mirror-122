@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+omniblack.setup.egg-info/PKG-INFO
+omniblack.setup.egg-info/SOURCES.txt
+omniblack.setup.egg-info/dependency_links.txt
+omniblack.setup.egg-info/requires.txt
+omniblack.setup.egg-info/top_level.txt
+omniblack.setup.egg-info/zip-safe
+omniblack/setup/__init__.py
