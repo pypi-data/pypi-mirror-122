@@ -1,0 +1,7 @@
+PyYAML~=5.4.1
+Flask~=2.0.1
+
+[dev]
+pylint~=2.10.2
+black~=21.8b0
+pytest~=6.2.5
