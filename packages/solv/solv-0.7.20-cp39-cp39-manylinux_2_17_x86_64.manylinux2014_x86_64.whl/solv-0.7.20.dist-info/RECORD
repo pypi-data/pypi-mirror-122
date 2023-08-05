@@ -1,0 +1,11 @@
+solv.libs/libxml2-01386072.so.2.9.1,sha256=vtIKePigcrUy_2R__Q-8r2cvfSo3qGqazR57X7JHQbo,1642952
+solv.libs/libz-745e0a09.so.1.2.7,sha256=qQL6_XYFNzGpn7FbxE6MCwxM96dzN4Ik8FXfgl_vPR8,96272
+solv.libs/liblzma-07b5b5c8.so.5.2.2,sha256=jbT30ebhJOCsHMXsU4AMu2mAe0U17dckTo2R6ESAy4E,163472
+solv-0.7.20.dist-info/WHEEL,sha256=WFXPCOI-ThRoH7E2CwDLOlUPkbmQtopY299vGw7gCrA,142
+solv-0.7.20.dist-info/top_level.txt,sha256=lckKMhfZa6lUADuv_C32wb8YmxwNGcmITpjfMT317Fk,5
+solv-0.7.20.dist-info/LICENSE.BSD,sha256=V_Faz7Kfvvd0l3nglqWIXGC3FmM-NEhKIbtxdVTAGY8,1381
+solv-0.7.20.dist-info/RECORD,,
+solv-0.7.20.dist-info/METADATA,sha256=t7V5PIFtjwfZOgXwybQ6ZhtSp0J1o-NLS_lTSNOoyOY,628
+solv/solv.py,sha256=V90yLNdm1TZqLL_UCgEscGhzdno160VQzWUXVcpoRnc,63390
+solv/__init__.py,sha256=PIQy8wVliT_UsAXI4JEspWi-_3sAInhbzQEjaoa96fY,20
+solv/_solv.so,sha256=mUbMphuzshXVgZ5LpQNCQUNlPMiecT1_rW75byH6YDE,1234984
