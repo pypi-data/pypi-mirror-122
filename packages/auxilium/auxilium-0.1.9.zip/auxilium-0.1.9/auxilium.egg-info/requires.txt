@@ -1,0 +1,11 @@
+pip
+dulwich
+flake8
+bandit
+coverage
+sphinx
+sphinx-rtd-theme
+sphinx-math-dollar
+twine
+karma-sphinx-theme
+sphinx-nameko-theme
