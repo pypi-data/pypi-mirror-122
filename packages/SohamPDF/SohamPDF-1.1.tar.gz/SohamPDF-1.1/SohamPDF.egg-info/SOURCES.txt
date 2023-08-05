@@ -1,0 +1,8 @@
+README.md
+setup.py
+SohamPDF.egg-info/PKG-INFO
+SohamPDF.egg-info/SOURCES.txt
+SohamPDF.egg-info/dependency_links.txt
+SohamPDF.egg-info/top_level.txt
+sohampdf/__init__.py
+sohampdf/pdf2text.py
