@@ -1,0 +1,10 @@
+setup.py
+bennydistributions/Binomialdistribution.py
+bennydistributions/Gaussiandistribution.py
+bennydistributions/Generaldistribution.py
+bennydistributions/__init__.py
+bennydistributions.egg-info/PKG-INFO
+bennydistributions.egg-info/SOURCES.txt
+bennydistributions.egg-info/dependency_links.txt
+bennydistributions.egg-info/not-zip-safe
+bennydistributions.egg-info/top_level.txt
