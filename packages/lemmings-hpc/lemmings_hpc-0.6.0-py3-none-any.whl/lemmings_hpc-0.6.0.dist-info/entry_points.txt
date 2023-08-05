@@ -1,0 +1,5 @@
+[console_scripts]
+lemmings = lemmings_hpc.cli:main
+lemmings-farming = lemmings_hpc.cli_farming:main
+lemmings-hpc = lemmings_hpc.cli_hpc:main
+
