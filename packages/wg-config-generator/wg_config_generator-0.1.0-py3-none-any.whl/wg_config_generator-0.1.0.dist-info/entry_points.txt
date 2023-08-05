@@ -1,0 +1,3 @@
+[console_scripts]
+wg-config-generator=wg_config_generator.main:main
+

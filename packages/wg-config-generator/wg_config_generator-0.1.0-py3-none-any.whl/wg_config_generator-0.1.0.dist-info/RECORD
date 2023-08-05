@@ -1,0 +1,10 @@
+wg_config_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wg_config_generator/config.py,sha256=T3OiZBNVKDSWYqzVLYTuVdpGr2J-gsNda2PSrJxy_XM,1244
+wg_config_generator/generator.py,sha256=-NmOlvtZ7xGuOKAwNrvvrfxktpu1wcjiGvF9nLYe-U0,2011
+wg_config_generator/main.py,sha256=oN0lR09swO31oVl9aSyLKKN8Px7R1ZLbEz6VLRg67RY,2252
+wg_config_generator/tools.py,sha256=6t0OjpaCWC-SKLHX7cQMDQL5cDTDHLJHjbJrfw2sV3Q,666
+wg_config_generator-0.1.0.dist-info/entry_points.txt,sha256=Ifh8Z5gS5opXomda0Isddpw4f84PUJEObzToSCnqN0Q,69
+wg_config_generator-0.1.0.dist-info/LICENSE,sha256=eJ7R_VXNGUFi0-8MjNfbP8sAu6MBbeqJOfhoUfuxv6Q,1072
+wg_config_generator-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+wg_config_generator-0.1.0.dist-info/METADATA,sha256=tmzqrcwntguExcyacZ63SAvCzuIdRdA7Muliw7o3wRk,572
+wg_config_generator-0.1.0.dist-info/RECORD,,
