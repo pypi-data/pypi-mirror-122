@@ -1,0 +1,29 @@
+[console_scripts]
+zocalo.go = zocalo.cli.go:run
+zocalo.queue_drain = zocalo.cli.queue_drain:run
+zocalo.service = zocalo.service:start_service
+zocalo.shutdown = zocalo.cli.shutdown:run
+zocalo.wrap = zocalo.cli.wrap:run
+
+[libtbx.dispatcher.script]
+zocalo.go = zocalo.go
+zocalo.queue_drain = zocalo.queue_drain
+zocalo.service = zocalo.service
+zocalo.shutdown = zocalo.shutdown
+zocalo.wrap = zocalo.wrap
+
+[libtbx.precommit]
+zocalo = zocalo
+
+[workflows.services]
+Schlockmeister = zocalo.service.schlockmeister:Schlockmeister
+
+[zocalo.configuration.plugins]
+graylog = zocalo.configuration.plugin_graylog:Graylog
+jmx = zocalo.configuration.plugin_jmx:JMX
+rabbitmqapi = zocalo.configuration.plugin_rabbitmqapi:RabbitAPI
+storage = zocalo.configuration.plugin_storage:Storage
+
+[zocalo.wrappers]
+dummy = zocalo.wrapper:DummyWrapper
+
