@@ -1,0 +1,14 @@
+platonic/sqs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+platonic/sqs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+platonic/sqs/queue/__init__.py,sha256=zNYJPAAa10cvwIxW8pFAvmv5_OGqus3mHeRvxAK0gsU,307
+platonic/sqs/queue/acknowledge.py,sha256=tgwkDyPQr1b98QGaNkUJo-GpzSzmV4HW4_psz3OoXMw,628
+platonic/sqs/queue/errors.py,sha256=wQNVaEi9NbJCRMuXHa9DeSf1ccGx5I8g0H8N3RcZdEY,360
+platonic/sqs/queue/message.py,sha256=NkZOTMYRdru8HPGTnXnrfYsvQUeCKk3dOtlqEYGasMo,238
+platonic/sqs/queue/receiver.py,sha256=xoBgW6ZVnKlObxSpSjOzux_9PD1OOPFy8NlbfC-4gjM,6517
+platonic/sqs/queue/sender.py,sha256=uh26KkG00uaaTHq0TQXTQi-TuziRAWVgohr8jg1E-tc,5741
+platonic/sqs/queue/sqs.py,sha256=opR4BUUkScn2G7FSLnr17CcOudSH5x1mdYpZW0AwJ04,1080
+platonic/sqs/queue/types.py,sha256=-rnP2WCl8c7fBpTeVAWUlTDm6S0-wcmBGm5TK-s9R0s,114
+platonic_sqs-1.2.8.dist-info/LICENSE,sha256=B9k2R4AKTN2N4gIfQGIVLXL9VK01di61_YTtYTmL4WQ,1103
+platonic_sqs-1.2.8.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+platonic_sqs-1.2.8.dist-info/METADATA,sha256=zbKzSIg9qlN5eeTGLfBHXRMbHxIBGtIs5gZlo4_Mj3M,3342
+platonic_sqs-1.2.8.dist-info/RECORD,,
