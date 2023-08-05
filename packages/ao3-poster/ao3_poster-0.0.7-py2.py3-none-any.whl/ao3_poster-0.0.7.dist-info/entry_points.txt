@@ -1,0 +1,3 @@
+[console_scripts]
+ao3 = ao3_poster.cli:cli
+
