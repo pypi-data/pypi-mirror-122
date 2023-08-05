@@ -1,0 +1,3 @@
+[console_scripts]
+numpydoc_lint = numpydoc_lint.__main__:main
+

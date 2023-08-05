@@ -1,0 +1,15 @@
+.pre-commit-hooks.yaml
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+numpydoc_lint/__init__.py
+numpydoc_lint/__main__.py
+numpydoc_lint/_version.py
+numpydoc_lint.egg-info/PKG-INFO
+numpydoc_lint.egg-info/SOURCES.txt
+numpydoc_lint.egg-info/dependency_links.txt
+numpydoc_lint.egg-info/entry_points.txt
+numpydoc_lint.egg-info/requires.txt
+numpydoc_lint.egg-info/top_level.txt
