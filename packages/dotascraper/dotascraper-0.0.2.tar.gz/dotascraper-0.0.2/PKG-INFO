@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dotascraper
+Version: 0.0.2
+Summary: Package that extracts data from OpenDota to analyse picks/bans and winrates
+Home-page: https://github.com/jebblewhite/dotascraper.git
+Author: Jason Ebblewhite
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

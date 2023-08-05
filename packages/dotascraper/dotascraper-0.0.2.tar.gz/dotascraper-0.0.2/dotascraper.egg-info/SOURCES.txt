@@ -1,0 +1,11 @@
+README.md
+setup.py
+dotaproscraper/__init__.py
+dotaproscraper/__main__.py
+dotaproscraper/databaser.py
+dotaproscraper/dotascraper.py
+dotascraper.egg-info/PKG-INFO
+dotascraper.egg-info/SOURCES.txt
+dotascraper.egg-info/dependency_links.txt
+dotascraper.egg-info/requires.txt
+dotascraper.egg-info/top_level.txt
