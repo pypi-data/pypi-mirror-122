@@ -1,0 +1,15 @@
+x Scrape all theme URLs.
+x Scrape all words from all themes to .txt
+x Create GetRandomWord() class and test it.
+x Create GetRandomWord.that_start_with('LATTER') function
+x Create get_random_words(words_to_return=) func
+
+
+__________Vision___________
+from randomly import GetRandomWord, GetRandomWords
+
+random_word = GetRandomWord()
+
+random_word = GetRandomWord().that_start_with('A')
+random_words = GetRandomWords().that_starts_with('A').and(return_a_list())           # returns a list of all occurrences
+random_words = GetRandomWords().that_starts_with('A').and(return_a_list(sizeof=10))  # returns a specified size
