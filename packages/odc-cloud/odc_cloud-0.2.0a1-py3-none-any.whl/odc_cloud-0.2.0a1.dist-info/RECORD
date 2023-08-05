@@ -1,0 +1,17 @@
+odc/aio/__init__.py,sha256=tdBPDw1u_SrF-SbfK-r-E8T1DtO7w5X9UCEPfJ274jg,16677
+odc/aws/__init__.py,sha256=W5ZqxZLXd9UW000rfCodafWDn1WgWNDry3z_cU1zk-4,16688
+odc/aws/_find.py,sha256=pvdslBlXVkWfY127ioWC7_0seZxvu8fCQ-mAtW--WI4,1712
+odc/aws/dns.py,sha256=RHJGb3-62tqbiahrh2VfPTUNSuQz6Za9pOPd25B_hpE,3479
+odc/aws/inventory.py,sha256=yuqNIjDxKR4AnPCSE_fDbLndOuHUWa_Ahlg10YgmqnI,3555
+odc/aws/misc.py,sha256=Y2WqDZuLgAqbHeNDA-Jz8fuyAYrlk2pF7uWNHFD71AM,2116
+odc/aws/queue.py,sha256=7kadyHrqNBIFabfTXYWGjc7MiuWXGmYaR1rUbDrIU1A,5449
+odc/azure/__init__.py,sha256=_BMdnZsnM5kSqM8E8G3P8hFx4hnok0aUAXncVlBrzzE,2325
+odc/cloud/_version.py,sha256=5zSI7joVgP1lYYkcIpaAInIFJcfsLbHeVsfkC8Quunc,24
+odc/ppt/__init__.py,sha256=4QHIkbRBlBWwMRofTysGz7teD-EoCa2H6PDU0lvtRYA,3792
+odc/ppt/async_thread.py,sha256=pJNStaGBE2MoW2H0sJHKZTQt8N63kDj41kr9R59pY6w,2007
+odc/thredds/__init__.py,sha256=YbUYxDQq2TaENpX-xz9H6SxnryXanvRSa03_fJ8E5E0,2479
+odc_cloud-0.2.0a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+odc_cloud-0.2.0a1.dist-info/METADATA,sha256=wIzpdrvUEvimxamSJZECxrSAmgaTBjUvhNreUBYUg80,1155
+odc_cloud-0.2.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odc_cloud-0.2.0a1.dist-info/top_level.txt,sha256=agQvn12dGbaJZ4cQCqKfiCHBYi8LD3P4v9B2ynmsugQ,4
+odc_cloud-0.2.0a1.dist-info/RECORD,,
