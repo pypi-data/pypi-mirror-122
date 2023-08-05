@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: colormate
+Version: 0.11
+Summary: A package to theme terminal scripts with custom colors and text formatting
+Home-page: https://github.com/mrjakesir/themify
+Author: Rodrigo
+Author-email: roarba011@gmail.com
+License: MIT
+Download-URL: https://github.com/MrJakeSir/themify/archive/refs/tags/v_01.zip
+Description: UNKNOWN
+Keywords: Colors,Scripting,Theme,Theming
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
