@@ -1,0 +1,8 @@
+setup.py
+mypyexample/__init__.py
+mypyexample/module1.py
+mypyexample2.egg-info/PKG-INFO
+mypyexample2.egg-info/SOURCES.txt
+mypyexample2.egg-info/dependency_links.txt
+mypyexample2.egg-info/requires.txt
+mypyexample2.egg-info/top_level.txt
