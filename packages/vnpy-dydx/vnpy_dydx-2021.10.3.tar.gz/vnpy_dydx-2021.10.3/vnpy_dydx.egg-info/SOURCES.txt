@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vnpy_dydx/__init__.py
+vnpy_dydx/dydx_gateway.py
+vnpy_dydx/dydx_tool.py
+vnpy_dydx.egg-info/PKG-INFO
+vnpy_dydx.egg-info/SOURCES.txt
+vnpy_dydx.egg-info/dependency_links.txt
+vnpy_dydx.egg-info/not-zip-safe
+vnpy_dydx.egg-info/requires.txt
+vnpy_dydx.egg-info/top_level.txt
