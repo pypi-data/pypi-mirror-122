@@ -1,0 +1,21 @@
+confluent-kafka
+tqdm
+certifi>=2020.04.05.1
+
+[:python_version < "3.7"]
+dataclasses
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+autopep8
+docker
+flake8
+isort
+pytest
+pytest-timeout
+pytest-integration
+sphinx
+sphinx_rtd_theme
+twine
