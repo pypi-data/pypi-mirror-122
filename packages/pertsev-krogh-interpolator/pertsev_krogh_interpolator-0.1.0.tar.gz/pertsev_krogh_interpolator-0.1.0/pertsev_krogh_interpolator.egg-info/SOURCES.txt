@@ -1,0 +1,8 @@
+setup.py
+pertsev_krogh_interpolator/__init__.py
+pertsev_krogh_interpolator/my_realisation.py
+pertsev_krogh_interpolator.egg-info/PKG-INFO
+pertsev_krogh_interpolator.egg-info/SOURCES.txt
+pertsev_krogh_interpolator.egg-info/dependency_links.txt
+pertsev_krogh_interpolator.egg-info/requires.txt
+pertsev_krogh_interpolator.egg-info/top_level.txt
