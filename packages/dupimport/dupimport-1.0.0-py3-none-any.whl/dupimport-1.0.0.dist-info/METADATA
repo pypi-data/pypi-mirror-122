@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: dupimport
+Version: 1.0.0
+Summary: Detect duplicate imports
+Home-page: https://github.com/dannysepler/dupimports
+Author: Danny Sepler
+Author-email: dannysepler@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/dannysepler/dupimports/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+dupimport
+=========
+
+Find things you imported twice in your python code, when you probably only needed to import once.
+
+## Installation
+
+`pip install dupimport`
+
+## Usage
+
+Use on a file: `dupimport path/to/file.py`
+
+or use on a folder:
+- `dupimport .`
+- `dupimport path/to/folder/`
+
+## Caveats
+
+Imports in an `if` statement may be okay
+
+
