@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pyshell-msg
+Version: 0.0.2
+Summary: Log/print your status and messages on python shell or terminal
+Home-page: UNKNOWN
+Author: Ellipsion (Ashish Kumawat)
+Author-email: <ellipsion@gmail.com>
+License: UNKNOWN
+Keywords: python,pyshell_msg,status,shell,messages,application,logs,status,print,format
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+ï»¿# Pyshell\-msg
+
+You can log/print your status and messages on shell or terminal in a
+standardized yet customizable format.
+
+
+```
+--<App> $ message > value
+```
+
+## Installation
+
+```
+pip install pyshell-msg
+```
+
+## Usage
+```python
+from pyshell_msg.shell import Shell
+
+my_shell = Shell("My application")
+```
+
+Initialize class ``Shell`` with name of your application.
+```python
+my_shell.msg(message="Hello There",value=001)
+my_shell.msg(message="This is second message",value=002)
+my_shell.msg(message="No Value")
+```
+Use ``msg`` method to print your ``message`` and ``value``
+
+## Output
+```
+--<My application> $ Hello There               > 001 
+--<My application> $ This is second message    > 002 
+--<My application> $ No Value                   
+```
+Spacing remain constant to have uniform-looking logs for your application.
+
+
+
