@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: lambdaz
+Version: 0.1.0
+Summary: DSL for lambda definition
+Home-page: https://github.com/gtors/lambdaz
+Author: A. Torsunov
+License: UNKNOWN
+Platform: Linux
+Platform: Mac
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black (==21.9b0) ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-blind-except ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-print ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-asyncio (~=0.14) ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest (~=6.2) ; extra == 'dev'
+Requires-Dist: wemake-python-styleguide ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest (~=6.2) ; extra == 'tests'
+Requires-Dist: pytest-asyncio (~=0.14) ; extra == 'tests'
+
+UNKNOWN
+
+
