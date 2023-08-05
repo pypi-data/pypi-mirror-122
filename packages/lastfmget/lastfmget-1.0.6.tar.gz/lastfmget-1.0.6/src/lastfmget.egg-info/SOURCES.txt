@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+data/example_api_cfg.yaml
+src/lastfmget/__init__.py
+src/lastfmget/core.py
+src/lastfmget/errors.py
+src/lastfmget/methods.py
+src/lastfmget/raw_methods.py
+src/lastfmget.egg-info/PKG-INFO
+src/lastfmget.egg-info/SOURCES.txt
+src/lastfmget.egg-info/dependency_links.txt
+src/lastfmget.egg-info/requires.txt
+src/lastfmget.egg-info/top_level.txt
