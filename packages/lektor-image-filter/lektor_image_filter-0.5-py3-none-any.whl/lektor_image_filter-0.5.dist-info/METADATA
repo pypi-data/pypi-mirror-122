@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lektor-image-filter
+Version: 0.5
+Summary: A filter to print the input image in different predefined image sizes.
+Home-page: UNKNOWN
+Author: L3D
+Author-email: l3d@c3woc.de
+License: MIT
+Keywords: Lektor plugin
+Platform: UNKNOWN
+Classifier: Framework :: Lektor
+Classifier: Environment :: Plugins
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+ image-filter
+==============
+
+This is where a description of your plugin goes.
+Provide usage instructions here.
+#            <img src="{{ image }}" width="{{ image.width / 2 | int }}"
+#              srcset="
+#          <img src="waffle-small.webp"
+#            srcset="waffle-small.webp  512w,   // Viewport bis zu 512
+#            waffle-medium.webp 900w,   // Viewport größer als 512
+#            waffle-woowee.webp 1440w"  // Viewport größer als 900
+#  />
+
+
+
