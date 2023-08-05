@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+embody/__init__.py
+embody/graphviz_template.py
+embody/naming.py
+embody.egg-info/PKG-INFO
+embody.egg-info/SOURCES.txt
+embody.egg-info/dependency_links.txt
+embody.egg-info/not-zip-safe
+embody.egg-info/requires.txt
+embody.egg-info/top_level.txt
