@@ -1,0 +1,10 @@
+README.md
+adbidea
+ads
+advl
+setup.py
+adbidea.egg-info/PKG-INFO
+adbidea.egg-info/SOURCES.txt
+adbidea.egg-info/dependency_links.txt
+adbidea.egg-info/requires.txt
+adbidea.egg-info/top_level.txt
