@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+package_name_matt_gfc/__init__.py
+package_name_matt_gfc/converter.py
+package_name_matt_gfc.egg-info/PKG-INFO
+package_name_matt_gfc.egg-info/SOURCES.txt
+package_name_matt_gfc.egg-info/dependency_links.txt
+package_name_matt_gfc.egg-info/not-zip-safe
+package_name_matt_gfc.egg-info/requires.txt
+package_name_matt_gfc.egg-info/top_level.txt
