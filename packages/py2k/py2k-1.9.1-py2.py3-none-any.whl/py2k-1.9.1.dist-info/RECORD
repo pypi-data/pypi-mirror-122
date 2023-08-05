@@ -1,0 +1,14 @@
+py2k/__init__.py,sha256=kjLd5RMjUWAhsOD8V17eWIrcvJ81OaTpzpALu0qT5JU,602
+py2k/creators.py,sha256=CWCfzyd-qsRri4LyNKo37NqidepenVGgGX_FQs_gVg0,6326
+py2k/producer.py,sha256=FJRRMQpXCJ0dsJUC72NyP2ivYjtlQrKJo5ATKPqSA6U,2401
+py2k/producer_config.py,sha256=IX3bRyXvkZPOcZ8WYYVMmER-QnEIdud9k8edSPJVZKU,1337
+py2k/record.py,sha256=VOT90rYF61y6iwC2laHOkTafFxQwtn8k2wj3ojbmaMg,7513
+py2k/serializer.py,sha256=R54cK1EOGB1_gPMMxFFj1Jae4vecrhzFJCUIQWMrgLQ,1513
+py2k/writer.py,sha256=ZTZYfYgoB2_bCSsW3SWYlYZt0ZjpKDdvwB8Zsl80yRI,2774
+py2k/utils/__init__.py,sha256=OFB7RPnybgvuzBTUcLyVrmiyR9r7zQABUosGJ0srwPc,2555
+py2k-1.9.1.dist-info/AUTHORS.md,sha256=NWSOysWqVIgr0nWlyrXm0kKrnvMUsKSPtCOkAvInADM,291
+py2k-1.9.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py2k-1.9.1.dist-info/METADATA,sha256=k1Dh85L-xdyVvI6PwGsOffmCwkuFwAhk6G-E3p4GB-U,5176
+py2k-1.9.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+py2k-1.9.1.dist-info/top_level.txt,sha256=nCrj1ECDHOZ6EHPMKUbYMeOzOsyPprMHK8xBIeg7wxI,5
+py2k-1.9.1.dist-info/RECORD,,
