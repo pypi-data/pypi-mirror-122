@@ -1,0 +1,10 @@
+pip
+packaging
+fastcore
+nbconvert==5.6.1
+jupyter-client==6.1.2
+numba
+numpy
+matplotlib
+
+[dev]
