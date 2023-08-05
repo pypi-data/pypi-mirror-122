@@ -1,0 +1,10 @@
+ffmpeg_gui/__init__.py,sha256=ibJgRuGutaDB0myhiVXc-D-8ezBjR5-sjteupwWm1t8,40
+ffmpeg_gui/__main__.py,sha256=nUM3X9NMIIHsuemvbSnAF4-tuEsYU8ew-9bVVcTVc2k,223
+ffmpeg_gui/ffmpeg_wrapper.py,sha256=ea7aEjxgCJQhnUVuSgYTq9dx6KUG6a2GZT42v8T0Mfw,3004
+ffmpeg_gui/gui.py,sha256=P3Ot_kkNZsW6Nrd6HXRv1yesbSZRY7fYl1pTR43mxEo,12204
+ffmpeg_gui-0.0.1.dist-info/LICENSE,sha256=-Cj3TBzCdvaq3mz0AEbLMfoHyjV4_zNj2XSdLwamCaI,1068
+ffmpeg_gui-0.0.1.dist-info/METADATA,sha256=9LHZUVcjig9IdHoC8Kgl1nRn7b_MCYtqQ40ydVP3-n8,1726
+ffmpeg_gui-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ffmpeg_gui-0.0.1.dist-info/entry_points.txt,sha256=WOAe1ROXtauIzOYYPLiNPntSCnO0ppfyRh_jWC2yc9g,52
+ffmpeg_gui-0.0.1.dist-info/top_level.txt,sha256=y-914aJjMC7AzBHwn1hZGrlPsQ0ubUJn7zPIqGYkRYE,11
+ffmpeg_gui-0.0.1.dist-info/RECORD,,
