@@ -1,0 +1,3 @@
+[console_scripts]
+pdftotext = pdf2text:main
+
