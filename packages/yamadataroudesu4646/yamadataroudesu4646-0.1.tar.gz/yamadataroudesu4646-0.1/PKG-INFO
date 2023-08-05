@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: yamadataroudesu4646
+Version: 0.1
+Summary: The Library for learning Python OOP [A-Z]
+Home-page: https://www.facebook.com/UncleEngineer/
+Author: Yamada Tarou
+Author-email: loong.wissawakorn@gmail.com
+License: MIT
+Download-URL: https://www.facebook.com/UncleEngineer/
+Description: UNKNOWN
+Keywords: Prawit,Prayut,Submarine
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
