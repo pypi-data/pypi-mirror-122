@@ -1,0 +1,26 @@
+setup.py
+C:/Users/gxous/Git/unicurses/unicurses/__init__.py
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dll/pdcurses.dll
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dlls/LICENSE.freetype.txt
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dlls/LICENSE.zlib.txt
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dlls/SDL2.dll
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dlls/SDL2_ttf.dll
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dlls/libfreetype-6.dll
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dlls/pdcurses.dll
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dlls/zlib1.dll
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dllu/pdcurses.dll
+C:/Users/gxous/Git/unicurses/unicurses/32 bit binaries/pdc39dllw/pdcurses.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dll/pdcurses.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dlls/LICENSE.freetype.txt
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dlls/LICENSE.zlib.txt
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dlls/SDL2.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dlls/SDL2_ttf.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dlls/libfreetype-6.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dlls/pdcurses.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dlls/zlib1.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dllu/pdcurses.dll
+C:/Users/gxous/Git/unicurses/unicurses/64 bit binaries/pdc39dllw/pdcurses.dll
+Uni_Curses.egg-info/PKG-INFO
+Uni_Curses.egg-info/SOURCES.txt
+Uni_Curses.egg-info/dependency_links.txt
+Uni_Curses.egg-info/top_level.txt
