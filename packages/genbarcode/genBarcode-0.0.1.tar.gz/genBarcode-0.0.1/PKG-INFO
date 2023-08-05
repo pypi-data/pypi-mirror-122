@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: genbarcode
+Version: 0.0.1
+Summary: offline tracking number image rendering tool.
+Home-page: https://github.com/tbennett6421/genBarcode
+License: MIT
+Author: Tyler Bennett
+Author-email: tbennett6421@gmail.com
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-barcode[images] (>=0.13.1,<0.14.0)
+Project-URL: Repository, https://github.com/tbennett6421/genBarcode
+Description-Content-Type: text/markdown
+
+# genBarcode
+
+# Credits
+
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [tbennett6421/pythoncookie](https://github.com/tbennett6421/pythoncookie) project template.
+
+I got sick of throwing tracking numbers into websites to generate a thing for my camera to scan. So I made a thing
+
