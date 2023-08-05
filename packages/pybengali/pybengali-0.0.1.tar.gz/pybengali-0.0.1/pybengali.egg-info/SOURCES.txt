@@ -1,0 +1,7 @@
+README.rst
+setup.py
+pybengali/__init__.py
+pybengali.egg-info/PKG-INFO
+pybengali.egg-info/SOURCES.txt
+pybengali.egg-info/dependency_links.txt
+pybengali.egg-info/top_level.txt
