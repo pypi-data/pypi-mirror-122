@@ -1,0 +1,7 @@
+kafka_bridge_client/__init__.py,sha256=hks5_tATDqtSyQgKwxFW6RPVAIbTiGDM-YNLjHMSfLM,84
+kafka_bridge_client/consumer.py,sha256=k1nCulcyX9koTasxlqIzk7Z_2K77B0ceJTcezFEP-Gw,7981
+kafka_bridge_client/exceptions.py,sha256=0NHy8axVPfIcFMiPYqmOCr9B21NSwYsuRE8owy6nZEY,216
+kafka_bridge_client-0.1.5.dist-info/LICENSE,sha256=3oRx05vXBf3XzggkT-aYDtua9De1EBFbltyBnLSiIHE,1066
+kafka_bridge_client-0.1.5.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+kafka_bridge_client-0.1.5.dist-info/METADATA,sha256=cx7n5n__jht7Z5S_xC03Mmj5yQtkV8RI-K7WhkpbpAw,2099
+kafka_bridge_client-0.1.5.dist-info/RECORD,,
