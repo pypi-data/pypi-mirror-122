@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/prettyTTS.egg-info/PKG-INFO
+src/prettyTTS.egg-info/SOURCES.txt
+src/prettyTTS.egg-info/dependency_links.txt
+src/prettyTTS.egg-info/requires.txt
+src/prettyTTS.egg-info/top_level.txt

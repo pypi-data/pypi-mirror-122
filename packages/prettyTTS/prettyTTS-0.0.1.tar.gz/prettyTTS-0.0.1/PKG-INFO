@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: prettyTTS
+Version: 0.0.1
+Summary: This package has been migrated into mateco
+Home-page: https://github.com/tquangsdh20/mateco
+Author: Joseph Quang
+Author-email: tquang.sdh20@hcmut.edu.vn
+License: MIT
+Keywords: tts,prettyTTS,pretty voices,gtts,speech,pyttsx3,freetts,voicemaker,text to pretty speech,ipa,internal phonetic alphabet
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Customer Service
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Japanese
+Classifier: Natural Language :: Dutch
+Classifier: Natural Language :: Arabic
+Classifier: Natural Language :: Italian
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: Spanish
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Natural Language :: French
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides: IPA
+Provides: TTS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+  <h1 align="center">prettyTTS has been migrated to <b>mateco</b> package</h1>
+</p>
+
+### This is dummy package to avoid the others create the new package with this name.
+
+### URL: https://github.com/tquangsdh20/mateco/
+
+
