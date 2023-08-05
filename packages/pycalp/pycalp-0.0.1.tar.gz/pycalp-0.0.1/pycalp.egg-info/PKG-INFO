@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pycalp
+Version: 0.0.1
+Summary: Calculator
+Home-page: UNKNOWN
+Author: Wolfuri
+Author-email: UNKNOWN
+License: MIT
+Description: A calculator easy to use created by Wolfuri Â©2021
+        
+        Change Log
+        ==========
+        
+        0.0.1 (04/10/2021)
+        ------------------
+        - First Release
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

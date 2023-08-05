@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+pycalp/__inti__.py
+pycalp.egg-info/PKG-INFO
+pycalp.egg-info/SOURCES.txt
+pycalp.egg-info/dependency_links.txt
+pycalp.egg-info/top_level.txt
