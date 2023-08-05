@@ -1,0 +1,3 @@
+[console_scripts]
+bannercli = bannercli.cli:main
+
