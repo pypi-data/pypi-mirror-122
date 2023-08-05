@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+jarvisui1/Jarvis_UI.py
+jarvisui1/__init__.py
+jarvisui1.egg-info/PKG-INFO
+jarvisui1.egg-info/SOURCES.txt
+jarvisui1.egg-info/dependency_links.txt
+jarvisui1.egg-info/top_level.txt
