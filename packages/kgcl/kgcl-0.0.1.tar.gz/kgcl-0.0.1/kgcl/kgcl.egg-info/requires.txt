@@ -1,0 +1,7 @@
+linkml~=1.0.3
+rdflib>=5.0.0
+lark>=0.11.3
+click>=7.1.2
+
+[dev]
+pytest>=3.7
