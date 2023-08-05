@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+otter/__init__.py
+otter/client.py
+otter/constants.py
+otter/core.py
+otter/decorators.py
+otter/singleton.py
+otter/utils.py
+otterpy.egg-info/PKG-INFO
+otterpy.egg-info/SOURCES.txt
+otterpy.egg-info/dependency_links.txt
+otterpy.egg-info/requires.txt
+otterpy.egg-info/top_level.txt
