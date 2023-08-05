@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: tradis
+Version: 0.1.6
+Requires-Dist: numpy>1.14
+Summary: A measurement for the distance between trajectories
