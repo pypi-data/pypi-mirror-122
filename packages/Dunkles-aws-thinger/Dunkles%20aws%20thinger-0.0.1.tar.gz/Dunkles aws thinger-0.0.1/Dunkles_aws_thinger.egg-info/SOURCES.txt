@@ -1,0 +1,5 @@
+setup.py
+Dunkles_aws_thinger.egg-info/PKG-INFO
+Dunkles_aws_thinger.egg-info/SOURCES.txt
+Dunkles_aws_thinger.egg-info/dependency_links.txt
+Dunkles_aws_thinger.egg-info/top_level.txt
