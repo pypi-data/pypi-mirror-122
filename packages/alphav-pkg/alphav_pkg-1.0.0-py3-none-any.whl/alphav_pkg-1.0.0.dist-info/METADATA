@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: alphav-pkg
+Version: 1.0.0
+Summary: Client for consuming Alpha Vantage API
+Home-page: https://github.com/jonathan-mothe/alphav_client
+Author: Jonathan Mothé
+Author-email: jonathan.mothe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: python-decouple
+Requires-Dist: requests
+
+# alphav_client
+A simple API client for the AlphaVantage API: https://www.alphavantage.co/documentation/
+
+
