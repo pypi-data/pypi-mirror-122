@@ -1,0 +1,11 @@
+odc/io/__init__.py,sha256=iAPC8K9xrMwzftMZa9BxQjJ2Ao7EJ0QJTaS0W8GYd-w,384
+odc/io/_version.py,sha256=5zSI7joVgP1lYYkcIpaAInIFJcfsLbHeVsfkC8Quunc,24
+odc/io/cgroups.py,sha256=ZoDiHSUWsmqmHs_UzaNraZF_mL3iLE0j6LqgfWNM_Wc,842
+odc/io/tar.py,sha256=sJjGg4Ks84aiJ1ltED2NI47Deni_YtA0uTv5Vg73PUA,2463
+odc/io/text.py,sha256=9-GKICCO3xkpz_P4SXHBzqpeX3kEPVU9YykRAuHL01U,6508
+odc/io/timer.py,sha256=uSH4JTeSlXziVIX8_QQJjXmu05EkpZw2K3qAv0LlocI,804
+odc_io-0.2.0a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+odc_io-0.2.0a1.dist-info/METADATA,sha256=7yip_o63aFbxLRN1FovXNTdZAQqtXXOgd1L3jWLJb6w,478
+odc_io-0.2.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odc_io-0.2.0a1.dist-info/top_level.txt,sha256=agQvn12dGbaJZ4cQCqKfiCHBYi8LD3P4v9B2ynmsugQ,4
+odc_io-0.2.0a1.dist-info/RECORD,,
