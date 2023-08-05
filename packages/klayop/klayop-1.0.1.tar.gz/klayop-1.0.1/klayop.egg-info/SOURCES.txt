@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+RIP.mp4
+__init__.py
+klayop.py
+setup.py
+klayop.egg-info/PKG-INFO
+klayop.egg-info/SOURCES.txt
+klayop.egg-info/dependency_links.txt
+klayop.egg-info/top_level.txt

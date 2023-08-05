@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: klayop
+Version: 1.0.1
+Summary: Owo, what is this?
+Home-page: UNKNOWN
+Author: Tejas Patil
+Author-email: tejas1950@gmail.com
+License: MIT
+Description: this is-
+        
+        Owo, what is this?
+        
+        Change Log
+        ===========
+        
+        1.0.0(03/10/2021)
+        -------------------
+        - First Release
+Keywords: never gonna give you up
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
