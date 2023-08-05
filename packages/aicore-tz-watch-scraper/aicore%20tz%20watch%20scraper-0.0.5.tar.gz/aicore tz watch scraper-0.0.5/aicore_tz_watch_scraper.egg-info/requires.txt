@@ -1,0 +1,7 @@
+selenium
+tqdm
+pandas
+boto3
+psycopg2
+sqlalchemy
+dataclasses
