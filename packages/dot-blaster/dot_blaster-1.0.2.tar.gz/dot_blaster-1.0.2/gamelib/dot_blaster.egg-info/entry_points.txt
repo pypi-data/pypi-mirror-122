@@ -1,0 +1,3 @@
+[console_scripts]
+play_dot_blaster = dot_blaster.main:main
+
