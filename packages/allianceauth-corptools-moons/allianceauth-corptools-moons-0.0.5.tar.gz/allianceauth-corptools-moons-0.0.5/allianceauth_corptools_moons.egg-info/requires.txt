@@ -1,0 +1,2 @@
+allianceauth>=2.8.7
+allianceauth-corptools>=2.0.7allianceauth-invoices>=0.0.5
