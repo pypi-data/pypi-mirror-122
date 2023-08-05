@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/manim_revealjs/__init__.py
+src/manim_revealjs/presentationscene.py
+src/manim_revealjs.egg-info/PKG-INFO
+src/manim_revealjs.egg-info/SOURCES.txt
+src/manim_revealjs.egg-info/dependency_links.txt
+src/manim_revealjs.egg-info/top_level.txt
