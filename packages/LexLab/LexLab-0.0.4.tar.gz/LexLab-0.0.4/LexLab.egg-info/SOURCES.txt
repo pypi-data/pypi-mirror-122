@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+LexLab/Drawing.py
+LexLab/__init__.py
+LexLab.egg-info/PKG-INFO
+LexLab.egg-info/SOURCES.txt
+LexLab.egg-info/dependency_links.txt
+LexLab.egg-info/top_level.txt
