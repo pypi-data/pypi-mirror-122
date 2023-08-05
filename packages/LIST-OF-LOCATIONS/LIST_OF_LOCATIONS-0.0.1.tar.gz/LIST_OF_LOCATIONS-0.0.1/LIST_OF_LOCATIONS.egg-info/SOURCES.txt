@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+LIST_OF_LOCATIONS/__init__.py
+LIST_OF_LOCATIONS.egg-info/PKG-INFO
+LIST_OF_LOCATIONS.egg-info/SOURCES.txt
+LIST_OF_LOCATIONS.egg-info/dependency_links.txt
+LIST_OF_LOCATIONS.egg-info/requires.txt
+LIST_OF_LOCATIONS.egg-info/top_level.txt
