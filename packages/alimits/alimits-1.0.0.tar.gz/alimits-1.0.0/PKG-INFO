@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: alimits
+Version: 1.0.0
+Summary: Provides asyncio storage and strategy implementations for the limits library.
+Home-page: https://github.com/thearchitector/alimits
+License: MIT
+Keywords: limits,rate limiting,api,asyncio,fastapi,aiohttp
+Author: Elias Gabriel
+Author-email: me@eliasfgabriel.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: limits (>=1.5.1,<2.0.0)
+Project-URL: Documentation, https://thearchitector.github.io/alimits
+Project-URL: Repository, https://github.com/thearchitector/alimits
+Description-Content-Type: text/markdown
+
+# alimits
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/thearchitector/alimits/CI?label=tests&style=flat-square)
+![GitHub](https://img.shields.io/github/license/thearchitector/alimits?style=flat-square)
+[![Buy a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=flat-square)](https://ecologi.com/eliasgabriel?r=6128126916bfab8bd051026c)
+
+Provides asyncio-compatible implementations of the [`limits` library](https://limits.readthedocs.io/en/stable/) storage and strategy options.
+Used in the [`slowapi` library](https://slowapi.readthedocs.io/en/latest/).
+
+Documentation is available [here](https://thearchitector.github.io/alimits/).
+
+Available on PyPi at [alimits](https://pypi.org/project/alimits/).
+
+## Strategies
+
+This library implements a couple asyncio limiting strategies:
+
+- Fixed window → (`alimits.strategies.AsyncFixedWindowRateLimiter`)
+- Moving window → (`alimits.strategies.AsyncMovingWindowRateLimiter`)
+- Fixed window with elastic expiration → (`alimits.strategies.AsyncFixedWindowElasticRateLimiter`)
+
+#### Resources
+
+1. <https://limits.readthedocs.io/en/stable/strategies.html>
+2. <https://medium.com/figma-design/an-alternative-approach-to-rate-limiting-f8a06cf7c94c>
+3. <https://cloud.google.com/architecture/rate-limiting-strategies-techniques>
+
+## Storage Backends
+
+Each of the above rate limiters support a couple different storage backends:
+
+- Memory (in-memory, volatile) → (`alimits.storage.AsyncMemoryStorage`)
+- Redis (on-disk or in-memory, persistent) → (`alimits.storage.AsyncRedisStorage`)
+
+Other storage backends are a WIP.
+
+## License
+
+Copyright (c) 2021 Elias Gabriel, 2020 Laurent Savaete, 2015 Ali-Akber Saifee 
+
+This software is licensed under the [MIT License](LICENSE).
+
+---
+
+This package is [Treeware](https://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://ecologi.com/eliasgabriel?r=6128126916bfab8bd051026c) to thank us for our work. By contributing to the forest you’ll be creating employment for local families and restoring wildlife habitats.
+
