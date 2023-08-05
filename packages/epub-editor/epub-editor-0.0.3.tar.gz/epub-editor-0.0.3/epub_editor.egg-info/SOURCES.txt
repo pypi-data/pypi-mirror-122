@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+epub_editor.egg-info/PKG-INFO
+epub_editor.egg-info/SOURCES.txt
+epub_editor.egg-info/dependency_links.txt
+epub_editor.egg-info/entry_points.txt
+epub_editor.egg-info/requires.txt
+epub_editor.egg-info/top_level.txt
+epub_metadata/__init__.py
+epub_metadata/book.py
+epub_metadata/epub.py
+epub_metadata/file.py
