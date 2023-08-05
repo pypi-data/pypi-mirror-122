@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+RFPC.egg-info/PKG-INFO
+RFPC.egg-info/SOURCES.txt
+RFPC.egg-info/dependency_links.txt
+RFPC.egg-info/requires.txt
+RFPC.egg-info/top_level.txt

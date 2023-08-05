@@ -1,0 +1,4 @@
+fanalysis
+numpy
+pandas
+statsmodels
