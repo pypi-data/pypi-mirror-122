@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ClusterMonitor
+Version: 0.0.1
+Summary: Simple script which can be used to monitor and log CPU and RAM usage of submitted cluster jobs
+Home-page: UNKNOWN
+Author: nickhir
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,cluster,monitor,CPU,RAM,usage,SLURM
+Platform: UNKNOWN
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
