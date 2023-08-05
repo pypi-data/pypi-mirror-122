@@ -1,0 +1,3 @@
+[console_scripts]
+tap-fabdb=tap_fabdb.tap:TapFabDb.cli
+

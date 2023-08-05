@@ -1,0 +1,10 @@
+tap_fabdb/__init__.py,sha256=tFwvmh5AV_my605tJ9wK6ByWkKibJO1Ii8-6r_L4Ees,18
+tap_fabdb/streams.py,sha256=_NV8S8Z_d93ECWd9S8DhB6jWDwOfrGbdKpBMh9TB1xM,2953
+tap_fabdb/tap.py,sha256=IM1cJ2lArRAU6S5nSOrhFqYi6Ducb1OXxVThn6eAWwc,598
+tap_fabdb/tests/__init__.py,sha256=Qx773baLBQrTI3I4k2eWXFfyrmPfXDMPc0DWIw5Dk-U,32
+tap_fabdb/tests/test_core.py,sha256=H8zLQjaZhHN9F_uVGD4M9c_E2kglzo5UWzO__SzRZCc,2344
+tap_fabdb-0.0.2.dist-info/entry_points.txt,sha256=57Dv27_wfjVTx070eXVx_yLpUuOI0oLd-ZEX3w5HLd0,56
+tap_fabdb-0.0.2.dist-info/LICENSE,sha256=WAiWui_fEd0pDTDk5fcOJb2cC3Kkkm0GVyUZUJhQyAU,1070
+tap_fabdb-0.0.2.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+tap_fabdb-0.0.2.dist-info/METADATA,sha256=JMjsv5ea7vf7HIP6jKOPQNG6ixeHoUjF3a9xJyZjqyc,2011
+tap_fabdb-0.0.2.dist-info/RECORD,,
