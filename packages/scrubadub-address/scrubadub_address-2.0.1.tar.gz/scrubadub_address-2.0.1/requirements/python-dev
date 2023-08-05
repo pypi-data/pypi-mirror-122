@@ -1,0 +1,16 @@
+# install everything in the python requirements too.
+-r python
+
+# needed to run the tests
+flake8
+coveralls
+nose
+mypy
+tox
+
+# needed for the tests/run.py script
+wasabi
+
+# needed by the AddressDetector
+# not a direct dependancy so that docs can build on readthedocs without building libpostal
+postal
