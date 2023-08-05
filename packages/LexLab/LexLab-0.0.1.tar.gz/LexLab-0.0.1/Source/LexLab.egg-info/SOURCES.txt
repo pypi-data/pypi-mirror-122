@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+Source/LexLab.egg-info/PKG-INFO
+Source/LexLab.egg-info/SOURCES.txt
+Source/LexLab.egg-info/dependency_links.txt
+Source/LexLab.egg-info/top_level.txt
