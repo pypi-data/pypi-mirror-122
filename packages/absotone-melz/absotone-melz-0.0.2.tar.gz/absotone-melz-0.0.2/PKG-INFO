@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: absotone-melz
+Version: 0.0.2
+Summary: A machine learning library for everyone!
+Home-page: https://github.com/absotone/melz
+Author: Vijay Jaisankar
+Author-email: vijayjaisankar.vj@gmail.com
+License: MIT
+Description: # absotone-melz
+        
+        
+        A Machine Learning Library for Everyone!
+        
+        Change Log 
+        ==========
+        
+        0.0.1 (Oct 3, 2021)
+Keywords: ML
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
