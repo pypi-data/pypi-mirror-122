@@ -1,0 +1,3 @@
+[console_scripts]
+genBarcode=genBarcode.__main__:main
+
