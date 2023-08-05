@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dot_blaster
+Version: 1.0.3
+Summary: Ludum Dare 49 game
+Home-page: https://github.com/avivajpeyi/dot_blaster
+Author: Avi + Reinhold
+Author-email: avi.vajpeyi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+[![pygame](https://img.shields.io/badge/pygame-yellow?style=for-the-badge&logo=Python&logoWidth=30&link=https://www.pygame.org/)](https://www.pygame.org/)
+
+# Dot Blaster
+#### Game for [Ludum Dare 49]
+
+Shoot the dots with the appropriate blaster before they get too close!
+
+![gameplay gif]
+
+## To Play:
+```
+pip install dot-blaster
+play_dot_blaster
+```
+
+
+[gameplay gif]: socials/gameplay.gif
+[Ludum Dare 49]: https://ldjam.com/events/ludum-dare/49
+
+
