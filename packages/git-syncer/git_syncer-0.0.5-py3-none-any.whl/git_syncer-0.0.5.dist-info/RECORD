@@ -1,0 +1,17 @@
+git_syncer/__init__.py,sha256=QXzW3aVbiEqgw207VQEY_0uPknbiS3bW8f6jOz-j3vQ,22
+git_syncer/main.py,sha256=JfRgSRR1qTnaxo2fEwfv2UpQbFiboxSNtkwPhe04ZG4,951
+git_syncer/jobs/__init__.py,sha256=eKnlD0HmrtssgqM1HI3rRh05YGrIpkd89nJAtB2iLiE,110
+git_syncer/jobs/models.py,sha256=2N58WY7_IeGfrpapIsxKCY3SHd3C14o_88hX3XDB4wY,357
+git_syncer/jobs/run_boot.py,sha256=ci57gjrYGoPYpc-2h7tgDAS9HwcyadxI3cAlPbBu6cg,367
+git_syncer/jobs/run_crons.py,sha256=rUNx_JrByJvo6gq-gB9fxoc3nPz6bYux1bmaIUAqRIY,434
+git_syncer/sync/__init__.py,sha256=ZgC617s6OTKytERyN-g8xUwWS2Q0bA-5MQ8Xof9iF-k,59
+git_syncer/sync/command.py,sha256=6XygCrjZYbbqlrwBpa5TObXbm8XnHeqW6jYq8D-VoVs,468
+git_syncer/sync/job.py,sha256=eg4J3DXaVef2eN-L-_BIJe3Bd_QfLRs-FPh3QQqnQ2A,2784
+git_syncer/utils/__init__.py,sha256=uJWucxmLBasBy36hUe59OdFWMxMzBSrw0c29au8ee6s,21
+git_syncer/utils/logger.py,sha256=P_GZJXIn2EJWab6m3HzInnl2lSJCKf37pcIR_CmwfZc,2014
+git_syncer/utils/shell.py,sha256=N6SBr1skedzx-bplc3N16L4P5j_CHXfPTv14GT3lewU,1082
+git_syncer-0.0.5.dist-info/LICENSE,sha256=IKsvkPwjm2IWvoJPMWFmnLhq10b3n8oUY5URxSppCOc,1066
+git_syncer-0.0.5.dist-info/METADATA,sha256=baXdwtjTY8zSqgTfuEOaIVnKQiqZAAk7V9cUm1h6LZc,711
+git_syncer-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+git_syncer-0.0.5.dist-info/top_level.txt,sha256=bAQFwnzuKIcsobwaZ5dj_1TIyekoMYZsoWuLFW2q_AA,11
+git_syncer-0.0.5.dist-info/RECORD,,
