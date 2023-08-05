@@ -1,0 +1,4 @@
+iso3166>=1.0.1
+pandas>=1.1.3
+psutil>=5.7.2
+python_slugify>=4.0.1
