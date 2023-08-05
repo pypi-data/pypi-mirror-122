@@ -1,0 +1,15 @@
+FastWARC.libs/libz-745e0a09.so.1.2.7,sha256=qQL6_XYFNzGpn7FbxE6MCwxM96dzN4Ik8FXfgl_vPR8,96272
+FastWARC.libs/liblz4-af1653fb.so.1.8.3,sha256=8PieEuq3o9hwVWfd-vwFBL0Cv1L8iAFUDbaSNJKjH_I,68576
+FastWARC-0.6.1.dist-info/entry_points.txt,sha256=IW6T7e-kb8Wr7Jd1g3u6zzG5TRVPDbGb0izYCSPZQvY,48
+FastWARC-0.6.1.dist-info/WHEEL,sha256=Vqd_n_IKgR469FNqkIoqwEhrX3PSWel3O4QQXU4e5pU,150
+FastWARC-0.6.1.dist-info/top_level.txt,sha256=kd2NdQA_61TyRclx6gmvrHOEiEqZh8LDqGMxfmsOEDw,9
+FastWARC-0.6.1.dist-info/RECORD,,
+FastWARC-0.6.1.dist-info/METADATA,sha256=oUQZSrCd5Iaz-6_OsshBSnFzaKKy_c00p1jpFZGlYs0,2171
+fastwarc/warc.pxd,sha256=040XJ_SQMsCJkoXzX_5WglPMu-OzVgr58CivdyYjdF0,3362
+fastwarc/__init__.py,sha256=nnaFAC-2x0BhCKEJOeHnvwdIbeUW4YXyUb1oVzDdllY,750
+fastwarc/cli.py,sha256=cqTxgQrlWnlqDiBlxN5kWRrG37Goam_iQltSkSDaFn8,17924
+fastwarc/tools.cpython-37m-x86_64-linux-gnu.so,sha256=V1cL-uatR_SwTRAi1_M36DtjG7_BESMNUwkFMFJvRFI,927744
+fastwarc/stream_io.cpython-37m-x86_64-linux-gnu.so,sha256=fmrRk2lj3OR6xFxyJzzJsdlRqrgYHQgg2236niJW0xY,1081256
+fastwarc/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastwarc/warc.cpython-37m-x86_64-linux-gnu.so,sha256=PA4EItQ6OMZlRAmopo8CW_g5E7zpIhETf5eBxjRjCAo,2877672
+fastwarc/stream_io.pxd,sha256=EAbz3r0GIY4F7J6Z3oNG9AQcMfFNPpSq2WHD0U1I7GA,4164
