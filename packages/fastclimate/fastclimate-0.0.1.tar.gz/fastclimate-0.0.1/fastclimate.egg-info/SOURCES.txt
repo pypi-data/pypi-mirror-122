@@ -1,0 +1,17 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fastclimate/__init__.py
+fastclimate/_nbdev.py
+fastclimate/core.py
+fastclimate/data.py
+fastclimate.egg-info/PKG-INFO
+fastclimate.egg-info/SOURCES.txt
+fastclimate.egg-info/dependency_links.txt
+fastclimate.egg-info/entry_points.txt
+fastclimate.egg-info/not-zip-safe
+fastclimate.egg-info/requires.txt
+fastclimate.egg-info/top_level.txt
