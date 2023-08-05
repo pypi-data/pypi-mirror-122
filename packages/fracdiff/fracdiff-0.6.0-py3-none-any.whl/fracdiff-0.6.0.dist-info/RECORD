@@ -1,0 +1,14 @@
+fracdiff/__init__.py,sha256=kvRnU-2C42M5MIYAQgCTVgkliD_MEGGh259Gx2UWv-E,799
+fracdiff/fdiff.py,sha256=hHhaKFTyoohcqXGk5F1jWUZwYxvr-oztpmq0d2z-1Rg,5579
+fracdiff/sklearn/__init__.py,sha256=iG7SaAs_DqSmWHVa8nsHRwDdCUwuDEZSp3GySmZoAlo,70
+fracdiff/sklearn/fracdiff.py,sha256=XFuRlpR8YTgBSaBHLcHl0LnoRcXWldvBXEggK6VSd3w,4196
+fracdiff/sklearn/fracdiffstat.py,sha256=-NLscxm2Z1_YH0k2uHQ-4WEFKD1J5SBNSxzElRVLmgk,6378
+fracdiff/sklearn/stat.py,sha256=JO9jWSY-PiqSn13XslsZT-HHdWx_SOpaMzRyT_NcRxM,2339
+fracdiff/sklearn/tol.py,sha256=cQl9XB6Ugsb-3idTKvX_csEZL_AV0Y_mxa6NysNlgMM,2260
+fracdiff/torch/__init__.py,sha256=2GXRiES4dFJrKTr93l_TzPHUeQTAwWeSSPEDZLSc_wA,94
+fracdiff/torch/functional.py,sha256=mgK9WKQqXSbK46HI7oAFoh4o30ZP-nMxhoIxhsJW-6o,4382
+fracdiff/torch/module.py,sha256=cwA83nS1oH7MrHiTV_rHW6JVWTbGdNUW8DbZ6YY6ULM,3312
+fracdiff-0.6.0.dist-info/LICENSE,sha256=N-L588nMCMO2lk3oyAzVcO0JQL01NGGIITU-cd0z1LU,1516
+fracdiff-0.6.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+fracdiff-0.6.0.dist-info/METADATA,sha256=r8Oz1ms4a4ibDLW80_huA8mRuYyFsB1xM1N2DSFcn-o,823
+fracdiff-0.6.0.dist-info/RECORD,,
