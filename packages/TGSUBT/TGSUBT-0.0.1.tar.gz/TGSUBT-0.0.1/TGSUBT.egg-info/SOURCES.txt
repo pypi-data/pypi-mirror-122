@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+TGSUBT.egg-info/PKG-INFO
+TGSUBT.egg-info/SOURCES.txt
+TGSUBT.egg-info/dependency_links.txt
+TGSUBT.egg-info/requires.txt
+TGSUBT.egg-info/top_level.txt
