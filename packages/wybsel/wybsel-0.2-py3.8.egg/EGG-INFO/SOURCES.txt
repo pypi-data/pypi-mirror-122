@@ -1,0 +1,12 @@
+README.rst
+setup.py
+wybsel/__init__.py
+wybsel/wybsel.py
+wybsel.egg-info/PKG-INFO
+wybsel.egg-info/SOURCES.txt
+wybsel.egg-info/dependency_links.txt
+wybsel.egg-info/requires.txt
+wybsel.egg-info/top_level.txt
+wybsel/drivers/chrome_linux
+wybsel/drivers/chrome_mac
+wybsel/drivers/chrome_windows.exe
