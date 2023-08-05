@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cavd
+Version: 0.5.1
+Summary: Crystal structure Analysis by Voronoi Decomposition
+Home-page: https://www.bmaterials.cn
+Author: HeBing
+Author-email: shhebing@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+
+UNKNOWN
+
