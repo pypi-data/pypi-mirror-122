@@ -1,0 +1,13 @@
+Antichecked Exceptions
+======================
+
+Antichecked Exceptions are an alternative to checked exceptions. They're
+designed to actively catch bugs, and to prevent silencing exceptions for
+the sake of satisfying the compiler (as usually happens with checked
+exceptions).
+
+Rather than requiring the caller to catch some exceptions, Antichecked
+Exceptions intercepts some raised exceptions, and helps guarantee to the
+caller, if the caller opts to catch some exception, that the exception
+was actually raised by a deliberate design decision rather than a typo
+or bug.
