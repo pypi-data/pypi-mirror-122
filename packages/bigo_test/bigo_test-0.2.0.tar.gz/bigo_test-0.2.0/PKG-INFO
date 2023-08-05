@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: bigo_test
+Version: 0.2.0
+Summary: bigo_test module provides assersions and common time complexity class for asserting
+Author-email: Naveen Anil <big-o-test@nvn-nil.in>
+Classifier: License :: OSI Approved :: MIT License
