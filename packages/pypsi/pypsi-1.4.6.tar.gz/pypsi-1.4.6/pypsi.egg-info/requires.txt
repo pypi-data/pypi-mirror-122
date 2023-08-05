@@ -1,0 +1,11 @@
+chardet>=2.0.1
+
+[:platform_system == "Windows"]
+pyreadline>=2.1
+
+[dev]
+pytest>=3.6.2
+pytest-cov>=2.5.1
+pylint<=2.11.1
+pycodestyle>=2.4.0
+coverage
