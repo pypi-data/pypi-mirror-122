@@ -1,0 +1,17 @@
+taurex_petitrad/__init__.py,sha256=VxDFf-7CKYQKV5E5eh-eMHxbdpavaGIRuvQ2CfBX3M0,227
+taurex_petitrad/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taurex_petitrad/model/directimage.py,sha256=wsWZbxISswOHZmSJG2n1Gmbtw8fcpz0C9YeMUDltgKY,1860
+taurex_petitrad/model/emission.py,sha256=W6D1rdbZO_lEFwrjcKotsJCDma0wrvoFADiJYBSsi4g,881
+taurex_petitrad/model/petitradtrans.py,sha256=rl0YmA3Yjg7cbWzM3nND4nyegkM-MYmoeM8n-_JiOuE,7735
+taurex_petitrad/model/transmission.py,sha256=cOguacSa0V2ldj87_YmZWsPNN0cVsJablmkc0_fP5Kw,5105
+taurex_petitrad/opacities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taurex_petitrad/opacities/ck.py,sha256=7z3J3Fl3edz3ubMGJAdVZocVdYqP-KMF78pODbWICZM,5263
+taurex_petitrad/opacities/linebyline.py,sha256=vWBEjvlk-_eR5yCc65BYoX-IOOAwd5B4YR928NlFuRI,5066
+taurex_petitrad/util/__init__.py,sha256=XgSNyhSnTCFaNLdEKu8W7-w6gWh_K3W4bxlfL-mOPFM,121
+taurex_petitrad/util/moleculepath.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taurex_petitrad-0.3.0a0.dist-info/LICENSE,sha256=DoG5vq4CzCb_14BchqjUFZHgaNAUIIRJonAxSKw1v7s,1522
+taurex_petitrad-0.3.0a0.dist-info/METADATA,sha256=H9UbfrLqUoq5q16L071uAWfhZ9ZU-LMwrwt9WLLTjgo,4897
+taurex_petitrad-0.3.0a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+taurex_petitrad-0.3.0a0.dist-info/entry_points.txt,sha256=Z3NlIs3E7Foah8pq-5OLqUToGr6oDcrUl6N41jOylOY,45
+taurex_petitrad-0.3.0a0.dist-info/top_level.txt,sha256=B6x42J2RotatNe91UazTKpa2H4rsu1q5whbnMPRjvZQ,16
+taurex_petitrad-0.3.0a0.dist-info/RECORD,,
