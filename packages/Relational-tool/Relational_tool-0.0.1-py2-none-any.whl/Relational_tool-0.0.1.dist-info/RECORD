@@ -1,0 +1,14 @@
+relational_tool/__init__.py,sha256=r-WzZKnebkJf1t90fbvnWOFKy-jUm49gLFvWj1FB2wE,96
+relational_tool/maintenance.py,sha256=XtQVxKsPI64LH6nCNjbH4TX3IzVh3fk8VMs7_b5Pe-0,7286
+relational_tool/optimizations.py,sha256=-YIq4FzNwpMiT-59fzFCz28mMPngl-ay9wOLNc87-4g,19318
+relational_tool/optimizer.py,sha256=l5sd7YRDIQ5q8HbX5MYKs7tbLojKCBsJTzMoB0MFXSM,5689
+relational_tool/parser.py,sha256=jgc-MGkH4qBu6RatN93Mn2BNISsLQOCp8HMqVvAKY30,16478
+relational_tool/querysplit.py,sha256=NwOqpNTKF1MHlwg796v15x9RojR43HMVFoxs3iXsPPY,2964
+relational_tool/relation.py,sha256=pjs00dt4SGwjxA35CZ1EkGhNnJAwMTp9Fnat84QyBdk,18496
+relational_tool/relational.py,sha256=Ao_xuQ_y5YMsqi2_Zya1lRaYSpoWBEJ5fdZPUTbYJVE,4073
+relational_tool/rtypes.py,sha256=q1TldRtX0E_DILgXOT4kG15QfQZxabSXLTxan3erJo0,3131
+Relational_tool-0.0.1.dist-info/LICENSE,sha256=bCh8Pu3mrxPJ0NOcb2rnhZwOZyfRlVaFEp6dTzyDx74,1071
+Relational_tool-0.0.1.dist-info/METADATA,sha256=_F8WaQca7yOTKuyAscxGMJh7KU42VFNP_uRvu0v47JY,578
+Relational_tool-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+Relational_tool-0.0.1.dist-info/top_level.txt,sha256=GpThARvXt8i_U2gZz_OJ2VFbJ8pXpw5v_gvVt2mv7HE,16
+Relational_tool-0.0.1.dist-info/RECORD,,
