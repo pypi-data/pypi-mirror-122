@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: artefacts
+Version: 0.1.0rc0
+Summary: Utilities for building on dbt artifacts
+Home-page: https://github.com/tjwaterman99/artefacts
+Author: Tom Waterman
+Author-email: tjwaterman99@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+License-File: LICENSE
+
+Please see the documentation site https://github.com/tjwaterman99/artefacts
+
