@@ -1,0 +1,1 @@
+from gbsoft.HandTrackingModule import  HandDetector
