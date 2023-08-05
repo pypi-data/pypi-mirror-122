@@ -1,0 +1,12 @@
+README.md
+license.txt
+setup.py
+chromilo-distributions/Binomialdistribution.py
+chromilo-distributions/Gaussiandistribution.py
+chromilo-distributions/Generaldistribution.py
+chromilo-distributions/__init__.py
+chromilo_distributions.egg-info/PKG-INFO
+chromilo_distributions.egg-info/SOURCES.txt
+chromilo_distributions.egg-info/dependency_links.txt
+chromilo_distributions.egg-info/not-zip-safe
+chromilo_distributions.egg-info/top_level.txt
