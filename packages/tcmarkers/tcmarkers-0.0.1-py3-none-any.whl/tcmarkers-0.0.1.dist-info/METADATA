@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tcmarkers
+Version: 0.0.1
+Summary: "Tropical Storm and Hurricane Markers for Matplotlib"
+Home-page: UNKNOWN
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+UNKNOWN
+
