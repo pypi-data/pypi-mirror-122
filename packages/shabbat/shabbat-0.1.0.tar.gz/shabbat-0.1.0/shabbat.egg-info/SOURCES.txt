@@ -1,0 +1,9 @@
+README.md
+setup.py
+shabbat/Shabbat.py
+shabbat/__init__.py
+shabbat.egg-info/PKG-INFO
+shabbat.egg-info/SOURCES.txt
+shabbat.egg-info/dependency_links.txt
+shabbat.egg-info/requires.txt
+shabbat.egg-info/top_level.txt
