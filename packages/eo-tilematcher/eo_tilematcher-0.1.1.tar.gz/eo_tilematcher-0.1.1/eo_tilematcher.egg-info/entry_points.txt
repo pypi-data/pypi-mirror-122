@@ -1,0 +1,3 @@
+[console_scripts]
+eo_tilematcher = eo_tilematcher.__main__:match_tiles
+
