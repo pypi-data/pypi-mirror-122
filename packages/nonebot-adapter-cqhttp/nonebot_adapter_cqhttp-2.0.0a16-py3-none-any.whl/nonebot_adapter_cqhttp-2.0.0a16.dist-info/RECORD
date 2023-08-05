@@ -1,0 +1,12 @@
+nonebot/adapters/cqhttp/__init__.py,sha256=Izylx5KTEJefUc92xPUldvqxsA_5KF4jJLzwnn0e2UA,776
+nonebot/adapters/cqhttp/bot.py,sha256=tgJNNDu3u4QZSKLmxkh_DnQBklG1_qHp-YYWq-X8FJ8,16066
+nonebot/adapters/cqhttp/bot.pyi,sha256=WlvqUcvMiL4mCX47APBxNTAx7LwvujwVyuhXL7ZdO88,14897
+nonebot/adapters/cqhttp/config.py,sha256=KumholcShoT_cYuhSGtyGAWdAUrcqpiO7BhZm9N_2o0,852
+nonebot/adapters/cqhttp/event.py,sha256=gas1ZHFpeJrPUGpCZKr0oaYLkzfP_P-KDsDu71ppJ90,14927
+nonebot/adapters/cqhttp/exception.py,sha256=QWYIlh7DjnlSFby4tCpUmYt-rVVFpwCJRcOaV1AiD4Q,1347
+nonebot/adapters/cqhttp/message.py,sha256=oEOMuIdjtwT3bcn5GNsE_ntRZmSKvfG54tJr0nx7-1w,10271
+nonebot/adapters/cqhttp/permission.py,sha256=tdjfa0HkFj3KIjy9cRgGHT_yWvEaCiBi4H_zBZKJtk4,2374
+nonebot/adapters/cqhttp/utils.py,sha256=4pa8cWg1tvBs-osqElfEYShj4X0AgUWGB-6kbOnPYy0,959
+nonebot_adapter_cqhttp-2.0.0a16.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+nonebot_adapter_cqhttp-2.0.0a16.dist-info/METADATA,sha256=lULwQnHVmtKY3SPt_lQyFvDyvf3QlhcuDbWfkRmXms8,1216
+nonebot_adapter_cqhttp-2.0.0a16.dist-info/RECORD,,
