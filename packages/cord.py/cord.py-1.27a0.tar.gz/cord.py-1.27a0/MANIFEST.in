@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+include cord/bin/*.dll
+include cord/py.typed
