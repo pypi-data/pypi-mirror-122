@@ -1,0 +1,17 @@
+agentclpr/__init__.py,sha256=6fMgfC5nKIX3dnBDZiYQtNzr8CQuh_Cs2Gbuh5jvSWM,657
+agentclpr/infer/__init__.py,sha256=yQNlUSawxbuIJwkHctHUKeJhrzIKzCvsIYCTrt6-X_I,66
+agentclpr/infer/detector.py,sha256=J3rY3xrHBFTJ4g2SlgTsFjiBSKz1kjv0TvYibEF8gHo,3411
+agentclpr/infer/server.py,sha256=1GMHr0BXWr-Av8OSZKcPALExxpz96GhRMY6nlcZQ_go,687
+agentclpr/infer/system.py,sha256=J5n_lICJB6_-HUfw3TrsWytA6IbU1ULWfqEukqGDROQ,2390
+agentclpr/infer/utility.py,sha256=RUDL___oa0bOj8qubEbiJA9K64Z9FnBFcJ_nY_nRCrM,5015
+agentclpr/resources/char_dicts/clp_dict.txt,sha256=r0dnL59_3_dXqdt0TJAVuU-5LxKRQMH8AZjmWUnamCQ,292
+agentclpr/resources/pretrained_models/ch_mul_m_cls.onnx,sha256=EKe852Zq6NkzWrd8qgHvonc0SE0gFYIvxVGK8qJbIL0,583872
+agentclpr/resources/pretrained_models/ch_mul_v2_c_det.onnx,sha256=qAz1Mch-VHP11Nt1U_--yIYM9USpuyH1IFeyB7mOujI,2338661
+agentclpr/resources/pretrained_models/clp_det.onnx,sha256=G7B9NkujscyownF20-prWZe2Jk3qjJME4JLGGLES1fA,1708577
+agentclpr/resources/pretrained_models/clp_v2_c_rec.onnx,sha256=kPL4dbK-LvvTYPDqlZqdFeXXkGf1MTO6ZW9btHVjPQ0,5815720
+agentclpr-1.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+agentclpr-1.1.0.dist-info/METADATA,sha256=9dCprQhI7zhrJBUc-MNZ5NfegITe73U7CHRxI-3aMhs,3915
+agentclpr-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+agentclpr-1.1.0.dist-info/entry_points.txt,sha256=qanI9AqoAw-t1pRiipy-erL7tI-A6VgOI9mSQoFxj7Q,49
+agentclpr-1.1.0.dist-info/top_level.txt,sha256=o1fcArhLTOYXmT9KscSnss99zxArLiAMYc2-OZIjOWQ,10
+agentclpr-1.1.0.dist-info/RECORD,,
