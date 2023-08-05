@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cracklib-pkg/__init__.py
+src/cracklib-pkg/cracklib.py
+src/cracklib_pkg.egg-info/PKG-INFO
+src/cracklib_pkg.egg-info/SOURCES.txt
+src/cracklib_pkg.egg-info/dependency_links.txt
+src/cracklib_pkg.egg-info/top_level.txt
