@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: skypy-api
+Version: 0.0.1
+Summary: Framework to connect to the Hypixel Skyblock API
+Home-page: https://github.com/FuchsCrafter/skypy
+Author: FuchsCrafter
+License: MIT
+Description: Framework to connect to the Hypixel Skyblock API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
