@@ -1,0 +1,10 @@
+README.md
+setup.py
+amwater/__init__.py
+amwater/amwater.py
+amwater.egg-info/PKG-INFO
+amwater.egg-info/SOURCES.txt
+amwater.egg-info/dependency_links.txt
+amwater.egg-info/entry_points.txt
+amwater.egg-info/requires.txt
+amwater.egg-info/top_level.txt
