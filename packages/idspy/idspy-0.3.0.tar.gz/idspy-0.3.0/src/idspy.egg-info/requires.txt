@@ -1,0 +1,15 @@
+clldutils
+openpyxl
+pybtex
+pylexibank>=2.8.2
+
+[dev]
+flake8
+twine
+wheel
+
+[test]
+coverage>=4.2
+pytest-cov
+pytest-mock
+pytest>=5
