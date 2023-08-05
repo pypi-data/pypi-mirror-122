@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+TopsPy/TopsPy.egg-info/PKG-INFO
+TopsPy/TopsPy.egg-info/SOURCES.txt
+TopsPy/TopsPy.egg-info/dependency_links.txt
+TopsPy/TopsPy.egg-info/requires.txt
+TopsPy/TopsPy.egg-info/top_level.txt
