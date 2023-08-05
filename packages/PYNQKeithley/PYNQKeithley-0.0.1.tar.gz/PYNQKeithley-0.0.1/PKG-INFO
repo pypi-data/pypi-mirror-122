@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PYNQKeithley
+Version: 0.0.1
+Summary: Scientific measurement library for instruments, experiments, and live-plotting
+Home-page: https://github.com/pratik-kr/PYNQKeithley
+Author: Pratik Kumar
+License: MIT License
+Download-URL: https://github.com/pratik-kr/PYNQKeithley.git
+Description: UNKNOWN
+Keywords: measure instrument experiment control automate graph plot
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: matplotlib
+Provides-Extra: tcp
+Provides-Extra: python-vxi11
