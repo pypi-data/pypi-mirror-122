@@ -1,0 +1,8 @@
+MANIFEST.in
+requirements.txt
+setup.py
+chamber/__init__.py
+chamber.egg-info/PKG-INFO
+chamber.egg-info/SOURCES.txt
+chamber.egg-info/dependency_links.txt
+chamber.egg-info/top_level.txt
