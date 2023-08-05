@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ao3-poster
+Version: 0.0.7
+Summary: Automatically post to ao3
+Home-page: https://github.com/sandalwoodbox/ao3-poster
+Author: sandalwoodbox
+Author-email: boxofsandalwood@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
+Provides-Extra: flake8
+Provides-Extra: docs
+License-File: LICENSE
+
+
+# ao3-poster [![Build Status](https://travis-ci.org/sandalwoodbox/ao3-poster.svg?branch=master)](https://travis-ci.org/sandalwoodbox/ao3-poster)
+
+AO3 Poster was originally designed for podficcers who are trying to upload a backlog of podfic to AO3 that had previously been hosted on other services.
+Its focus is therefore on bulk posting data from spreadsheets to AO3 and templating of work text (for cover art, media players, etc.)
+
+Full documentation is at https://ao3-poster.readthedocs.io/en/latest/.
+
+

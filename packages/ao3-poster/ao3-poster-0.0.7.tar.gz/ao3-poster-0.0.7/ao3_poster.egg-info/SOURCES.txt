@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ao3_poster/__init__.py
+ao3_poster/__version__.py
+ao3_poster/ao3.py
+ao3_poster/cli.py
+ao3_poster/exceptions.py
+ao3_poster.egg-info/PKG-INFO
+ao3_poster.egg-info/SOURCES.txt
+ao3_poster.egg-info/dependency_links.txt
+ao3_poster.egg-info/entry_points.txt
+ao3_poster.egg-info/requires.txt
+ao3_poster.egg-info/top_level.txt
