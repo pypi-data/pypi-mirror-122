@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+data_toolkit/__init__.py
+data_toolkit/mock_dataset.py
+datatoolkit.egg-info/PKG-INFO
+datatoolkit.egg-info/SOURCES.txt
+datatoolkit.egg-info/dependency_links.txt
+datatoolkit.egg-info/entry_points.txt
+datatoolkit.egg-info/top_level.txt
