@@ -1,0 +1,14 @@
+autobricks/ApiUtils.py,sha256=HQe4KXycOk8BCUewBi6fW-0WAVD-9RC6jWp7psfJJOc,3326
+autobricks/Auth.py,sha256=V04URUvvsHvfN2LRvQBK1DOd9P0K-rSsJ6tdx39iSVY,2583
+autobricks/AuthFactory.py,sha256=I4UlC98LaMT_i1oep_Vn8d3wPelyyudLue3ej85trm8,897
+autobricks/Cluster.py,sha256=KnsIiWe3xyX5gfUpv0AeD6HtCoQUa_8EkOUrxNsCtgk,9093
+autobricks/Configuration.py,sha256=Gbuz52YIkrdEpxTZztToY0t70i2UmrxK8uJXXPL2wmA,654
+autobricks/Dbfs.py,sha256=_m0ba8v2AHC5bLaiTMmx6BqF7WNiTnc7TkwMdt2SMT0,3134
+autobricks/Job.py,sha256=5c2LSJzksOsbnfVVnKcZIfJrFWENj8kwO9rmEGSrr7w,3726
+autobricks/Library.py,sha256=jrsyW0dXf3gRj3irtRghJAR9N6QzwO4JBXjc4xglFow,1372
+autobricks/SetupTools.py,sha256=KtM87Jx18vpGLWkZBRTWcXqRc1ei3aGsTJKl0R2Zz1o,7516
+autobricks/Workspace.py,sha256=9jWJZdxlG38lK3k884acd2PHhgg51lmQne5_M502Fn0,9269
+autobricks-0.1.0.dist-info/METADATA,sha256=g2als3tEJTTKFCCyP0RDFFemNUD5hYVMFcKb7V8xAoc,1057
+autobricks-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+autobricks-0.1.0.dist-info/top_level.txt,sha256=6d5iAzed2LYXrT5r03r-bzaetDE6Uau8QLFpluVsKmA,11
+autobricks-0.1.0.dist-info/RECORD,,
