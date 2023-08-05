@@ -1,0 +1,11 @@
+pragmail/__init__.py,sha256=M0w7eWvhp_5R36eG-e9Fl8UwT4J7oCrY8_hOgYpVn6g,998
+pragmail/__version__.py,sha256=hDb2AgKKYnFw8ca8Hj6aGji0Nzwjf7Mi4msU6CL4qPo,42
+pragmail/clients.py,sha256=H_GsnCal-xDWrb0TURSoPh_g-MGVk4HkOgZuaRSmFWk,8638
+pragmail/exceptions.py,sha256=z4Pj-roX1zZqwo7PtehcPRoHmhMdRoA3lgH2BQ-a16k,778
+pragmail/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pragmail/transports.py,sha256=hoVXKiPNl772ryCUMvggZEFM2ogKk7rjBBzvqn-QU48,10342
+pragmail/utils.py,sha256=WChK5shuNJNbGzGbZsUwZu5JvF6irXEbRCzZPmcUDLU,5570
+pragmail-0.2.4.dist-info/LICENSE,sha256=s4Jhozue3wVM2rJXkPk1zgRUGE1MFOgFPTs9i84Bzt0,1074
+pragmail-0.2.4.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+pragmail-0.2.4.dist-info/METADATA,sha256=wddS9-AkDFHpo0JR6qPocKkptKLF3zIjIuinXsPdHzM,1839
+pragmail-0.2.4.dist-info/RECORD,,
