@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: fastclimate
+Version: 0.0.1
+Summary: A description of your project
+Home-page: https://github.com/Hevia/fastclimate/tree/main/
+Author: Anthony Hevia
+Author-email: anthony@hevia.dev
+License: Apache Software License 2.0
+Keywords: climate
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: geopandas (>=0.9.0)
+Requires-Dist: packaging
+Requires-Dist: pip
+Provides-Extra: dev
+
+# Fastclimate
+> Testing out nbdev
+
+
+This file will become your README and also the index of your documentation.
+
+## Install
+
+`pip install fastclimate`
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```
+from fastclimate.data import *
+
+test_stuff()
+```
+
+
+
+
+    2
+
+
+
+
