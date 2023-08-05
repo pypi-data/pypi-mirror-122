@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: namemc
+Version: 8888
+Summary: It's just a name snipe.
+Home-page: UNKNOWN
+Author: kggn
+License: MIT
+Description: # NameMC
+        It's just a name snipe.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

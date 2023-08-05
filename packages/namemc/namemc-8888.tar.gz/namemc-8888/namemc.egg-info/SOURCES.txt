@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+8888/__init__.py
+namemc.egg-info/PKG-INFO
+namemc.egg-info/SOURCES.txt
+namemc.egg-info/dependency_links.txt
+namemc.egg-info/top_level.txt
