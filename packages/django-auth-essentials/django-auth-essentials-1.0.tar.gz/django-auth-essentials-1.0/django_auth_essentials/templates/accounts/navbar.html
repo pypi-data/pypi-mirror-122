@@ -1,0 +1,27 @@
+<div class="ui inverted purple segment">
+
+    <div class="ui secondary  inverted menu">
+        <div class="ui container">
+            <a href="{% url 'profile' %}" class="ui item">
+              Profile
+            </a>
+            <div class="right menu">
+                {% if user.is_authenticated %}
+                <a href="{% url 'password_change' %}" class="ui item">
+                    Change Password
+                </a>
+                <a href="{% url 'logout' %}" class="ui item">
+                    LogOut
+                </a>
+                {% else %}
+                <a href="{% url 'login' %}" class="ui item">
+                    LogIn
+                </a>
+                <a  href="{% url 'register' %}" class="ui item">
+                    SignUp
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{% extends 'accounts/base.html' %}
+
+{% block title %}LogOut{% endblock title %}
+
+<!-- 
+    Available contexts:
+        - title: {{title}} (str)
+        - site: {{site}} (str)
+        - site_name: {{site_name}} (str)
+ -->
+
+{% block content %}
+
+    <div class="ui grid">
+        <div class="five wide column"></div>
+        <div class="six wide column">
+            <div class="ui teal segment">
+                <p>You've logged out from your account. <a href="{% url 'login' %}">LogIn.</a></p>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

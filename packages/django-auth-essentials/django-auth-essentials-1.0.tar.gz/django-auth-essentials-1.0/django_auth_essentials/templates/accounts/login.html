@@ -1,0 +1,91 @@
+{% extends 'accounts/base.html' %}
+
+{% block title %}LogIn{% endblock title %}
+
+<!-- 
+    Available context:</p>
+        - form: a login form
+        - next: {{next}} (str)
+        - site: {{site}} (str)
+        - site_name: {{site_name}} (str)
+ -->
+
+{% block content %}
+
+    <div class="ui grid">
+        <div class="three wide column"></div>
+        <div class="six wide column">
+        
+            {% if form.errors %}
+                <div class="ui warning message">
+                    <i class="close icon"></i>
+                    <div>
+                        {{form.errors.username}}
+                    </div>
+                    <div>
+                        {{form.errors.password}}
+                    </div>
+                    {% if '__all__' in form.errors %}
+                        <div>
+                            Invalid username and/or password.
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        
+            {% if messages %}
+                {% for msg in messages %}
+                    <div class="ui info message">
+                        <i class="close icon"></i>
+                        <div>
+                            {{msg}}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        
+            <h2 class="ui black header">Log In</h2>
+        
+            <form class="ui form" action="" method="POST">
+                {% csrf_token %}
+                <p>
+                    {{ form.username.label }}
+                    {{ form.username }}
+                </p>
+                <p>
+                    {{ form.password.label }}
+                    {{ form.password }}
+                </p>
+
+                <input class="ui fluid tiny basic teal button" type="submit" value="LogIn" id="">
+            </form>
+        
+        </div>
+        <div class="four wide column">
+
+            <div class="ui teal segment">
+                <p>Don't have an account? <a href="{% url 'register' %}">SignUp.</a></p>
+                {% if ALLOW_PASSWORD_RESET %}
+                    <p>Forgot password? <a href="{% url 'password_reset' %}">Reset Password.</a></p>
+                {% endif %}
+                {% if ALLOW_VERIFICATION %}
+                    <p>Did not receive account verification email or verification link expired? <a href="{% url 'resend_verification' %}">Resend verification email.</a></p>
+                {% endif %}        
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+{% block scripts %}
+    <script>
+        $('.message .close')
+            .on('click', function() {
+                $(this)
+                .closest('.message')
+                .transition('fade')
+                ;
+            })
+        ;
+    </script>
+{% endblock scripts %}

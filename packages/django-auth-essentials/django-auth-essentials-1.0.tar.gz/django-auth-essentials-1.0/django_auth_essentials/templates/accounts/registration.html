@@ -1,0 +1,94 @@
+{% extends 'accounts/base.html' %}
+
+{% block title %}Sign Up{% endblock title %}
+
+
+{% block content %}
+
+    <div class="ui grid">
+        <div class="three wide column"></div>
+        <div class="six wide column">
+            {% if form.errors %}
+                <div class="ui warning message">
+                    <i class="close icon"></i>
+                    <div>
+                        {{form.errors.username}}
+                    </div>
+                    <div>
+                        {{form.errors.email}}
+                    </div>
+                    <div>
+                        {{form.errors.password1}}
+                    </div>
+                    <div>
+                        {{form.errors.password2}}
+                    </div>
+                </div>
+            {% endif %}
+
+            <h2 class="ui black header">Sign Up</h2>
+            
+            <form class="ui form" action="" method="POST">
+                {% csrf_token %}
+                <p>
+                    {{form.username.label}}
+                    {{form.username}}
+                </p>
+                <p>
+                    {{form.email.label}}
+                    {{form.email}}
+                </p>
+                <p>
+                    {{form.password1.label}}
+                    {{form.password1}}
+                </p>
+                <p>
+                    {{form.password2.label}}
+                    {{form.password2}}
+                </p>
+        
+                <input type="submit" class="ui fluid tiny basic teal button" value="SignUp">
+            </form>
+        </div>
+        <div class="four wide column">
+            <div class="ui red segment">
+                <ol class="ui list">
+                    <li value="-">
+                        Username has to be 150 characters or fewer. Letters, digits and @/./+/-/_ only.
+                    </li>
+                    <br>
+                    <li value="-">
+                        Your password can’t be too similar to your other personal information.
+                    </li>
+                    <br>
+                    <li value="-">
+                        Your password must contain at least 8 characters.
+                    </li>
+                    <br>
+                    <li value="-">
+                        Your password can’t be a commonly used password.
+                    </li>
+                    <br>
+                    <li value="-">
+                        Your password can’t be entirely numeric.
+                    </li>
+                </ol>
+                <p>Already have an account? <a href="{% url 'login' %}">LogIn.</a></p>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+{% block scripts %}
+    <script>
+        $('.message .close')
+            .on('click', function() {
+                $(this)
+                .closest('.message')
+                .transition('fade')
+                ;
+            })
+        ;
+    </script>
+{% endblock scripts %}
