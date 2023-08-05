@@ -1,0 +1,4 @@
+fastnode2vec
+scipy
+skspatial
+pandas
