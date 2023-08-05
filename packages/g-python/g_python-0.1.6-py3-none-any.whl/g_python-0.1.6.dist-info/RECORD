@@ -1,0 +1,15 @@
+g_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+g_python/g_python_bot.py,sha256=jKIgMkSBJKGiHxfVKdgaWLUxJH35-DqDgZdYYeaFeiw,2336
+g_python/gextension.py,sha256=JzcUcjjjT2FMhwvVwuUyyS1-dmvDOVQ_J5XpGEQX7qs,19321
+g_python/hdirection.py,sha256=P7Ega6TaakqHDosyCzqIoS6oFsMN_bMoLkGnSKHcJEI,89
+g_python/hmessage.py,sha256=7gpzqj1PVp-g7TLvpoxyTp7GmKzdWVUZQOEWF2Hsq1I,1064
+g_python/hpacket.py,sha256=CkwTMxFwSFayH1Hz1ZVpV2SoyBWwG5uO_-6WZvB2e3I,8660
+g_python/hparsers.py,sha256=rQ3METTZ2A0wHzii_gADWaGRyaeDGWlYpJfELBSSMIA,9719
+g_python/htools.py,sha256=Vtxd0RNt_r8yPvBePHJj9a2yMTIOZlEoYRE-gGTV3-Y,6339
+g_python/hunityparsers.py,sha256=-zVQcn6YYlnC7x0M51tEAM0_gol4MKMzQfSh4Lj5aoE,5040
+g_python/hunitytools.py,sha256=lElpkUA_1yqBnCzf7LeEZhSkwkU5-K0mYBoFm4A__00,4496
+g_python-0.1.6.dist-info/LICENSE,sha256=h0RLs53Vc-evBheVlTGuU34QNnFcBI4jCqEH_URViGk,1089
+g_python-0.1.6.dist-info/METADATA,sha256=BAkVPkLwnenBoOhvmW2erzFYVoQkUMh1dT4BTaOqg8E,4229
+g_python-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+g_python-0.1.6.dist-info/top_level.txt,sha256=z-xPaT2ly3Rm6cs5aWndUiG0T59JdFpK7VL9k86Rt90,9
+g_python-0.1.6.dist-info/RECORD,,
