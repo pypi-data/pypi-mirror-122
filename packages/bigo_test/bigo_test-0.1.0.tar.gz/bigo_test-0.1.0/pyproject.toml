@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bigo_test"
+authors = [{name = "Naveen Anil", email = "big-o-test@nvn-nil.in"}]
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+
+[tool.poetry]
+name = "big_o_test"
+version = "0.1.0"
+description = ""
+authors = ["Naveen Anil <big-o-test@nvn-nil.in>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+big-O = "^0.10.1"
+numpy = "^1.21.2"
+
+[tool.poetry.dev-dependencies]
+flit = "^3.3.0"
+pre-commit = "^2.15.0"
+behave = "^1.2.6"
