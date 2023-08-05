@@ -1,0 +1,14 @@
+
+# Second article
+Published: Wed 29 February 2012
+By Alexis Métaireau
+Category: misc
+Tags: foo, bar, baz
+Translations:
+=> ./second-article-fr.gmi fr
+
+
+This is some article, in english
+
+
+=> ./index.gmi ↩ Index

@@ -1,0 +1,4 @@
+{% extends "index.gmi" %}
+{% block content_title %}
+## Articles tagged with {{ tag }}
+{% endblock %}

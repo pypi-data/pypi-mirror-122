@@ -1,0 +1,7 @@
+[console_scripts]
+gemican=gemican.__main__:main
+gemican-import=gemican.tools.gemican_import:main
+gemican-plugins=gemican.plugins._utils:list_plugins
+gemican-quickstart=gemican.tools.gemican_quickstart:main
+gemican-themes=gemican.tools.pelican_themes:main
+

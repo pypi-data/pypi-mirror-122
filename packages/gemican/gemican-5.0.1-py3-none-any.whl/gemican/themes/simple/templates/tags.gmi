@@ -1,0 +1,7 @@
+{% extends "base.gmi" %}
+{% block content %}
+## Tags for {{ SITENAME }}
+{% for tag, articles in tags|sort %}
+=> {{ SITEURL }}/{{ tag.url }} {{ tag }} ({{ articles|count }})
+{% endfor %}
+{% endblock %}

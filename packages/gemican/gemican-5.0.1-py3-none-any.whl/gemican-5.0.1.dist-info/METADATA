@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: gemican
+Version: 5.0.1
+Summary: Static gemini capsule generator supporting Markdown and Gemtext
+Home-page: https://github.com/khoulihan/gemican
+License: AGPLv3
+Keywords: static site generator,static sites,ssg,gemini
+Author: Kevin Houlihan
+Author-email: kevin@crimsoncookie.com
+Requires-Python: >=3.6.7,<4.0.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Content Management System
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Provides-Extra: markdown
+Requires-Dist: Twisted (>=21.7.0,<22.0.0)
+Requires-Dist: blinker (>=1.4)
+Requires-Dist: docutils (>=0.16)
+Requires-Dist: feedgenerator (>=1.9)
+Requires-Dist: jinja2 (>=2.7)
+Requires-Dist: md2gemini (>=1.8.1,<2.0.0); extra == "markdown"
+Requires-Dist: pyOpenSSL (>=20.0.1,<21.0.0)
+Requires-Dist: python-dateutil (>=2.8)
+Requires-Dist: python-magic (>=0.4.24,<0.5.0)
+Requires-Dist: pytz (>=2020.1)
+Requires-Dist: rich (>=10.1)
+Requires-Dist: service-identity (>=21.1.0,<22.0.0)
+Requires-Dist: unidecode (>=1.1)
+Project-URL: Documentation, https://portal.mozz.us/gemini/gemini.hyperlinkyourheart.com/gemicandocs/
+Project-URL: Repository, https://github.com/khoulihan/gemican
+Project-URL: Tracker, https://github.com/khoulihan/gemican/issues
+Description-Content-Type: text/markdown
+
+# Gemican
+
+Gemican is a static gemini capsule generator, written in [Python](https://www.python.org/), and based on the static site generator [Pelican](https://github.com/getpelican/pelican).
+
+* Write content in [Markdown](https://daringfireball.net/projects/markdown/) or directly in Gemtext using your editor of choice
+* Includes a simple command line tool to (re)generate capsule files
+* Easy to interface with version control systems and web hooks
+* Completely static output is simple to host anywhere
+
+
+## Features
+
+Gemican’s feature highlights include:
+
+* Chronological content (e.g., articles, blog posts) as well as static pages
+* Site themes (created using Jinja2_ templates)
+* Publication of articles in multiple languages
+* Generation of Atom and RSS feeds
+* Import existing content from WordPress, Dotclear, or RSS feeds
+* Fast rebuild times due to content caching and selective output writing
+
+Check out [Gemican's documentation](gemini://gemini.hyperlinkyourheart.com/gemicandocs/) for further information.
+
+
+## Source code
+
+Gemican's source code is [hosted on GitHub](https://github.com/khoulihan/gemican). If you feel like hacking, take a look at [Pelican's internals](gemini://gemini.hyperlinkyourheart.com/gemicandocs/pages/gemican-internals.gmi).
+
+
+## Why the name "Gemican"?
+
+"Gemican" is an anagram of *camegin*, which means nothing.
+
+Only joking - Gemican is based on the Pelican static site generator, and took its name from that.
+
