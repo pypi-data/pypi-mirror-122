@@ -1,0 +1,6 @@
+tree_sitter_parsers/__init__.py,sha256=OgeUaWPwsvT5XosOSBZvKETNc0eW9M6UGubgSQlmRAg,67
+tree_sitter_parsers/ast_parser.py,sha256=npJbsDiZFsuwPIbevZcfTdd1gC_wKYGC3pfaqAHsS0w,4860
+tree_sitter_parsers-0.0.5.dist-info/METADATA,sha256=f3xMCBwof8Hsr1tCaxgVavwqQeN870pi_7w0Mx9LazM,566
+tree_sitter_parsers-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tree_sitter_parsers-0.0.5.dist-info/top_level.txt,sha256=6vVGdumXewMWpNx3Znq-TpX5btN_YlGAigY1S_M-7Tg,20
+tree_sitter_parsers-0.0.5.dist-info/RECORD,,
