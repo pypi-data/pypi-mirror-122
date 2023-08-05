@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: RWFileLock
+Version: 0.1.1
+Summary: Readers / writers file lock helper class
+Home-page: https://github.com/inab/RWFileLock
+Author: José Mª Fernández
+Author-email: jose.m.fernandez@bsc.es
+License: LGPLv2
+Project-URL: Bug Tracker, https://github.com/inab/RWFileLock/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Readers / writers file lock Python helper class
+
+This library was created in order to ease the synchronization of several processes
+using shared resources, like a caching directory or a SQLite database. All of them
+can use the resources, but only one should update them.
+
+The library is being used in several INB projects.
+
+
