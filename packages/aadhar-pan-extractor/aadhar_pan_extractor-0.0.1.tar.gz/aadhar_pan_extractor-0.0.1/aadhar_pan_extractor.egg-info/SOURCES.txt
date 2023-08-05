@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+aadhar_pan_extractor/Aadhar_Extractor.py
+aadhar_pan_extractor/Pan_Extractor.py
+aadhar_pan_extractor/__init__.py
+aadhar_pan_extractor.egg-info/PKG-INFO
+aadhar_pan_extractor.egg-info/SOURCES.txt
+aadhar_pan_extractor.egg-info/dependency_links.txt
+aadhar_pan_extractor.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aadhar-pan-extractor
+Version: 0.0.1
+Summary: extracts Aadhaar and extracts Pan information
+Home-page: UNKNOWN
+Author: Deepak Singh Chauhan
+Author-email: deepaksingh0034602@gmail.com
+License: MIT
+Keywords: aadhar extracts information
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Description: This script extracts Aadhaar and extracts Pan information from the image uploaded by consumer. The result is returned
+as a json object.
+
+
+
+Change Log
+==========
+
+0.0.1 (21/10/2021)
+-------------------
+- First Release
+
