@@ -1,0 +1,12 @@
+dash_latex/DashLatex.py,sha256=BKRpB5psCG10Q-8w_AUOA6x6Cq2hzpU1-AZbmQZZydk,6335
+dash_latex/__init__.py,sha256=vtgR96Uk_0ntPKPotKHLMsd7VjXRK3J5eFc3-fKwuPs,1256
+dash_latex/_imports_.py,sha256=2CbzJ1v5y7UyhcUgI9Ff5ujYT0b2kFyR8N2wqr_p_9g,63
+dash_latex/dash_latex.min.js,sha256=NEYtgqENoFHXlRbu_lAG3gCwwW1yewr09AfXVyRd5VE,2149430
+dash_latex/dash_latex.min.js.map,sha256=A6_HpKCGn6RxwKZCqN98k0oRrBfo5--zNIe2wYznwic,2871968
+dash_latex/metadata.json,sha256=kQ0JNtsXpw-QQ0TomEICmtq_AvUhsApPmmNpFRxY6NQ,6580
+dash_latex/package-info.json,sha256=RWKe3AeJwBUtQjukamBcWe2javoYIwKws7LWiHXQxDo,2022
+dash_latex-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_latex-0.0.1.dist-info/METADATA,sha256=gFNWpb_cEbeg9GImI6TICW40HomSxKrQAs_yziGRamk,254
+dash_latex-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+dash_latex-0.0.1.dist-info/top_level.txt,sha256=tBWKg0Ot3vVpfZfXs80QhCFUrsA3Y1QU_2cN_wtvjp0,11
+dash_latex-0.0.1.dist-info/RECORD,,
