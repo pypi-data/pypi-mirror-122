@@ -1,0 +1,71 @@
+{
+    "name": "materialdashboard",
+    "version": "0.5.0",
+    "description": "Dashboard with a material design",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/flovouin/materialdashboard.git"
+    },
+    "bugs": {
+        "url": "https://github.com/flovouin/materialdashboard/issues"
+    },
+    "homepage": "https://github.com/flovouin/materialdashboard",
+    "main": "build/index.js",
+    "scripts": {
+        "generate": "ts-node ./component-generation/generate-components.ts",
+        "start": "webpack-serve --config ./webpack.serve.config.js --open --port 8888",
+        "validate-init": "python _validate_init.py",
+        "prepublishOnly": "npm run validate-init",
+        "build:js": "webpack --mode production",
+        "build:py_and_r": "dash-generate-components ./src/lib/components materialdashboard -p package-info.json --r-prefix '' --jl-prefix ''",
+        "build:py_and_r-activated": "(. venv/bin/activate || venv\\scripts\\activate && npm run build:py_and_r)",
+        "build": "npm run build:js && npm run build:py_and_r",
+        "build:activated": "npm run build:js && npm run build:py_and_r-activated",
+        "lint": "eslint --ext .ts,.js ."
+    },
+    "author": "Flo Vouin <florent.vouin@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "ramda": "0.27.1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.15.0",
+        "@babel/plugin-proposal-object-rest-spread": "7.14.7",
+        "@babel/preset-env": "7.15.0",
+        "@babel/preset-react": "7.14.5",
+        "@emotion/react": "11.4.1",
+        "@emotion/styled": "11.3.0",
+        "@mui/material": "5.0.1",
+        "@mui/icons-material": "5.0.1",
+        "@types/mustache": "4.1.2",
+        "@types/node": "15.12.5",
+        "@typescript-eslint/eslint-plugin": "4.29.3",
+        "@typescript-eslint/parser": "4.29.3",
+        "babel-eslint": "10.1.0",
+        "babel-loader": "8.2.2",
+        "clsx": "1.1.1",
+        "copyfiles": "2.4.1",
+        "css-loader": "6.2.0",
+        "eslint": "^7.29.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "2.24.2",
+        "eslint-plugin-react": "7.24.0",
+        "mustache": "4.2.0",
+        "npm": "^7.19.1",
+        "prop-types": "15.7.2",
+        "react": "17.0.2",
+        "react-docgen": "^5.4.0",
+        "react-dom": "17.0.2",
+        "style-loader": "^3.0.0",
+        "styled-jsx": "4.0.0",
+        "ts-morph": "11.0.3",
+        "ts-node": "10.2.1",
+        "typescript": "4.3.5",
+        "webpack": "5.51.1",
+        "webpack-cli": "4.8.0"
+    },
+    "engines": {
+        "node": ">=8.11.0",
+        "npm": ">=6.1.0"
+    }
+}
