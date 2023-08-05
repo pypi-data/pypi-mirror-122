@@ -1,0 +1,9 @@
+burau/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+burau/curve.py,sha256=RvLtrWbqgid8vW7mYqEnhYA7lVrZFntuKIed67G0-18,13234
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_curve.py,sha256=F5KkM_0VbqXn8F1UPde8JtosPNFiLfkLhrA069iD0ww,2875
+burau-0.0.3.dist-info/LICENSE,sha256=yUUg4qxaJCeNp-0rTn8qLhzbh8SHMeJwLdtq9q_3KxY,1082
+burau-0.0.3.dist-info/METADATA,sha256=QIJSWsgEOk_D4aRfRh6NS5B9X_MDo0ODahOVLmyUz9Y,5872
+burau-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+burau-0.0.3.dist-info/top_level.txt,sha256=T1tZn0aFikx-hmk60unf1XVwn2ayldNpF6mgL1VK3r4,12
+burau-0.0.3.dist-info/RECORD,,
