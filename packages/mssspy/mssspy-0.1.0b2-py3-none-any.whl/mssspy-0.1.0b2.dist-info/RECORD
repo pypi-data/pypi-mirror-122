@@ -1,0 +1,12 @@
+mssspy/__init__.py,sha256=G3KkhRxl8s4vN7Jhbs7jplNKCG4Igk1pdtQBNyd8TPg,5953
+mssspy/base_readers.py,sha256=Tn6tqn_ApHBwYcGqyAyVhQm0X3GSPQOkIGnykjBFYwo,7758
+mssspy/exceptions.py,sha256=FPFZ7uV8a--QODjFEPdSpMEnBw5HB38sJxBFWN9iBvU,139
+mssspy/faster_reader.py,sha256=Jea3m7Oq-MBgLIBrlYadAcciwZ_0v-wwehI6PHSUiTU,4749
+mssspy/index.py,sha256=YWftsWiot4LrXVX45FHwGjyONg7Y9ARx1waGcLWVrnA,317
+mssspy/sample.py,sha256=w-yR3Ro-uxUGS6trZdTleV8rcVksfxYuZfO937YjFak,1171
+mssspy/slow_reader.py,sha256=9gv9EG49mCbz8sNKtBSVbazaQLMSetaS3Ip_JD98e8E,6354
+mssspy/utils.py,sha256=EFoCprcFnDefeAJXAqHSagQyTH635mhautVZlynGfqw,4345
+mssspy-0.1.0b2.dist-info/METADATA,sha256=THp7rRwe9G9qVxLluTn0UYrCPFzSdlDk9sxfGALbLag,3325
+mssspy-0.1.0b2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mssspy-0.1.0b2.dist-info/top_level.txt,sha256=dyptUvkuXfk9xRrxUNFFwAbxuM-vVPlBuPOGLZ2XvAA,7
+mssspy-0.1.0b2.dist-info/RECORD,,
