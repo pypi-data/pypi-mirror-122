@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dupimport.egg-info/PKG-INFO
+dupimport.egg-info/SOURCES.txt
+dupimport.egg-info/dependency_links.txt
+dupimport.egg-info/entry_points.txt
+dupimport.egg-info/top_level.txt

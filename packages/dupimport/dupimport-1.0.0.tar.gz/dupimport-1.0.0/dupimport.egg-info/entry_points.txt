@@ -1,0 +1,3 @@
+[console_scripts]
+dupimport = dupimport:main
+
