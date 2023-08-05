@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: epub-editor
+Version: 0.0.3
+Summary: EPUB files metadata editor
+Home-page: https://github.com/shuvava/epub-metadata-editor
+License: GPL-3.0
+Keywords: epub editor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: transliterate
+
+# EPUB metadata editor
+update epub files metadata
+
+## Usage example 
+
+```sh
+./epub-upater.py --verbosity
+    -f=~/test*.epub
+    -a="some author"
+    -b
+```
+
+## Arguments
+
+|    Argument    | Description                 |
+|:--------------:|:---------------------------:|
+| `-f, --files`  | path to file(s)             |
+| `-a, --author` | set author metadata         |
+| `-t, --title`  | set title metadata          |
+| `-b, --backup` | create backup before update |
+
+
