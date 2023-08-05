@@ -1,0 +1,5 @@
+[console_scripts]
+openspace = openspace.geoplanner:run
+reach_demo = openspace.reach_demo:run
+sda_demo = openspace.sda_demo:run
+
