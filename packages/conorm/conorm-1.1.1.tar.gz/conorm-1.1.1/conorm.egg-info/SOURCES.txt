@@ -1,0 +1,9 @@
+README.md
+setup.py
+conorm/__init__.py
+conorm/normalize.py
+conorm.egg-info/PKG-INFO
+conorm.egg-info/SOURCES.txt
+conorm.egg-info/dependency_links.txt
+conorm.egg-info/requires.txt
+conorm.egg-info/top_level.txt
