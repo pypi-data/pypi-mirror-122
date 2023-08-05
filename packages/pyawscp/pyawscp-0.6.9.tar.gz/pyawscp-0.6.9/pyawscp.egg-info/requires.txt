@@ -1,0 +1,12 @@
+Pygments
+XlsxWriter
+arnparse
+boto3>=1.14.2
+botocore>=1.17.63
+clipboard
+pyreadline
+pyreadline
+requests
+svglib
+tinydb
+websockets
