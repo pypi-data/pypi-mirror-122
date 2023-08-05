@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/avdal.egg-info/PKG-INFO
+src/avdal.egg-info/SOURCES.txt
+src/avdal.egg-info/dependency_links.txt
+src/avdal.egg-info/top_level.txt
+src/config/__init__.py
+src/config/config.py
