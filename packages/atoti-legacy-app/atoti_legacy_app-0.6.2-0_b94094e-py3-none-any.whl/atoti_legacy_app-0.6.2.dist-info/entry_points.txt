@@ -1,0 +1,3 @@
+[atoti.plugins]
+legacy-app = atoti_legacy_app._plugin:LegacyAppPlugin
+
