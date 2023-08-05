@@ -1,0 +1,13 @@
+eoepca_uma/__init__.py,sha256=cnnayMd5RuWkzr9tSYsP6z_8jxgn-0YusalF7JQ7of8,122
+eoepca_uma/client.py,sha256=GllOD2Pyje8tOgf6GspZbRyGWH_qLr-Ozb1zch_EOAE,4677
+eoepca_uma/main.py,sha256=KIaMDsqniYJBPi1ihlliyIqI2JDgGMYvtyDTTCHihBQ,502
+eoepca_uma/resource.py,sha256=MefNc_nP8YDdPrFktsIZzxF3FvkQHstin6msUqVBPqI,10719
+eoepca_uma/rpt.py,sha256=OtZX7bAbYbotslQ85xl0zn2CT0xVr40nrkLrH6GC5TA,9509
+eoepca_uma/utils.py,sha256=Q32VCnJXOKtGt9j7BOWWD_U-QDZnhD6WKx4yMJXb8IU,1025
+eoepca_uma/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eoepca_uma/tests/rpt_test.py,sha256=AsL1MpXVsZ-lJzkaxLtugWi2wBVrGFsKtmXk9e_IvTI,3411
+eoepca_uma-0.2.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eoepca_uma-0.2.4.dist-info/METADATA,sha256=jch1YOXykKT0o_ant3K-Sa2-3XXRtnRmQelGix7Dvsk,4592
+eoepca_uma-0.2.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+eoepca_uma-0.2.4.dist-info/top_level.txt,sha256=WwXMJVLFoVov4TmVUmLC-qF92BC7iAF3wdM8RzT_a-M,11
+eoepca_uma-0.2.4.dist-info/RECORD,,
