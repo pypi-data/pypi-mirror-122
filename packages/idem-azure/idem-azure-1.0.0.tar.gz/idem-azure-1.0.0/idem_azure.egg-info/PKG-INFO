@@ -1,0 +1,218 @@
+Metadata-Version: 2.1
+Name: idem-azure
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://gitlab.com/saltstack/pop/idem-azure
+Author: Tom Hite
+Author-email: thite@vmware.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+==========
+idem-azure
+==========
+
+.. image:: https://img.shields.io/badge/made%20with-pop-teal
+   :alt: Made with pop, a Python implementation of Plugin Oriented Programming
+   :target: https://pop.readthedocs.io/
+
+.. image:: https://img.shields.io/badge/made%20with-python-yellow
+   :alt: Made with Python
+   :target: https://www.python.org/
+
+This project enables `Idem <https://gitlab.com/saltstack/pop/idem>`__ users
+to leverage `Microsoft Azure Resource Manager (ARM) <https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/overview>`__
+functionality to declare and enforce the state of cloud infrastructure,
+applications, configurations, and more.
+
+About
+=====
+
+Microsoft Azure is a public cloud service that provides a broad array of,
+among other things, compute, network and storage services. This
+[Plugin Oriented Programming (POP)](https://gitlab.com/saltstack/pop/pop)
+implementation provides a plugin extension for Idem that enables declarative
+state control of Azure resources.
+
+This project is an early implementation of a modern POP plugin for ARM.
+It does not yet cover all of Azure, in fact much work remains to do so. The
+state of the project is a sufficient model to show how further
+`POP Subs <https://pop.readthedocs.io/en/latest/topics/subs_overview.html>`__
+can be reasonably written and added to the project.
+
+What is POP?
+------------
+
+This project is built with `pop <https://pop.readthedocs.io/>`__, a Python-based
+implementation of *POP*. POP seeks to bring together concepts and wisdom from the
+history of computing in new ways to solve modern computing problems.
+
+For more information:
+
+* `Intro to Plugin Oriented Programming (POP) <https://pop-book.readthedocs.io/en/latest/>`__
+* `pop-awesome <https://gitlab.com/saltstack/pop/pop-awesome>`__
+* `pop-create <https://gitlab.com/saltstack/pop/pop-create/>`__
+
+Getting Started
+===============
+
+In order to use this plugin, a few prerequisites must be satisfied and the plugin must be
+installed in an environment supporting the prerequisites..
+
+Prerequisites
+-------------
+
+* Python 3.6+; and
+* git *(only if installing from source, or contributing to the project)*.
+
+Installation
+------------
+
+To use ``idem-azure``, you can do so by either installing from PyPI or
+from source.
+
+Install via Pip
++++++++++++++++
+
+.. code-block:: bash
+
+   pip install idem-azure
+
+Install From Source
++++++++++++++++++++
+
+.. code-block:: bash
+
+   # clone the idem-azure repo
+   git clone git@<your-project-path>/idem-azure.git
+   cd idem-azure
+
+   # Setup venv
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -e .
+
+Usage
+=====
+
+To use idem-azure, you must create a valid credentials dictionary, which is
+passed to the POP `acct <https://gitlab.com/saltstack/pop/acct>`__ plugin. You
+Then can use the Idem command line interface to interact with ARM.
+
+Credentials with Acct
+---------------------
+Store your Azure credentials in a named file, for example myazurecreds.yaml
+that you will encrypt and provide to Idem. Consider the following example.
+
+.. code-block:: yaml
+
+   azurerm:
+      default:
+         client_id: "abcdef-aabb-ccdd-eeff-aabbccddeeff"
+         secret: "X2KRwdcdsQn9mwjdt0EbxsQR3w5TuBOR"
+         subscription_id: "12345678-90ab-cdef-1234-567890abcdef"
+         tenant: "cafe1234-0987-6543-210f-abcdefabcdef"
+
+Then prepare the credentials by encrypting them for use by Idem via the
+acct command line interface. The acct plugin will encrypt the file with the
+Fernet algorithm.
+
+.. code-block:: bash
+
+   (env) $ acct myazurecreds.yaml > myazurecreds.key
+
+
+That will create two new files: an encrypted file at myazurecreds.yaml.fernet
+and a file containing the decryption key at myazurecreds.key.
+
+If desired, you can now remove the original myazurecreds.yaml file.
+
+Keep the myazurecreds.key file safe as anyone with that file can use your
+Azure account to create and use resources consistent with the policy attached
+to the credentials.
+
+.. code-block:: bash
+
+   (env) $ rm myazurecreds.yaml
+
+
+To pass the credential information to the POP acct plugin, you can pass the
+credentials via the Idem command line or via the environment. This example
+sets up environment variables.
+
+.. code-block:: bash
+
+   (env) $ export ACCT_KEY="$(cat /path/to/myazurecreds.key"
+
+Example State (SLS) File
+------------------------
+You can create a state file that declares the desired state of various Azure
+resources. For example, `vm-create.sls <examples/vm-create.sls>`__ creates a
+virtual machine with various network and disk attachments. The file
+`vm-delete.sls <examples/vm-delete.sls>`__ deletes the same resources.
+
+To create the virtual machine and supporting resources, you would issue a
+command similar to that below.
+
+.. code-block:: bash
+
+   (env) $ idem state examples/vm-create.sls
+
+Note that Idem and POP implementations are both idempotent and asynchronous
+in their operations. Therefore, you can run that same command multiple times
+without harming the outcome intent of the state declarations.
+
+To delete the virtual machine and related resources, you would issue a command
+simillar to that below.
+
+.. code-block:: bash
+
+   (env) $ idem state examples/vm-delete.sls
+
+As noted above, POP plugins are asynchronous by nature, therefore some of the
+state declarations may fail because Azure will refuse to delete certain
+resources, such as subnets, when they are referenced by other resources, for
+example virtual machines.
+
+In order to reconcile the errors, run the command multiple times until all
+state delarations produce no errors.
+
+Roadmap
+=======
+
+   Update **open issues** link below with link to GitHub/GitLab/etc. issues page
+
+Reference the `open issues <https://issues.example.com>`__ for a list of
+proposed features (and known issues).
+
+Contributing
+============
+The idem-azure project team welcomes contributions from the community. Before
+you start working with idem-azure, please read our
+`Developer Certificate of Origin <https://cla.vmware.com/dco>`__. All
+contributions to this repository must be signed as described on that page.
+Your signature certifies that you wrote the patch or have the right to pass it
+on as an open-source patch. For more detailed information, refer to
+`CONTRIBUTING.rst. <CONTRIBUTING.rst>`__
+
+
+Acknowledgements
+================
+
+* `Img Shields <https://shields.io>`__ for making repository badges easy.
+
+
