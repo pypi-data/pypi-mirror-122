@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: blacksheep-jwt
+Version: 0.1.0
+Summary: A JSON Web Token library for the BlackSheep web framework
+License: MIT
+Author-email: q0w <43147888+q0w@users.noreply.github.com>
+Requires-Python: >=3.7
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attrs>=20
+Requires-Dist: blacksheep>=1.0.9
+Requires-Dist: pyjwt>=2, <3
+Provides-Extra: orjson
+Requires-Dist: orjson~=3.6; extra == "orjson"
+Project-URL: Homepage, https://github.com/q0w/blacksheep-jwt/
+Project-URL: Repository, https://github.com/q0w/blacksheep-jwt/
+Description-Content-Type: text/markdown
+
+# blacksheep-jwt
+
