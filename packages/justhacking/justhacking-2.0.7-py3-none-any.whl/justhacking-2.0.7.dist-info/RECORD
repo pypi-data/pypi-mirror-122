@@ -1,0 +1,10 @@
+justhacking/__init__.py,sha256=oaV6oJ8M5tSIn6k-kvtd6ym4dOp07QLpQvmBB4eTxSg,80
+justhacking/__main__.py,sha256=PySN9Bs3QqM9_ZDI1m-snqy6VFMkfVMt9l4A5D4stzA,108
+justhacking/jh_cmdcenter.py,sha256=K7ZCBWb98qWZJxRvZ6OOU7lAigy2BVW07uMTmNQBPQg,12529
+justhacking/jh_matrix.py,sha256=scZD15fLA4sqXLq9Uv3cz6YSlgHnKwso7uIPZbMIS0o,6544
+justhacking/justhacking.py,sha256=OOos6_2u8utXMaLZQDjPplsskxH5Zvfa4D31NmhCMXo,160
+justhacking-2.0.7.dist-info/METADATA,sha256=mP1a_Rr52i5onhA22FV0Es0WEsEzuNbYBjWri5AvE74,556
+justhacking-2.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+justhacking-2.0.7.dist-info/entry_points.txt,sha256=Bo160OCLXKzz-2hWHdN40AAbR8naMF6wTGLnupDR3Fs,64
+justhacking-2.0.7.dist-info/top_level.txt,sha256=ci35cfRVlbOBK4mk_9DFO5V0QQt683SnT_GhgvVxUM0,35
+justhacking-2.0.7.dist-info/RECORD,,
