@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: kitmaioog
+Version: 0.0.2
+Summary: kitmaioog
+Home-page: UNKNOWN
+Author: kitmaioog
+Author-email: 6314120015@mutacth.com
+License: MIT
+Description: if you dont know what i will code use it!!
+Keywords: kitmaioog,kitmaioog,NECSINMUT,NECS1201
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
