@@ -1,0 +1,12 @@
+coincidencetest/__init__.py,sha256=SDHESkYSS0ndxSs5QSl5Gmlp5kjCDiHYAasTsFrtgRo,85
+coincidencetest/_coincidencetest.py,sha256=C79EzOvTs8s3O2GHxgclI_lmNuR6BLBHeuA_DE1yv7Y,11492
+coincidencetest/fca.py,sha256=OTleNfBx8uK2z1yvHSRnC0chHn-zqih8ePpy5CHuPMc,4931
+coincidencetest/log_formats.py,sha256=z5H4b4p5UrA3a9EnzpfADGC22HvuapLUTZVhqIFhLg8,2339
+coincidencetest/version.txt,sha256=phVSvZad-OqKy8Q8pyiMu01dODZaYQyAIaQn4mpRhR0,5
+coincidencetest-1.0.8.data/scripts/coincidence-clustering,sha256=pEdVglgGJjbleoK9Ua9AlA8dgkxBlG2QwgeBb5udchE,5141
+coincidencetest-1.0.8.data/scripts/coincidencetest-distribution-plot,sha256=tK3xrCIPy6V11G_8PQDBajUoj0ZLwLTYnpGBXv53uDs,2108
+coincidencetest-1.0.8.data/scripts/coincidencetest-plot,sha256=qfElyy9R1CxkcZvysTfOXeZMCmBt2NZ0zG5-jvX1Mxs,4208
+coincidencetest-1.0.8.dist-info/METADATA,sha256=ni-Zj4OAi8Q3G3FEb5QFkXZ_8mB3G5YnpWL8lBtN0sg,4152
+coincidencetest-1.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+coincidencetest-1.0.8.dist-info/top_level.txt,sha256=KVRzLEDRlzHIUQtK7XZEVVPFnIx2F-8cw43RoLGp2MM,16
+coincidencetest-1.0.8.dist-info/RECORD,,
