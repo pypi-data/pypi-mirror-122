@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: jsonformat
+Version: 0.0.1
+Summary: Simple command line utility to format json files.
+Home-page: UNKNOWN
+Author: Alex Pylypenko
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.3
