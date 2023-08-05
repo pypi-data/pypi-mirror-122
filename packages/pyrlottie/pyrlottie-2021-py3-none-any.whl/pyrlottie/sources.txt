@@ -1,0 +1,12 @@
+gif2webp: https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
+
+Darwin libwebp-1.2.1-mac-10.15.tar.gz
+Linux  libwebp-1.2.1-linux-x86-64.tar.gz
+Windows libwebp-1.2.1-windows-x64.zip
+
+
+rlottie + lottie2gif: https://github.com/Samsung/rlottie/tree/327fb7dbaad225555d5ca567b9adee9ce5f879f4
+
+Darwin
+Linux
+Windows (built using ms-vscode + cmake)

@@ -1,0 +1,12 @@
+pyrlottie/__init__.py,sha256=yIwmSkzESBqCSNfQ3FoqdsZy5hgTRwe3ChDJYGcgtKk,14451
+pyrlottie/_darwin_x86_64/gif2webp,sha256=cSppluxKKYvaQHIqqCc6aUthrSYqXhiH4pAdlKjNIM4,671424
+pyrlottie/build_steps.txt,sha256=kayKKc5Ptw-oWPv8rkQtk70s4l2L3ervAksScFsJOPk,410
+pyrlottie/linux_x86_64/gif2webp,sha256=wgGlTkeO8R7x28Hwmi3xWtD4Att8_Ph4aojEBO-F-iQ,1552040
+pyrlottie/linux_x86_64/lottie2gif,sha256=FdB0wUbGdrMLtkiANv1v3qwfwhzoqHLvI1Qe3XRvLlk,33728
+pyrlottie/sources.txt,sha256=bNKOoTnP7o5GJZSnuU4BWv7kpXK3-1BTSjGlyd2VAI4,381
+pyrlottie/windows_amd64/gif2webp.exe,sha256=uD5f7Z8GMyVFh5PDUkJDwjNeQmtA81YlbSVXqv-Z1rg,732160
+pyrlottie/windows_amd64/lottie2gif.exe,sha256=cb_bzSBlGvJnDEVOhRBe4xVOzyXm1_sYqy7jeTxihHs,112640
+pyrlottie-2021.dist-info/LICENSE.md,sha256=QTHKN2X5ExucEuYGhgKL7s-jBGX9w0OvWUjCea5Us4g,1190
+pyrlottie-2021.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+pyrlottie-2021.dist-info/METADATA,sha256=f0f1uQ54FeTo826Tf51i-4ysYDyfE9pMz5BvStn2oUg,8311
+pyrlottie-2021.dist-info/RECORD,,
