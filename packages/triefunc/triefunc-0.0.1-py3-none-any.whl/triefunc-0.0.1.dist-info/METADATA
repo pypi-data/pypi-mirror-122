@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: triefunc
+Version: 0.0.1
+Summary: Basic Trie Package
+Home-page: UNKNOWN
+Author: Ayush Singh
+Author-email: <intelligentprogrammer123@gmail.com>
+License: UNKNOWN
+Keywords: python,trie,basic
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Basic Trie Package with some functionalities
+
+
