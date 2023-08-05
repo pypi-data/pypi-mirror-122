@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: TopsPy
+Version: 0.0.0
+Summary: Say hello!
+Home-page: https://github.com/BijanSeif
+Author: Bijan Sayyafzadeh
+Author-email: b.sayyaf@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: blessings (~=1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# TOpsPY
+
+**Bijan Sayyafzadeh (b.sayyaf@yahoo.com)**
+
+This module conatin my functions for openseespy and two great persons (Dr. Silivia Mazzoni and Ph.D. Candidate Selamawit Dires) had key role on these functions and their developments. 
+
+In the followint I will explain them more
+
