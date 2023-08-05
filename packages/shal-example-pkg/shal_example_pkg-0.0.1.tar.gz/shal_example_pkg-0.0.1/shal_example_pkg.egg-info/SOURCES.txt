@@ -1,0 +1,7 @@
+LICENSE.txt
+README.txt
+setup.py
+shal_example_pkg.egg-info/PKG-INFO
+shal_example_pkg.egg-info/SOURCES.txt
+shal_example_pkg.egg-info/dependency_links.txt
+shal_example_pkg.egg-info/top_level.txt
