@@ -1,0 +1,31 @@
+# KWANTICHAP LIBRARY
+ฉันชื่อขวัญฑิชา กลิ่นขจาย เป็นนักศึกษาของ MUT ค่ะ ไลบรารี่นี้ใช้สำหรับการเรียนรู้เพื่อสร้างไลบรารี่เป็นของตัวเอง ไม่มีการแสวงหาผลกำไรแต่อย่างใด มีฟังก์ชั่นการใช้งานดังนี้
+  - แสดงยอดเงินคงเหลือ 
+  - ฝากเงิน
+  - ถอนเงิน
+
+
+# HOW TO INSTALL
+
+เราจะติดตั้ง Library ผ่าน pip ของ python ได้เลย
+* SUPPORT PYTHON V3
+
+```sh
+python3 -m pip install mynondarkzone
+```
+
+วิธีการใช้
+- เปิด Python แล้วพิพม์ตามนี้เลย
+
+```sh
+from kwantichap import BankOnline
+
+# เปิดบัญชี
+myaccount = BankOnline("nonthiwat")
+# แสดงยอดเงินคงเหลือ
+myaccount.check_money()
+# ฝากเงิน
+myaccount.deposit(100)
+# ถอนเงิน
+myaccount.withdraw(50)
+```
