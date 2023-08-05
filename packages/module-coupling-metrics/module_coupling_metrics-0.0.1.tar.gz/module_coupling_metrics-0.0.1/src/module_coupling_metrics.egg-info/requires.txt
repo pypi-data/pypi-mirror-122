@@ -1,0 +1,4 @@
+pydeps
+pandas
+seaborn
+matplotlib

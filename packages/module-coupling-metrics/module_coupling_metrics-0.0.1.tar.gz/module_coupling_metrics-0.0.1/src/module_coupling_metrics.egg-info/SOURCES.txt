@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/module_coupling_metrics/__init__.py
+src/module_coupling_metrics/__main__.py
+src/module_coupling_metrics/app.py
+src/module_coupling_metrics/metrics.py
+src/module_coupling_metrics/project_structure.py
+src/module_coupling_metrics/reflection.py
+src/module_coupling_metrics.egg-info/PKG-INFO
+src/module_coupling_metrics.egg-info/SOURCES.txt
+src/module_coupling_metrics.egg-info/dependency_links.txt
+src/module_coupling_metrics.egg-info/entry_points.txt
+src/module_coupling_metrics.egg-info/requires.txt
+src/module_coupling_metrics.egg-info/top_level.txt

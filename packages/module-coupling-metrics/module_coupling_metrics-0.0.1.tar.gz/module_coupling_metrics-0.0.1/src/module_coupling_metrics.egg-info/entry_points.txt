@@ -1,0 +1,3 @@
+[console_scripts]
+module_coupling_metrics = module_coupling_metrics.app:main
+
