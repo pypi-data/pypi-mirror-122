@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: moduleweb
+Version: 1.2.1
+Summary: A simple, intuitive and user-friendly library based on Aiohttp, written for faster and more convenient web development in Python🎍
+Home-page: https://github.com/machnevegor/moduleweb
+Author: Egor Machnev
+Author-email: egorikhelp@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python library framework web async aiohttp moduleweb
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
