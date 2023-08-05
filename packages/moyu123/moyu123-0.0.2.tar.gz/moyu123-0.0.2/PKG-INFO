@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: moyu123
+Version: 0.0.2
+Summary: python常用工具集
+Home-page: UNKNOWN
+Author: moyu123
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+**moyu123(摸鱼)**
+
+# 说明
+
+Python编程常用函数和工具集合
+
+# 使用方法
+
+`pip install --upgrade moyu123`
+
+# 工具列表
+
+## database 数据库相关
+
+- light_orm：简单的orm接口编程，不必事先定义orm映射类也能操作表。
+- S3Helper：操作 aws s3对象存储的类
+
+# io 文件读写相关
+
+- logger：loguru的封装，防止重复生成logger对象
+
+# pandas dataframe常用函数封装
+
+- pd_orm：模拟orm操作dataframe
+
+# plot 简答绘图
+
+- plotly-express：plotly的封装
+- seaborn：seaborn的封装
+
+# timeseries 时序数据操作相关
+
+
