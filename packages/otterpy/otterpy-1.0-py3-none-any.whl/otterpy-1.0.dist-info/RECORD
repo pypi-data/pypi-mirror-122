@@ -1,0 +1,12 @@
+otter/__init__.py,sha256=R3grDAfxbGn98bDjreVWoy8ckJRHd_gywBS8dTAPCFE,83
+otter/client.py,sha256=MmiAPINCx81MxqcCu-HFt9SPI7mYtDq_j2Bu4R4a89I,977
+otter/constants.py,sha256=bSAiOtd3JKZAPrbjul14EqD83Lu_aY3EZw-4Laz1n0Y,112
+otter/core.py,sha256=-on2ZTgblZ5HQfT6p4JBGl4Nsx6HPIU9CrbMh0-99v0,3004
+otter/decorators.py,sha256=J41KEtHbnW7Hm2nnxl8C4Nki4HVrMNZ6lkxziEeosqw,492
+otter/singleton.py,sha256=lekH6c1_5CxJgYcKxU16h08x7aSYjmpHpV9v2stmDgE,638
+otter/utils.py,sha256=KRjpzEbaM2hZ1eyik8v418cgzytM2GtRUPoDh0dEmFk,178
+otterpy-1.0.dist-info/LICENSE,sha256=HesI_v6couO286JeCR0uhH41zAPyMExmzPZx_aF4_AE,1109
+otterpy-1.0.dist-info/METADATA,sha256=qD-Vb3YaZhmOQaKTvamb2oM6XnkWVPujYewoQUIMvjU,3317
+otterpy-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+otterpy-1.0.dist-info/top_level.txt,sha256=Wth72sCwBRUk3KZGknSKvLQDMFuJk6qiaAavMDOdG5k,6
+otterpy-1.0.dist-info/RECORD,,
