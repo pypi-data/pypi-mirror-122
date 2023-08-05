@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: justhacking
+Version: 2.0.1
+Summary: Just Hacking is a Python CLI script that stimulates as you are hacking.
+Home-page: UNKNOWN
+Author: Divinemonk
+Author-email: <v1b7rc8eb@relay.firefox.com>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,justhacking,divinemonk,hacking stimulation,cli,python hacking,console
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
