@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+simplex/__init__.py
+simplex/magic_dictionary.py
+simplex/simplex_dictionary.py
+simplex_dictionary.egg-info/PKG-INFO
+simplex_dictionary.egg-info/SOURCES.txt
+simplex_dictionary.egg-info/dependency_links.txt
+simplex_dictionary.egg-info/requires.txt
+simplex_dictionary.egg-info/top_level.txt
