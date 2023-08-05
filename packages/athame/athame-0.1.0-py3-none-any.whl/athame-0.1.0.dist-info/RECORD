@@ -1,0 +1,10 @@
+athame/__init__.py,sha256=LpEbiLXjQxbisA-eQli3a-rczfkuVm5Yz_6zBj__kTw,331
+athame/ast.py,sha256=SWIG-Aw7KAw75ix5fUAVtWleHCbTfLs-i2Kxv-E3Ub0,9528
+athame/exceptions.py,sha256=0BwW-fYnVq_bClVBnESAYxR7pxehCm00ZXJwE16Hty4,136
+athame/lexer.py,sha256=SkynxutKot2GVngbVCny3_hnHqDirFo6_3GOtDN6vdM,7332
+athame/parser.py,sha256=TkoQCTyV1qM3ENhan9AHWQ6qC5CDW6Ne20GuWRUac98,5637
+athame/trie.py,sha256=u-nZY6DWtEqbSlmXu09UCaXGU4NdReHWa298dEQ7PX0,1921
+athame-0.1.0.dist-info/LICENSE,sha256=LSFEysuYKi1S_5HHS0-VzDIi6EkTBjm3SygHZJ8ybw8,1054
+athame-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+athame-0.1.0.dist-info/METADATA,sha256=ZBTvoWsEgFR02SBuy0KGftmOweW_BvdtIEA9yMtC7HY,568
+athame-0.1.0.dist-info/RECORD,,
