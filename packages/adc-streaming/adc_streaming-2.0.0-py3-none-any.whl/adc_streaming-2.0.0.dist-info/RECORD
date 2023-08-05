@@ -1,0 +1,12 @@
+adc/__init__.py,sha256=LmW7bm0_u60EoWVvN5_GMGMFpG3lhoIK4A2C_Smd__c,332
+adc/auth.py,sha256=LyxEY1RKQ8jtpFhwLK0ThR6_p6DN1t_AjpHmJxpBhMw,1687
+adc/consumer.py,sha256=c-toSVXLWbttQh6RyVOmVNEWNoXA50U7BwlRSW2FwL8,12109
+adc/errors.py,sha256=W0dG6A52YtW5wO8RVS6UQbLSaStCiWUlkpf5pYxsYG4,1940
+adc/io.py,sha256=RdfQuhmPLL9wVvUWaggRbeGKUVq5gMFp-QMO4Du-z9o,2541
+adc/kafka.py,sha256=jsFypqYbfJk_CMpznjgUK4lSL7QRuXzYKGObx5OQWtg,933
+adc/producer.py,sha256=mqugYLVucjpv3IUIaUH-HbI7V6eSrnedBd1Hq9b0_cI,4837
+adc_streaming-2.0.0.dist-info/LICENSE,sha256=BzSloDstU84TGMF0A6S-daRS2sVHoDgo3e7yh666Hgg,1519
+adc_streaming-2.0.0.dist-info/METADATA,sha256=TQSerT_xa1vWK-cSeBx7SHf6n84Irjso4cDeuj65Oa4,2533
+adc_streaming-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+adc_streaming-2.0.0.dist-info/top_level.txt,sha256=8quD7Fop9Wwsv5j59wJl1NsuB_dGLESpqC4Tk7V2Qew,4
+adc_streaming-2.0.0.dist-info/RECORD,,
