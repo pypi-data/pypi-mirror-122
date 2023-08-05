@@ -1,0 +1,12 @@
+metriql2metabase/__init__.py,sha256=wMKkp7w5L_VCCfcRU5kExhVR5jCpY0W_Jg3vwwqkohc,1682
+metriql2metabase/dbt_metabase.py,sha256=_Vag3aXV__SiIULyVwCjEnWRsLl8_opPeeBUsfM423w,17795
+metriql2metabase/metabase.py,sha256=tY_l1UZ5mksNfhUQ3qYePPpWwTJdXbnzLhAXwm3htDs,2959
+metriql2metabase/metadata.py,sha256=8w60gc1rymlR7THO3gEEZWhOyATEoDCaiShwCBdhd2A,2605
+metriql2metabase/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metriql2metabase/models/metabase.py,sha256=WePp-a1qtlS_lx0zu6-03wd1k1EQNHmh6VbINM6OO_k,1041
+metriql_metabase-0.4.data/scripts/metriql-metabase,sha256=Fr2vPAg4UdOZtzWkc1Vj-pHxiUrkBH5CgxkZhfJMKtk,112
+metriql_metabase-0.4.dist-info/LICENSE,sha256=qHxDFJVadA7O0-PWSQK5MgRYS9PfUE-ehAi2ABW16TA,1064
+metriql_metabase-0.4.dist-info/METADATA,sha256=PBukWxJXk63R-uBS0jR7baOplAsvh9xlMShT4Xx5MPc,2516
+metriql_metabase-0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+metriql_metabase-0.4.dist-info/top_level.txt,sha256=QwDHNbKWsUXWoAID6Fh5yF3_a2-tk0pAogKw1gEt4dY,17
+metriql_metabase-0.4.dist-info/RECORD,,
