@@ -1,0 +1,3 @@
+[console_scripts]
+yats = yats.__main__:main
+
