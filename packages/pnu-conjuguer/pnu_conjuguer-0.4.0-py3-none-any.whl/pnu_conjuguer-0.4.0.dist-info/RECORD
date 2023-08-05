@@ -1,0 +1,12 @@
+conjuguer/__init__.py,sha256=OIUvQK6yxVB8AiXXHt83ZFQSsZMxRVNxkf2BJMND5v0,60
+conjuguer/blank.py,sha256=tIU9RiPLAh7Ejsz8Q7AwNn4Y7Cx6k32o2-V1uVDcIrU,4652
+conjuguer/main.py,sha256=rT-LqbkXUVElXiW89vbOdctaLn3aLv3ytnt5t7q4cMU,39509
+conjuguer/verbs.py,sha256=fw-3UJRfpVfZ5IKTB4f3CPGppwLKP_YmnhJCwYBm05k,19509
+pnu_conjuguer-0.4.0.data/data/man/man1/conjuguer.1.gz,sha256=xHYTisBMUhJmR9_GeM_YxAPnRj27eMEXOTPhVkZ0u9U,1566
+pnu_conjuguer-0.4.0.data/data/share/locale/fr/LC_MESSAGES/conjuguer.mo,sha256=qPUK36acMRQmaB2ohzOkoT9qRcwAGiMkjGrxlK1saH4,4281
+pnu_conjuguer-0.4.0.dist-info/License,sha256=igxAIYgcptACtNIpfxFRG70HeUBZ0MiucpJNvbv3Sr8,1461
+pnu_conjuguer-0.4.0.dist-info/METADATA,sha256=sYu6jfvFOebO8inWDm7kQXuGNZZs4HKOgC6N6v_r3n8,5337
+pnu_conjuguer-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pnu_conjuguer-0.4.0.dist-info/entry_points.txt,sha256=yFjAo-u9ZHh-ftXQ_D-0mxEbB96j6IDZ-YE43rVU0os,46
+pnu_conjuguer-0.4.0.dist-info/top_level.txt,sha256=5HetZYDjz-3UJ2-XOPq7mxGrnjFTu2M2Wule0zxeruE,10
+pnu_conjuguer-0.4.0.dist-info/RECORD,,
