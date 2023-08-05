@@ -1,0 +1,8 @@
+setup.py
+sort_example/__init__.py
+sort_example/module_sort.py
+sort_example.egg-info/PKG-INFO
+sort_example.egg-info/SOURCES.txt
+sort_example.egg-info/dependency_links.txt
+sort_example.egg-info/requires.txt
+sort_example.egg-info/top_level.txt
