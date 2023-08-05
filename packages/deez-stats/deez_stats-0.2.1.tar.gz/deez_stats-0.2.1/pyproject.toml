@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "deez_stats"
+version = "0.2.0"
+description = ""
+authors = ["tombrady <bradyte@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.11"
+objectpath = "^0.6.1"
+yahoo-fantasy-api = "^2.4.1"
+yahoo-oauth = "^1.1"
+numpy = "^1.21.2"
+pandas = "^1.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
