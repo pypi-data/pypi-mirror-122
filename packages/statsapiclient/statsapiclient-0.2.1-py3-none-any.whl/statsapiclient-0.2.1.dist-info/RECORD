@@ -1,0 +1,16 @@
+LICENSE,sha256=ZYdgNc6JH2arXnsHd-359O8pVZzpknz3JYgpbF6o6ao,14978
+statsapiclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statsapiclient/constants.py,sha256=1bjjvkif_Fw5lTN-kl5qZwqJTwF0ARtxSo-WBpnwbX8,1092
+statsapiclient/franchises.py,sha256=S0HEnU-pTM3tWEzTUzr0MrOfsr5M45cIleMdQMXpeS8,967
+statsapiclient/games.py,sha256=djj7s2JI5HCNj8oUdeAyZg0Xpwne4M9jbuNACfrMJQc,2347
+statsapiclient/line_score.py,sha256=txGxk1ES_BsC9NKVW40g7F7XMUfiJ2Hf5jckgNfmGWU,1013
+statsapiclient/plays.py,sha256=r5X3N_J5JeVi9DIvtsBH64jodHlrSOLBLGD-U-UP_ik,2736
+statsapiclient/schedule.py,sha256=CvnBG0oUWO6rjcEpwIQGwcsO3oSwMj3hqDvgwXkwK4U,1479
+statsapiclient/shifts/__init__.py,sha256=bo8CNSkxqGGVvlv6TWTResLkGega0lDmoHgW5LYDN_I,1010
+statsapiclient/shifts/parser.py,sha256=dmQ_A3R5MaU02JNr1Js7H5jrxfpZyj4P0MMR-b064GQ,3742
+statsapiclient/teams.py,sha256=FHfKmSTZs9T9bciedC9d87T3zldu94F-o9_eb4MmVns,1424
+statsapiclient/utils.py,sha256=QPsKjpVpfp-Em4ryeU91OrXHtHJ8XGq9_P3Uw3z468Q,2333
+statsapiclient-0.2.1.dist-info/LICENSE,sha256=ZYdgNc6JH2arXnsHd-359O8pVZzpknz3JYgpbF6o6ao,14978
+statsapiclient-0.2.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+statsapiclient-0.2.1.dist-info/METADATA,sha256=9rxukj5mpDnqNMIQDsvj8-VxB-KQqaCQA-wNOg0zp8U,2618
+statsapiclient-0.2.1.dist-info/RECORD,,
