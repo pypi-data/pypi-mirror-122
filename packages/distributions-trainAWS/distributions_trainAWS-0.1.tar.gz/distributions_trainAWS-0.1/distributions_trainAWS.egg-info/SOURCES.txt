@@ -1,0 +1,10 @@
+setup.py
+distributions_trainAWS/Binomialdistribution.py
+distributions_trainAWS/Gaussiandistribution.py
+distributions_trainAWS/Generaldistribution.py
+distributions_trainAWS/__init__.py
+distributions_trainAWS.egg-info/PKG-INFO
+distributions_trainAWS.egg-info/SOURCES.txt
+distributions_trainAWS.egg-info/dependency_links.txt
+distributions_trainAWS.egg-info/not-zip-safe
+distributions_trainAWS.egg-info/top_level.txt
