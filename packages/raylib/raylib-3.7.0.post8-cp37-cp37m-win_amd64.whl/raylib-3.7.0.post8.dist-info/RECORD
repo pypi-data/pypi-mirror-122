@@ -1,0 +1,15 @@
+raylib/__init__.py,sha256=iiVQwMwSAv5jdZhY1p-VExGy7msZbT7dvF39opdfRTs,945
+raylib/__init__.pyi,sha256=3-GHcgyWHFyA5506wNODGl6-XjpFA4cWl87wzpO6QSk,69510
+raylib/_raylib_cffi.pyd,sha256=JY_kOxdLG7490Opzd6rPRM559gpz5hhIZR7i3luoN-0,1430528
+raylib/build.py,sha256=QnP2_KssNaQ5svDNALbSFo4_JonKy9i9ezKh-hKiUQM,4125
+raylib/colors.py,sha256=bEtqe-Ihm_XYkSzFuLTS_5bj293vsqV7LeTl3obt82Q,1560
+raylib/pyray.py,sha256=Z2XSNKWwppK5ufdQNJ6Up7o-LRi-FwfgeTvGky8fTFQ,3443
+raylib/pyray.pyi,sha256=1VP3nhaf5gJz7Tmhq3huIAkEBiTFC03-QneAbVr84K8,85810
+raylib/raylib.h,sha256=zISHuDI5aXg6fIyfsLyRESbbAOt_7JTXaFFcfV3rWiE,103096
+raylib/raylib_modified.h,sha256=M3aNYt-t-DbhBNfQlmNEH_ZFRd_01pAsXgkzRTvU82Q,97046
+raylib/version.py,sha256=-WqOSTmv0B4WljPIMO2CmG4b6YzZ1n5Ql9PvOAu-ipQ,27
+raylib-3.7.0.post8.dist-info/LICENSE,sha256=IrIDo_K_o1_ycu1XcC0VSu2JZuoJeMRM7KZljyxgvFE,14474
+raylib-3.7.0.post8.dist-info/METADATA,sha256=tDZUh1rofw43Sh1fBvxhPrxisDwK3jM-WHMcHnyrcbw,4152
+raylib-3.7.0.post8.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+raylib-3.7.0.post8.dist-info/top_level.txt,sha256=kRzThJx-1TnYtXM824svbtiTrXxvY1Y7iTa0NMrcZLo,7
+raylib-3.7.0.post8.dist-info/RECORD,,
