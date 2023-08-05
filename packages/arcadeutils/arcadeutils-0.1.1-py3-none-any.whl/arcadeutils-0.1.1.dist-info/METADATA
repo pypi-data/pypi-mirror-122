@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arcadeutils
+Version: 0.1.1
+Summary: Collection of utilities written in Python for working with various arcade binaries.
+Home-page: https://github.com/DragonMinded/arcadeutils
+Author: DragonMinded
+License: Public Domain
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Collection of utilities written in Python for working with various arcade binaries.
+
