@@ -1,0 +1,13 @@
+machaao/__init__.py,sha256=gISWFPmnBMCmVxNgak6RjxgtQM_8uAcOyre_IIj0Jlo,111
+machaao/chatbot.py,sha256=3CtFqxpWWQJva4nl2JwE_UJf32HrZKbFV_0Uj9Pc514,1997
+machaao/machaao.py,sha256=Idl195B3dyOyS7-KBcbk5GyfoVvWyGiqUhdPZq8lSFs,6708
+machaao/machaaoapi.py,sha256=MNnw0FYnKJILXJcl9xxcRplXUfdG34QcTuvymx0l58c,3590
+machaao/main.py,sha256=UerOLkjSsEVo1bmvJClQkSXnFLfup8IYom298yH_hn4,992
+machaao/mhttp.py,sha256=U_oGfuf1TYE4_CGd-RmdlmKkhlrYuwOELtgSZlKgX7s,1435
+machaao/mxtunnel.py,sha256=sf_eLAAIAjmk6NxDOiq6Y451mgWLn8yWhLpfbLVS_po,978
+machaao-0.3.2.dist-info/LICENSE,sha256=-dF-Nb7Ex9gKfEt6y2zcZhHLkGhS6AzK0Z934vDdP1k,1069
+machaao-0.3.2.dist-info/METADATA,sha256=vipXbZ6RM1N-M5-2RfOaFUdY88JV0A_FO8zh6XRQlWg,2785
+machaao-0.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+machaao-0.3.2.dist-info/entry_points.txt,sha256=Ds6KyP7i0maRx8_7JHye3R_XQgIDbMCzHomQ1cZQRp4,50
+machaao-0.3.2.dist-info/top_level.txt,sha256=x8Z7SKkyLh3t1o-Y3srlTWjRbS6SJ0tDkkynwj0lklg,8
+machaao-0.3.2.dist-info/RECORD,,
