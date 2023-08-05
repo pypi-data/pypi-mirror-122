@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tubetone
+Version: 0.3.3
+Summary: Library to process youtube videos texts and analyze results.
+Home-page: https://github.com/solovieff/text-anal
+Author: Andrey Solovieff
+Author-email: solovieff.nnov@gmail.com
+License: MIT
+Download-URL: https://github.com/solovieff/text-anal/archive/refs/tags/0.3.3.tar.gz
+Description: ## Tone Tube
+        
+        Analyzes youtube videos using [pytube](https://github.com/pytube/pytube)
+        , [transcripts](https://github.com/jdepoix/youtube-transcript-api)
+        and [dostoevsky](https://github.com/bureaucratic-labs/dostoevsky). Can save values into the db.
+        
+        `pip install tonetube`
+        
+        Then you'll need to download binary model for [dostoevsky](https://github.com/bureaucratic-labs/dostoevsky):
+        `python -m dostoevsky download fasttext-social-network-model`
+        
+        See [tests](https://github.com/solovieff/text-anal/tree/master/tests) directory for more details.
+        
+        Run to load the given playlist video tones:
+        `tubetone --id=PLL5fTqvjKv3JaH8SofJ89geu2VwJL5R04`
+        
+        For environment variables,
+        see [constants file](https://github.com/solovieff/text-anal/blob/master/tubetone/constants.py).
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
