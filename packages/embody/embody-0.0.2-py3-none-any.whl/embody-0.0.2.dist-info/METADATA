@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: embody
+Version: 0.0.2
+Summary: Generate templated objects
+Home-page: https://github.com/thorwhalen/embody
+Author: Thor Whalen
+License: apache-2.0
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: dol
+
+
+# embody
+Generate templated objects
+
+
+To install:	```pip install embody```
+
+
