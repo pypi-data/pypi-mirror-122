@@ -1,0 +1,17 @@
+dataflake.cache-2.0-py3.8-nspkg.pth,sha256=BJRgAObhWUQkcpiKWbrysqvapvMBS5IMGR8iE94qhBw,554
+dataflake/cache/__init__.py,sha256=UnxmjVrk-eNORsitiM48W0pB6yfsaErOak8RYh_ELt8,10
+dataflake/cache/interfaces.py,sha256=UV7QUZD129FQ3u3DKeyyZrO6oY-KY2VWRL0YRuFM6vg,1734
+dataflake/cache/simple.py,sha256=Ax96MxcbwRrSoC3p6EzD9JNXKkOpwB2hmE5Qr9tzAdc,2811
+dataflake/cache/timeout.py,sha256=mb2sV2gMiOVf0z_H6iIZD9OJikk0Rxd6wpQYvC7W33s,3952
+dataflake/cache/utils.py,sha256=tp922R9unPhBqPiGHyJ_Spyya7c1v3-OdwxlUSYX-88,1135
+dataflake/cache/tests/__init__.py,sha256=UnxmjVrk-eNORsitiM48W0pB6yfsaErOak8RYh_ELt8,10
+dataflake/cache/tests/base.py,sha256=WPgC5BnawbMwEG08XEF6kSX5A8jWl4_iLfOj_43i-Qs,918
+dataflake/cache/tests/test_docs.py,sha256=SmbEUOHzFdamXfVXY8Py7GCCu7Rzruw71wYlKEKjfWc,822
+dataflake/cache/tests/test_simple.py,sha256=Enx3NGBXpt5LdFcoRrC5W1oLaJSAGR7YLZd7Pfrapuo,8163
+dataflake/cache/tests/test_timeout.py,sha256=Qtxr9qeN-bxoqZGV3Z-cuI4-0yV_vOLFLeStvg1spgQ,4501
+dataflake.cache-2.0.dist-info/LICENSE.txt,sha256=PmcdsR32h1FswdtbPWXkqjg-rKPCDOo_r1Og9zNdCjw,2070
+dataflake.cache-2.0.dist-info/METADATA,sha256=5sqvkOFnp6DtW0zLSZR8cjyXYvUmWRZwdu6ao6fNT4Q,3152
+dataflake.cache-2.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+dataflake.cache-2.0.dist-info/namespace_packages.txt,sha256=FOdxJhZAlA7b8rMeGqAI23M6vbj0dh_sdhBQFD-JCzg,10
+dataflake.cache-2.0.dist-info/top_level.txt,sha256=FOdxJhZAlA7b8rMeGqAI23M6vbj0dh_sdhBQFD-JCzg,10
+dataflake.cache-2.0.dist-info/RECORD,,
