@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: PYTHON_TRANSFORMATIONS
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Anjana V
+Author-email: anjana.v@bdb.ai
+License: MIT
+Description: Used for python transformation of dataframes
+        
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
