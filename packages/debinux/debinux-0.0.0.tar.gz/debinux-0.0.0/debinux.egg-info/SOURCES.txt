@@ -1,0 +1,6 @@
+README.md
+setup.py
+debinux.egg-info/PKG-INFO
+debinux.egg-info/SOURCES.txt
+debinux.egg-info/dependency_links.txt
+debinux.egg-info/top_level.txt
