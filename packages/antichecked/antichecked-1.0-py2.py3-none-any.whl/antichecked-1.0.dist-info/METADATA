@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: antichecked
+Version: 1.0
+Summary: Antichecked exceptions for Python.
+Author-email: SoniEx2 <endermoneymod@gmail.com>
+Description-Content-Type: text/markdown
+Project-URL: Homepage, https://ganarchy.autistic.space/project/996ab435341f148cf2c246fe800f86b8cd416506
+Project-URL: Repository, https://soniex2.autistic.space/git-repos/antichecked.git
+
+Antichecked Exceptions
+======================
+
+Antichecked Exceptions are an alternative to checked exceptions. They're
+designed to actively catch bugs, and to prevent silencing exceptions for
+the sake of satisfying the compiler (as usually happens with checked
+exceptions).
+
+Rather than requiring the caller to catch some exceptions, Antichecked
+Exceptions intercepts some raised exceptions, and helps guarantee to the
+caller, if the caller opts to catch some exception, that the exception
+was actually raised by a deliberate design decision rather than a typo
+or bug.
+
