@@ -1,0 +1,11 @@
+LICENSE,sha256=9CBt2pxLgWJO5hDKl1rZhk5udKOG1E0z1vNY-Ui3anY,1097
+power_cache/__init__.py,sha256=VLVOp4S-YAxAu5L-_dGc7ca8HHCqlalp3CwVoM2H6yc,207
+power_cache/async_memoize.py,sha256=FyMXQLvTec3j5hZu1bZEnJGn4jITKKXkhW38s12A6TM,2148
+power_cache/key.py,sha256=ngMweUfONO_3eYBFKgvTqAKYS0OVfqmaoc835hCbQkg,518
+power_cache/lru.py,sha256=x4yISxFKfudiIp_rvcZLik3KS1FkesHlb5f7jp45das,2108
+power_cache/memoize.py,sha256=FRexxLaf0iLYuxP2jvCjvj1Sqc77riTU8mymwNgvBTY,1945
+power_cache/ttl.py,sha256=aE6SnNEz37RHMitNRV67yUJumos7JHj0MG1GJhFgYGc,3344
+power_cache-0.1.0.dist-info/LICENSE,sha256=9CBt2pxLgWJO5hDKl1rZhk5udKOG1E0z1vNY-Ui3anY,1097
+power_cache-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+power_cache-0.1.0.dist-info/METADATA,sha256=jY9gucuz4DsYYYdOj0MGQlIxatm0M5glHQZTNAPmTtY,4721
+power_cache-0.1.0.dist-info/RECORD,,
