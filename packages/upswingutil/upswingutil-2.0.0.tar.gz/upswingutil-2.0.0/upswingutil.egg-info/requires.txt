@@ -1,0 +1,12 @@
+requests
+pydantic
+gcsfs
+cryptography
+fastapi
+firebase_admin
+pymongo
+loguru
+mongoengine
+amadeus
+python-holidayapi
+google-cloud-secret-manager==2.0.0
