@@ -1,0 +1,11 @@
+pandas-ta
+finta
+ta-lib
+optuna
+pathos
+tabulate
+scikit-learn
+yellowbrick
+dcor
+yfinance
+numpy==1.20
