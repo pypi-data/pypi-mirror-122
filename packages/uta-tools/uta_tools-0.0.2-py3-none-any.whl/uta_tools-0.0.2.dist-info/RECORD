@@ -1,0 +1,17 @@
+uta_tools/__init__.py,sha256=a16gs2j2FS89tnIIeGCpUJNlt2WUk4ohp6WbFkr7Xc0,949
+uta_tools/uta_tools.py,sha256=0t4_9mJOcgmddyFO7J5nLDmgu6zV51rGoxwz3eVtisA,2090
+uta_tools/version.py,sha256=fByo9YIuOr94JQpm87bjX7wq7uPY0pwXsVS4xFLIkAk,36
+uta_tools/data/__init__.py,sha256=EAk0f_xeq1JAkRosLMiWWhEXku6lYfMZ63HR_6QxSqs,77
+uta_tools/data/data_downloads.py,sha256=j9NZstfcthNDIn075YJruGBHkJyL-9Sy6h_fuzolxCI,3044
+uta_tools/data/transcript_mapping.tsv,sha256=AO3luYQAbFiCoRgiiPXotakb5pAwx1jDCeXpvGdIuac,24138769
+uta_tools/data_sources/__init__.py,sha256=_EfXW6yCZfGr4ymxxKXj6H_M_tmEVt4cBIrd1j2xsy8,337
+uta_tools/data_sources/mane_transcript.py,sha256=Sbl_WAFfMJsA0TQD0W9w7Cgdq25KqpjzVH0hpa6nJAs,25609
+uta_tools/data_sources/mane_transcript_mappings.py,sha256=-cfVp79avISWAQz9b75hQ68HtvxugUdAeO_NSq2wE8w,1504
+uta_tools/data_sources/seqrepo_access.py,sha256=c2d5ty9_UovLBb0p3oEl8u7DUCHldWGwHO6B9NGdFaw,2601
+uta_tools/data_sources/transcript_mappings.py,sha256=9y3tb3rUOgD8JNk4-yGnD_zzthMLYs-8DqI3JCG_N1g,9470
+uta_tools/data_sources/uta_database.py,sha256=YbRt4t8urWEi6-so6NW3cYTHJf5Z1-R9nu5lVDGJkp8,33770
+uta_tools-0.0.2.dist-info/LICENSE,sha256=q5ROz8j71Y0buub1pr-xaORSENWXKGyA76fRjKjKxHU,1061
+uta_tools-0.0.2.dist-info/METADATA,sha256=Usk_coFG9s2gpsjagHJfOGCSLx6WhThiUG-2h0u_2Mo,3990
+uta_tools-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+uta_tools-0.0.2.dist-info/top_level.txt,sha256=jimRZwm52iqDULJABLEc68KjILdZYet9igkLUgi9NiU,10
+uta_tools-0.0.2.dist-info/RECORD,,
