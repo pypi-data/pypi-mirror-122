@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/main/MM_Simple_NeuralNetwork.egg-info/PKG-INFO
+src/main/MM_Simple_NeuralNetwork.egg-info/SOURCES.txt
+src/main/MM_Simple_NeuralNetwork.egg-info/dependency_links.txt
+src/main/MM_Simple_NeuralNetwork.egg-info/requires.txt
+src/main/MM_Simple_NeuralNetwork.egg-info/top_level.txt
+src/main/Modules/__init__.py
+src/main/Modules/Network/Layer.py
+src/main/Modules/Network/Network.py
+src/main/Modules/Network/Neuron.py
+src/main/Modules/Network/__init__.py
+src/main/Modules/UI/__init__.py
+src/main/Modules/UI/Shared/MenuBar.py
+src/main/Modules/UI/Shared/__init__.py
