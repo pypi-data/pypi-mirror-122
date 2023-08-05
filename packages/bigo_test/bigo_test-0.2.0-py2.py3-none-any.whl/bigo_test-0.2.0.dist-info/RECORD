@@ -1,0 +1,11 @@
+bigo_test/__init__.py,sha256=O3xzIXzqjaiZ5DlVSA7rXJyFggiJn_3af1jPLLFy234,698
+bigo_test/complexity.py,sha256=wpxKsZ0HE3Ab-u4dnjHVGYqCbJklVOV6OHnmZ-juvcc,632
+bigo_test/exceptions.py,sha256=MLB4p7cmpC76MmLAIJqZRbOjUIFpxpyCKbycHCCwWyA,152
+bigo_test/assertions/__init__.py,sha256=DWO9JUz21uLtNQFR_xqhTN1meod-52L76Rbl2lcQffw,108
+bigo_test/assertions/assert_big_o.py,sha256=HU2L3IEMCtZPD8f0jSPFAxDCwoBRhDw_Iho56fp49QA,1733
+bigo_test/assertions/base_assert.py,sha256=DOT8KkV9F7AtGmDSQBdBm9fQDRA1ubHORJSRd3YorMc,100
+bigo_test/assertions/helpers.py,sha256=fn57FVAq7B8SsrVB8Pz-vLRX97mXSj-wCqY8FEBWELs,1572
+bigo_test-0.2.0.dist-info/LICENSE,sha256=Xnep8fwyhJOV72Gg2Qc2T_BjSrXtHhyekut1YSHWKQ4,1099
+bigo_test-0.2.0.dist-info/WHEEL,sha256=2adPsdwavOXlr3i4h108dwQdqKgJbVa5zTEEuD11F08,99
+bigo_test-0.2.0.dist-info/METADATA,sha256=r49d-RdtwQ9F4gZL6azjbr3Iv0BD9oGcYDAfg-dtoT4,247
+bigo_test-0.2.0.dist-info/RECORD,,
