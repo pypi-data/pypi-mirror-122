@@ -1,0 +1,308 @@
+#!/bin/bash
+
+version="0.9"
+
+set -e
+
+PROGNAME=`basename $0`
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+
+NC='\033[0m' # No Color
+
+function red {
+	all="$@"
+    printf "${RED}$all${NC}"
+}
+
+function green {
+	all="$@"
+    printf "${GREEN}$all${NC}"
+}
+
+function yellow {
+	all="$@"
+    printf "${YELLOW}$all${NC}"
+}
+
+die() {
+    echo "$PROGNAME: $*" >&2
+    exit 1
+}
+
+echop() {
+    echo "${@}" >&2
+}
+
+
+usage() {
+    if [ "$*" != "" ] ; then
+        echo "Error: $*"
+    fi
+
+    cat << EOF
+Usage: $PROGNAME -t 123
+Custom Script usage title here
+Options:
+-h, --help                 display this usage message and exit
+-v, --version			   show version
+EOF
+    exit 1
+}
+
+
+function spinner() {
+    local info="$1"
+    local pid=$!
+    local delay=0.75
+    local spinstr='|/-\'
+    while kill -0 $pid 2> /dev/null; do
+        local temp=${spinstr#?}
+        printf " [%c]  $info" "$spinstr"
+        local spinstr=$temp${spinstr%"$temp"}
+        sleep $delay
+        local reset="\b\b\b\b\b\b"
+        for ((i=1; i<=$(echo $info | wc -c); i++)); do
+            reset+="\b"
+        done
+        printf $reset
+    done
+    printf "    \b\b\b\b"
+}
+
+
+check_if_flag_args()
+{
+  if [[ $2 == "-"* ]]; then
+    usage "Not a valid argument for $1"
+  fi
+}
+
+check_pc_regrep()
+{
+    echop "checking if pcregrep is installed.."
+    path=$(which pcregrep)
+    if [[ -z $path ]]; then
+    echo ""
+    sudo apt install -y pcregrep
+    echo ""
+    fi
+}
+
+
+title=""
+REM_ARGS=()
+
+while [ $# -gt 0 ] ; do
+    case "$1" in
+    -h|--help)
+        usage
+        ;;
+	
+	-v|--version)
+		echo "version == $version"
+		;;
+
+    -t|--title)
+        check_if_flag_args $1 $2
+        title="$2"
+        shift
+        ;;
+    -*)
+        usage "Unknown option '$1'"
+        ;;
+    *)
+        REM_ARGS+=" $1"
+      ;;
+    esac
+    shift
+done
+
+package_name=""
+device=""
+
+function select_device()
+{
+    clear
+    echop "select a device to debug:-"
+    device=$(ads)
+
+    if [[ -z $device ]]; then
+        echop "invalid choice ..exiting"
+        exit 1
+    fi
+}
+
+function change_package_name()
+{
+    clear
+    echop "type the package name to debug:-"
+    read package
+    
+    if [[ -z $package ]]; then
+        echop "empty package name found.."
+    else
+        package_name=$package
+    fi
+}
+
+
+select_device
+change_package_name
+
+function echo_space()
+{
+    echop "================================================"
+}
+
+
+
+# Remove whitespace
+function remWS {
+    if [ -z "${1}" ]; then
+        cat | tr -d '[:space:]'
+    else
+        echo "${1}" | tr -d '[:space:]'
+    fi
+}
+
+
+function install()
+{
+    echop "enter apk download url:"
+    read url
+
+    if [[ -z $url ]]; then
+        echop "enter a valid url.. empty url found"
+    else
+        curl -L $url --output /tmp/temp_test_file.apk
+        adb -s $device install /tmp/temp_test_file.apk
+    fi
+    
+}
+
+
+function set_current()
+{
+    check_pc_regrep
+    info=$(adb shell "dumpsys activity activities | grep mResumedActivity")
+    test=$(echo $info | pcregrep -o1 "\{.* .* (.*)/")
+    if [[ -z $test ]]; then
+        echo "make sure device is turned on and device is connected.."
+    else
+        echo "package name set to $test"
+        package_name=$test
+    fi
+}
+
+
+
+last_log=""
+
+while [[ true ]]; do 
+    clear
+    echop "madhavth adb helper"
+    echop ""
+    echop ""
+    echop "selected device is $device"
+    echop ""
+    echop "$last_log"
+    echo_space
+    echo_space
+    echop ""
+    echop "current android package is $package_name"
+    echop """
+    1. Change package name to test
+    2. Change device to test
+    3. Open app
+    4. Restart app
+    5. Clear app data
+    6. set package name to current opened application
+    7. Clear app data and restart
+    8. download and install apk
+    9. install local apk
+    10. uninstall app
+    q. quit app
+    """
+    echop ""
+    echo_space
+    echo_space
+    echop "enter a choice:"
+    echop ""
+    read choice
+
+    case "$choice" in 
+
+    1)
+    change_package_name
+    ;;
+
+    2)
+    select_device
+    ;;
+
+    3)
+    #open app
+    adb -s $device shell am start ${package_name}/$(adb shell cmd package resolve-activity -c android.intent.category.LAUNCHER $package_name | sed -n '/name=/s/^.*name=//p')
+    last_log="opened $package_name successfully.."
+    ;;
+
+    4)
+    #restart app
+    adb -s $device shell am force-stop $package_name
+    adb -s $device shell am start ${package_name}/$(adb shell cmd package resolve-activity -c android.intent.category.LAUNCHER $package_name | sed -n '/name=/s/^.*name=//p')
+    last_log="restarted $package_name successfully.."
+    ;;
+
+    5)
+    #clear app cache data
+    adb -s $device shell pm clear $package_name
+    last_log="cleared cache for $package_name successfully"
+    ;;
+
+    6)
+    set_current
+    ;;
+
+    7)
+    adb -s $device shell pm clear $package_name
+    adb -s $device shell am force-stop $package_name
+    adb -s $device shell am start ${package_name}/$(adb shell cmd package resolve-activity -c android.intent.category.LAUNCHER $package_name | sed -n '/name=/s/^.*name=//p')
+    last_log="cleared cache and restart $package_name successfully"
+    ;;
+
+    8)
+    install
+    last_log="download apk and installed succesfully...."
+    notifyd "check terminal" "installed apk successfully"
+    ;;
+
+
+    9)
+    echop "install apk from local directory:"
+    echop "type path to apk or drag and drop apk file here"
+    read apk_path
+    echo "apk path is $apk_path"
+    adb -s $device install "$apk_path"
+    ;;
+
+
+    10)
+    adb -s $device uninstall $package_name
+    last_log="uninstalled $package_name successfully..."
+    ;;
+
+    q)
+    exit 0
+    ;;
+
+    *)
+        last_log="invalid choice $choice"
+    ;;
+
+    esac
+done
+
+#echop "REM_ARGS are ${REM_ARGS[@]}"
