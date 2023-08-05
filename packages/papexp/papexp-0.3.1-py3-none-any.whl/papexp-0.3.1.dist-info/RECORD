@@ -1,0 +1,11 @@
+.DS_Store,sha256=Jgf4ry5Dh3Jffr2bSXMD_Ivo7CS7afmhzohxgb9hO4o,6148
+papexp/__init__.py,sha256=AALx7LGixQiNc0HjFD1tvc2J-tSkz86Z4b5XVZha7L8,48
+papexp/__main__.py,sha256=NDIvAggOsC0eRzK7dig6zX9UI6RPAOleXeANDA_-W7A,51
+papexp/export.py,sha256=MAGVlqjtwlFrTxHAQ6jRu5mW7FZIChgGziPdQFgPuoI,4442
+papexp/nutrition.py,sha256=iZ6XSKAzaGlj9XebaRPxENpv2z9le_K0ac7xI8sb_nU,1778
+papexp/settings.py,sha256=NL11dbIuEH10WZaleVRd5car0iKqDq4ZRPUPhuFbq4U,45
+papexp-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+papexp-0.3.1.dist-info/METADATA,sha256=kC9AQ-pSk4kxYV0nDfvxo6egOoqwnVGH4_hKl3PD8mU,1471
+papexp-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+papexp-0.3.1.dist-info/top_level.txt,sha256=uzaESDYClradba6mmRiesGBLMxBMPglWikyq_T88pKU,7
+papexp-0.3.1.dist-info/RECORD,,
