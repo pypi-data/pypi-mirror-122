@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: mygeoip
+Version: 1
+Summary: find Geographical Information abou the Ip address
+Home-page: UNKNOWN
+Author: Deadshto0x7
+Author-email: sviquarahmed@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: USERNAME
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
