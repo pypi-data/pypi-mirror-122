@@ -1,0 +1,14 @@
+click
+pyfiglet
+snowflake-connector-python
+dbt
+networkx
+sqllineage==1.2.4
+pyvis
+setuptools
+sqlparse
+tqdm
+python-dateutil
+jinja2<3.0.0
+werkzeug<2.0
+urllib3<1.26
