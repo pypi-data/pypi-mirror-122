@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: color-printtext
+Version: 0.1.1
+Summary: PrintColor
+Home-page: https://github.com/gx1285/Print-Color
+Author: gx1285
+Author-email: runay2342@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# color-printtext
+A module that specifies the color of print.
+# How to use
+```sh
+pip install color-printtext
+```
+Install with
+Sample code
+```py
+import colorprinttext
+colorprinttext.REDprint("test")
+```
+
