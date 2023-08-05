@@ -1,0 +1,11 @@
+README.md
+setup.py
+prettymaps/__init__.py
+prettymaps/curved_text.py
+prettymaps/draw.py
+prettymaps/fetch.py
+prettymaps.egg-info/PKG-INFO
+prettymaps.egg-info/SOURCES.txt
+prettymaps.egg-info/dependency_links.txt
+prettymaps.egg-info/requires.txt
+prettymaps.egg-info/top_level.txt
