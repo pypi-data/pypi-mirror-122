@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pizaa/__init__.py
+pizaa/pizaa.py
+pizaa.egg-info/PKG-INFO
+pizaa.egg-info/SOURCES.txt
+pizaa.egg-info/dependency_links.txt
+pizaa.egg-info/not-zip-safe
+pizaa.egg-info/top_level.txt
