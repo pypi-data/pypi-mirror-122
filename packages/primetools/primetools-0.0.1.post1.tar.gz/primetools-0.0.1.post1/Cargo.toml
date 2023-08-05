@@ -1,0 +1,15 @@
+[package]
+name = "primetools"
+version = "0.0.1"
+edition = "2018"
+
+[lib]
+name = "primetools"
+crate-type = ["cdylib"]
+
+[dependencies]
+num-format = "0.4.0"
+
+[dependencies.pyo3]
+version = "0.14.5"
+features = ["extension-module", "abi3-py36"]
