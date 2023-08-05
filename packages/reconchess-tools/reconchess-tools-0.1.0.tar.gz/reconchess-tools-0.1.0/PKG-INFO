@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: reconchess-tools
+Version: 0.1.0
+Summary: Tools for developing bots to play reconchess.
+Home-page: https://github.com/raaperrotta/reconchess-tools
+Author: Robert Perrotta
+Author-email: raaperrotta@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# reconchess-tools: utilities to aid bot development for reconchess
+
+Getting started developing bots in python for the [Reconnaissance Blind Chess](https://rbc.jhuapl.edu/) competition from JHU APL is already simple thanks to the [reconchess](https://github.com/reconnaissanceblindchess/reconchess) package. The code in this repository builds on that foundation to make it equally easy to move beyond beginner bot development. It provides utilities for multi-hypothesis-tracking (MHT), MHT game replays, sense and move simulation, and dominated action detection.
+
+See the example bot (example_bot/bot.py) for an overview of the capabilities included in this repository. You can run a local game and view the replay using scripts/play_local_game.py.
+
+
