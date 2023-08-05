@@ -1,0 +1,3 @@
+[console_scripts]
+pwbm-api-utils = pwbm_api_utils.main:main
+
