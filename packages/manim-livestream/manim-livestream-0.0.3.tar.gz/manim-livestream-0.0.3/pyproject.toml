@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "manim-livestream"
+version = "0.0.3"
+description = "Package that implements livestreaming configurations for Manim."
+license = "MIT"
+authors = ["NeoPlato"]
+readme = "README.md"
+repository = "https://github.com/NeoPlato/manim-livestream"
+documentation="https://docs.manim.community/en/latest/installation/plugins.html"
+classifiers= [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Graphics",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+    "Natural Language :: English",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+manim = ">=0.10"
+ipython = {version = "^7.25.0", python = ">=3.7,<4.0.0"}
+pyreadline = {version = "^2.1", platform = "win32"}
+
+[tool.poetry.plugins."manim.plugins"]
+"manim_livestream" = "manim_livestream"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
