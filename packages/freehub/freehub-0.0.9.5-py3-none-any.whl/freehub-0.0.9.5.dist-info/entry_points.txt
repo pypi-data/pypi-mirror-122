@@ -1,0 +1,6 @@
+[console_scripts]
+fpyrun = freehub.clitools.fpyrun:main
+free = freehub.clitools.cli:main
+freehub = freehub.clitools.cli:main
+frun = freehub.clitools.frun:main
+
