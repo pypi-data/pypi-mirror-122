@@ -1,0 +1,10 @@
+auto_pull_request/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+auto_pull_request/content.py,sha256=6b1U5g151UKhBqaoQoyTL7vvIwrHGPRXorJvWNO4CIc,1051
+auto_pull_request/git.py,sha256=WEUjGf_cmuii5KyL20T2DvCLinItv5PsgK2QSvF4nrk,8622
+auto_pull_request/parser.py,sha256=R77HqgZVmpU-9ydu85-50u0eXcavGUw3HUHn4OH7NZE,3804
+auto_pull_request/pull_request.py,sha256=hUcB5OslEKMQGMJaSoi8vuqRlRkF-e6IqQaW5h0Tjzc,15900
+auto_pull_request/utility.py,sha256=Gk079pKB1zTocn2r_8CtF_b91fSs4iWjjcLkC6rDSIk,1215
+auto_pull_request-7.0.0.dist-info/LICENSE,sha256=A5Us1Px42BYFaGmOeyCWvJ-nnclrl1gn_onKr6FcvDo,11348
+auto_pull_request-7.0.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+auto_pull_request-7.0.0.dist-info/METADATA,sha256=WheDN-Nlc7qqPEbbn-aSdcWCQf2m17K0y3sh6eiVH-s,553
+auto_pull_request-7.0.0.dist-info/RECORD,,
