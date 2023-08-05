@@ -1,0 +1,13 @@
+{% extends "base.gmi" %}
+{% block content %}
+{% block content_title %}
+## All articles
+{% endblock %}
+{% for article in articles_page.object_list %}
+=> {{ SITEURL }}/{{ article.url }} {{ article.title }}
+{% endfor %}
+{% if articles_page.has_other_pages() %}
+
+{% include 'pagination.gmi' %}
+{% endif %}
+{% endblock content %}

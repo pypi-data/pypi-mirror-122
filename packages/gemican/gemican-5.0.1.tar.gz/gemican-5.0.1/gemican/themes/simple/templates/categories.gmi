@@ -1,0 +1,7 @@
+{% extends "base.gmi" %}
+{% block content %}
+## Categories on {{ SITENAME }}
+{% for category, articles in categories|sort %}
+=> {{ SITEURL }}/{{ category.url }} {{ category }} ({{ articles|count }})
+{% endfor %}
+{% endblock %}

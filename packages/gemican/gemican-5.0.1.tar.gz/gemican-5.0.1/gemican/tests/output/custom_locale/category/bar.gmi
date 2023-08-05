@@ -1,0 +1,30 @@
+``` Alexis' log image
+
+ _______                  __
+|     __|.-----.--------.|__|.----.---.-.-----.
+|    |  ||  -__|        ||  ||  __|  _  |     |
+|_______||_____|__|__|__||__||____|___._|__|__|
+
+```
+# Alexis' log
+
+### Pages
+=> ../tag/oh.gmi Oh Oh Oh
+=> ../override/ Override url/save_as
+=> ../pages/this-is-a-test-page.gmi This is a test page
+### Categories
+=> ../category/yeah.gmi yeah
+=> ../category/misc.gmi misc
+=> ../category/cat1.gmi cat1
+=> ../category/bar.gmi 👉 bar
+
+## Articles in the bar category
+=> ../posts/2021/septembre/24/markdowns-back/ Markdown's Back!
+=> ../posts/2010/octobre/20/oh-yeah/ Oh yeah !
+
+=> ../index.gmi ↩ Index
+
+Proudly powered by Gemican, which takes great advantage of Python.
+
+=> https://github.com/khoulihan/gemican Gemican GitHub
+=> https://www.python.org/ Python Powered

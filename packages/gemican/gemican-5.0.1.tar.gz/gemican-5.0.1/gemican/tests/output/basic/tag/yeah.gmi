@@ -1,0 +1,22 @@
+# A Gemican Gemlog
+
+### Pages
+=> /tag/oh.gmi Oh Oh Oh
+=> /override/ Override url/save_as
+=> /pages/this-is-a-test-page.gmi This is a test page
+### Categories
+=> /category/bar.gmi bar
+=> /category/cat1.gmi cat1
+=> /category/misc.gmi misc
+=> /category/yeah.gmi yeah
+
+## Articles tagged with yeah
+=> /markdowns-back.gmi Markdown's Back!
+=> /oh-yeah.gmi Oh yeah !
+
+=> /index.gmi ↩ Index
+
+Proudly powered by Gemican, which takes great advantage of Python.
+
+=> https://github.com/khoulihan/gemican Gemican GitHub
+=> https://www.python.org/ Python Powered

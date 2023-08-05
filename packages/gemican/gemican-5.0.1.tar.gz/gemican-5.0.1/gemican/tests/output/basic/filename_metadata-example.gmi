@@ -1,0 +1,10 @@
+
+# FILENAME_METADATA example
+Published: Fri 30 November 2012
+Category: misc
+
+
+Some cool stuff!
+
+
+=> /index.gmi ↩ Index

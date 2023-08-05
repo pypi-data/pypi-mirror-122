@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alexis' log - misc</title><link href="gemini://blog.notmyidea.org/" rel="alternate"></link><link href="gemini://blog.notmyidea.org/feeds/misc.atom.xml" rel="self"></link><id>gemini://blog.notmyidea.org/</id><updated>2012-11-30T00:00:00+01:00</updated><subtitle></subtitle><entry><title>FILENAME_METADATA example</title><link href="gemini://blog.notmyidea.org/posts/2012/novembre/30/filename_metadata-example/" rel="alternate"></link><published>2012-11-30T00:00:00+01:00</published><updated>2012-11-30T00:00:00+01:00</updated><author><name>Alexis Métaireau</name></author><id>tag:blog.notmyidea.org,2012-11-30:/posts/2012/novembre/30/filename_metadata-example/</id><content type="html">Some cool stuff!
+</content><category term="misc"></category></entry><entry><title>Second article</title><link href="gemini://blog.notmyidea.org/posts/2012/f%C3%A9vrier/29/second-article/" rel="alternate"></link><published>2012-02-29T00:00:00+01:00</published><updated>2012-02-29T00:00:00+01:00</updated><author><name>Alexis Métaireau</name></author><id>tag:blog.notmyidea.org,2012-02-29:/posts/2012/février/29/second-article/</id><content type="html">This is some article, in english
+</content><category term="misc"></category><category term="foo"></category><category term="bar"></category><category term="baz"></category></entry><entry><title>Unbelievable !</title><link href="gemini://blog.notmyidea.org/posts/2010/octobre/15/unbelievable/" rel="alternate"></link><published>2010-10-15T20:30:00+02:00</published><updated>2010-10-15T20:30:00+02:00</updated><author><name>Alexis Métaireau</name></author><id>tag:blog.notmyidea.org,2010-10-15:/posts/2010/octobre/15/unbelievable/</id><summary type="html">Or completely awesome. Depends the needs.
+
+=&gt; gemini://blog.notmyidea.org/posts/2011/avril/20/a-formerly-markdown-powered-article/ a root-relative link to another article
+=&gt; gemini://blog.notmyidea.org/posts/2011/avril/20/a-formerly-markdown-powered-article/ a file-relative link to another article
+
+### Testing sourcecode
+
+``` Python code
+    formatter = self.options and VARIANTS[self.options.keys()[0]]
+```
+
+### Testing more sourcecode
+
+``` Longer Python code
+
+    def run(self):
+        self.assert_has_content()
+        try:
+            lexer = get_lexer_by_name(self.arguments[0])
+        except ValueError:
+            # no lexer found - use the text one instead of an exception
+            lexer …
+```
+</summary><content type="html">Or completely awesome. Depends the needs.
+
+=&gt; gemini://blog.notmyidea.org/posts/2011/avril/20/a-formerly-markdown-powered-article/ a root-relative link to another article
+=&gt; gemini://blog.notmyidea.org/posts/2011/avril/20/a-formerly-markdown-powered-article/ a file-relative link to another article
+
+### Testing sourcecode
+
+``` Python code
+    formatter = self.options and VARIANTS[self.options.keys()[0]]
+```
+
+### Testing more sourcecode
+
+``` Longer Python code
+
+    def run(self):
+        self.assert_has_content()
+        try:
+            lexer = get_lexer_by_name(self.arguments[0])
+        except ValueError:
+            # no lexer found - use the text one instead of an exception
+            lexer = TextLexer()
+
+        if ('linenos' in self.options and
+                self.options['linenos'] not in ('table', 'inline')):
+            self.options['linenos'] = 'table'
+
+        for flag in ('nowrap', 'nobackground', 'anchorlinenos'):
+            if flag in self.options:
+                self.options[flag] = True
+
+        # noclasses should already default to False, but just in case...
+        formatter = HtmlFormatter(noclasses=False, **self.options)
+        parsed = highlight('\n'.join(self.content), lexer, formatter)
+        return [nodes.raw('', parsed, format='html')]
+```
+
+Lovely.
+</content><category term="misc"></category></entry><entry><title>The baz tag</title><link href="gemini://blog.notmyidea.org/tag/baz.gmi" rel="alternate"></link><published>2010-03-14T00:00:00+01:00</published><updated>2010-03-14T00:00:00+01:00</updated><author><name>Alexis Métaireau</name></author><id>tag:blog.notmyidea.org,2010-03-14:/tag/baz.gmi</id><content type="html">This article overrides the listening of the articles under the baz tag.
+</content><category term="misc"></category></entry></feed>
