@@ -1,0 +1,15 @@
+pytestskipmarkers/__init__.py,sha256=yZvGOToO9BDvBZDKU01Sg-Cbuok2dWm4YhbWUU9Fe6E,1808
+pytestskipmarkers/plugin.py,sha256=MAI2kDm9EaVSnCfKGihroKmL7Wp7wwE8j2Sb_yUkImI,5715
+pytestskipmarkers/version.py,sha256=MNMQhJxB07CDK6WMqaGqRC6SPU3IaadlRZourGlpn_4,43
+pytestskipmarkers/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytestskipmarkers/utils/markers.py,sha256=e7ylJcnBCZ98n4lzpYjSU_LwQ19OW8iaGGwugHlNfkY,27382
+pytestskipmarkers/utils/platform.py,sha256=boTh2vWxjYZxZjV9WLccPeNP7ZPHUZQZrGW0tLv5x5k,5406
+pytestskipmarkers/utils/ports.py,sha256=3XzTGhPQTNlVqlO0ZWehT49cOE40NqhGwOfAY8QVU54,1938
+pytestskipmarkers/utils/socket.py,sha256=cLXFXzYcBFDHTPZFW8TxKh8Be6QO6howrI-bLsxyvY0,438
+pytestskipmarkers/utils/win_functions.py,sha256=CXm9UDVvrq-9lOgUP9meWsuoN5nIwbYBnjsGMQCawgI,4451
+pytest_skip_markers-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_skip_markers-1.0.0.dist-info/METADATA,sha256=G_wVR4CgfF_8DA69ry2o42FyGNDJoDryErc6TISFF4U,4438
+pytest_skip_markers-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytest_skip_markers-1.0.0.dist-info/entry_points.txt,sha256=sEIsR1OaOiL8hGTdexZWxyZZM-ufIn5Mea7nxAXUMUM,52
+pytest_skip_markers-1.0.0.dist-info/top_level.txt,sha256=aPzC-QJz9gIlj4gN8solXUiw0Zy4of1BInTFdK6gk9Y,18
+pytest_skip_markers-1.0.0.dist-info/RECORD,,
