@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-ccp4map = napari_ccp4map
+
