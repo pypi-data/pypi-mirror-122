@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+dev-requirements.in
+dev-requirements.txt
+pyproject.toml
+requirements.in
+requirements.txt
+setup.py
+asaman/__init__.py
+asaman.egg-info/PKG-INFO
+asaman.egg-info/SOURCES.txt
+asaman.egg-info/dependency_links.txt
+asaman.egg-info/entry_points.txt
+asaman.egg-info/requires.txt
+asaman.egg-info/top_level.txt
