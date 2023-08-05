@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: uecauth
+Version: 0.0.2
+Summary: UEC Auth
+Home-page: https://github.com/uec-world-dominators/uecauth
+Author: shosatojp
+Author-email: me@shosato.jp
+License: Type license() to see the full license text
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
