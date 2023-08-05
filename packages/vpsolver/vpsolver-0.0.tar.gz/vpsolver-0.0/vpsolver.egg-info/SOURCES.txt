@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+vpsolver.egg-info/PKG-INFO
+vpsolver.egg-info/SOURCES.txt
+vpsolver.egg-info/dependency_links.txt
+vpsolver.egg-info/not-zip-safe
+vpsolver.egg-info/requires.txt
+vpsolver.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vpsolver
+Version: 0.0
+Summary: Arc-flow Vector Packing Solver (VPSolver)
+Home-page: https://pypi.python.org/pypi/pyvpsolver/
+Author: Filipe Brandao
+Author-email: fdabrandao@dcc.fc.up.pt
+Maintainer: Filipe Brandao
+Maintainer-email: fdabrandao@gmail.com
+License: UNKNOWN
+Platform: all
+
+Use `pyvpsolver <https://pypi.python.org/pypi/pyvpsolver/>`_ instead.
+
