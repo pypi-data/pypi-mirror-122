@@ -1,0 +1,14 @@
+cmeson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmeson/__main__.py,sha256=FnZvgPcNiJd_z30jm1UCJO0xYCISzs78Df5IW7uulfI,213
+cmeson/application.py,sha256=yF3mpIh7Q2-QnG7bCwOsJxICkfoG-NHZvVpRBdzwASw,4179
+cmeson/command.py,sha256=t1PRdtOWVB-vJGZQCnLNi2ptNMW4orcvKfuUB7baD7c,2449
+cmeson/editwidgets.py,sha256=ff5JtSaq0eANH4QDM7ncNjFd4DyhoenKO05m9AHvuEU,2609
+cmeson/optionlist.py,sha256=If14ZTrPhKr4raQ2RnWem2KtsXfw3ywpNKDdEm782Uw,4150
+cmeson/screen.py,sha256=x72-uq7zkv_BaDCi0PVui-2h6eWgb4sY7d-0rmA2484,949
+cmeson-2021.10.3.data/data/share/man/man1/cmeson.1,sha256=Fdsy_m3DkIaRRcTzjf8NR0Cy51HbBmas07hMUYclhQ0,1334
+cmeson-2021.10.3.dist-info/LICENSE,sha256=yJtyEbVKc8XAqaOo5UjNwO5QKULVtGF7zWky2VoHfYo,1083
+cmeson-2021.10.3.dist-info/METADATA,sha256=Q2HgAkOkkbbe0uMusCIEa4yurGKDuZLtzL8KO_uf49c,2340
+cmeson-2021.10.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cmeson-2021.10.3.dist-info/entry_points.txt,sha256=9W1oBDUYtHsBDipSBUot2eQTnwWyX3RBgodDBAtI-BU,49
+cmeson-2021.10.3.dist-info/top_level.txt,sha256=agekCaHkvdsK70QsZSlbSRxXM_fOZdnNroFp-zlNFlE,7
+cmeson-2021.10.3.dist-info/RECORD,,

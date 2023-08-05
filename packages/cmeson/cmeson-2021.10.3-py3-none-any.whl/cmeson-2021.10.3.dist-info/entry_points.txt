@@ -1,0 +1,3 @@
+[console_scripts]
+cmeson = cmeson.__main__:main
+
