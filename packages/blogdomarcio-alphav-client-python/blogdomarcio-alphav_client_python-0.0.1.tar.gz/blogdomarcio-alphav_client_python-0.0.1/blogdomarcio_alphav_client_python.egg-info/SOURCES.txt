@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+alphav_client_python/__init__.py
+alphav_client_python/cryptocurrencies.py
+alphav_client_python/stock_series.py
+alphav_client_python/tecnical_indicators.py
+blogdomarcio_alphav_client_python.egg-info/PKG-INFO
+blogdomarcio_alphav_client_python.egg-info/SOURCES.txt
+blogdomarcio_alphav_client_python.egg-info/dependency_links.txt
+blogdomarcio_alphav_client_python.egg-info/requires.txt
+blogdomarcio_alphav_client_python.egg-info/top_level.txt
+core/__init__.py
+core/exceptions.py
