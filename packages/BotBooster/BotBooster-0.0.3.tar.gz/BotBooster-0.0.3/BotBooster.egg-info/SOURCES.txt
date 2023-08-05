@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+BotBooster/__init__.py
+BotBooster.egg-info/PKG-INFO
+BotBooster.egg-info/SOURCES.txt
+BotBooster.egg-info/dependency_links.txt
+BotBooster.egg-info/entry_points.txt
+BotBooster.egg-info/requires.txt
+BotBooster.egg-info/top_level.txt
