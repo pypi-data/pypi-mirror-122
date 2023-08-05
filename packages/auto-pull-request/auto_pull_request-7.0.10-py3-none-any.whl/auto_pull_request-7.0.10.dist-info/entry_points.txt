@@ -1,0 +1,3 @@
+[console_scripts]
+auto-pull-request=auto_pull_request.parser:main
+
