@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: soso_python
+Version: 0.0.1
+Summary: Function BankOnline
+Home-page: UNKNOWN
+Author: soso_python
+Author-email: 6314120009@mutacth.com
+License: MIT
+Description: Demo Library
+Keywords: soso_python,soso_py
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
