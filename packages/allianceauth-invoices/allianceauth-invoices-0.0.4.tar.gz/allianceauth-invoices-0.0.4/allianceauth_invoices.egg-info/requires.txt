@@ -1,0 +1,2 @@
+allianceauth
+allianceauth-corptools
