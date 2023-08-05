@@ -1,0 +1,6 @@
+tol.py
+Tolik.egg-info/PKG-INFO
+Tolik.egg-info/SOURCES.txt
+Tolik.egg-info/dependency_links.txt
+Tolik.egg-info/not-zip-safe
+Tolik.egg-info/top_level.txt
