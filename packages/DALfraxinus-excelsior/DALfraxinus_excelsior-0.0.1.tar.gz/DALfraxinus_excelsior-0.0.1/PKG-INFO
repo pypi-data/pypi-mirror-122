@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: DALfraxinus_excelsior
+Version: 0.0.1
+Summary: Function BankOnline
+Home-page: UNKNOWN
+Author: agent_oguro
+Author-email: 6314120013@mutacth.com
+License: MIT
+Description: Demo Library
+Keywords: FRAXINUS_EXCELSIOR,fraxinus_excelsior,NECSINMUT,NECS1201
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
