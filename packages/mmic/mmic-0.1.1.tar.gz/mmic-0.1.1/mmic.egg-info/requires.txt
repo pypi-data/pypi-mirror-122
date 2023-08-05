@@ -1,0 +1,2 @@
+pydantic
+cmselemental==0.2.0
