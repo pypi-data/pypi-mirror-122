@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+aicore_tz_watch_scraper.egg-info/PKG-INFO
+aicore_tz_watch_scraper.egg-info/SOURCES.txt
+aicore_tz_watch_scraper.egg-info/dependency_links.txt
+aicore_tz_watch_scraper.egg-info/requires.txt
+aicore_tz_watch_scraper.egg-info/top_level.txt
+scraper/__init__.py
+scraper/__main__.py
+scraper/datahandler.py
+scraper/watchscraper.py
+tests/__init__.py
+tests/testwatchscraper.py
