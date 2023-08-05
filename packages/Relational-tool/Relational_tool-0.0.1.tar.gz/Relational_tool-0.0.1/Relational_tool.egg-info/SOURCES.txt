@@ -1,0 +1,14 @@
+setup.py
+Relational_tool.egg-info/PKG-INFO
+Relational_tool.egg-info/SOURCES.txt
+Relational_tool.egg-info/dependency_links.txt
+Relational_tool.egg-info/top_level.txt
+relational_tool/__init__.py
+relational_tool/maintenance.py
+relational_tool/optimizations.py
+relational_tool/optimizer.py
+relational_tool/parser.py
+relational_tool/querysplit.py
+relational_tool/relation.py
+relational_tool/relational.py
+relational_tool/rtypes.py

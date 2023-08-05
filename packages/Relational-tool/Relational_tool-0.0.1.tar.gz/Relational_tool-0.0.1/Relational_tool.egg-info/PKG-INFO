@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Relational-tool
+Version: 0.0.1
+Summary: Relational Algebra Tool
+Home-page: UNKNOWN
+Author: Nimmy patel
+Author-email: pateln2021@my.fit.edu
+License: UNKNOWN
+Description: Manipulating relational algebra queries
+Keywords: python,relational,algebra,tool,nimmypatel
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
