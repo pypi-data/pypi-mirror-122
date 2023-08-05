@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tralalalal
+Version: 1.0.0
+Summary: package from sda academy course with python tirana al 4
+Author: slikaj-jb
+Author-email: sokol@jebbit.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
