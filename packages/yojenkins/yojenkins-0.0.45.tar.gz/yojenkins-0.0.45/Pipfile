@@ -1,0 +1,37 @@
+# -*- mode: toml -*-
+# vim: set filetype=toml
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+bump2version = "*"
+pre-commit = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+setuptools = "*"
+twine = "*"
+wheel = "*"
+yapf = "*"
+yojenkins = {editable = true, path = "."}
+
+[packages]
+click = "*"
+click-help-colors = "*"
+coloredlogs = "*"
+docker = "*"
+json2xml = "3.7.0"
+python-jenkins = "*"
+pyyaml = "*"
+requests_futures = "*"
+simpleaudio = {version = "*", platform_system = "!= 'Windows'"}
+toml = "*"
+windows-curses = {version = "2.2.0", platform_system = "== 'Windows'"}
+xmltodict = "*"
+
+[pipenv]
+allow_prereleases = true
