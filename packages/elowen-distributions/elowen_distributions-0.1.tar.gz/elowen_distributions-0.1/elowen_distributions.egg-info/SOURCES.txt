@@ -1,0 +1,10 @@
+setup.py
+elowen_distributions/Binomialdistribution.py
+elowen_distributions/Gaussiandistribution.py
+elowen_distributions/Generaldistribution.py
+elowen_distributions/__init__.py
+elowen_distributions.egg-info/PKG-INFO
+elowen_distributions.egg-info/SOURCES.txt
+elowen_distributions.egg-info/dependency_links.txt
+elowen_distributions.egg-info/not-zip-safe
+elowen_distributions.egg-info/top_level.txt
