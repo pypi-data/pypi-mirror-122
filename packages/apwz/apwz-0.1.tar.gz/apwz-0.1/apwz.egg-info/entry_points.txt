@@ -1,0 +1,3 @@
+[console_scripts]
+apwz = apwz.command_line:main
+

@@ -1,0 +1,8 @@
+README.rst
+setup.py
+apwz.egg-info/PKG-INFO
+apwz.egg-info/SOURCES.txt
+apwz.egg-info/dependency_links.txt
+apwz.egg-info/entry_points.txt
+apwz.egg-info/not-zip-safe
+apwz.egg-info/top_level.txt
