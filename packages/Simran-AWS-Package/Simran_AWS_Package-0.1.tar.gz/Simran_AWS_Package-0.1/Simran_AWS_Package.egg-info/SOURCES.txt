@@ -1,0 +1,10 @@
+setup.py
+Simran_AWS_Package.egg-info/PKG-INFO
+Simran_AWS_Package.egg-info/SOURCES.txt
+Simran_AWS_Package.egg-info/dependency_links.txt
+Simran_AWS_Package.egg-info/not-zip-safe
+Simran_AWS_Package.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
