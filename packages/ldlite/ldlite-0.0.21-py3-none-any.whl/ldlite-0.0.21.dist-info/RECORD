@@ -1,0 +1,12 @@
+ldlite/__init__.py,sha256=sp5TjDscMZAw_5wZnbUfNmLkysQjzu64TsX1TpFoCtc,17596
+ldlite/_camelcase.py,sha256=i_K3R8pOiqGd9GbjUVQJvx40UNYXMlM7RK1VneJJ4xA,2274
+ldlite/_csv.py,sha256=5khY9Jbpf_By8_erCRfnufu6QPsdJpti0drd3uk0wiI,1464
+ldlite/_jsonx.py,sha256=QdRrywfgxxP0QRpROB4l7nF3yypvhavtSUV__R05DOE,11054
+ldlite/_select.py,sha256=O7R94kNm4oSNaUeXm9Bz-iKLjCeXxajrkhJLNhWCV8k,4154
+ldlite/_sqlx.py,sha256=q-U7E-P8Pwp67PUyBT027oXi55IuebwnARitqSzRjJk,1739
+ldlite/_xlsx.py,sha256=b90iotKF_m_GvfmBT1TLm6uLzJ--PALbKzBOyN96ofM,1476
+ldlite-0.0.21.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ldlite-0.0.21.dist-info/METADATA,sha256=l1OL25_qY2sknVlx0mOhpyYOCjTvlmWc-x0isGDX1ZE,4507
+ldlite-0.0.21.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ldlite-0.0.21.dist-info/top_level.txt,sha256=c8L0Z_Pghuei7m3XndPt7ky-UfAy_GRPrvL1WE-HW40,7
+ldlite-0.0.21.dist-info/RECORD,,
