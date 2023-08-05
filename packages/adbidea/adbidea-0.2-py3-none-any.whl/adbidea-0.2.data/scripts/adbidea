@@ -1,0 +1,111 @@
+#!/bin/bash
+
+version="0.2"
+
+set -e
+
+PROGNAME=`basename $0`
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+
+NC='\033[0m' # No Color
+
+function red {
+	all="$@"
+    printf "${RED}$all${NC}"
+}
+
+function green {
+	all="$@"
+    printf "${GREEN}$all${NC}"
+}
+
+function yellow {
+	all="$@"
+    printf "${YELLOW}$all${NC}"
+}
+
+die() {
+    echo "$PROGNAME: $*" >&2
+    exit 1
+}
+
+echop() {
+    echo "${@}" >&2
+}
+
+
+usage() {
+    if [ "$*" != "" ] ; then
+        echo "Error: $*"
+    fi
+
+    cat << EOF
+Usage: $PROGNAME -t 123
+Custom Script usage title here
+Options:
+-h, --help                 display this usage message and exit
+-v, --version			   show version
+EOF
+    exit 1
+}
+
+
+function spinner() {
+    local info="$1"
+    local pid=$!
+    local delay=0.75
+    local spinstr='|/-\'
+    while kill -0 $pid 2> /dev/null; do
+        local temp=${spinstr#?}
+        printf " [%c]  $info" "$spinstr"
+        local spinstr=$temp${spinstr%"$temp"}
+        sleep $delay
+        local reset="\b\b\b\b\b\b"
+        for ((i=1; i<=$(echo $info | wc -c); i++)); do
+            reset+="\b"
+        done
+        printf $reset
+    done
+    printf "    \b\b\b\b"
+}
+
+
+check_if_flag_args()
+{
+  if [[ $2 == "-"* ]]; then
+    usage "Not a valid argument for $1"
+  fi
+}
+
+title=""
+REM_ARGS=()
+
+while [ $# -gt 0 ] ; do
+    case "$1" in
+    -h|--help)
+        usage
+        ;;
+	
+	-v|--version)
+		echo "version == $version"
+		;;
+
+    -t|--title)
+        check_if_flag_args $1 $2
+        title="$2"
+        shift
+        ;;
+    -*)
+        usage "Unknown option '$1'"
+        ;;
+    *)
+        REM_ARGS+=" $1"
+      ;;
+    esac
+    shift
+done
+
+echop "REM_ARGS are ${REM_ARGS[@]}"
