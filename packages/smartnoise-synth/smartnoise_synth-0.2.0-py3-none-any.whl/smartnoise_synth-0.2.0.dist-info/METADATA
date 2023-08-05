@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: smartnoise-synth
+Version: 0.2.0
+Summary: Differentially private synthetic data
+License: MIT
+Author: SmartNoise Team
+Author-email: smartnoise@opendp.org
+Requires-Python: >=3.7.1,<=3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ctgan (==0.2.2.dev0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: opacus (==0.11.0)
+Requires-Dist: torch (==1.7.1)
