@@ -1,0 +1,4 @@
+colorama
+apscheduler
+pyfiglet
+bs4
