@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: diskloaf
+Version: 0.2.0
+Summary: A tool for creating a large file (a loaf) in order to wipe a hard disk written by someone who knows nothing about security
+Home-page: https://github.com/Yook74/diskloaf
+Author: Andrew Blomenberg
+Author-email: andrewBlomen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: progressbar2
+
+UNKNOWN
+
