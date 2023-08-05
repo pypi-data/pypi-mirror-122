@@ -1,0 +1,3 @@
+[console_scripts]
+fluxture = fluxture.__main__:main
+
