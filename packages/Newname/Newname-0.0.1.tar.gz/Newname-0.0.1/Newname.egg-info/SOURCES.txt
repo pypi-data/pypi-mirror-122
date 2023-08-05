@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+Newname.egg-info/PKG-INFO
+Newname.egg-info/SOURCES.txt
+Newname.egg-info/dependency_links.txt
+Newname.egg-info/requires.txt
+Newname.egg-info/top_level.txt
+car_scraper/__init__.py
+car_scraper/__main__.py
+car_scraper/car_scraping_1.py
+rds_uploader/__init__.py
+rds_uploader/rds_scraped_ebay_cars.py
+test/__init__.py
+test/test_car_scraping_1.py
