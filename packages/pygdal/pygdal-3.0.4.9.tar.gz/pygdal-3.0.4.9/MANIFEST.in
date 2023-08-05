@@ -1,0 +1,2 @@
+include GDAL_VERSION
+recursive-include py2 py3
