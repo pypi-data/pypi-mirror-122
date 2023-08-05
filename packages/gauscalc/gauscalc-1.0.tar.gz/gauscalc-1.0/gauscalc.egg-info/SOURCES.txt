@@ -1,0 +1,10 @@
+setup.py
+gauscalc/Binomialdistribution.py
+gauscalc/Gaussiandistribution.py
+gauscalc/Generaldistribution.py
+gauscalc/__init__.py
+gauscalc.egg-info/PKG-INFO
+gauscalc.egg-info/SOURCES.txt
+gauscalc.egg-info/dependency_links.txt
+gauscalc.egg-info/not-zip-safe
+gauscalc.egg-info/top_level.txt
