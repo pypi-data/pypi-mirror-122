@@ -1,0 +1,12 @@
+torch
+
+[dev]
+bumpversion
+twine
+wheel
+
+[test]
+pandas
+pytest
+pytest-cov
+seaborn
