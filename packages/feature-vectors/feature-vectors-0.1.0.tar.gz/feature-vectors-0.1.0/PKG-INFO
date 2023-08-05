@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: feature-vectors
+Version: 0.1.0
+Summary: Explain the output of a tree based model using importance of features and their semantic relationship
+Home-page: https://github.com/amiratag/feature-vectors
+Author: Amirata Ghorbani, Dina Berenbaum
+Author-email: amirataghorbani.tw@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
