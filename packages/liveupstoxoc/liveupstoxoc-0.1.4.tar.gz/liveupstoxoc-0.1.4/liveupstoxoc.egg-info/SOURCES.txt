@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+liveupstoxoc/__init__.py
+liveupstoxoc/live_upstox_oc.py
+liveupstoxoc.egg-info/PKG-INFO
+liveupstoxoc.egg-info/SOURCES.txt
+liveupstoxoc.egg-info/dependency_links.txt
+liveupstoxoc.egg-info/requires.txt
+liveupstoxoc.egg-info/top_level.txt
