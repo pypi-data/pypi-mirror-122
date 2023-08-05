@@ -1,0 +1,8 @@
+glcm/__init__.py,sha256=IQF40EQwvC2NVXqoa_nwLsmj29WmWrorIelDdkg0vOE,56
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/bounds_test.py,sha256=W0UWwPv8uNKCuxYOhDQpwCBfjgZyodEL6V-N9g4gC4o,224
+glcmbin5-0.1.4.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+glcmbin5-0.1.4.dist-info/METADATA,sha256=_-9wPA-fyo-hviJnqP3jW_58Z_Gw6NpSAJERtM8w3Cc,5208
+glcmbin5-0.1.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+glcmbin5-0.1.4.dist-info/top_level.txt,sha256=NDThBkypajHZMJTMlWnoYDuaLkmehXmOzmOthbZNIuc,10
+glcmbin5-0.1.4.dist-info/RECORD,,
