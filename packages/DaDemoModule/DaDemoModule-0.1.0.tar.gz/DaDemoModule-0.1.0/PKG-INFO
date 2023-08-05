@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: DaDemoModule
+Version: 0.1.0
+Summary: A example Python package
+Home-page: https://colab.research.google.com/drive/1e42VW-f5vJM1BxK_Fw2kh1sjJfSV1vGs#scrollTo=loose-emerald
+Author: D-Korobkov
+Author-email: email@email.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6

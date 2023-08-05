@@ -1,0 +1,8 @@
+setup.py
+DaDemoModule/MyGenerator.py
+DaDemoModule/__init__.py
+DaDemoModule.egg-info/PKG-INFO
+DaDemoModule.egg-info/SOURCES.txt
+DaDemoModule.egg-info/dependency_links.txt
+DaDemoModule.egg-info/requires.txt
+DaDemoModule.egg-info/top_level.txt
