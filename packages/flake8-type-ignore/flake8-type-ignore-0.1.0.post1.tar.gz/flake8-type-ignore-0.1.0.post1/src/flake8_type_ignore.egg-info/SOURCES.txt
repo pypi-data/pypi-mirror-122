@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/flake8_type_ignore/__init__.py
+src/flake8_type_ignore.egg-info/PKG-INFO
+src/flake8_type_ignore.egg-info/SOURCES.txt
+src/flake8_type_ignore.egg-info/dependency_links.txt
+src/flake8_type_ignore.egg-info/entry_points.txt
+src/flake8_type_ignore.egg-info/requires.txt
+src/flake8_type_ignore.egg-info/top_level.txt
