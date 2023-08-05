@@ -1,0 +1,7 @@
+setup.py
+src/MNIF/__init__.py
+src/MNIF/mnif.py
+src/mnif.egg-info/PKG-INFO
+src/mnif.egg-info/SOURCES.txt
+src/mnif.egg-info/dependency_links.txt
+src/mnif.egg-info/top_level.txt
