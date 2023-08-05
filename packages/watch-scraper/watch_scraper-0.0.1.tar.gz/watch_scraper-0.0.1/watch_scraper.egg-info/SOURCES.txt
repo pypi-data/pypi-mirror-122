@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+scraper/__init__.py
+scraper/__main__.py
+scraper/datahandler.py
+scraper/watchscraper.py
+tests/__init__.py
+tests/testwatchscraper.py
+watch_scraper.egg-info/PKG-INFO
+watch_scraper.egg-info/SOURCES.txt
+watch_scraper.egg-info/dependency_links.txt
+watch_scraper.egg-info/requires.txt
+watch_scraper.egg-info/top_level.txt

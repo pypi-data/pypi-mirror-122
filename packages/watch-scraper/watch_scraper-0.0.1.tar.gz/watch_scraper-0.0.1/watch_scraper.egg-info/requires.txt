@@ -1,0 +1,6 @@
+selenium
+tqdm
+sqlalchemy
+pandas
+boto3
+psycopg2
