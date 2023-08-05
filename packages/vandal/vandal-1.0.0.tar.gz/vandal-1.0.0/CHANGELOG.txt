@@ -1,0 +1,8 @@
+CHANGELOG
+==========
+
+0.0.1 (03/10/2021)
+- initial release.
+
+0.0.2 (03/10/2021)
+- vandal replaces the functionality of the currently discarded alunari python package.
