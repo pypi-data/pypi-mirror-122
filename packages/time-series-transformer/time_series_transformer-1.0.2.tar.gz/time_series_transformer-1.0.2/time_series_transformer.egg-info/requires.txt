@@ -1,0 +1,15 @@
+torch
+
+[dev]
+autopep8
+bumpversion
+pylint
+twine
+
+[docs]
+
+[test]
+flights-time-series-dataset
+pytest-cov
+pytest>=4.6
+time-series-predictor
