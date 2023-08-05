@@ -1,0 +1,54 @@
+Metadata-Version: 1.2
+Name: stac_nb
+Version: 0.1.0
+Summary: stac-nb exposes STAC in Jupyter Notebooks
+Home-page: https://github.com/darrenwiens/stac-nb
+Author: Darren Wiens
+Author-email: dkwiens@gmail.com
+License: MIT license
+Description: stac-nb
+        =================
+        STAC in Jupyter Notebooks
+        -------------------------
+        
+        Install
+        -------------------------
+        
+            pip install stac-nb
+        
+        Usage
+        -------------------------
+        
+        To use stac-nb in a project, start Jupyter Lab (`jupyter lab`), create a new notebook, then::
+        
+            from stac_nb import STAC_Query_UI
+        
+        Display the UI for a STAC API::
+        
+            ui = STAC_Query_UI("https://earth-search.aws.element84.com/v0")
+            ui.display()
+        
+        After you have run the query, retrieve the results::
+        
+            ui.query_results
+        
+        
+        History
+        =======
+        
+        0.1.0 (2021-09-30)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: stac_nb
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
