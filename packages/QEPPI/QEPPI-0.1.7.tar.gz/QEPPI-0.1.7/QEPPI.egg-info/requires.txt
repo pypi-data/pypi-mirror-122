@@ -1,0 +1,3 @@
+rdkit-pypi>=2020.9.5.2
+numpy>=1.19.5
+pandas>=1.1.5
