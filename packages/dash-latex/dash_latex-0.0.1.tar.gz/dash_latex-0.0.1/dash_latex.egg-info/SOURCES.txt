@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_latex/DashLatex.py
+dash_latex/__init__.py
+dash_latex/_imports_.py
+dash_latex/dash_latex.min.js
+dash_latex/dash_latex.min.js.map
+dash_latex/metadata.json
+dash_latex/package-info.json
+dash_latex.egg-info/PKG-INFO
+dash_latex.egg-info/SOURCES.txt
+dash_latex.egg-info/dependency_links.txt
+dash_latex.egg-info/top_level.txt
