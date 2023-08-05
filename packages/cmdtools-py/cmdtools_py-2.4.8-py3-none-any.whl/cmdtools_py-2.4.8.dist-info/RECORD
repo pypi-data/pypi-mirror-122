@@ -1,0 +1,8 @@
+cmdtools/__init__.py,sha256=4WAtpWFHq1LfP4gF8sc9H-p3U-AVLsc2UK0EYbSdo-A,50
+cmdtools/cmdtools.py,sha256=pYMY5P8vKBe-0sC8E0Z53jPpQZQUSnrsZ6AcnqNKvPc,13166
+cmdtools/ext/command.py,sha256=cCfyUkcHw2q2QN54XmTlivKlcws6fzSmFvb8p4bJa0s,12543
+cmdtools_py-2.4.8.dist-info/LICENSE,sha256=KrgVX52IM5ltB1CjGioF3n5S_u9kprire03eRqMkaFg,1089
+cmdtools_py-2.4.8.dist-info/METADATA,sha256=QsduRKB7Hq8kv9OUIT9XI0IGeZwElKoutN0CGQG61FA,3251
+cmdtools_py-2.4.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cmdtools_py-2.4.8.dist-info/top_level.txt,sha256=53SSplILIGZdmxSywemlOBAU5pBQLyL520YT1AiGBH8,22
+cmdtools_py-2.4.8.dist-info/RECORD,,
