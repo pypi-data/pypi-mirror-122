@@ -1,0 +1,14 @@
+README.md
+setup.py
+conf/__init__.py
+gitdown/__init__.py
+gitdown/config.py
+gitdown/download.py
+gitdown/main.py
+gitdown/parser_git_dir.py
+gitdown.egg-info/PKG-INFO
+gitdown.egg-info/SOURCES.txt
+gitdown.egg-info/dependency_links.txt
+gitdown.egg-info/entry_points.txt
+gitdown.egg-info/requires.txt
+gitdown.egg-info/top_level.txt
