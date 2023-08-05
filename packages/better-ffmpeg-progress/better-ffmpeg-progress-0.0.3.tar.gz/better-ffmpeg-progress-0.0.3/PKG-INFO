@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: better-ffmpeg-progress
+Version: 0.0.3
+Summary: Run FFmpeg & see percentage progress + ETA.
+Home-page: https://github.com/CrypticSignal/better-ffmpeg-progress
+Author: GitHub.com/CrypticSignal
+Author-email: theaudiophile@outlook.com
+License: UNKNOWN
+Keywords: ffmpeg,progress
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# better-ffmpeg-progress
+A command line program that runs an FFmpeg command and shows the following in addition to the FFmpeg output:
+- Percentage Progress
+- Speed
+- ETA (minutes and seconds)
+
+Example: `Progress: 25% | Speed: 22.3x | ETA: 1m 33s`
+
