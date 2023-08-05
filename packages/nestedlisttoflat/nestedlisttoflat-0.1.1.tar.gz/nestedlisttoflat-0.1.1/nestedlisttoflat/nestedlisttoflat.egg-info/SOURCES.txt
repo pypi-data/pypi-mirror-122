@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nestedlisttoflat/nestedlisttoflat/__init__.py
+nestedlisttoflat/nestedlisttoflat/nestedlisttoflat.py
+nestedlisttoflat/nestedlisttoflat.egg-info/PKG-INFO
+nestedlisttoflat/nestedlisttoflat.egg-info/SOURCES.txt
+nestedlisttoflat/nestedlisttoflat.egg-info/dependency_links.txt
+nestedlisttoflat/nestedlisttoflat.egg-info/top_level.txt
