@@ -1,0 +1,11 @@
+pyperclip
+
+[docs]
+pyperclip
+sphinx
+sphinx-autodoc-typehints>=1.2.0
+sphinx-rtd-theme
+
+[test]
+pyperclip
+codecov
