@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/NeuronOne/__init__.py
+src/NeuronOne/perceptron.py
+src/Neuron_one_pypi_misterak8.egg-info/PKG-INFO
+src/Neuron_one_pypi_misterak8.egg-info/SOURCES.txt
+src/Neuron_one_pypi_misterak8.egg-info/dependency_links.txt
+src/Neuron_one_pypi_misterak8.egg-info/requires.txt
+src/Neuron_one_pypi_misterak8.egg-info/top_level.txt
