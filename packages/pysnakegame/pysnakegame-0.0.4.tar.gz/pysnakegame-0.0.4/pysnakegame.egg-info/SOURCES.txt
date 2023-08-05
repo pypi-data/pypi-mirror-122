@@ -1,0 +1,7 @@
+README.md
+setup.py
+pysnakegame.egg-info/PKG-INFO
+pysnakegame.egg-info/SOURCES.txt
+pysnakegame.egg-info/dependency_links.txt
+pysnakegame.egg-info/requires.txt
+pysnakegame.egg-info/top_level.txt

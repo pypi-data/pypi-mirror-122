@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pysnakegame
+Version: 0.0.4
+Summary: The Snake Game
+Home-page: UNKNOWN
+Author: Jonas Barth
+Author-email: jonas.barth.95@gmail.com
+License: UNKNOWN
+Keywords: python,snake,game,video game
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+Snake 
+
+
