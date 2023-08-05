@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: fluxture
+Version: 0.0.1
+Summary: A crawling framework for blockchains and peer-to-peer systems
+Home-page: https://github.com/trailofbits/fluxture
+Author: Trail of Bits
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: fastkml (~=0.11)
+Requires-Dist: geoip2 (~=4.1.0)
+Requires-Dist: graphviz (~=0.14.1)
+Requires-Dist: great-circle-calculator (~=1.1.0)
+Requires-Dist: keyring (~=21.8.0)
+Requires-Dist: lxml (~=4.6.2)
+Requires-Dist: networkx (~=2.4)
+Requires-Dist: numpy (>=1.19.4)
+Requires-Dist: shapely (~=1.7.1)
+Requires-Dist: shodan (~=1.24.0)
+Requires-Dist: six (>=1.5)
+Requires-Dist: tqdm (>=4.48.0)
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
