@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: clappy
+Version: 0.2.1
+Summary: Command line argument parser for pythonic code
+Home-page: https://github.com/yoko72/clappy
+Author: Toshiyuki Yokoyama
+Author-email: yokoyamacode@gmail.com
+License: UNKNOWN
+Keywords: command line,argument,option,parser
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# clappy
+
+Command Line Argument Parser for pythonic code.
+
+
+Simple example with clappy:
+
+    import clappy as cl
+
+    is_verbose = cl.parse("--verbose", "-v", is_flag=True)
+    log_level = cl.parse("--log_level", defaut="warning") 
+
+    # set logger with them
+
+You can easily get each result independently.
+
+
+Equivalent script without clappy:
+
+    from argparse import ArgumentParser
+
+    parser = ArgumentParser()
+    parser.add_argument("--verbose", "-v", action="store_true")
+    parser.add_argument("--log_level", default="warning")
+    args = parser.parse_args()
+    is_verbose = args.verbose
+    log_level = args.log_level
+
+    # set logger with them
+    
+
+Script with clappy is obviously more readable and writable.
+
+Clappy is especially strong when you have multiple modules requiring commandline argument.
+You usually must give parser to other modules one by one till the parser gets all arguments. 
+After you register all arguments and parse result, you must allocate each result to each module.
+
+Clappy frees you from such tiresome process by individual parsing.
+
+
+## Install
+
+`pip install clappy`
+
+## How to use
+
+clappy is a wrapper of argparse. You can give arguments for clappy same as argparse. [Reference of argparse is here.](https://docs.python.org/ja/3/howto/argparse.html)
+
+Just call clappy.parse(\*args, \*\*kwargs) as if argparse.ArgumentParser().add_argument(\*args, \*\*kwargs). 
+Both methods accept same args.
+
+If you want to generate help automatically, call clappy.create_help(). 
+It must be done after all arguments got parsed.
+
+To give some args for ArgumentParser constructor:
+initialize parser with clappy.initialize_parser(\*args, \*\*kwargs).
+
+
