@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+dev-requirements.in
+dev-requirements.txt
+pyproject.toml
+requirements.in
+requirements.txt
+setup.py
+amrasaman/__init__.py
+amrasaman.egg-info/PKG-INFO
+amrasaman.egg-info/SOURCES.txt
+amrasaman.egg-info/dependency_links.txt
+amrasaman.egg-info/entry_points.txt
+amrasaman.egg-info/requires.txt
+amrasaman.egg-info/top_level.txt
