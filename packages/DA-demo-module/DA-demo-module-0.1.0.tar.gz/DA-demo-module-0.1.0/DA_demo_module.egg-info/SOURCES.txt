@@ -1,0 +1,8 @@
+setup.py
+DA-demo-module/MyGenerator.py
+DA-demo-module/__init__.py
+DA_demo_module.egg-info/PKG-INFO
+DA_demo_module.egg-info/SOURCES.txt
+DA_demo_module.egg-info/dependency_links.txt
+DA_demo_module.egg-info/requires.txt
+DA_demo_module.egg-info/top_level.txt
