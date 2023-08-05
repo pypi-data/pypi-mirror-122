@@ -1,0 +1,24 @@
+[build-system]
+requires = ["maturin>=0.11,<0.12"]
+build-backend = "maturin"
+
+[project]
+name = "primetools"
+version = "0.0.1.post2"
+authors = [
+    {name = "valkyrie_pilot", email = "valk@randomairborne.dev"},
+]
+description = "Prime number tools written in rust."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 2 - Pre-Alpha",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Rust"
+]
+
+[project.urls]
+Source = "https://github.com/randomairborne/primetools"
