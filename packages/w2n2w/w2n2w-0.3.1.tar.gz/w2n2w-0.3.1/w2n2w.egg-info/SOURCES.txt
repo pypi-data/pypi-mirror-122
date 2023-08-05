@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+w2n2w/__init__.py
+w2n2w.egg-info/PKG-INFO
+w2n2w.egg-info/SOURCES.txt
+w2n2w.egg-info/dependency_links.txt
+w2n2w.egg-info/top_level.txt
