@@ -1,0 +1,33 @@
+stages:
+    - all
+
+before_script:
+    - python -V
+    - python setup.py develop
+    - pip install pip --upgrade
+    - pip install setuptools --upgrade
+    - pip install .[docs]
+
+test:
+    stage: all
+    image: devops
+    tags:
+        - docker.elmer.nitrox
+    script:
+        - Xvfb :1 &
+        - export DISPLAY=:1
+        - PYTHONDONTWRITEBYTECODE=1 pytest tests --cov=opentea --cov-config=.coveragerc -m "not exec_dependency"
+
+lint:
+    stage: all
+    image: devops
+    tags:
+        - docker.elmer.nitrox
+    script:
+        - pip install anybadge
+        - pylint opentea --output-format=text --exit-zero | tee pylint.txt
+        - score=$(sed -n 's/^Your code has been rated at \([-0-9.]*\)\/.*/\1/p' pylint.txt)
+        - anybadge -l pylint  -o --file=pylint.svg -v $score  2=red 4=orange 8=yellow 10=green
+    artifacts:
+        paths:
+          - pylint.svg

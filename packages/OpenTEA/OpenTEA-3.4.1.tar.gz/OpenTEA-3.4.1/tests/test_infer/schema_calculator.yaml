@@ -1,0 +1,733 @@
+---
+properties:
+  controle_existif_require:
+    order: '20'
+    properties:
+      controle:
+        properties:
+          controle_ei:
+            default: false
+            title: Existif on/off
+            type: boolean
+          desc:
+            default: "\n        1 verifier que ce widget peut afficher ou effacer
+              instantanement :\n        [item=un modele en dessous]\n        [item=un
+              onglet escamotable juste apres]\n        [item=deux modeles supplementaires
+              dans l'onglet \"ou exclusif\"]\n        [item=une colonne supplementaire
+              dans l'onglet \"multiple\"]\n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: Controle Existif
+        type: object
+      dummy_mod1:
+        existif:
+          node: controle_ei
+          operator: "=="
+          value: true
+        properties:
+          desc:
+            default: "\n        Ce modele ne doit s'afficher que si le controle \"Existif
+              on/off\" est mis a 1.\n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: Modele escamotable
+        type: object
+      expert_model:
+        ot_layout: onrequest
+        properties:
+          a1:
+            default: 1
+            title: a1
+            type: number
+          a2:
+            default: 1
+            title: a2
+            type: number
+          a3:
+            default: 1
+            title: a3
+            type: number
+          desc:
+            default: "\n        4 Ce modele ne s'affiche que sur demande. Son contenu
+              reste  accessible aux scripts Python, au contraire des elements caches
+              par des XOR et des EXISTIFs. \n    "
+            ot_type: desc
+            title: ''
+            type: string
+          docu:
+            default: "\n        Docu model onrequest\n    "
+            ot_type: docu
+            title: ''
+            type: string
+        title: Modele expert
+        type: object
+      opt_model:
+        ot_default: false
+        ot_type: modelonoff
+        properties:
+          a1:
+            default: 1
+            title: a1
+            type: number
+          a2:
+            default: 1
+            title: a2
+            type: number
+          a3:
+            default: 1
+            title: a3
+            type: number
+          desc:
+            default: "\n        5 Ce modele ne s'affiche que sur demande. Son contenu
+              n'est plus  accessible aux scripts Python, comme des elements caches
+              par des XOR et des EXISTIFs. \n    "
+            ot_type: desc
+            title: ''
+            type: string
+          docu:
+            default: "\n        Docu modelonoff\n    "
+            ot_type: docu
+            title: ''
+            type: string
+        title: Modele optionnel
+        type: object
+      source_req_ndim:
+        properties:
+          desc:
+            default: "\n        2 verifier -UNE FOIS L'ONGLET VALIDE- les elements
+              dependant de ndim sont affectes :\n        [item= dans cet onglet pour
+              la liste require ndim]\n        [item= dans l'onglet \"Multiples\"]\n
+              \   "
+            ot_type: desc
+            title: ''
+            type: string
+          ndim_choice:
+            default: two
+            enum:
+            - two
+            - three
+            enum_titles:
+            - 2-D
+            - 3-D
+            title: Dimensions
+            type: string
+          req_ndim:
+            title: Require ndim
+            type: array
+            items:
+              type: number
+              default: 0.0
+        title: Controle require ndim
+        type: object
+      source_req_patch:
+        properties:
+          choice_patches:
+            enum:
+            - a
+            - b
+            - c
+            enum_titles:
+            - a
+            - b
+            - c
+            title: Choix patches
+            type: string
+            default: a
+          desc:
+            default: "\n        3 verifier -UNE FOIS L'ONGLET VALIDE- les elements
+              dependantnombre de patches sont affetes :\n        [item= dans cet onglet
+              pour la liste des patches et le choix]\n        [item= dans l'onglet
+              \"Multiples\"]\n    "
+            ot_type: desc
+            title: ''
+            type: string
+          npatches:
+            default: 4
+            exclusiveMaximum: true
+            exclusiveMinimum: true
+            maximum: 200
+            minimum: 0
+            title: Nombre patches
+            type: integer
+          list_patches:
+            type: array
+            title : Liste des patches
+            state : disabled
+            items : 
+              type : string
+              default: single_patch
+            # default : [patch_in, patch_wall1, patch_wall2, patch_out]
+        title: Controle require patches
+        type: object
+    process: process_controleifreq.py
+    title: Controle If/Req.
+    type: object
+  data3d:
+    order: '60'
+    properties:
+      coque1:
+        properties:
+          desc:
+            default: "\n        First parametric shell\n    "
+            ot_type: desc
+            title: ''
+            type: string
+          ngrid:
+            default: 4
+            maximum: 10
+            minimum: 2
+            title: grid samples
+            type: integer
+          rad1:
+            default: 0.1
+            exclusiveMinimum: true
+            minimum: 0
+            title: rayon 1
+            type: number
+          rad2:
+            default: 0.15
+            exclusiveMinimum: true
+            minimum: 0
+            title: rayon 2
+            type: number
+          t1:
+            default: -30
+            exclusiveMinimum: true
+            maximum: 180
+            minimum: -180
+            title: angle 1 (deg)
+            type: number
+          t2:
+            default: 30
+            exclusiveMaximum: true
+            exclusiveMinimum: true
+            maximum: 180
+            minimum: -180
+            title: angle 2 (deg)
+            type: number
+        title: Shell Nb. 1
+        type: object
+      coque2:
+        properties:
+          desc:
+            default: "\n        Second parametric shell\n    "
+            ot_type: desc
+            title: ''
+            type: string
+          ngrid:
+            default: 6
+            maximum: 10
+            minimum: 2
+            title: grid samples
+            type: integer
+          rad1:
+            default: 0.2
+            exclusiveMinimum: true
+            minimum: 0
+            title: rayon 1
+            type: number
+          rad2:
+            default: 0.25
+            exclusiveMinimum: true
+            minimum: 0
+            title: rayon 2
+            type: number
+          t1:
+            default: 0
+            exclusiveMinimum: true
+            maximum: 180
+            minimum: -180
+            title: angle 1 (deg)
+            type: number
+          t2:
+            default: 90
+            exclusiveMaximum: true
+            exclusiveMinimum: true
+            maximum: 180
+            minimum: -180
+            title: angle 2 (deg)
+            type: number
+        title: Shell Nb. 1
+        type: object
+      modele_desc:
+        properties:
+          desc:
+            default: "\n        Testing the 3d viewer of OpenTEA\n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: Description
+        type: object
+      test_3d:
+        default: Not Implemented!
+        ot_type: view3d
+        type: string
+    script: process_data3d.py
+    title: Visu3D
+    type: object
+  entries:
+    order: '10'
+    properties:
+      choix:
+        properties:
+          choix1:
+            default: item1
+            enum:
+            - item1
+            - item2
+            - item3
+            enum_titles:
+            - item1
+            - item2
+            - item3
+            title: Choix 3 items
+            type: string
+          choix2:
+            default: item1
+            enum:
+            - item1
+            - item2
+            - item3
+            - item4
+            enum_titles:
+            - Titre 1
+            - Titre 2
+            - Titre 3
+            - Titre 4
+            title: Choix 4 items
+            type: string
+          desc:
+            default: "\n        3 verifier l'affichage des choix, ainsi que la presence
+              de titres dans le second choix.\n    "
+            ot_type: desc
+            title: ''
+            type: string
+          sel1:
+            ot_type: selection
+            title: Selection 6
+            type: string
+            default: dummy
+        title: Choices
+        type: object
+      comment:
+        properties:
+          desc:
+            default: "\n        []4 verifier l'affichage des commentaires.[]\n        5
+              verifier qu'au \"process\" le texte du haut est reproduit dans le texte
+              du bas.\n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: Comments
+        type: object
+      ent:
+        properties:
+          desc:
+            default: "\n        1 verifier l'affichage et les tests automatiques des
+              entrees simples.\n        2 verifier l'entree \"cluster\", possibilite
+              d'ajouter et d'enlever des elements.\n    "
+            ot_type: desc
+            title: ''
+            type: string
+          ent0:
+            default: false
+            title: Essai onoff
+            type: boolean
+          ent1:
+            default: 1.3
+            exclusiveMaximum: true
+            exclusiveMinimum: true
+            maximum: 2
+            minimum: 1
+            title: Essai double_gt1_lt2
+            type: number
+          ent2:
+            default: 0
+            maximum: 1
+            minimum: -1
+            title: Essai integer_ge-1_le1
+            type: integer
+          ent3:
+            default: dummy
+            title: Essai string_streq4
+            type: string
+            state: disabled
+          file4:
+            ot_filter:
+            - h5
+            ot_type: file
+            title: Choix fichier (*.h5)
+            type: string
+            default: any.h5
+          file5:
+            ot_type: file
+            title: Choix repertoire
+            type: string
+            default: anyfolder
+        title: Simple entries
+        type: object
+    script: process_entries.py
+    title: Entries
+    type: object
+  escamotable:
+    existif:
+      node: controle_ei
+      operator: "=="
+      value: true
+    order: '25'
+    properties:
+      model_dummy:
+        properties:
+          desc:
+            default: "\n        1 cet onglet est escamotable. Il depend du controle
+              existif de l'onglet precedent.\n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: Description
+        type: object
+    title: Escamotable
+    type: object
+  multiple:
+    order: '40'
+    properties:
+      modele_desc:
+        properties:
+          desc:
+            default: "\n        Le widget suivant est un \"multiple\" avec dependance.
+              Verifier que :\n        [item= 1 on peut modifier la mise en donnee
+              de chaque ligne]\n        [item= 2 reordonner les lignes en cliquant
+              sur les colonnes]\n        [item= 3 le existif controle bien le choix
+              des C.L. liquides]\n        [item= 4 on peut renommer chaque element
+              de la liste]\n        [item= 5 on peut copier/coller chaque element
+              de la liste]\n        \n        \n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: 'Description '
+        type: object
+      mul_cont:
+        items:
+          properties:
+            bcliq:
+              type: object
+              oneOf:
+              - type: object
+                required: [inlet]
+                properties:
+                  inlet:
+                    properties:
+                      desc:
+                        default: " Inlet boundary "
+                        ot_type: desc
+                        title: ''
+                        type: string
+                      velocity:
+                        title: velocity
+                        type: array
+                        items:
+                          type: number
+                          default: 0.0
+                    title: inlet
+                    type: object
+              - type: object
+                required: [outlet]
+                properties:
+                  outlet:
+                    properties:
+                      desc:
+                        default: "Outlet boundary"
+                        ot_type: desc
+                        title: ''
+                        type: string
+                      pressure:
+                        default: 101325
+                        exclusiveMinimum: true
+                        minimum: 0
+                        title: pressure
+                        type: number
+                    title: outlet
+                    type: object
+              - type: object
+                required: [wall]
+                properties:
+                  wall:
+                    properties:
+                      desc:
+                        default: "Wall boundary"
+                        ot_type: desc
+                        title: ''
+                        type: string
+                    title: wall
+                    type: object
+                required:
+                - wall
+              title: B.C. liquid
+            bnd_gas:
+              type: object
+              oneOf:
+              - type: object
+                required: [inlet]
+                properties:
+                  inlet:
+                    properties:
+                      desc:
+                        default: "Inlet boundary"
+                        ot_type: desc
+                        title: ''
+                        type: string
+                      pressure:
+                        default: 101325
+                        title: pressure
+                        type: number
+                      tempoerature:
+                        default: 300
+                        title: tempoerature
+                        type: number
+                      velocity:
+                        title: velocity
+                        type: array
+                        items:
+                          type: number
+                          default: 0.0
+                    title: inlet
+                    type: object
+              - type: object
+                required: [outlet]
+                properties:
+                  outlet:
+                    properties:
+                      desc:
+                        default: "Outlet boundary"
+                        ot_type: desc
+                        title: ''
+                        type: string
+                      pressure:
+                        default: 101325
+                        exclusiveMinimum: true
+                        minimum: 0
+                        title: pressure
+                        type: number
+                    title: outlet
+                    type: object
+              - type: object
+                required: [wall]
+                properties:
+                  wall:
+                    properties:
+                      desc:
+                        default: "Wall boundary"
+                        ot_type: desc
+                        title: ''
+                        type: string
+                    title: wall
+                    type: object
+                required:
+                - wall
+            param-nb:
+              default: 42
+              minimum: 0
+              title: param-order
+              type: integer
+            name:
+              default: unnamed
+              type: string
+          type: object
+          title: Boundary cond.
+        name: mul_cont
+        ot_require: list_patches
+        type: array
+      status_multiple:
+        enum:
+        - -1
+        - 0
+        - 1
+        default: 0
+        enum_titles:
+        - Statut est faux (vaut -1)
+        - Statut est inconnu (vaut 0)
+        - Statut est vrai (vaut 1)
+        ot_type: status
+        type: integer
+    script: process_multiple.py
+    title: Multiple
+    type: object
+  multiple2:
+    order: '41'
+    properties:
+      modele_desc:
+        properties:
+          desc:
+            default: "\n        Le widget suivant est un \"multiple\" sans  dependance.
+              Verifier que :\n        [item= 1 on peut modifier le nom de chaque item]\n
+              \       [item= 2 on peut ajouter et retirer des items]\n       \n        \n
+              \       \n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: 'Description '
+        type: object
+      mul_cont:
+        items:
+          properties:
+            param-order:
+              default: 1
+              minimum: 0
+              title: param-order
+              type: integer
+            param_onoff:
+              default: false
+              ot_type: onoff
+              title: param_onoff
+              type: boolean
+            name:
+              title: name_id
+              type: string
+              default: unnamed
+          type: object
+          title: Boundary cond.
+        type: array
+    title: Multiple Independent
+    type: object
+  ouexclusif:
+    order: '30'
+    properties:
+      modele_desc:
+        properties:
+          desc:
+            default: "\n        Le widget suivant est un \"ou exclusif\". Verifier
+              que :\n        [item= 1 on peut changer de modele]\n        [item= 2
+              le groupement des options est effectue]\n        [item= 3 le existif
+              controle bien les modeles A3, B3, et 4 ]\n        [item= 4 si le modele
+              4 est selectionne, et que le existif le rend inaccessible, le XOR change
+              automatiquement de choix.]    \n    "
+            ot_type: desc
+            title: ''
+            type: string
+        title: 'Description '
+        type: object
+      ouex_mod:
+        type: object
+        oneOf:
+        - type: object
+          required: ["modele_0"]
+          properties:
+            modele_0:
+              properties:
+                desc:
+                  default: "\n            Modele zero\n        "
+                  ot_type: desc
+                  title: ''
+                  type: string
+              title: Modele 0
+              type: object
+        - type: object
+          required: ["modele_a_1"]
+          properties:
+            modele_a_1:
+              properties:
+                desc:
+                  default: "\n            Modele aaa un\n        "
+                  ot_type: desc
+                  title: ''
+                  type: string
+                toto1:
+                  default: 300
+                  exclusiveMinimum: true
+                  minimum: 0
+                  title: Entry
+                  type: number
+              title: Modele A 1 (param)
+              type: object
+        - type: object
+          required: ["modele_a_2"]
+          properties:
+            modele_a_2:
+              properties:
+                desc:
+                  default: "\n            Modele aaa deux\n        "
+                  ot_type: desc
+                  title: ''
+                  type: string
+                sel2:
+                  ot_type: selection
+                  title: 'Selection '
+                  type: string
+                  default: dummy
+              title: Modele A 2 (selection)
+              type: object
+        - type: object
+          required: ["modele_a_3"]
+          properties:
+            modele_a_3:
+              existif:
+                node: controle_ei
+                operator: "=="
+                value: true
+              properties:
+                choice5:
+                  default: b
+                  enum:
+                  - a
+                  - b
+                  - c
+                  enum_titles:
+                  - a
+                  - b
+                  - c
+                  title: 'Choice '
+                  type: string
+                desc:
+                  default: "\n            Modele aaa trois\n        "
+                  ot_type: desc
+                  title: ''
+                  type: string
+              title: Modele A 3 (choice)
+              type: object
+        - type: object
+          required: ["modele_b_1"]
+          properties:
+            modele_b_1:
+              properties:
+                desc:
+                  default: "\n            Modele bbb un\n        "
+                  ot_type: desc
+                  title: ''
+                  type: string
+                p1:
+                  default: 0
+                  title: 'Param normal '
+                  type: integer
+                p2:
+                  default: 0
+                  title: 'Param si controle_ei ==1 '
+                  type: integer
+              title: Modele B 1 (existif)
+              type: object
+
+        - type: object
+          required: ["modele_b_2"]
+          properties:
+            modele_b_2:
+              properties:
+                desc:
+                  default: "\n            Modele bbb deux\n        "
+                  ot_type: desc
+                  title: ''
+                  type: string
+                toto3:
+                  title: Entry
+                  type: array
+                  items:
+                    type: number
+                    default: 43.0
+              title: 'Modele B 2 (list) '
+              type: object
+        title: Ou exclusif
+    script: process_ouexclusif.py
+    title: Ou exclusif
+    type: object
+title: Example complex
+type: object

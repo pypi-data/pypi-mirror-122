@@ -1,0 +1,3 @@
+[run]
+omit = ./src/opentea/process_utils.py
+       ./src/opentea/cli.py

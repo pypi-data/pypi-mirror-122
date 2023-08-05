@@ -1,0 +1,351 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>OpenTEA &mdash; Template module Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Building the GUI" href="GUI_BUILDING.html" />
+    <link rel="prev" title="Welcome to opentea’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> Opentea
+          
+
+          
+            
+            <img src="_static/logo_project.gif" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.3
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">OpenTEA</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basic-usage">Basic Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#command-line">Command line</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#acknowledgments">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GUI_BUILDING.html">Building the GUI</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Opentea</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>OpenTEA</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="opentea">
+<h1>OpenTEA<a class="headerlink" href="#opentea" title="Permalink to this headline">¶</a></h1>
+<p><img alt="logo" src="http://cerfacs.fr/coop/whatwedo/logo_opentea_medium.gif" /></p>
+<p>OpenTEA is a graphical user interface engine. It convert a set of degrees of freedom, expressed in SCHEMA, into graphical forms.</p>
+<p><img alt="example" src="http://cerfacs.fr/coop/whatwedo/opentea_gui_full.png" /></p>
+<p>The documentation is currently available in <a class="reference external" href="https://opentea.readthedocs.io/en/latest/">ReadtheDocs</a></p>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Opentea is OpenSource (Cecill-B) available on PiPY.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>&gt;pip install opentea
+</pre></div>
+</div>
+<p>then test your installation with</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>&gt;opentea3 test-gui trivial
+</pre></div>
+</div>
+</div>
+<div class="section" id="basic-usage">
+<h2>Basic Usage<a class="headerlink" href="#basic-usage" title="Permalink to this headline">¶</a></h2>
+<p>OpenTEA is a GUI engine, based on the json-SCHEMA description. For example, assume a nested information conforming to the following SCHEMA :</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nn">---</span>
+<span class="nt">title</span><span class="p">:</span> <span class="s">&quot;Trivial</span><span class="nv"> </span><span class="s">form...&quot;</span>
+<span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+<span class="nt">properties</span><span class="p">:</span>
+  <span class="nt">first_tab</span><span class="p">:</span>
+    <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+    <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Only tab.</span>
+    <span class="nt">process</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">custom_callback.py</span>
+    <span class="nt">properties</span><span class="p">:</span>
+      <span class="nt">first_block</span><span class="p">:</span>
+        <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+        <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Custom Block</span>
+        <span class="nt">properties</span><span class="p">:</span>
+          <span class="nt">number_1</span><span class="p">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="s">&quot;Number</span><span class="nv"> </span><span class="s">1&quot;</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">number</span>
+            <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">32.</span>
+          <span class="nt">operand</span><span class="p">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="s">&quot;Operation&quot;</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">string</span>
+            <span class="nt">default</span><span class="p">:</span> <span class="s">&quot;+&quot;</span>
+            <span class="nt">enum</span><span class="p">:</span> <span class="p p-Indicator">[</span><span class="s">&quot;+&quot;</span><span class="p p-Indicator">,</span> <span class="s">&quot;-&quot;</span><span class="p p-Indicator">,</span> <span class="s">&quot;*&quot;</span><span class="p p-Indicator">,</span> <span class="s">&quot;/&quot;</span><span class="p p-Indicator">]</span>
+          <span class="nt">number_2</span><span class="p">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="s">&quot;Number</span><span class="nv"> </span><span class="s">2&quot;</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">number</span>
+            <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">10.</span>
+          <span class="nt">result</span><span class="p">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="s">&quot;result&quot;</span>
+            <span class="nt">state</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">disabled</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">string</span>
+            <span class="nt">default</span><span class="p">:</span> <span class="s">&quot;-&quot;</span>
+</pre></div>
+</div>
+<p>The openTEA GUI will show as :
+<img alt="Trivial GUI" src="http://cerfacs.fr/coop/whatwedo/opentea_trivial.png" /></p>
+<p>In this form, a callback can be added to each tab.
+The corresponding <code class="docutils literal notranslate"><span class="pre">custom_callback.py</span></code> script is :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Module for the first tab.&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">opentea.process_utils</span> <span class="kn">import</span> <span class="n">process_tab</span>
+
+<span class="k">def</span> <span class="nf">custom_fun</span><span class="p">(</span><span class="n">nob</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Update the result.&quot;&quot;&quot;</span>
+
+    <span class="n">operation</span> <span class="o">=</span> <span class="n">nob</span><span class="p">[</span><span class="s2">&quot;first_tab&quot;</span><span class="p">][</span><span class="s2">&quot;first_block&quot;</span><span class="p">][</span><span class="s2">&quot;operand&quot;</span><span class="p">]</span>
+    <span class="n">nb1</span> <span class="o">=</span> <span class="n">nob</span><span class="p">[</span><span class="s2">&quot;first_tab&quot;</span><span class="p">][</span><span class="s2">&quot;first_block&quot;</span><span class="p">][</span><span class="s2">&quot;number_1&quot;</span><span class="p">]</span>
+    <span class="n">nb2</span> <span class="o">=</span> <span class="n">nob</span><span class="p">[</span><span class="s2">&quot;first_tab&quot;</span><span class="p">][</span><span class="s2">&quot;first_block&quot;</span><span class="p">][</span><span class="s2">&quot;number_2&quot;</span><span class="p">]</span>
+
+    <span class="n">res</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">if</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;+&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">+</span> <span class="n">nb2</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;-&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">-</span> <span class="n">nb2</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;*&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">*</span> <span class="n">nb2</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;/&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">/</span> <span class="n">nb2</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="n">nob</span><span class="p">[</span><span class="s2">&quot;first_tab&quot;</span><span class="p">][</span><span class="s2">&quot;first_block&quot;</span><span class="p">][</span><span class="s2">&quot;result&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">res</span>
+    <span class="k">return</span> <span class="n">nob</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">process_tab</span><span class="p">(</span><span class="n">custom_fun</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Note that OpenTEA meomory is a classical nested object named here <code class="docutils literal notranslate"><span class="pre">nob</span></code>. The memory I/O can be done the usual Python way : <code class="docutils literal notranslate"><span class="pre">nob[&quot;first_tab&quot;][&quot;first_block&quot;][&quot;result&quot;]</span> <span class="pre">=</span> <span class="pre">res</span></code>.
+<em>We however encourage the use our nested object helper , available on PyPI, which gives a faster -an still pythonic- access to the nested object. The name of the package is, unsurprisigly <a class="reference external" href="https://pypi.org/project/nob/">nob</a>.</em></p>
+<p>Finally, the data recorded by the GUI is available as a YAML file, conforming to the SCHEMA Validation:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">first_tab</span><span class="p">:</span>
+  <span class="nt">first_block</span><span class="p">:</span>
+    <span class="nt">number_1</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">32.0</span>
+    <span class="nt">number_2</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">10.0</span>
+    <span class="nt">operand</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">+</span>
+    <span class="nt">result</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">42.0</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="command-line">
+<h1>Command line<a class="headerlink" href="#command-line" title="Permalink to this headline">¶</a></h1>
+<p>A small CLI makes available small tools for developpers. Only two tools are present now.
+Call the CLI using <code class="docutils literal notranslate"><span class="pre">opentea3</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Usage: opentea3 <span class="o">[</span>OPTIONS<span class="o">]</span> COMMAND <span class="o">[</span>ARGS<span class="o">]</span>...
+
+  ---------------    O P E N T E A  III  --------------------
+
+  You are now using the Command line interface of Opentea <span class="m">3</span>, a Python3
+  Tkinter GUI engine based on SCHEMA specifications, created at CERFACS
+  <span class="o">(</span>https://cerfacs.fr<span class="o">)</span>.
+
+  This is a python package currently installed in your python environement.
+  See the full documentation at : https://opentea.readthedocs.io/en/latest/.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  test-gui     Examples of OpenTEA GUIs
+  test-schema  Test <span class="k">if</span> a yaml SCHEMA_FILE is valid <span class="k">for</span> an opentea GUI.
+</pre></div>
+</div>
+</div>
+<div class="section" id="acknowledgments">
+<h1>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">¶</a></h1>
+<p>This work was funded, among many sources, by the CoE <a class="reference external" href="https://www.excellerat.eu/wp/">Excellerat</a> and the National project <a class="reference external" href="http://cerfacs.fr/coop/whatwedo/ourprojects/">ICARUS</a>. Many thanks to the people from SAFRAN group for their feedback.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="GUI_BUILDING.html" class="btn btn-neutral float-right" title="Building the GUI" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to opentea’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018, Team COOP
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

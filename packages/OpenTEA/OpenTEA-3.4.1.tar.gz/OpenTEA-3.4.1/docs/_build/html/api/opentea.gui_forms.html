@@ -1,0 +1,1088 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>opentea.gui_forms package &mdash; Template module Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="opentea.noob package" href="opentea.noob.html" />
+    <link rel="prev" title="opentea.gui_browser package" href="opentea.gui_browser.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Opentea
+          
+
+          
+            
+            <img src="../_static/logo_project.gif" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.3
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html">OpenTEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html#command-line">Command line</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html#acknowledgments">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../GUI_BUILDING.html">Building the GUI</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="opentea.html">opentea package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="opentea.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="opentea.gui_browser.html">opentea.gui_browser package</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">opentea.gui_forms package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.gui_forms.constants">opentea.gui_forms.constants module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.gui_forms.leaf_widgets">opentea.gui_forms.leaf_widgets module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.gui_forms.node_widgets">opentea.gui_forms.node_widgets module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.gui_forms.otinker">opentea.gui_forms.otinker module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.gui_forms.root_widget">opentea.gui_forms.root_widget module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#opentea-gui-forms-wincanvas-module">opentea.gui_forms.wincanvas module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="opentea.noob.html">opentea.noob package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="opentea.tools.html">opentea.tools package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#module-opentea.cli">opentea.cli module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#module-opentea.process_utils">opentea.process_utils module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Opentea</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="opentea.html">opentea package</a> &raquo;</li>
+        
+      <li>opentea.gui_forms package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-opentea.gui_forms">
+<span id="opentea-gui-forms-package"></span><h1>opentea.gui_forms package<a class="headerlink" href="#module-opentea.gui_forms" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-opentea.gui_forms.constants">
+<span id="opentea-gui-forms-constants-module"></span><h2>opentea.gui_forms.constants module<a class="headerlink" href="#module-opentea.gui_forms.constants" title="Permalink to this headline">¶</a></h2>
+<p>Constants definitions.</p>
+<dl class="py exception">
+<dt id="opentea.gui_forms.constants.GetException">
+<em class="property">exception </em><code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">GetException</code><a class="headerlink" href="#opentea.gui_forms.constants.GetException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Define an exception on the widget getters.</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="opentea.gui_forms.constants.SetException">
+<em class="property">exception </em><code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">SetException</code><a class="headerlink" href="#opentea.gui_forms.constants.SetException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Define an exception on the widget setters.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.constants.SwitchForm">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">SwitchForm</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">master</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kw</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.SwitchForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">tkinter.ttk.Frame</span></code></p>
+<p>Overriden Frame class to mimick notebooks without tabs.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.constants.SwitchForm.add">
+<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">title</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.SwitchForm.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a tab-like Frame.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.constants.SwitchForm.sf_del">
+<code class="sig-name descname">sf_del</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tab_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.SwitchForm.sf_del" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destroy tab_id tab.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.constants.SwitchForm.sf_raise">
+<code class="sig-name descname">sf_raise</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tab_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.SwitchForm.sf_raise" title="Permalink to this definition">¶</a></dt>
+<dd><p>Forget current view and repack tab_name tab.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.constants.TextConsole">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">TextConsole</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">holder</span></em>, <em class="sig-param"><span class="n">content</span></em>, <em class="sig-param"><span class="n">height</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">width</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">search</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">disabled</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.TextConsole" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Text widget with search and auto -refresh capabilities.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.constants.TextConsole.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.TextConsole.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the content</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.constants.TextConsole.highlight_pattern">
+<code class="sig-name descname">highlight_pattern</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.TextConsole.highlight_pattern" title="Permalink to this definition">¶</a></dt>
+<dd><p>Highlight the pattern.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.constants.TextConsole.update">
+<code class="sig-name descname">update</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.TextConsole.update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Update the content</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.create_scrollable_canvas">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">create_scrollable_canvas</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">holder_frame</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.create_scrollable_canvas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a scollable canvas.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.load_icons">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">load_icons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.load_icons" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load icons.</p>
+<p>Load all ./otinker_images/<a href="#id1"><span class="problematic" id="id2">*</span></a>_icon.gif as icons</p>
+<p>load_icons : dictionnary of ImageTk objects</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.quit_dialog">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">quit_dialog</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.quit_dialog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quitting dialog</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.set_constants">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">set_constants</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tksession</span></em>, <em class="sig-param"><span class="n">calling_dir</span></em>, <em class="sig-param"><span class="n">theme</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.set_constants" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set top Tk objet</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.set_root">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">set_root</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">root</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.set_root" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set root objet</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.set_tabs">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">set_tabs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tabs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.set_tabs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set validate shared meory</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.tab_validated">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">tab_validated</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tabname</span></em>, <em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.tab_validated" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set validate shared meory</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.constants.waiting_screen">
+<code class="sig-prename descclassname">opentea.gui_forms.constants.</code><code class="sig-name descname">waiting_screen</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">root</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.constants.waiting_screen" title="Permalink to this definition">¶</a></dt>
+<dd><p>setup a waiting screen</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.gui_forms.leaf_widgets">
+<span id="opentea-gui-forms-leaf-widgets-module"></span><h2>opentea.gui_forms.leaf_widgets module<a class="headerlink" href="#module-opentea.gui_forms.leaf_widgets" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="leaf-widgets">
+<h3>Leaf widgets :<a class="headerlink" href="#leaf-widgets" title="Permalink to this headline">¶</a></h3>
+<p>Leaves are the lower part to the graph,
+at the tip of the branches.
+Most of these widget are entries.</p>
+<div class="section" id="entries">
+<h4>Entries:<a class="headerlink" href="#entries" title="Permalink to this headline">¶</a></h4>
+<p>The generic node EntryNode is the basis for all
+single line inputs:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>numbers</p></li>
+<li><p>integers</p></li>
+<li><p>strings</p></li>
+</ul>
+</div></blockquote>
+<p>Additionnal content can be shown to give info
+in the case of validation rules.</p>
+</div>
+<div class="section" id="booleans">
+<h4>Booleans:<a class="headerlink" href="#booleans" title="Permalink to this headline">¶</a></h4>
+<p>This is tranlated to a single Checkbox</p>
+</div>
+<div class="section" id="choices">
+<h4>Choices:<a class="headerlink" href="#choices" title="Permalink to this headline">¶</a></h4>
+<p>The choice widget corresponds to the Schema enum property.
+This is tranlated to radiobuttons in the form.</p>
+</div>
+<div class="section" id="flebrowser">
+<h4>FleBrowser:<a class="headerlink" href="#flebrowser" title="Permalink to this headline">¶</a></h4>
+<p>This special entry check that the content is a file,
+and add a browsing dialog to select the file.</p>
+</div>
+<div class="section" id="documentation-and-description-deprecated">
+<h4>Documentation and Description (DEPRECATED):<a class="headerlink" href="#documentation-and-description-deprecated" title="Permalink to this headline">¶</a></h4>
+<p>Kept fo backward compatibility,
+docuementation and descriptions are wats to display strings
+in the forms.</p>
+<p>Prefer now the documentation and description attributes
+in the blocks.</p>
+</div>
+<div class="section" id="comments">
+<h4>Comments:<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h4>
+<p>Comments are multiline textfields
+They can also be usefull for feedbach in disabled mode.</p>
+</div>
+<div class="section" id="lists">
+<h4>Lists:<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a></h4>
+<p>List corresponds to arrays of parameters,
+shown aslist of entries.
+These list cannot take dependency links for the moments.</p>
+<p>Without a fixed dimension,
+specified with “MaxItemns” and “MinItems” attributes in the SCHEMA,
+a +/- dialog is shown to extend or crop the list.</p>
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.LeafWidget">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">LeafWidget</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Factory for OpenTea Widgets.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.LeafWidget.get_status">
+<code class="sig-name descname">get_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.LeafWidget.get_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return current attribute self.status.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTBoolean">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTBoolean</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTBoolean" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>OT booleans.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTBoolean.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTBoolean.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return python boolean.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTBoolean.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTBoolean.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set boolean to widget.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTChoice">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTChoice</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">dynamic</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTChoice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>OT choices widget.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTChoice.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTChoice.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return python string.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTChoice.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTChoice.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set choice to widget.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTComment">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTComment</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTComment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>OT Comment field.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTComment.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTComment.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTComment.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTComment.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set content.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTDescription">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTDescription</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTDescription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>OT descriptin field.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTDescription.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTDescription.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTDescription.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTDescription.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set content.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTDocu">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTDocu</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTDocu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>OTinteger variable.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTDocu.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTDocu.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Void return.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTDocu.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTDocu.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set value to documentation content.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTEmpty">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTEmpty</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTEmpty" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>OT widget for unimplemented types.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTEmpty.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTEmpty.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTEmpty.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTEmpty.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set content.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTFileBrowser">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTFileBrowser</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTFileBrowser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>OT file/folder browser widget.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTFileBrowser.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTFileBrowser.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTFileBrowser.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTFileBrowser.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set content.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTInteger">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTInteger</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTInteger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets._OTEntry</span></code></p>
+<p>OTinteger variable.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTInteger.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTInteger.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return python integer.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTInteger.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTInteger.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set integer to widget.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTList">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTList</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.leaf_widgets.LeafWidget" title="opentea.gui_forms.leaf_widgets.LeafWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets.LeafWidget</span></code></a></p>
+<p>Factory for OpenTea Lists.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTList.additem">
+<code class="sig-name descname">additem</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTList.additem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an item at the end of the array.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTList.delitem">
+<code class="sig-name descname">delitem</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTList.delitem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete item at the end of the array</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTList.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTList.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTList.memory_changed">
+<code class="sig-name descname">memory_changed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTList.memory_changed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger virtual event on memory change.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTList.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTList.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set content.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTNumber">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTNumber</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTNumber" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets._OTEntry</span></code></p>
+<p>OTNumber floats.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTNumber.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTNumber.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return python integer.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTNumber.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTNumber.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set integer to widget.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.leaf_widgets.OTString">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.leaf_widgets.</code><code class="sig-name descname">OTString</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.leaf_widgets._OTEntry</span></code></p>
+<p>OTinteger variable.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTString.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTString.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return python integer.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.leaf_widgets.OTString.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.leaf_widgets.OTString.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set integer to widget.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+</div>
+<div class="section" id="module-opentea.gui_forms.node_widgets">
+<span id="opentea-gui-forms-node-widgets-module"></span><h2>opentea.gui_forms.node_widgets module<a class="headerlink" href="#module-opentea.gui_forms.node_widgets" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="recursive-edicrection-according-to-schema-type">
+<h3>Recursive edicrection according to SCHEMA type<a class="headerlink" href="#recursive-edicrection-according-to-schema-type" title="Permalink to this headline">¶</a></h3>
+<p>This module staets with the recursive redirection
+according to SCHEMA types.</p>
+</div>
+<div class="section" id="module-for-containers-widgets">
+<h3>Module for containers widgets<a class="headerlink" href="#module-for-containers-widgets" title="Permalink to this headline">¶</a></h3>
+<p>This module take care of all the node elements of the graph,
+which correspond to containers in the Form.
+At least the three first level of the SCHEMA must be objects,</p>
+<blockquote>
+<div><p>and are treated as containers.
+Oll the containers derive from the generic Node-Widget.</p>
+</div></blockquote>
+<div class="section" id="the-root-level">
+<h4>The root level:<a class="headerlink" href="#the-root-level" title="Permalink to this headline">¶</a></h4>
+<p>The inital node, Not treted here, see root_widget.</p>
+</div>
+<div class="section" id="the-tab-level">
+<h4>The Tab level:<a class="headerlink" href="#the-tab-level" title="Permalink to this headline">¶</a></h4>
+<p>The second node level. Treated here, see Tabs_widgets.
+This one can support two types of callbacks,
+either for editing the memory,
+or for updating the 3D view.</p>
+</div>
+<div class="section" id="the-block-level">
+<h4>The Block level :<a class="headerlink" href="#the-block-level" title="Permalink to this headline">¶</a></h4>
+<p>The Thirl level gather parameters into families.
+This one can support descriptions, images and documentation.</p>
+</div>
+<div class="section" id="special-container-the-multiple-widget">
+<h4>Special container : The Multiple widget :<a class="headerlink" href="#special-container-the-multiple-widget" title="Permalink to this headline">¶</a></h4>
+<p>This container correspont to an SCHEMA array of objet items.
+See it as a list (free or dependent) of similar containers.</p>
+<p>Mutliple can be use freely or with a dependency.
+In the last case, the items of the multiple is linked to the value
+of a string array somewhere else in the SCHEMA.
+For exeample, in CFD, This is usefoull for a
+set of boundary conditions, found by reading a MESH.</p>
+</div>
+<div class="section" id="special-container-the-xor-widget">
+<h4>Special container : the XOR widget :<a class="headerlink" href="#special-container-the-xor-widget" title="Permalink to this headline">¶</a></h4>
+<p>This is merely a selector between several blocks.
+This marks a bifurcation in your graph.
+For example in CFD, this is usefull for the selection between
+different models taking different parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">warning exception here</dt>
+<dd class="field-odd"><p>XOR is the only node element storing a Value.</p>
+</dd>
+</dl>
+<p>The value is implicit : it is <em>the name of the only child
+of the XOR in the memory</em>.</p>
+<p>It could have been designed otherwise, keeping all the children inthe memory,
+and a real leaf value to know which one must be taken.
+However, thos is impractical here. For example in CFD,
+you can have a Multiple of 100 boundary conditions,
+with a XOR for each selecting between 30 models of BCs.
+Such a graph would be a hassle to read and hack for humans.</p>
+<dl class="py class">
+<dt id="opentea.gui_forms.node_widgets.OTContainerWidget">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">OTContainerWidget</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">tab</span></em>, <em class="sig-param"><span class="n">n_width</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">relief</span><span class="o">=</span><span class="default_value">'ridge'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTContainerWidget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.node_widgets.OTNodeWidget" title="opentea.gui_forms.node_widgets.OTNodeWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.node_widgets.OTNodeWidget</span></code></a></p>
+<p>OT container widget.</p>
+<dl class="py attribute">
+<dt id="opentea.gui_forms.node_widgets.OTContainerWidget.body">
+<code class="sig-name descname">body</code><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTContainerWidget.body" title="Permalink to this definition">¶</a></dt>
+<dd><p>Forcing the widget size</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTContainerWidget.pack_unpack_body">
+<code class="sig-name descname">pack_unpack_body</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTContainerWidget.pack_unpack_body" title="Permalink to this definition">¶</a></dt>
+<dd><p>swtich on or off the packing of the body</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTContainerWidget.show_docu">
+<code class="sig-name descname">show_docu</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTContainerWidget.show_docu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call the documentation browser</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleItem">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">OTMultipleItem</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">multiple</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">tab</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.node_widgets.OTContainerWidget" title="opentea.gui_forms.node_widgets.OTContainerWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.node_widgets.OTContainerWidget</span></code></a></p>
+<p>OT  multiple widget.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">OTMultipleWidget</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">tab</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>OT multiple widget.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.add_item_on_cursel">
+<code class="sig-name descname">add_item_on_cursel</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.add_item_on_cursel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an item in the multiple.</p>
+<p>Item will be added before the current selection.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.del_item_by_name">
+<code class="sig-name descname">del_item_by_name</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.del_item_by_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete a Multiple item by its name.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.del_item_on_cursel">
+<code class="sig-name descname">del_item_on_cursel</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.del_item_on_cursel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete a Multiple item from tv selection.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data of children widgets.</p>
+<p>a list with the get result of childrens</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.get_status">
+<code class="sig-name descname">get_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.get_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the minimal status in children.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.index_of_item">
+<code class="sig-name descname">index_of_item</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.index_of_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find index of a Multiple item by its name.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.load_from_file">
+<code class="sig-name descname">load_from_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.load_from_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>load multiple content from an other file</p>
+<p>For multiple without dependencies, replace the content</p>
+<dl class="simple">
+<dt>For multiple with dependencies,</dt><dd><p>only items with the same name are updates, others are left</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.refresh_view">
+<code class="sig-name descname">refresh_view</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.refresh_view" title="Permalink to this definition">¶</a></dt>
+<dd><p>Refresh items values on tree view.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.rename_callback">
+<code class="sig-name descname">rename_callback</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.rename_callback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger renaming if dialog conditions are met.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.rename_item">
+<code class="sig-name descname">rename_item</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item_name</span></em>, <em class="sig-param"><span class="n">new_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.rename_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rename one element of the multiple.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTMultipleWidget.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">list_</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTMultipleWidget.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data of children widgets.</p>
+<p>a list with the value of the childrens</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.node_widgets.OTNodeWidget">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">OTNodeWidget</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTNodeWidget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Factory for OpenTea Widgets Containers.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTNodeWidget.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTNodeWidget.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data of children widgets.</p>
+<p>a dictionnary with the get result of childrens</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTNodeWidget.get_status">
+<code class="sig-name descname">get_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTNodeWidget.get_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the minimal status of children.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTNodeWidget.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dict_</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTNodeWidget.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data of children widgets.</p>
+<p>a dictionnary with the value of the childrens</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.node_widgets.OTTabWidget">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">OTTabWidget</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTTabWidget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.node_widgets.OTNodeWidget" title="opentea.gui_forms.node_widgets.OTNodeWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.node_widgets.OTNodeWidget</span></code></a></p>
+<p>OT Tab widget container.</p>
+<p>Called for the 1st layer of nodes in the global schema</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTTabWidget.get_status">
+<code class="sig-name descname">get_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTTabWidget.get_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the minimal status of children.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTTabWidget.on_memory_change">
+<code class="sig-name descname">on_memory_change</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTTabWidget.on_memory_change" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if the sender is child of this tab.process.
+set to unknown if so</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTTabWidget.on_memory_check">
+<code class="sig-name descname">on_memory_check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTTabWidget.on_memory_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Update content upon status of children.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTTabWidget.process_button">
+<code class="sig-name descname">process_button</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTTabWidget.process_button" title="Permalink to this definition">¶</a></dt>
+<dd><p>Procees the main tab button.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTTabWidget.smartpacker">
+<code class="sig-name descname">smartpacker</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTTabWidget.smartpacker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Smart grid upon widget size.</p>
+<p>Regrid the object according to the width of the window
+from the inside</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTTabWidget.update_tab_icon">
+<code class="sig-name descname">update_tab_icon</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTTabWidget.update_tab_icon" title="Permalink to this definition">¶</a></dt>
+<dd><p>Update the Tab icon upon status.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="opentea.gui_forms.node_widgets.OTXorWidget">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">OTXorWidget</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">tab</span></em>, <em class="sig-param"><span class="n">n_width</span><span class="o">=</span><span class="default_value">1</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTXorWidget" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>OT  Or-exclusive / oneOf widget.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTXorWidget.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTXorWidget.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data of children widgets.</p>
+<p>a dictionnary with the get result of current children</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTXorWidget.get_status">
+<code class="sig-name descname">get_status</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTXorWidget.get_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Proxy to the get_status of the current child.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTXorWidget.set">
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dict_</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTXorWidget.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the data of children widgets.</p>
+<p>a dictionnary with the value of the childrens</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTXorWidget.show_docu">
+<code class="sig-name descname">show_docu</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">event</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTXorWidget.show_docu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call the documentation browser</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTXorWidget.update_xor_content">
+<code class="sig-name descname">update_xor_content</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name_child</span></em>, <em class="sig-param"><span class="n">data_in</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTXorWidget.update_xor_content" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reconfigure XOR button.</p>
+<p>name_child : sting, naming the child object
+data_in : dictionary used to pre-fill the data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.node_widgets.OTXorWidget.xor_callback">
+<code class="sig-name descname">xor_callback</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name_child</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.OTXorWidget.xor_callback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Event on XOR menu selection.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.node_widgets.create_description">
+<code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">create_description</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parent</span></em>, <em class="sig-param"><span class="n">description</span></em>, <em class="sig-param"><span class="n">size</span><span class="o">=</span><span class="default_value">0.9</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.create_description" title="Permalink to this definition">¶</a></dt>
+<dd><p>Interpret the description to tkae into account font modifiers</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.node_widgets.redirect_string">
+<code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">redirect_string</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.redirect_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Redirect to string widgets.</p>
+<p>The schema attributes trigger which string widget will be in use.</p>
+<p>schema :  a schema object
+root_frame :  a Tk object were the widget will be grafted
+name : name of the element</p>
+<p>none</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.node_widgets.redirect_widgets">
+<code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">redirect_widgets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">root_frame</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">tab</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.redirect_widgets" title="Permalink to this definition">¶</a></dt>
+<dd><p>Redirect to widgets.</p>
+<p>The schema attributes trigger which widget will be in use.</p>
+<p>schema :  a schema object
+root_frame :  a Tk object were the widget will be grafted
+name : name of the element
+tab:  the tab holding this widget</p>
+<p>none</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.node_widgets.show_docu_webpage">
+<code class="sig-prename descclassname">opentea.gui_forms.node_widgets.</code><code class="sig-name descname">show_docu_webpage</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">markdown_str</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.node_widgets.show_docu_webpage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Show documentation in the web browser</p>
+<p>Use package <a href="#id3"><span class="problematic" id="id4">`</span></a>markdown`to translate markown into HTML.
+Dump is into a temporary file using <a href="#id5"><span class="problematic" id="id6">`</span></a>tempfile`package.
+Finally call the browser using <a href="#id7"><span class="problematic" id="id8">`</span></a>webbrowser`package.</p>
+</dd></dl>
+
+</div>
+</div>
+</div>
+<div class="section" id="module-opentea.gui_forms.otinker">
+<span id="opentea-gui-forms-otinker-module"></span><h2>opentea.gui_forms.otinker module<a class="headerlink" href="#module-opentea.gui_forms.otinker" title="Permalink to this headline">¶</a></h2>
+<p>Generate a Tk from upon a Gui schema.</p>
+<p>A GUI schema is a JSON-Schema dictionnary,
+with tags require and existifs added to declare explicit cyclic depenencies</p>
+<dl class="py function">
+<dt id="opentea.gui_forms.otinker.ask_new_file">
+<code class="sig-prename descclassname">opentea.gui_forms.otinker.</code><code class="sig-name descname">ask_new_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.otinker.ask_new_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Dialog to ask a new file</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.gui_forms.otinker.main_otinker">
+<code class="sig-prename descclassname">opentea.gui_forms.otinker.</code><code class="sig-name descname">main_otinker</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">calling_dir</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">start_mainloop</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">tab_3d</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">theme</span><span class="o">=</span><span class="default_value">'clam'</span></em>, <em class="sig-param"><span class="n">data_file</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.otinker.main_otinker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Startup the gui generation.</p>
+<p>schema : dictionary compatible with json-schema
+calling_dir : directory from which otinker was called
+test_only : only for testing</p>
+<p>a tkinter GUI</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.gui_forms.root_widget">
+<span id="opentea-gui-forms-root-widget-module"></span><h2>opentea.gui_forms.root_widget module<a class="headerlink" href="#module-opentea.gui_forms.root_widget" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-root-widget">
+<h3>The root widget<a class="headerlink" href="#the-root-widget" title="Permalink to this headline">¶</a></h3>
+<p>The root widget is the fisrt called by otinker.
+It corresponds to the firts node ot the SCHEMA.</p>
+<p>At the root widget, the whole window is created.
+The root host the main Tab-notebook,
+and if necessary the wiew 3D tab.</p>
+</div>
+<div class="section" id="tabs-callbacks">
+<h3>Tabs callbacks:<a class="headerlink" href="#tabs-callbacks" title="Permalink to this headline">¶</a></h3>
+<p>As tabs callbacks can change any part of the memory,
+These callbacks are passed down to the root widget,
+trigerring two subprocesses.</p>
+<div class="section" id="execute">
+<h4>Execute:<a class="headerlink" href="#execute" title="Permalink to this headline">¶</a></h4>
+<p>Execute is about memory modification.
+The callback associated shows the following singature:</p>
+<p>nested object &gt; callback &gt; nested object</p>
+</div>
+<div class="section" id="update-3d-view">
+<h4>Update_3d_view:<a class="headerlink" href="#update-3d-view" title="Permalink to this headline">¶</a></h4>
+<p>Update_3d_view is about 3D feedback.
+The callback associated shows the following singature:</p>
+<p>nested object, 3D scene &gt; callback &gt; 3D scene</p>
+<dl class="py class">
+<dt id="opentea.gui_forms.root_widget.OTRoot">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.gui_forms.root_widget.</code><code class="sig-name descname">OTRoot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">tksession</span></em>, <em class="sig-param"><span class="n">start_mainloop</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">tab_3d</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">data_file</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.root_widget.OTRoot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#opentea.gui_forms.node_widgets.OTNodeWidget" title="opentea.gui_forms.node_widgets.OTNodeWidget"><code class="xref py py-class docutils literal notranslate"><span class="pre">opentea.gui_forms.node_widgets.OTNodeWidget</span></code></a></p>
+<p>OT root widget.</p>
+<dl class="py method">
+<dt id="opentea.gui_forms.root_widget.OTRoot.clean_tmp_files">
+<code class="sig-name descname">clean_tmp_files</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.root_widget.OTRoot.clean_tmp_files" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clean the tempoeray files of gui</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.root_widget.OTRoot.execute">
+<code class="sig-name descname">execute</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">script</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.root_widget.OTRoot.execute" title="Permalink to this definition">¶</a></dt>
+<dd><p>execute a script</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.root_widget.OTRoot.save_project">
+<code class="sig-name descname">save_project</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.root_widget.OTRoot.save_project" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save the current data into the project file.</p>
+<p>Either called from Save As or at each process/validate</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.gui_forms.root_widget.OTRoot.update_3d_view">
+<code class="sig-name descname">update_3d_view</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">script</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.gui_forms.root_widget.OTRoot.update_3d_view" title="Permalink to this definition">¶</a></dt>
+<dd><p>execute a script for 3d view update</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+</div>
+<div class="section" id="opentea-gui-forms-wincanvas-module">
+<h2>opentea.gui_forms.wincanvas module<a class="headerlink" href="#opentea-gui-forms-wincanvas-module" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="opentea.noob.html" class="btn btn-neutral float-right" title="opentea.noob package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="opentea.gui_browser.html" class="btn btn-neutral float-left" title="opentea.gui_browser package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018, Team COOP
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

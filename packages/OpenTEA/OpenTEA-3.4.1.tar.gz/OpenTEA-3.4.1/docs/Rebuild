@@ -1,0 +1,5 @@
+rm -rf api
+sphinx-apidoc ../opentea -o ./api --module-first  --no-toc
+
+make html
+

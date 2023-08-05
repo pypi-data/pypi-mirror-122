@@ -1,0 +1,769 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Building the GUI &mdash; Template module Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="OpenTEA" href="readme_copy.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> Opentea
+          
+
+          
+            
+            <img src="_static/logo_project.gif" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.3
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme_copy.html">OpenTEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme_copy.html#command-line">Command line</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme_copy.html#acknowledgments">Acknowledgments</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Building the GUI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#simple-example">Simple Example</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#second-node-level-the-tab">Second Node level, the tab</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#tabs-callbacks">Tabs callbacks</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#third-node-level-the-block">Third Node level, the block</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#leaf-level-or-parameters">Leaf level , or Parameters</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#entries">Entries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#simple-arrays-lists">simple arrays (lists)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#disabled-state">Disabled state</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#choices">Choices</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#comments">Comments</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#files-and-folder">Files and folder</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#special-blocks">Special blocks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#exclusive-or-objects">eXclusive OR objects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multiple-objects">Multiple objects</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#multiple-with-dependency">Multiple with dependency</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-output">Data output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#style-adjustments">Style adjustments</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#theme">Theme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#images">Images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#block-descriptions">Block Descriptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Opentea</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Building the GUI</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="building-the-gui">
+<h1>Building the GUI<a class="headerlink" href="#building-the-gui" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="simple-example">
+<h2>Simple Example<a class="headerlink" href="#simple-example" title="Permalink to this headline">¶</a></h2>
+<p>We start with the following simple example, step by step, on the <a class="reference external" href="https://json-schema.org/understanding-json-schema/">SCHEMA specification</a></p>
+<p>The basic structure of the GUI is a graph. The nodes of the graphs are spread over 3 levels, root, tabs and blocks.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">root</span>
+  <span class="o">-</span> <span class="n">tab</span> <span class="mi">1</span>
+    <span class="o">-</span> <span class="n">block</span> <span class="mf">1.1</span>
+    <span class="o">-</span> <span class="n">block</span> <span class="mf">1.2</span>
+ <span class="o">-</span> <span class="n">tab</span> <span class="mi">2</span>
+    <span class="o">-</span> <span class="n">block</span> <span class="mf">2.1</span>
+    <span class="o">-</span> <span class="n">block</span> <span class="mf">2.2</span>
+    <span class="o">-</span> <span class="n">block</span> <span class="mf">2.3</span>
+</pre></div>
+</div>
+<p><img alt="roottabblock" src="_images/root_tabs_blocks.png" />
+<strong>Root is the Major “Forms” tab. Tabs are shown in the second line with oragne icons. Then four nested blocks are shown</strong></p>
+<p><strong>Root</strong> stands for the top-level of the whole form.</p>
+<p><strong>Tabs</strong> are the nodes grouping parameters of a similar family, such as “numerics”, “boundary conditions”, “meshes”.
+One should design the interface with the general idea of a Left to Right filling of the forms.
+Therefore there is a tacit order of resolutions between tabs.
+<strong>The last tab</strong> must be reserved for the final execution of the action.</p>
+<p><strong>Blocks</strong> are grouping visually parameters in columns. The packing algorithm is filling the GUI screen in columns. The width of the general window controls the number of columns packed.</p>
+<p><em>Please, stick this 3-level structure for your GUIs.
+The packing is optimized for this usage. Less than 3 levels will probably fail at startup.
+More than 3 levels (blocks in blocks) will limit the fluidity of the repacking when readjusting the window.</em></p>
+<p>###Root Node level, the window</p>
+<p>A this level, we only create a <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/object.html">SCHEMA object</a> (<code class="docutils literal notranslate"><span class="pre">type:object</span></code>) which can store, as <code class="docutils literal notranslate"><span class="pre">properties</span></code> , one or several tabs</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>---
+title: &quot;All you can Eat...&quot;
+type: object
+properties:
+  first_tab:
+	    ...
+  second_tab:
+	    ...
+	    
+</pre></div>
+</div>
+<p>Root nodes, in yaml are litterally sticking to left margin of your YAML file.</p>
+<div class="section" id="second-node-level-the-tab">
+<h3>Second Node level, the tab<a class="headerlink" href="#second-node-level-the-tab" title="Permalink to this headline">¶</a></h3>
+<p>We define here again a <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/object.html">SCHEMA object</a> (<code class="docutils literal notranslate"><span class="pre">type:object</span></code>) which can store, as <code class="docutils literal notranslate"><span class="pre">properties</span></code> , one or several hlder objects called <strong>blocks</strong>.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>..(root)
+  first_tab:
+	 type: object
+	 title: First tab.
+	 process: custom_callback.py
+	 description: &quot;tab description&quot;
+	 order: 20
+	 properties:
+	   first_block:
+	     ...
+	   second_block:
+	     ...           
+</pre></div>
+</div>
+<p><em>A quick tip : Tabs nodes, in yaml are found after 1 indentation (2 spaces, providing you use the standard 2 spaces chars indentation). The content is found after 2 indentations / 4 chars.</em></p>
+<p>As for now, tabs a displayed in the order of the schema.
+The Tab level is interpreting the  following additionnal attributes:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>. This attribute is the SCHEMA official attibute. It takes a string. The string will be shown in the GUI at thebottom left of the Tab.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">process</span></code>. This attribute is special for opentea. The string refer to the name of a python script to be called when pressing the “Process” button (a.k.a callback).  See section Tabs callbacks for further information…</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">order</span></code> This attribute is special for opentea, but have no effect for the moment. It will force the order of Tabs when the functunality “Hide this tab” will be implemented.</p></li>
+</ul>
+<p>Tab DOES NOT support the attributes <code class="docutils literal notranslate"><span class="pre">image</span></code>or <code class="docutils literal notranslate"><span class="pre">documentation</span></code>.
+It however supports the  attribute <code class="docutils literal notranslate"><span class="pre">description</span></code>, providing the string is sufficently short.
+Indeed, there is no huge room for display at the bottom of the tabs.</p>
+<div class="section" id="tabs-callbacks">
+<h4>Tabs callbacks<a class="headerlink" href="#tabs-callbacks" title="Permalink to this headline">¶</a></h4>
+<p>Without callbacks, OpenTEA is simply some forms allowing you to fill a nested object (a YAML file on the disc) according to a SCHEMA specification.
+Tabs callbacks are the way to add interactivity to your forms. The data passed from the GUI to the callback is the GUI memory itself, dumped as the file <code class="docutils literal notranslate"><span class="pre">dataset_from_gui.yml</span></code>. The data passed from the  callback to the GUI is dumped as the file <code class="docutils literal notranslate"><span class="pre">dataset_to_gui.yml</span></code></p>
+<p>In the end, the signature of the function is <code class="docutils literal notranslate"><span class="pre">callback(nob_in)</span> <span class="pre">&gt;</span> <span class="pre">nob_out</span></code>, with nob a python nested object (e.g. dicts of dicts of lists of anything you can serialize in YAML…). YOu can refer to <a class="reference external" href="https://pyyaml.org/wiki/PyYAMLDocumentation">PyYAML documentation</a> for practical examples.</p>
+<p>A typical callback is the following:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Module for the first tab.&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">opentea.noob.noob</span> <span class="kn">import</span> <span class="n">nob_get</span><span class="p">,</span> <span class="n">nob_set</span>
+<span class="kn">from</span> <span class="nn">opentea.process_utils</span> <span class="kn">import</span> <span class="n">process_tab</span>
+
+
+<span class="k">def</span> <span class="nf">custom_fun</span><span class="p">(</span><span class="n">nob_in</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Update the result.&quot;&quot;&quot;</span>
+    <span class="n">nob_out</span> <span class="o">=</span> <span class="n">nob_in</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">operation</span> <span class="o">=</span> <span class="n">nob_get</span><span class="p">(</span><span class="n">nob_in</span><span class="p">,</span> <span class="s2">&quot;operand&quot;</span><span class="p">)</span>
+    <span class="n">nb1</span> <span class="o">=</span> <span class="n">nob_get</span><span class="p">(</span><span class="n">nob_in</span><span class="p">,</span> <span class="s2">&quot;number_1&quot;</span><span class="p">)</span>
+    <span class="n">nb2</span> <span class="o">=</span> <span class="n">nob_get</span><span class="p">(</span><span class="n">nob_in</span><span class="p">,</span> <span class="s2">&quot;number_2&quot;</span><span class="p">)</span>
+
+    <span class="n">res</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">if</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;+&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">+</span> <span class="n">nb2</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;-&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">-</span> <span class="n">nb2</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;*&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">*</span> <span class="n">nb2</span>
+    <span class="k">elif</span> <span class="n">operation</span> <span class="o">==</span> <span class="s2">&quot;/&quot;</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">nb1</span> <span class="o">/</span> <span class="n">nb2</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="c1"># raise RuntimeError(&quot;Tahiti a plante ce processus&quot;)</span>
+
+    <span class="n">nob_set</span><span class="p">(</span><span class="n">nob_out</span><span class="p">,</span> <span class="n">res</span><span class="p">,</span> <span class="s2">&quot;result&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">nob_out</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">process_tab</span><span class="p">(</span><span class="n">custom_fun</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Concerning <strong>Error Handling</strong>. OpenTEA calls a Sub process of a python script. Therefore, a failue in the script will not freeze the application.  The current Tab becomes red, with the message typically <em>Failed after 0.16s</em>. You can customize : if the script raises a <code class="docutils literal notranslate"><span class="pre">RunTimeError(&quot;foobar&quot;)</span></code>, the error string (here <code class="docutils literal notranslate"><span class="pre">&quot;foobar&quot;</span></code>) will be copied to the button status, typically <em>Failed after 0.16s, RunTimeError:  foobar</em></p>
+</div>
+</div>
+<div class="section" id="third-node-level-the-block">
+<h3>Third Node level, the block<a class="headerlink" href="#third-node-level-the-block" title="Permalink to this headline">¶</a></h3>
+<p>We define here again a <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/object.html">SCHEMA object</a> (<code class="docutils literal notranslate"><span class="pre">type:object</span></code>) which can store, as <code class="docutils literal notranslate"><span class="pre">properties</span></code> , one or several holder objects called <strong>blocks</strong>.</p>
+<p>It looks like the following:
+<img alt="block" src="_images/block.png" /></p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>......(tab)
+      first_block:
+        type: object
+        title: Customer Info
+        description: &gt;
+
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+          anim id est laborum.
+          
+        documentation: &gt;
+    
+			# title
+			  
+			## subtitle
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			Ut eru[avbp website](http://www.cerfacs.fr/avbp7x/)  nisi 
+			ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+			in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+			sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+			  
+			## subtitle
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			  
+			![image](test-pattern-tv.jpg)
+			
+			| add  | bdfsf | vxgc | sds | vwv  |
+			|---|---|---|---|---|
+			| 11  | 12  | 13  | 14  | 15  |
+			| 21  | 22  | 23  | 24  | 25  |
+ 
+        image: test-pattern-tv.jpg
+        properties:
+          name:
+            ... 
+          age:
+            ... 
+          membership:
+            ... 
+</pre></div>
+</div>
+<p><em>Block nodes, in yaml, are found after three indentation (6 spaces, providing you use the standard 2 spaces chars indentation). The content is found after four indentations / 8 chars.</em></p>
+<p>You can nest more blocks under blocks if needed.</p>
+<p>The Block level is accepting the following additionnal attributes:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code>. This attributes is the SCHEMA official attibute. It takes a string. The string will be shown in the GUI at the bottom left of the block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">image</span></code>. This attribute is specific to OpenTEA, and does not belong to the SCHEMA standard. The image must be stored in the folder of the main schema file. It will be shown, without scaling, at the bottom of the block.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">documentation</span></code>. This attribute is specific to OpenTEA, and does not belong to the SCHEMA standard. It takes a string using Markdown syntax. This wil add at the bottom of the block the blue label “learn more…”. On click this label trigger the opening of the browser, loading the HTML rendering of the Markdown content. Al features of Markdown are supoorted. Images must be stored at the root of tge GUI, where the schema is.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">expert</span></code>.This attribute is specific to OpenTEA. It make the block collapsable. If <code class="docutils literal notranslate"><span class="pre">expert</span></code>is set to True, the block is initially collapsed. A click on the + / -  witl expand-collapse it.
+<img alt="expertc" src="_images/expert_collapsed.png" />
+<img alt="experte" src="_images/expert_expanded.png" /></p></li>
+</ul>
+</div>
+<div class="section" id="leaf-level-or-parameters">
+<h3>Leaf level , or Parameters<a class="headerlink" href="#leaf-level-or-parameters" title="Permalink to this headline">¶</a></h3>
+<p>Parameters are defined still in acordance with the SCHEMA standard:</p>
+<div class="section" id="entries">
+<h4>Entries<a class="headerlink" href="#entries" title="Permalink to this headline">¶</a></h4>
+<p>The most basic parameters are called Entries.
+Here are the most common types :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">string</span></code> <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/string.html">string types</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">integer</span></code>, <code class="docutils literal notranslate"><span class="pre">number</span></code>, <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/numeric.html">numeric types</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boolean</span></code>. <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/boolean.html">boolean types</a></p></li>
+</ul>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>         (block)
+		   name:
+				title: &quot;Name&quot;
+				type: string
+				default: &quot;john doe&quot;
+			age:
+				title: &quot;Age&quot;
+				type: integer
+				default: 42
+			age:
+				title: &quot;Weight&quot;
+				type: number
+				default: 13.2
+			membership:
+				title: &quot;Membership&quot;
+				type: boolean
+				default: False
+</pre></div>
+</div>
+<p>The appearance is the following:
+<img alt="entries" src="_images/entries.png" /></p>
+<p>The gui will check the type of the entry, and refuse invalid inputs.</p>
+<p>You can add further validation rules, to prevent non-acceptable values righ from the form, using the SCHEMA validators. In the following example, the user cannot enter a number outside ofthe range ]1, 2[. :</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>         <span class="l l-Scalar l-Scalar-Plain">(block)</span>
+         <span class="l l-Scalar l-Scalar-Plain">ent1</span><span class="p p-Indicator">:</span>
+            <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1.3</span>
+            <span class="nt">exclusiveMaximum</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+            <span class="nt">exclusiveMinimum</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+            <span class="nt">maximum</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+            <span class="nt">minimum</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Essai double_gt1_lt2</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">number</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="simple-arrays-lists">
+<h3>simple arrays (lists)<a class="headerlink" href="#simple-arrays-lists" title="Permalink to this headline">¶</a></h3>
+<p>The SCHEMA arrays, for the simplest ones, are equivalent to Python’s lists.
+In the following example, the list is modifiable by the user, from 0 to 999 elements.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>         <span class="l l-Scalar l-Scalar-Plain">(block)</span>
+         <span class="l l-Scalar l-Scalar-Plain">list_patches</span><span class="p p-Indicator">:</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">array</span>
+            <span class="nt">title </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Liste des patches</span>
+            <span class="nt">items </span><span class="p">:</span> 
+              <span class="nt">type </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">string</span>
+              <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">single_patch</span>
+</pre></div>
+</div>
+<p>The list entries look like:
+<img alt="listentries" src="_images/list_entries.png" /></p>
+<p>this is given by the SCHEMA:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span> <span class="nt">entlist</span><span class="p">:</span>
+        <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">List entries</span>
+        <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+        <span class="nt">description</span><span class="p">:</span> <span class="p p-Indicator">&gt;</span>
+            <span class="no">List entries</span>
+        <span class="nt">properties</span><span class="p">:</span>
+          <span class="nt">entl1</span><span class="p">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">String - dynamic</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">array</span>
+            <span class="nt">items</span><span class="p">:</span>
+              <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">string</span>
+              <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Catch a tiger</span>
+          <span class="nt">entl2</span><span class="p">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Integer - X4</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">array</span>
+            <span class="nt">minItems</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">4</span>
+            <span class="nt">maxItems</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">4</span>
+            <span class="nt">items</span><span class="p">:</span>
+              <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">integer</span> 
+              <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">42</span>
+          <span class="nt">entl3</span><span class="p">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Number - 3X</span> 
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">array</span>
+            <span class="nt">minItems</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3</span>
+            <span class="nt">maxItems</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3</span>
+            <span class="nt">items</span><span class="p">:</span>
+              <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">number</span> 
+              <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">666.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="disabled-state">
+<h3>Disabled state<a class="headerlink" href="#disabled-state" title="Permalink to this headline">¶</a></h3>
+<p>You can set an entry in <em>disabled</em> state when you set the opentea-specific attribute <code class="docutils literal notranslate"><span class="pre">state=</span> <span class="pre">disabled</span></code>.
+The user wil not be able to act directly on the value. You can howver promatically modify the value by changing the memory in the callback. In the following example, a list of string that will be modified by setting the node <code class="docutils literal notranslate"><span class="pre">list_patches</span></code> to a list of strings.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>         <span class="l l-Scalar l-Scalar-Plain">(block)</span>
+         <span class="l l-Scalar l-Scalar-Plain">list_patches</span><span class="p p-Indicator">:</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">array</span>
+            <span class="nt">title </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Patch list</span>
+            <span class="nt">state </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">disabled</span>
+            <span class="nt">items </span><span class="p">:</span> 
+              <span class="nt">type </span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">string</span>
+              <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">single_patch</span>
+</pre></div>
+</div>
+<p><img alt="listdisabled" src="_images/list_disabled.png" /></p>
+<div class="section" id="choices">
+<h4>Choices<a class="headerlink" href="#choices" title="Permalink to this headline">¶</a></h4>
+<p>The SCHEMA notation for used-defined entries options is the <code class="docutils literal notranslate"><span class="pre">enum</span></code> attribute :</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>         <span class="l l-Scalar l-Scalar-Plain">(block)</span>
+         <span class="l l-Scalar l-Scalar-Plain">ndim_choice</span><span class="p p-Indicator">:</span>
+           <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">two</span>
+           <span class="nt">enum</span><span class="p">:</span>
+           <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">two</span>
+           <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">three</span>
+           <span class="nt">enum_titles</span><span class="p">:</span>
+           <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">2-D</span>
+           <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">3-D</span>
+           <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Dimensions</span>
+           <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">string</span>
+</pre></div>
+</div>
+<p>Note the attribute <code class="docutils literal notranslate"><span class="pre">enum_titles</span></code> specific to opentea, to override the Titles shown in the GUI.</p>
+<p>The choice is initially a radiobutton, but with switch to a combobox beyond 3 items:</p>
+<p><img alt="choices" src="_images/choices.png" /></p>
+<p>In some cases you want to create a choice between options that will be known only at run-time.
+This is a <strong>dynamic choice</strong>.
+In the following example, the list <code class="docutils literal notranslate"><span class="pre">list_patches</span></code> is updated by some callbacks.
+The choice <code class="docutils literal notranslate"><span class="pre">choice_patches</span></code> will have its options list updated when  <code class="docutils literal notranslate"><span class="pre">list_patches</span></code> changes.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>		list_patches:
+            type: array
+            title : Liste des patches
+            state : disabled
+            items : 
+              type : string
+              default: single_patch
+		choice_patches:
+            title: Choix patches
+            type: string
+            ot_dyn_choice: list_patches
+</pre></div>
+</div>
+</div>
+<div class="section" id="comments">
+<h4>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h4>
+<p>If you want to create an input on multilines, openTea offer the widget comment.
+It is basically a Textbox. In the yaml, add simply the decorator <code class="docutils literal notranslate"><span class="pre">ot_type:</span> <span class="pre">comment</span></code>to a string.
+In the following example, two comment entries are created.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>	       mod_comment:
+            title: bossa nova
+            type: string
+            default: Lorem ipsum sic hamet
+            height: 20
+            ot_type: comment
+          readonly_comment:
+            title: fdo
+            type: string
+            default: Lorem ipsum sic hamet
+            state: disabled
+            ot_type: comment
+</pre></div>
+</div>
+<p><img alt="comments" src="_images/comments.png" /></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">height</span></code> attibute allow to increase the size of the widget. Its default appearance is on 6 lines.
+The <code class="docutils literal notranslate"><span class="pre">state=disabled</span></code>allow to deactivate the user-interaction.
+The widget content can only be updated by a callback, which is usefull to present logfiles, informations or input_files generated by the GUI.</p>
+</div>
+</div>
+<div class="section" id="files-and-folder">
+<h3>Files and folder<a class="headerlink" href="#files-and-folder" title="Permalink to this headline">¶</a></h3>
+<p>When you want a dialog to set a file or a folder, add the attribute <code class="docutils literal notranslate"><span class="pre">ot_type:</span> <span class="pre">file</span></code>.
+The entry will include a small button starting a “Selecting file dialog”.</p>
+<p>You can limit the search to some extentions using the atrribute  “ot_filter: [h5]” (for .h5 files).
+You also can limit to directories using the attribute “ot_filter: directory”.
+In the following example, two widgets are created, a H5 file selector and a directory selector.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span> 			file4:
+            ot_type: file
+            ot_filter:
+            - h5
+            title: Choix fichier (*.h5)
+            type: string
+            default: any.h5
+          file5:
+            ot_type: file
+            ot_filter: directory
+            title: Choix repertoire
+            type: string
+            default: anyfolder
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="special-blocks">
+<h2>Special blocks<a class="headerlink" href="#special-blocks" title="Permalink to this headline">¶</a></h2>
+<p>Special blocks are structures allowing more complexity in the nested object</p>
+<div class="section" id="exclusive-or-objects">
+<h3>eXclusive OR objects<a class="headerlink" href="#exclusive-or-objects" title="Permalink to this headline">¶</a></h3>
+<p>The exclusive OR mean that the structure can be either one graph or another, <em>but nothing else</em>.</p>
+<p><em>This stems from the <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/combining.html#oneof">SCHEMA oneOf</a>, which is much more permissive : one graph, or another or a void graph</em>.</p>
+<p><img alt="xor" src="_images/xor.png" /></p>
+<p>To achieve a proper validation with the SCHEMA standard, the XOR structure is the following.
+Erm… brace yourselves, this is the hardest SCHEMA  part you will encounter in this manual:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nn">...</span> <span class="l l-Scalar l-Scalar-Plain">(block or tab)</span>
+          <span class="l l-Scalar l-Scalar-Plain">purchase</span><span class="p p-Indicator">:</span>
+            <span class="nt">title</span><span class="p">:</span> <span class="s">&quot;select</span><span class="nv"> </span><span class="s">purchase&quot;</span>
+            <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+            <span class="nt">oneOf</span><span class="p">:</span>
+            <span class="p p-Indicator">-</span> <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+              <span class="nt">required</span><span class="p">:</span> <span class="p p-Indicator">[</span><span class="nv">takeaway</span><span class="p p-Indicator">]</span>
+              <span class="nt">properties</span><span class="p">:</span>
+                <span class="nt">takeaway</span><span class="p">:</span>
+                  <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+                  <span class="nt">properties</span><span class="p">:</span>
+                    <span class="l l-Scalar l-Scalar-Plain">...</span>
+            <span class="p p-Indicator">-</span> <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+              <span class="nt">required</span><span class="p">:</span> <span class="p p-Indicator">[</span><span class="nv">lobby</span><span class="p p-Indicator">]</span>
+              <span class="nt">properties</span><span class="p">:</span>
+                <span class="nt">lobby</span><span class="p">:</span>
+                  <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+                  <span class="nt">properties</span><span class="p">:</span>
+                    <span class="l l-Scalar l-Scalar-Plain">...</span>
+</pre></div>
+</div>
+<p>Here the <code class="docutils literal notranslate"><span class="pre">oneOf</span></code> takes  a list of options. Each option is an <code class="docutils literal notranslate"><span class="pre">object</span></code> with a <code class="docutils literal notranslate"><span class="pre">required</span></code> single property. :</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">...(oneOf)</span>
+              <span class="l l-Scalar l-Scalar-Plain">type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+              <span class="l l-Scalar l-Scalar-Plain">required</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">[</span><span class="nv">lobby</span><span class="p p-Indicator">]</span>
+              <span class="nt">properties</span><span class="p">:</span>
+                <span class="nt">lobby</span><span class="p">:</span>
+                  <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+                  <span class="nt">properties</span><span class="p">:</span>
+                      <span class="l l-Scalar l-Scalar-Plain">...</span>
+</pre></div>
+</div>
+<p>The XOR Widget full supports the attributes <code class="docutils literal notranslate"><span class="pre">description</span></code>, <code class="docutils literal notranslate"><span class="pre">documentation</span></code>or <code class="docutils literal notranslate"><span class="pre">image</span></code>, like the other blocks.</p>
+</div>
+<div class="section" id="multiple-objects">
+<h3>Multiple objects<a class="headerlink" href="#multiple-objects" title="Permalink to this headline">¶</a></h3>
+<p>This structure is the <a class="reference external" href="https://json-schema.org/understanding-json-schema/reference/object.html">SCHEMA array</a>, using <code class="docutils literal notranslate"><span class="pre">required</span></code>properties:</p>
+<p>It is a big widget, with a treeview on the left, and a flipform on the right:
+<img alt="multiple" src="_images/multiple.png" /></p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nn">...</span> <span class="l l-Scalar l-Scalar-Plain">(block or tab)</span>
+  <span class="l l-Scalar l-Scalar-Plain">vegetables</span><span class="p p-Indicator">:</span>
+    <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Edible vegetable (Multiple example)</span>
+    <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">array</span>
+    <span class="nt">items</span><span class="p">:</span>
+      <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+      <span class="nt">required</span><span class="p">:</span>
+      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">name</span>
+      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">veggieLike</span>
+      <span class="nt">properties</span><span class="p">:</span>
+        <span class="nt">name</span><span class="p">:</span> 
+          <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">string</span>
+          <span class="nt">description</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">The name of the vegetable.</span>
+          <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dummy_vegetable</span>
+          <span class="nt">state</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">disabled</span>
+        <span class="nt">veggieLike</span><span class="p">:</span>
+          <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">boolean</span>
+          <span class="nt">description</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Do I like this vegetable?</span>
+          <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+</div>
+<p>Opentea requires a <strong>compulsory string property</strong>, <code class="docutils literal notranslate"><span class="pre">name</span></code> that you must set as read/only (see example before),
+This will help to handle the content of the multiple. Indeed, If your multiple dialogue handle mode than 20 items, you will be happy to use names and not list index… trust me.</p>
+<p>The Multiple Widget DOES NOT support the attributes <code class="docutils literal notranslate"><span class="pre">description</span></code>, <code class="docutils literal notranslate"><span class="pre">documentation</span></code>or <code class="docutils literal notranslate"><span class="pre">image</span></code>.</p>
+<div class="section" id="multiple-with-dependency">
+<h4>Multiple with dependency<a class="headerlink" href="#multiple-with-dependency" title="Permalink to this headline">¶</a></h4>
+<p>You can link the multiple to another value using the openTEA specific <code class="docutils literal notranslate"><span class="pre">ot_require</span></code> keyword. It must refer to an existing node, preferably a list of strings, like here the <code class="docutils literal notranslate"><span class="pre">list_patches</span></code> information.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>      <span class="nt">mul_cont</span><span class="p">:</span>
+        <span class="nt">items</span><span class="p">:</span>
+          <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">object</span>
+          <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Boundary cond.</span>
+        <span class="nt">ot_require</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">list_patches</span>
+        <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">array</span>
+        <span class="nt">properties</span><span class="p">:</span>
+          <span class="l l-Scalar l-Scalar-Plain">(...)</span>
+</pre></div>
+</div>
+<p>If this list of patches is updated, the items under the multiple influence will be updated.</p>
+</div>
+</div>
+</div>
+<div class="section" id="data-output">
+<h2>Data output<a class="headerlink" href="#data-output" title="Permalink to this headline">¶</a></h2>
+<p>The data is saved as a YAML serialized nested object.
+The data saved by the GUI “simple_example” in <code class="docutils literal notranslate"><span class="pre">./src/opentea/examples/simple/</span></code> is looking like this :</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">irst_tab</span><span class="p">:</span>
+  <span class="nt">first_block</span><span class="p">:</span>
+    <span class="nt">age</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">42</span>
+    <span class="nt">membership</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">john doe</span>
+  <span class="nt">second_block</span><span class="p">:</span>
+    <span class="nt">purchase</span><span class="p">:</span>
+      <span class="nt">takeaway</span><span class="p">:</span>
+        <span class="nt">bag</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="nt">second_tab</span><span class="p">:</span>
+  <span class="nt">first_block</span><span class="p">:</span>
+    <span class="nt">vegetables</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dummy_vegetable</span>
+      <span class="nt">veggieLike</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="style-adjustments">
+<h2>Style adjustments<a class="headerlink" href="#style-adjustments" title="Permalink to this headline">¶</a></h2>
+<p>Most of the styling in the OpenTEA GUI is automatic.
+The layout, the colors and the widgets cannot be overriden.</p>
+<p>The GUI developer can however tune some aspects:</p>
+<div class="section" id="theme">
+<h3>Theme<a class="headerlink" href="#theme" title="Permalink to this headline">¶</a></h3>
+<p>OpenTEA is powered by Tkinter, and rely on Tkinter themes.
+The default theme is <code class="docutils literal notranslate"><span class="pre">clam</span></code>, available on all platforms.
+You can force a Tkinter theme available on your platform (<code class="docutils literal notranslate"><span class="pre">aqua</span></code> on OSX for example),
+using the optional argument <code class="docutils literal notranslate"><span class="pre">theme=&quot;aqua&quot;</span></code> on the startup function <code class="docutils literal notranslate"><span class="pre">main_otinker()</span></code>.</p>
+</div>
+<div class="section" id="images">
+<h3>Images<a class="headerlink" href="#images" title="Permalink to this headline">¶</a></h3>
+<p>The images in the GUI are introduced either with the attribute ‘image’ in blocks, or in the markdown documentation.</p>
+</div>
+<div class="section" id="block-descriptions">
+<h3>Block Descriptions<a class="headerlink" href="#block-descriptions" title="Permalink to this headline">¶</a></h3>
+<p>Block descriptions can be tuned with the following tags inserted in the text:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;small&gt;</span></code> decrease the font size to 12</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;tiny&gt;</span></code> decrease the font size to 10</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;bold&gt;</span></code>chenge text to bold</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;italic&gt;</span></code> change text to italic</p></li>
+</ul>
+<p>For example, the following input will create a description with italic, 12pts default font.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>     <span class="n">description</span><span class="p">:</span> <span class="o">&gt;</span>
+                 <span class="o">&lt;</span><span class="n">small</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">italic</span><span class="o">&gt;</span> <span class="n">Lorem</span> <span class="n">ipsum</span> <span class="n">sic</span> <span class="n">hamet</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="readme_copy.html" class="btn btn-neutral float-left" title="OpenTEA" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018, Team COOP
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+type: object
+properties:
+  leafs:
+    type: object
+    properties:
+        leaf_integer:
+          type: integer
+          default: 12
+        leaf_number:
+          type: number
+          default: 12.0
+        leaf_string:
+          type: string
+          default: toto
+        leaf_boolean:
+          type: boolean
+          default: False
+        leaf_number_bounded:
+          type: number
+          default: 0.4
+          minimum: 0.0
+          maximum: 1.0
+          exclusiveMaximum: True
+  multiple_leaf:
+    type: array
+    items: 
+        type: number
+        default: 0.0
+  multiple_object:
+    type: array
+    items: 
+        type: object
+        properties:
+            leaf_int1:
+                type: integer
+                default: 42
+            leaf_str2:
+                type: string
+                default: foobar
+  xor_object:
+    type: object
+    oneOf:
+      - type: object
+        required: [option_a]
+        properties:
+          option_a:
+            type: object
+            properties:
+              leaf_opta:
+                type: string
+                default: opt_dummy_a
+      - type: object
+        required: [option_b]
+        properties:
+          option_b:
+            type: object
+            properties:
+              leaf_optb:
+                type: string
+                default: opt_dummy_b
+
+
+
+
+
+
+
+

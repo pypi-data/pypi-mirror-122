@@ -1,0 +1,35 @@
+opentea.tools package
+=====================
+
+.. automodule:: opentea.tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+opentea.tools.proxy\_h5 module
+------------------------------
+
+.. automodule:: opentea.tools.proxy_h5
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.tools.schema2md module
+------------------------------
+
+.. automodule:: opentea.tools.schema2md
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.tools.visit\_h5 module
+------------------------------
+
+.. automodule:: opentea.tools.visit_h5
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

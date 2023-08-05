@@ -1,0 +1,718 @@
+$schema: http://json-schema.org/draft-07/schema#
+
+
+# ------------------------------------ #
+# GENERAL
+# ------------------------------------ #
+title: TAVBP SETUP
+type: object
+properties:
+  general:
+    title: General
+    type: object
+    properties:
+      initial_state:
+        type: object
+        title: Initial state
+        properties:
+          init_switch:
+            title: Init choice
+            type: object
+            oneOf:
+            - required: ["from_scratch"]
+              title: From scratch
+              type: object
+              title: ""
+              properties:
+                from_scratch:
+                  type: object
+                  title: From scratch
+                  properties:
+                    description:
+                      type: string
+                      ot_type: desc
+                      default: "Start from t=0 or restart"
+                    init_u:
+                      default: 0
+                      title:  'x_velocity [m/s]'
+                      type: number
+                    init_p:
+                      default: 100000
+                      title:  'pressure [Pa]'
+                      type: number
+                    init_t:
+                      default: 310
+                      title:  temperature[K]'
+                      type: number
+            - required: ["from_files"]
+              title: Continuation of previous run
+              type: object
+              title: ""
+              properties:
+                from_files:
+                  type: object
+                  title: "Continuation"
+                  properties:
+                    init_sol_stator:
+                      default: INIT/init_stator.h5
+                      title: Stator initial solution
+                      type: string
+                      ot_type: file
+                    init_sol_rotor:
+                      default: INIT/init_rotor.h5
+                      title: Rotor initial solution
+                      type: string
+                      ot_type: file
+                    description:
+                      type: string
+                      ot_type: desc
+                      default: "Continuation upon two initial files"
+      rotation_speed:
+        type: object
+        title: Simulation regime
+        properties:
+          rpm:
+            default: 11000
+            title: target rpm [tr/min]
+            type: number
+          ramp_switch:
+            title: Ramp for RPM
+            type: object
+            oneOf:
+            - required: ["acceleration_ramp"]
+              title: RPM acceleration from 0
+              type: object
+              title: ""
+              properties:
+                acceleration_ramp:
+                  type: object
+                  title: "Ramp"
+                  properties:
+                    description:
+                      type: string
+                      ot_type: desc
+                      default: "Progressive acceleration from 0 RPMs"
+                    ramp_tau:
+                      default: 0
+                      title:  'tau [s]'
+                      type: number
+                    ramp_tref:
+                      default: 0
+                      title: 'tref [s]'
+                      type: number
+            - required: ["static"]
+              title: Continuation of previous run
+              type: object
+              title: ""
+              properties:
+                static:
+                  type: object
+                  title: "Constant RPM"
+                  properties:
+                    description:
+                      type: string
+                      ot_type: desc
+                      default: "Continuation upon two initial files"
+  # ------------------------------------ #
+  # MESHES
+  # ------------------------------------ #
+  meshes:
+    title: Meshes
+    type: object
+    process: process_meshes.py
+    properties:
+      # ------------------------------------ #
+      # MESH STATOR
+      # ------------------------------------ #
+      stator:
+        title: Stator
+        type: object
+        properties:
+          #----
+          geom_stator:
+            type: object
+            title: Stator mesh
+            properties:
+              maillage_stator:
+                default: ./MESH/stator_mesh.h5
+                title: Stator mesh
+                type: string
+                ot_type: file
+              maillage_stator_desc:
+                default: "Stator mesh"
+                type: string
+                ot_type: desc
+              maillage_stator_comment:
+                default: "" 
+                type: string
+                ot_type: comment
+              list_patches_stator:
+                type: array
+                title : Liste des patches stator
+                state : disabled
+                items :
+                  type : string
+                  default: dummy_patch
+
+      # ------------------------------------ #
+      # MESH ROTOR
+      # ------------------------------------ #
+      rotor:
+        title: Rotor
+        type: object
+        properties:
+          #----
+          geom_rotor:
+            type: object
+            title: Rotor mesh
+            properties:
+              maillage_rotor:
+                default: ./MESH/rotor_mesh.h5
+                title: Rotor mesh
+                type: string
+                ot_type: file
+              maillage_rotor_desc:
+                default: "Rotor mesh" 
+                type: string
+                ot_type: desc
+              maillage_rotor_comment:
+                default: "" 
+                type: string
+                ot_type: comment
+              list_patches_rotor:
+                type: array
+                title : Liste des patches rotor
+                state : disabled
+                items :
+                  type : string
+                  default: dummy_patch
+      global:
+        title: global_mesh
+        type: object
+        properties:
+          stator_rotor_ratio:
+            title: "Stator mesh relative weight "
+            state: disabled
+            default: 0.5
+            type: number
+          nb_sectors_stator:
+            title: "Nb. of sectors in Rotor"
+            default: 0
+            state: disabled
+            type: integer
+          nb_sectors_rotor:
+            state: disabled
+            title: "Nb. of sectors in Stator"
+            default: 0
+            type: integer
+  # ------------------------------------ #
+  # BOUNDARIES
+  # ------------------------------------ #
+  boundaries:
+    type: object
+    title: Boundaries
+    properties:
+      #----
+      boundary_stator:
+        type: object
+        title: Stator boundary conditions
+        properties:
+          mul_bnd_stator: 
+            type: array
+            title: stator bc selection
+            ot_require: list_patches_stator
+            items:
+              type: object
+              properties:
+                name: 
+                  default: stator_dummy
+                  type: string
+                  state: disabled
+                bnd_gas:
+                  type: object
+                  oneOf:
+                  - required: [fixed_walls]
+                    type: object
+                    properties:
+                      fixed_walls:
+                        type: object
+                        properties:
+                          desc:
+                            default: "Fixed Wall"
+                            type: string
+                            ot_type: desc
+                  - required: [moving_walls]
+                    type: object
+                    properties:
+                      moving_walls:
+                        type: object
+                        properties:
+                          desc:
+                            default: "Moving Wall"
+                            type: string
+                            ot_type: desc
+                  - required: [inlet]
+                    type: object
+                    properties:
+                      inlet:
+                        type: object
+                        properties:
+                          total_pressure: 
+                            type: number 
+                            title: Pt 
+                            default: 100000.0 
+                          total_temperature: 
+                            type: number 
+                            title: Tt 
+                            default: 300.0 
+                  - required: [outlet]
+                    type: object
+                    properties:
+                      outlet:
+                        type: object
+                        properties:
+                          static_pressure: 
+                            type: number 
+                            title: Ps 
+                            default: 90000.0
+                  - required: [comm_patch]
+                    type: object
+                    properties:
+                      comm_patch:
+                        type: object
+                        properties:
+                          desc:
+                            default: "Overlapping patch"
+                            type: string
+                            ot_type: desc
+                  - required: [perio_axi]
+                    type: object
+                    properties:
+                      perio_axi:
+                        type: object
+                        properties:
+                          perio_axi_sign:
+                            type: string
+                            title: sign to mid-sector plane
+                            default: positive
+                            enum:
+                              - positive
+                              - negative
+                          #perio_axi_angle:
+                          #  type: number
+                          #  title: periodicity angle [degree]
+                          #  default: 25
+      boundary_rotor:
+        type: object
+        title: Rotor boundary conditions
+        properties:
+          mul_bnd_rotor:
+            type: array
+            title: rotor bc selection 
+            ot_require: list_patches_rotor
+            items:
+              type: object
+              properties:
+                name: 
+                  type: string
+                  default: rotor_dummy
+                  state: disabled
+                bnd_gas:
+                  type: object
+                  oneOf:
+                  - required: [moving_walls]
+                    type: object
+                    properties:
+                      moving_walls:
+                        type: object
+                        properties:
+                           desc:
+                             default: "Moving Wall"
+                             type: string
+                             ot_type: desc
+                  - required: [fixed_walls]
+                    type: object
+                    properties:
+                      fixed_walls:
+                        type: object
+                        properties:
+                          desc:
+                            default: "Fixed Wall"
+                            type: string
+                            ot_type: desc
+                  - required: [inlet]
+                    type: object
+                    properties:
+                      inlet:
+                        type: object
+                        properties:
+                          total_pressure:
+                            type: number
+                            title: Pt
+                            default: 100000.0
+                          total_temperature:
+                            type: number
+                            title: Tt
+                            default: 300.0
+                  - required: [outlet]
+                    type: object
+                    properties:
+                       outlet:
+                        type: object
+                        properties:
+                          static_pressure:
+                            type: number
+                            title: Ps
+                            default: 90000.0
+                  - required: [comm_patch]
+                    type: object
+                    properties:
+                      comm_patch:
+                        type: object
+                        properties:
+                          desc:
+                            default: "Overlapping patch"
+                            type: string
+                            ot_type: desc
+                  - required: [perio_axi]
+                    type: object
+                    properties:
+                      perio_axi:
+                        type: object
+                        properties:
+                          perio_axi_sign:
+                            type: string
+                            title: sign to mid-sector plane
+                            default: positive
+                            enum:
+                              - positive
+                              - negative
+                          #perio_axi_angle:
+                          #  type: number
+                          #  title: periodicity angle [degree] 
+                          #  default: 25
+
+
+# ------------------------------------ #
+# RUN PARAMETERS
+# ------------------------------------ #
+  run:
+    type: object
+    title: Run Parameters
+    properties:
+      end_time:
+        type: object
+        title: Simulation end time
+        properties:
+          simulation_end_time: 
+            default: 0.001
+            title: Simulation end time
+            type: number
+          simulation_end_time_desc:
+            default: "Simulation end time"
+            type: string
+            ot_type: desc
+
+      les_model:
+        type: object
+        title: LES model
+        properties:
+          model:
+            default: sigma
+            title: Les_model
+            type: string
+            enum:
+              - smago
+              - wale
+              - sigma
+          model_desc:
+            default: "LES model"
+            type: string
+            ot_type: desc
+
+      sensor_visco_artif:
+        type: object
+        title: Artificial viscosity
+        properties:
+          artificial_viscosity_model:
+            default: jameson
+            enum: ['no', honey, jameson, jameson_species, colin, colin_species, colin_yspec, colin_rhou, colin_rhou_species, ttc, lad]
+            title: Artificial visco sensor
+            type: string
+            ot_type: file
+          artificial_viscosity_model_desc:
+            default: "Artificial viscosity model"
+            type: string
+            ot_type: desc
+      level_visco_artif:
+        type: object
+        title: Artificial viscosity level
+        properties:
+          artificial_viscosity_2nd_order:
+            title: Artificial viscosity 2nd order
+            default: 0.4
+            minimum: 0
+            type: number
+          artificial_viscosity_4th_order:
+            title: Artificial viscosity 4th order
+            default: 0.005
+            maximum: 1
+            minimum: 0
+            type: number
+      temporal:
+        type: object
+        title: Temporal
+        properties:
+          save_temporal_iteration:
+            default: 200
+            title: Save temporal iteration
+            type: integer
+          save_temporal_iteration_desc:
+            default: "Save temporal iteration"
+            type: string
+            ot_type: desc
+      solution:
+        type: object
+        title: Solution
+        properties:
+          save_solution_time: 
+            default: 0.001
+            title: Save solution time
+            type: number
+          save_solution_desc:
+            default: "Save solution time"
+            type: string
+            ot_type: desc
+      average:
+        type: object
+        title: Average
+        properties:
+          save_average:
+            default: false
+            title: Save average
+            type: boolean
+          save_average_freq_averaging_time:
+            default: 1.0e-06
+            title: freq averaging time
+            type: number
+          save_average_time:
+            default: 0.001
+            title: Save average time
+            type: number
+          save_average_desc:
+            default: "Average parameters"
+            type: string
+            ot_type: desc
+    
+# ------------------------------------ #
+# MONITORING 
+# ------------------------------------ #
+  
+  monitoring:
+    type: object
+    title: Probes
+    properties:
+      probe_stator: 
+        type: object
+        title: Stator probes
+        properties:
+          probe_stator_array:
+            title: Probe_stator
+            type: array
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  default: probe_dummy
+                  state: disabled
+                position:
+                  title: Coordinates (m)
+                  type: array
+                  minItems: 3
+                  maxItems: 3
+                  items:
+                    type: number
+                    default:  0.0
+      probe_rotor: 
+        type: object
+        title: Rotor probes
+        properties:
+          probe_rotor_array:
+            title: Probe_rotor
+            type: array
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  default: probe_dummy
+                  state: disabled
+                position:
+                  title: Coordinates (m)
+                  type: array
+                  minItems: 3
+                  maxItems: 3
+                  items:
+                    type: number
+                    default:  0.0
+
+
+# ------------------------------------ #
+# POSTPROC 
+# ------------------------------------ #
+  postproc:
+    type: object
+    title: Monitoring 
+    properties:
+      postproc_stator_container: 
+        type: object
+        title: Stator post-processings
+        properties:
+          postproc_stator_array:
+            title: list of treatments
+            type: array
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  default: postproc_dummy
+                  state: disabled
+                treatment:
+                  title: Treatment
+                  type: object
+                  oneOf: 
+                  - required: [cut_planar]
+                    type: object        
+                    properties:
+                      cut_planar:
+                        title: X-Cut planar
+                        type: object
+                        properties:
+                          position:
+                            title: x position [m]
+                            type: number
+                            default: 0
+                          dump_frequency:
+                            title: Saving frequency [s]
+                            type: number
+                            default: 0.00001
+                          average_switch:
+                            title: Temporal type
+                            type: string
+                            default: instantaneous
+                            enum: [instantaneous, average]
+                  - required: [integration_cut]
+                    type: object        
+                    properties:
+                      integration_cut:
+                        title: X-Cut Integration
+                        type: object
+                        properties:
+                          position:
+                            title: x position [m]
+                            type: number
+                            default: 0
+                          dump_frequency:
+                            title: Saving frequency [s]
+                            type: number
+                            default: 0.00001
+      postproc_rotor_container: 
+        type: object
+        title: Rotor post-processings
+        properties:
+          postproc_rotor_array:
+            title: list of treatments
+            type: array
+            items:
+              type: object
+              properties:
+                name:
+                  type: string
+                  default: postproc_dummy
+                  state: disabled
+                treatment:
+                  title: Treatment
+                  type: object
+                  oneOf: 
+                  - required: [cut_planar]
+                    type: object        
+                    properties:
+                      cut_planar:
+                        title: X-Cut planar
+                        type: object
+                        properties:
+                          position:
+                            title: x position [m]
+                            type: number
+                            default: 0
+                          dump_frequency:
+                            title: Saving frequency [s]
+                            type: number
+                            default: 0.00001
+                          average_switch:
+                            title: Temporal type
+                            type: string
+                            default: instantaneous
+                            enum: [instantaneous, average]
+                  - required: [integration_cut]
+                    type: object        
+                    properties:
+                      integration_cut:
+                        title: X-Cut Integration
+                        type: object
+                        properties:
+                          position:
+                            title: x position [m]
+                            type: number
+                            default: 0
+                          dump_frequency:
+                            title: Saving frequency [s]
+                            type: number
+                            default: 0.00001
+
+# ------------------------------------ #
+# FINISH 
+# ------------------------------------ #
+  finish:
+    type: object
+    title: Finish
+    process: process_finish.py
+    properties:
+      #----
+      run_information: 
+        type: object
+        title: Run informations
+        properties:
+          name:
+            default: "unnamed"
+            title: Run name
+            type: string
+          comment:
+            default: ""
+            title: Comments on this run
+            type: string
+
+      core_charge: 
+        type: object
+        title: Run informations
+        properties:
+          node_number:
+            title: "Nb. of nodes requested "
+            default: 2
+            type: integer
+          cores_per_node:
+            title: "Nb. of cores per node"
+            default: 16
+            type: integer
+          cores_for_stator:
+            title: "cores for stator"
+            default: 0
+            state: disabled
+            type: integer
+          cores_for_rotor:
+            title: "cores for rotor"
+            default: 0
+            state: disabled
+            type: integer

@@ -1,0 +1,37 @@
+opentea package
+===============
+
+.. automodule:: opentea
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+
+   opentea.gui_browser
+   opentea.gui_forms
+   opentea.noob
+   opentea.tools
+
+Submodules
+----------
+
+opentea.cli module
+------------------
+
+.. automodule:: opentea.cli
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.process\_utils module
+-----------------------------
+
+.. automodule:: opentea.process_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

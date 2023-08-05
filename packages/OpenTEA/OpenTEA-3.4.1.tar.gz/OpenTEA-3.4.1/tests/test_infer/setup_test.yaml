@@ -1,0 +1,18 @@
+leafs:
+    leaf_integer: 12
+    leaf_number: 12.0
+    leaf_string: toto
+    leaf_boolean: False
+    leaf_number_bounded: 0.4
+multiple_leaf:
+- 0.0
+multiple_object:
+- leaf_int1: 42
+  leaf_str2: foobar
+xor_object:
+  option_a:
+    leaf_opta: opt_dummy_a
+
+
+
+    

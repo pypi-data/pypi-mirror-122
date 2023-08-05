@@ -1,0 +1,372 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>opentea.tools package &mdash; Template module Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="opentea.noob package" href="opentea.noob.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Opentea
+          
+
+          
+            
+            <img src="../_static/logo_project.gif" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.3
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html">OpenTEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html#command-line">Command line</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html#acknowledgments">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../GUI_BUILDING.html">Building the GUI</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="opentea.html">opentea package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="opentea.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="opentea.gui_browser.html">opentea.gui_browser package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="opentea.gui_forms.html">opentea.gui_forms package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="opentea.noob.html">opentea.noob package</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">opentea.tools package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.tools.proxy_h5">opentea.tools.proxy_h5 module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.tools.schema2md">opentea.tools.schema2md module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.tools.visit_h5">opentea.tools.visit_h5 module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#module-opentea.cli">opentea.cli module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#module-opentea.process_utils">opentea.process_utils module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Opentea</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="opentea.html">opentea package</a> &raquo;</li>
+        
+      <li>opentea.tools package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-opentea.tools">
+<span id="opentea-tools-package"></span><h1>opentea.tools package<a class="headerlink" href="#module-opentea.tools" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-opentea.tools.proxy_h5">
+<span id="opentea-tools-proxy-h5-module"></span><h2>opentea.tools.proxy_h5 module<a class="headerlink" href="#module-opentea.tools.proxy_h5" title="Permalink to this headline">¶</a></h2>
+<p>Module container for class ProxyH5</p>
+<dl class="py class">
+<dt id="opentea.tools.proxy_h5.ProxyH5">
+<em class="property">class </em><code class="sig-prename descclassname">opentea.tools.proxy_h5.</code><code class="sig-name descname">ProxyH5</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">h5_filename</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.proxy_h5.ProxyH5" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class container for hdf5 file inspector</p>
+<p>h5_filename : Path to hdf5 file</p>
+<dl class="py method">
+<dt id="opentea.tools.proxy_h5.ProxyH5.get_field">
+<code class="sig-name descname">get_field</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">identifier</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.proxy_h5.ProxyH5.get_field" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a value of a field given its identifier</p>
+<p>identifier : the adress of the content to retrieve.</p>
+<blockquote>
+<div><dl>
+<dt>Possible options:</dt><dd><ul class="simple">
+<li><p>String : key of the value to retrieve</p></li>
+</ul>
+<blockquote>
+<div><p>(e.g ‘content’)</p>
+</div></blockquote>
+<ul>
+<li><p>String : A posix-like full address
+(e.g ‘full/address/to/content’)</p></li>
+<li><p>List : A list of adress stages, complete or not
+(e.g [‘full’, ‘address’, ‘to’, ‘content’] or,</p>
+<blockquote>
+<div><p>[‘content’])</p>
+</div></blockquote>
+</li>
+<li><p>A list of lists : a list holding address stages,
+as it is done for instance in h5py.
+(e.g [[‘full’], [‘address’], [‘to’], [‘content’]]])</p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+<p>field : array or value of the query field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="opentea.tools.proxy_h5.ProxyH5.show">
+<code class="sig-name descname">show</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">style</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.proxy_h5.ProxyH5.show" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pretty print of the hdf5 content</p>
+<dl class="simple">
+<dt>style<span class="classifier">style of printing, possible options</span></dt><dd><ul class="simple">
+<li><p>yaml : for a yaml formatting</p></li>
+<li><p>json : for a yaml formatting</p></li>
+<li><p>None : for a default printing</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.tools.schema2md">
+<span id="opentea-tools-schema2md-module"></span><h2>opentea.tools.schema2md module<a class="headerlink" href="#module-opentea.tools.schema2md" title="Permalink to this headline">¶</a></h2>
+<p>Translate a schema nested object into Markdown table.</p>
+<dl class="py function">
+<dt id="opentea.tools.schema2md.array2md">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">array2md</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nob</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.array2md" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print an array item into markdown</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.schema2md.html_colored">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">html_colored</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">str_</span></em>, <em class="sig-param"><span class="n">color</span><span class="o">=</span><span class="default_value">'black'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.html_colored" title="Permalink to this definition">¶</a></dt>
+<dd><p>Represent a string with html color markup.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.schema2md.html_list">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">html_list</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">list_</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.html_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Represent a list with html markup.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.schema2md.md_table_header">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">md_table_header</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.md_table_header" title="Permalink to this definition">¶</a></dt>
+<dd><p>The regular table header</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.schema2md.schema2md">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">schema2md</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.schema2md" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert schma type nest objet into Markdown</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.schema2md.to_table_line">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">to_table_line</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nob</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.to_table_line" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reccursive cfn to create tables.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.schema2md.type_color">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">type_color</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">type_str</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.type_color" title="Permalink to this definition">¶</a></dt>
+<dd><p>Redirect according to types.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.schema2md.xor2md">
+<code class="sig-prename descclassname">opentea.tools.schema2md.</code><code class="sig-name descname">xor2md</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nob</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.schema2md.xor2md" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print a eXclusive Or item into markdown</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.tools.visit_h5">
+<span id="opentea-tools-visit-h5-module"></span><h2>opentea.tools.visit_h5 module<a class="headerlink" href="#module-opentea.tools.visit_h5" title="Permalink to this headline">¶</a></h2>
+<p>Visit h5py file</p>
+<p>This should be removed because it is deprecated</p>
+<dl class="py function">
+<dt id="opentea.tools.visit_h5.get_h5_structure">
+<code class="sig-prename descclassname">opentea.tools.visit_h5.</code><code class="sig-name descname">get_h5_structure</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">h5_filename</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.visit_h5.get_h5_structure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Show hdf5 file components</p>
+<p>h5_filename : path to hdf5 file to inspect</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.tools.visit_h5.print_h5_structure">
+<code class="sig-prename descclassname">opentea.tools.visit_h5.</code><code class="sig-name descname">print_h5_structure</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">h5_filename</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.tools.visit_h5.print_h5_structure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Show hdf5 file components</p>
+<p>h5_filename : path to hdf5 file to inspect</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="opentea.noob.html" class="btn btn-neutral float-left" title="opentea.noob package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018, Team COOP
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

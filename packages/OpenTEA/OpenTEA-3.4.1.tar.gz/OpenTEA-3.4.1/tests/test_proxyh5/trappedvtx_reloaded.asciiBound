@@ -1,0 +1,48 @@
+$BOUNDARY-PATCHES
+!------------------------------------------------------
+patch_name = Inlet
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = Outlet
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = PerioLeft
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = PerioRight
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = WallIn1
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = WallIn2
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = WallIn3
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = MultiperfIn
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = WallIn4
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = InletHole
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = WallOut
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = CanyonUp
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = CanyonBottom
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = CanyonDown
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+patch_name = InletFilm
+boundary_condition = TO_BE_DEFINED
+!------------------------------------------------------
+$end_BOUNDARY-PATCHES

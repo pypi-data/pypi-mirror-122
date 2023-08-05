@@ -1,0 +1,67 @@
+opentea.noob package
+====================
+
+.. automodule:: opentea.noob
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+opentea.noob.asciigraph module
+------------------------------
+
+.. automodule:: opentea.noob.asciigraph
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.noob.check\_schema module
+---------------------------------
+
+.. automodule:: opentea.noob.check_schema
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.noob.inferdefault module
+--------------------------------
+
+.. automodule:: opentea.noob.inferdefault
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.noob.noob module
+------------------------
+
+.. automodule:: opentea.noob.noob
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.noob.schema module
+--------------------------
+
+.. automodule:: opentea.noob.schema
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.noob.validate\_light module
+-----------------------------------
+
+.. automodule:: opentea.noob.validate_light
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.noob.validation module
+------------------------------
+
+.. automodule:: opentea.noob.validation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

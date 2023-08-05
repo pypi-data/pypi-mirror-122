@@ -1,0 +1,19 @@
+opentea.gui\_browser package
+============================
+
+.. automodule:: opentea.gui_browser
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+opentea.gui\_browser.otbrowser module
+-------------------------------------
+
+.. automodule:: opentea.gui_browser.otbrowser
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

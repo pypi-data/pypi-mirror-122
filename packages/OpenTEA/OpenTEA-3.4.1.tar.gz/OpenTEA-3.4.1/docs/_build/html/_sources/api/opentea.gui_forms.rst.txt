@@ -1,0 +1,59 @@
+opentea.gui\_forms package
+==========================
+
+.. automodule:: opentea.gui_forms
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+opentea.gui\_forms.constants module
+-----------------------------------
+
+.. automodule:: opentea.gui_forms.constants
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.gui\_forms.leaf\_widgets module
+---------------------------------------
+
+.. automodule:: opentea.gui_forms.leaf_widgets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.gui\_forms.node\_widgets module
+---------------------------------------
+
+.. automodule:: opentea.gui_forms.node_widgets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.gui\_forms.otinker module
+---------------------------------
+
+.. automodule:: opentea.gui_forms.otinker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.gui\_forms.root\_widget module
+--------------------------------------
+
+.. automodule:: opentea.gui_forms.root_widget
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+opentea.gui\_forms.wincanvas module
+-----------------------------------
+
+.. automodule:: opentea.gui_forms.wincanvas
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

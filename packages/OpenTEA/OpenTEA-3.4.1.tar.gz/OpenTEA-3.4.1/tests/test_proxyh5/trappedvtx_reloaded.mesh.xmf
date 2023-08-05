@@ -1,0 +1,400 @@
+<?xml version="1.0" ?>
+<Xdmf xmlns:xi="http://www.w3.org/2003/XInclude" Version="2.0">
+  <Domain>
+    <Grid Collection="Tetrahedron_Mesh" Name="Tetrahedron">
+    <Topology Type="Tetrahedron" NumberOfElements="177563">
+      <DataItem ItemType="Function" Dimensions="710252" Function="$0 - 1">
+        <DataItem Format="HDF" DataType="Int" Dimensions="710252">
+        trappedvtx_reloaded.mesh.h5:/Connectivity/tet->node
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+  </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="Inlet">
+    <Topology Type="Triangle" NumberOfElements="749">
+      <DataItem ItemType="Function" Dimensions="2247" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="2247" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          0 1 2247
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="Outlet">
+    <Topology Type="Triangle" NumberOfElements="862">
+      <DataItem ItemType="Function" Dimensions="2586" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="2586" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          2247 1 2586
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="PerioLeft">
+    <Topology Type="Triangle" NumberOfElements="2394">
+      <DataItem ItemType="Function" Dimensions="7182" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="7182" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          4833 1 7182
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="PerioRight">
+    <Topology Type="Triangle" NumberOfElements="2394">
+      <DataItem ItemType="Function" Dimensions="7182" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="7182" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          12015 1 7182
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="WallIn1">
+    <Topology Type="Triangle" NumberOfElements="1120">
+      <DataItem ItemType="Function" Dimensions="3360" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="3360" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          19197 1 3360
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="WallIn2">
+    <Topology Type="Triangle" NumberOfElements="892">
+      <DataItem ItemType="Function" Dimensions="2676" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="2676" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          22557 1 2676
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="WallIn3">
+    <Topology Type="Triangle" NumberOfElements="682">
+      <DataItem ItemType="Function" Dimensions="2046" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="2046" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          25233 1 2046
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="MultiperfIn">
+    <Topology Type="Triangle" NumberOfElements="874">
+      <DataItem ItemType="Function" Dimensions="2622" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="2622" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          27279 1 2622
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="WallIn4">
+    <Topology Type="Triangle" NumberOfElements="715">
+      <DataItem ItemType="Function" Dimensions="2145" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="2145" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          29901 1 2145
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="InletHole">
+    <Topology Type="Triangle" NumberOfElements="98">
+      <DataItem ItemType="Function" Dimensions="294" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="294" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          32046 1 294
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="WallOut">
+    <Topology Type="Triangle" NumberOfElements="5927">
+      <DataItem ItemType="Function" Dimensions="17781" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="17781" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          32340 1 17781
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="CanyonUp">
+    <Topology Type="Triangle" NumberOfElements="185">
+      <DataItem ItemType="Function" Dimensions="555" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="555" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          50121 1 555
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="CanyonBottom">
+    <Topology Type="Triangle" NumberOfElements="174">
+      <DataItem ItemType="Function" Dimensions="522" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="522" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          50676 1 522
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="CanyonDown">
+    <Topology Type="Triangle" NumberOfElements="185">
+      <DataItem ItemType="Function" Dimensions="555" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="555" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          51198 1 555
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  <Grid Collection="trappedvtx_reloaded.mesh.h5" Name="InletFilm">
+    <Topology Type="Triangle" NumberOfElements="95">
+      <DataItem ItemType="Function" Dimensions="285" Function="$0 - 1">
+        <DataItem ItemType="Hyperslab" Dimensions="285" Type="HyperSlab" >
+          <DataItem Dimensions="3" Format="XML">
+          51753 1 285
+          </DataItem>
+          <DataItem Format="HDF" DataType="Int" Dimensions="52038">
+          trappedvtx_reloaded.mesh.h5:/Boundary/bnd_tri->node
+          </DataItem>
+        </DataItem>
+      </DataItem>
+    </Topology>
+    <Geometry Type="X_Y_Z">
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/x
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/y
+        </DataItem>
+        <DataItem Format="HDF" DataType="Float" Dimensions="34684">
+        trappedvtx_reloaded.mesh.h5:/Coordinates/z
+        </DataItem>
+    </Geometry>
+ </Grid>
+  </Domain>
+</Xdmf>

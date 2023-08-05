@@ -1,0 +1,692 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>opentea.noob package &mdash; Template module Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="opentea.tools package" href="opentea.tools.html" />
+    <link rel="prev" title="opentea.gui_forms package" href="opentea.gui_forms.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Opentea
+          
+
+          
+            
+            <img src="../_static/logo_project.gif" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.3
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html">OpenTEA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html#command-line">Command line</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../readme_copy.html#acknowledgments">Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../GUI_BUILDING.html">Building the GUI</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="opentea.html">opentea package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="opentea.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="opentea.gui_browser.html">opentea.gui_browser package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="opentea.gui_forms.html">opentea.gui_forms package</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">opentea.noob package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.noob.asciigraph">opentea.noob.asciigraph module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.noob.check_schema">opentea.noob.check_schema module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.noob.inferdefault">opentea.noob.inferdefault module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.noob.noob">opentea.noob.noob module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.noob.schema">opentea.noob.schema module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.noob.validate_light">opentea.noob.validate_light module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-opentea.noob.validation">opentea.noob.validation module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="opentea.tools.html">opentea.tools package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#module-opentea.cli">opentea.cli module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="opentea.html#module-opentea.process_utils">opentea.process_utils module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Opentea</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="opentea.html">opentea package</a> &raquo;</li>
+        
+      <li>opentea.noob package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-opentea.noob">
+<span id="opentea-noob-package"></span><h1>opentea.noob package<a class="headerlink" href="#module-opentea.noob" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-opentea.noob.asciigraph">
+<span id="opentea-noob-asciigraph-module"></span><h2>opentea.noob.asciigraph module<a class="headerlink" href="#module-opentea.noob.asciigraph" title="Permalink to this headline">¶</a></h2>
+<p>String represeantion of a nested object</p>
+<dl class="py function">
+<dt id="opentea.noob.asciigraph.asciigraph_rec">
+<code class="sig-prename descclassname">opentea.noob.asciigraph.</code><code class="sig-name descname">asciigraph_rec</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nob</span></em>, <em class="sig-param"><span class="n">level</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.asciigraph.asciigraph_rec" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pretty printing of a nested object
+Inputs:
+———-
+nob : The nested object
+level : The initial level to start with</p>
+<p>None</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.asciigraph.nob_asciigraph">
+<code class="sig-prename descclassname">opentea.noob.asciigraph.</code><code class="sig-name descname">nob_asciigraph</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nob</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.asciigraph.nob_asciigraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pretty printing of a nested object
+Inputs:
+———-
+nob : The nested object</p>
+<p>None</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.noob.check_schema">
+<span id="opentea-noob-check-schema-module"></span><h2>opentea.noob.check_schema module<a class="headerlink" href="#module-opentea.noob.check_schema" title="Permalink to this headline">¶</a></h2>
+<p>Test  the structure of a schema.</p>
+<p>The first one is for generic schema</p>
+<p>The second is for the use of gui_forms</p>
+<dl class="py exception">
+<dt id="opentea.noob.check_schema.NobSchemaError">
+<em class="property">exception </em><code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">NobSchemaError</code><a class="headerlink" href="#opentea.noob.check_schema.NobSchemaError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Error due to schema structure</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.boolean_check_schema">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">boolean_check_schema</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.boolean_check_schema" title="Permalink to this definition">¶</a></dt>
+<dd><p>Same as check schema with a boolean output.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.nob_check_schema">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">nob_check_schema</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.nob_check_schema" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if a schema is valid agains opentea requirements</p>
+<p>schema :  a schema object</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.read_serialized_data">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">read_serialized_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fname</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.read_serialized_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>read any serialized data file</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.rec_check_array">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">rec_check_array</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.rec_check_array" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive check specific to arrays.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.rec_check_leafs">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">rec_check_leafs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.rec_check_leafs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive check specific to leafs.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.rec_check_properties">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">rec_check_properties</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.rec_check_properties" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive check specific to properties.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.rec_check_schema">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">rec_check_schema</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.rec_check_schema" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive inference.</p>
+<p>schema :  a schema object</p>
+<p>list_err : a list of errors encountered</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.check_schema.rec_check_xor">
+<code class="sig-prename descclassname">opentea.noob.check_schema.</code><code class="sig-name descname">rec_check_xor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.check_schema.rec_check_xor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive check specific to exlusive or.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.noob.inferdefault">
+<span id="opentea-noob-inferdefault-module"></span><h2>opentea.noob.inferdefault module<a class="headerlink" href="#module-opentea.noob.inferdefault" title="Permalink to this headline">¶</a></h2>
+<p>Infer a nested object from a schema.</p>
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.avoid_string_duplication">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">avoid_string_duplication</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">list_str</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.avoid_string_duplication" title="Permalink to this definition">¶</a></dt>
+<dd><p>Individualize repated string items.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.infer_number">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">infer_number</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.infer_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return default number if not provided by schema</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.nob_complete">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">nob_complete</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">update_data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">only_in_schema</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.nob_complete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Infer a nested object from a schema.</p>
+<p>schema :  a schema object
+update_data : nested object, providing known</p>
+<blockquote>
+<div><p>parts of the object to infer</p>
+</div></blockquote>
+<dl class="simple">
+<dt>only_in_schema :</dt><dd><p>if true the elements absent from the schema are discarded
+if false they are kep )</p>
+</dd>
+</dl>
+<p>nob_out : nested object</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.recursive_infer">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">recursive_infer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">update_data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">only_in_schema</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.recursive_infer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive inference.</p>
+<p>schema :  a schema object
+update_data : nested object, providing known</p>
+<blockquote>
+<div><p>parts of the object to infer</p>
+</div></blockquote>
+<p>nob_out : nested object</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.recursive_infer_array">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">recursive_infer_array</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">update_data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">only_in_schema</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.recursive_infer_array" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive inference specific to arrays.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.recursive_infer_leafs">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">recursive_infer_leafs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">update_data</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.recursive_infer_leafs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive inference specific to leafs.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.recursive_infer_oneof">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">recursive_infer_oneof</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">update_data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">only_in_schema</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.recursive_infer_oneof" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive inference specific to oneOfs.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.inferdefault.recursive_infer_properties">
+<code class="sig-prename descclassname">opentea.noob.inferdefault.</code><code class="sig-name descname">recursive_infer_properties</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">update_data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">only_in_schema</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.inferdefault.recursive_infer_properties" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive inference specific to properties.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.noob.noob">
+<span id="opentea-noob-noob-module"></span><h2>opentea.noob.noob module<a class="headerlink" href="#module-opentea.noob.noob" title="Permalink to this headline">¶</a></h2>
+<p>Nested object services.</p>
+<dl class="simple">
+<dt>A nested object is here:</dt><dd><p>-nested dicts
+-nested lists
+-a mix of nested lists and nested dicts</p>
+</dd>
+</dl>
+<p>An address is a list of strings and/or integers
+giving a position in the nested object</p>
+<p>Hereafter, the -address, complete or not- statement
+refer to an address with potentially missing elements.</p>
+<p>EXAMPLE:&#64;
+for a dict such as :
+d[“a”][“b”][“c”][“d”][“e”][“f”]
+this the full address
+[ [“a”,”b”,”c”,”d”,”e”] ]
+can be found  with either:
+nob_find(d, “a”,”b”,”c”,”d”,”e”) (full path)
+nob_find(d, “b”,”d”,”e”) (partial path)
+nob_find(d, “e”) (only one hint )</p>
+<dl class="py exception">
+<dt id="opentea.noob.noob.NobReferenceError">
+<em class="property">exception </em><code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">NobReferenceError</code><a class="headerlink" href="#opentea.noob.noob.NobReferenceError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>TO BE ADDED</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_del">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_del</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_del" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delete all matchinf addresses in the nested object.
+Not a deletion in place, only the output argument is cropped.</p>
+<p><a href="#id1"><span class="problematic" id="id2">obj_</span></a> : nested object
+keys : address, complete or not</p>
+<p><a href="#id3"><span class="problematic" id="id4">obj_</span></a> : nested object without the matching keys</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_find">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_find</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_find" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find all occurences matching a serie of keys in a nested object.</p>
+<p><a href="#id5"><span class="problematic" id="id6">obj_</span></a> : nested object
+keys : address, complete or not</p>
+<p>list of addresses matching the input address</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_find_unique">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_find_unique</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_find_unique" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find a unique occurences of a key in a nested object.
+Raise exceptions if problems</p>
+<p><a href="#id7"><span class="problematic" id="id8">obj_</span></a> : nested object
+keys : address, complete or not</p>
+<p>one single address matching the input address</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_get">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_get</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em>, <em class="sig-param"><span class="n">failsafe</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Access a nested object by keys.</p>
+<p><a href="#id9"><span class="problematic" id="id10">obj_</span></a> : nested object
+keys : address, complete or not
+failsafe : what to do if the node is missing</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>False : raise an exception</p></li>
+<li><dl class="simple">
+<dt>True<span class="classifier">return None is missing</span></dt><dd><p>return the shortes path is several matches</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+<dl class="simple">
+<dt>if points to a leaf:</dt><dd><p>immutable, the value stored in the leaf</p>
+</dd>
+<dt>if points to a node:</dt><dd><p>mutable : the object (dict or list) found at this address</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_get_only_child">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_get_only_child</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_get_only_child" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the only key of a single child dict.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_merge_agressive">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_merge_agressive</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">base_obj</span></em>, <em class="sig-param"><span class="n">obj_to_add</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_merge_agressive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Merge two nested objects.</p>
+<p>In case of conflict, the object to add is prevalent</p>
+<p>base_obj : the initial object
+obj_to_add : the object to add</p>
+<p>merged_obj : the merged dictionnaries</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_node_exist">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_node_exist</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_node_exist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Test if one node exist in a nested object</p>
+<p><a href="#id11"><span class="problematic" id="id12">obj_</span></a> : nested object
+keys : address, complete or not</p>
+<p>boolean</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_pprint">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_pprint</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="n">max_lvl</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_pprint" title="Permalink to this definition">¶</a></dt>
+<dd><p>return a pretty print of a nested object.
+yaml.dump() in use for the display</p>
+<p><a href="#id13"><span class="problematic" id="id14">obj_</span></a> : nested object
+max_lvel : optional :  maximum nber of levels to show</p>
+<p>out : string showing the nested_object structure</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.nob_set">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">nob_set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">obj_</span></em>, <em class="sig-param"><span class="n">value</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.nob_set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Assign a value to an object from a nested object.</p>
+<p><a href="#id15"><span class="problematic" id="id16">obj_</span></a> : nested object
+keys : address, complete or not</p>
+<p>change the object in argument (NOT STATELESS)</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.str_address">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">str_address</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">addr</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.str_address" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return an address -key list- into a path-like string.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.noob.unique_dict_key">
+<code class="sig-prename descclassname">opentea.noob.noob.</code><code class="sig-name descname">unique_dict_key</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dict_</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.noob.unique_dict_key" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the only key of a single child dict.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.noob.schema">
+<span id="opentea-noob-schema-module"></span><h2>opentea.noob.schema module<a class="headerlink" href="#module-opentea.noob.schema" title="Permalink to this headline">¶</a></h2>
+<p>Helper functions for schema handling</p>
+<dl class="py function">
+<dt id="opentea.noob.schema.clean_schema_addresses">
+<code class="sig-prename descclassname">opentea.noob.schema.</code><code class="sig-name descname">clean_schema_addresses</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">list_</span></em>, <em class="sig-param"><span class="n">udf_stages</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.schema.clean_schema_addresses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clean a address from the addtitionnal layers of SCHEMA.</p>
+<p>Used only when a SCHEMA address must be found in the data to validate</p>
+<blockquote>
+<div><p>Parameters :</p>
+</div></blockquote>
+<dl class="simple">
+<dt><a href="#id17"><span class="problematic" id="id18">list_</span></a><span class="classifier">a list of string</span></dt><dd><p>address in a nested dict</p>
+</dd>
+</dl>
+<p>udf_stages : a list of additionnal user defined stages (udf)
+Returns :
+———
+list</p>
+<blockquote>
+<div><p>the same list without SCHEMA intermedaite stages</p>
+</div></blockquote>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.noob.validate_light">
+<span id="opentea-noob-validate-light-module"></span><h2>opentea.noob.validate_light module<a class="headerlink" href="#module-opentea.noob.validate_light" title="Permalink to this headline">¶</a></h2>
+<p>Lightweight validate from jsonschema</p>
+<dl class="py function">
+<dt id="opentea.noob.validate_light.validate_light">
+<code class="sig-prename descclassname">opentea.noob.validate_light.</code><code class="sig-name descname">validate_light</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validate_light.validate_light" title="Permalink to this definition">¶</a></dt>
+<dd><p>Schema validation procedure.</p>
+<p>data : a nested dict to validate
+schema : the schema to validate against (jsonschema grammar)</p>
+<p>THIS IS NOT A BOOLEAN
+Only exceptions are returned if any problem, else none.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-opentea.noob.validation">
+<span id="opentea-noob-validation-module"></span><h2>opentea.noob.validation module<a class="headerlink" href="#module-opentea.noob.validation" title="Permalink to this headline">¶</a></h2>
+<p>Module to operate a trplie layer of validation</p>
+<dl class="py exception">
+<dt id="opentea.noob.validation.ErrorExistIf">
+<em class="property">exception </em><code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">ErrorExistIf</code><a class="headerlink" href="#opentea.noob.validation.ErrorExistIf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Errors on exist if elements.</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="opentea.noob.validation.ErrorRequire">
+<em class="property">exception </em><code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">ErrorRequire</code><a class="headerlink" href="#opentea.noob.validation.ErrorRequire" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Errors on require elements.</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt id="opentea.noob.validation.OpenteaSchemaError">
+<em class="property">exception </em><code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">OpenteaSchemaError</code><a class="headerlink" href="#opentea.noob.validation.OpenteaSchemaError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Error in OptenTea schema structure</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.clean_opentea_list_item">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">clean_opentea_list_item</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">item_in</span></em>, <em class="sig-param"><span class="n">existing_names</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.clean_opentea_list_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add # to list elements to avoid duplication.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.main_validate">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">main_validate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.main_validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main validation procedure.</p>
+<p>data : a nested dict to validate
+schema : the schema to validate agains (jsonschema grammar)</p>
+<p>Only exceptions are returned if any problem</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.opentea_clean_data">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">opentea_clean_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nobj</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.opentea_clean_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if data is opentea proof</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.opentea_resolve_existif">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">opentea_resolve_existif</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.opentea_resolve_existif" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate existif dependencies.</p>
+<p>if an item existence depends on the value of one other item</p>
+<p>data : a nested dict to validate
+schema : the schema to validate against (jsonschema grammar)</p>
+<p>data_out : a nested dict to synchronize
+data with require updated</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.opentea_resolve_require">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">opentea_resolve_require</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">schema</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.opentea_resolve_require" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate require dependencies.</p>
+<p>if  children of an item depends of the value of one other item.
+-tgt- is the node to update
+-src- is the information used to update</p>
+<p>data : a nested dict to synchronize
+schema : the schema to validate against (jsonschema grammar)</p>
+<p>data_out : a nested dict to synchronize
+data with require updated</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.rec_validate_opentea_data">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">rec_validate_opentea_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nobj</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.rec_validate_opentea_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive validation for opeatea structured dict</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.rec_validate_schema">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">rec_validate_schema</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.rec_validate_schema" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate if schema is compatible with opetea structure.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.validate_array">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">validate_array</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.validate_array" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate an opentea multiple structure.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.validate_oneof">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">validate_oneof</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.validate_oneof" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate an opentea multiple structure.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="opentea.noob.validation.validate_opentea_schema">
+<code class="sig-prename descclassname">opentea.noob.validation.</code><code class="sig-name descname">validate_opentea_schema</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">schema</span></em><span class="sig-paren">)</span><a class="headerlink" href="#opentea.noob.validation.validate_opentea_schema" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if schema is OpenTEA-proof.</p>
+<ul class="simple">
+<li><p>named items in arrays of dicts,</p></li>
+<li><p>required optin in xors</p></li>
+<li><p>existif and require defined</p></li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="opentea.tools.html" class="btn btn-neutral float-right" title="opentea.tools package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="opentea.gui_forms.html" class="btn btn-neutral float-left" title="opentea.gui_forms package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2018, Team COOP
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
