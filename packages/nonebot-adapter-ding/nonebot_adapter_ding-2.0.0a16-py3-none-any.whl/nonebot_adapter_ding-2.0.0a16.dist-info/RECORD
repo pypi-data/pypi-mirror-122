@@ -1,0 +1,10 @@
+nonebot/adapters/ding/__init__.py,sha256=nN2dDYhQ7h_aIhO1zta39JCBcROF-OAlq3oTTeCsQhI,831
+nonebot/adapters/ding/bot.py,sha256=oO5Djvwo2RGQy_Zz0uxzk88eDM3xHwDEw2Atmz4k9g4,8892
+nonebot/adapters/ding/config.py,sha256=iBaFFc5MEmpPBDmXYHFZijcxI_PwDOQIyCuSssAZ3IM,526
+nonebot/adapters/ding/event.py,sha256=9DXR8JqEz6Ciis_ayw_X4pz4ENBxABzna1Eltyzxk6E,3932
+nonebot/adapters/ding/exception.py,sha256=D6LO-XR2kNFmbJzslcKrHuti6GSZDUlaPNJ0Rumi85k,1816
+nonebot/adapters/ding/message.py,sha256=HUgHSDsADzS52fSuW8swKkGQYgkUUXFmVcYc9unEIz0,6337
+nonebot/adapters/ding/utils.py,sha256=Z0sSJVKrkwbp1YvEkDis85N_GQqFkeS0hgBOHBvzrT8,499
+nonebot_adapter_ding-2.0.0a16.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+nonebot_adapter_ding-2.0.0a16.dist-info/METADATA,sha256=z2Ek98OajTczdWZmx8h_KRHQd4gYqPan8twPlODfFWE,1185
+nonebot_adapter_ding-2.0.0a16.dist-info/RECORD,,
