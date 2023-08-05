@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+MakeSingular/PluralToSingular.py
+MakeSingular/__init__.py
+MakeSingular/stopwords.txt
+MakeSingular.egg-info/PKG-INFO
+MakeSingular.egg-info/SOURCES.txt
+MakeSingular.egg-info/dependency_links.txt
+MakeSingular.egg-info/top_level.txt

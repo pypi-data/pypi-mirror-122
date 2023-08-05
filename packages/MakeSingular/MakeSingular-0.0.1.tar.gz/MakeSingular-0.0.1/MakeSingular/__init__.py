@@ -1,0 +1,1 @@
+from MakeSingular import PluralToSingular

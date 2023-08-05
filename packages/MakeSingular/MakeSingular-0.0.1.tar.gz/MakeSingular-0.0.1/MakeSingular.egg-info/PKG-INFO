@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: MakeSingular
+Version: 0.0.1
+Summary: Converting Plural word to Singular
+Home-page: https://github.com/arjit3004/MakeSingular
+Author: Arjit Yadav
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MakeSingular
+
+Convert Plural To Singular
+
+## Instruction
+
+1. Install:
+
+```
+pip install MakeSingular
+```
+
+2. Convert Plural word to Singular
+
+```python
+from MakeSingular import PluralToSingular
+```
+
+# Call PluralToSingular
+
+```
+PluralToSingular.convert('apples')
+```
+
