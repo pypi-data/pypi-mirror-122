@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: namen
+Version: 0.3.1
+Summary: 
+Author: Dennis van Bohemen
+Author-email: Dennis.Van.Bohemen@profi4cloud.nl.nl
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
