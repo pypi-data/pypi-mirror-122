@@ -1,0 +1,3 @@
+[console_scripts]
+reconchess-tools = reconchess_tools.cli.main:cli
+
