@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ifb8/__init__.py
+ifb8/utilities.py
+ifb_wrapper_8.egg-info/PKG-INFO
+ifb_wrapper_8.egg-info/SOURCES.txt
+ifb_wrapper_8.egg-info/dependency_links.txt
+ifb_wrapper_8.egg-info/not-zip-safe
+ifb_wrapper_8.egg-info/requires.txt
+ifb_wrapper_8.egg-info/top_level.txt
