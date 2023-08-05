@@ -1,0 +1,10 @@
+transcv/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+transcv/_nbdev.py,sha256=x_WsVYbhwswysNpzGx9qZlOF482k7mTUheyZJgzE8gc,580
+transcv/detr.py,sha256=D06Z7fIF4r63liaRZw-MwkeIdbADPLOaFtNINetC46k,1501
+transcv/visrectrans.py,sha256=zrrsd2t3FNGTMB9BpUuReAUYsL7KUl-p9RIZmzSFCZQ,6662
+transcv-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+transcv-0.0.3.dist-info/METADATA,sha256=SXipYac9jU5snhVw8556_wp37UJ6Ak28bm5sZQEzYvI,6866
+transcv-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+transcv-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+transcv-0.0.3.dist-info/top_level.txt,sha256=r4ny36wjsDESHv4eoyAU3oo6STH_IFYXva9ZXFGHKGM,8
+transcv-0.0.3.dist-info/RECORD,,
