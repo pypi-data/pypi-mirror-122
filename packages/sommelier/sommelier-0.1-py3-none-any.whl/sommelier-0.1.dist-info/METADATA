@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sommelier
+Version: 0.1
+Summary: Testing wrapper of Behave library
+Home-page: https://github.com/Cobalt0s/sommelier
+Author: Constantin Koval
+Author-email: constantin.y.koval@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: behave (==1.2.6)
+Requires-Dist: confluent-kafka (==1.7.0)
+Requires-Dist: requests (==2.24.0)
+
+
+# TODO
+
+
