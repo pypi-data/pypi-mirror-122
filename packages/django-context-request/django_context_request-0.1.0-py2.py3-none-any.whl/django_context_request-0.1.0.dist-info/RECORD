@@ -1,0 +1,11 @@
+django_context_request/__init__.py,sha256=AuGh6ghR1u3jF7DTzEzZA5a5kzDGHCX5QQ5jzvSE7uA,80
+django_context_request/__version__.py,sha256=Pru0BlFBASFCFo7McHdohtKkUtgMPDwbGfyUZlE2_Vw,21
+django_context_request/exceptions.py,sha256=KgNcEqlU7BMQVl_Clou_HZo3XHJ3BoAJ3vHApP4ENmM,272
+django_context_request/globals.py,sha256=xbZDJ-7MAxS9o60PxDvlmcaYF_pRz5vFI8EZFYk_qNU,278
+django_context_request/middleware.py,sha256=2HqwsTxZN-LrlWC2-DEDYacz4sZLkWeg7M-LGvZWxmg,414
+django_context_request/request_context.py,sha256=9K0UQxFpuqFh5l3hyW8_Zs6DeF7dQ9c-APSC9klPQwo,2521
+django_context_request-0.1.0.dist-info/LICENSE,sha256=wo52DK-uWAF0WBpM-H1eTYPZsZ-wF7HFTGuaaKp3ic0,1072
+django_context_request-0.1.0.dist-info/METADATA,sha256=qad2exlEkgjRpheH68UpoA8fKCV4nrx2I_tGLWiHVrY,2009
+django_context_request-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_context_request-0.1.0.dist-info/top_level.txt,sha256=2pZuRYJ2Jx0OOhnO4Kp3nhmvo_xBRFPkxA--8-vr4Gw,23
+django_context_request-0.1.0.dist-info/RECORD,,
