@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: fuckjpeg
+Version: 0.0.1
+Summary: Utility functions for fuckjpeg 
+Keywords: rename,filename,images,image,jpeg,jpg
+Author-email: James Hodgkinson <james@terminaloutcomes.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click >=8.0.1
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: Home, https://github.com/yaleman/fuckjpeg
+Provides-Extra: dev
+
+# fuckjpeg
+
+## Development
+
+Using [flit](https://flit.readthedocs.io/en/latest/) for this one, seems neat.
+
+```
+virtualenv venv
+source venv/bin/activate
+python3 -m pip install --upgrade pip flit
+flit install --deps develop
+flit build
+```
+
+## Testing
+
+```
+mypy fuckjpeg
+pytest fuckjpeg
+```
