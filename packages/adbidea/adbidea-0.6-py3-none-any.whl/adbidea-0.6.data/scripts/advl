@@ -1,0 +1,34 @@
+#!/bin/bash
+
+select=0
+if [[ $1 == "-s" ]];  then
+	select=1
+fi
+
+output=$(adb devices)
+
+devices=(${output/"List of devices attached"/""})
+
+devicesLength=${#devices[@]}
+
+final=()
+
+count=0
+
+for i in ${devices[@]}; do
+  if [[ $i != "device" ]]; then
+#    echo "device == $i"
+    final+=" $i"
+  fi
+done
+
+if [[ $select == "1" ]]; then
+	echo ${final[@]}
+	echo ""
+	read -p "Enter device number: " device
+	echo ""
+	echo ${final[$device]}
+	exit 0
+else
+	echo ${final[@]}
+fi
