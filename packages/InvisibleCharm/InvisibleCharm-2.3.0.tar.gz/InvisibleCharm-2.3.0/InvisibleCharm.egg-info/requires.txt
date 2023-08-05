@@ -1,0 +1,5 @@
+log21
+Pillow
+pycryptodome
+importlib_resources
+python-magic
