@@ -1,0 +1,18 @@
+[package]
+name = "tradis"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "tradis"
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.14.1"
+
+[dependencies.pyo3]
+version = "0.14.5"
+features = ["extension-module"]
+
+[package.metadata.maturin]
+requires-dist = ["numpy>1.14"]
