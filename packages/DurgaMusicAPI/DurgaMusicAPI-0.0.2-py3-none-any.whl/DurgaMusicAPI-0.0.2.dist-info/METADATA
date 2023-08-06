@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: DurgaMusicAPI
+Version: 0.0.2
+Summary: All music of maa durga.
+Home-page: UNKNOWN
+Author: Technical Earth
+Author-email: technicalearth0@gmail.com
+License: UNKNOWN
+Keywords: python,GUI,app,tkinter,PyQt5,PYPI
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: playsound
+
+# PyAppBuilder
+
+Developed by Roop Majumder from Technical Earth (c) 2020
+
+## Examples of How To Use
+
+List all songs
+
+```python
+from DurgaMusicAPI import list_songs
+
+print(list_songs())
+```
+
+output
+
+```cmd
+{'Name: Jatajutta Samayuktam, id: jatajutta', 'Name: Bajlo Tomar Alor Benu, id: bajlo-tomar', 'Name: Yaa Chandi, id: yaa-chandi', 'Name: Dhak Baja, id: dhak-baja', 'Name: Aigiri Nandini, id: aigiri', 'Name: Aaji Bangladesher Hridoy Hote, id: bangladesher-hridoy', 'Name: Dugga Elo, id: dugga-elo'}
+```
+
+
+Choose a song with playing
+
+```cmd
+pip install playsound
+```
+
+```python
+from DurgaMusicAPI import song
+from playsound import playsound
+
+# song(songid)
+# you don't need to install playsound it will be installed automatically.
+
+playsound(song("song you interested in."))
+```
+
+##### There are more to explore stay around.
+
+##### more things coming soon.
+
