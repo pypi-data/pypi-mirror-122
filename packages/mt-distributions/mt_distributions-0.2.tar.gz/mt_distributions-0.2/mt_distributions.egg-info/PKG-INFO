@@ -1,0 +1,30 @@
+Metadata-Version: 1.0
+Name: mt-distributions
+Version: 0.2
+Summary: Gaussian and Binomial distributions, made for the Udacity Machine Learning Foundations course
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # mt-distributions package
+        
+        - Binomial distribution class for calculating and visualizing a Binomial distribution
+        - Gaussian distribution class for calculating and visualizing a Gaussian distribution.
+        
+        # Files
+        
+        - Binomialdistribution.py
+        - Gaussiandistribution.py
+        - Generaldistribution.py
+        
+        # Installation
+        
+        ## commands to download from the pypi test repository
+        pip install --index-url https://test.pypi.org/simple/mt-distributions
+        
+        ## command to upload to the pypi repository
+        pip install mt-distributions
+        
+        
+Platform: UNKNOWN
