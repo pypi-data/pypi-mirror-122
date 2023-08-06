@@ -1,0 +1,10 @@
+tidyhome/__init__.py,sha256=TBrvTCYb5ZhOHR6QxtQP3TChAYDoMqcvvxT6hPnTzao,1755
+tidyhome/lookup.py,sha256=YvhciYFlFSj9GYxI9y2RbXV7r8nA6youBB1kEtbPWqo,1299
+tidyhome/tidyhome.py,sha256=tdyOhUwx61OKhTAIhIA9RRe1IgdM28D3OMGIkHE5I2I,14389
+tidyhome/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidyhome/tests/test_tidyhome.py,sha256=AwY55F51_2sLqVICYL5dCUABS_u7N5bi_o-uofDzZjU,5360
+tidyhome-1.0.1.dist-info/LICENSE,sha256=uIS0HgUbFxx5ugtVFGZ9rpt56EjLak9wIxcRrhCINwY,1082
+tidyhome-1.0.1.dist-info/METADATA,sha256=Ko-VFacvCB3az9muTbhTOJ9lTvqi0cfks1IZHK30SAw,3262
+tidyhome-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tidyhome-1.0.1.dist-info/top_level.txt,sha256=ktbCfoGDkJGkrS6hYpT0wYPqBsUP35Sgfmv-FHhME4w,9
+tidyhome-1.0.1.dist-info/RECORD,,
