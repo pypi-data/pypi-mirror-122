@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: classic-aspects
+Version: 0.0.1
+Summary: Provides convenient utils for late decorating, based on idea of aspects-oriented programming
+Home-page: https://github.com/variasov/classic_aspects
+Author: Sergei Variasov
+Author-email: variasov@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/variasov/classic_aspects/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest (~=6.2.5) ; extra == 'dev'
+Requires-Dist: pytest-cov (~=2.12.1) ; extra == 'dev'
+Requires-Dist: twine (~=3.4.2) ; extra == 'dev'
+Requires-Dist: build (~=0.7.0) ; extra == 'dev'
+
+# Classic Aspects
+
+This package provides convenient utils for late decorating, based on idea of
+aspects-oriented programming. Part of project "Classic".
+
+Usage:
+
+```python
+
+from classic.aspects import PointCut
+
+points = PointCut()
+
+
+@points.join_point
+def add_numbers(left, right):
+    return left + right
+
+
+assert add_numbers(1, 2) == 3  # Returns 3
+
+
+def some_decorator(fn):
+    
+    def wrapper(*args, **kwargs):
+        print('Function called!')
+        return fn(*args, **kwargs)
+    
+    return wrapper
+
+
+add_numbers.join(some_decorator)
+
+assert add_numbers(1, 2) == 3  # Returns 3 and print "Function called!"
+```
+
+
+
