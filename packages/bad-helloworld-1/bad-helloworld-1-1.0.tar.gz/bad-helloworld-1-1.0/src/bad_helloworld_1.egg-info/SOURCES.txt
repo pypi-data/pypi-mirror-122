@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/helloworld.py
+src/bad_helloworld_1.egg-info/PKG-INFO
+src/bad_helloworld_1.egg-info/SOURCES.txt
+src/bad_helloworld_1.egg-info/dependency_links.txt
+src/bad_helloworld_1.egg-info/requires.txt
+src/bad_helloworld_1.egg-info/top_level.txt
