@@ -1,0 +1,9 @@
+plugin/__init__.py,sha256=rMOMCVPAZTaPMiGrjH9bG7nqvHjz4EfYCCaGldVM7Dw,234
+plugin/emoji.py,sha256=HE7FEranDG4FOwtVoyu4qvc0FOj_SOEdSNmOYOwPVnM,2631
+pytest_emoji_output-0.1.10.dist-info/AUTHORS.md,sha256=aZcRdAJQlqzhi_W3bZtnHwSzDEmU0ydjadlnRVqo71E,124
+pytest_emoji_output-0.1.10.dist-info/LICENSE.md,sha256=LHQMOnYIncqnY2dRKFvcA5Yk7irjXEJSJXYyxp7KqIM,1084
+pytest_emoji_output-0.1.10.dist-info/METADATA,sha256=3CPMFb6lzL3Rs7vU3yfYX9BSQGvXGnevCPkndEz8W6U,4941
+pytest_emoji_output-0.1.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_emoji_output-0.1.10.dist-info/entry_points.txt,sha256=Uv333C_gcyP4blY_CXxRwkXjn-j7AyGfiJfLlUmhsnc,33
+pytest_emoji_output-0.1.10.dist-info/top_level.txt,sha256=Io_dflkI6h0vZSGOzZxx4e76CDTSANVfu4v4tVY6zsA,7
+pytest_emoji_output-0.1.10.dist-info/RECORD,,
