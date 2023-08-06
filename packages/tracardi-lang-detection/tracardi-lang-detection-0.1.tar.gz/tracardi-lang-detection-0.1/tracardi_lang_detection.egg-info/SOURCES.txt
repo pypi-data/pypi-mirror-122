@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+tracardi_lang_detection/plugin.py
+tracardi_lang_detection.egg-info/PKG-INFO
+tracardi_lang_detection.egg-info/SOURCES.txt
+tracardi_lang_detection.egg-info/dependency_links.txt
+tracardi_lang_detection.egg-info/requires.txt
+tracardi_lang_detection.egg-info/top_level.txt
+tracardi_lang_detection/model/configuration.py
+tracardi_lang_detection/model/__pycache__/configuration.cpython-310.pyc

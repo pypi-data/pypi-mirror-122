@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tracardi-lang-detection
+Version: 0.1
+Summary: This plugin detects language from given string.
+Home-page: UNKNOWN
+Author: Bartlomiej Komendarczuk
+Author-email: bkomendarczuk@gmail.com
+License: UNKNOWN
+Keywords: tracardi,plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Plugin documentation
+
+This plugin detects language from given string.
+
+# Requirements
+
+If you want to use this plugin, you need to create account on https://www.meaningcloud.com and get a access key.
+
