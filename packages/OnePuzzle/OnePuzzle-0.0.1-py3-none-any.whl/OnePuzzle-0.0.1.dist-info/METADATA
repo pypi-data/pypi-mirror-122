@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: OnePuzzle
+Version: 0.0.1
+Summary: OnePuzzle: solve puzzle "A Puzzle A Day", get one or all result, show in graphical PyQt5
+Home-page: https://github.com/windard/OnePuzzle
+Author: Windard Yang
+Author-email: windard@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5 (==5.15.4)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: pytest (==6.2.5)
+
+# A Puzzle A Day
+
+一天一个谜，一个谜一天
+
+## install
+
+```
+pip install OnePuzzle
+```
+
+## usage
+
+```
+$ one_puzzle -h
+Usage: one_puzzle [OPTIONS] MONTH DAY
+
+Options:
+  -h, --help           Show this message and exit.
+  -d, --debug BOOLEAN  show debug message.
+  -a, --all BOOLEAN    get all result.
+```
+
+
