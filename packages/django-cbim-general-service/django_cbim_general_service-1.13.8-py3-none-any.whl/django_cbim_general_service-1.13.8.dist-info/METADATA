@@ -1,0 +1,225 @@
+Metadata-Version: 2.1
+Name: django-cbim-general-service
+Version: 1.13.8
+Summary: Django app that every service implemented using DJango in CBIM should use
+Home-page: http://www.cbim.it
+Author: Massimo Bono
+Author-email: massimobono1@gmail.com
+License: commercial
+Keywords: django
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+License-File: Makefile
+License-File: README.md
+License-File: deploy-major.sh
+License-File: deploy-minor.sh
+License-File: deploy-patch.sh
+License-File: make.bat
+License-File: requirements.txt
+License-File: setup.py
+Requires-Dist: aniso8601 (>=8.1.1)
+Requires-Dist: arrow (>=1.1.1)
+Requires-Dist: asgiref (>=3.4.1)
+Requires-Dist: certifi (>=2021.5.30)
+Requires-Dist: chardet (>=4.0.0)
+Requires-Dist: charset-normalizer (>=2.0.4)
+Requires-Dist: datasize (>=1.0.0)
+Requires-Dist: decorator (>=5.0.9)
+Requires-Dist: Django (>=3.2.7)
+Requires-Dist: django-appconf (>=1.0.4)
+Requires-Dist: django-currentuser (>=0.5.3)
+Requires-Dist: django-environ (>=0.5.0)
+Requires-Dist: django-filter (>=2.4.0)
+Requires-Dist: django-graphql-jwt (>=0.3.4)
+Requires-Dist: django-koldar-utils (>=2.57.0)
+Requires-Dist: django-polymorphic (>=3.0.0)
+Requires-Dist: djangorestframework (>=3.12.4)
+Requires-Dist: docutils (>=0.17.1)
+Requires-Dist: gitdb (>=4.0.7)
+Requires-Dist: GitPython (>=3.1.18)
+Requires-Dist: graphene (>=3.0b7)
+Requires-Dist: graphene-django (>=3.0.0b7)
+Requires-Dist: graphene-django-extras (>=0.5.2)
+Requires-Dist: graphql-core (>=3.1.6)
+Requires-Dist: graphql-relay (>=3.1.0)
+Requires-Dist: hurry.filesize (>=0.9)
+Requires-Dist: idna (>=3.2)
+Requires-Dist: inflect (>=5.3.0)
+Requires-Dist: inflection (>=0.5.1)
+Requires-Dist: jmespath (>=0.10.0)
+Requires-Dist: m2r (>=0.2.1)
+Requires-Dist: mistune (>=0.8.4)
+Requires-Dist: networkx (>=2.6.2)
+Requires-Dist: Pillow (>=8.3.1)
+Requires-Dist: promise (>=2.3)
+Requires-Dist: pydot (>=1.4.2)
+Requires-Dist: PyJWT (>=2.1.0)
+Requires-Dist: pyparsing (>=2.4.7)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pytz (>=2021.1)
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: Rx (>=3.2.0)
+Requires-Dist: semantic-version (>=2.8.5)
+Requires-Dist: singledispatch (>=3.7.0)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: smmap (>=4.0.0)
+Requires-Dist: sqlparse (>=0.4.1)
+Requires-Dist: stringcase (>=1.2.0)
+Requires-Dist: text-unidecode (>=1.3)
+Requires-Dist: urllib3 (>=1.26.6)
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+
+
+Introduction
+============
+
+This package represents the common setup a generic service app developped by CBIM should
+specifies. This is a comprehensive list of what it does
+
+Database
+--------
+
+
+* remove user table
+* remove group table
+* remove user-group table
+* create models for the relationship user-permission and group-permission in order to be first entities:
+   this needs to be done since authentication in CBIM is handled by an external service and we wish not to
+   store such information in each service database;
+
+Backends
+--------
+
+We provide ``PermissionCacherAuthenticationBackend``\ , which is  backend that requires an ``access_token`` in input
+for authentication. The authentication scheme is using a JWT token, hence ``graphene-jwt`` is used.
+The authentication backends assumes that ``users`` and ``groups`` table are not present in the local database,
+but stored in another service. So in the local database there are only the ``user_permission`` and ``group_permissions``
+tables. We use the ``user_id`` inside the JWT decoded token to fetch permissions. The permissions are then stored
+in the server cache to ease the access. Permissions are retrievable as usual from ``user.get_all_permissions`` or checkable
+via ``user.has_perm``. 
+
+Pacakges that should not use this app
+=====================================
+
+Here there is the list of exceptions:
+
+
+* user-auth-service: this service provides the authentication and does not needs the models and the migrations from this package 
+
+Installation
+============
+
+Just pip install it:
+
+.. code-block::
+
+   pip install django-cbim-general-service
+
+Configuration
+=============
+
+First you need to add the app in INSTALLED_APPS.: 
+
+.. code-block::
+
+   INSTALLED_APPS += "django_cbim_general_service"
+
+If django_app_graphql is present, be sure to add this after the app. Furthermore, you need to add this app
+after the "auth" one.
+
+Then you need to configure graphql:
+
+.. code-block::
+
+   INSTALLED_APPS = [
+       # graphql
+       'graphene_django',
+       'django_filters',
+       # make sure the django_app_graphql is the last app you add!
+       'django_app_graphql',
+   ]
+
+Be sure to add them at the end of the ``INSTALLED_APPS``\ , otherwise it won't work.
+You also need to register a single authentication backend.
+
+.. code-block::
+
+   AUTHENTICATION_BACKENDS = [
+       "PermissionCacherAuthenticationBackend",
+   ]
+
+This is the only backend you will need.
+The project uses a cache to store user,roles and permissions in runtime.
+You need to add one called ``users``\ :
+
+.. code-block::
+
+   CACHES = {
+       'users': {
+           'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+           'LOCATION': 'users',
+       }
+   }
+
+Finally you need to configure ``graphene-jwt`` and ``django-app-graphql`` (if you are using it):
+
+.. code-block::
+
+   GRAPHENE = {
+       "SCHEMA": "django_app_graphql.graphene.schema.schema",
+       'SCHEMA_OUTPUT': 'graphqls-schema.json',
+       'SCHEMA_INDENT': 2,
+       'MIDDLEWARE': [
+           "graphql_jwt.middleware.JSONWebTokenMiddleware",
+           "django_app_graphql.middleware.GraphQLStackTraceInErrorMiddleware",
+       ],
+   }
+
+   GRAPHENE_DJANGO_EXTRAS = {
+       'DEFAULT_PAGINATION_CLASS': 'graphene_django_extras.paginations.LimitOffsetGraphqlPagination',
+       'DEFAULT_PAGE_SIZE': 20,
+       'MAX_PAGE_SIZE': 50,
+       'CACHE_ACTIVE': True,
+       'CACHE_TIMEOUT': 300  # seconds
+   }
+
+   # see https://django-graphql-jwt.domake.io/en/latest/refresh_token.html
+   GRAPHQL_JWT = {
+       # This configures graphqls-jwt to add "token" input at each request to be authenticated
+       'JWT_ALLOW_ARGUMENT': True,
+       'JWT_ARGUMENT_NAME': "token",
+       'JWT_VERIFY_EXPIRATION': True,
+       'JWT_EXPIRATION_DELTA': timedelta(days=1),
+       'JWT_ALGORITHM': "HS256",
+       'JWT_REFRESH_EXPIRATION_DELTA': timedelta(days=7),
+       'JWT_AUTH_HEADER_PREFIX': "Bearer",
+       # VERY IMPORTANT TO MAKE EVERYTHING WORK!
+       'JWT_DECODE_HANDLER': 'django_cbim_general_service.utils.jwt_decoder_handler',
+       'JWT_PAYLOAD_GET_USERNAME_HANDLER': 'django_cbim_general_service.utils.get_jwt_payload_get_username',
+       'JWT_GET_USER_BY_NATURAL_KEY_HANDLER': 'django_cbim_general_service.utils.get_user_by_natural_key_handler',
+   }
+
+   DJANGO_APP_GRAPHQL = {
+       "BACKEND_TYPE": "graphene",
+       "EXPOSE_GRAPHIQL": True,
+       "GRAPHQL_SERVER_URL": "",
+       "ENABLE_GRAPHQL_FEDERATION": True,
+       "SAVE_GRAPHQL_SCHEMA": os.path.join("output", "schema.graphql"),
+       "ADD_DUMMY_QUERIES_IF_ABSENT": True,
+       "ADD_DUMMY_MUTATIONS_IF_ABSENT": True,
+   }
+
+Documentation
+=============
+
+
