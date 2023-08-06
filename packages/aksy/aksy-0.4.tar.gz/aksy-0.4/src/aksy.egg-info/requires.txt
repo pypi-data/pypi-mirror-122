@@ -1,0 +1,11 @@
+pyftpdlib==0.3
+fuse-python>=0.2pre3
+
+[FUSE-PYTHON]
+fuse-python>=0.2pre3
+
+[PYFTPDLIB]
+pyftpdlib==0.3
+
+[PYGTK]
+pygtk

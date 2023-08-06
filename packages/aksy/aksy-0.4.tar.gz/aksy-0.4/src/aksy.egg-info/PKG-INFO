@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aksy
+Version: 0.4
+Summary: Control S5000/S6000, Z4/Z8 and MPC4000 Akai sampler models with System Exclusive over USB
+Home-page: https://github.com/watzo/aksy/projects/aksy
+Author: Walco van Loon
+Author-email: walco+aksy@pitchdark.org
+License: GPL
+Download-URL: https://github.com/watzo/aksy/downloads
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Hardware
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Provides-Extra: FUSE-PYTHON
+Provides-Extra: PYGTK
+Provides-Extra: PYFTPDLIB

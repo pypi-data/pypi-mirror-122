@@ -1,0 +1,46 @@
+0. PREAMBLE
+
+This document is part of the Aksy source distribution. More information and
+installation instructions for binary distributions can be found at
+http://walco.n--tree.net/projects/aksy/wiki 
+
+1. DEPENDENCIES
+
+Aksy (core lib) has the following dependencies:
+
+* Python: version >= 2.4
+
+* libusb: libusb.sourceforge.net
+  (win32 port is available at libusb-win32.sourceforge.net)
+
+The extension has been tested with Python 2.4/2.5, libusb 0.1.8, libusb-0.1.10
+and libusb-0.1.12 on Windows and Ubuntu Linux. Note: on Windows (XP) the
+specific libusb version 0.1.12.1 didn't find the sampler on my system. Later
+(snapshot) versions are ok.
+
+optional dependencies
+---------------------
+
+Ak.py (by Joseph Misra) needs a recent GTK and its python bindings.
+These are all available in modern Linux distributions, for Windows it's a bit
+more manual installation work.
+
+  * GTK+ runtime 2.10.11 from http://gimp-win.sourceforge.net/
+  * PyGTK (PyCairo/PyGObject/PyGTK) from www.pygtk.org
+  * libglade 2.4.0 (available at http://gladewin32.sourceforge.net/)
+
+AksyFS:
+  * fuse-python, version 0.2pre3 or higher (available at http://fuse.sf.net)
+
+2. INSTALLATION
+
+To install the aksy python modules and the aksyxusb extension, run the
+following commands in a terminal window: 
+
+python setup.py build
+python setup.py install (as root)
+
+To compile with Mingw 5.3.1 on Windows using Python 2.5 at the command prompt:
+
+python setup.py build -c mingw32
+python setup.py install --skip-build

@@ -1,0 +1,10 @@
+[console_scripts]
+aksy-fs = aksyfs.aksyfuse:main [fuse-python]
+aksy-ftpd = aksyfs.ftpd:main [pyftpdlib]
+aksy-get = aksy.console.get:main
+aksy-put = aksy.console.put:main
+aksy-ui = aksui.main:main [pygtk]
+
+[gui_scripts]
+aksy-ui = aksui.main:main
+
