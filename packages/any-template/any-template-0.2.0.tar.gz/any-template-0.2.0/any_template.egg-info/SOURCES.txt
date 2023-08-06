@@ -1,0 +1,10 @@
+LICENSE
+README.md
+any_template.py
+setup.cfg
+setup.py
+any_template.egg-info/PKG-INFO
+any_template.egg-info/SOURCES.txt
+any_template.egg-info/dependency_links.txt
+any_template.egg-info/entry_points.txt
+any_template.egg-info/top_level.txt
