@@ -1,0 +1,3 @@
+[lektor.plugins]
+gemini-capsule = lektor_gemini_capsule:GeminiCapsulePlugin
+

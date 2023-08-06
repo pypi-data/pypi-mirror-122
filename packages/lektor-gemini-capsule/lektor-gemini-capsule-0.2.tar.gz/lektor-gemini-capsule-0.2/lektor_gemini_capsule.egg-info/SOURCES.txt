@@ -1,0 +1,10 @@
+LICENSE
+README.md
+lektor_gemini_capsule.py
+setup.cfg
+setup.py
+lektor_gemini_capsule.egg-info/PKG-INFO
+lektor_gemini_capsule.egg-info/SOURCES.txt
+lektor_gemini_capsule.egg-info/dependency_links.txt
+lektor_gemini_capsule.egg-info/entry_points.txt
+lektor_gemini_capsule.egg-info/top_level.txt
