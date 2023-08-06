@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dsrf_finder/__init__.py
+src/dsrf_finder/dsrf_finder.py
+src/dsrf_finder.egg-info/PKG-INFO
+src/dsrf_finder.egg-info/SOURCES.txt
+src/dsrf_finder.egg-info/dependency_links.txt
+src/dsrf_finder.egg-info/requires.txt
+src/dsrf_finder.egg-info/top_level.txt
