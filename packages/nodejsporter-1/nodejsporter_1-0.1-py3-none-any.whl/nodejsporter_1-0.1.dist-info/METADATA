@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nodejsporter-1
+Version: 0.1
+Summary: A rpm packager bot for nodejs modules from npmjs.org
+Home-page: https://gitee.com/openeuelr/nodejsporter
+Author: sunchendong
+Author-email: sunchend@outlook.com
+License: Mulan PSL v2
+Platform: UNKNOWN
+License-File: LICENSE
+
+A rpm packager bot for nodejs modules from npmjs.org.
+
+Now it is under developing, any suggestions is appreciated.
+
+
