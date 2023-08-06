@@ -1,0 +1,9 @@
+cloudcomponents/cdk_s3_antivirus/__init__.py,sha256=aDK_kHRuZ_4Y-8MigQbE5G7AnHD1Jwm0KILmcvDzGD0,15638
+cloudcomponents/cdk_s3_antivirus/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_s3_antivirus/_jsii/__init__.py,sha256=xQcZ2TTPChxmWeI0VD5Ga_xMaF8SY4rkbNabm08MGSQ,703
+cloudcomponents/cdk_s3_antivirus/_jsii/cdk-s3-antivirus@1.7.0.jsii.tgz,sha256=kPkWhJaV-xaxQE8B5gus-txOaaWoECVJn4rMULtkWkA,11052324
+cloudcomponents.cdk_s3_antivirus-1.7.0.dist-info/LICENSE,sha256=DC5mwzjdvc14vNIkGbMDFyOOJTkxI2b_1OtpeNA0A0A,1072
+cloudcomponents.cdk_s3_antivirus-1.7.0.dist-info/METADATA,sha256=uVu6BgOMG_a6wpEUF9b3zTb9kV04bZAAzu23p8YKpX4,4073
+cloudcomponents.cdk_s3_antivirus-1.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cloudcomponents.cdk_s3_antivirus-1.7.0.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_s3_antivirus-1.7.0.dist-info/RECORD,,
