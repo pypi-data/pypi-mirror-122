@@ -1,0 +1,16 @@
+flask_milligram/__init__.py,sha256=N38ErMsm8KgrD_hfGUcs57Ev2rOhkDaPJefGrGwDqKE,2599
+flask_milligram/static/css/milligram-extensions.css,sha256=48Rba4tIiKOS9gh5n39zXYjTw-cxJ3OKlttaMbM1eKo,3002
+flask_milligram/static/css/milligram-extensions.min.css,sha256=lwTmI7X-dMffu4yQ2I-KRABrCnJD-X922bOWjCIFOZo,2035
+flask_milligram/static/css/milligram.css,sha256=ukLD9sDK8GZm7ODXLF47m8wVWm35ZVEx6Oq3nW1v5VQ,11065
+flask_milligram/static/css/milligram.min.css,sha256=baSxKEISHdSAWiipPkWRuquIMjgNIR__a--CyhnQdIM,9014
+flask_milligram/static/css/normalize.css,sha256=WAgYcAck1C1_zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI,6138
+flask_milligram/static/css/normalize.min.css,sha256=l85OmPOjvil_SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU,1861
+flask_milligram/static/js/milligram-extensions.js,sha256=iV8gTY4GJXhKFtVjmRm5zM4CvAewbQISz5Lr3kcB0Es,421
+flask_milligram/templates/milligram/nav.html,sha256=PLBlHpJJB2nkh0e6MOxT1nbSQZfmoDj4Z7ldu1LuGzs,1611
+flask_milligram/templates/milligram/pagination.html,sha256=pFaf1g9XyCW6WY2rVQfAiEM-qQxy0XebKJ71ynGcEfI,2276
+flask_milligram/templates/milligram/utilities.html,sha256=r9nJQIHNFefzXoI70rGPatB9KeZXyvBzdFUiv4J9DsA,148
+Flask_Milligram-0.1.0.dist-info/LICENSE,sha256=Ac1tbJOcx4ZuCljDcUs_TnwJXaSm3wxSmpTqBxbFwDU,1288
+Flask_Milligram-0.1.0.dist-info/METADATA,sha256=AK8-4slK_ZcNvaLOWL3LlbDSZ7eZdVADJHvjE4cSko0,1404
+Flask_Milligram-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+Flask_Milligram-0.1.0.dist-info/top_level.txt,sha256=hLDCVVO75Vm4A7sN02kwPscfztRpfFt1IZvfx77s-tU,16
+Flask_Milligram-0.1.0.dist-info/RECORD,,
