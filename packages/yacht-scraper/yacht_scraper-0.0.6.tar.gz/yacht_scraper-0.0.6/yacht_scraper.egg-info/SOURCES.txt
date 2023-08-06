@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+yacht_scraper.egg-info/PKG-INFO
+yacht_scraper.egg-info/SOURCES.txt
+yacht_scraper.egg-info/dependency_links.txt
+yacht_scraper.egg-info/requires.txt
+yacht_scraper.egg-info/top_level.txt
+yachtscraper/__init__.py
+yachtscraper/__main__.py
+yachtscraper/rds_module.py
+yachtscraper/scraper_module.py
