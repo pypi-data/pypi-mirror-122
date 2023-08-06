@@ -1,0 +1,12 @@
+stactools/sentinel5p/__init__.py,sha256=DSvb9qrL5kXTPqZ5glPiGw85iTtaHngsepbymlFG5Ws,322
+stactools/sentinel5p/commands.py,sha256=nFakQNVGIbbxbybllZMUPGMdYemE2Pg6Bv0GtQlAu0I,941
+stactools/sentinel5p/constants.py,sha256=D016CWB99EnYUFvINdIP4bXWkBMqJp_dYPFiQgDZafk,3201
+stactools/sentinel5p/metadata_links.py,sha256=guNt36hPIJUi3xMuxURPLZ8wN_FhaiDy0mtL7OCAsfY,3163
+stactools/sentinel5p/product_metadata.py,sha256=EGGZur7l8HgPKJeDqv2vZSmBp7PM6e7n5wGlloxxDCY,43942
+stactools/sentinel5p/properties.py,sha256=QiM6BT_BW1u8b31FkL2Z0-mYt7zCwxRG7J7kEN10M_Q,3084
+stactools/sentinel5p/stac.py,sha256=2pUEiLKbFuAo6EZgeLU9wrQ4_OSR7dSYpgYTiiqcftw,1840
+stactools_sentinel5p-0.2.0.dist-info/LICENSE,sha256=FecrROKEyZovZHORKGUGa2B8k8b2EIPTyn9Y44AiHXw,660
+stactools_sentinel5p-0.2.0.dist-info/METADATA,sha256=wOOc7HZoGHebAGcHs6DQNl1jlCRlXi5E0Zl7GIXaxhg,3377
+stactools_sentinel5p-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stactools_sentinel5p-0.2.0.dist-info/top_level.txt,sha256=0eoUA-AbTfjFtxXr3W-vQdRyNmpGnA0wlTL3ppTPCG8,10
+stactools_sentinel5p-0.2.0.dist-info/RECORD,,
