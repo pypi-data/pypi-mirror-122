@@ -1,0 +1,2 @@
+krules-core==0.9.2
+pykube-ng==21.3.0
