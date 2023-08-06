@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_connect.py,sha256=IQMt_DhA7GKPI6aFYwfXD1TrZIhzBghg6-fset8nDXE,337
+tests/test_tls_connect.py,sha256=y2tCJUDKPcnbIhaCjcIHt0ACHy-gKA0xxLpieJSjVwE,542
+tests/test_unix_connect.py,sha256=9KgGWUecfx1iIbJWwyT2MinLUIAYQ6B2no1T8FMbwOY,356
+tests/test_zone.py,sha256=grhYkopGLgGoE8iZ2zGVIT0wm44epWqSjCFqoTjSyVM,985
+unbound_console/__init__.py,sha256=7FebPDRQCSITqXj5uypn_j0jOX-gE-JgVSOS5wUGT4I,55
+unbound_console/remotecontrol.py,sha256=dbAjb2eW5YqGSfPf2h9GCbLmMlDOriGoyBCQL1VKvcg,3571
+unbound_console-0.3.0.dist-info/LICENSE,sha256=XBHyIx1N2_ffyQwo_AjEalytAHWSGQpMkUxnvlJ20AM,1070
+unbound_console-0.3.0.dist-info/METADATA,sha256=cJy8CeEaPU4z-ymAq7eP6WgU-V2RRS5JC8LTD8afd10,3184
+unbound_console-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+unbound_console-0.3.0.dist-info/top_level.txt,sha256=gHT6aUEOMPj_bdYaW0JkryWXuGeCMsEcv0pKZZ6CGD0,22
+unbound_console-0.3.0.dist-info/RECORD,,
