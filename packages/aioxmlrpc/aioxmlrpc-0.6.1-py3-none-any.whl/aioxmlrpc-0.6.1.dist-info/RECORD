@@ -1,0 +1,8 @@
+aioxmlrpc/__init__.py,sha256=WGTuE5HfFAq79cJTlWCc2L4vFPZVUXb5hTCDTFisd6s,129
+aioxmlrpc/client.py,sha256=-SYapGj_6B_lYEozsuC7wRukroM03B-qSALrDz4rDys,4621
+aioxmlrpc/tests/__init__.py,sha256=8CPxw4VtLSloU--_Njfw_tl0qJx--iN8rqZEXFdBCXk,43
+aioxmlrpc/tests/test_client.py,sha256=fJ3MIXTZUosQFXDzW5dmDbDQFst5tFh4teWfIOPxSHw,2104
+aioxmlrpc-0.6.1.dist-info/LICENSE,sha256=zWFPWv9J3JZ6buSYTyTUXfxtiTMn15tLckdn_yiCgdA,1525
+aioxmlrpc-0.6.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+aioxmlrpc-0.6.1.dist-info/METADATA,sha256=EumbVrQJ87hZoGkLt21uEQ4xFvAVIY4a8nqu5vifulE,552
+aioxmlrpc-0.6.1.dist-info/RECORD,,
