@@ -1,0 +1,8 @@
+
+[dev]
+autopep8
+mkdocs
+mkdocs-material
+mkdocstrings
+pytest
+pytest-cov
