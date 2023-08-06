@@ -1,0 +1,11 @@
+yaqd_acton/VERSION,sha256=P75kSdiSZSHBSZi2FxHJCv0n1cf996kIgezAfptkhTc,10
+yaqd_acton/__init__.py,sha256=7UmyYQLUqB3uJKxHQGel9MUJD1DDqpVFg6kobPDLlEI,90
+yaqd_acton/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_acton/_acton_2150i.py,sha256=6NhBnKEVpjITvo1tYO0Oj4eMCweVSCloUYyh46KlSqw,1956
+yaqd_acton/acton-2150i.avpr,sha256=xYQyxXqfy_k5iHlnN5swLpdOLyx36TXrSvxv-7SFJTU,11425
+yaqd_acton/acton-2150i.toml,sha256=cOMcbADqlUJCaa4fp4FAu9imQSj0FCoI8wp1T3VfWjA,495
+yaqd_acton-2021.10.0.dist-info/entry_points.txt,sha256=ssyFlBaKVLKAPPBZ1loCJpNklmfiOXV6CPga8Ed3Obo,76
+yaqd_acton-2021.10.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_acton-2021.10.0.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+yaqd_acton-2021.10.0.dist-info/METADATA,sha256=Uat4ZUsmiQrLw3D5QE8_r-Sy0DZZwdy-C4IFnjwM53c,1606
+yaqd_acton-2021.10.0.dist-info/RECORD,,
