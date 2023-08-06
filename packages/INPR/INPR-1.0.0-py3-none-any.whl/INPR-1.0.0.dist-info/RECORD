@@ -1,0 +1,11 @@
+INPR.py,sha256=Mv0S9hBOQCKDafcTKa4r3chnSPXRpIeH-T-zMWGU-Co,1481
+INPR/__init__.py,sha256=bBAlr4rfhG6U8zLpeaGeIYribYBTr3xF7Raphk6fXxY,25
+INPR/get_details.py,sha256=SPpO7L1ROt2z8MkF1d38OlSf5BbGj3TEtIn1CVZRAFE,2350
+INPR/get_num_plate.py,sha256=K7If-ONqDF370tAHe2B8skC45Kl5kg0Z4nYnvtoVRc8,4592
+INPR/inpr.py,sha256=aL3etHWoxJNUfOWBAM2W_QOlPuMwpevn3UTCdP071B4,1518
+INPR/utils.py,sha256=MBHnhe_T4gm_ux8zLyQrIm8NIWnewRWCQGUYj25mtho,2884
+INPR-1.0.0.dist-info/LICENSE,sha256=EpFDBFcmktNad64UuhFDslLlwJcZocYRKntWwFlij0M,1087
+INPR-1.0.0.dist-info/METADATA,sha256=vYn6bZ2KYMR1Wtq6yq4OCj6S9N21ybtz9Hh04yVYT1M,3859
+INPR-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+INPR-1.0.0.dist-info/top_level.txt,sha256=mAHI6RT2iNrE_aWcV9YGn7Nbcn63JxEtm0AnSMryAmE,5
+INPR-1.0.0.dist-info/RECORD,,
