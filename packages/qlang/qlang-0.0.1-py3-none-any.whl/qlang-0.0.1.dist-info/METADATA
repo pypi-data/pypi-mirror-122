@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qlang
+Version: 0.0.1
+Summary: A concise, procedural programming language
+Home-page: https://github.com/nirvanasupermind/qlang
+Author: nirvanasupermind
+Author-email: nirvana.supermind@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+Requires-Dist: python (>=3.0.0)
+
+UNKNOWN
+
+
