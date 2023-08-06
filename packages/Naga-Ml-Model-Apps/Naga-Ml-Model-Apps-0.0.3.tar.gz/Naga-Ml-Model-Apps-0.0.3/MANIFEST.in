@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+include README.md
+recursive-include Deployment/static *
+recursive-include Deployment/templates *
+recursive-include docs *

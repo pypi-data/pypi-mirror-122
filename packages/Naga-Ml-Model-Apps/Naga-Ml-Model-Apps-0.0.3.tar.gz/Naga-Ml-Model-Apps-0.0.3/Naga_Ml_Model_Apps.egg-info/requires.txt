@@ -1,0 +1,12 @@
+Django
+crispy
+django-crispy-forms
+django-widget-tweaks
+Pillow
+numpy
+pandas
+sklearn
+matplotlib
+seaborn
+psycopg2
+pymongo
