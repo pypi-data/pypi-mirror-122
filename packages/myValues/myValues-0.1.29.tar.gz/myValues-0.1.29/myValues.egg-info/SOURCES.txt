@@ -1,0 +1,11 @@
+setup.py
+myValues/__init__.py
+myValues/_interactiveCMD.py
+myValues/math.py
+myValues/tk.py
+myValues/tools.py
+myValues.egg-info/PKG-INFO
+myValues.egg-info/SOURCES.txt
+myValues.egg-info/dependency_links.txt
+myValues.egg-info/requires.txt
+myValues.egg-info/top_level.txt
