@@ -1,0 +1,10 @@
+setup.py
+shlee-distributions/Binomialdistribution.py
+shlee-distributions/Gaussiandistribution.py
+shlee-distributions/Generaldistribution.py
+shlee-distributions/__init__.py
+shlee_distributions.egg-info/PKG-INFO
+shlee_distributions.egg-info/SOURCES.txt
+shlee_distributions.egg-info/dependency_links.txt
+shlee_distributions.egg-info/not-zip-safe
+shlee_distributions.egg-info/top_level.txt
