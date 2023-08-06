@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: roughrider.routing
+Version: 0.1
+Summary: Routing utilities for WSGI apps using horseman.
+Home-page: UNKNOWN
+Author: Souheil CHELFOUH
+Author-email: trollfot@gmail.com
+License: ZPL
+Download-URL: http://pypi.python.org/pypi/roughrider.routing
+Description: roughrider.routing
+        ******************
+        
+        Routing capabilities for ``horseman`` nodes.
+        
+        CHANGES
+        =======
+        
+        0.1 (2021-10-08)
+        ----------------
+        
+          * Initial release
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Provides-Extra: test
