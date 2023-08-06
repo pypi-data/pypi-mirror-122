@@ -1,0 +1,6 @@
+python-lsp-server
+rope
+
+[dev]
+pytest
+twine
