@@ -1,0 +1,12 @@
+Toolkit/SpeechRecongition.py,sha256=-7h2xUC4grBMdD5rYrN2xp_xMartQTphvYt-el9tHAQ,1601
+Toolkit/__init__.py,sha256=6NTFk2ndE_CPFfhtkyDNfldREoneRdODhhoPXQMu7_g,7731
+Toolkit/audio.py,sha256=cuNKkfT734KZ9pRO5FR2szLUS_DuvJ25wpPI8j-0NI0,3259
+Toolkit/errors.py,sha256=9ptOH0JGEhPJMZg0TnQ0yZt0LDjhgB093Zrq16zUkS4,1004
+Toolkit/parse.py,sha256=0Yw-3gZO4JxgRUa7N-SlW4GdbhYqJmnTrMDD8WUkwOs,6728
+Toolkit/tracking.py,sha256=-AvBBafEFO88-XtSgW5kFLN2g95zKr7rK7XWOTBKW2A,22220
+Toolkit/translator.py,sha256=TJdySyNL0Dq5lMdaw4uyIG9Xm4ZtLLQYipE-iEYQPBc,298
+tkt_Toolkit-1.9.dist-info/METADATA,sha256=aOfDxY1Sll5rWliWf4aYJuxhZQ3jae3iDW808OoJvPk,1764
+tkt_Toolkit-1.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tkt_Toolkit-1.9.dist-info/license,sha256=Fj5uy4Fot8Uy3Y2rVb7cZjrQvVYU1952LidxT7BhAPc,1453
+tkt_Toolkit-1.9.dist-info/top_level.txt,sha256=cKjviaBLRETsMROe5HlwWTQ8XtrBd5T9-c_g8j_Hz7w,8
+tkt_Toolkit-1.9.dist-info/RECORD,,
