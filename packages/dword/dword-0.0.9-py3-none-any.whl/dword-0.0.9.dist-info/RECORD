@@ -1,0 +1,15 @@
+dword/__init__.py,sha256=46Yjk3fz9o8aTN8E95McnzpJcjGzVJmHmQqUZ5mXzfc,22
+dword/_nbdev.py,sha256=qu1jTUXuwS_G8kHfO2BV1F8XTcUvayY5_yelMfbGa8g,885
+dword/core.py,sha256=2OYmVoJ_noN9BDlJfzkPdgHxOmNpfzul6Y_Xivx7NGY,10159
+dword/utils.py,sha256=IMraIckgISJMzfdJU3Wrm4gM0_fH4BjzoTHCIKLl8Mc,20962
+dword/tutorials/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dword/tutorials/educational.py,sha256=a75JwKWqHMwEFLGXa0Kf0MWmPFd5qzBHAwqC0J2R_3I,118
+dword/tutorials/sales.py,sha256=Yuixz2DqeHeZn2YMupInSFOLD9rmJgErhaCKCp4egpU,112
+dword/tutorials/test_text2speech.py,sha256=pMtu2-TzlSnvj3sAwKdycr-todXFfd_OPgBMhTpH8HI,123
+dword/tutorials/test_video_actors.py,sha256=0LT6aT7VGdqorrEDMB-4tgUSGRd-Qz9rwdjMG36TQCk,124
+dword-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dword-0.0.9.dist-info/METADATA,sha256=BxAoLpTa6qoA-0PRXXkOk34oIhvygNuBheGPkNXWnbI,3129
+dword-0.0.9.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+dword-0.0.9.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+dword-0.0.9.dist-info/top_level.txt,sha256=akL_0BDi3POAN1J_qYqZFOlNb5mLsvGeRFdsgqM7Pa0,6
+dword-0.0.9.dist-info/RECORD,,
