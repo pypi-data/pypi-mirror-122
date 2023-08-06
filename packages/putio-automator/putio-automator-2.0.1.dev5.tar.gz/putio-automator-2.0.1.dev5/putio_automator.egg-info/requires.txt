@@ -1,0 +1,7 @@
+appdirs
+click
+click-log
+putio.py
+python-dotenv
+pyyaml
+watchdog
