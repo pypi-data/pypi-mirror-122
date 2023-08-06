@@ -1,0 +1,1742 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Tutorial &mdash; scTriangulate 0.9.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Principle" href="principle.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> scTriangulate
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#single-modality-scrna-workflow">Single Modality (scRNA) workflow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#download-and-preprocessing">Download and preprocessing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#running-sctriangulate">Running scTriangulate</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#default-lazy-run">Default lazy run</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#manual-run">Manual Run</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#inspect-the-results">Inspect the results</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#comparison-with-azimuth-mapping">Comparison with Azimuth mapping</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#discover-hidden-heterogeneity">Discover hidden heterogeneity</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#multi-modal-workflow">Multi-modal workflow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#load-data-and-preprocessing">Load data and preprocessing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Running scTriangulate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Inspect the results</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="principle.html">Principle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">scTriangulate</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Tutorial</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/tutorial.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tutorial">
+<h1>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="single-modality-scrna-workflow">
+<span id="reference-to-single-modality-workflow"></span><h2>Single Modality (scRNA) workflow<a class="headerlink" href="#single-modality-scrna-workflow" title="Permalink to this headline">¶</a></h2>
+<p>In this example, we are going to analyze pbmc10k scRNA dataset downloaded from
+<a class="reference external" href="https://support.10xgenomics.com/single-cell-gene-expression/datasets/3.0.0/pbmc_10k_v3">10x official website</a> (chemistry v3.1). This dataset
+has also been used as the demo query data in <a class="reference external" href="https://azimuth.hubmapconsortium.org/references/#Human%20-%20PBMC">Azimuth</a>. It contains 11,769 single
+cells before filtering.</p>
+<p>Here we first conduct basic single cell analysis to obtain Leiden clustering results, however, at various resolutions (r=1,2,3). Smaller resolutions lead to
+broader clusters, and larger resolution value will result in more granular clustering. We leverage scTriangulate to take the three resolutions as the query
+annotations, and automatically mix-and-match cluster boundary from different resolutions, which at the end, yield scTriangulate reconciled cluster solutions.</p>
+<div class="section" id="download-and-preprocessing">
+<h3>Download and preprocessing<a class="headerlink" href="#download-and-preprocessing" title="Permalink to this headline">¶</a></h3>
+<p>First load the packages:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">scanpy</span> <span class="k">as</span> <span class="nn">sc</span>
+<span class="kn">from</span> <span class="nn">sctriangulate</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="o">*</span>
+</pre></div>
+</div>
+<p>The h5 file can be downloaded from <a class="reference external" href="http://altanalyze.org/scTriangulate/scRNASeq/pbmc_10k_v3.h5">here</a>. We used scanpy and scTriangulate
+preprocessing module to conduct basic QC filtering and single cell pipeline:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">read_10x_h5</span><span class="p">(</span><span class="s1">&#39;./pbmc_10k_v3_filtered_feature_bc_matrix.h5&#39;</span><span class="p">)</span>
+<span class="n">adata</span><span class="o">.</span><span class="n">var_names_make_unique</span><span class="p">()</span>
+<span class="n">adata</span><span class="o">.</span><span class="n">var</span><span class="p">[</span><span class="s1">&#39;mt&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">adata</span><span class="o">.</span><span class="n">var_names</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;MT-&#39;</span><span class="p">)</span>  <span class="c1"># annotate the group of mitochondrial genes as &#39;mt&#39;</span>
+<span class="n">sc</span><span class="o">.</span><span class="n">pp</span><span class="o">.</span><span class="n">calculate_qc_metrics</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="n">qc_vars</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;mt&#39;</span><span class="p">],</span> <span class="n">percent_top</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">log1p</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Visualize the important QC metrics and make the decision on the proper cutoffs:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;n_genes_by_counts&#39;</span><span class="p">,</span><span class="s1">&#39;total_counts&#39;</span><span class="p">,</span><span class="s1">&#39;pct_counts_mt&#39;</span><span class="p">]:</span>
+    <span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">violin</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">key</span><span class="p">,</span><span class="n">jitter</span><span class="o">=</span><span class="mf">0.4</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;qc_violin_</span><span class="si">{}</span><span class="s1">.pdf&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">key</span><span class="p">),</span><span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;n_genes_by_counts&#39;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">&#39;total_counts&#39;</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;pct_counts_mt&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;qc_scatter.pdf&#39;</span><span class="p">,</span><span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_total_counts.png" class="align-left" src="_images/qc_total_counts.png" style="width: 320px; height: 250px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_n_genes_by_counts.png" class="align-right" src="_images/qc_n_genes_by_counts.png" style="width: 320px; height: 250px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_pct_counts_mt.png" class="align-left" src="_images/qc_pct_counts_mt.png" style="width: 320px; height: 250px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_scatter.png" class="align-right" src="_images/qc_scatter.png" style="width: 320px; height: 250px;" /></a>
+<p>We filtered out the cells whose min_genes = 300, min_counts = 500, mt &gt; 20%, 11,022 cells left:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sc</span><span class="o">.</span><span class="n">pp</span><span class="o">.</span><span class="n">filter_cells</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="n">min_genes</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">sc</span><span class="o">.</span><span class="n">pp</span><span class="o">.</span><span class="n">filter_cells</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span> <span class="n">min_counts</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+<span class="n">adata</span> <span class="o">=</span> <span class="n">adata</span><span class="p">[</span><span class="n">adata</span><span class="o">.</span><span class="n">obs</span><span class="o">.</span><span class="n">pct_counts_mt</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">,</span> <span class="p">:]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">adata</span><span class="p">)</span>  <span class="c1"># 11022 × 33538</span>
+</pre></div>
+</div>
+<p>Then we will use scTriangulate wrapper functions to obtain the Leiden clutser results at different resolutions (r=1,2,3), specifically,
+we chose number of PCs as 50, and 3000 highly variable genes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">scanpy_recipe</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">is_log</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">resolutions</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">pca_n_comps</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span><span class="n">n_top_genes</span><span class="o">=</span><span class="mi">3000</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>After running this command, we will have three columns in <code class="docutils literal notranslate"><span class="pre">adata.obs</span></code>, namely, <code class="docutils literal notranslate"><span class="pre">sctri_rna_leiden_1</span></code>, <code class="docutils literal notranslate"><span class="pre">sctri_rna_leiden_2</span></code>, <code class="docutils literal notranslate"><span class="pre">sctri_rna_leiden_3</span></code>.
+Also a h5ad file named <code class="docutils literal notranslate"><span class="pre">adata_after_scanpy_recipe_rna_1_2_3_umap_True.h5ad</span></code> will be automatically saved to current directory so there’s no need to re-run this
+step again, Now let’s visualize them:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">umap_dual_view_save</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">cols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_2&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_3&#39;</span><span class="p">])</span>
+<span class="c1"># three umaps will be saved to your current directory.</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/three_resolutions.png" class="align-center" src="_images/three_resolutions.png" style="width: 900px; height: 300px;" /></a>
+<p>As we can see, different resolutions lead to various number of clusters, and it is clear that certain regions got sub-divided in higher resolutions. However,
+we don’t know whether this sub-populations are valid off the top of our heads. <strong>Here comes scTriangulate, which will scan each clusters at each resolutions,
+and mix-and-match different solutions to achieve an optimal one.</strong></p>
+</div>
+<div class="section" id="running-sctriangulate">
+<h3>Running scTriangulate<a class="headerlink" href="#running-sctriangulate" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="default-lazy-run">
+<h4>Default lazy run<a class="headerlink" href="#default-lazy-run" title="Permalink to this headline">¶</a></h4>
+<p>Running scTriangulate can be as simple as two steps, we first instantiate the <code class="docutils literal notranslate"><span class="pre">ScTriangulate</span></code> object, then call <code class="docutils literal notranslate"><span class="pre">lazy_run</span></code> class function which will
+handle every thing for us:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s1">&#39;adata_after_scanpy_recipe_rna_1_2_3_umap_True.h5ad&#39;</span><span class="p">)</span>
+<span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="p">(</span><span class="nb">dir</span><span class="o">=</span><span class="s1">&#39;./output&#39;</span><span class="p">,</span><span class="n">adata</span><span class="o">=</span><span class="n">adata</span><span class="p">,</span><span class="n">query</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_2&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_3&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">lazy_run</span><span class="p">()</span>  <span class="c1"># done!!!</span>
+</pre></div>
+</div>
+<p>We first instantiate <code class="docutils literal notranslate"><span class="pre">ScTriangulate</span></code> object by specify:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">dir</span></code>, where all the intermediate and final results/plots will go into?</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">adata</span></code>, the adata that we want to start with.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">query</span></code>, a list contains all the annotations that we want to triangulate.</p></li>
+</ol>
+<p>The <code class="docutils literal notranslate"><span class="pre">dir</span></code> doesn’t need to be an existing folder, the program will automatically create one if not present.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To save time, please run lazy_run(scale_sccaf=False,viewer_cluster=False), the first argument instruct the program to compute SCCAF score without
+firstly scaling the data, which will save quite a lot time. By default this option is set to True. The second argument is to instruct the program to
+not build the cluster_viewer, it will take some time to generate all the images that the cluster viewer needs.</p>
+</div>
+<p>However for the purpose of instructing users how to understand this tool, we are going to run it step by step.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Users can switch to manually run scTriangulat step by step, in order for granular operations/modifications. The instructions are as below.
+The above <code class="docutils literal notranslate"><span class="pre">lazy_run()</span></code> function basically takes care step 1-4 automatically with default parameter settings.</p>
+</div>
+</div>
+<div class="section" id="manual-run">
+<h4>Manual Run<a class="headerlink" href="#manual-run" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="step1-compute-metrics">
+<h5>Step1: compute_metrics<a class="headerlink" href="#step1-compute-metrics" title="Permalink to this headline">¶</a></h5>
+<p>The first step of running scTriangulate is to calculate the biologically meaningful metrics for each cluster in each resolution, by default, scTriangulate will
+use <code class="docutils literal notranslate"><span class="pre">reassign</span> <span class="pre">score</span></code>, <code class="docutils literal notranslate"><span class="pre">TFIDF10</span> <span class="pre">score</span></code>, <code class="docutils literal notranslate"><span class="pre">TFIDF5</span> <span class="pre">score</span></code> and <code class="docutils literal notranslate"><span class="pre">SCCAF</span> <span class="pre">score</span></code> to measure the robustness and stability of each cluster, the metrics can be modified
+through <code class="docutils literal notranslate"><span class="pre">sctri.metrics</span></code> attribute list:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s1">&#39;adata_after_scanpy_recipe_rna_1_2_3_umap_True.h5ad&#39;</span><span class="p">)</span>
+<span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="p">(</span><span class="nb">dir</span><span class="o">=</span><span class="s1">&#39;./output&#39;</span><span class="p">,</span><span class="n">adata</span><span class="o">=</span><span class="n">adata</span><span class="p">,</span><span class="n">query</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_2&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_3&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">compute_metrics</span><span class="p">(</span><span class="n">parallel</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">scale_sccaf</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="s1">&#39;break_point_after_metrics.p&#39;</span><span class="p">)</span>   <span class="c1"># save it for next step</span>
+</pre></div>
+</div>
+<p>After this step, 3 * 4 = 12 columns will be added to the <code class="docutils literal notranslate"><span class="pre">sctri.adata.obs</span></code> dataframe, 3 means 3 resolutions, 4 means 4 metrics, those columns store the metrics
+we just calculated, the first 10 rows are shown below.</p>
+<table class="colwidths-given docutils align-default" id="id3">
+<caption><span class="caption-text">After compute metrics</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>n_genes_by_counts</p></th>
+<th class="head"><p>total_counts</p></th>
+<th class="head"><p>total_counts_mt</p></th>
+<th class="head"><p>pct_counts_mt</p></th>
+<th class="head"><p>n_genes</p></th>
+<th class="head"><p>n_counts</p></th>
+<th class="head"><p>sctri_rna_leiden_1</p></th>
+<th class="head"><p>sctri_rna_leiden_2</p></th>
+<th class="head"><p>sctri_rna_leiden_3</p></th>
+<th class="head"><p>doublet_scores</p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_1">reassign<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_1">tfidf10<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_1">SCCAF<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_1">doublet<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_1">tfidf5<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_2">reassign<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_2">tfidf10<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_2">SCCAF<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_2">doublet<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_2">tfidf5<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_3">reassign<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_3">tfidf10<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_3">SCCAF<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_3">doublet<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_3">tfidf5<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AAACCCAAGCGCCCAT-1</p></td>
+<td><p>1087</p></td>
+<td><p>2204.0</p></td>
+<td><p>52.0</p></td>
+<td><p>2.3593466</p></td>
+<td><p>1087</p></td>
+<td><p>2204.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>20</p></td>
+<td><p>0.06075768406004289</p></td>
+<td><p>0.8950276243093923</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8042789223454834</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.704225352112676</p></td>
+<td><p>0.4331249394858995</p></td>
+<td><p>0.616822429906542</p></td>
+<td><p>0.06823584435065695</p></td>
+<td><p>0.5248428314538921</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCAAGGTTCCGC-1</p></td>
+<td><p>4200</p></td>
+<td><p>20090.0</p></td>
+<td><p>1324.0</p></td>
+<td><p>6.5903435</p></td>
+<td><p>4200</p></td>
+<td><p>20090.0</p></td>
+<td><p>14</p></td>
+<td><p>18</p></td>
+<td><p>22</p></td>
+<td><p>0.032894736842105275</p></td>
+<td><p>0.8297872340425532</p></td>
+<td><p>0.8158574236335182</p></td>
+<td><p>0.8617021276595744</p></td>
+<td><p>0.06828310525665475</p></td>
+<td><p>0.8788859218463015</p></td>
+<td><p>0.9056603773584906</p></td>
+<td><p>0.8757826138745951</p></td>
+<td><p>0.9375</p></td>
+<td><p>0.0669894608659765</p></td>
+<td><p>1.0037564111504598</p></td>
+<td><p>0.9005847953216374</p></td>
+<td><p>0.8539603438702356</p></td>
+<td><p>0.8470588235294118</p></td>
+<td><p>0.0675555298114107</p></td>
+<td><p>0.9552786801551147</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCACAGAGTTGG-1</p></td>
+<td><p>1836</p></td>
+<td><p>5884.0</p></td>
+<td><p>633.0</p></td>
+<td><p>10.757988</p></td>
+<td><p>1836</p></td>
+<td><p>5884.0</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>0.05390835579514825</p></td>
+<td><p>0.7060869565217391</p></td>
+<td><p>0.4181291163421069</p></td>
+<td><p>0.8104347826086956</p></td>
+<td><p>0.07300475660048267</p></td>
+<td><p>0.42582579367389656</p></td>
+<td><p>0.6565853658536586</p></td>
+<td><p>0.4078403118313299</p></td>
+<td><p>0.787109375</p></td>
+<td><p>0.07208010563020643</p></td>
+<td><p>0.4239485989320037</p></td>
+<td><p>0.6717791411042945</p></td>
+<td><p>0.42090114511950677</p></td>
+<td><p>0.7760736196319018</p></td>
+<td><p>0.06426933099136449</p></td>
+<td><p>0.4266449489575865</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCACAGGTATGG-1</p></td>
+<td><p>2216</p></td>
+<td><p>5530.0</p></td>
+<td><p>434.0</p></td>
+<td><p>7.848101</p></td>
+<td><p>2216</p></td>
+<td><p>5530.0</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>5</p></td>
+<td><p>0.008906882591093117</p></td>
+<td><p>0.9783783783783784</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9495495495495495</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9855595667870036</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9207207207207208</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCACATAGTCAC-1</p></td>
+<td><p>1615</p></td>
+<td><p>5106.0</p></td>
+<td><p>553.0</p></td>
+<td><p>10.830396</p></td>
+<td><p>1615</p></td>
+<td><p>5106.0</p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
+<td><p>0</p></td>
+<td><p>0.025075225677031094</p></td>
+<td><p>0.9898682877406282</p></td>
+<td><p>0.6648462514443869</p></td>
+<td><p>0.9817813765182186</p></td>
+<td><p>0.029651745213786315</p></td>
+<td><p>0.7176015036667331</p></td>
+<td><p>0.9916492693110647</p></td>
+<td><p>0.6692931115772808</p></td>
+<td><p>0.9770354906054279</p></td>
+<td><p>0.02911431201925055</p></td>
+<td><p>0.7193190390843421</p></td>
+<td><p>0.9414758269720102</p></td>
+<td><p>0.6523547740200044</p></td>
+<td><p>0.9567430025445293</p></td>
+<td><p>0.029681243164883617</p></td>
+<td><p>0.7248931329792404</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCACATCCAATG-1</p></td>
+<td><p>1800</p></td>
+<td><p>4572.0</p></td>
+<td><p>411.0</p></td>
+<td><p>8.989501</p></td>
+<td><p>1800</p></td>
+<td><p>4572.0</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>5</p></td>
+<td><p>0.07363420427553445</p></td>
+<td><p>0.9783783783783784</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9495495495495495</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9855595667870036</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9207207207207208</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCAGTGGCTACC-1</p></td>
+<td><p>1965</p></td>
+<td><p>6702.0</p></td>
+<td><p>424.0</p></td>
+<td><p>6.32647</p></td>
+<td><p>1965</p></td>
+<td><p>6702.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>0.06849315068493152</p></td>
+<td><p>0.8950276243093923</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8042789223454834</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.790625</p></td>
+<td><p>0.3736026863699238</p></td>
+<td><p>0.64375</p></td>
+<td><p>0.10099172212080179</p></td>
+<td><p>0.40115765301328327</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCATCCCGAGAC-1</p></td>
+<td><p>1960</p></td>
+<td><p>7092.0</p></td>
+<td><p>545.0</p></td>
+<td><p>7.6847153</p></td>
+<td><p>1960</p></td>
+<td><p>7092.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>0.104390243902439</p></td>
+<td><p>0.8950276243093923</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8042789223454834</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.790625</p></td>
+<td><p>0.3736026863699238</p></td>
+<td><p>0.64375</p></td>
+<td><p>0.10099172212080179</p></td>
+<td><p>0.40115765301328327</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCATCTGGCCGA-1</p></td>
+<td><p>1695</p></td>
+<td><p>5370.0</p></td>
+<td><p>571.0</p></td>
+<td><p>10.633146</p></td>
+<td><p>1695</p></td>
+<td><p>5370.0</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>0.25563909774436094</p></td>
+<td><p>0.7735849056603774</p></td>
+<td><p>0.4140609851013919</p></td>
+<td><p>0.907563025210084</p></td>
+<td><p>0.13099806496107133</p></td>
+<td><p>0.49547402236082677</p></td>
+<td><p>0.7281553398058253</p></td>
+<td><p>0.46148281492953686</p></td>
+<td><p>0.8883495145631068</p></td>
+<td><p>0.1427853920941894</p></td>
+<td><p>0.5486776444570318</p></td>
+<td><p>0.767590618336887</p></td>
+<td><p>0.34400131931724975</p></td>
+<td><p>0.7435897435897436</p></td>
+<td><p>0.11643270856376918</p></td>
+<td><p>0.3644349082676911</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="step2-compute-shapley">
+<h5>Step2: compute_shapley<a class="headerlink" href="#step2-compute-shapley" title="Permalink to this headline">¶</a></h5>
+<p>The second step is to utilize the calculated metrics, and assess which annotation/cluster is the best for <strong>each single cell</strong>. So the program iterate each row,
+which is a single cell, retrive all the metrics associated with each cluster, and calculate shapley value of each cluster (in this case, each single cell has
+three conflicting clusters). Then the program will assign the cell to the “best” clusters amongst all solutions. We refer the resultant cluster assignment as
+<code class="docutils literal notranslate"><span class="pre">raw</span></code> cluster result:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/break_point_after_metrics.p&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">compute_shapley</span><span class="p">(</span><span class="n">parallel</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="s1">&#39;break_point_after_shapley.p&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>After this step, 3 + 1 + 1 + 1 columns will be added to the <code class="docutils literal notranslate"><span class="pre">sctri.adata.obs</span></code>, they are 3 columns corresponding to the shapley value for each annotation, plus
+one column named ‘final_annotation’ storing which annotation is the winner for each cell, and column ‘raw’ contains raw clusters which are basically annotation
+name and cluster name but concatenated by <cite>&#64;</cite> symbol. Last added column is ‘prefix’, which is just a concatenation of original cluster and current raw cluster.</p>
+<table class="colwidths-given docutils align-default" id="id4">
+<caption><span class="caption-text">After compute shapley</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+<col style="width: 3%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>n_genes_by_counts</p></th>
+<th class="head"><p>total_counts</p></th>
+<th class="head"><p>total_counts_mt</p></th>
+<th class="head"><p>pct_counts_mt</p></th>
+<th class="head"><p>n_genes</p></th>
+<th class="head"><p>n_counts</p></th>
+<th class="head"><p>sctri_rna_leiden_1</p></th>
+<th class="head"><p>sctri_rna_leiden_2</p></th>
+<th class="head"><p>sctri_rna_leiden_3</p></th>
+<th class="head"><p>doublet_scores</p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_1">reassign<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_1">tfidf10<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_1">SCCAF<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_1">doublet<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_1">tfidf5<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_2">reassign<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_2">tfidf10<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_2">SCCAF<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_2">doublet<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_2">tfidf5<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_3">reassign<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_3">tfidf10<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_3">SCCAF<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_3">doublet<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_3">tfidf5<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p>final_annotation</p></th>
+<th class="head"><p>sctri_rna_leiden_1_shapley</p></th>
+<th class="head"><p>sctri_rna_leiden_2_shapley</p></th>
+<th class="head"><p>sctri_rna_leiden_3_shapley</p></th>
+<th class="head"><p>raw</p></th>
+<th class="head"><p>prefixed</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AAACCCAAGCGCCCAT-1</p></td>
+<td><p>1087</p></td>
+<td><p>2204.0</p></td>
+<td><p>52.0</p></td>
+<td><p>2.3593466</p></td>
+<td><p>1087</p></td>
+<td><p>2204.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>20</p></td>
+<td><p>0.06075768406004289</p></td>
+<td><p>0.8937998772252916</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8050713153724247</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.6995305164319249</p></td>
+<td><p>0.4331249394858995</p></td>
+<td><p>0.616822429906542</p></td>
+<td><p>0.06823584435065695</p></td>
+<td><p>0.5248428314538921</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>1.3333333333333333</p></td>
+<td><p>3.333333333333333</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>sctri_rna_leiden_1&#64;0|sctri_rna_leiden_1&#64;0</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCAAGGTTCCGC-1</p></td>
+<td><p>4200</p></td>
+<td><p>20090.0</p></td>
+<td><p>1324.0</p></td>
+<td><p>6.5903435</p></td>
+<td><p>4200</p></td>
+<td><p>20090.0</p></td>
+<td><p>14</p></td>
+<td><p>18</p></td>
+<td><p>22</p></td>
+<td><p>0.032894736842105275</p></td>
+<td><p>0.8297872340425532</p></td>
+<td><p>0.8158574236335182</p></td>
+<td><p>0.8617021276595744</p></td>
+<td><p>0.06828310525665475</p></td>
+<td><p>0.8788859218463015</p></td>
+<td><p>0.9056603773584906</p></td>
+<td><p>0.8757826138745951</p></td>
+<td><p>0.9375</p></td>
+<td><p>0.0669894608659765</p></td>
+<td><p>1.0037564111504598</p></td>
+<td><p>0.9005847953216374</p></td>
+<td><p>0.8539603438702356</p></td>
+<td><p>0.8470588235294118</p></td>
+<td><p>0.0675555298114107</p></td>
+<td><p>0.9552786801551147</p></td>
+<td><p>sctri_rna_leiden_2</p></td>
+<td><p>0.3333333333333333</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>2.333333333333333</p></td>
+<td><p><a class="reference external" href="mailto:sctri_rna_leiden_2&#37;&#52;&#48;18">sctri_rna_leiden_2<span>&#64;</span>18</a></p></td>
+<td><p>sctri_rna_leiden_1&#64;14|sctri_rna_leiden_2&#64;18</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCACAGAGTTGG-1</p></td>
+<td><p>1836</p></td>
+<td><p>5884.0</p></td>
+<td><p>633.0</p></td>
+<td><p>10.757988</p></td>
+<td><p>1836</p></td>
+<td><p>5884.0</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>0.05390835579514825</p></td>
+<td><p>0.7095652173913043</p></td>
+<td><p>0.4181291163421069</p></td>
+<td><p>0.8104347826086956</p></td>
+<td><p>0.07300475660048267</p></td>
+<td><p>0.42582579367389656</p></td>
+<td><p>0.6780487804878049</p></td>
+<td><p>0.4078403118313299</p></td>
+<td><p>0.787109375</p></td>
+<td><p>0.07208010563020643</p></td>
+<td><p>0.4239485989320037</p></td>
+<td><p>0.6809815950920245</p></td>
+<td><p>0.42090114511950677</p></td>
+<td><p>0.7760736196319018</p></td>
+<td><p>0.06426933099136449</p></td>
+<td><p>0.4266449489575865</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>2.333333333333333</p></td>
+<td><p>3.6666666666666665</p></td>
+<td><p>sctri_rna_leiden_1&#64;2</p></td>
+<td><p>sctri_rna_leiden_1&#64;2|sctri_rna_leiden_1&#64;2</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCACAGGTATGG-1</p></td>
+<td><p>2216</p></td>
+<td><p>5530.0</p></td>
+<td><p>434.0</p></td>
+<td><p>7.848101</p></td>
+<td><p>2216</p></td>
+<td><p>5530.0</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>5</p></td>
+<td><p>0.008906882591093117</p></td>
+<td><p>0.9783783783783784</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9477477477477477</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9855595667870036</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.918918918918919</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>5.333333333333333</p></td>
+<td><p>5.0</p></td>
+<td><p>sctri_rna_leiden_1&#64;7</p></td>
+<td><p>sctri_rna_leiden_1&#64;7|sctri_rna_leiden_1&#64;7</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCACATAGTCAC-1</p></td>
+<td><p>1615</p></td>
+<td><p>5106.0</p></td>
+<td><p>553.0</p></td>
+<td><p>10.830396</p></td>
+<td><p>1615</p></td>
+<td><p>5106.0</p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
+<td><p>0</p></td>
+<td><p>0.025075225677031094</p></td>
+<td><p>0.9898682877406282</p></td>
+<td><p>0.6648462514443869</p></td>
+<td><p>0.9817813765182186</p></td>
+<td><p>0.029651745213786315</p></td>
+<td><p>0.7176015036667331</p></td>
+<td><p>0.9916492693110647</p></td>
+<td><p>0.6692931115772808</p></td>
+<td><p>0.9770354906054279</p></td>
+<td><p>0.02911431201925055</p></td>
+<td><p>0.7193190390843421</p></td>
+<td><p>0.9402035623409669</p></td>
+<td><p>0.6523547740200044</p></td>
+<td><p>0.9567430025445293</p></td>
+<td><p>0.029681243164883617</p></td>
+<td><p>0.7248931329792404</p></td>
+<td><p>sctri_rna_leiden_2</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>1.6666666666666665</p></td>
+<td><p>sctri_rna_leiden_2&#64;3</p></td>
+<td><p>sctri_rna_leiden_1&#64;4|sctri_rna_leiden_2&#64;3</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCACATCCAATG-1</p></td>
+<td><p>1800</p></td>
+<td><p>4572.0</p></td>
+<td><p>411.0</p></td>
+<td><p>8.989501</p></td>
+<td><p>1800</p></td>
+<td><p>4572.0</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>5</p></td>
+<td><p>0.07363420427553445</p></td>
+<td><p>0.9783783783783784</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9477477477477477</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9855595667870036</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.918918918918919</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>5.333333333333333</p></td>
+<td><p>5.0</p></td>
+<td><p>sctri_rna_leiden_1&#64;7</p></td>
+<td><p>sctri_rna_leiden_1&#64;7|sctri_rna_leiden_1&#64;7</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCAGTGGCTACC-1</p></td>
+<td><p>1965</p></td>
+<td><p>6702.0</p></td>
+<td><p>424.0</p></td>
+<td><p>6.32647</p></td>
+<td><p>1965</p></td>
+<td><p>6702.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>0.06849315068493152</p></td>
+<td><p>0.8937998772252916</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8050713153724247</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.7859375</p></td>
+<td><p>0.3736026863699238</p></td>
+<td><p>0.64375</p></td>
+<td><p>0.10099172212080179</p></td>
+<td><p>0.40115765301328327</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>1.3333333333333333</p></td>
+<td><p>3.333333333333333</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>sctri_rna_leiden_1&#64;0|sctri_rna_leiden_1&#64;0</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCATCCCGAGAC-1</p></td>
+<td><p>1960</p></td>
+<td><p>7092.0</p></td>
+<td><p>545.0</p></td>
+<td><p>7.6847153</p></td>
+<td><p>1960</p></td>
+<td><p>7092.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>0.104390243902439</p></td>
+<td><p>0.8937998772252916</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8050713153724247</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.7859375</p></td>
+<td><p>0.3736026863699238</p></td>
+<td><p>0.64375</p></td>
+<td><p>0.10099172212080179</p></td>
+<td><p>0.40115765301328327</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>1.3333333333333333</p></td>
+<td><p>3.333333333333333</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>sctri_rna_leiden_1&#64;0|sctri_rna_leiden_1&#64;0</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCATCTGGCCGA-1</p></td>
+<td><p>1695</p></td>
+<td><p>5370.0</p></td>
+<td><p>571.0</p></td>
+<td><p>10.633146</p></td>
+<td><p>1695</p></td>
+<td><p>5370.0</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>0.25563909774436094</p></td>
+<td><p>0.7672955974842768</p></td>
+<td><p>0.4140609851013919</p></td>
+<td><p>0.907563025210084</p></td>
+<td><p>0.13099806496107133</p></td>
+<td><p>0.49547402236082677</p></td>
+<td><p>0.7330097087378641</p></td>
+<td><p>0.46148281492953686</p></td>
+<td><p>0.8883495145631068</p></td>
+<td><p>0.1427853920941894</p></td>
+<td><p>0.5486776444570318</p></td>
+<td><p>0.7633262260127932</p></td>
+<td><p>0.34400131931724975</p></td>
+<td><p>0.7435897435897436</p></td>
+<td><p>0.11643270856376918</p></td>
+<td><p>0.3644349082676911</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>3.6666666666666665</p></td>
+<td><p>1.6666666666666665</p></td>
+<td><p>sctri_rna_leiden_1&#64;8</p></td>
+<td><p>sctri_rna_leiden_1&#64;8|sctri_rna_leiden_1&#64;8</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="step3-prune-result">
+<h5>Step3: prune_result<a class="headerlink" href="#step3-prune-result" title="Permalink to this headline">¶</a></h5>
+<p>This step is to prune the raw result, we first evaluate the robustness of the raw clusters using same set of stability metrics and add the relatively unstable
+clusters to <code class="docutils literal notranslate"><span class="pre">invalid</span></code> category. (win_fraction &lt; 0.25 by default, meaning if a cluster originally has 100 cells, but has only &lt;25 cells left). The cells in these
+unstable invalid clusters will be reassigned to its nearest neightbor’s cluster label. After this step, we have <code class="docutils literal notranslate"><span class="pre">pruned</span></code> reusult:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/break_point_after_shapley.p&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">prune_result</span><span class="p">()</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="s1">&#39;break_point_after_prune.p&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>A column named “pruned” will be added, also “confidence” column stores the confidence the program hold to call it out.</p>
+<table class="colwidths-given docutils align-default" id="id5">
+<caption><span class="caption-text">After prune result</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 2%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p>n_genes_by_counts</p></th>
+<th class="head"><p>total_counts</p></th>
+<th class="head"><p>total_counts_mt</p></th>
+<th class="head"><p>pct_counts_mt</p></th>
+<th class="head"><p>n_genes</p></th>
+<th class="head"><p>n_counts</p></th>
+<th class="head"><p>sctri_rna_leiden_1</p></th>
+<th class="head"><p>sctri_rna_leiden_2</p></th>
+<th class="head"><p>sctri_rna_leiden_3</p></th>
+<th class="head"><p>doublet_scores</p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_1">reassign<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_1">tfidf10<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_1">SCCAF<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_1">doublet<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_1">tfidf5<span>&#64;</span>sctri_rna_leiden_1</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_2">reassign<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_2">tfidf10<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_2">SCCAF<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_2">doublet<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_2">tfidf5<span>&#64;</span>sctri_rna_leiden_2</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_3">reassign<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;sctri_rna_leiden_3">tfidf10<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;sctri_rna_leiden_3">SCCAF<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;sctri_rna_leiden_3">doublet<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;sctri_rna_leiden_3">tfidf5<span>&#64;</span>sctri_rna_leiden_3</a></p></th>
+<th class="head"><p>final_annotation</p></th>
+<th class="head"><p>sctri_rna_leiden_1_shapley</p></th>
+<th class="head"><p>sctri_rna_leiden_2_shapley</p></th>
+<th class="head"><p>sctri_rna_leiden_3_shapley</p></th>
+<th class="head"><p>raw</p></th>
+<th class="head"><p>prefixed</p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;raw">reassign<span>&#64;</span>raw</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;raw">tfidf10<span>&#64;</span>raw</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;raw">SCCAF<span>&#64;</span>raw</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;raw">doublet<span>&#64;</span>raw</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;raw">tfidf5<span>&#64;</span>raw</a></p></th>
+<th class="head"><p>pruned</p></th>
+<th class="head"><p>confidence</p></th>
+<th class="head"><p>ori</p></th>
+<th class="head"><p><a class="reference external" href="mailto:reassign&#37;&#52;&#48;pruned">reassign<span>&#64;</span>pruned</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf10&#37;&#52;&#48;pruned">tfidf10<span>&#64;</span>pruned</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:SCCAF&#37;&#52;&#48;pruned">SCCAF<span>&#64;</span>pruned</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:doublet&#37;&#52;&#48;pruned">doublet<span>&#64;</span>pruned</a></p></th>
+<th class="head"><p><a class="reference external" href="mailto:tfidf5&#37;&#52;&#48;pruned">tfidf5<span>&#64;</span>pruned</a></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AAACCCAAGCGCCCAT-1</p></td>
+<td><p>1087</p></td>
+<td><p>2204.0</p></td>
+<td><p>52.0</p></td>
+<td><p>2.3593466</p></td>
+<td><p>1087</p></td>
+<td><p>2204.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>20</p></td>
+<td><p>0.06075768406004289</p></td>
+<td><p>0.8937998772252916</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8050713153724247</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.6995305164319249</p></td>
+<td><p>0.4331249394858995</p></td>
+<td><p>0.616822429906542</p></td>
+<td><p>0.06823584435065695</p></td>
+<td><p>0.5248428314538921</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>1.3333333333333333</p></td>
+<td><p>3.333333333333333</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>sctri_rna_leiden_1&#64;0|sctri_rna_leiden_1&#64;0</p></td>
+<td><p>0.6856508875739645</p></td>
+<td><p>0.3422339406894759</p></td>
+<td><p>0.8668639053254438</p></td>
+<td><p>0.09982013932055393</p></td>
+<td><p>0.37524819649429547</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>0.8299570288520565</p></td>
+<td><p>0</p></td>
+<td><p>0.7318681318681318</p></td>
+<td><p>0.34087432957319</p></td>
+<td><p>0.890190336749634</p></td>
+<td><p>0.09965020294622279</p></td>
+<td><p>0.372858462455373</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCAAGGTTCCGC-1</p></td>
+<td><p>4200</p></td>
+<td><p>20090.0</p></td>
+<td><p>1324.0</p></td>
+<td><p>6.5903435</p></td>
+<td><p>4200</p></td>
+<td><p>20090.0</p></td>
+<td><p>14</p></td>
+<td><p>18</p></td>
+<td><p>22</p></td>
+<td><p>0.032894736842105275</p></td>
+<td><p>0.8297872340425532</p></td>
+<td><p>0.8158574236335182</p></td>
+<td><p>0.8617021276595744</p></td>
+<td><p>0.06828310525665475</p></td>
+<td><p>0.8788859218463015</p></td>
+<td><p>0.9056603773584906</p></td>
+<td><p>0.8757826138745951</p></td>
+<td><p>0.9375</p></td>
+<td><p>0.0669894608659765</p></td>
+<td><p>1.0037564111504598</p></td>
+<td><p>0.9005847953216374</p></td>
+<td><p>0.8539603438702356</p></td>
+<td><p>0.8470588235294118</p></td>
+<td><p>0.0675555298114107</p></td>
+<td><p>0.9552786801551147</p></td>
+<td><p>sctri_rna_leiden_2</p></td>
+<td><p>0.3333333333333333</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>2.333333333333333</p></td>
+<td><p><a class="reference external" href="mailto:sctri_rna_leiden_2&#37;&#52;&#48;18">sctri_rna_leiden_2<span>&#64;</span>18</a></p></td>
+<td><p>sctri_rna_leiden_1&#64;14|sctri_rna_leiden_2&#64;18</p></td>
+<td><p>0.8050314465408805</p></td>
+<td><p>0.8767835124228538</p></td>
+<td><p>0.9625</p></td>
+<td><p>0.0669894608659765</p></td>
+<td><p>1.0036722009000825</p></td>
+<td><p><a class="reference external" href="mailto:sctri_rna_leiden_2&#37;&#52;&#48;18">sctri_rna_leiden_2<span>&#64;</span>18</a></p></td>
+<td><p>1.0</p></td>
+<td><p>1</p></td>
+<td><p>0.9259259259259259</p></td>
+<td><p>0.8715118012431851</p></td>
+<td><p>0.9382716049382716</p></td>
+<td><p>0.06659199654812879</p></td>
+<td><p>0.9851686771624536</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCACAGAGTTGG-1</p></td>
+<td><p>1836</p></td>
+<td><p>5884.0</p></td>
+<td><p>633.0</p></td>
+<td><p>10.757988</p></td>
+<td><p>1836</p></td>
+<td><p>5884.0</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>0.05390835579514825</p></td>
+<td><p>0.7095652173913043</p></td>
+<td><p>0.4181291163421069</p></td>
+<td><p>0.8104347826086956</p></td>
+<td><p>0.07300475660048267</p></td>
+<td><p>0.42582579367389656</p></td>
+<td><p>0.6780487804878049</p></td>
+<td><p>0.4078403118313299</p></td>
+<td><p>0.787109375</p></td>
+<td><p>0.07208010563020643</p></td>
+<td><p>0.4239485989320037</p></td>
+<td><p>0.6809815950920245</p></td>
+<td><p>0.42090114511950677</p></td>
+<td><p>0.7760736196319018</p></td>
+<td><p>0.06426933099136449</p></td>
+<td><p>0.4266449489575865</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>2.333333333333333</p></td>
+<td><p>3.6666666666666665</p></td>
+<td><p>sctri_rna_leiden_1&#64;2</p></td>
+<td><p>sctri_rna_leiden_1&#64;2|sctri_rna_leiden_1&#64;2</p></td>
+<td><p>0.6542338709677419</p></td>
+<td><p>0.40788362684536184</p></td>
+<td><p>0.7701612903225806</p></td>
+<td><p>0.07158873082273735</p></td>
+<td><p>0.4237630150366414</p></td>
+<td><p>sctri_rna_leiden_1&#64;2</p></td>
+<td><p>0.8626086956521739</p></td>
+<td><p>2</p></td>
+<td><p>0.6700100300902708</p></td>
+<td><p>0.4079180019195594</p></td>
+<td><p>0.7831325301204819</p></td>
+<td><p>0.07165279317880446</p></td>
+<td><p>0.42336364967356116</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCACAGGTATGG-1</p></td>
+<td><p>2216</p></td>
+<td><p>5530.0</p></td>
+<td><p>434.0</p></td>
+<td><p>7.848101</p></td>
+<td><p>2216</p></td>
+<td><p>5530.0</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>5</p></td>
+<td><p>0.008906882591093117</p></td>
+<td><p>0.9783783783783784</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9477477477477477</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9855595667870036</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.918918918918919</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>5.333333333333333</p></td>
+<td><p>5.0</p></td>
+<td><p>sctri_rna_leiden_1&#64;7</p></td>
+<td><p>sctri_rna_leiden_1&#64;7|sctri_rna_leiden_1&#64;7</p></td>
+<td><p>0.9153153153153153</p></td>
+<td><p>0.7867280231606432</p></td>
+<td><p>0.9748201438848921</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8770345847482843</p></td>
+<td><p>sctri_rna_leiden_1&#64;7</p></td>
+<td><p>1.0</p></td>
+<td><p>3</p></td>
+<td><p>0.9117117117117117</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9819494584837545</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCACATAGTCAC-1</p></td>
+<td><p>1615</p></td>
+<td><p>5106.0</p></td>
+<td><p>553.0</p></td>
+<td><p>10.830396</p></td>
+<td><p>1615</p></td>
+<td><p>5106.0</p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
+<td><p>0</p></td>
+<td><p>0.025075225677031094</p></td>
+<td><p>0.9898682877406282</p></td>
+<td><p>0.6648462514443869</p></td>
+<td><p>0.9817813765182186</p></td>
+<td><p>0.029651745213786315</p></td>
+<td><p>0.7176015036667331</p></td>
+<td><p>0.9916492693110647</p></td>
+<td><p>0.6692931115772808</p></td>
+<td><p>0.9770354906054279</p></td>
+<td><p>0.02911431201925055</p></td>
+<td><p>0.7193190390843421</p></td>
+<td><p>0.9402035623409669</p></td>
+<td><p>0.6523547740200044</p></td>
+<td><p>0.9567430025445293</p></td>
+<td><p>0.029681243164883617</p></td>
+<td><p>0.7248931329792404</p></td>
+<td><p>sctri_rna_leiden_2</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>1.6666666666666665</p></td>
+<td><p>sctri_rna_leiden_2&#64;3</p></td>
+<td><p>sctri_rna_leiden_1&#64;4|sctri_rna_leiden_2&#64;3</p></td>
+<td><p>0.9102296450939458</p></td>
+<td><p>0.6694248039875961</p></td>
+<td><p>0.9874739039665971</p></td>
+<td><p>0.02911431201925055</p></td>
+<td><p>0.7191829641398122</p></td>
+<td><p>sctri_rna_leiden_2&#64;3</p></td>
+<td><p>1.0</p></td>
+<td><p>4</p></td>
+<td><p>0.9898682877406282</p></td>
+<td><p>0.6648462514443869</p></td>
+<td><p>0.9837728194726166</p></td>
+<td><p>0.029651745213786315</p></td>
+<td><p>0.7176015036667331</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCACATCCAATG-1</p></td>
+<td><p>1800</p></td>
+<td><p>4572.0</p></td>
+<td><p>411.0</p></td>
+<td><p>8.989501</p></td>
+<td><p>1800</p></td>
+<td><p>4572.0</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p>5</p></td>
+<td><p>0.07363420427553445</p></td>
+<td><p>0.9783783783783784</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.9477477477477477</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9855595667870036</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>0.918918918918919</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9820143884892086</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>6.666666666666666</p></td>
+<td><p>5.333333333333333</p></td>
+<td><p>5.0</p></td>
+<td><p>sctri_rna_leiden_1&#64;7</p></td>
+<td><p>sctri_rna_leiden_1&#64;7|sctri_rna_leiden_1&#64;7</p></td>
+<td><p>0.9153153153153153</p></td>
+<td><p>0.7867280231606432</p></td>
+<td><p>0.9748201438848921</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8770345847482843</p></td>
+<td><p>sctri_rna_leiden_1&#64;7</p></td>
+<td><p>1.0</p></td>
+<td><p>5</p></td>
+<td><p>0.9117117117117117</p></td>
+<td><p>0.7868703149865569</p></td>
+<td><p>0.9819494584837545</p></td>
+<td><p>0.034403601185809866</p></td>
+<td><p>0.8771728968728391</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCAGTGGCTACC-1</p></td>
+<td><p>1965</p></td>
+<td><p>6702.0</p></td>
+<td><p>424.0</p></td>
+<td><p>6.32647</p></td>
+<td><p>1965</p></td>
+<td><p>6702.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>0.06849315068493152</p></td>
+<td><p>0.8937998772252916</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8050713153724247</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.7859375</p></td>
+<td><p>0.3736026863699238</p></td>
+<td><p>0.64375</p></td>
+<td><p>0.10099172212080179</p></td>
+<td><p>0.40115765301328327</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>1.3333333333333333</p></td>
+<td><p>3.333333333333333</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>sctri_rna_leiden_1&#64;0|sctri_rna_leiden_1&#64;0</p></td>
+<td><p>0.6856508875739645</p></td>
+<td><p>0.3422339406894759</p></td>
+<td><p>0.8668639053254438</p></td>
+<td><p>0.09982013932055393</p></td>
+<td><p>0.37524819649429547</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>0.8299570288520565</p></td>
+<td><p>6</p></td>
+<td><p>0.7318681318681318</p></td>
+<td><p>0.34087432957319</p></td>
+<td><p>0.890190336749634</p></td>
+<td><p>0.09965020294622279</p></td>
+<td><p>0.372858462455373</p></td>
+</tr>
+<tr class="row-odd"><td><p>AAACCCATCCCGAGAC-1</p></td>
+<td><p>1960</p></td>
+<td><p>7092.0</p></td>
+<td><p>545.0</p></td>
+<td><p>7.6847153</p></td>
+<td><p>1960</p></td>
+<td><p>7092.0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>3</p></td>
+<td><p>0.104390243902439</p></td>
+<td><p>0.8937998772252916</p></td>
+<td><p>0.3439838075846785</p></td>
+<td><p>0.9251533742331288</p></td>
+<td><p>0.10092147725346746</p></td>
+<td><p>0.37130280304671465</p></td>
+<td><p>0.8050713153724247</p></td>
+<td><p>0.3507859300918892</p></td>
+<td><p>0.8890649762282092</p></td>
+<td><p>0.10148899088645824</p></td>
+<td><p>0.3805522921317833</p></td>
+<td><p>0.7859375</p></td>
+<td><p>0.3736026863699238</p></td>
+<td><p>0.64375</p></td>
+<td><p>0.10099172212080179</p></td>
+<td><p>0.40115765301328327</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>1.3333333333333333</p></td>
+<td><p>3.333333333333333</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>sctri_rna_leiden_1&#64;0|sctri_rna_leiden_1&#64;0</p></td>
+<td><p>0.6856508875739645</p></td>
+<td><p>0.3422339406894759</p></td>
+<td><p>0.8668639053254438</p></td>
+<td><p>0.09982013932055393</p></td>
+<td><p>0.37524819649429547</p></td>
+<td><p>sctri_rna_leiden_1&#64;0</p></td>
+<td><p>0.8299570288520565</p></td>
+<td><p>7</p></td>
+<td><p>0.7318681318681318</p></td>
+<td><p>0.34087432957319</p></td>
+<td><p>0.890190336749634</p></td>
+<td><p>0.09965020294622279</p></td>
+<td><p>0.372858462455373</p></td>
+</tr>
+<tr class="row-even"><td><p>AAACCCATCTGGCCGA-1</p></td>
+<td><p>1695</p></td>
+<td><p>5370.0</p></td>
+<td><p>571.0</p></td>
+<td><p>10.633146</p></td>
+<td><p>1695</p></td>
+<td><p>5370.0</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+<td><p>0.25563909774436094</p></td>
+<td><p>0.7672955974842768</p></td>
+<td><p>0.4140609851013919</p></td>
+<td><p>0.907563025210084</p></td>
+<td><p>0.13099806496107133</p></td>
+<td><p>0.49547402236082677</p></td>
+<td><p>0.7330097087378641</p></td>
+<td><p>0.46148281492953686</p></td>
+<td><p>0.8883495145631068</p></td>
+<td><p>0.1427853920941894</p></td>
+<td><p>0.5486776444570318</p></td>
+<td><p>0.7633262260127932</p></td>
+<td><p>0.34400131931724975</p></td>
+<td><p>0.7435897435897436</p></td>
+<td><p>0.11643270856376918</p></td>
+<td><p>0.3644349082676911</p></td>
+<td><p>sctri_rna_leiden_1</p></td>
+<td><p>4.0</p></td>
+<td><p>3.6666666666666665</p></td>
+<td><p>1.6666666666666665</p></td>
+<td><p>sctri_rna_leiden_1&#64;8</p></td>
+<td><p>sctri_rna_leiden_1&#64;8|sctri_rna_leiden_2&#64;9</p></td>
+<td><p>0.8125</p></td>
+<td><p>0.26366270719185436</p></td>
+<td><p>0.5</p></td>
+<td><p>0.07300331728524727</p></td>
+<td><p>0.3589422599550743</p></td>
+<td><p>sctri_rna_leiden_2&#64;9</p></td>
+<td><p>0.13417190775681342</p></td>
+<td><p>8</p></td>
+<td><p>0.8958333333333334</p></td>
+<td><p>0.3804105780430053</p></td>
+<td><p>0.5625</p></td>
+<td><p>0.1860030766024984</p></td>
+<td><p>0.4289774942532307</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="step4-building-the-viewer">
+<h5>Step4: building the viewer<a class="headerlink" href="#step4-building-the-viewer" title="Permalink to this headline">¶</a></h5>
+<p>We provide an automatically generated webpage, called scTriangulate viewer, to allow users to dynamically navigate the robustness of each cluster from each
+annotations (cluster viewer). Also, it enables the inspection of further heterogeneity that might not have been captured by a
+single annotation (hetergeneity viewer). The logics of following codes are simple, we first build html, then we generate the figures that the html page would
+need to render it:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/break_point_after_prune.p&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">viewer_cluster_feature_html</span><span class="p">()</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">viewer_cluster_feature_figure</span><span class="p">(</span><span class="n">parallel</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">select_keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="s1">&#39;pruned&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">viewer_heterogeneity_html</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">viewer_heterogeneity_figure</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/cluster_viewer_1.png" class="align-center" src="_images/cluster_viewer_1.png" style="width: 600px; height: 300px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/cluster_viewer_2.png" class="align-center" src="_images/cluster_viewer_2.png" style="width: 600px; height: 300px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/heterogeneity_viewer.png" class="align-center" src="_images/heterogeneity_viewer.png" style="width: 600px; height: 350px;" /></a>
+</div>
+</div>
+</div>
+<div class="section" id="inspect-the-results">
+<h3>Inspect the results<a class="headerlink" href="#inspect-the-results" title="Permalink to this headline">¶</a></h3>
+<p>Now we start to look at the scTriangulate results,</p>
+<div class="section" id="comparison-with-azimuth-mapping">
+<h4>Comparison with Azimuth mapping<a class="headerlink" href="#comparison-with-azimuth-mapping" title="Permalink to this headline">¶</a></h4>
+<p>Azimuth leverages &gt; 200 ADTs to delineate the major populations in PBMC, which can serve as a silver standard. First we obtain the Azimuth mapping results
+using the h5ad object after we performed qc, azimuth predction results can be downloaded from
+<a class="reference external" href="http://altanalyze.org/scTriangulate/scRNASeq/azimuth_pred.tsv">this</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/break_point_after_prune.p&#39;</span><span class="p">)</span>
+<span class="n">add_azimuth</span><span class="p">(</span><span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="p">,</span><span class="s1">&#39;azimuth_pred.tsv&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;azimuth&#39;</span><span class="p">,</span><span class="s1">&#39;pruned&#39;</span><span class="p">,</span><span class="s1">&#39;final_annotation&#39;</span><span class="p">]:</span>
+    <span class="n">sctri</span><span class="o">.</span><span class="n">plot_umap</span><span class="p">(</span><span class="n">col</span><span class="p">,</span><span class="s1">&#39;category&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/azimuth.png" class="align-center" src="_images/azimuth.png" style="width: 500px; height: 400px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/final_annotation.png" class="align-center" src="_images/final_annotation.png" style="width: 500px; height: 400px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/pruned.png" class="align-center" src="_images/pruned.png" style="width: 500px; height: 400px;" /></a>
+<p>As you can see, scTriangulate can mix-and-match different resolutions, shown in the <code class="docutils literal notranslate"><span class="pre">final_annotation</span></code> column, and the merged final results have good
+agreement with Azimuth.</p>
+</div>
+<div class="section" id="discover-hidden-heterogeneity">
+<h4>Discover hidden heterogeneity<a class="headerlink" href="#discover-hidden-heterogeneity" title="Permalink to this headline">¶</a></h4>
+<p>scTrangulate, by design, could greedily discover any hidden heterogeneity via levaraging the cluster boundaries from each annotation. Here the scTriangulate
+suggests sub-dividing of CD14 Mono population which has been annotated in Azimuth reference:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># if we run lazy_run</span>
+<span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/after_pruned_assess.p)</span>
+<span class="c1"># if we run manual step-by-step</span>
+<span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/break_point_after_prune.p&#39;</span><span class="p">)</span>
+<span class="c1"># next is the same</span>
+<span class="n">add_azimuth</span><span class="p">(</span><span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="p">,</span><span class="s1">&#39;azimuth_pred.tsv&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;azimuth&#39;</span><span class="p">,</span><span class="s1">&#39;CD14 Mono&#39;</span><span class="p">,</span><span class="s1">&#39;umap&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/mono_umap.png" class="align-center" src="_images/mono_umap.png" style="width: 500px; height: 300px;" /></a>
+<p>Then by pulling out the marker genes the program detected, we reason that it was caused by at least three distinctive sub-groups:</p>
+<ol class="arabic">
+<li><p><strong>classifical CD14+ Monocyte</strong>: CLEC5A, CLEC4D, S100A9</p></li>
+<li><p><strong>intermediate CD14+ Monocyte</strong>: FCGR3A, CLEC10A, HLA-DRA</p></li>
+<li><p><strong>inflammatory CD14+ Monocyte</strong>: MX1, MX2, IF144:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">gene</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;CD14&#39;</span><span class="p">,</span><span class="s1">&#39;FCGR3A&#39;</span><span class="p">,</span><span class="s1">&#39;CLEC10A&#39;</span><span class="p">,</span><span class="s1">&#39;CLEC5A&#39;</span><span class="p">,</span><span class="s1">&#39;CLEC4D&#39;</span><span class="p">,</span><span class="s1">&#39;MX1&#39;</span><span class="p">,</span><span class="s1">&#39;MX2&#39;</span><span class="p">,</span><span class="s1">&#39;IFI44&#39;</span><span class="p">,</span><span class="s1">&#39;S100A9&#39;</span><span class="p">,</span><span class="s1">&#39;HLA-DRA&#39;</span><span class="p">]:</span>
+    <span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;azimuth&#39;</span><span class="p">,</span><span class="s1">&#39;CD14 Mono&#39;</span><span class="p">,</span><span class="s1">&#39;single_gene&#39;</span><span class="p">,</span><span class="n">single_gene</span><span class="o">=</span><span class="n">gene</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;viridis&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<a class="reference external image-reference" href="target"><img alt="_images/mono_markers.png" class="align-center" src="_images/mono_markers.png" style="width: 600px; height: 300px;" /></a>
+</div>
+</div>
+</div>
+<div class="section" id="multi-modal-workflow">
+<span id="reference-to-multi-modal-workflow"></span><h2>Multi-modal workflow<a class="headerlink" href="#multi-modal-workflow" title="Permalink to this headline">¶</a></h2>
+<p>In this example run, we are going to use a CITE-Seq dataset from human total nucleated cells (TNCs). This dataset contains 31 ADTs and in toal 8,491 cells.
+It is normal practice to analyze and cluster each modality’s data seperately, and then try to merge them together. However, to reconcile the clustering
+differences are not a trivial tasks and it requires the simoutaneous consideration of both RNA gene expression and surface protein. Thankfully, scTriangulate
+can help to make the decision.</p>
+<p>the dataset can be downloaded from the <a class="reference external" href="http://altanalyze.org/scTriangulate/CITESeq/TNC_r1-RNA-ADT.h5">website</a>.</p>
+<div class="section" id="load-data-and-preprocessing">
+<h3>Load data and preprocessing<a class="headerlink" href="#load-data-and-preprocessing" title="Permalink to this headline">¶</a></h3>
+<p>Load packages:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span><span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">scanpy</span> <span class="k">as</span> <span class="nn">sc</span>
+<span class="kn">from</span> <span class="nn">sctriangulate</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="o">*</span>
+</pre></div>
+</div>
+<p>Load the data:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">read_10x_h5</span><span class="p">(</span><span class="s1">&#39;28WM_ND19-341__TNC-RNA-ADT.h5&#39;</span><span class="p">,</span><span class="n">gex_only</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">adata_rna</span> <span class="o">=</span> <span class="n">adata</span><span class="p">[:,</span><span class="n">adata</span><span class="o">.</span><span class="n">var</span><span class="p">[</span><span class="s1">&#39;feature_types&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;Gene Expression&#39;</span><span class="p">]</span>
+<span class="n">adata_adt</span> <span class="o">=</span> <span class="n">adata</span><span class="p">[:,</span><span class="n">adata</span><span class="o">.</span><span class="n">var</span><span class="p">[</span><span class="s1">&#39;feature_types&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;Antibody Capture&#39;</span><span class="p">]</span>  <span class="c1"># 8491</span>
+
+<span class="n">adata_rna</span><span class="o">.</span><span class="n">var_names_make_unique</span><span class="p">()</span>
+<span class="n">adata_adt</span><span class="o">.</span><span class="n">var_names_make_unique</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>QC on rna:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata_rna</span><span class="o">.</span><span class="n">var</span><span class="p">[</span><span class="s1">&#39;mt&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">adata_rna</span><span class="o">.</span><span class="n">var_names</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;MT-&#39;</span><span class="p">)</span>
+<span class="n">sc</span><span class="o">.</span><span class="n">pp</span><span class="o">.</span><span class="n">calculate_qc_metrics</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span> <span class="n">qc_vars</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;mt&#39;</span><span class="p">],</span> <span class="n">percent_top</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">log1p</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;n_genes_by_counts&#39;</span><span class="p">,</span><span class="s1">&#39;total_counts&#39;</span><span class="p">,</span><span class="s1">&#39;pct_counts_mt&#39;</span><span class="p">]:</span>
+    <span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">violin</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span><span class="n">key</span><span class="p">,</span><span class="n">jitter</span><span class="o">=</span><span class="mf">0.4</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;qc_rna_violin_</span><span class="si">{}</span><span class="s1">.pdf&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">key</span><span class="p">),</span><span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;n_genes_by_counts&#39;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">&#39;total_counts&#39;</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;pct_counts_mt&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;qc_rna_scatter.pdf&#39;</span><span class="p">,</span><span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_total_counts1.png" class="align-left" src="_images/qc_total_counts1.png" style="width: 320px; height: 250px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_n_genes_by_counts1.png" class="align-right" src="_images/qc_n_genes_by_counts1.png" style="width: 320px; height: 250px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_pct_counts_mt1.png" class="align-left" src="_images/qc_pct_counts_mt1.png" style="width: 320px; height: 250px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/qc_scatter1.png" class="align-right" src="_images/qc_scatter1.png" style="width: 320px; height: 250px;" /></a>
+<p>We filtered out the cells whose min_genes &lt; 300, min_counts &lt; 500, mt &gt; 20%, 6,406 cells kept:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sc</span><span class="o">.</span><span class="n">pp</span><span class="o">.</span><span class="n">filter_cells</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span> <span class="n">min_genes</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+<span class="n">sc</span><span class="o">.</span><span class="n">pp</span><span class="o">.</span><span class="n">filter_cells</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span> <span class="n">min_counts</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+<span class="n">adata_rna</span> <span class="o">=</span> <span class="n">adata_rna</span><span class="p">[</span><span class="n">adata_rna</span><span class="o">.</span><span class="n">obs</span><span class="o">.</span><span class="n">pct_counts_mt</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">,</span> <span class="p">:]</span>
+<span class="n">adata_adt</span> <span class="o">=</span> <span class="n">adata_adt</span><span class="p">[</span><span class="n">adata_rna</span><span class="o">.</span><span class="n">obs_names</span><span class="p">,:]</span>   <span class="c1"># 6406</span>
+</pre></div>
+</div>
+<p>Perform unsupervised Leiden clustering on each of the modality, and then combined two adata object:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata_rna</span> <span class="o">=</span> <span class="n">scanpy_recipe</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span><span class="kc">False</span><span class="p">,</span><span class="n">resolutions</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">modality</span><span class="o">=</span><span class="s1">&#39;rna&#39;</span><span class="p">,</span><span class="n">pca_n_comps</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">adata_adt</span> <span class="o">=</span> <span class="n">scanpy_recipe</span><span class="p">(</span><span class="n">adata_adt</span><span class="p">,</span><span class="kc">False</span><span class="p">,</span><span class="n">resolutions</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">modality</span><span class="o">=</span><span class="s1">&#39;adt&#39;</span><span class="p">,</span><span class="n">pca_n_comps</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+<span class="n">adata_combine</span> <span class="o">=</span> <span class="n">concat_rna_and_other</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span><span class="n">adata_adt</span><span class="p">,</span><span class="n">umap</span><span class="o">=</span><span class="s1">&#39;other&#39;</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;adt&#39;</span><span class="p">,</span><span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;AB_&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/rna3.png" class="align-center" src="_images/rna3.png" style="width: 600px; height: 300px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/adt3.png" class="align-center" src="_images/adt3.png" style="width: 600px; height: 300px;" /></a>
+</div>
+<div class="section" id="id1">
+<h3>Running scTriangulate<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Just use <code class="docutils literal notranslate"><span class="pre">lazy_run()</span></code> function, I have broken it down in the single_modality section:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="p">(</span><span class="nb">dir</span><span class="o">=</span><span class="s1">&#39;output&#39;</span><span class="p">,</span><span class="n">adata</span><span class="o">=</span><span class="n">adata_combine</span><span class="p">,</span><span class="n">add_metrics</span><span class="o">=</span><span class="p">{},</span><span class="n">query</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sctri_adt_leiden_1&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_adt_leiden_2&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_adt_leiden_3&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_2&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_3&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">lazy_run</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>All the intermediate results would be stored at ./output folder.</p>
+</div>
+<div class="section" id="id2">
+<h3>Inspect the results<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>scTriangulate allows the triangulation amongst diverse resolutions and modalities:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># get modality contributions</span>
+<span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/after_pruned_assess.p&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">modality_contributions</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;adt_contribution&#39;</span><span class="p">,</span><span class="s1">&#39;rna_contribution&#39;</span><span class="p">]:</span>
+    <span class="n">sctri</span><span class="o">.</span><span class="n">plot_umap</span><span class="p">(</span><span class="n">col</span><span class="p">,</span><span class="s1">&#39;continuous&#39;</span><span class="p">,</span><span class="n">umap_cmap</span><span class="o">=</span><span class="s1">&#39;viridis&#39;</span><span class="p">)</span>
+
+<span class="c1"># get resolution distribution</span>
+<span class="n">col</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="o">.</span><span class="n">obs</span><span class="p">[</span><span class="s1">&#39;pruned&#39;</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="s1">&#39;leiden_1@&#39;</span> <span class="ow">in</span> <span class="n">item</span><span class="p">:</span>
+        <span class="n">col</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;resolution1&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="s1">&#39;leiden_2@&#39;</span> <span class="ow">in</span> <span class="n">item</span><span class="p">:</span>
+        <span class="n">col</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;resolution2&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="s1">&#39;leiden_3@&#39;</span> <span class="ow">in</span> <span class="n">item</span><span class="p">:</span>
+        <span class="n">col</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;resolution3&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="o">.</span><span class="n">obs</span><span class="p">[</span><span class="s1">&#39;resolution_distribution&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">col</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_umap</span><span class="p">(</span><span class="s1">&#39;resolution_distribution&#39;</span><span class="p">,</span><span class="s1">&#39;category&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/contributions.png" class="align-center" src="_images/contributions.png" style="width: 600px; height: 300px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/resolutions.png" class="align-center" src="_images/resolutions.png" style="width: 400px; height: 300px;" /></a>
+<p>scTriangulate discovers new cell state due to ADT markers, azimuth prediction can be downloaded <a class="reference external" href="http://altanalyze.org/scTriangulate/CITESeq/azimuth_pred.tsv">from here</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="s1">&#39;output/after_pruned_assess.p&#39;</span><span class="p">)</span>
+<span class="n">add_azimuth</span><span class="p">(</span><span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="p">,</span><span class="s1">&#39;azimuth_pred.tsv&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="o">.</span><span class="n">obs</span><span class="p">[</span><span class="s1">&#39;dummy_key&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">(</span><span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="o">.</span><span class="n">obs</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="s1">&#39;dummy_cluster&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;dummy_key&#39;</span><span class="p">,</span><span class="s1">&#39;dummy_cluster&#39;</span><span class="p">,</span><span class="s1">&#39;umap&#39;</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="s1">&#39;azimuth&#39;</span><span class="p">,</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;CD8 TEM&#39;</span><span class="p">,</span><span class="s1">&#39;CD4 CTL&#39;</span><span class="p">,</span><span class="s1">&#39;MAIT&#39;</span><span class="p">,</span><span class="s1">&#39;dnT&#39;</span><span class="p">,</span><span class="s1">&#39;CD8 Naive&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;dummy_key&#39;</span><span class="p">,</span><span class="s1">&#39;dummy_cluster&#39;</span><span class="p">,</span><span class="s1">&#39;umap&#39;</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="s1">&#39;pruned&#39;</span><span class="p">,</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sctri_rna_leiden_3@6&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_2@15&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_adt_leiden_3@37&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_adt_leiden_3@32&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_1@9&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;dummy_key&#39;</span><span class="p">,</span><span class="s1">&#39;dummy_cluster&#39;</span><span class="p">,</span><span class="s1">&#39;single_gene&#39;</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="s1">&#39;azimuth&#39;</span><span class="p">,</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;CD8 TEM&#39;</span><span class="p">,</span><span class="s1">&#39;CD4 CTL&#39;</span><span class="p">,</span><span class="s1">&#39;MAIT&#39;</span><span class="p">,</span><span class="s1">&#39;dnT&#39;</span><span class="p">,</span><span class="s1">&#39;CD8 Naive&#39;</span><span class="p">],</span><span class="n">single_gene</span><span class="o">=</span><span class="s1">&#39;AB_CD56&#39;</span><span class="p">,</span><span class="n">umap_cmap</span><span class="o">=</span><span class="s1">&#39;viridis&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/novel.png" class="align-center" src="_images/novel.png" style="width: 600px; height: 350px;" /></a>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="principle.html" class="btn btn-neutral float-right" title="Principle" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Guangyuan(Frank) Li.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

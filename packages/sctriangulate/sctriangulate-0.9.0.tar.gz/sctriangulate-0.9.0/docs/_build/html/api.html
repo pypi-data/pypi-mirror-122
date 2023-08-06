@@ -1,0 +1,1819 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>API &mdash; scTriangulate 0.9.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contact" href="contact.html" />
+    <link rel="prev" title="Principle" href="principle.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> scTriangulate
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="principle.html">Principle</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sctriangulate-class-methods">ScTriangulate Class Methods</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#static-salvage-run">(static) salvage_run()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#statis-deserialize">(statis) deserialize()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-new-metrics">add_new_metrics()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-to-invalid">add_to_invalid()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-to-invalid-by-win-fraction">add_to_invalid_by_win_fraction()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clear-invalid">clear_invalid()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#compute-metrics">compute_metrics()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#compute-shapley">compute_shapley()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#confusion-to-df">confusion_to_df()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#display-hierarchy">display_hierarchy()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#doublet-predict">doublet_predict()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gene-to-df">gene_to_df()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-metrics-and-shapley">get_metrics_and_shapley()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lazy-run">lazy_run()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#modality-contributions">modality_contributions()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#penalize-artifact">penalize_artifact()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-clusterability">plot_clusterability()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-cluster-feature">plot_cluster_feature()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-concordance">plot_concordance()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-confusion">plot_confusion()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-heterogeneity">plot_heterogeneity()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-long-heatmap">plot_long_heatmap()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-multi-modal-feature-rank">plot_multi_modal_feature_rank()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-umap">plot_umap()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-winners-statistics">plot_winners_statistics()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pruning">pruning()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#regress-out-size-effect">regress_out_size_effect()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#run-single-key-assessment">run_single_key_assessment()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serialize">serialize()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#viewer-cluster-feature-figure">viewer_cluster_feature_figure()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#viewer-cluster-feature-html">viewer_cluster_feature_html()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#viewer-heterogeneity-figure">viewer_heterogeneity_figure()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#viewer-heterogeneity-html">viewer_heterogeneity_html()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#preprocessing-module">Preprocessing Module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#geneconvert-class">GeneConvert Class</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#normalization-class">Normalization Class</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#small-txt-to-adata">small_txt_to_adata()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#large-txt-to-mtx">large_txt_to_mtx()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mtx-to-adata">mtx_to_adata()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mtx-to-large-txt">mtx_to_large_txt()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-azimuth">add_azimuth()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-annotations">add_annotations()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-umap">add_umap()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">doublet_predict()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#make-sure-adata-writable">make_sure_adata_writable()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#scanpy-recipe">scanpy_recipe()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#concat-rna-and-other">concat_rna_and_other()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#umap-dual-view-save">umap_dual_view_save()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#make-sure-mat-dense">make_sure_mat_dense()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#make-sure-mat-sparse">make_sure_mat_sparse()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gene-activity-count-matrix-old-10x">gene_activity_count_matrix_old_10x()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gene-activity-count-matrix-new-10x">gene_activity_count_matrix_new_10x()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#find-genes">find_genes()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reformat-peak">reformat_peak()</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#colors-module">Colors Module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#retrieve-pretty-cmap">retrieve_pretty_cmap()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#retrieve-pretty-colors">retrieve_pretty_colors()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pick-n-colors">pick_n_colors()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#colors-for-set">colors_for_set()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bg-greyed-cmap">bg_greyed_cmap()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generate-block">generate_block()</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generate-gradient">generate_gradient()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">scTriangulate</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>API</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/api.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="api">
+<h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="sctriangulate-class-methods">
+<h2>ScTriangulate Class Methods<a class="headerlink" href="#sctriangulate-class-methods" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.</span></span><span class="sig-name descname"><span class="pre">ScTriangulate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">dir</span></em>, <em class="sig-param"><span class="pre">adata</span></em>, <em class="sig-param"><span class="pre">query</span></em>, <em class="sig-param"><span class="pre">species='human'</span></em>, <em class="sig-param"><span class="pre">criterion=2</span></em>, <em class="sig-param"><span class="pre">verbose=1</span></em>, <em class="sig-param"><span class="pre">reference=None</span></em>, <em class="sig-param"><span class="pre">add_metrics={'tfidf5':</span> <span class="pre">&lt;function</span> <span class="pre">tf_idf5_for_cluster&gt;}</span></em>, <em class="sig-param"><span class="pre">predict_doublet=True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate" title="Permalink to this definition">¶</a></dt>
+<dd><p>How to create/instantiate ScTriangulate object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dir</strong> – Output folder path on the disk</p></li>
+<li><p><strong>adata</strong> – input adata file</p></li>
+<li><p><strong>query</strong> – a python list contains the annotation names to query</p></li>
+</ul>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">adata</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s1">&#39;pbmc3k_azimuth_umap.h5ad&#39;</span><span class="p">)</span>
+<span class="n">sctri</span> <span class="o">=</span> <span class="n">ScTriangulate</span><span class="p">(</span><span class="nb">dir</span><span class="o">=</span><span class="s1">&#39;./output&#39;</span><span class="p">,</span><span class="n">adata</span><span class="o">=</span><span class="n">adata</span><span class="p">,</span><span class="n">query</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;leiden2&#39;</span><span class="p">,</span><span class="s1">&#39;leiden3&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<div class="section" id="static-salvage-run">
+<h3>(static) salvage_run()<a class="headerlink" href="#static-salvage-run" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.salvage_run">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">salvage_run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">step_to_start</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">last_step_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">compute_metrics_parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_sccaf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">compute_shapley_parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">win_fraction_cutoff</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.25</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reassign_abs_thresh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">assess_pruned</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_cluster</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_cluster_keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_heterogeneity</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_heterogeneity_keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.salvage_run" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is a static method, which allows to user to resume running scTriangulate from certain point, instead of running from very 
+beginning if the intermediate files are present and intact.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>step_to_start</strong> – string, now support ‘assess_pruned’.</p></li>
+<li><p><strong>last_step_file</strong> – string, the path to the intermediate from which we start the salvage run.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Other parameters are the same as <code class="docutils literal notranslate"><span class="pre">lazy_run</span></code> function.</p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ScTriangulate</span><span class="o">.</span><span class="n">salvage_run</span><span class="p">(</span><span class="n">step_to_start</span><span class="o">=</span><span class="s1">&#39;assess_pruned&#39;</span><span class="p">,</span><span class="n">last_step_file</span><span class="o">=</span><span class="s1">&#39;output/after_rank_pruning.p&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="statis-deserialize">
+<h3>(statis) deserialize()<a class="headerlink" href="#statis-deserialize" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.deserialize">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">deserialize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.deserialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is static method, to deserialize a pickle file on the disk back to the ram as a sctri object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> – string, the name of the pickle file on the disk.</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ScTriangulate</span><span class="o">.</span><span class="n">deserialize</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;after_rank_pruning.p&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="add-new-metrics">
+<h3>add_new_metrics()<a class="headerlink" href="#add-new-metrics" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.add_new_metrics">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">add_new_metrics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">add_metrics</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.add_new_metrics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Users can add new callable or pre-implemented function to the sctri.metrics attribute.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>add_metrics</strong> – dictionary like {‘metric_name’: callable}, the callable can be a string of a scTriangulate pre-implemented function, for example,
+‘tfidf5’,’tfidf1’. Or a callable.</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">add_new_metrics</span><span class="p">(</span><span class="n">add_metrics</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;tfidf1&#39;</span><span class="p">:</span><span class="n">tfidf1</span><span class="p">})</span>  <span class="c1"># make sure first from sctriangualte.metrics import tfidf1</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="add-to-invalid">
+<h3>add_to_invalid()<a class="headerlink" href="#add-to-invalid" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.add_to_invalid">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">add_to_invalid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">invalid</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.add_to_invalid" title="Permalink to this definition">¶</a></dt>
+<dd><p>add individual raw cluster names to the sctri.invalid attribute list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>invalid</strong> – list or string, contains the raw cluster names to add</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">add_to_invalid</span><span class="p">(</span><span class="n">invalid</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;annotation1@c3&#39;</span><span class="p">,</span><span class="s1">&#39;annotation2@4&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">add_to_invalid</span><span class="p">(</span><span class="n">invalid</span><span class="o">=</span><span class="s1">&#39;annotation1@3&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="add-to-invalid-by-win-fraction">
+<h3>add_to_invalid_by_win_fraction()<a class="headerlink" href="#add-to-invalid-by-win-fraction" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.add_to_invalid_by_win_fraction">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">add_to_invalid_by_win_fraction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">percent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.25</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.add_to_invalid_by_win_fraction" title="Permalink to this definition">¶</a></dt>
+<dd><p>add individual raw cluster names to the sctri.invalid attribute list by win_fraction</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>percent</strong> – float, from 0-1, the fraction of cells within a cluster that were kept after the game. Default: 0.25</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">add_to_invalid_by_win_fraction</span><span class="p">(</span><span class="n">percent</span><span class="o">=</span><span class="mf">0.25</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="clear-invalid">
+<h3>clear_invalid()<a class="headerlink" href="#clear-invalid" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.clear_invalid">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">clear_invalid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.clear_invalid" title="Permalink to this definition">¶</a></dt>
+<dd><p>reset/clear the sctri.invalid to an empty list</p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">clear_invalid</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="compute-metrics">
+<h3>compute_metrics()<a class="headerlink" href="#compute-metrics" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.compute_metrics">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">compute_metrics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_sccaf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.compute_metrics" title="Permalink to this definition">¶</a></dt>
+<dd><p>main function for computing the metrics (defined by self.metrics) of each clusters in each annotation.
+After the run, q (# query) * m (# metrics) columns will be added to the adata.obs, the column like will be like
+<a class="reference external" href="mailto:{metric_name}&#37;&#52;&#48;{query_annotation_name">{metric_name}<span>&#64;</span>{query_annotation_name</a>}, i.e. <a class="reference external" href="mailto:reassign&#37;&#52;&#48;sctri_rna_leiden_1">reassign<span>&#64;</span>sctri_rna_leiden_1</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>parallel</strong> – boolean, whether to run in parallel. Since computing metrics for each query annotation is idependent,
+the program will automatically employ q (# query) cores under the hood. If you want to fully leverage
+this feature, please make sure you specify at least q (# query) cores when running the program. It is highly
+recommend to run this in parallel. However, when the dataset is super large and have &gt; 10 query annotation, 
+we may encounter RAM overhead, in this case, sequential mode will be needed. Default: True</p></li>
+<li><p><strong>scale_sccaf</strong> – boolean, when running SCCAF score, since it is a logistic regression problem at its core, this parameter 
+controls whether scale the expression data or not. It is recommended to scale the data for any machine learning
+algorithm, however, the liblinaer solver has been demonstrated to be robust to the scale/unscale options. When
+the dataset &gt; 50,000 cells or features &gt; 1000000 (ATAC peaks), it is advised to not scale it for faster running time.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">compute_metrics</span><span class="p">(</span><span class="n">parallel</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">scale_sccaf</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="compute-shapley">
+<h3>compute_shapley()<a class="headerlink" href="#compute-shapley" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.compute_shapley">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">compute_shapley</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.compute_shapley" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main core function, after obtaining the metrics for each cluster. For each single cell, let’s calculate the shapley
+value for each annotation and assign the cluster to the one with highest shapley value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>parallel</strong> – boolean. Whether to run it in parallel. (scatter and gather). Default: True</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">compute_shapley</span><span class="p">(</span><span class="n">parallel</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="confusion-to-df">
+<h3>confusion_to_df()<a class="headerlink" href="#confusion-to-df" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.confusion_to_df">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">confusion_to_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.confusion_to_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print out the confusion matrix with cluster labels (dataframe).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mode</strong> – either ‘confusion_reassign’ or ‘confusion_sccaf’</p></li>
+<li><p><strong>mode</strong> – python string, for example, ‘annotation1’</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">confusion_to_df</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;confusion_reassign&#39;</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;annotation1&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="display-hierarchy">
+<h3>display_hierarchy()<a class="headerlink" href="#display-hierarchy" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.display_hierarchy">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">display_hierarchy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">query_col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.display_hierarchy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Display the hierarchy of suggestive sub-clusterings, see the example results down the page.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ref_col</strong> – string, the annotation/column name in adata.obs which we want to inspect how it can be sub-divided</p></li>
+<li><p><strong>query_col</strong> – string, either ‘raw’ or ‘pruned’</p></li>
+<li><p><strong>save</strong> – boolean, whether to save it to a file or stdout. Default: True</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">display_hierarchy</span><span class="p">(</span><span class="n">ref_col</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="n">query_col</span><span class="o">=</span><span class="s1">&#39;raw&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/display_hierarchy.png" class="align-center" src="_images/display_hierarchy.png" style="width: 300px; height: 400px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="doublet-predict">
+<h3>doublet_predict()<a class="headerlink" href="#doublet-predict" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.doublet_predict">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">doublet_predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.doublet_predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>wrapper function of running scrublet, will add a column on adata.obs called ‘doublet_scores’</p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">doublet_predict</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="gene-to-df">
+<h3>gene_to_df()<a class="headerlink" href="#gene-to-df" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.gene_to_df">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">gene_to_df</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">raw</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'purify'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.gene_to_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>Output {mode} genes for all clusters in one annotation (key), mode can be either ‘marker_genes’ or ‘exclusive_genes’.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mode</strong> – python string, either ‘marker_genes’ or ‘exclusive_genes’</p></li>
+<li><p><strong>key</strong> – python string, annotation name</p></li>
+<li><p><strong>raw</strong> – False will generate non-raw (human readable) format. Default: False</p></li>
+<li><p><strong>col</strong> – Only when mode==’marker_genes’, whether output ‘whole’ column or ‘purify’ column. Default: purify</p></li>
+<li><p><strong>n</strong> – Only when mode==’exclusive_genes’, how many top exclusively expressed genes will be printed for each cluster.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">gene_to_df</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;marker_genes&#39;</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;annotation1&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">gene_to_df</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;exclusive_genes&#39;</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;annotation1&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="get-metrics-and-shapley">
+<h3>get_metrics_and_shapley()<a class="headerlink" href="#get-metrics-and-shapley" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.get_metrics_and_shapley">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">get_metrics_and_shapley</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">barcode</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.get_metrics_and_shapley" title="Permalink to this definition">¶</a></dt>
+<dd><p>For one single cell, given barcode/or other unique index, generate the all conflicting cluster from each annotation,
+along with the metrics associated with each cluster, including shapley value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>barcode</strong> – string, the barcode for the cell you want to query.</p></li>
+<li><p><strong>save</strong> – save the returned dataframe to directory or not. Default: True</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>DataFrame</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">confusion_to_df</span><span class="p">(</span><span class="n">barcode</span><span class="o">=</span><span class="s1">&#39;AAACCCACATCCAATG-1&#39;</span><span class="p">,</span><span class="n">save</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/get_metrics_and_shapley.png" class="align-center" src="_images/get_metrics_and_shapley.png" style="width: 700px; height: 100px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="lazy-run">
+<h3>lazy_run()<a class="headerlink" href="#lazy-run" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.lazy_run">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">lazy_run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">compute_metrics_parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_sccaf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">compute_shapley_parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">win_fraction_cutoff</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.25</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reassign_abs_thresh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">assess_pruned</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_cluster</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_cluster_keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_heterogeneity</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">viewer_heterogeneity_keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.lazy_run" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is the highest level wrapper function for running every step in one goal.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>compute_metrics_parallel</strong> – boolean, whether to parallelize <code class="docutils literal notranslate"><span class="pre">compute_metrics</span></code> step. Default: True</p></li>
+<li><p><strong>scale_sccaf</strong> – boolean, whether to first scale the expression matrix before running sccaf score. Default: True</p></li>
+<li><p><strong>compute_shapley_parallel</strong> – boolean, whether to parallelize <code class="docutils literal notranslate"><span class="pre">compute_parallel</span></code> step. Default: True</p></li>
+<li><p><strong>win_fraction_cutoff</strong> – float, between 0-1, the cutoff for function <code class="docutils literal notranslate"><span class="pre">add_invalid_by_win_fraction</span></code>. Default: 0.25</p></li>
+<li><p><strong>reassign_abs_thresh</strong> – int, the cutoff for minimum number of cells a valid cluster should haves. Default: 10</p></li>
+<li><p><strong>assess_pruned</strong> – boolean, whether to run same cluster assessment metrics on final pruned cluster labels. Default: True</p></li>
+<li><p><strong>viewer_cluster</strong> – boolean, whether to build viewer html page for all clusters’ diagnostic information. Default: True</p></li>
+<li><p><strong>viewer_cluster_keys</strong> – list, clusters from what annotations we want to view on the viewer, only clusters within this annotation whose diagnostic
+plot will be generated under the dir name <em>figure4viewer</em>. Default: None, means all annotations in the sctri.query will be 
+used.</p></li>
+<li><p><strong>viewer_heterogeneity</strong> – boolean, whether to build the viewer to show the heterogeneity based on one reference annotation. Default: True</p></li>
+<li><p><strong>viewer_heterogeneity_keys</strong> – list, the annotations we want to serve as the reference. Default: None, means the first annotation in sctri.query
+will be used as the reference.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">lazy_run</span><span class="p">(</span><span class="n">viewer_heterogeneity_keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;annotation1&#39;</span><span class="p">,</span><span class="s1">&#39;annotation2&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="modality-contributions">
+<h3>modality_contributions()<a class="headerlink" href="#modality-contributions" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.modality_contributions">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">modality_contributions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'marker_genes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pruned'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tops</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">regex_adt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'^AB_'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">regex_atac</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'^chr\\d{1,2}'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.modality_contributions" title="Permalink to this definition">¶</a></dt>
+<dd><p>calculate teh modality contributions for multi modal analysis, the modality contributions of each modality of each cluster means
+the number of features from this modality that made into the top {tops} feature list. Three columns will be added to obs, they are</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>adt_contribution</strong></p></li>
+<li><p><strong>atac_contribution</strong></p></li>
+<li><p><strong>rna_contribution</strong></p></li>
+</ul>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mode</strong> – string, either ‘marker_genes’ or ‘exclusive_genes’.</p></li>
+<li><p><strong>key</strong> – string, any valid categorical column in self.adata.obs</p></li>
+<li><p><strong>tops</strong> – int, the top n features to consider for each cluster.</p></li>
+<li><p><strong>regex_adt</strong> – raw string, the pattern by which the ADT feature will be defined.</p></li>
+<li><p><strong>regex_atac</strong> – raw string ,the pattern by which the atac feature will be defined.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">modality_contributions</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;marker_genes&#39;</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;pruned&#39;</span><span class="p">,</span><span class="n">tops</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="penalize-artifact">
+<h3>penalize_artifact()<a class="headerlink" href="#penalize-artifact" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.penalize_artifact">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">penalize_artifact</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stamps</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.penalize_artifact" title="Permalink to this definition">¶</a></dt>
+<dd><p>An optional step after running <code class="docutils literal notranslate"><span class="pre">compute_metrics</span></code> step and before the <code class="docutils literal notranslate"><span class="pre">compute_shapley</span></code> step.
+Basically, we penalize clusters with certain properties by set all their metrics to zero, which forbid them to
+win in the following “game” step. These undesirable properties can be versatial, for example, cellcylce gene 
+enrichment. We current support two mode:</p>
+<ol class="arabic simple">
+<li><p>mode1: <code class="docutils literal notranslate"><span class="pre">void</span></code>, users specifiy which cluster they want to penalize via <code class="docutils literal notranslate"><span class="pre">stamps</span></code> parameter.</p></li>
+<li><p>mode2: <code class="docutils literal notranslate"><span class="pre">cellcycle</span></code>, program automatically label clusters whose gsea_hit &gt; 5 and gsea_score &gt; 0.8 as invalid cellcyle
+enriched clusters. And those clusters will be penalized.</p></li>
+</ol>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mode</strong> – string, either ‘void’ or ‘cellcycle’.</p></li>
+<li><p><strong>stamps</strong> – list, contains cluster names that the users want to penalize.</p></li>
+<li><p><strong>parallel</strong> – boolean, whether to run this in parallel (scatter and gather). Default: True.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">penalize_artifact</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;void&#39;</span><span class="p">,</span><span class="n">stamps</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;sctri_rna_leiden_1@c3&#39;</span><span class="p">,</span><span class="s1">&#39;sctri_rna_leiden_2@c5&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">penalize_artifact</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;cellcyle&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-clusterability">
+<h3>plot_clusterability()<a class="headerlink" href="#plot-clusterability" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_clusterability">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_clusterability</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fontsize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">plot</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_clusterability" title="Permalink to this definition">¶</a></dt>
+<dd><p>We define clusterability as the number of sub-clusters the program finds out. If a cluster has being suggested to be divided into
+three smaller clusters, then the clueterability of this cluster will be 3.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – string. The clusters from which annotation that you want to assess clusterability.</p></li>
+<li><p><strong>col</strong> – string. Either ‘raw’ cluster or ‘pruned’ cluster.</p></li>
+<li><p><strong>fontsize</strong> – int. The fontsize of x-ticklabels. Default: 3</p></li>
+<li><p><strong>plot</strong> – boolean. Whether to plot the scatterplot or not. Default : True.</p></li>
+<li><p><strong>save</strong> – boolean. Whether to save the plot or not. Default: True</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>python dictionary. {cluster1:#sub-clusters}</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_clusterability</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="s1">&#39;raw&#39;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/plot_clusterability.png" class="align-center" src="_images/plot_clusterability.png" style="width: 400px; height: 300px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-cluster-feature">
+<h3>plot_cluster_feature()<a class="headerlink" href="#plot-cluster-feature" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_cluster_feature">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_cluster_feature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cluster</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">enrichment_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'enrichr'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pdf'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_cluster_feature" title="Permalink to this definition">¶</a></dt>
+<dd><p>plot the feature of each single clusters, including:</p>
+<ol class="arabic simple">
+<li><p>enrichment of artifact genes</p></li>
+<li><p>marker genes umap</p></li>
+<li><p>exclusive genes umap</p></li>
+<li><p>location of clutser umap</p></li>
+</ol>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – string. Name of the annation.</p></li>
+<li><p><strong>cluster</strong> – string. Name of the cluster in the annotation.</p></li>
+<li><p><strong>feature</strong> – string, valid value: ‘enrichment’,’marker_genes’, ‘exclusive_genes’, ‘location’</p></li>
+<li><p><strong>enrichmen_type</strong> – string, either ‘enrichr’ or ‘gsea’.</p></li>
+<li><p><strong>save</strong> – boolean, whether to save the figure.</p></li>
+<li><p><strong>format</strong> – string, which format for the saved figure.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_cluster_feature</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="n">cluster</span><span class="o">=</span><span class="s1">&#39;3&#39;</span><span class="p">,</span><span class="n">feature</span><span class="o">=</span><span class="s1">&#39;enrichment&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/enrichment.png" class="align-center" src="_images/enrichment.png" style="width: 400px; height: 300px;" /></a>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_cluster_feature</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="n">cluster</span><span class="o">=</span><span class="s1">&#39;3&#39;</span><span class="p">,</span><span class="n">feature</span><span class="o">=</span><span class="s1">&#39;marker_genes&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/marker_genes.png" class="align-center" src="_images/marker_genes.png" style="width: 800px; height: 250px;" /></a>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_cluster_feature</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">,</span><span class="n">cluster</span><span class="o">=</span><span class="s1">&#39;3&#39;</span><span class="p">,</span><span class="n">feature</span><span class="o">=</span><span class="s1">&#39;location&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/location.png" class="align-center" src="_images/location.png" style="width: 400px; height: 300px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-concordance">
+<h3>plot_concordance()<a class="headerlink" href="#plot-concordance" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_concordance">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_concordance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">self</span></em>, <em class="sig-param"><span class="pre">key1</span></em>, <em class="sig-param"><span class="pre">key2</span></em>, <em class="sig-param"><span class="pre">style='3dbar'</span></em>, <em class="sig-param"><span class="pre">save=True</span></em>, <em class="sig-param"><span class="pre">format='pdf'</span></em>, <em class="sig-param"><span class="pre">cmap=&lt;matplotlib.colors.LinearSegmentedColormap</span> <span class="pre">object&gt;</span></em>, <em class="sig-param"><span class="pre">**kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_concordance" title="Permalink to this definition">¶</a></dt>
+<dd><p>given two annotation, we want to know how the cluster labels from one correponds to the other.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key1</strong> – string, first annotation key</p></li>
+<li><p><strong>key2</strong> – string, second annotation key</p></li>
+<li><p><strong>style</strong> – string, which style of plot, either ‘heatmap’ or ‘3dbar’</p></li>
+<li><p><strong>save</strong> – boolean, save the figure or not</p></li>
+<li><p><strong>format</strong> – string, format to save</p></li>
+<li><p><strong>cmap</strong> – string or cmap object, the cmap to use for heatmap</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dataframe, the confusion matrix</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_concordance</span><span class="p">(</span><span class="n">key1</span><span class="o">=</span><span class="s1">&#39;azimuth&#39;</span><span class="p">,</span><span class="n">key2</span><span class="o">=</span><span class="s1">&#39;pruned&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="s1">&#39;3dbar&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/3dbar.png" class="align-center" src="_images/3dbar.png" style="width: 400px; height: 350px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-confusion">
+<h3>plot_confusion()<a class="headerlink" href="#plot-confusion" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_confusion">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_confusion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">self</span></em>, <em class="sig-param"><span class="pre">name</span></em>, <em class="sig-param"><span class="pre">key</span></em>, <em class="sig-param"><span class="pre">save=True</span></em>, <em class="sig-param"><span class="pre">format='pdf'</span></em>, <em class="sig-param"><span class="pre">cmap=&lt;matplotlib.colors.LinearSegmentedColormap</span> <span class="pre">object&gt;</span></em>, <em class="sig-param"><span class="pre">**kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_confusion" title="Permalink to this definition">¶</a></dt>
+<dd><p>plot the confusion as a heatmap.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – string, either ‘confusion_reassign’ or ‘confusion_sccaf’.</p></li>
+<li><p><strong>key</strong> – string, a annotation name which we want to assess the confusion matrix of the clusters.</p></li>
+<li><p><strong>save</strong> – boolean, whether to save the figure. Default: True.</p></li>
+<li><p><strong>format</strong> – boolean, file format to save. Default: ‘.pdf’.</p></li>
+<li><p><strong>cmap</strong> – colormap object, Default: scphere_cmap, which defined in colors module.</p></li>
+<li><p><strong>kwargs</strong> – additional keyword arguments to sns.heatmap().</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_confusion</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;confusion_reassign&#39;</span><span class="p">,</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_1&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/pc.png" class="align-center" src="_images/pc.png" style="width: 400px; height: 300px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-heterogeneity">
+<h3>plot_heterogeneity()<a class="headerlink" href="#plot-heterogeneity" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_heterogeneity">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_heterogeneity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cluster</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">style</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pruned'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pdf'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">genes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">umap_zoom_out</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">umap_dot_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subset</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">marker_gene_dict</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">jitter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">60</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">single_gene</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dual_gene</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">multi_gene</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">merge</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to_sinto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to_samtools</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cmap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'YlOrRd'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwarg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_heterogeneity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Core plotting function in scTriangulate.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – string, the name of the annotation.</p></li>
+<li><p><strong>cluster</strong> – string, the name of the cluster.</p></li>
+<li><p><strong>stype</strong> – <p>string, valid values are as below:</p>
+<ul>
+<li><p><strong>umap</strong>: plot the umap of this cluster (including its location and its suggestive heterogeneity)</p></li>
+<li><p><strong>heatmap</strong>: plot the heatmap of the differentially expressed features across all sub-populations within this cluster.</p></li>
+<li><p><strong>build</strong>: plot both the umap and heatmap, benefit is the column and raw colorbar of the heatmap is consistent with the umap color</p></li>
+<li><p><strong>heatmap_custom_gene</strong>, plot the heatmap, but with user-defined gene dictionary.</p></li>
+<li><p><strong>heatmap+umap</strong>, it is the umap + heatmap_custom_gene, and the colorbars are matching</p></li>
+<li><p><strong>violin</strong>: plot the violin plot of the specified genes across sub populations.</p></li>
+<li><p><strong>single_gene</strong>: plot the gradient of single genes across the cluster.</p></li>
+<li><p><strong>dual_gene</strong>: plot the dual-gene plot of two genes across the cluster, usually these two genes should correspond to the marker genes in two of the sub-populations.</p></li>
+<li><p><strong>multi_gene</strong>: plot the multi-gene plot of multiple genes across the cluster.</p></li>
+<li><p><strong>cellxgene</strong>: output the h5ad object which are readily transferrable to cellxgene. It also support atac pseudobuld analysis with <code class="docutils literal notranslate"><span class="pre">to_sinto</span></code> or <code class="docutils literal notranslate"><span class="pre">to_samtools</span></code> arguments.</p></li>
+<li><p><strong>sankey</strong>: plot the sankey plot showing fraction/percentage of cells that flow into each sub population</p></li>
+</ul>
+</p></li>
+<li><p><strong>col</strong> – string, either ‘raw’ or ‘pruned’.</p></li>
+<li><p><strong>save</strong> – boolean, whether to save or not.</p></li>
+<li><p><strong>foramt</strong> – string, which format to save.</p></li>
+<li><p><strong>genes</strong> – list, for violin plot.</p></li>
+<li><p><strong>umap_zoom_out</strong> – boolean, for the umap, whether to zoom out meaning the scale is the same of the whole umap. Zoom in means an amplified version of this cluster.</p></li>
+<li><p><strong>umap_dot_size</strong> – int/float, for the umap.</p></li>
+<li><p><strong>subset</strong> – list, the sub populations we want to keep for plotting.</p></li>
+<li><p><strong>marker_gene_dict</strong> – dict. The custom genes we want the heatmap to display.</p></li>
+<li><p><strong>jitter</strong> – float, for the violin plot.</p></li>
+<li><p><strong>rotation</strong> – int/float, for the violin plot. rotation of the text. Default: 60</p></li>
+<li><p><strong>single_gene</strong> – string, the gene name for single gene plot</p></li>
+<li><p><strong>dual_gene</strong> – list, the dual genes for dual gene plot.</p></li>
+<li><p><strong>multi_genes</strong> – list, the multiple genes for multi gene plot.</p></li>
+<li><p><strong>merge</strong> – nested list, the sub-populations that we want to merge. [(‘sub-c1’,’sub-c2’),(‘sub-c3’,’sub-c4’)]</p></li>
+<li><p><strong>to_sinto</strong> – boolean, for cellxgene mode, output the txt files for running sinto to generate pseudobulk bam files.</p></li>
+<li><p><strong>to_samtools</strong> – boolean,for cellxgene mode, output the txt files for running samtools to generate the pseudobulk bam files.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;umap&#39;</span><span class="p">,</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;leiden1@0&#39;</span><span class="p">,</span><span class="s1">&#39;leiden3@10&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;heatmap&#39;</span><span class="p">,</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;leiden1@0&#39;</span><span class="p">,</span><span class="s1">&#39;leiden3@10&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;violin&#39;</span><span class="p">,</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;leiden1@0&#39;</span><span class="p">,</span><span class="s1">&#39;leiden3@10&#39;</span><span class="p">],</span><span class="n">genes</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;MAPK14&#39;</span><span class="p">,</span><span class="s1">&#39;ANXA1&#39;</span><span class="p">])</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;sankey&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;cellxgene&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;heatmap+umap&#39;</span><span class="p">,</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;leiden1@0&#39;</span><span class="p">,</span><span class="s1">&#39;leiden3@10&#39;</span><span class="p">],</span><span class="n">marker_gene_dict</span><span class="o">=</span><span class="n">marker_gene_dict</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_heterogeneity</span><span class="p">(</span><span class="s1">&#39;leiden1&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;dual_gene&#39;</span><span class="p">,</span><span class="n">dual_gene</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;MAPK14&#39;</span><span class="p">,</span><span class="s1">&#39;CD52&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-long-heatmap">
+<h3>plot_long_heatmap()<a class="headerlink" href="#plot-long-heatmap" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_long_heatmap">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_long_heatmap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">clusters</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pruned'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_features</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'marker_genes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cmap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'viridis'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pdf'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">figsize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(6,</span> <span class="pre">4.8)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_fontsize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cluster_fontsize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_long_heatmap" title="Permalink to this definition">¶</a></dt>
+<dd><p>the default scanpy heatmap is not able to support the display of arbitrary number of marker genes for each clusters, the max feature is 50.
+this heatmap allows you to specify as many marker genes for each cluster as possible, and the gene name will all the displayed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>clusters</strong> – list, what clusters we want to consider under a certain annotation.</p></li>
+<li><p><strong>key</strong> – string, annotation name.</p></li>
+<li><p><strong>n_features</strong> – int, the number of features to display.</p></li>
+<li><p><strong>mode</strong> – string, either ‘marker_genes’ or ‘exclusive_genes’.</p></li>
+<li><p><strong>cmap</strong> – string, matplotlib cmap string.</p></li>
+<li><p><strong>save</strong> – boolean, whether to save or not.</p></li>
+<li><p><strong>format</strong> – string, which format to save.</p></li>
+<li><p><strong>figsize</strong> – tuple, the width and the height of the plot.</p></li>
+<li><p><strong>feature_fontsize</strong> – int/float. the fontsize for the feature.</p></li>
+<li><p><strong>cluster_fontsize</strong> – int/float, the fontsize for the cluster.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_long_umap</span><span class="p">(</span><span class="n">n_features</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">20</span><span class="p">))</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/long_heatmap.png" class="align-center" src="_images/long_heatmap.png" style="width: 550px; height: 550px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-multi-modal-feature-rank">
+<h3>plot_multi_modal_feature_rank()<a class="headerlink" href="#plot-multi-modal-feature-rank" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_multi_modal_feature_rank">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_multi_modal_feature_rank</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cluster</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'marker_genes'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pruned'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tops</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">regex_adt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'^AB_'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">regex_atac</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'^chr\\d{1,2}'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'.pdf'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_multi_modal_feature_rank" title="Permalink to this definition">¶</a></dt>
+<dd><p>plot the top features in each clusters, the features are colored by the modality and ranked by the importance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>cluster</strong> – string, the name of the cluster.</p></li>
+<li><p><strong>mode</strong> – string, either ‘marker_genes’ or ‘exclusive_genes’</p></li>
+<li><p><strong>tops</strong> – int, top n features to plot.</p></li>
+<li><p><strong>regex_adt</strong> – raw string, the pattern by which the ADT feature will be defined.</p></li>
+<li><p><strong>regex_atac</strong> – raw string ,the pattern by which the atac feature will be defined.</p></li>
+<li><p><strong>save</strong> – boolean, whether to save the figures.</p></li>
+<li><p><strong>format</strong> – string, the format the figure will be saved.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_multi_modal_feature_rank</span><span class="p">(</span><span class="n">cluster</span><span class="o">=</span><span class="s1">&#39;sctri_rna_leiden_2@10&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/plot_multi_modal_feature_rank.png" class="align-center" src="_images/plot_multi_modal_feature_rank.png" style="width: 500px; height: 550px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-umap">
+<h3>plot_umap()<a class="headerlink" href="#plot-umap" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_umap">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_umap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kind</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'category'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pdf'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">umap_dot_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">umap_cmap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'YlOrRd'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frameon</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_umap" title="Permalink to this definition">¶</a></dt>
+<dd><p>plotting the umap with either category cluster label or continous metrics are important. Different from the scanpy 
+vanilla plot function, this function automatically generate two umap, one with legend on side and another with legend on data, which
+usually will be very helpful imagine you have &gt; 40 clusters. Secondly, we automatically make all the background dot as light grey, instead of
+dark color.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>col</strong> – string, which column in self.adata.obs that we want to plot umap from.</p></li>
+<li><p><strong>kind</strong> – string, either ‘category’ or ‘continuous’</p></li>
+<li><p><strong>save</strong> – boolean, whether to save it to disk or not. Default: True</p></li>
+<li><p><strong>format</strong> – string. Which format to save. Default: ‘.pdf’</p></li>
+<li><p><strong>umap_dot_size</strong> – int/float. the size of dot in scatter plot, if None, using scanpy formula, 120000/n_cells</p></li>
+<li><p><strong>umap_cmap</strong> – string, the matplotlib colormap to use. Default: ‘YlOrRd’</p></li>
+<li><p><strong>frameon</strong> – boolean, whether to have the frame on the umap. Default: False</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_umap</span><span class="p">(</span><span class="n">col</span><span class="o">=</span><span class="s1">&#39;pruned&#39;</span><span class="p">,</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;category&#39;</span><span class="p">)</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">plot_umap</span><span class="p">(</span><span class="n">col</span><span class="o">=</span><span class="s1">&#39;confidence&#39;</span><span class="p">,</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;continous&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/umap_category.png" class="align-center" src="_images/umap_category.png" style="width: 400px; height: 700px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/umap_continuous.png" class="align-center" src="_images/umap_continuous.png" style="width: 400px; height: 300px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="plot-winners-statistics">
+<h3>plot_winners_statistics()<a class="headerlink" href="#plot-winners-statistics" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.plot_winners_statistics">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">plot_winners_statistics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fontsize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">plot</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.plot_winners_statistics" title="Permalink to this definition">¶</a></dt>
+<dd><p>For triangulated clusters, either ‘raw’ or ‘pruned’, visualize what fraction of cells won the game.
+A horizontal barplot will be generated and a dataframe with winners statistics will be returned.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>col</strong> – string, either ‘raw’ or ‘pruned’</p></li>
+<li><p><strong>fontsize</strong> – int, the fontsize for the y-label. Default: 3</p></li>
+<li><p><strong>plot</strong> – boolean, whether to plot or not. Default: True</p></li>
+<li><p><strong>save</strong> – boolean, whether to save the plot to the sctri.dir or not. Default: True</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>DataFarme</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">plot_winners_statistics</span><span class="p">(</span><span class="n">col</span><span class="o">=</span><span class="s1">&#39;raw&#39;</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/plot_winners_statistics.png" class="align-center" src="_images/plot_winners_statistics.png" style="width: 400px; height: 300px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="pruning">
+<h3>pruning()<a class="headerlink" href="#pruning" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.pruning">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">pruning</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">method</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'reassign'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">discard</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_sccaf</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">abs_thresh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">remove1</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">reference</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.pruning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main function. After running <code class="docutils literal notranslate"><span class="pre">compute_shapley</span></code>, we get <strong>raw</strong> cluster results. Althought the raw cluster is informative,
+there maybe some weired clusters that accidentally win out which doesn’t attribute to its biological stability. For example,
+a cluster that only has 3 cells, or very unstable cluster. To ensure the best results, we apply a post-hoc assessment onto the
+raw cluster result, by applying the same set of metrics function to assess the robustness/stability of the raw clusters itself.
+And we will based on that to perform some pruning to get rid of unstable clusters. Finally, the cells within these clusters will be 
+reassigned to thier nearest neighbors.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>method</strong> – string, valid value: ‘reassign’, ‘rank’. <code class="docutils literal notranslate"><span class="pre">rank</span></code> will compute the metrics on all the raw clusters, together with the 
+<code class="docutils literal notranslate"><span class="pre">discard</span></code> parameter which automatically discard clusters ranked at the bottom to remove unstable clusters. <code class="docutils literal notranslate"><span class="pre">reassign</span></code>
+will just remove clusters that either has less than <code class="docutils literal notranslate"><span class="pre">abs_thresh</span></code> cells or are in the self.invalid attribute list.</p></li>
+<li><p><strong>discard</strong> – int. Least {discard} stable clusters to remove. Default: None, means just rank without removing.</p></li>
+<li><p><strong>scale_sccaf</strong> – boolean. whether to scale the expression data. See <code class="docutils literal notranslate"><span class="pre">compute_metrics</span></code> for full explanation. Default: True</p></li>
+<li><p><strong>abs_thresh</strong> – int. clusters have less than {abs_thresh} cells will be discarded in <code class="docutils literal notranslate"><span class="pre">reassign</span></code> mode.</p></li>
+<li><p><strong>remove1</strong> – boolean. When reassign the cells in the dicarded clutsers, whether to also reassign the cells who are the only one in each 
+<code class="docutils literal notranslate"><span class="pre">reference</span></code> cluster. Default: True</p></li>
+<li><p><strong>reference</strong> – string. which annotation will serve as the reference.</p></li>
+<li><p><strong>parallel</strong> – boolean, whether to perform this step in parallel. (scatter and gather).</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">pruning</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;pruning&#39;</span><span class="p">,</span><span class="n">discard</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>  <span class="c1"># just assess and rank the raw clusters</span>
+<span class="n">sctri</span><span class="o">.</span><span class="n">pruning</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;reassign&#39;</span><span class="p">,</span><span class="n">abs_thresh</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">remove1</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">reference</span><span class="o">=</span><span class="s1">&#39;annotation1&#39;</span><span class="p">)</span>  <span class="c1"># remove invalid clusters and reassign the cells within</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="regress-out-size-effect">
+<h3>regress_out_size_effect()<a class="headerlink" href="#regress-out-size-effect" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.regress_out_size_effect">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">regress_out_size_effect</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">regressor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'background_zscore'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.regress_out_size_effect" title="Permalink to this definition">¶</a></dt>
+<dd><p>An optional step to regress out potential confounding effect of cluster_size on the metrics. Run after <code class="docutils literal notranslate"><span class="pre">compute_metrics</span></code> step
+but before <code class="docutils literal notranslate"><span class="pre">compute_shapley</span></code> step. All the metrics in selfadata.obs and self.score will be modified in place.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>regressor</strong> – string. which regressor to choose, valid values: ‘background_zscore’, ‘background_mean’, ‘GLM’, ‘Huber’, ‘RANSAC’, ‘TheilSen’</p>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">regress_out_size</span><span class="p">(</span><span class="n">regressor</span><span class="o">=</span><span class="s1">&#39;Huber&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="run-single-key-assessment">
+<h3>run_single_key_assessment()<a class="headerlink" href="#run-single-key-assessment" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.run_single_key_assessment">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">run_single_key_assessment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale_sccaf</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.run_single_key_assessment" title="Permalink to this definition">¶</a></dt>
+<dd><p>this is a very handy function, given a set of annotation, this function allows you to assess the biogical robustness
+based on the metrics we define. The obtained score and cluster information will be automatically saved to self.cluster
+and self.score, and can be further rendered by the scTriangulate viewer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>key</strong> – string, the annotation/column name to assess the robustness.</p>
+</dd>
+<dt class="field-even">Scale_sccaf</dt>
+<dd class="field-even"><p>boolean, whether to scale the expression data before running SCCAF score. See <code class="docutils literal notranslate"><span class="pre">compute_metrics</span></code> function
+for full information.</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">run_single_key_assessment</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;azimuth&#39;</span><span class="p">,</span><span class="n">scale_sccaf</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="serialize">
+<h3>serialize()<a class="headerlink" href="#serialize" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.serialize">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">serialize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'sctri_pickle.p'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.serialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>serialize the sctri object through pickle protocol to the disk</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> – string, the name of the pickle file on the disk. Default: sctri_pickle.p</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">serialize</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="viewer-cluster-feature-figure">
+<h3>viewer_cluster_feature_figure()<a class="headerlink" href="#viewer-cluster-feature-figure" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.viewer_cluster_feature_figure">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">viewer_cluster_feature_figure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">select_keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other_umap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.viewer_cluster_feature_figure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate all the figures for setting up the viewer cluster page.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>parallel</strong> – boolean, whether to run it in parallel, only work in some linux system, so recommend to not set to True.</p></li>
+<li><p><strong>select_keys</strong> – list, what annotations’ cluster we want to inspect.</p></li>
+<li><p><strong>other_umap</strong> – ndarray,replace the umap with another set.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">viewer_cluster_feature_figure</span><span class="p">(</span><span class="n">parallel</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">select_keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;annotation1&#39;</span><span class="p">,</span><span class="s1">&#39;annotation2&#39;</span><span class="p">],</span><span class="n">other_umap</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="viewer-cluster-feature-html">
+<h3>viewer_cluster_feature_html()<a class="headerlink" href="#viewer-cluster-feature-html" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.viewer_cluster_feature_html">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">viewer_cluster_feature_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.viewer_cluster_feature_html" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setting up the viewer cluster page.</p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">viewer_cluster_feature_html</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="viewer-heterogeneity-figure">
+<h3>viewer_heterogeneity_figure()<a class="headerlink" href="#viewer-heterogeneity-figure" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.viewer_heterogeneity_figure">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">viewer_heterogeneity_figure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">other_umap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.viewer_heterogeneity_figure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generating the figures for the viewer heterogeneity page</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – string, which annotation to inspect the heterogeneity.</p></li>
+<li><p><strong>other_umap</strong> – ndarray, replace with other umap embedding.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">viewer_heterogeneity_figure</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;annotation1&#39;</span><span class="p">,</span><span class="n">other_umap</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="viewer-heterogeneity-html">
+<h3>viewer_heterogeneity_html()<a class="headerlink" href="#viewer-heterogeneity-html" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.main_class.ScTriangulate.viewer_heterogeneity_html">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.main_class.ScTriangulate.</span></span><span class="sig-name descname"><span class="pre">viewer_heterogeneity_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.main_class.ScTriangulate.viewer_heterogeneity_html" title="Permalink to this definition">¶</a></dt>
+<dd><p>Setting up viewer heterogeneity page</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>key</strong> – string, which annotation to inspect.</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sctri</span><span class="o">.</span><span class="n">viewer_heterogeneity_html</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="s1">&#39;annotation1&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="preprocessing-module">
+<h2>Preprocessing Module<a class="headerlink" href="#preprocessing-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="geneconvert-class">
+<h3>GeneConvert Class<a class="headerlink" href="#geneconvert-class" title="Permalink to this headline">¶</a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.GeneConvert">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">GeneConvert</span></span><a class="headerlink" href="#sctriangulate.preprocessing.GeneConvert" title="Permalink to this definition">¶</a></dt>
+<dd><p>A collection of gene symbol conversion functions.</p>
+<p>Now support:</p>
+<ol class="arabic simple">
+<li><p>ensemblgene id to gene symbol.</p></li>
+</ol>
+<dl class="py method">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.GeneConvert.ensemblgene_to_symbol">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">ensemblgene_to_symbol</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">species</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.GeneConvert.ensemblgene_to_symbol" title="Permalink to this definition">¶</a></dt>
+<dd><p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">GeneConvert</span>
+<span class="n">converted_list</span> <span class="o">=</span> <span class="n">GeneConvert</span><span class="o">.</span><span class="n">ensemblgene_to_symbol</span><span class="p">([</span><span class="s1">&#39;ENSG00000010404&#39;</span><span class="p">,</span><span class="s1">&#39;ENSG00000010505&#39;</span><span class="p">],</span><span class="n">species</span><span class="o">=</span><span class="s1">&#39;human&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="normalization-class">
+<h3>Normalization Class<a class="headerlink" href="#normalization-class" title="Permalink to this headline">¶</a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.Normalization">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">Normalization</span></span><a class="headerlink" href="#sctriangulate.preprocessing.Normalization" title="Permalink to this definition">¶</a></dt>
+<dd><p>a series of Normalization functions</p>
+<p>Now support:</p>
+<ol class="arabic simple">
+<li><p>CLR normalization</p></li>
+<li><p>total count normalization (CPTT, CPM)</p></li>
+<li><p>GMM normalization</p></li>
+</ol>
+<dl class="py method">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.Normalization.CLR_normalization">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">CLR_normalization</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.Normalization.CLR_normalization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">Normalization</span>
+<span class="n">post_mat</span> <span class="o">=</span> <span class="n">Normalization</span><span class="o">.</span><span class="n">CLR_normalization</span><span class="p">(</span><span class="n">pre_mat</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.Normalization.GMM_normalization">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">GMM_normalization</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.Normalization.GMM_normalization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">Normalization</span>
+<span class="n">post_mat</span> <span class="o">=</span> <span class="n">Normalization</span><span class="o">.</span><span class="n">GMM_normalization</span><span class="p">(</span><span class="n">pre_mat</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.Normalization.total_normalization">
+<em class="property"><span class="pre">static</span> </em><span class="sig-name descname"><span class="pre">total_normalization</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10000.0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.Normalization.total_normalization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">Normalization</span>
+<span class="n">post_mat</span> <span class="o">=</span> <span class="n">Normalization</span><span class="o">.</span><span class="n">total_normalization</span><span class="p">(</span><span class="n">pre_mat</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="small-txt-to-adata">
+<h3>small_txt_to_adata()<a class="headerlink" href="#small-txt-to-adata" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.small_txt_to_adata">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">small_txt_to_adata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">int_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gene_is_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.small_txt_to_adata" title="Permalink to this definition">¶</a></dt>
+<dd><p>given a small dense expression (&lt;2GB) txt file, load them into memory as adata, and also make sure the X is sparse matrix.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>int_file</strong> – string, path to the input txt file, delimited by tab</p></li>
+<li><p><strong>gene_is_index</strong> – boolean, whether the gene/features are the index.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>AnnData</p>
+</dd>
+</dl>
+<p>Exmaples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">small_txt_to_adata</span>
+<span class="n">adata</span><span class="o">=</span> <span class="o">=</span> <span class="n">small_txt_to_adata</span><span class="p">(</span><span class="s1">&#39;./input.txt&#39;</span><span class="p">,</span><span class="n">gene_is_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="large-txt-to-mtx">
+<h3>large_txt_to_mtx()<a class="headerlink" href="#large-txt-to-mtx" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.large_txt_to_mtx">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">large_txt_to_mtx</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">int_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_folder</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gene_is_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">type_convert_to</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'int16'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.large_txt_to_mtx" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a large txt dense expression file, convert them to mtx file on cluster to facilitate future I/O</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>int_file</strong> – string, path to the intput txt file, delimited by tab</p></li>
+<li><p><strong>out_folder</strong> – string, path to the output folder where the mtx file will be stored</p></li>
+<li><p><strong>gene_is_index</strong> – boolean, whether the gene/features is the index in the int_file.</p></li>
+<li><p><strong>type_convert_to</strong> – string, since it is a large dataframe, need to read in chunk, to accelarate it and reduce the memory footprint,
+we convert it to either ‘int16’ if original data is count, or ‘float32’ if original data is normalized data.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">large_txt_to_mtx</span>
+<span class="n">large_txt_to_mtx</span><span class="p">(</span><span class="n">int_file</span><span class="o">=</span><span class="s1">&#39;input.txt&#39;</span><span class="p">,</span><span class="n">out_folder</span><span class="o">=</span><span class="s1">&#39;./data&#39;</span><span class="p">,</span><span class="n">gene_is_index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">type_convert_to</span><span class="o">=</span><span class="s1">&#39;float32&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="mtx-to-adata">
+<h3>mtx_to_adata()<a class="headerlink" href="#mtx-to-adata" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.mtx_to_adata">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">mtx_to_adata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">int_folder</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gene_is_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'genes'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.mtx_to_adata" title="Permalink to this definition">¶</a></dt>
+<dd><p>convert mtx file to adata in RAM, make sure the X is sparse.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>int_folder</strong> – string, folder where the mtx files are stored.</p></li>
+<li><p><strong>gene_is_index</strong> – boolean, whether the gene is index.</p></li>
+<li><p><strong>features</strong> – string, the name of the feature tsv file, if rna, it will be genes.tsv.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>AnnData</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">mtx_to_adata</span>
+<span class="n">mtx_to_adata</span><span class="p">(</span><span class="n">int_folder</span><span class="o">=</span><span class="s1">&#39;./data&#39;</span><span class="p">,</span><span class="n">gene_is_index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">feature</span><span class="o">=</span><span class="s1">&#39;genes&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="mtx-to-large-txt">
+<h3>mtx_to_large_txt()<a class="headerlink" href="#mtx-to-large-txt" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.mtx_to_large_txt">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">mtx_to_large_txt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">int_folder</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gene_is_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.mtx_to_large_txt" title="Permalink to this definition">¶</a></dt>
+<dd><p>convert mtx back to large dense txt expression dataframe.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>int_folder</strong> – string, path to the input mtx folder.</p></li>
+<li><p><strong>out_file</strong> – string, path to the output txt file.</p></li>
+<li><p><strong>gene_is_index</strong> – boolean, whether the gene is the index.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">mtx_to_large_txt</span>
+<span class="n">mtx_to_large_txt</span><span class="p">(</span><span class="n">int_folder</span><span class="o">=</span><span class="s1">&#39;./data&#39;</span><span class="p">,</span><span class="n">out_file</span><span class="o">=</span><span class="s1">&#39;input.txt&#39;</span><span class="p">,</span><span class="n">gene_is_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="add-azimuth">
+<h3>add_azimuth()<a class="headerlink" href="#add-azimuth" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.add_azimuth">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">add_azimuth</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">result</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'predicted.celltype.l2'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.add_azimuth" title="Permalink to this definition">¶</a></dt>
+<dd><p>a convenient function if you have azimuth predicted labels in hand, and want to add the label to the adata.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata</strong> – AnnData</p></li>
+<li><p><strong>result</strong> – string, the path to the ‘azimuth_predict.tsv’ file</p></li>
+<li><p><strong>name</strong> – string, the column name where the user want to transfer to the adata.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">add_azimuth</span>
+<span class="n">add_azimuth</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">result</span><span class="o">=</span><span class="s1">&#39;./azimuth_predict.tsv&#39;</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;predicted.celltype.l2&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="add-annotations">
+<h3>add_annotations()<a class="headerlink" href="#add-annotations" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.add_annotations">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">add_annotations</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inputs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cols_input</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">index_col</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cols_output</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.add_annotations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adding annotations from external sources to the adata</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata</strong> – Anndata</p></li>
+<li><p><strong>inputs</strong> – string, path to the txt file where the barcode to cluster label information is stored.</p></li>
+<li><p><strong>cols_input</strong> – list, what columns the users want to transfer to the adata.</p></li>
+<li><p><strong>index_col</strong> – int, for the input, which column will serve as the index column</p></li>
+<li><p><strong>cols_output</strong> – list, corresponding to the cols_input, how these columns will be named in the adata.obs columns</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">add_annotations</span>
+<span class="n">add_annotations</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="nb">input</span><span class="o">=</span><span class="s1">&#39;./annotation.txt&#39;</span><span class="p">,</span><span class="n">cols_input</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;col1,&#39;</span><span class="n">col2</span><span class="s1">&#39;],index_col=0,cols_output=[&#39;</span><span class="n">annotation1</span><span class="s1">&#39;,&#39;</span><span class="n">annontation2</span><span class="s1">&#39;])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="add-umap">
+<span id="reference-to-add-umap"></span><h3>add_umap()<a class="headerlink" href="#add-umap" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.add_umap">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">add_umap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inputs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mode</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cols</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">index_col</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.add_umap" title="Permalink to this definition">¶</a></dt>
+<dd><p>if umap embedding is pre-computed, add it back to adata object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata</strong> – Anndata</p></li>
+<li><p><strong>inputs</strong> – string, path to the the txt file where the umap embedding was stored.</p></li>
+<li><p><strong>mode</strong> – string, valid value ‘pandas_disk’, ‘pandas_memory’, ‘numpy’</p></li>
+<li><p><strong>cols</strong> – list, what columns contain umap embeddings.s</p></li>
+<li><p><strong>index_col</strong> – int, which column will serve as the index column.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">add_umap</span>
+<span class="n">add_umap</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">inputs</span><span class="o">=</span><span class="s1">&#39;umap.txt&#39;</span><span class="p">,</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;pandas_disk&#39;</span><span class="p">,</span><span class="n">cols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;umap1&#39;</span><span class="p">,</span><span class="s1">&#39;umap2],index_col=0)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h3>doublet_predict()<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.doublet_predict">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">doublet_predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.doublet_predict" title="Permalink to this definition">¶</a></dt>
+<dd><p>wrapper function for running srublet, a new column named ‘doublet_scores’ will be added to the adata</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>adata</strong> – Anndata</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>AnnData</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">doublet_predict</span>
+<span class="n">new_adata</span> <span class="o">=</span> <span class="n">doublet_predict</span><span class="p">(</span><span class="n">old_adata</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="make-sure-adata-writable">
+<h3>make_sure_adata_writable()<a class="headerlink" href="#make-sure-adata-writable" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.make_sure_adata_writable">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">make_sure_adata_writable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delete</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.make_sure_adata_writable" title="Permalink to this definition">¶</a></dt>
+<dd><p>maks sure the adata is able to write to disk, since h5 file is stricted typed, so on mixed dtype is allowd.
+this function basically is to detect the column of obs/var that are of mixed types, and delete them.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata</strong> – Anndata</p></li>
+<li><p><strong>delete</strong> – boolean, False will just print out what columns are mixed type, True will automatically delete those columns</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Anndata</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">make_sure_adata_writable</span>
+<span class="n">make_sure_adata_writable</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">delete</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="scanpy-recipe">
+<h3>scanpy_recipe()<a class="headerlink" href="#scanpy-recipe" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.scanpy_recipe">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">scanpy_recipe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_log</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resolutions</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[1,</span> <span class="pre">2,</span> <span class="pre">3]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">modality</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'rna'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">umap</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">save</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pca_n_comps</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_top_genes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">3000</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.scanpy_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main preprocessing function. Run Scanpy normal pipeline to achieve Leiden clustering with various resolutions across multiple modalities.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata</strong> – Anndata</p></li>
+<li><p><strong>is_log</strong> – boolean, whether the adata.X is count or normalized data.</p></li>
+<li><p><strong>resolutions</strong> – list, what leiden resolutions the users want to obtain.</p></li>
+<li><p><strong>modality</strong> – string, valid values: ‘rna’,’adt’,’atac’</p></li>
+<li><p><strong>umap</strong> – boolean, whether to compute umap embedding.</p></li>
+<li><p><strong>save</strong> – boolean, whether to save the obtained adata object with cluster label information in it.</p></li>
+<li><p><strong>pca_n_comps</strong> – int, how many PCs to keep when running PCA. Suggestion: RNA (30-50), ADT (15), ATAC (100)</p></li>
+<li><p><strong>n_top_genes</strong> – int, how many features to keep when selecting highly_variable_genes. Suggestion: RNA (3000), ADT (ignored), ATAC (50000-100000)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Anndata</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">scanpy_recipe</span>
+<span class="c1"># rna</span>
+<span class="n">adata</span> <span class="o">=</span> <span class="n">scanpy_recipe</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">is_log</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">resolutions</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">modality</span><span class="o">=</span><span class="s1">&#39;rna&#39;</span><span class="p">,</span><span class="n">pca_n_comps</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span><span class="n">n_top_genes</span><span class="o">=</span><span class="mi">3000</span><span class="p">)</span>
+<span class="c1"># adt</span>
+<span class="n">adata</span> <span class="o">=</span> <span class="n">scanpy_recipe</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">is_log</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">resolutions</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">modality</span><span class="o">=</span><span class="s1">&#39;adt&#39;</span><span class="p">,</span><span class="n">pca_n_comps</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+<span class="c1"># atac</span>
+<span class="n">adata</span> <span class="o">=</span> <span class="n">scanpy_recipe</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">is_log</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">resolutions</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="n">modality</span><span class="o">=</span><span class="s1">&#39;atac&#39;</span><span class="p">,</span><span class="n">pca_n_comps</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span><span class="n">n_top_genes</span><span class="o">=</span><span class="mi">100000</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="concat-rna-and-other">
+<h3>concat_rna_and_other()<a class="headerlink" href="#concat-rna-and-other" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.concat_rna_and_other">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">concat_rna_and_other</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata_rna</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">adata_other</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">umap</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.concat_rna_and_other" title="Permalink to this definition">¶</a></dt>
+<dd><p>concatenate rna adata and another modality’s adata object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata_rna</strong> – AnnData</p></li>
+<li><p><strong>adata_other</strong> – Anndata</p></li>
+<li><p><strong>umap</strong> – string, whose umap to use, either ‘rna’ or ‘other’</p></li>
+<li><p><strong>name</strong> – string, the name of other modality, for example, ‘adt’ or ‘atac’</p></li>
+<li><p><strong>prefix</strong> – string, the prefix added in front of features from other modality, by scTriangulate convertion, adt will be ‘<a href="#id2"><span class="problematic" id="id3">AB_</span></a>’, atac will be ‘’.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return adata_combine</dt>
+<dd class="field-even"><p>Anndata</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">concat_rna_and_other</span>
+<span class="n">concat_rna_and_other</span><span class="p">(</span><span class="n">adata_rna</span><span class="p">,</span><span class="n">adata_adt</span><span class="p">,</span><span class="n">umap</span><span class="o">=</span><span class="s1">&#39;rna&#39;</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;adt&#39;</span><span class="p">,</span><span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;AB_&#39;</span><span class="p">)</span> 
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="umap-dual-view-save">
+<h3>umap_dual_view_save()<a class="headerlink" href="#umap-dual-view-save" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.umap_dual_view_save">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">umap_dual_view_save</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cols</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.umap_dual_view_save" title="Permalink to this definition">¶</a></dt>
+<dd><p>generate a pdf file with two umap up and down, one is with legend on side, another is with legend on data.
+More importantly, this allows you to generate multiple columns iteratively.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata</strong> – Anndata</p></li>
+<li><p><strong>cols</strong> – list, all columns from which we want to draw umap.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">umap_dual_view_save</span>
+<span class="n">umap_dual_view_save</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">cols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;annotation1&#39;</span><span class="p">,</span><span class="s1">&#39;annotation2&#39;</span><span class="p">,</span><span class="s1">&#39;total_counts&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="make-sure-mat-dense">
+<h3>make_sure_mat_dense()<a class="headerlink" href="#make-sure-mat-dense" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.make_sure_mat_dense">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">make_sure_mat_dense</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.make_sure_mat_dense" title="Permalink to this definition">¶</a></dt>
+<dd><p>make sure a matrix is dense</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>mat</strong> – ndarary</p>
+</dd>
+<dt class="field-even">Return mat</dt>
+<dd class="field-even"><p>ndarray (dense)</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mat</span> <span class="o">=</span> <span class="n">make_sure_mat_dense</span><span class="p">(</span><span class="n">mat</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="make-sure-mat-sparse">
+<h3>make_sure_mat_sparse()<a class="headerlink" href="#make-sure-mat-sparse" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.make_sure_mat_sparse">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">make_sure_mat_sparse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mat</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.make_sure_mat_sparse" title="Permalink to this definition">¶</a></dt>
+<dd><p>make sure a matrix is sparse</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>mat</strong> – ndarary</p>
+</dd>
+<dt class="field-even">Return mat</dt>
+<dd class="field-even"><p>ndarray (sparse)</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mat</span> <span class="o">=</span> <span class="n">make_sure_mat_dense</span><span class="p">(</span><span class="n">mat</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="gene-activity-count-matrix-old-10x">
+<h3>gene_activity_count_matrix_old_10x()<a class="headerlink" href="#gene-activity-count-matrix-old-10x" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.gene_activity_count_matrix_old_10x">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">gene_activity_count_matrix_old_10x</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fall_in_promoter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fall_in_gene</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">valid</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.gene_activity_count_matrix_old_10x" title="Permalink to this definition">¶</a></dt>
+<dd><p>this function is to generate gene activity count matrix, please refer to <code class="docutils literal notranslate"><span class="pre">gene_activity_count_matrix_new_10x</span></code> for latest
+version of 10x fragements.tsv output.</p>
+<p>how to get these two arguments? (LIGER team approach)</p>
+<ol class="arabic">
+<li><p>sort the fragment, gene and promoter bed, or use function in this module to sort the reference bed files:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sort</span> <span class="o">-</span><span class="n">k1</span><span class="p">,</span><span class="mi">1</span> <span class="o">-</span><span class="n">k2</span><span class="p">,</span><span class="mi">2</span><span class="n">n</span> <span class="o">-</span><span class="n">k3</span><span class="p">,</span><span class="mi">3</span><span class="n">n</span> <span class="n">pbmc_granulocyte_sorted_10k_atac_fragments</span><span class="o">.</span><span class="n">tsv</span> <span class="o">&gt;</span> <span class="n">atac_fragments</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">bed</span>
+<span class="n">sort</span> <span class="o">-</span><span class="n">k</span> <span class="mi">1</span><span class="p">,</span><span class="mi">1</span> <span class="o">-</span><span class="n">k2</span><span class="p">,</span><span class="mi">2</span><span class="n">n</span> <span class="o">-</span><span class="n">k3</span><span class="p">,</span><span class="mi">3</span><span class="n">n</span> <span class="n">hg19_genes</span><span class="o">.</span><span class="n">bed</span> <span class="o">&gt;</span> <span class="n">hg19_genes</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">bed</span>
+<span class="n">sort</span> <span class="o">-</span><span class="n">k</span> <span class="mi">1</span><span class="p">,</span><span class="mi">1</span> <span class="o">-</span><span class="n">k2</span><span class="p">,</span><span class="mi">2</span><span class="n">n</span> <span class="o">-</span><span class="n">k3</span><span class="p">,</span><span class="mi">3</span><span class="n">n</span> <span class="n">hg19_promoters</span><span class="o">.</span><span class="n">bed</span> <span class="o">&gt;</span> <span class="n">hg19_promoters</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">bed</span>
+</pre></div>
+</div>
+</li>
+<li><p>bedmap:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">bedops</span>
+<span class="n">bedmap</span> <span class="o">--</span><span class="n">ec</span> <span class="o">--</span><span class="n">delim</span> <span class="s2">&quot;   &quot;</span> <span class="o">--</span><span class="n">echo</span> <span class="o">--</span><span class="n">echo</span><span class="o">-</span><span class="nb">map</span><span class="o">-</span><span class="nb">id</span> <span class="n">hg19_promoters</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">bed</span> <span class="n">atac_fragments</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">bed</span> <span class="o">&gt;</span> <span class="n">atac_promoters_bc</span><span class="o">.</span><span class="n">bed</span>
+<span class="n">bedmap</span> <span class="o">--</span><span class="n">ec</span> <span class="o">--</span><span class="n">delim</span> <span class="s2">&quot;   &quot;</span> <span class="o">--</span><span class="n">echo</span> <span class="o">--</span><span class="n">echo</span><span class="o">-</span><span class="nb">map</span><span class="o">-</span><span class="nb">id</span> <span class="n">hg19_genes</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">bed</span> <span class="n">atac_fragments</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">bed</span> <span class="o">&gt;</span> <span class="n">atac_genes_bc</span><span class="o">.</span><span class="n">bed</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>the following was taken from <a class="reference external" href="http://htmlpreview.github.io/?https://github.com/welch-lab/liger/blob/master/vignettes/Integrating_scRNA_and_scATAC_data.html">http://htmlpreview.github.io/?https://github.com/welch-lab/liger/blob/master/vignettes/Integrating_scRNA_and_scATAC_data.html</a></p>
+<ul class="simple">
+<li><p><strong>delim</strong>. This changes output delimiter from ‘|’ to indicated delimiter between columns, which in our case is “  ”.</p></li>
+<li><p><strong>ec</strong>. Adding this will check all problematic input files.</p></li>
+<li><p><strong>echo</strong>. Adding this will print each line from reference file in output. The reference file in our case is gene or promoter index.</p></li>
+<li><p><strong>echo-map-id</strong>. Adding this will list IDs of all overlapping elements from mapping files, which in our case are cell barcodes from fragment files.</p></li>
+</ul>
+<ol class="arabic" start="3">
+<li><p>Finally:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">gene_activity_count_matrix_old_10x</span>
+<span class="n">gene_activity_count_matrix_old_10x</span><span class="p">(</span><span class="n">fall_in_promoter</span><span class="p">,</span><span class="n">fall_in_gene</span><span class="p">,</span><span class="n">valid</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</dd></dl>
+
+</div>
+<div class="section" id="gene-activity-count-matrix-new-10x">
+<h3>gene_activity_count_matrix_new_10x()<a class="headerlink" href="#gene-activity-count-matrix-new-10x" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.gene_activity_count_matrix_new_10x">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">gene_activity_count_matrix_new_10x</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fall_in_promoter</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fall_in_gene</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">valid</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.gene_activity_count_matrix_new_10x" title="Permalink to this definition">¶</a></dt>
+<dd><p>Full explanation please refer to <code class="docutils literal notranslate"><span class="pre">gene_activity_count_matrix_old_10x</span></code></p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">gene_activity_count_matrix_new_10x</span>
+<span class="n">gene_activity_count_matrix_new_10x</span><span class="p">(</span><span class="n">fall_in_promoter</span><span class="p">,</span><span class="n">fall_in_gene</span><span class="p">,</span><span class="n">valid</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>       
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="find-genes">
+<h3>find_genes()<a class="headerlink" href="#find-genes" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.find_genes">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">find_genes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">gtf_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key_added</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'gene_annotation'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">upstream</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">downstream</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'gene'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">annotation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'HAVANA'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">raw</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.find_genes" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is taken from <a class="reference external" href="https://github.com/colomemaria/epiScanpy/blob/master/episcanpy/tools/_find_genes.py">episcanpy</a>.
+all the credits to the original developer</p>
+<p>merge values of peaks/windows/features overlapping genebodies + 2kb upstream. It is possible to extend the search for closest gene to a given 
+number of bases downstream as well. There is commonly 2 set of annotations in a gtf file(HAVANA, ENSEMBL). By default, the function will search 
+annotation from HAVANA but other annotation label/source can be specifed. It is possible to use other type of features than genes present in a 
+gtf file such as transcripts or CDS.</p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">find_genes</span>
+<span class="n">find_genes</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">gtf_file</span><span class="o">=</span><span class="s1">&#39;gencode.v38.annotation.gtf)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="reformat-peak">
+<h3>reformat_peak()<a class="headerlink" href="#reformat-peak" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.preprocessing.reformat_peak">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.preprocessing.</span></span><span class="sig-name descname"><span class="pre">reformat_peak</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">adata</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">canonical_chr_only</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.preprocessing.reformat_peak" title="Permalink to this definition">¶</a></dt>
+<dd><p>To use <code class="docutils literal notranslate"><span class="pre">find_genes</span></code> function, please first reformat the peak from 10X format “chr1:10109-10357” to
+find_gene format “chr1_10109_10357”</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>adata</strong> – AnnData</p></li>
+<li><p><strong>canonical_chr_only</strong> – boolean, only kept the canonical chromosome</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>AnnData</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sctriangulate.preprocessing</span> <span class="kn">import</span> <span class="n">reformat_peak</span>
+<span class="n">adata</span> <span class="o">=</span> <span class="n">reformat_peak</span><span class="p">(</span><span class="n">adata</span><span class="p">,</span><span class="n">canonical_chr_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="colors-module">
+<h2>Colors Module<a class="headerlink" href="#colors-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="retrieve-pretty-cmap">
+<h3>retrieve_pretty_cmap()<a class="headerlink" href="#retrieve-pretty-cmap" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.colors.retrieve_pretty_cmap">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.colors.</span></span><span class="sig-name descname"><span class="pre">retrieve_pretty_cmap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.colors.retrieve_pretty_cmap" title="Permalink to this definition">¶</a></dt>
+<dd><p>retrieve pretty customized colormap</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> – string, valid value ‘altanalyze’, ‘shap’, ‘scphere’</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>cmap object</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">generate_gradient</span><span class="p">(</span><span class="n">cmap</span><span class="o">=</span><span class="n">retrieve_pretty_cmap</span><span class="p">(</span><span class="s1">&#39;shap&#39;</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;shap&#39;</span><span class="p">)</span>
+<span class="n">generate_gradient</span><span class="p">(</span><span class="n">cmap</span><span class="o">=</span><span class="n">retrieve_pretty_cmap</span><span class="p">(</span><span class="s1">&#39;altanalyze&#39;</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;altanalyze&#39;</span><span class="p">)</span>
+<span class="n">generate_gradient</span><span class="p">(</span><span class="n">cmap</span><span class="o">=</span><span class="n">retrieve_pretty_cmap</span><span class="p">(</span><span class="s1">&#39;scphere&#39;</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;scphere&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/cmap.png" class="align-center" src="_images/cmap.png" style="width: 550px; height: 250px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="retrieve-pretty-colors">
+<h3>retrieve_pretty_colors()<a class="headerlink" href="#retrieve-pretty-colors" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.colors.retrieve_pretty_colors">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.colors.</span></span><span class="sig-name descname"><span class="pre">retrieve_pretty_colors</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.colors.retrieve_pretty_colors" title="Permalink to this definition">¶</a></dt>
+<dd><p>retrieve pretty customized colors (discrete)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> – string, valid value ‘icgs2’, ‘shap’</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list, each item is hex code</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">generate_block</span><span class="p">(</span><span class="n">color_list</span> <span class="o">=</span> <span class="n">retrieve_pretty_colors</span><span class="p">(</span><span class="s1">&#39;icgs2&#39;</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;icgs2&#39;</span><span class="p">)</span>
+<span class="n">generate_block</span><span class="p">(</span><span class="n">color_list</span> <span class="o">=</span> <span class="n">retrieve_pretty_colors</span><span class="p">(</span><span class="s1">&#39;shap&#39;</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;shap&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/colors.png" class="align-center" src="_images/colors.png" style="width: 550px; height: 100px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="pick-n-colors">
+<h3>pick_n_colors()<a class="headerlink" href="#pick-n-colors" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.colors.pick_n_colors">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.colors.</span></span><span class="sig-name descname"><span class="pre">pick_n_colors</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.colors.pick_n_colors" title="Permalink to this definition">¶</a></dt>
+<dd><p>a very handy and abstract function, pick n colors in hex code that guarantee decent contrast.</p>
+<ol class="arabic simple">
+<li><p>n &lt;=10, use tab10</p></li>
+<li><p>10 &lt; n &lt;= 20, use tab20</p></li>
+<li><p>20 &lt; n &lt;= 28, use zeileis (take from scanpy)</p></li>
+<li><p>28 &lt; n &lt;= 102, use godsnot (take from scanpy)</p></li>
+<li><p>n &gt; 102, use jet cmap (no guarantee for obvious contrast)</p></li>
+</ol>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>n</strong> – int, how many colors are needed</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list, each item is a hex code.</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">generate_block</span><span class="p">(</span><span class="n">color_list</span> <span class="o">=</span> <span class="n">pick_n_colors</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;tab10&#39;</span><span class="p">)</span>
+<span class="n">generate_block</span><span class="p">(</span><span class="n">color_list</span> <span class="o">=</span> <span class="n">pick_n_colors</span><span class="p">(</span><span class="mi">20</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;tab20&#39;</span><span class="p">)</span>
+<span class="n">generate_block</span><span class="p">(</span><span class="n">color_list</span> <span class="o">=</span> <span class="n">pick_n_colors</span><span class="p">(</span><span class="mi">28</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;zeileis&#39;</span><span class="p">)</span>
+<span class="n">generate_block</span><span class="p">(</span><span class="n">color_list</span> <span class="o">=</span> <span class="n">pick_n_colors</span><span class="p">(</span><span class="mi">102</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;godsnot&#39;</span><span class="p">)</span>
+<span class="n">generate_block</span><span class="p">(</span><span class="n">color_list</span> <span class="o">=</span> <span class="n">pick_n_colors</span><span class="p">(</span><span class="mi">120</span><span class="p">),</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;jet&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/pick_n_colors.png" class="align-center" src="_images/pick_n_colors.png" style="width: 550px; height: 300px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="colors-for-set">
+<h3>colors_for_set()<a class="headerlink" href="#colors-for-set" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.colors.colors_for_set">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.colors.</span></span><span class="sig-name descname"><span class="pre">colors_for_set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">setlist</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.colors.colors_for_set" title="Permalink to this definition">¶</a></dt>
+<dd><p>given a set of items, based on how many unique item it has, pick the n color</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>setlist</strong> – list without redundant items.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dictionary, {each item: hex code}</p>
+</dd>
+</dl>
+<p>Exmaples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cmap_dict</span> <span class="o">=</span> <span class="n">colors_for_set</span><span class="p">([</span><span class="s1">&#39;batch1&#39;</span><span class="p">,</span><span class="s1">&#39;batch2])</span>
+<span class="c1"># {&#39;batch1&#39;: &#39;#1f77b4&#39;, &#39;batch2&#39;: &#39;#ff7f0e&#39;}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="bg-greyed-cmap">
+<h3>bg_greyed_cmap()<a class="headerlink" href="#bg-greyed-cmap" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.colors.bg_greyed_cmap">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.colors.</span></span><span class="sig-name descname"><span class="pre">bg_greyed_cmap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmap_str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.colors.bg_greyed_cmap" title="Permalink to this definition">¶</a></dt>
+<dd><p>set 0 value as lightgrey, which will render better effect on umap</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>cmap_str</strong> – string, any valid matplotlib colormap string</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>colormap object</p>
+</dd>
+</dl>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># normal cmap</span>
+<span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;CD4&#39;</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;viridis&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;normal.pdf&#39;</span><span class="p">,</span><span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="c1"># bg_greyed cmap</span>
+<span class="n">sc</span><span class="o">.</span><span class="n">pl</span><span class="o">.</span><span class="n">umap</span><span class="p">(</span><span class="n">sctri</span><span class="o">.</span><span class="n">adata</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;CD4&#39;</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="n">bg_greyed_cmap</span><span class="p">(</span><span class="s1">&#39;viridis&#39;</span><span class="p">),</span><span class="n">vmin</span><span class="o">=</span><span class="mf">1e-5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;bg_greyed.pdf&#39;</span><span class="p">,</span><span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference external image-reference" href="target"><img alt="_images/normal.png" class="align-left" src="_images/normal.png" style="width: 300px; height: 300px;" /></a>
+<a class="reference external image-reference" href="target"><img alt="_images/bg_greyed.png" class="align-right" src="_images/bg_greyed.png" style="width: 300px; height: 300px;" /></a>
+</dd></dl>
+
+</div>
+<div class="section" id="generate-block">
+<h3>generate_block()<a class="headerlink" href="#generate-block" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.colors.generate_block">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.colors.</span></span><span class="sig-name descname"><span class="pre">generate_block</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">color_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.colors.generate_block" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a list of color (each item is a hex code), visualize them side by side. See example.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="generate-gradient">
+<h3>generate_gradient()<a class="headerlink" href="#generate-gradient" title="Permalink to this headline">¶</a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="sctriangulate.colors.generate_gradient">
+<span class="sig-prename descclassname"><span class="pre">sctriangulate.colors.</span></span><span class="sig-name descname"><span class="pre">generate_gradient</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmap</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#sctriangulate.colors.generate_gradient" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a continuous cmap, visualize them. See example.</p>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="contact.html" class="btn btn-neutral float-right" title="Contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="principle.html" class="btn btn-neutral float-left" title="Principle" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Guangyuan(Frank) Li.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
