@@ -1,0 +1,13 @@
+setup.py
+ML_Formatter.egg-info/PKG-INFO
+ML_Formatter.egg-info/SOURCES.txt
+ML_Formatter.egg-info/dependency_links.txt
+ML_Formatter.egg-info/requires.txt
+ML_Formatter.egg-info/top_level.txt
+formatter/__init__.py
+formatter/__main__.py
+formatter/base_formatter.py
+formatter/exceptions.py
+formatter/deepspeech/__init__.py
+formatter/deepspeech/deepspeech.py
+formatter/deepspeech/item.py
