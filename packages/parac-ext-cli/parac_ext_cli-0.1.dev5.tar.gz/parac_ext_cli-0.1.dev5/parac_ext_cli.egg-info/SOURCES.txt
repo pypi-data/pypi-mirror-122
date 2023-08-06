@@ -1,0 +1,10 @@
+README.md
+setup.py
+parac_ext_cli/__init__.py
+parac_ext_cli/__main__.py
+parac_ext_cli/utils.py
+parac_ext_cli.egg-info/PKG-INFO
+parac_ext_cli.egg-info/SOURCES.txt
+parac_ext_cli.egg-info/dependency_links.txt
+parac_ext_cli.egg-info/requires.txt
+parac_ext_cli.egg-info/top_level.txt
