@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./carlo/__init__.py
+./carlo/__main__.py
+carlo/__init__.py
+carlo/__main__.py
+carlo.egg-info/PKG-INFO
+carlo.egg-info/SOURCES.txt
+carlo.egg-info/dependency_links.txt
+carlo.egg-info/entry_points.txt
+carlo.egg-info/requires.txt
+carlo.egg-info/top_level.txt
