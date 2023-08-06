@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dbt-osmosis
+Version: 0.2.0
+Summary: This package serves to cascadingly populate column level documentation as well as build model files.
+License: Apache 2.0
+Author: Falador_wiz1
+Author-email: alex@source.co
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: dbt (>=0.20.2,<0.21.0)
+Requires-Dist: rich (>=10.11.0,<11.0.0)
+Requires-Dist: ruamel.yaml (>=0.17.16,<0.18.0)
