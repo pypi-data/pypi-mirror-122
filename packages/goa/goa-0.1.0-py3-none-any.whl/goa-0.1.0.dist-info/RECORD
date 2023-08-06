@@ -1,0 +1,9 @@
+goa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goa/algorithms.py,sha256=N5syFot8zyFjoDjrgpCInfC0ckVMKWEgK1wdCoS5G1E,15512
+goa/cli.py,sha256=DQ4X2PRS4MvZTxE_rqDo4EXAnCi5u3Shi7foiUDKT3c,2587
+goa/problems.py,sha256=HP4q2PYL5XovFnslQ0W5vYnBK3bDG5c7hS4gj7GGk_M,3553
+goa/utils.py,sha256=LfHRJf3IrhRLnJpQwIM8jbrfoOgiKRDn6e3eF9qVwhw,1012
+goa-0.1.0.dist-info/LICENSE,sha256=zeY-7mbcyDTFR5NLXKF2GY4L7YxpdVwIiCRnEq2xRdE,1074
+goa-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+goa-0.1.0.dist-info/METADATA,sha256=7zDuI2eHGJZH_B4PZVAV7WAihrqTlsrOifheciRRzD4,667
+goa-0.1.0.dist-info/RECORD,,

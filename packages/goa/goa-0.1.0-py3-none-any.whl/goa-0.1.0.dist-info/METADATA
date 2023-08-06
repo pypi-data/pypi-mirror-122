@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: goa
+Version: 0.1.0
+Summary: goa (Global Optimization Animations) helps visualize the execution of some global optimization algorithms on a given problem.
+License: MIT
+Author: Lorenzo Palloni
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: imageio (>=2.9.0,<3.0.0)
+Requires-Dist: imageio-ffmpeg (>=0.4.5,<0.5.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
