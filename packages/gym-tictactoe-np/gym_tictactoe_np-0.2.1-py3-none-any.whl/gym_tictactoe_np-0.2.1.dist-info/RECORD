@@ -1,0 +1,7 @@
+gym_tictactoe_np/__init__.py,sha256=hKsgmO0ads5XchJTq6g1B-SpkUxdni0bmaOYY7a0Cd0,142
+gym_tictactoe_np/envs/__init__.py,sha256=Y-lZiQf8AYTtG86tqnkGsrdvDspnsqS2xY93me61Y18,65
+gym_tictactoe_np/envs/tictactoe_np_env.py,sha256=nGO-wh_pAfTUSJP-rzq5JHtUHBqZxJ4wWMAOJ3QZDyM,6571
+gym_tictactoe_np-0.2.1.dist-info/LICENSE.txt,sha256=D-5twDRPy6fjAMzOwcNFVTEDWLciS5A3Gi6eYbqZUk8,1091
+gym_tictactoe_np-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gym_tictactoe_np-0.2.1.dist-info/METADATA,sha256=G1Ct7TUs7vXScD2iTBxvgzSueQ74fpN_P6s4xrZmZLY,1421
+gym_tictactoe_np-0.2.1.dist-info/RECORD,,
