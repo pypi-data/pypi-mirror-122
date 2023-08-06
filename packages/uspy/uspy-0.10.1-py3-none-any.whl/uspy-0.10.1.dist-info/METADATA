@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: uspy
+Version: 0.10.1
+Summary: LEEM data analysis (and more...?)
+Home-page: UNKNOWN
+Author: Simon Fischer, Lars Buß, Jon-Olaf Krisponeit
+License: MIT
+Keywords: physics LEEM microscopy spectroscopy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: ~=3.6
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: deepdiff
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-video
+Requires-Dist: imageio
+Requires-Dist: tifffile
+Requires-Dist: pyclustering
+Requires-Dist: nltk
+Requires-Dist: opencv-python-headless
+Requires-Dist: kneed
+Requires-Dist: lmfit
+Requires-Dist: ipython
+Requires-Dist: netCDF4
+Requires-Dist: json-tricks
+Requires-Dist: setuptools-scm
+
+UNKNOWN
+
