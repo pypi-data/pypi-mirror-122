@@ -1,0 +1,13 @@
+catd/Doc.py,sha256=4bOqOyeywLL6zYPwWub6L1fBjYgPsKbfCx2W2MDwpWY,1102
+catd/Topic.py,sha256=neQ4Bw-wqNVvO_QX5U6iSwit_IB6duWIjqBdA1fjxhU,943
+catd/WordNet.py,sha256=1n1qa68UrmCdjt0szN5P84hsmSRQzRuO94hV4rsYyhU,26598
+catd/WordNode.py,sha256=qDPcdZ9QninKI7T8BYxeMOMs1YVhGOtK47WS2HcNtTA,644
+catd/__init__.py,sha256=xmP8FRPW4wsWswQPqfMSMmjGpibkMGhHU1JZD-oIVIE,141
+catd/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+catd/util/__init__.py,sha256=IwfhcGu98S7ppmplSR_LYvi-M7__eAzoJCaMu9HqHJU,20
+catd/util/util.py,sha256=J_7GnUHoMPooUMYSlT_ACY0jgEe8G_2ZS26uuQh1fxk,8364
+catd-0.5.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+catd-0.5.0.dist-info/METADATA,sha256=e-KwBWFrKWgd3xKkoVd6sMuE2XA5cQXxWJUI5WPiGkE,2549
+catd-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+catd-0.5.0.dist-info/top_level.txt,sha256=a_bYUx2fkjRExfmI3oqvPtymTbBhK6r-RF4TEe-RgT8,5
+catd-0.5.0.dist-info/RECORD,,
