@@ -1,0 +1,8 @@
+LICENSE
+README.md
+nodejsporter
+setup.py
+nodejs_porter.egg-info/PKG-INFO
+nodejs_porter.egg-info/SOURCES.txt
+nodejs_porter.egg-info/dependency_links.txt
+nodejs_porter.egg-info/top_level.txt
