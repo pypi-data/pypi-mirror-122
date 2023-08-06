@@ -1,0 +1,9 @@
+sigstickers/__init__.py,sha256=gEp_1LpdBLQGSDsi_9SHxpNAgZ7_fB2Hui4uaRjYRQ0,791
+sigstickers/__main__.py,sha256=pwHh7E_WjO1NNSFvUje1RRNHw9DWN2wO2cDhgXkt0Bo,75
+sigstickers/caching.py,sha256=OMci_a4ovuwUtoGHh-RYvHsA0F7c1HvzINbDJcWN2Qc,1539
+sigstickers/downloader.py,sha256=l_uICdEh2nBiexWu-4tDLYPjRqCGBnAyicFm8wEeuG0,4035
+sigstickers-2021.2.dist-info/entry_points.txt,sha256=Cni1P4ZWR7DbPnFIqj1pKbw3CfmyObIOGSwrqqNBp6o,47
+sigstickers-2021.2.dist-info/LICENSE.md,sha256=tKsIYc9lNCZhGBl7yGlFAbJJv_6YK2P6VmmZyoACjxk,1088
+sigstickers-2021.2.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+sigstickers-2021.2.dist-info/METADATA,sha256=sO2B7fb57DD5Ie9J6m6ao-ghFwc1G-D2lqNMYQ8uVKQ,7287
+sigstickers-2021.2.dist-info/RECORD,,
