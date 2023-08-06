@@ -1,0 +1,3 @@
+[console_scripts]
+hello=dusky:main
+
