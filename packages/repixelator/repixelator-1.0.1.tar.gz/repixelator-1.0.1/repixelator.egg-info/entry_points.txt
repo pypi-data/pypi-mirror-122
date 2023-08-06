@@ -1,0 +1,4 @@
+[console_scripts]
+repixelator = repixelator:cmd
+repixelator-gui = repixelator:gui
+

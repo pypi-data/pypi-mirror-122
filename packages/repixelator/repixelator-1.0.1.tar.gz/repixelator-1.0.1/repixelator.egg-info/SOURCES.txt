@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+repixelator/__init__.py
+repixelator/cmd.py
+repixelator/icon.ico
+repixelator/repixelator.py
+repixelator/repixelator_gui.py
+repixelator.egg-info/PKG-INFO
+repixelator.egg-info/SOURCES.txt
+repixelator.egg-info/dependency_links.txt
+repixelator.egg-info/entry_points.txt
+repixelator.egg-info/requires.txt
+repixelator.egg-info/top_level.txt
