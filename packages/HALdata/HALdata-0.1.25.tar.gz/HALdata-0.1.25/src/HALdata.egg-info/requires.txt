@@ -1,0 +1,4 @@
+pandas
+numpy
+botocore
+boto3
