@@ -1,0 +1,8 @@
+README.md
+setup.py
+se360demo/__init__.py
+se360demo.egg-info/PKG-INFO
+se360demo.egg-info/SOURCES.txt
+se360demo.egg-info/dependency_links.txt
+se360demo.egg-info/requires.txt
+se360demo.egg-info/top_level.txt
