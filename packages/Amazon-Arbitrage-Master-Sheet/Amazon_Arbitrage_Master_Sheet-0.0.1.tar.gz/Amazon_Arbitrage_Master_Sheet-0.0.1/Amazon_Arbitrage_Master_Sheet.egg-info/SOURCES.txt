@@ -1,0 +1,7 @@
+README.md
+setup.py
+Amazon_Arbitrage_Master_Sheet.egg-info/PKG-INFO
+Amazon_Arbitrage_Master_Sheet.egg-info/SOURCES.txt
+Amazon_Arbitrage_Master_Sheet.egg-info/dependency_links.txt
+Amazon_Arbitrage_Master_Sheet.egg-info/requires.txt
+Amazon_Arbitrage_Master_Sheet.egg-info/top_level.txt
