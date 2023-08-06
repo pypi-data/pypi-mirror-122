@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+uecauth/__init__.py
+uecauth/info.py
+uecauth/logger.py
+uecauth/mfa.py
+uecauth/password.py
+uecauth/shibboleth.py
+uecauth/util.py
+uecauth.egg-info/PKG-INFO
+uecauth.egg-info/SOURCES.txt
+uecauth.egg-info/dependency_links.txt
+uecauth.egg-info/requires.txt
+uecauth.egg-info/top_level.txt
