@@ -1,0 +1,10 @@
+Jinja2
+PyYAML
+python-dotenv
+ruamel.yaml
+snowflake-connector-python
+
+[test]
+black
+mypy
+pylint
