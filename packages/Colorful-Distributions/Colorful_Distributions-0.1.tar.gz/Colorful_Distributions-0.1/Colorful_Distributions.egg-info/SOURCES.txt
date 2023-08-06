@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+Colorful_Distributions/Binomialdistribution.py
+Colorful_Distributions/Gaussiandistribution.py
+Colorful_Distributions/Generaldistribution.py
+Colorful_Distributions/__init__.py
+Colorful_Distributions.egg-info/PKG-INFO
+Colorful_Distributions.egg-info/SOURCES.txt
+Colorful_Distributions.egg-info/dependency_links.txt
+Colorful_Distributions.egg-info/not-zip-safe
+Colorful_Distributions.egg-info/top_level.txt
