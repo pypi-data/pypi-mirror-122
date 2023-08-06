@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: utpy
+Version: 0.6.6
+Summary: youtube downloader python package
+Home-page: https://github.com/tare9n/utpy
+Author: Taregh Naderi
+Author-email: taregh.n@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+simple code:
+
+import utpy
+
+url = 'https://www.youtube.com/watch?v=3Q_8lPkJm2M'
+yt = utpy.Load(url)
+yt.daownload()
+
