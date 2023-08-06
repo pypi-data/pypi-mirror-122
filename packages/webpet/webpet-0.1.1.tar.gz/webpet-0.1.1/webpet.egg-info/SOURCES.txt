@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+webpet/__init__.py
+webpet/application.py
+webpet.egg-info/PKG-INFO
+webpet.egg-info/SOURCES.txt
+webpet.egg-info/dependency_links.txt
+webpet.egg-info/requires.txt
+webpet.egg-info/top_level.txt
