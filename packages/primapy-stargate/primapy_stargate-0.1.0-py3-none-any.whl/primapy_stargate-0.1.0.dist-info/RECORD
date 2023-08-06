@@ -1,0 +1,11 @@
+primapy_stargate/__init__.py,sha256=VuPWIuOEDlzv0GHwiDioyJBnn26XbIMupJHvYq_jEfY,56
+primapy_stargate/hub/README.md,sha256=oEbO_A6eNQw8SpvpytzYmGL08MvxHRSbgGkOp_rC3JM,136
+primapy_stargate/hub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+primapy_stargate/hub/app.py,sha256=gbGmoJ2v8TrfURlGszBokcttlAVFaHr0c_hdC6I9nlA,59
+primapy_stargate/model/README.md,sha256=eB7f6h2PxHkaHQfLsmQJGwunyXBGn6QHyG3PaKRzVXA,285
+primapy_stargate/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+primapy_stargate/oracle/README.md,sha256=oR7oD9lJtpUfxFv-wSHpAqKWNf_AJr0QPv0jLivI1hg,177
+primapy_stargate/oracle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+primapy_stargate-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+primapy_stargate-0.1.0.dist-info/METADATA,sha256=V4bGqcA3ymQi0G3bP1QpfnBsgRUJ9e09uCkHThElnes,444
+primapy_stargate-0.1.0.dist-info/RECORD,,
