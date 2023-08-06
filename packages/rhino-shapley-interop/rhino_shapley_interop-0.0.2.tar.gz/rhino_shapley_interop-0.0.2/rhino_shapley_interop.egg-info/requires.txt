@@ -1,0 +1,10 @@
+numpy
+rhino3dm
+Shapely
+
+[dep]
+twine
+build
+
+[dev]
+matplotlib
