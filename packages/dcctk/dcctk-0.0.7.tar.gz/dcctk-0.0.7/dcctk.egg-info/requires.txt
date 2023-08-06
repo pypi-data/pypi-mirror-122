@@ -1,0 +1,6 @@
+cqls
+gdown>=4.0.2
+opencc
+pyyaml
+scipy
+transformers
