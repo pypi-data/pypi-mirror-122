@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: Binsearch
+Version: 1.1
+Summary: Binsearchpy library is created with binary seach algorithm to make the search faster from list data structure
+Home-page: UNKNOWN
+Author: Dheeraj Kumar
+Author-email: engineerdheeraj97@gmail.com
+License: MIT
+Keywords: python,Binarysearch,algorithm,list,Binary,BinaryList
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Welcome to the Dheeraj Kumar Open Source Contribution
+
+    This Binsearchpy package is developed with base of Binary search algorith, which helps to search the given Integer or String element in given list.
+    This package has Two modules
+
+        1) binarySearchlist
+
+        2) binarySearchstring
+
+#  How to Import Modules
+
+```python
+from Binsearch.BinarySearch import BinarySearchList
+    
+BinarySearchList(array, 0, len(array)-1, givenValue)
+
+from Binsearch.BinarySearch import BinarySearchString
+
+BinarySearchString(array, givenString)
+```
+
+# Commands to upload pypi package
+
+        1)  python setup.py register
+
+        2)  python setup.py sdist
+
+        3)  twine upload dist/*
+
