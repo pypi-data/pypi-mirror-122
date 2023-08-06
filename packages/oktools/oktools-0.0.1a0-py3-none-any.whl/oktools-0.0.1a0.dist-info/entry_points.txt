@@ -1,0 +1,3 @@
+[console_scripts]
+okt-dir2exercise=oktools.dir2exercise:main
+
