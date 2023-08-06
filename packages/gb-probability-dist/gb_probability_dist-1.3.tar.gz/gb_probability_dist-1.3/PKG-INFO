@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: gb_probability_dist
+Version: 1.3
+Summary: Gaussian and Binomial distributions
+Home-page: UNKNOWN
+Author: Anthony Miranda
+Author-email: anthonymirandagil@gmail.com
+License: UNKNOWN
+Description: # Gb_probability_dist package
+        
+        Gb_probability_dist is a Python package that provides Gaussian and Binomial distribution implementations. With these classes you can instantiate an object in a distribution and then plot it or load data from a file. You can also add one with another distribution of the same type to get a third one.
+        
+        # Installation
+        ------------
+        ## Dependencies
+        
+        gb_probability_dist requires:
+        * Python
+        * Matplotlib
+        
+        **gb_probability_dist** works with any version of python and matplotlib.
+        
+        ## User installation
+        You can install it easily with pip.
+        
+        ```
+        pip install gb_probability_dist
+        ```
+        
+        # Create your first probability distributions
+        
+        ```shell
+        $ python
+        ```
+        
+        ```python
+        >>> from gb_probability_dist import Gaussian, Binomial
+        >>> Gaussian(10, 7)
+        mean 10, standard deviation 7
+        >>> Binomial(.4, 25)
+        mean 10.0, standard deviation 2.4494897422783178, n 25
+        >>> new_gaussian = Gaussian(25,2) + Gaussian(50,5)
+        >> new_gaussian
+        mean 75, standard deviation 5.385164807134504
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
