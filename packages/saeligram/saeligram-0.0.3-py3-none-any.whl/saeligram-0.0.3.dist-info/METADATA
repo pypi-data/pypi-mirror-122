@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: saeligram
+Version: 0.0.3
+Summary: Saeligram Basic Package
+Home-page: UNKNOWN
+Author: Saeligram
+Author-email: <saeligram@gmail.com>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A basic package as of now but will build in future
+
