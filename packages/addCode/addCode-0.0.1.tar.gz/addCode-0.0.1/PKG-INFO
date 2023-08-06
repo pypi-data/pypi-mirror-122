@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: addCode
+Version: 0.0.1
+Summary: Add two numbers!
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Very basic function for adding two numbers.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
