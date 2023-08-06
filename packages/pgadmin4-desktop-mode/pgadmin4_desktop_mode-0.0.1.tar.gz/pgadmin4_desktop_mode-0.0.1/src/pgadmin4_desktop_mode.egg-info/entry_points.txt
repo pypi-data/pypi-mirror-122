@@ -1,0 +1,3 @@
+[console_scripts]
+pgadmin4_desktop_mode = pgadmin4_desktop_mode:main
+

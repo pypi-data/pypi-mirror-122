@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pgadmin4_desktop_mode/__init__.py
+src/pgadmin4_desktop_mode/__main__.py
+src/pgadmin4_desktop_mode.egg-info/PKG-INFO
+src/pgadmin4_desktop_mode.egg-info/SOURCES.txt
+src/pgadmin4_desktop_mode.egg-info/dependency_links.txt
+src/pgadmin4_desktop_mode.egg-info/entry_points.txt
+src/pgadmin4_desktop_mode.egg-info/requires.txt
+src/pgadmin4_desktop_mode.egg-info/top_level.txt
