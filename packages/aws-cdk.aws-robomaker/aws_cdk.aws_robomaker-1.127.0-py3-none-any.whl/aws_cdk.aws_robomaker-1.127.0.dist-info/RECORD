@@ -1,0 +1,10 @@
+aws_cdk/aws_robomaker/__init__.py,sha256=6NAM28Z97htRz2b_ZxUGN4AZASlklON27oEFotNxe28,77327
+aws_cdk/aws_robomaker/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_robomaker/_jsii/__init__.py,sha256=zAPj-0uzm3-kRlK5Au35KvRxufj2JAdezmoQYv23mrs,390
+aws_cdk/aws_robomaker/_jsii/aws-robomaker@1.127.0.jsii.tgz,sha256=uMZhIL1KL52E4xB79Zo_UJeU55-ZNwwmrPi8veOyka0,37648
+aws_cdk.aws_robomaker-1.127.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_robomaker-1.127.0.dist-info/METADATA,sha256=871MgADHfTVU8_3-tYso3CQyV9WG7pcXKkYJVNC_5gk,1751
+aws_cdk.aws_robomaker-1.127.0.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.aws_robomaker-1.127.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.aws_robomaker-1.127.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_robomaker-1.127.0.dist-info/RECORD,,
