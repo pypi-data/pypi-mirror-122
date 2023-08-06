@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: adHarvester
+Version: 0.0.1
+Summary: Harvester for any type of online shops and advertisements
+Home-page: UNKNOWN
+Author: Suren ABrahamyan
+Author-email: suren.abrahamyan89@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Harvester for any type of online shops and advertisements
+

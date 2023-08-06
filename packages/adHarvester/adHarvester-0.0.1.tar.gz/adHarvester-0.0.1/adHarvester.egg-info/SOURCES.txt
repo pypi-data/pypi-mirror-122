@@ -1,0 +1,10 @@
+setup.py
+adHarvester/MetaSelector.py
+adHarvester/Needle.py
+adHarvester/Selector.py
+adHarvester/SoupPage.py
+adHarvester/__init__.py
+adHarvester.egg-info/PKG-INFO
+adHarvester.egg-info/SOURCES.txt
+adHarvester.egg-info/dependency_links.txt
+adHarvester.egg-info/top_level.txt
