@@ -1,0 +1,9 @@
+instrumentum/__init__.py,sha256=5C0E1A-91eOWaFCmR4gDbjo3G6vrbNTHR9hjji4pUEw,174
+instrumentum/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instrumentum/features/stepwise.py,sha256=I63lSGlERjdnCf9snso8jGORfKlHJyy5Zy12fIrVD0k,6029
+instrumentum/image_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instrumentum/time_series/__init__.py,sha256=dsQ28rFQ3KHK5IkAHawZMN6NLv1kDk56CzaTTbPVwJA,1302
+instrumentum-0.4.2.dist-info/LICENSE,sha256=_HWFjtbKFiBRJtibZQXLrvs5ktSv2Zmzrr9IHNdi_zE,1077
+instrumentum-0.4.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+instrumentum-0.4.2.dist-info/METADATA,sha256=taCGHE280jp9inX0rY8oBTvViJ5R7ma6Q0dlhRPEj0c,1240
+instrumentum-0.4.2.dist-info/RECORD,,
