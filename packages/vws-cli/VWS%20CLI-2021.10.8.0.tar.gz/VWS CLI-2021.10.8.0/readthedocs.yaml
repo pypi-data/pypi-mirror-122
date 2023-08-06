@@ -1,0 +1,18 @@
+version: 2
+
+# We do this because at the time of writing we need "image: testing" for Python
+# 3.9.
+build:
+  image: testing
+
+python:
+  install:
+     - method: pip
+       path: .
+       extra_requirements:
+           - dev
+  version: 3.9
+
+sphinx:
+  builder: html
+  fail_on_warning: true
