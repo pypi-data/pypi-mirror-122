@@ -1,0 +1,11 @@
+vqf/__init__.py,sha256=m-sX3WETa8ensBSsVSddJZp0sB3YUfRRxUH27QCGZGs,379
+vqf/pyvqf.py,sha256=sexzNWmpsGoUKB47iNFWgitVFEF5wdD7K9QqccJm9F8,346
+vqf/utils.py,sha256=yg8q7vJhXyplKdwRRDNqaizJ4OQtl5otqR3B3YghF6k,492
+vqf/vqf.cp37-win32.pyd,sha256=0WVae1Z2sJL4Kbd0mbKEUnY6e2UHXtED-w7zOZISxZo,33792
+vqf/cpp/vqf.cpp,sha256=kTGcvHQQ6He3yHIFxkfjbag-irc8ObXl-OcIzJPC1NM,282
+vqf/cpp/vqf.hpp,sha256=CUs3SNbsf9GWpe7MruGAc5dsiRywIsxER6np2KqVx54,433
+vqf/matlab/VQF.m,sha256=6GYsTJzXIQqVoTZGrDRqZ55WZ3oKN4CyAz5GehsAvUg,420
+vqf-0.0.1.dist-info/METADATA,sha256=9kg-BRIbNjA1MzbHC4HY1JlGQwddQXiaV5L-mwO5GqE,2225
+vqf-0.0.1.dist-info/WHEEL,sha256=9OdCYMNQUOC_P9zHBse4QOXtlFK2lgCwV_yVRgNexF8,97
+vqf-0.0.1.dist-info/top_level.txt,sha256=vdLdC1xq7oxmOIpmuzKm4QfOV76b8DG1L9wsemBGsfs,4
+vqf-0.0.1.dist-info/RECORD,,
