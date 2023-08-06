@@ -1,0 +1,3 @@
+[mlflow.artifact_repository]
+onesait-platform=onesaitplatformplugins.plugins:OnesaitPlatformArtifactRepository
+
