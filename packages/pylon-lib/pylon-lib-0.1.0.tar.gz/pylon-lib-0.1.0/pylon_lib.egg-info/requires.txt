@@ -1,0 +1,4 @@
+astor
+
+[circuits]
+PySDD
