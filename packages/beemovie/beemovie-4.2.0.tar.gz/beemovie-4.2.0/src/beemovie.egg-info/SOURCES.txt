@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/bee/__init__.py
+src/bee/main.py
+src/beemovie.egg-info/PKG-INFO
+src/beemovie.egg-info/SOURCES.txt
+src/beemovie.egg-info/dependency_links.txt
+src/beemovie.egg-info/top_level.txt
