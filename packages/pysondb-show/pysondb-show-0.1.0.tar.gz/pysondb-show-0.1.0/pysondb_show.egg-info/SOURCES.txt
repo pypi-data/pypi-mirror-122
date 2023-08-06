@@ -1,0 +1,11 @@
+LICENSE
+README.md
+main.py
+setup.cfg
+setup.py
+pysondb_show.egg-info/PKG-INFO
+pysondb_show.egg-info/SOURCES.txt
+pysondb_show.egg-info/dependency_links.txt
+pysondb_show.egg-info/entry_points.txt
+pysondb_show.egg-info/requires.txt
+pysondb_show.egg-info/top_level.txt
