@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ant-sftpgo-client
+Version: 1.0.1
+Summary: SFTPGo
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: scenerycm@outlook.com
+License: UNKNOWN
+Keywords: Swagger,SFTPGo
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+SFTPGo REST API  # noqa: E501
+
+
