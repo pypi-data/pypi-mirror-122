@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "sfdata_annexa_clean"
+version = "0.1.1"
+description = "A cleaner module for Annex A Data"
+authors = [
+    "Céline Gross <celine.m.gross@gmail.com>",
+    "Chris Owen <christopher.owen@socialfinance.org.uk>",
+    "Kaj Siebert <kaj@k-si.com>"
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/CSCDP/sfdata-annexa-clean"
+repository = "https://github.com/CSCDP/sfdata-annexa-clean"
+keywords = ["data", "datascience", "datawrangling", "children's services", "annex a"]
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: MIT License",
+]
+include = [
+    "LICENSE",
+    "humans.txt",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4.0"
+jupyterlab = "^3.1.17"
+pandas = "^1.3.3"
+dacite = "^1.6.0"
+PyYAML = "^5.4.1"
+openpyxl = "^3.0.9"
+xlrd = "^2.0.1"
+XlsxWriter = "^3.0.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
