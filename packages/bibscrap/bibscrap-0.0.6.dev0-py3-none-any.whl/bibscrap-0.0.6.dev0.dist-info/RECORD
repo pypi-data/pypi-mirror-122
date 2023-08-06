@@ -1,0 +1,10 @@
+bibscrap/__init__.py,sha256=_LNyYYiUGHLbVD3Gm6yj662Y_0yZXYTBf0u3zFbMsvQ,758
+bibscrap/app.py,sha256=jZcJDH_lhctQc4l0f-giECOdm5-nSiuQ-9wafx8zmqQ,4250
+bibscrap/errors.py,sha256=-Ag17UUY2yRHZrEGzeHr4j_3eBFcQ7o1APGVyfIzFX8,317
+bibscrap/fetch/__init__.py,sha256=ncaJt8K0rQoUn2VyLxF0hczLejOUdqpRtrYBIYKnTVI,538
+bibscrap-0.0.6.dev0.dist-info/LICENSE.rst,sha256=Tj76BQRBsdZpL0W__sKVqUupWpKX6hC2A3Zn2o4Zpbo,1089
+bibscrap-0.0.6.dev0.dist-info/METADATA,sha256=VtKRFVV5r2xji6uCFiQGYf8jPCKfT_VgEH8m4rLofik,3853
+bibscrap-0.0.6.dev0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bibscrap-0.0.6.dev0.dist-info/entry_points.txt,sha256=ZFFJBQdqRf-xSpY3ibJfyviCumWO8X0iCy181GQqhxY,44
+bibscrap-0.0.6.dev0.dist-info/top_level.txt,sha256=KucgeEcCalPCeof0Y93IUiSRuQWw__6Db7Is_Nzd2R8,9
+bibscrap-0.0.6.dev0.dist-info/RECORD,,
