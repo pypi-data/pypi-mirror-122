@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: android-env
+Version: 1.1.0
+Summary: AndroidEnv environment and library for training agents.
+Home-page: https://github.com/deepmind/android_env
+Author: DeepMind
+License: Apache License, Version 2.0
+Keywords: Android OS reinforcement-learning
+Platform: UNKNOWN
+Provides-Extra: acme
+Provides-Extra: gym
+Provides-Extra: testing
+License-File: LICENSE
+
+AndroidEnv
+Read the README at https://github.com/deepmind/android_env for more information.
+
+
