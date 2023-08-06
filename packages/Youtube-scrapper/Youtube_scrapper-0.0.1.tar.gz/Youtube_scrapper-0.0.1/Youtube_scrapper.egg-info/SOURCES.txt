@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+Youtube_scrapper.egg-info/PKG-INFO
+Youtube_scrapper.egg-info/SOURCES.txt
+Youtube_scrapper.egg-info/dependency_links.txt
+Youtube_scrapper.egg-info/requires.txt
+Youtube_scrapper.egg-info/top_level.txt
+youtube_scrapper/__init__.py
+youtube_scrapper/__main__.py
+youtube_scrapper/links_scapper.py
+youtube_scrapper/video.py
+youtube_scrapper/video_data.py
+youtube_scrapper/rds_uploader/__init__.py
+youtube_scrapper/rds_uploader/data_upload.py
