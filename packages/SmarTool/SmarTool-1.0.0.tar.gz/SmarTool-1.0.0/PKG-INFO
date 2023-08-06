@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: SmarTool
+Version: 1.0.0
+Summary: A set of tools that keep Python sweeter.
+Home-page: https://github.com/Harpsichord1207/SmarTool
+Author: Harpsichord
+Author-email: tliu1217@163.com
+License: MPL 2.0
+Keywords: Python Util Tool Convenience
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# SmarTool - Smart Util Tool for Python
+
+## 简介
+
+SmarTool是一个小而全的Python工具类库，类似Java的[Hutool][1]。
+
+
+[1]: https://github.com/dromara/hutool
+
+
