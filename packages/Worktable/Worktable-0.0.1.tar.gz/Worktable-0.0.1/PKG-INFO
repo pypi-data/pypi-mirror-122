@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Worktable
+Version: 0.0.1
+Summary: Medical library for end-to-end radiotherapy machine learning workflows
+Home-page: UNKNOWN
+Author: Kevin Shen, Joseph Marsilla
+Author-email: kshen3778@gmail.com
+License: UNKNOWN
+Description: # Workbench
+        Medical imaging package for creating radiotherapy machine learning pipelines.
+        
+        Development Team: Kevin Shen, Joseph Marsilla
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

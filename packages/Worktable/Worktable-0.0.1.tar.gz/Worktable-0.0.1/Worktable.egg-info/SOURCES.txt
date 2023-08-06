@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+Worktable.egg-info/PKG-INFO
+Worktable.egg-info/SOURCES.txt
+Worktable.egg-info/dependency_links.txt
+Worktable.egg-info/top_level.txt
+workbench/__init__.py
+workbench/modules/__init__.py
+workbench/modules/dataset.py
+workbench/modules/nifti_dataset.py
+workbench/utils/__init__.py
+workbench/utils/preprocessing.py
