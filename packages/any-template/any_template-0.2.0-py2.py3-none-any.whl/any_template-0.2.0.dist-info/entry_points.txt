@@ -1,0 +1,3 @@
+[console_scripts]
+anytemp = any_template:main
+
