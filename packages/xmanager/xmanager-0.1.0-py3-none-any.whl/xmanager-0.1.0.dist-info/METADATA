@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: xmanager
+Version: 0.1.0
+Summary: A framework for managing machine learning experiments
+Home-page: UNKNOWN
+Author: DeepMind Technologies Limited
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: absl-py
+Requires-Dist: async-generator
+Requires-Dist: attrs
+Requires-Dist: docker
+Requires-Dist: google-api-core
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth
+Requires-Dist: google-cloud-aiplatform (>=1.4.0)
+Requires-Dist: google-cloud-storage
+Requires-Dist: humanize
+Requires-Dist: immutabledict
+Requires-Dist: kubernetes
+Requires-Dist: sqlalchemy (==1.2)
+Requires-Dist: termcolor
+
+UNKNOWN
+
