@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+Influenciae.egg-info/PKG-INFO
+Influenciae.egg-info/SOURCES.txt
+Influenciae.egg-info/dependency_links.txt
+Influenciae.egg-info/requires.txt
+Influenciae.egg-info/top_level.txt
+influenciae/__init__.py
+influenciae/common/__init__.py
+influenciae/influence/__init__.py
+influenciae/types/__init__.py
+tests/__init__.py
+tests/utils.py
+tests/influence/__init__.py
+tests/influence/test_example.py
