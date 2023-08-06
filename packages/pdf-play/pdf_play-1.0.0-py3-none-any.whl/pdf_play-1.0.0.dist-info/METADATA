@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pdf-play
+Version: 1.0.0
+Summary: PDF utilities
+Home-page: https://github.com/sudoMode/PDFPlay
+Author: Mandeep Singh
+Author-email: singh.mandeep2207@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/sudoMode/PDFPlay
+Project-URL: Bug Tracker, https://github.com/sudoMode/PDFPlay/issues
+Keywords: pdf,watermark
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyPDF4
+Requires-Dist: reportlab
+
+# PDFPlay
+PDF utils
+
+
