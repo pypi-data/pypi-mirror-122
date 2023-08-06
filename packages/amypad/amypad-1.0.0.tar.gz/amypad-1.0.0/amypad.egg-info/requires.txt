@@ -1,0 +1,17 @@
+argopt
+miutil[cuda]>=0.8.0
+niftypad>=1.1.0
+setuptools
+shtab>1.3.2
+
+[dev]
+pytest
+pytest-cov
+pytest-timeout
+pytest-xdist
+
+[gui]
+Gooey>=1.0.8
+
+[niftypet]
+niftypet>=0.0.1

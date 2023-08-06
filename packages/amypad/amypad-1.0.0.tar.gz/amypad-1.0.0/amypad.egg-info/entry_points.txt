@@ -1,0 +1,4 @@
+[console_scripts]
+amypad = amypad.cli:main
+amypad.gui = amypad.gui:main
+
