@@ -1,0 +1,2 @@
+marshmallow==3.13
+PyMongo[tls,srv]==3.12
