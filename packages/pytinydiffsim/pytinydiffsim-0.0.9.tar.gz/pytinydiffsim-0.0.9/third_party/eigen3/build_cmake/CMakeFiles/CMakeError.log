@@ -1,0 +1,100 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop failed with the following output:
+Change Dir: /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ff01/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ff01.dir/build.make CMakeFiles/cmTC_9ff01.dir/build
+Building CXX object CMakeFiles/cmTC_9ff01.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -DCOMPILER_SUPPORT_Wlogicalop -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wlogical-op -o CMakeFiles/cmTC_9ff01.dir/src.cxx.o -c /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp/src.cxx
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+make[1]: *** [CMakeFiles/cmTC_9ff01.dir/src.cxx.o] Error 1
+make: *** [cmTC_9ff01/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi failed with the following output:
+Change Dir: /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ea5b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0ea5b.dir/build.make CMakeFiles/cmTC_0ea5b.dir/build
+Building CXX object CMakeFiles/cmTC_0ea5b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Wno-psabi -o CMakeFiles/cmTC_0ea5b.dir/src.cxx.o -c /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp/src.cxx
+error: unknown warning option '-Wno-psabi' [-Werror,-Wunknown-warning-option]
+make[1]: *** [CMakeFiles/cmTC_0ea5b.dir/src.cxx.o] Error 1
+make: *** [cmTC_0ea5b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81359/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_81359.dir/build.make CMakeFiles/cmTC_81359.dir/build
+Building CXX object CMakeFiles/cmTC_81359.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -wd981 -o CMakeFiles/cmTC_81359.dir/src.cxx.o -c /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd981'
+make[1]: *** [CMakeFiles/cmTC_81359.dir/src.cxx.o] Error 1
+make: *** [cmTC_81359/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f27a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9f27a.dir/build.make CMakeFiles/cmTC_9f27a.dir/build
+Building CXX object CMakeFiles/cmTC_9f27a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -wd2304 -o CMakeFiles/cmTC_9f27a.dir/src.cxx.o -c /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_9f27a.dir/src.cxx.o] Error 1
+make: *** [cmTC_9f27a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0275/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e0275.dir/build.make CMakeFiles/cmTC_e0275.dir/build
+Building CXX object CMakeFiles/cmTC_e0275.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -strict-ansi -o CMakeFiles/cmTC_e0275.dir/src.cxx.o -c /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-strict-ansi'
+make[1]: *** [CMakeFiles/cmTC_e0275.dir/src.cxx.o] Error 1
+make: *** [cmTC_e0275/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP failed with the following output:
+Change Dir: /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2f85/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c2f85.dir/build.make CMakeFiles/cmTC_c2f85.dir/build
+Building CXX object CMakeFiles/cmTC_c2f85.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Qunused-arguments -ansi -DCOMPILER_SUPPORT_OPENMP -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fopenmp -o CMakeFiles/cmTC_c2f85.dir/src.cxx.o -c /Users/erwincoumans/develop/tds/tiny-differentiable-simulator/third_party/eigen3/build_cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_c2f85.dir/src.cxx.o] Error 1
+make: *** [cmTC_c2f85/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
