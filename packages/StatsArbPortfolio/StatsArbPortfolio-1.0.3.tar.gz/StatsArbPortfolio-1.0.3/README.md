@@ -1,0 +1,1 @@
+stats-arb-portfolio is a buy/sell signals generator that uses Machine Learning algorithms to predict the best buy/sell signals, nonetheless, this should not be used as a determining signal to trade, instead use it as a complement to your own trading decisions.

@@ -1,0 +1,11 @@
+README.md
+setup.py
+StatsArbPortfolio/StatsArbData.py
+StatsArbPortfolio/StatsArbModels.py
+StatsArbPortfolio/StatsArbPortfolio.py
+StatsArbPortfolio/__init__.py
+StatsArbPortfolio.egg-info/PKG-INFO
+StatsArbPortfolio.egg-info/SOURCES.txt
+StatsArbPortfolio.egg-info/dependency_links.txt
+StatsArbPortfolio.egg-info/requires.txt
+StatsArbPortfolio.egg-info/top_level.txt
