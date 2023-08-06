@@ -1,0 +1,17 @@
+admin/__init__.py,sha256=Hrwd5ZvEBTv9KwvJpDjSG859m6PjmMKEWcQpDmODiX8,33
+admin/unrelated_inlines/__init__.py,sha256=OrD1eS-JiTPIB1986nr2Kj5UCh1sff1MHpah5uz09TY,41
+admin/unrelated_inlines/core.py,sha256=L02Ko6DMrPgKZ5kZEd_XI1mfYpKWHddaPVv9-I-gxP0,3091
+admin/unrelated_inlines/forms.py,sha256=hbYFAsTviIx_v1bRGjRAt2tjOYWznqV5NpUA5OTjQvY,1279
+decorators/__init__.py,sha256=A9N08ENZB4bNZmLmqZ6tAK5ate5QW0jLS1ZffNFSMco,26
+decorators/formatting.py,sha256=pQUh8ThdF2X4SG9m6FYpfmCVNsyFyzdwzm5d10RFlIs,580
+export_import/__init__.py,sha256=232iWngt-GQzpxykW9EHCuRRUPPRoujARqun-uIgC_s,22
+export_import/export.py,sha256=WWCMHnLBvLU55RpzfjiBuydH2783mTQzdX5avINp8Qo,864
+mixins/__init__.py,sha256=wT_CWdeHjvvcOJIYiaMZ2EwV-970HJs0NDjmYkieN5Q,73
+mixins/django_admin.py,sha256=nKlkPThACrcRgSbNmcAFUWU-Dy2SqvnPA33BvgLiw9Q,1050
+mixins/models.py,sha256=IkvSkhaQ3w84ybyKu-IwnOyeHPi7Zjm3dWTx-j8hHcM,677
+mixins/queries.py,sha256=UNKi0NpIWhyj5jTPxNekPXMUSuQZ9JkbFtbb0zsPGa0,701
+corfmanntools-1.0.3.dist-info/LICENSE.md,sha256=AjFcQ1sKiEUptsCbQkje7FvEOx5RT0U91DkyZCII4dY,34459
+corfmanntools-1.0.3.dist-info/METADATA,sha256=x2adRYWf0pEIu5DaeTo1RhyI2SRL5Z0COxZTiqQZXls,436
+corfmanntools-1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+corfmanntools-1.0.3.dist-info/top_level.txt,sha256=sjpiMVHGZIeX22uMbMnonCfcqETuYNb_ITOWdsq1-Yc,38
+corfmanntools-1.0.3.dist-info/RECORD,,

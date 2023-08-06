@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: corfmanntools
+Version: 1.0.3
+Summary: The best package
+Home-page: https://gitlab.com/navasardyan.edgar/corfmann
+Author: Edgar Navasardyan
+Author-email: rips.arutyunyan@gmail.com
+License: GNU Affero General Public License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
