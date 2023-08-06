@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: defaultmod
+Version: 1.0.2
+Summary: All the default modules imported into one module.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+import defaultmod as i; i.re
+
+
