@@ -1,0 +1,10 @@
+setup.py
+probably_not/Binomialdistribution.py
+probably_not/Gaussiandistribution.py
+probably_not/Generaldistribution.py
+probably_not/__init__.py
+probably_not.egg-info/PKG-INFO
+probably_not.egg-info/SOURCES.txt
+probably_not.egg-info/dependency_links.txt
+probably_not.egg-info/not-zip-safe
+probably_not.egg-info/top_level.txt
