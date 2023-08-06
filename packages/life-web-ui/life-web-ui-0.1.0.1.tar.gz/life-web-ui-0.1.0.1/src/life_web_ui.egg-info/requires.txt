@@ -1,0 +1,3 @@
+flask
+inetlab
+conway-life>=0.1.4
