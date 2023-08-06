@@ -1,0 +1,2 @@
+include openodia/*.cfg
+include openodia/corpus/*.json
