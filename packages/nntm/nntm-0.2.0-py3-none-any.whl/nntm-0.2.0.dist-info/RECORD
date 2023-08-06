@@ -1,0 +1,8 @@
+nntm/__init__.py,sha256=edUPwD7ANvAanPz78zkWmGe21JShEIBQeL1C6PqB1kA,107
+nntm/datasets/__init__.py,sha256=d7tZvaGCdswKGT0mYGslLI4jMRZCSAtMFPHOZGlCBHs,142
+nntm/datasets/_numerai_main.py,sha256=ngu7QCCc97hnzfsTUL7vi2XiAzKUY6F6aVkU5Lsly6o,13420
+nntm-0.2.0.dist-info/LICENSE,sha256=418QFM_7ADbornD0RYA2e76n6aEJQS9cHV3b-0nfOrU,1070
+nntm-0.2.0.dist-info/METADATA,sha256=Wnlh18UvI_bm1ULTJA5TlWceqbfPqSoIgYnMFNSzPmA,2370
+nntm-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nntm-0.2.0.dist-info/top_level.txt,sha256=PJI5PFbvpCZxkrXoiwSZbDHn8r8POu_VB2WgjqaNh7M,5
+nntm-0.2.0.dist-info/RECORD,,
