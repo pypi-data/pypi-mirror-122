@@ -1,0 +1,3 @@
+[console_scripts]
+sgg = sgg.__main__:main
+
