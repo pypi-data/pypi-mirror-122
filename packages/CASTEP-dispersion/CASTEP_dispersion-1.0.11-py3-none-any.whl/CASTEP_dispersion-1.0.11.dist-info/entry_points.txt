@@ -1,0 +1,3 @@
+[console_scripts]
+dispersion.py = Source.main:main
+
