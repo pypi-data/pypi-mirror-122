@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: demessaging
+Version: 0.0.18
+Summary: python module wrapper for the data analytics software framework DASF
+Home-page: https://git.geomar.de/digital-earth/dasf/dasf-messaging-python
+Author: Daniel Eggert
+Author-email: daniel.eggert@gfz-potsdam.de
+License: Apache-2.0
+Download-URL: https://git.geomar.de/digital-earth/dasf/dasf-messaging-python/-/archive/v0.0.18/dasf-messaging-python-v0.0.18.tar.gz
+Keywords: dasf,digital-earth,pulsar,gfz,helmholtz,hzg,hgf,rcp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: websocket-client
+Requires-Dist: netcdf4
+Requires-Dist: xarray
+Requires-Dist: numpy
+Requires-Dist: deprogressapi
+
+## dasf-messaging-python
+
+Messaging component for python based back-end modules. Developed and tested with
+Python 3.8
+
+### Scope
+This library is part of the Data Analytics Software Framework DASF (https://git.geomar.de/digital-earth/dasf), 
+which was developed by the GFZ Potsdam (https://www.gfz-potsdam.de) in the Digital Earth project 
+(https://www.digitalearth-hgf.de/).
+
+### Howto use it
+
+see: https://git.geomar.de/digital-earth/dasf/dasf-messaging-python/-/blob/legacy_v0.0.x/ExampleMessageConsumer.py
+
+
