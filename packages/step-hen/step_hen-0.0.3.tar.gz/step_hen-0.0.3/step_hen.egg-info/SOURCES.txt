@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+step_hen/__init__.py
+step_hen/presentation.py
+step_hen/schutzenbergergraph.py
+step_hen/stephen.py
+step_hen/wordgraph.py
+step_hen.egg-info/PKG-INFO
+step_hen.egg-info/SOURCES.txt
+step_hen.egg-info/dependency_links.txt
+step_hen.egg-info/not-zip-safe
+step_hen.egg-info/top_level.txt
