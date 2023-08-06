@@ -1,0 +1,14 @@
+django_serve/__init__.py,sha256=pf515Whgb6O74ivOOAj8RetZH4yQNm2lhLH6A5fEg1I,1283
+django_serve/__main__.py,sha256=7vTPo4bQ2LznyZJ_R50CWPIQU2VfjhxVgTILSFUUe24,1155
+django_serve/apps.py,sha256=M_UMJj3xCSbpr3M-qY1P_IFatvhqi3sFwYywsqvv0pw,1218
+django_serve/main.py,sha256=s31JWbWvoXQUBWfJuLAij30qvfjJdpM6_nfo5r8yv2A,2409
+django_serve/version.py,sha256=MXxsd7Fbx-0e3sahNX_6PsRM10_CYQ5C6bHd1u9wmjM,1653
+django_serve/management/__init__.py,sha256=aCCbj3gPTYNaK9ga_zGXMetD_15iIdM7brAPdyXOBf8,1125
+django_serve/management/commands/__init__.py,sha256=aCCbj3gPTYNaK9ga_zGXMetD_15iIdM7brAPdyXOBf8,1125
+django_serve/management/commands/serve.py,sha256=XUsYHiWFCm2lecZ58aPnuvrFyhp4XkJadVYl1kVh7Xw,6712
+django_serve-0.2a0.dist-info/LICENSE,sha256=ApGnF5CcDOLQDuvgps8NRnQRFKidm7q3k5JVCkSLWkA,1090
+django_serve-0.2a0.dist-info/METADATA,sha256=wK2ObWaC4sd96GxCHzTUW8Yua9sJEQ5WWUzcVCs9uP0,3135
+django_serve-0.2a0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+django_serve-0.2a0.dist-info/entry_points.txt,sha256=branAUoH68erKWZc7Kd5c5vbJPduI40Q1u2Wl7WB3RU,56
+django_serve-0.2a0.dist-info/top_level.txt,sha256=mPMs6BJYHACw-4IrXyOYNSxBbDl0POzY0frbC8Iody8,13
+django_serve-0.2a0.dist-info/RECORD,,

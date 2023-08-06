@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: django-serve
+Version: 0.2a0
+Summary: A gunicorn based django runserver command.
+Home-page: https://github.com/rsalmaso/django-serve
+Author: Raffaele Salmaso
+License: MIT License
+Download-URL: https://github.com/rsalmaso/django-serve/archive/main.zip
+Project-URL: Documentation, https://github.com/rsalmaso/django-serve/README.md
+Project-URL: Source, https://github.com/rsalmaso/django-serve
+Project-URL: Tracker, https://github.com/rsalmaso/django-serve/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gunicorn
+Requires-Dist: gunicorn-color
+Requires-Dist: inotify ; sys_platform == "linux"
+
+# django-serve
+
+A gunicorn based django runserver command.
+
+
+## Install ##
+
+`python3 -m pip install django-serve`
+
+and add to `INSTALLED_APPS`
+
+```!python
+#!python
+INSTALLED_APPS = [
+    ...
+    "django_serve.apps.ServeConfig",
+    ...
+]
+```
+
+## Usage ##
+
+```!shell
+./manage.py serve
+```
+
+### options
+
+* `--addr` The socket address to bind [default=127.0.0.1]
+* `--port` The socket port to bind [default=8000]
+* `--workers` The number of worker processes for handling requests [default max(1, (cpu + 1) / 2)]
+* `--name` A base to use with setproctitle for process naming [default=django]
+* `--wsgi` Dotted path to wsgi application [default=settings.WSGI_APPLICATION]
+* `--config` The Gunicorn config file [default=None]
+* `--log-level` The granularity of Error log outputs (debug, info, warning, error, critical) [default=info]
+* `--logformat` The access log format (default='"%(m)s %(U)s%(q)s %(H)s" %(s)s %(B)s' same as default django runserver)
+* `--logger-class` The logger you want to use to log events [default=gunicorn_color.Logger if installed else gunicorn default one]
+* `--reload-engine` Which reload engine to use between polling or inotify (or not at all) [default=auto]
+
+
+## CHANGES ##
+
+### dev
+
+* use black
+* drop Python 3.5 support
+* add Django 3.2 support
+* add Python 3.9 and 3.10 support
+* add django-serve command
+* add support for python -m django_serve
+* install inotify only on linux platform
+* add --reload-engine and DJANGO_DEFAULT_RELOAD_ENGINE option
+* update default workers count
+
+### 0.1.1
+
+* add gunicorn-color as required
+
+### 0.1.0
+
+* initial implementation
+* add support for gunicorn config file
+* add custom django reloader
+* add log-level option
+* add logformat configuration
+* add logger-class option
+
+
