@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: genluhn
+Version: 0.3.0
+Summary: Generalized Luhn algorithm to any numeric base
+Home-page: https://github.com/inab/genluhn
+Author: José M. Fernández <https://orcid.org/0000-0002-4806-5140>
+Author-email: jose.m.fernandez@bsc.es
+License: LGPL-2.1
+Project-URL: Bug Tracker, https://github.com/inab/genluhn/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Generalized Luhn algorithm to any numerical base
+
+Luhn algorithm is described in Annex B of [ISO/IEC 7812-1:2017](https://www.iso.org/standard/70484.html). As it is described at [Luhn's Wikipedia page](https://en.wikipedia.org/wiki/Luhn_algorithm), the algorithm is used to compute check digits and check them in identification numbers, like the usually found in credit card numbers. The standard algorithm uses 10 as numeric base for the check digit.
+
+But there are other scenarios, like [nih URIs at IETF RFC 6920](https://datatracker.ietf.org/doc/html/rfc6920#section-7), where the numeric base of the check digit to be computed and validated is 16 (see examples at [section 8.2](https://datatracker.ietf.org/doc/html/rfc6920#section-8.2) of RFC 6920).
+
+This library is just an implementation of the algorithm for any base. There are two methods, `compute` and `validate`, which take as first parameter either an integer, or a string representing the number in the base, or an array of integers, where the value of each position is the corresponding numeric digit. `compute` method computes the check digit, meanwhile `validate` takes the whole identification number, the numerical base and the check digit, and answers either `True` or `False`.
+
+```python
+genluhn.compute('5326-9057-e12f-e2b7-4ba0-7c89-2560-a2',16)
+# It return 15
+
+genluhn.validate('5326-9057-e12f-e2b7-4ba0-7c89-2560-a2', 16, 15)
+# It returns True
+
+genluhn.validate('5326-9057-e12f-e2b7-4ba0-7c89-2560-a2', 16, 14)
+# It returns False
+```
+
+
+Accessory methods of this library are `intToDigits`, `strToDigits` and `bytesToDigits`, which are used when either an integer, or a string or a byteslike object have to be translated to a list of digits in the given numerical base.
+
+
