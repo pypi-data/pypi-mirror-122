@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+requests_to_curl.egg-info/PKG-INFO
+requests_to_curl.egg-info/SOURCES.txt
+requests_to_curl.egg-info/dependency_links.txt
+requests_to_curl.egg-info/requires.txt
+requests_to_curl.egg-info/top_level.txt
