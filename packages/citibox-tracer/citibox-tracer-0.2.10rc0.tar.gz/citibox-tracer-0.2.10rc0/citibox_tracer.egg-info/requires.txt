@@ -1,0 +1,4 @@
+opencensus==0.7.13
+opencensus-ext-django==0.7.5
+opencensus-ext-stackdriver<0.8,>=0.7
+google-cloud-pubsub<1.7,>=1.6
