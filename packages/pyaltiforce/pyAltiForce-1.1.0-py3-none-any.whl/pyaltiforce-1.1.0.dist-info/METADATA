@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pyaltiforce
+Version: 1.1.0
+Summary: Python Parsing for AltiForce GoPro Backpack CSVs.
+Home-page: https://github.com/sco1/
+Author: sco1
+Author-email: sco1.git@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: matplotlib (>=3.4,<4.0)
+Requires-Dist: numpy (>=1.21,<2.0)
+Project-URL: Repository, https://github.com/sco1/pyaltiforce
+Description-Content-Type: text/markdown
+
+# pyAltiForce
+Python Parsing for AltiForce GoPro Backpack CSVs
+
+The CSV file is processed and a plot of time vs. total acceleration is displayed.
+
+## Usage
+Calling `pyAltiForce` from the command line with no arguments opens a file selection GUI for the user to select a single CSV file to process and display.
+
+Calling `pyAltiForce` with the optional `-f` or `--file` flag will allow the user to specify a single CSV file to process.
+
+Examples Include:
+
+    python pyAltiForce -f './Data/GOPR0024.CSV'
+    python pyAltiForce --file 'C:/My Data/GOPR0024.CSV'
+
