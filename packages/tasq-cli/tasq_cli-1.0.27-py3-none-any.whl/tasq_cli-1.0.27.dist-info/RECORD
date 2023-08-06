@@ -1,0 +1,15 @@
+tasq_cli/__init__.py,sha256=7gKS32qxz8Qi8-piNzwnFpxlXSoFxY3hwjhWS6KK5tM,1337
+tasq_cli/__main__.py,sha256=lDYuKRwI-hM9BD-GZ0gllRGKqg-03R-eDlSqorM0IRs,26
+tasq_cli/db.py,sha256=3gkxBcV9_t6zt-ZJ-MC3tDLs0_QJli-MpDG-3lwCvd8,2235
+tasq_cli/entrypoint.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tasq_cli/jobs.py,sha256=u4Vd0wLxhFqQs1NVY99xGQ8JY9tc2-KkpAJ6_B2eAeA,1617
+tasq_cli/main.py,sha256=Rc0no9O_U2iC7tp4_eiCjPzcFpGTylOVcBSyozJksg0,5348
+tasq_cli/projects.py,sha256=ae9IZnrsVaRgKKDG1XPqw_HJy1SQccNcBqZp9wxI0Q8,425
+tasq_cli/server.py,sha256=ySnyEtXFkBad6wTgFHo01ZmEZtdE_y_gJqFnA5eWRCo,1004
+tasq_cli/settings.py,sha256=Ng4REsNVS7rtKFCEH93kBxf0g9TMEONypYnW3IboWDc,1651
+tasq_cli/upload.py,sha256=c92CuhCuJw3Vn9P_w5-bAKSaEriddEWUTLvjVIlX5sY,10212
+tasq_cli/utils.py,sha256=VxOTJZOdp9V0dJxUzZiaQ7m7iYkOmtC6J7TRg3stXrM,1373
+tasq_cli-1.0.27.dist-info/entry_points.txt,sha256=6AMPzHfOyhfFx6DHSU0WLbsFm6-i2KMlQdXzN-6aZ5Y,43
+tasq_cli-1.0.27.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tasq_cli-1.0.27.dist-info/METADATA,sha256=XfMjS3WLP6Cx6MwBpCuD8VK2oWqquQ420LNrhFd-nxI,1070
+tasq_cli-1.0.27.dist-info/RECORD,,
