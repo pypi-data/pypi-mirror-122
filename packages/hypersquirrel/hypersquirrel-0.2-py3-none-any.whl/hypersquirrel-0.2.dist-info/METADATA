@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hypersquirrel
+Version: 0.2
+Summary: Scrapes posts from various websites
+Home-page: UNKNOWN
+Author: vka
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: vripper
+Requires-Dist: htmllistparse
+Requires-Dist: commmons
+Requires-Dist: feedparser
+
+# hypersquirrel
+
+
