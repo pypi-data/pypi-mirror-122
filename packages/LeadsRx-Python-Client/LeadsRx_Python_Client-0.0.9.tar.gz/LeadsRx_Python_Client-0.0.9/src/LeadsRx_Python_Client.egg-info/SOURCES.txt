@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/LeadsRx/__init__.py
+src/LeadsRx/client.py
+src/LeadsRx/web_request_interfaces.py
+src/LeadsRx_Python_Client.egg-info/PKG-INFO
+src/LeadsRx_Python_Client.egg-info/SOURCES.txt
+src/LeadsRx_Python_Client.egg-info/dependency_links.txt
+src/LeadsRx_Python_Client.egg-info/requires.txt
+src/LeadsRx_Python_Client.egg-info/top_level.txt
