@@ -1,0 +1,12 @@
+cartopy
+gdal
+h5py
+lxml
+matplotlib
+netCDF4
+numpy
+pyproj
+python-dateutil
+pyyaml
+scipy
+setuptools_scm
