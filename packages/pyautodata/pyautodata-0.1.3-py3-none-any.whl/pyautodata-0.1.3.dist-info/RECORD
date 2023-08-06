@@ -1,0 +1,15 @@
+pyautodata/__init__.py,sha256=c5pIk9uZ1YR0fOxGL6lo1GuI-9MSwid99kJaNc1GCng,188
+pyautodata/alias.py,sha256=zS64Ag3t1W2OwrC0YOFZsNy_HlqucuEkx6cCGe-n4l4,467
+pyautodata/attributes.py,sha256=U4v1H_vbl3iOJt-HCEMHdB448XNfP6RlVxNG6x0ONxY,543
+pyautodata/autodata.py,sha256=WZzKsiSRpGmlWIUEIfAd9x_kYnkrydIJeTY2H2CvHUM,1693
+pyautodata/base.py,sha256=8Knx1IyxFv2D-4KcPkmBanh_SIeXN8ABsWr3E74-jlE,119
+pyautodata/builtins.py,sha256=Tp8VVZ8JZv3IURI8N9YGRYkGfd8cEThnR8p2u58azDg,532
+pyautodata/dataframe.py,sha256=-PepH3j7iTaZb89ThvSEQzO3GqVyedKW_hxeze9_kh4,1321
+pyautodata/dates.py,sha256=EhoJVjSwPgiBanXa77oYTV-CkKGc1XlCll4RoS94Yhk,901
+pyautodata/generator.py,sha256=bbgXk9WGi_NqBunuYLR71kw9V7D8X9QTj1khg5gsmv4,2373
+pyautodata-0.1.3.dist-info/LICENSE,sha256=VgjJWulX6gjHBQFRGG-MGGKYdqXQzIUtr3_n-sfzjzM,1078
+pyautodata-0.1.3.dist-info/METADATA,sha256=bocuaXsS1Y16tAX1-K8OeFHNx_XM5szHx2ikVt-cCK4,6953
+pyautodata-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyautodata-0.1.3.dist-info/entry_points.txt,sha256=0qm5K5QMkmKN-9lIt8IfOOYzKkWYkwlNb2b9Ee-uq-c,54
+pyautodata-0.1.3.dist-info/top_level.txt,sha256=sBVTcQbyTVmQqi49DVCdpK7kAjOBs3zxc6vxerwUAvU,11
+pyautodata-0.1.3.dist-info/RECORD,,
