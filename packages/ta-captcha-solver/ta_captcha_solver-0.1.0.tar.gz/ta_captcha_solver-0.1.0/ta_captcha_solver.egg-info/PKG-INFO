@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: ta-captcha-solver
+Version: 0.1.0
+Summary: Thoughtful Automation BitWarden CLI installation package
+Home-page: https://www.thoughtfulautomation.com/
+Author: Bohdan Sukhov
+Author-email: bohdan.sukhov@thoughtfulautomation.com
+License: MIT license
+Keywords: ta_captcha_solver
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+==================
+ta-captcha-solver
+==================
+
+
+.. image:: https://img.shields.io/pypi/v/ta_captcha_solver.svg
+        :target: https://pypi.python.org/pypi/ta_captcha_solver
+
+.. image:: https://img.shields.io/travis/macejiko/ta_captcha_solver.svg
+        :target: https://travis-ci.com/macejiko/ta_captcha_solver
+
+.. image:: https://readthedocs.org/projects/ta-captcha/badge/?version=latest
+        :target: https://ta-captcha.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+|
+
+Thoughtful Automation Captcha Solver
+
+|
+
+Installation
+------------
+
+::
+
+   python3 -m virtualenv venv
+   source venv/bin/activate
+   pip install ta-captcha-solver
+
+|
+
+Example Usage
+-------------
+
+.. code:: python
+
+   captcha = TACaptchaSolver.get(
+       captcha_type="v2",
+       browser=self.browser,
+       captcha_guru_api_key=self.captcha_guru_api_key,
+   )
+  captcha.solve()
+
+|
+
+Development
+-----------
+
+**Prepare local dev env:**
+
+::
+
+   python3 -m virtualenv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+
+**Testing:**
+
+::
+
+   CAPTCHA_GURU_API_KEY=XXX pytest
+
+**Push new package version:**
+
+::
+
+  bump2version minor
+  git push origin YOUR_BRANCH
+
+
+
+
+
