@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+setup.py
+galearn/__init__.py
+galearn/galearn.py
+galearn/settings.py
+galearn.egg-info/PKG-INFO
+galearn.egg-info/SOURCES.txt
+galearn.egg-info/dependency_links.txt
+galearn.egg-info/requires.txt
+galearn.egg-info/top_level.txt
