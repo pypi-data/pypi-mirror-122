@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: samutil
+Version: 0.0.70
+Summary: A set of Python utility packages for developing and maintaining quality software.
+Home-page: https://github.com/sammce/samutil
+Author: Sam McElligott
+Author-email: sammcelligott@outlook.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/sammce/samutil/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: sigfig
+Requires-Dist: sortedcontainers
+
+README.md
+
