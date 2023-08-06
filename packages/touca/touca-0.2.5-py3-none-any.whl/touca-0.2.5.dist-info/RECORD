@@ -1,0 +1,17 @@
+touca/__init__.py,sha256=VHSqcKfAMOj2VkO0g_v7Cgg0fTQ5OuTIETWuSKD90DI,2568
+touca/_case.py,sha256=jrpc6lU1g3nLvyAEabviDoq5_zlpKJKipQ2LsvqiRKM,10869
+touca/_client.py,sha256=Tw4C96-YjI42hgu9IZv39-NGtLYzPnpdW6TtNNdOQp4,17800
+touca/_options.py,sha256=wRuB-4WPfZ9In8LiO5vL8fJyr78Eq66KgjGuO6iVOt8,3153
+touca/_schema.py,sha256=EHM31NSQNxRMB_eRPt_LiwENnjKsZ7cGTXxYlQUxDHo,6676
+touca/_transport.py,sha256=k2BBMxvnhXQxiGHAKj44tHvfSIaUKVe516-wavjk0dE,3473
+touca/_types.py,sha256=sJsjRgz6Q0UB-SzHrkGB7O-ZjB-QaRLLnVL8gbevA8Q,6807
+touca/_utils.py,sha256=v1DWt3B2CcaO4EaoR-cp8DFW7Tkr41UXEpMDapqG45w,605
+touca/_version.py,sha256=iX9FfSkSjeYTa5VG8dAscKdes18CkUJBzcGKA5ySKfI,106
+touca/_workflow.py,sha256=aH0mNEhHfVtkwRQH8mL3YlZet8ghiQK9j5DHgIuONUU,13018
+touca/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+touca/plugins/django.py,sha256=21-Gp0W5KwhvTm2pKDvh56HU2TYGuR5lvTa7PIMUBFs,3583
+touca-0.2.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+touca-0.2.5.dist-info/METADATA,sha256=lkQjkLB_x4MG0hUKOGOOU-09h-lqKYUv1r3eDKCzmtM,9141
+touca-0.2.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+touca-0.2.5.dist-info/top_level.txt,sha256=8eJAxrc3Xy_wlBDb06L1EUUkZ_-vbYOTsyt5BiYzIPo,6
+touca-0.2.5.dist-info/RECORD,,
