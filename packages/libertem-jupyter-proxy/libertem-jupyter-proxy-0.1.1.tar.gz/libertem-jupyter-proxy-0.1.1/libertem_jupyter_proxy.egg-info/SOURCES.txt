@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+libertem_jupyter_proxy/__init__.py
+libertem_jupyter_proxy.egg-info/PKG-INFO
+libertem_jupyter_proxy.egg-info/SOURCES.txt
+libertem_jupyter_proxy.egg-info/dependency_links.txt
+libertem_jupyter_proxy.egg-info/entry_points.txt
+libertem_jupyter_proxy.egg-info/requires.txt
+libertem_jupyter_proxy.egg-info/top_level.txt
+libertem_jupyter_proxy/icons/libertem.svg
+libertem_jupyter_proxy/share/launch_juwels.sh
