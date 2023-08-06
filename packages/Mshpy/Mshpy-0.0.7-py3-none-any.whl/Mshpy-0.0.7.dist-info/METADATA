@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Mshpy
+Version: 0.0.7
+Summary: Simplified Earth magnetosheath model
+Home-page: UNKNOWN
+Author: Jaewoong Jung
+Author-email: <jjung11@alaska.edu>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+README
+
