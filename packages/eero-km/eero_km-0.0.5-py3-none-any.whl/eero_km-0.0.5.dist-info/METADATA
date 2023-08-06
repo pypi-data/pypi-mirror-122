@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: eero-km
+Version: 0.0.5
+Summary: Extract eero network details and insights
+Home-page: https://github.com/krishnadasmallya/eero-client
+Author: Krishnadas Mallya
+Author-email: krishnadasmallya@gmail.com
+License: MIT License
+Keywords: eero-km
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: click
+
+Eero Client - Starter client for Eero API Interactions
+
+Having seen 343max/eero-client's excellent starter project, I went ahead and forked it.
+
+This is a very simple client lib to access information about your eero home network. Reused major part from the original owner and added few more api calls for network usage and speedtest
+
+Right now it support the following features:
+- login/login verification
+- user_token refreshing
+- account (all information about an account, most importantly a list of your networks)
+- networks (information about a particular network)
+- devices (a list of devices connected to a network)
+- reboot
+- data_usage_last_5_min_breakdown (network usage breakdown by device/profile/eeros)
+- speedtest (invoke and get speedtest from eero)
+
+The API is pretty nice and it should be kind of easy to extend it from here if you miss something. There are a lot of URLs in the response json that will help you explore the API further.
+
+There is a sample client that you might use for your experiments. On first launch it will ask you for the phone number you used to create your eero account. Afterwards you've been asked for the verification code that you got via SMS. From here on you are logged in - running the command again will dump a ton of information about your network(s).
+
+
