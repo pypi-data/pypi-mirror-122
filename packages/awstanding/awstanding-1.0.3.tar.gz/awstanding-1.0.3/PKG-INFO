@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: awstanding
+Version: 1.0.3
+Summary: Load parameters from AWS Parameter Store
+Home-page: https://github.com/jiss2891/awstanding
+Author: Juan Ignacio Sánchez Sampayo
+Author-email: jiss2891@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jiss2891/awstanding/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# AWStanding
+Easily load variables from AWS Parameter store into environment variables.
+
+# Why to AWStanding?
+Because it handles AWS pagination so the amount of requests performed to retrieve the parameters are the bare minimum.
+Also it handles invalid parameters, so you don't have to deal with undefined variables exceptions, as an option. 
+
+# Quickstart
+```python
+from awstanding.parameter_store import load_parameters
+load_parameters({'/some/path/to/something/stored': 'IMPORTANT_SETTING'})
+
+import os
+print(os.environ.get('IMPORTANT_SETTING'))
+'super-important-value'
+```
+
+# Using with python-decouple
+```python
+import os
+from awstanding.parameter_store import load_parameters
+from decouple import config
+load_parameters({'/some/path/to/something/stored': 'IMPORTANT_SETTING'})
+
+IMPORTANT_SETTING = config('IMPORTANT_SETTING', default='some-default')
+print(IMPORTANT_SETTING)
+'super-important-value'
+```
+
+# Not allowing missing parameters
+```python
+from awstanding.parameter_store import load_parameters
+# A call like this one:
+load_parameters({'/not/defined/parameter': 'IMPORTANT_SETTING'}, allow_invalid=False)
+
+# will raise a ParameterNotFoundException, and you can handle it as follows:
+from awstanding.exceptions import ParameterNotFoundException
+
+try:
+    load_parameters({'/not/defined/parameter': 'IMPORTANT_SETTING'}, allow_invalid=False)
+except ParameterNotFoundException as e:
+    # perform any cleanup action..
+```
+
