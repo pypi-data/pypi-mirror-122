@@ -1,0 +1,8 @@
+class Output(object):
+    """Exportation functions"""
+
+    def store(self, data):
+        """Write to disk
+        (data)-> disk """
+        with open("Output.txt", "a") as f:
+            f.write(f"{data}\n")
