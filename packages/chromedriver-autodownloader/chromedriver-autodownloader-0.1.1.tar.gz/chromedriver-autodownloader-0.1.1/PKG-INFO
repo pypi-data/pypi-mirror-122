@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: chromedriver-autodownloader
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/umardy/chromedriver-autodownloader
+Author: Umardy
+Author-email: umardev004@gmail.com
+License: Apache Software License (http://www.apache.org/licenses/LICENSE-2.0)
+Description: # A Super Simple Automatic Chromedriver Downloader
+        
+        ## Installation:
+        ```bash
+        pip install chromedriver-autodownloader
+        ```
+        
+        ## Usage:
+        ```python
+        from chromedriver_autodownloader import download_chromedriver
+        download_chromedriver() # download and extract chromedriver to current directory
+        # or
+        download_chromedriver(target_dir) # download and extract to spesified target directory
+        ```
+        
+        if you use [helium](https://github.com/mherrmann/selenium-python-helium) and want to extract chromedriver to it's webdriver path you can code as below
+        ```python
+        download_chromedriver('helium')
+        ```
+Keywords: automatic chromedriver downloader
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
