@@ -1,0 +1,13 @@
+LICENSE,sha256=T_a9yqlaZEQmTPbuxH4MoZ92aGDrVUgek5Ly9wOZmOc,1083
+src/cli/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+src/cli/api.py,sha256=IJV_yYfA1WUEe7HLeuWgMx8_uIcNKJNczVBRwbxGPkU,3803
+src/cli/bucket.py,sha256=s2p3BTOTqeMXAQLIc3hJJeC23bliPGdCGedjSqQ6twg,4173
+src/cli/commons.py,sha256=PkaM0emUJrIawXcTfT8PhM4O6nHYTv_jX6CfUbim07c,507
+src/cli/exceptions.py,sha256=_jn59EmQSOCCyLxdEs5rSi3iaWlrw2hE9VOOaoiK2z0,1031
+src/cli/main.py,sha256=WahOgCzkBoloLKFv2p3Pp-8hyOu5fi7iEGJ_zeMknEM,140
+src/cli/user.py,sha256=ZcQMsaC9NQuS0wFT-9z__Cux1FOpFYq0pYPscLc_Ya0,858
+adacord-0.1.1.dist-info/entry_points.txt,sha256=ZTDL3i9IaoDG1qNG9ChZ80Lqm6XEnZShW9hnZ430NOM,40
+adacord-0.1.1.dist-info/LICENSE,sha256=T_a9yqlaZEQmTPbuxH4MoZ92aGDrVUgek5Ly9wOZmOc,1083
+adacord-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+adacord-0.1.1.dist-info/METADATA,sha256=8avNsGv6u4jsPfbY1OI_QjPyxSaUzcCcxixk2E62om4,1507
+adacord-0.1.1.dist-info/RECORD,,
