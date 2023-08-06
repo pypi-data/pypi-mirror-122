@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: Shelegia-Motta-2021
+Version: 0.0.2
+Summary: Implements Shelegia and Motta (2021)
+Home-page: https://github.com/manuelbieri/shelegia_motta_2021
+Author: Manuel Bieri
+Author-email: manuel.bieri@outlook.com
+License: MIT
+Download-URL: https://github.com/manuelbieri/Shelegia_Motta_2021/archive/refs/tags/v0.0.2.tar.gz
+Keywords: Acquisition,Kill Zone,Start-up
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package implements the models of [Shelegia and Motta (2021)](shelegia_motta_2021.pdf).
+
+### Basic Usage
+```
+import Shelegia_Motta_2021.Models
+
+base_model = Shelegia_Motta_2021.Models.BaseModel()
+```
+
+### Generate Documentation
+Install pdoc:
+```
+pip install pdoc
+```
+Generate api-documentation with the following command:
+```
+pdoc -o ./docs Shelegia_Motta_2021
+```
+
