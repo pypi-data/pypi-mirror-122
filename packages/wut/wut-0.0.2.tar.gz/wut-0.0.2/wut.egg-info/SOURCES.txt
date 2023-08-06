@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+wut/__init__.py
+wut/webserver.py
+wut.egg-info/PKG-INFO
+wut.egg-info/SOURCES.txt
+wut.egg-info/dependency_links.txt
+wut.egg-info/top_level.txt
