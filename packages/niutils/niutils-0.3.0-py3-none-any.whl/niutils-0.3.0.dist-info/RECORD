@@ -1,0 +1,11 @@
+niutils/__init__.py,sha256=iGLXymppA2GXk8T3IZ0ZNcwfQcGY_qiWo0KUKpf8XQU,123
+niutils/_version.py,sha256=gwSKsa1VO_QTy-sYSSPMe5NCl_Oa09fttsKyp0KtKNg,497
+niutils/niutils.py,sha256=bVmac995pHEmoV4pIMg5jibfu8zbZgFcYd3FVeJgIGE,11474
+niutils/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+niutils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+niutils-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+niutils-0.3.0.dist-info/METADATA,sha256=SHco0cSH43UlCC-m99uoTeQbHEZG_a8NBwVfA9uQrdI,2703
+niutils-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+niutils-0.3.0.dist-info/entry_points.txt,sha256=W9SoL8Y_PVyzAcoUiHgyj8h-yCjZFgkiYTOxeKaqgK8,51
+niutils-0.3.0.dist-info/top_level.txt,sha256=3nLEysKCxTfOrAjjQGmzoAQBGV3MIaib3jI_A2DquN8,8
+niutils-0.3.0.dist-info/RECORD,,
