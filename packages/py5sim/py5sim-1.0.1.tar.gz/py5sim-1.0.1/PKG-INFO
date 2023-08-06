@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: py5sim
+Version: 1.0.1
+Summary: Easy package for 5sim.net api
+Author: abuztrade
+Author-email: abuztrade.work@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

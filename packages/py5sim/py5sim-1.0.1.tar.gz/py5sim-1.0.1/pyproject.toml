@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py5sim"
+version = "1.0.1"
+description = "Easy package for 5sim.net api"
+authors = ["abuztrade <abuztrade.work@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+py5sim = { git = "https://github.com/makarworld/py5sim.git", branch = "master" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
