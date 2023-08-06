@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: TradingLog
+Version: 1.0.1
+Summary: Python package for creating and visualizing IBKR trading logs
+Home-page: UNKNOWN
+Author: Jason Dsouza
+Author-email: <youremail@email.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+This package is built to help you import and parse different trading files from IBKR to track and visualize trading performance
+
+
