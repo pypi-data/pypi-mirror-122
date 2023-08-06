@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: TcEncoder
+Version: 1.0.1
+Summary: It is a function to encode and decode easier string,list and dictionarys using a password in Python
+Home-page: UNKNOWN
+Author: Maycon Guimarães
+Author-email: maycon.vnc@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: encoder and decoder using only a password
+Platform: UNKNOWN

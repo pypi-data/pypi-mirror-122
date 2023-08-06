@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+TcEncoder/TcEncoder.py
+TcEncoder/__init__.py
+TcEncoder.egg-info/PKG-INFO
+TcEncoder.egg-info/SOURCES.txt
+TcEncoder.egg-info/dependency_links.txt
+TcEncoder.egg-info/requires.txt
+TcEncoder.egg-info/top_level.txt
