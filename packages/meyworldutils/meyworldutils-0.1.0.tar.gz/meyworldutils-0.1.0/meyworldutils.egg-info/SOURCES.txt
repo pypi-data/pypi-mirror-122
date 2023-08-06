@@ -1,0 +1,8 @@
+README.md
+setup.py
+meyworldutils/__init__.py
+meyworldutils/meyutils.py
+meyworldutils.egg-info/PKG-INFO
+meyworldutils.egg-info/SOURCES.txt
+meyworldutils.egg-info/dependency_links.txt
+meyworldutils.egg-info/top_level.txt
