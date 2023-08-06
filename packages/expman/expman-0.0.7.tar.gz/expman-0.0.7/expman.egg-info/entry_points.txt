@@ -1,0 +1,4 @@
+[console_scripts]
+econv = expman.bin.convert_logs:main
+eplot = expman.bin.term_plot:main
+

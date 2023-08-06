@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: expman
+Version: 0.0.7
+Summary: Experiment manager.
+Home-page: https://github.com/vzhong/expman
+Author: Victor Zhong
+Author-email: victor@victorzhong.com
+License: MIT
+Description: # expman
+        
+        Simple experiment manager.
+        For usage, please see `example.py`.
+        
+Keywords: text nlp machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: wandb
+Provides-Extra: dev
+Provides-Extra: test
