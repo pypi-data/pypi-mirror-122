@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Neuron-pypi-RajanAiden
+Version: 0.0.1
+Summary: It's an Implementation of Perceptron
+Home-page: https://github.com/RajanAiden/Neuron_pypi
+Author: RajanAiden
+Author-email: aidenrichad12.ar@gmail.com.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/RajanAiden/Neuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+# Neuron_pypi
+
