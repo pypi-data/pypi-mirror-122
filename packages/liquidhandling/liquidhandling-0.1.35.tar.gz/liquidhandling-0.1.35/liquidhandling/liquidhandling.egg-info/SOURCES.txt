@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+liquidhandling/hudson/RapidPick.py
+liquidhandling/hudson/SoftLinx.py
+liquidhandling/hudson/SoloSoft.py
+liquidhandling/hudson/__init__.py
+liquidhandling/liquidhandling.egg-info/PKG-INFO
+liquidhandling/liquidhandling.egg-info/SOURCES.txt
+liquidhandling/liquidhandling.egg-info/dependency_links.txt
+liquidhandling/liquidhandling.egg-info/not-zip-safe
+liquidhandling/liquidhandling.egg-info/requires.txt
+liquidhandling/liquidhandling.egg-info/top_level.txt
+test/test_JsonSchema.py
