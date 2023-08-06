@@ -1,0 +1,11 @@
+backup_uploader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backup_uploader/chain.py,sha256=Z9mSa-NtFp3ngvGtxz7gn1-ulo27-VudE3v2S_NIFow,1888
+backup_uploader/cli.py,sha256=83khE_TYmZmmkwA8C_pytn-4Xky0WOnvBTKih7aQeGk,1755
+backup_uploader/directories.py,sha256=e0P7u_IdVbZNs5cl-PX3H4DFgnzrjvK3FJe-gFlYTUM,3328
+backup_uploader/parser.py,sha256=e8pV4cYbBga47g1hENnxYUxnT1sifxKKBTsaOGMUGjA,3857
+backup_uploader-0.4.1.dist-info/LICENSE,sha256=nRDBnItwICrvMBD7I52rD3IgrE1czxJIsAbksF1V2Es,1066
+backup_uploader-0.4.1.dist-info/METADATA,sha256=bIYRdoKTxGiplXG_TXApfMPNmSsRbXjZqqD8FpxHLAw,6462
+backup_uploader-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+backup_uploader-0.4.1.dist-info/entry_points.txt,sha256=RAqxfZKzq7c60fNvwWjDfJzBcRHcng3mwuR2urK2G40,72
+backup_uploader-0.4.1.dist-info/top_level.txt,sha256=Bfpr-UXd5C-pyB7sPZ8Ak_8R1dzQdEUC8tiW7UFmjuk,16
+backup_uploader-0.4.1.dist-info/RECORD,,
