@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+defaultmod/__init__.py
+defaultmod.egg-info/PKG-INFO
+defaultmod.egg-info/SOURCES.txt
+defaultmod.egg-info/dependency_links.txt
+defaultmod.egg-info/top_level.txt
+defaultmodwerrors/__init__.py
