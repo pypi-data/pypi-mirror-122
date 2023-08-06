@@ -1,0 +1,8 @@
+traits/__init__.py,sha256=Lj7ke5_5CERgsaUKWH3hnz2jZiemcFdt75RtWQ1n3Sc,68
+traits/base.py,sha256=Hy-u75odaoIKVw24BsRvCrlmVRiFkZ28IwHNbU2kDh0,1251
+traits/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_traits-0.0.1.dist-info/LICENSE,sha256=SIhAGjiO1eSdd1NVC0n19M_JGjrcflpBQLK872hbTk4,1524
+django_traits-0.0.1.dist-info/METADATA,sha256=sM-qEECKsYp_HGZSX10dvZs8KmVpuAPJMuxOGpVKk2s,2765
+django_traits-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_traits-0.0.1.dist-info/top_level.txt,sha256=H4tOLMHwJt26pTsSw4r2HjTTt1ARJISKu8b-JzV7RjI,7
+django_traits-0.0.1.dist-info/RECORD,,
