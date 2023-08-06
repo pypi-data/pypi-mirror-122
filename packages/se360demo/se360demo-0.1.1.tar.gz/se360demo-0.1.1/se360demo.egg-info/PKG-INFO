@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: se360demo
+Version: 0.1.1
+Summary:  Demo code for SE360 
+Home-page: https://github.com/statease/se360-python-demo
+Author: Hank Anderson
+Author-email: hank@statease.com
+License: Other/Proprietary License
+Description: # Stat-Ease 360 and Python demo
+        
+        This is a collection of a few Python programs that interact with Stat-Ease 360,
+        initially demonstrated at the 2021 DOE Summit by Hank Anderson. The slides
+        from that talk are included in this repository as well.
+        
+        In order to use the data from this repository, you should install the `se360demo`
+        Python package by running `pip install se360demo`.
+        
+        ## Multi-response Graph
+        
+        This uses the `examples\multiresponse-graph.py` script. Open Stat-Ease 360 and
+        load this script from the Script Window, then click File -> Run.
+        
+        It will retrieve the two Analysis objects from SE360 and make predictions for
+        both of them while varying the A factor. These predictions are plotted on the
+        same Matplotlib plot.
+        
+        ## Streamflow
+        
+        This example uses the `examples\streamflow.py` script.
+        
+        It demonstrates fetching data from a cloud API and inserting it into
+        Stat-Ease 360. It has a flag in the script to toggle between live data and
+        a csv file.
+        
+        The data retrieval and manipulation code are in `se360demo\__init__.py`.
+        To use the live data you'll need to set an environment variable called
+        `NOAA_TOKEN` with a token generated from https://www.ncdc.noaa.gov/cdo-web/token.
+        
+        ## Delivery Time
+        
+        This example uses the `examples\delivery-time.py` script.
+        
+        This is the Delivery Time example from chapter 11.2.3 of Montgomery, Peck and
+        Vining (2012) on "data splitting" or cross validation. The data are first
+        segmented and evaluated according to the textbook. The data are then split into
+        4 segments for a k-fold cross validation. Each split is evaluated and the
+        results are plotted in a bar chart.
+        
+        ## Simulated Cross Validation
+        
+        This example uses the `examples\sim-cv.py` script.
+        
+        This uses two data sets that both have simulated responses. The script compares
+        two analyses of each response using cross validation. One analysis is done using
+        Ordinary Least Squares and the other using a Gaussian Process Model.
+        
+        ## Streamflow Cross Validation
+        
+        This example uses the `examples\streamflow-cv.py` script.
+        
+        This does a time-based cross validation on the streamflow data. It divides the
+        data up into years for one cross validation, then does another cross validation
+        based on the month of the year. The results are output to the console.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Description-Content-Type: text/markdown
