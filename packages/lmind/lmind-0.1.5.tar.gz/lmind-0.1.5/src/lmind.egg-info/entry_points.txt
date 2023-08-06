@@ -1,0 +1,3 @@
+[console_scripts]
+lmd = lmind.cli:main
+
