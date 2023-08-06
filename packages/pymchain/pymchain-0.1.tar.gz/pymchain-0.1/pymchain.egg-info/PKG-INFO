@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pymchain
+Version: 0.1
+Summary: Python Markov Chain
+Home-page: https://github.com/NikitaYurasov/pymchain
+Author: Yurasov Nikita
+Author-email: n.yurasov@yahoo.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
