@@ -1,0 +1,10 @@
+vivaldi_a/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vivaldi_a/analysis/Calc_Emis.py,sha256=f6Vx6hiV78ZK2Yo74dR9bHblzMMcvXYEOvZk8T2KRyg,35863
+vivaldi_a/analysis/Regridding_ESMF.py,sha256=J64-XvUe_iroaJDqM_VOGks5KkhJa7bEPRF6DwU_luk,90584
+vivaldi_a/analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vivaldi_a/plot/Plot_2D.py,sha256=h8x-YsehwcIlR_jVphrdIpsHh7-p5PaS_dz_5VvzCv8,45016
+vivaldi_a/plot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vivaldi_a-0.2.6.dist-info/METADATA,sha256=-K2ACR0RDyhqsNaSMOmFaBj07cwFVK8dI7eDG36IW_E,970
+vivaldi_a-0.2.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vivaldi_a-0.2.6.dist-info/top_level.txt,sha256=SEsj3oaAZUK7t3Ui8rIEvA-SmdcoAsCslkYDqXLStGc,10
+vivaldi_a-0.2.6.dist-info/RECORD,,
