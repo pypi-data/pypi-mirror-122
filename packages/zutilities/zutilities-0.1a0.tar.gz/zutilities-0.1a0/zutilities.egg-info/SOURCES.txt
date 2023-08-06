@@ -1,0 +1,8 @@
+README.md
+setup.py
+zutilities/__init__.py
+zutilities/zutilities.py
+zutilities.egg-info/PKG-INFO
+zutilities.egg-info/SOURCES.txt
+zutilities.egg-info/dependency_links.txt
+zutilities.egg-info/top_level.txt
