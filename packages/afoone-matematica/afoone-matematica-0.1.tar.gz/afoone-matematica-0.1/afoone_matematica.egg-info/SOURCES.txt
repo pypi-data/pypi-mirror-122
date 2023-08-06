@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+afoone_matematica.egg-info/PKG-INFO
+afoone_matematica.egg-info/SOURCES.txt
+afoone_matematica.egg-info/dependency_links.txt
+afoone_matematica.egg-info/top_level.txt
+matematica/__init__.py
+matematica/aritmetica.py
+matematica/geometria.py
