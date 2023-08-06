@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/check_shape.egg-info/PKG-INFO
+src/check_shape.egg-info/SOURCES.txt
+src/check_shape.egg-info/dependency_links.txt
+src/check_shape.egg-info/top_level.txt
