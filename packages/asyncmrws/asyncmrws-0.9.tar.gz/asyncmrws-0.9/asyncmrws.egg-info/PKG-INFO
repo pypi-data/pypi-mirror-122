@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: asyncmrws
+Version: 0.9
+Summary: MrWorkServer client for Python Asyncio
+Home-page: https://github.com/MarkReedZ/asyncmrws
+Author: Mark Reed
+Author-email: mark@chatt1r.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+Asyncio based Python client for MrWorkServer
+
