@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sp_calculator
+Version: 0.2.1
+Summary: A basic dependency-free calculator module
+Author-email: Seb <sebastianpikand@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/sebastianpikand/sp_calculator
+
+A simple calculator package
+
+Setting up a virtual development environment:
+
+1. navigate to project root dir
+2. . ./env/bin/activate
+
+To download new packages activate virtual env and run:
+
+1. python3 ./env/bin/pip3 install {package_name}
+
+To run tests activate virtual env and run:
+
+1. pytest
+
+To lock dependencies activate virtual env and run:
+python3 ./env/bin/pip3 freeze > requirements.txt
+
