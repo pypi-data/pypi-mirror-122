@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: postgis-assist
+Version: 0.0.3
+Summary: Package for Postgis query using python
+Home-page: https://github.com/kaditya97/postgis-assist
+Author: Aditya Kushwaha
+Author-email: kaditya9711@gmail.com
+License: UNKNOWN
+Keywords: postgresql,postgres,database,sql,api,table,pg,postGIS
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2
+
+# Postgis Assist
+
+The `postgis-assist` library is build on top of [`psycopg2`](https://github.com/psycopg/psycopg2/). It will be really helpful for running the basic postgresql and postgis query in python.
+
+Checkout the official documentation of this library here: [postgis-assist.readthedocs.io/](https://postgis-assist.readthedocs.io/)
+
+### Installation
+
+For installation of `postgis-assist`, you need to run following command
+
+```shell
+pip install postgis-assist
+```
+
+### Examples using this library
+
+Please check the official documentation here: [https://postgis-assist.readthedocs.io/](https://postgis-assist.readthedocs.io/).
+
+```python
+#Library import
+from postgis.pgis import pgis
+
+# Initialization of library
+db = pgis(dbname='pgtest', user='postgres', password='admin', host='localhost', port='5432')
+
+# Run any query
+db.run_query('SELECT * FROM pg_catalog.pg_tables')
+
+# Create schema
+db.create_schema(schema_name='schema_name')
+
+# Delete schema
+db.delete_schema(schema_name='schema_name')
+
+# Create Table
+db.create_table(table_name='table_name', schema_name='schema_name', columns='id serial PRIMARY KEY, name varchar(50)')
+
+# Get geometry as geojson
+db.vector_geojson(schema_name='schema_name', table_name='table_name')
+
+# Upload vector file to database
+db.load_vector(vector_path, schema_name="public", table_name="vector")
+
+```
+
+
