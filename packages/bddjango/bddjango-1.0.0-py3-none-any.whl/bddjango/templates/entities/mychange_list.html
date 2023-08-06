@@ -1,0 +1,48 @@
+{% extends 'admin/change_list.html' %}
+
+
+{#{%  block extrahead %}#}
+{#    <script src="http://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-modal.js"></script>#}
+{#{% endblock %}#}
+
+
+{% block object-tools %}
+    {{ block.super }}
+
+    <div class="container">
+
+{#    <div class="row">#}
+{#        <h1 style="font-size: 300%; background:#D3FFFF; color: black">&nbsp;&nbsp;&nbsp;#}
+{#            <strong>{{ opts.verbose_name }}</strong>#}
+{#        </h1>#}
+{#    </div>#}
+    <br>
+{#    <h2 style="background:#D3D3D3; color:white">&nbsp; </h2>#}
+    <div class="col-bg-6 container-fluid">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="import-csv/">
+            <button type="button" class="el-button el-button--default el-button--small" eid="1" data-name="export_as_csv">
+                <i class="fas fa-upload"></i>
+                <span>
+                    导入数据
+                </span>
+            </button>
+        </a>
+        &nbsp;&nbsp;
+       <a href="export_all_csv/" target="_blank">
+           <button type="button" class="el-button el-button--default el-button--small" eid="1" data-name="export_as_csv"><!----><!---->
+                <span class="fas fa-download"></span>
+                <span>
+                    全部导出
+                </span>
+            </button>
+       </a>
+
+
+        <h2 style="background:#D3D3D3; color:white">&nbsp; </h2>
+
+    </div>
+
+    </div>
+{% endblock %}
+
