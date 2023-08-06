@@ -1,0 +1,6 @@
+numpy
+pandas
+alpha_vantage
+seaborn
+keras
+pandas_datareader
