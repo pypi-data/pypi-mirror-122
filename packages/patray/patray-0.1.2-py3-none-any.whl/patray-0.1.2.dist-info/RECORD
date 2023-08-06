@@ -1,0 +1,11 @@
+patray/__init__.py,sha256=MwbEifmaUgk0HDHLsVZo70q64NTXxxESn63_KJUbhYA,96
+patray/__main__.py,sha256=GmGipFmxCZc2au4HeN6sHn2OFXlOD3kJN7eFfK1qrTs,1470
+patray/icon.svg.template,sha256=d2QW7XaIoBTyzEKHRSOGfdiNNRCKT5YoxWEPFi3X2kI,1216
+patray/logging.py,sha256=JjuldTZdEJ38cB1E9kyLkrl-ruSJ30S37YHt4-mrKVM,878
+patray/pa.py,sha256=LlHDVhSdipz5d3mDpyBSpUukX7EOWZ7mV3QjkLEQdGk,4113
+patray/qt.py,sha256=CAN1DHxvnsbcVxdu93JgvkzkcUQtIqE6uHjrT0I1QMk,8565
+patray/version.txt,sha256=KXtQ8IOG01Ifj9ry94642dCs30UtLmFZaQX7o3IIx5I,6
+patray-0.1.2.dist-info/METADATA,sha256=HT4jKG7auzijywBK8VSa-DZqlc7qTv3nGALFx1MHy-o,3507
+patray-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+patray-0.1.2.dist-info/top_level.txt,sha256=zHNr3ms7b9iWYLt03EsyngodItK2Ftq7Xr9nft_5rh0,7
+patray-0.1.2.dist-info/RECORD,,
