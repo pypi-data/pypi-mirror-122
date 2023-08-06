@@ -1,0 +1,48 @@
+[project]
+name = "defity"
+description = "Speedy library to detect file type from initial part of file content"
+readme = "README.rst"
+requires-python = ">=3.6"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "Programming Language :: Rust",
+  "Operating System :: POSIX :: Linux",
+  "License :: OSI Approved :: Apache Software License",
+]
+
+[build-system]
+build-backend = "maturin"
+requires = ["maturin>=0.11.2,<0.12"]
+
+[tool.maturin]
+sdist-include = ["Cargo.lock"]
+strip = true
+
+# We don't use Poetry to build and publish packages (do with Maturin instead).
+# But we use Poetry to setup virtualenv in GH Action,
+# and it requires at least these information.
+[tool.poetry]
+name = "defity"
+version = "0.0.0"
+description = "Speedy library to detect file type from initial part of file content"
+authors = ["Nguyễn Hồng Quân <ng.hong.quan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.1"
+
+[tool.poetry.dev-dependencies]
+maturin = "^0.11.2"
+Sphinx = "^4.1.2"
+pytest-mypy = "^0.8.1"
+
+[tool.black]
+line-length = 100
+target-version = ['py36', 'py37', 'py38']
+include = '\.pyi?$'
+skip-string-normalization = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+norecursedirs = "__pypackages__ _build"
