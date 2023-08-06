@@ -1,0 +1,6 @@
+commpy
+numpy
+soundfile
+bitstring
+scikit-learn
+matplotlib
