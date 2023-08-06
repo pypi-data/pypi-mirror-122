@@ -1,0 +1,4 @@
+marisa-trie
+SQLAlchemy
+jaconv
+deprecated
