@@ -1,0 +1,8 @@
+biopython
+dnacauldron
+dna_features_viewer
+
+[report]
+pdf_reports
+pandas
+matplotlib

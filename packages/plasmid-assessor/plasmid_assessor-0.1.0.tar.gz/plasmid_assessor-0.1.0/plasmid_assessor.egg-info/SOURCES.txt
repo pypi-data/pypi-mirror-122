@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+plasmid_assessor/Assessment.py
+plasmid_assessor/__init__.py
+plasmid_assessor/reports.py
+plasmid_assessor/version.py
+plasmid_assessor.egg-info/PKG-INFO
+plasmid_assessor.egg-info/SOURCES.txt
+plasmid_assessor.egg-info/dependency_links.txt
+plasmid_assessor.egg-info/requires.txt
+plasmid_assessor.egg-info/top_level.txt
