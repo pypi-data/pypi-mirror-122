@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: show_upper_by_phuri42
+Version: 0.0.1
+Summary: show upper/lower name
+Home-page: UNKNOWN
+Author: phuri
+Author-email: 6114120007@mutacth.com
+License: MIT
+Description: Demo Library
+Keywords: show_upper_lower,UPPER,NETSINMUT,NETS2411,LOWER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
