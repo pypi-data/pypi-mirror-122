@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ayoub
+Version: 0.0.1
+Summary: What Is My File Size?
+Home-page: https://github.com/ayoub-org/ayoub
+Author: DELLOUFI Ayoub
+Author-email: delloufia@gmail.com
+License: UNKNOWN
+Description: This is a demo package created for educational purpose.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

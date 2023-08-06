@@ -1,0 +1,6 @@
+README.md
+setup.py
+ayoub.egg-info/PKG-INFO
+ayoub.egg-info/SOURCES.txt
+ayoub.egg-info/dependency_links.txt
+ayoub.egg-info/top_level.txt
