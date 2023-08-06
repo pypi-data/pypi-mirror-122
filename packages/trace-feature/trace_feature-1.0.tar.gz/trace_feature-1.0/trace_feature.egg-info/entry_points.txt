@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            trace-feature=trace_feature.trace_feature:trace
+      
