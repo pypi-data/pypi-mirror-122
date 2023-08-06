@@ -1,0 +1,10 @@
+unithandler/__init__.py,sha256=JFa9hgE2IJfBCeWPIHXhN_OTx7Qi1hYH6B3lClezcgk,150
+unithandler/base.py,sha256=gDZv01JuhaJBdwJdP2M8FYp4TB-R84TdR1X5hcXYYHw,80672
+unithandler/constants.py,sha256=2z3pkoXSfFk0v5vL--m8E4Hl9ALOMtrQ3w1Q46-WgHQ,546
+unithandler/conversion.py,sha256=4Tlmq87AyIRHOjLIX8AuF_ZWl3mskbk5QyTAtEjGJcE,623
+unithandler/siunits.py,sha256=2rYaHqM39J9DnR1UDJWdF6m6PqTpwfCsEYVt2MN5e1k,1358
+unithandler-1.6.0.dist-info/LICENSE,sha256=hA9x2LAjCD0gv6fjD96u8_pqA3szZ1tr2gp7_eG73VM,1050
+unithandler-1.6.0.dist-info/METADATA,sha256=j5PUNP2SIJxxhgx88P3ZrJUxUeVnV7IR4yIseOmxVlk,3713
+unithandler-1.6.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+unithandler-1.6.0.dist-info/top_level.txt,sha256=GFdKCghN3AIJNpIOCQRdL9aX0wZzuTn4_9fd45ARpLI,12
+unithandler-1.6.0.dist-info/RECORD,,
