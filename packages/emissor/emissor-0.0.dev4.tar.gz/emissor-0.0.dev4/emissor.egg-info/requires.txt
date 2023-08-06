@@ -1,0 +1,7 @@
+numpy>=1.20
+marshmallow>=3.11
+marshmallow-dataclass>=8.4
+marshmallow-enum>=1.5
+rdflib>=5.0
+rdflib-jsonld>=0.5
+simplejson>=3.17
