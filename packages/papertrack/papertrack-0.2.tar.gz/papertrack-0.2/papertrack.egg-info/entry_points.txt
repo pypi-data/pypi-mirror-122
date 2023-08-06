@@ -1,0 +1,3 @@
+[console_scripts]
+papertrack = papertrack.__main__:main
+
