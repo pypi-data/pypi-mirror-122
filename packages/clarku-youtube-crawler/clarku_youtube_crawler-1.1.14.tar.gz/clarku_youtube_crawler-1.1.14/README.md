@@ -1,0 +1,75 @@
+# clarku-youtube-crawler
+
+Clark University YouTube crawler and JSON decoder for YouTube json. Please read documentation in ``DOCS``
+
+## Installing
+To install,
+
+``pip install clarku-youtube-crawler``
+
+The crawler needs multiple other packages to function. 
+If missing requirements (I already include all dependencies so it shouldn't happen), download <a href="https://github.com/ClarkUniversity-NiuLab/clarku-youtube-crawler/blob/master/requirements.txt">``requirements.txt`` </a> .
+Navigate to the folder where it contains requirements.txt and run 
+
+``pip install -r requirements.txt``
+
+## Example usage
+Case 1: crawl videos by keywords, 
+```
+# your_script.py
+import clarku_youtube_crawler as cu
+
+test = cu.RawCrawler()
+test.__build__()
+test.crawl("your_keyword",start_date=14, start_month=12, start_year=2020, day_count=2)
+test.crawl_videos_in_list(comment_page_count=1)
+test.merge_all(save_to='merged_videos.json')
+```
+
+Case 2: Get a list of channels crawled by keywords. You need to run case 1 first to generate a raw json file that stores 
+ all channels to be crawled. This code will generate a channel list and get all videos of all channels.
+```
+import clarku_youtube_crawler as cu
+channel = cu.ChannelCrawler()
+channel.__build__()
+channel.setup_channel(filename='merged_videos.json', subscriber_cutoff=1000, keyword="")
+channel.crawl()
+channel.crawl_videos_in_list(comment_page_count=3) #100 comments per page, 3 page will crawl first 300 comments
+channel.merge_all(save_to='file_of_merged_json.json')
+
+```
+
+Case 3: You already have a list of channels. You want to crawl all videos of the channels in the list:
+```
+import clarku_youtube_crawler as cu
+
+channel = cu.ChannelCrawler()
+channel.__build__()
+
+channel.crawl(filename='your_channel_list.csv', channel_header="channelId")
+channel.crawl_videos_in_list(comment_page_count=3) #100 comments per page, 3 page will crawl first 300 comments
+channel.merge_all(save_to='file_of_merged_json.json')
+```
+
+To convert the video JSONs to csv:
+```
+jsonn = cu.JSONDecoder()
+jsonn.load_json("file_of_merged_json.json")
+```
+
+## Changelog
+### ``Version 0.0.1->0.0.3 ``
+
+This is beta without testing since python packaging is a pain. Please don't install these versions.
+
+### ``Version 0.0.5``
+Finally figured out testing. It works okay. More documentation to come.
+
+### ``Version 0.0.6``
+Stable release only for ``RawCrawler`` feature
+
+### ``Version 1.0.0`` ``Version 1.0.1``
+I think this might be our first full stable release.
+
+### ``Version 1.0.1.dev`` ``Pre-release``
+Added different file types for ChannelCrawler. Added documentation
