@@ -1,0 +1,10 @@
+sbxreader/__init__.py,sha256=MwHT-V2PYBBU-MElTFV469X5VlA0TvhvNzn-LiHs5RE,22
+sbxreader/reader.py,sha256=I4kTWCvAwdaTevs7uZctCTjAEPDceRif7RE6JTjCp2Q,7353
+sbxreader/reg.py,sha256=0uhI6m3JPqxNo3I5jYqt9UsJBExsf3dZwqi4X6lVg9k,585
+sbxreader/viewer.py,sha256=YmcxRJIg26JscNmpBFBzVecbDc0wb43wjJxZ4asRkYk,8551
+sbxreader-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sbxreader-0.2.0.dist-info/METADATA,sha256=fjEmKaB7ou7ZTBDY8oL5hj1H4I6mSwS99MF2jPhtQ3A,580
+sbxreader-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sbxreader-0.2.0.dist-info/entry_points.txt,sha256=8pTOc5V1yrlcule4zk80x7TtjsZqSZjJh30v72TBCSE,53
+sbxreader-0.2.0.dist-info/top_level.txt,sha256=NvwGja53lrOt0FpHymRlWy5SIfqp0W8cZPa-enOhJgM,10
+sbxreader-0.2.0.dist-info/RECORD,,
