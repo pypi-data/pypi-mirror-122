@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pystra
+Version: 0.0.1
+Summary: PyStRA (Python Structural Reliability Analysis) is a python module for structural reliability analysis
+Home-page: http://github.com/pystra/pystra
+Author: Juergen Hackl
+Author-email: hackl.j@gmx.at
+License: AGPL-3.0+
+Keywords: structural reliability analysis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+Coming Soon
+
+
