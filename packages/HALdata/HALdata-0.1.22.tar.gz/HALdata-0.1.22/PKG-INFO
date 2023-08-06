@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: HALdata
+Version: 0.1.22
+Summary: Transfering Data between s3, snowflake & Domo with server integration
+Home-page: https://github.com/colaso96/HALdata
+Author: Cole Crescas
+Author-email: <colecrescas@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# HALdata
+Transfering Data between s3, snowflake & Domo.  With server error detection capabilities.
+
+## Overview:
+This code base is used to transfer data in between snowflake, aws s3 buckets domo and an api for email transfer through a corporate network.  This code base is private to SharkNinja and is not meant to be copied or used elsewhere.
+
+## Data Manager Features;
+- Create list of domo address to send new data into
+- Create list of sql queries needed to select the right data from snowflake
+- Connect to snowflake using snowflake.connector
+- Query data from snowflake and save query as a dataframe then a csv
+- Upload the file to aws s3
+- Send json payload to api directing its use
+- iterate through for loop for each domo address and sql query
+
+## TestID features:
+- Query snowflake for hash table
+- Save and output current hash table to user
+- Ask user for new test ID, go through extensive error checking 
+- If the ID is new create a new description
+- If ID first 5 digits already exist, automatically create new ID with next index and ask for new test desc from user
+
+## Server fetures:
+- load a pickled df
+- load a master df
+- unpickle, check for errors
+- pad missing columns in df
+- if there are no errors then upload to s3 bucket
+- store local copy onto server
+
+## Limitations:
+There is currently a bug in the create new test ID script where if you use the wrong count of first numbers, it breaks later on.
+
