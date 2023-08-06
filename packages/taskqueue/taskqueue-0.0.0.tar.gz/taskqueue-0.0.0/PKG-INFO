@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: taskqueue
+Version: 0.0.0
+Summary: An awesome package is coming soon! 🎉
+Home-page: https://github.com/Kludex/taskqueue
+License: MIT
+Author: Marcelo Trylesinski
+Author-email: marcelotryle@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/Kludex/taskqueue
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+    <strong>taskqueue</strong>
+</h1>
+<p align="center">
+    <a href="https://github.com/Kludex/taskqueue" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/Kludex/taskqueue" alt="Latest Commit">
+    </a>
+        <img src="https://img.shields.io/github/workflow/status/Kludex/taskqueue/Test">
+        <img src="https://img.shields.io/codecov/c/github/Kludex/taskqueue">
+    <br />
+    <a href="https://pypi.org/project/taskqueue" target="_blank">
+        <img src="https://img.shields.io/pypi/v/taskqueue" alt="Package version">
+    </a>
+    <img src="https://img.shields.io/pypi/pyversions/taskqueue">
+    <img src="https://img.shields.io/github/license/Kludex/taskqueue">
+</p>
+
+
+## Installation
+
+``` bash
+pip install taskqueue
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
