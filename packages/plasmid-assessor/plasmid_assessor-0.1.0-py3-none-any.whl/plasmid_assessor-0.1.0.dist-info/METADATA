@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: plasmid-assessor
+Version: 0.1.0
+Summary: Plasmid assessment for Golden Gate cloning
+Home-page: UNKNOWN
+Author: Peter Vegh
+Author-email: egf-software@ed.ac.uk
+License: MIT
+Keywords: biology dna
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: biopython
+Requires-Dist: dnacauldron
+Requires-Dist: dna-features-viewer
+Provides-Extra: report
+Requires-Dist: pdf-reports ; extra == 'report'
+Requires-Dist: pandas ; extra == 'report'
+Requires-Dist: matplotlib ; extra == 'report'
+
+Plasmid assessor
+=============================
+
+Plasmid assessment for Golden Gate cloning
+
+
+**Install:**
+
+.. code:: bash
+
+    pip install plasmid_assessor
+
+
+**Web documentation:**
+
+`<https://edinburgh-genome-foundry.github.io/Plasmid_assessor/>`_
+
+
+**Github page:**
+
+`<https://github.com/Edinburgh-Genome-Foundry/Plasmid_assessor>`_
+
+
+**License:** MIT, Copyright 2021 Edinburgh Genome Foundry, University of Edinburgh
+
+
+More biology software
+---------------------
+
+.. image:: https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/Edinburgh-Genome-Foundry.github.io/master/static/imgs/logos/egf-codon-horizontal.png
+  :target: https://edinburgh-genome-foundry.github.io/
+
+Plasmid assessor is part of the `EGF Codons <https://edinburgh-genome-foundry.github.io/>`_ synthetic biology software suite for DNA design, manufacturing and validation.
+
+
