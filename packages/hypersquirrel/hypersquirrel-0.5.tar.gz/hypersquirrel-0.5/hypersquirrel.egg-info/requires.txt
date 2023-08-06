@@ -1,0 +1,6 @@
+requests
+lxml
+vripper
+htmllistparse
+commmons
+feedparser
