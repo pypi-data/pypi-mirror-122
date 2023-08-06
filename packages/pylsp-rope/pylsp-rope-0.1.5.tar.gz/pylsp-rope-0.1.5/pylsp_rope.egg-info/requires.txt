@@ -1,0 +1,8 @@
+python-lsp-server
+rope
+
+[dev]
+typing-extensions
+pytest
+build
+twine
