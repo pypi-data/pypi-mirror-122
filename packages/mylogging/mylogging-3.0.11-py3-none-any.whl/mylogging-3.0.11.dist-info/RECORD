@@ -1,0 +1,12 @@
+mylogging/__init__.py,sha256=gQxfFi7uwwzzVx2QHz3XdJ4swLJIofFSZNhsH99cE60,8230
+mylogging/_config.py,sha256=Rk9EPN0ODNyUvKc2i21J2oiGvGGZjJDiXXSAI7o2UjE,8432
+mylogging/_helpers.py,sha256=geNTy0Ofw7S2TUMEvqGxKvqWvWnQu-289_kT8e1axOU,880
+mylogging/_log_functions.py,sha256=EGRdLnu9eAoQJe5eMgFibYZTxJx-2lBf_3b2RuR5QHg,10314
+mylogging/_misc.py,sha256=yvRrEvr-hdhl7w4kDMfwhVITX_80MuAQ4Cmho-inypE,7085
+mylogging/colors.py,sha256=9gwnOKSNavupWGfkogiSCqBGyEpZ6BNBvFHKYfXe4UA,2844
+mylogging/logger_module.py,sha256=rHnDPv3l56Wj4uAP4h4k_idY1CjnurVBA9-t62pb_jE,3571
+mylogging-3.0.11.dist-info/LICENSE,sha256=BM9DpN9cuZHAL1849vy5DyKFaQejXV1jfa9STrQkl-8,1093
+mylogging-3.0.11.dist-info/METADATA,sha256=Mn79N_xf26B4VucA4L7qkibqtEtRprB1c-UmKcKu8rA,7721
+mylogging-3.0.11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mylogging-3.0.11.dist-info/top_level.txt,sha256=_RAAPZQyRTjy45p92gttjWt0MRH_DuzU4Mnpg5fHQTE,10
+mylogging-3.0.11.dist-info/RECORD,,
