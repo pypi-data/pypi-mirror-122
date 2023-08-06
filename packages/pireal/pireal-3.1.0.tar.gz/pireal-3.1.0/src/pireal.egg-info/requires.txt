@@ -1,0 +1,10 @@
+PyQt5>=5.15
+
+[dev]
+ipython
+
+[test]
+flake8
+pycodestyle
+pytest
+pytest-cov
