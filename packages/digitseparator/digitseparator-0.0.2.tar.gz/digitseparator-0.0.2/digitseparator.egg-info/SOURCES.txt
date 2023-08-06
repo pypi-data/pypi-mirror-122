@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+DigitSeparator/__init__.py
+digitseparator.egg-info/PKG-INFO
+digitseparator.egg-info/SOURCES.txt
+digitseparator.egg-info/dependency_links.txt
+digitseparator.egg-info/top_level.txt

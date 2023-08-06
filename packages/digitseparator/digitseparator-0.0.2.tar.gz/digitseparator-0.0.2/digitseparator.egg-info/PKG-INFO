@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: digitseparator
+Version: 0.0.2
+Summary: separate digits
+Home-page: UNKNOWN
+Author: coldsober irene
+Author-email: nseirene3@gmail.com
+License: MIT
+Description: 
+        this is a library for digit separator ex: 2 000 000.
+        
+        
+        CHANGE LOG
+        ===========
+        
+        0.0.1 (06/10/2021)
+        ---------------------
+        FIRST RELEASE
+Keywords: spacing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
