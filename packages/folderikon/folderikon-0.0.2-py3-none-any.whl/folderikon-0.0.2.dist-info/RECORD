@@ -1,0 +1,13 @@
+folderikon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+folderikon/__main__.py,sha256=pKP7DOIgpNdsG5wMaGw6VXndC36aNKHoSz8BBs2mdTw,198
+folderikon/argparser.py,sha256=5l-gyy4cYMNQ3BF6dQ5mn7MStoA5H2KvyIaYR2wdGno,1929
+folderikon/constants.py,sha256=WSiQ4vH_J0C57WIDs72qd8v_GEvw9zcTlvGyZh3e_uQ,176
+folderikon/exceptions.py,sha256=S1Y15oXvHLVdx1Nne3BpmadAkD3qHdbyM1kPK7iMDag,1941
+folderikon/folderikon.py,sha256=lzj5AZ1RTaf_4xzdENgI8Yn21l_FxHqHaCO_RX3w-dA,4249
+folderikon/notify_shell.py,sha256=tEy6EO3rCewV3NS2yFfIUS2CIbC7KHTcMMoY0Bvi3Tw,579
+folderikon-0.0.2.dist-info/LICENSE,sha256=0q2iai3bR70-7rcRzqrwNXee7MCMUcigVMLVZvxloVE,1084
+folderikon-0.0.2.dist-info/METADATA,sha256=VueplvopVVJ2-Ub9s_2m_IG-ECOdIyjKYghzWdm4Lso,4285
+folderikon-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+folderikon-0.0.2.dist-info/entry_points.txt,sha256=eUF13LN9s2Xrix7prEa4JhRJj9MjasaZnyUzfZAX9Ds,57
+folderikon-0.0.2.dist-info/top_level.txt,sha256=B5vSakEzCu16aY51UHr94N_kguSz7H4nUutDAWD70kw,11
+folderikon-0.0.2.dist-info/RECORD,,
