@@ -1,0 +1,11 @@
+websitemailer/__init__.py,sha256=QdpCSXOfhKIT5RfKgVnzTyzwRvJqf-ciSgGZ8LEzBx8,383
+websitemailer/driver.py,sha256=Ay1du6N1mNY2RdP3Scq4hWZ90ykciu8b0NxcNu1a3pk,3595
+websitemailer/mailer.py,sha256=vAjgVyBLhrL2mkxwC0uXpCRelcquVPEwM984XFtT4QI,2565
+websitemailer/main.py,sha256=1ESz1m27i_JoZc5PYZ6IBRq_Mktf3Z70tGDSqdobJBI,5902
+websitemailer/screenshots.py,sha256=92ewvjulVs0o6_pYtRgBL-_GcBVp3Vft6-te7-dexUA,1251
+websitemailer-1.1.0.dist-info/AUTHORS.rst,sha256=5NqkCr8nKcRJ4I7jrweGrc2rZ8Q3uvjMN7v4W7EvvGM,89
+websitemailer-1.1.0.dist-info/LICENSE.txt,sha256=5PXH-bOFtFaHVyGbGItAt8CF7ttN9JAqsfeBD5kEmd4,1098
+websitemailer-1.1.0.dist-info/METADATA,sha256=XwXidQVbl0LPdK2GQReHBwJUAXE2JqaKy0lvylKgqyI,3160
+websitemailer-1.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+websitemailer-1.1.0.dist-info/top_level.txt,sha256=-t5_rYIo3WlZg_7OHOtKWIRsTOrskLtCXrxp2Wk0s1A,14
+websitemailer-1.1.0.dist-info/RECORD,,
