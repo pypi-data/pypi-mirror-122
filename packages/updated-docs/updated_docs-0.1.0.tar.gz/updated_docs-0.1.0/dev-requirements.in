@@ -1,0 +1,19 @@
+-c requirements.txt
+
+# Code quality tools
+pre-commit
+pip-tools
+black
+mypy
+pylint
+
+# Testing
+pytest
+pytest-mock
+pytest-randomly
+pytest-cov
+
+# building
+flit
+python-semantic-release
+tox
