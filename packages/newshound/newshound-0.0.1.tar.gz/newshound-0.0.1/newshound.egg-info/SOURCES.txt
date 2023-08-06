@@ -1,0 +1,5 @@
+setup.py
+newshound.egg-info/PKG-INFO
+newshound.egg-info/SOURCES.txt
+newshound.egg-info/dependency_links.txt
+newshound.egg-info/top_level.txt
