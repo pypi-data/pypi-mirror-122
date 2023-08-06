@@ -1,0 +1,3 @@
+[console_scripts]
+script_name = difit.__main__:main
+
