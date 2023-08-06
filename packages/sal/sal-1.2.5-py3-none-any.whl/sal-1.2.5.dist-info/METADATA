@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sal
+Version: 1.2.5
+Summary: Simple Access Layer: A general purpose data system framework.
+Home-page: https://github.com/simpleaccesslayer
+Author: Dr Alex Meakins
+Author-email: alex.meakins@ukaea.uk
+License: EUPL v1.2
+Platform: UNKNOWN
+License-File: LICENCE.txt
+Requires-Dist: flask
+Requires-Dist: flask-restful
+Requires-Dist: itsdangerous
+Requires-Dist: numpy
+Requires-Dist: requests
+Provides-Extra: ldap
+Requires-Dist: ldap3 ; extra == 'ldap'
+
+UNKNOWN
+
