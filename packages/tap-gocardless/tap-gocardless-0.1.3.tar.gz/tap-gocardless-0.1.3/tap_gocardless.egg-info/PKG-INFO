@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tap-gocardless
+Version: 0.1.3
+Summary: Singer.io tap for extracting data
+Home-page: http://singer.io
+Author: morrislaptop
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
+UNKNOWN
+

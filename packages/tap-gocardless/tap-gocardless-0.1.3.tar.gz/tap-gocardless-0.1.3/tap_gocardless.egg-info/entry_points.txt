@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-gocardless=tap_gocardless:main
+    
