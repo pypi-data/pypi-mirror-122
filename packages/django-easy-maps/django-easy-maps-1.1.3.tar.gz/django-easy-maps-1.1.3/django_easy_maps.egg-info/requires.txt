@@ -1,0 +1,16 @@
+django-classy-tags>=0.6.2
+django-appconf
+geopy>=0.96
+
+[develop]
+tox
+mock
+django
+pytest-django
+pytest
+
+[test]
+pytest-django
+pytest-cov
+pytest
+mock
