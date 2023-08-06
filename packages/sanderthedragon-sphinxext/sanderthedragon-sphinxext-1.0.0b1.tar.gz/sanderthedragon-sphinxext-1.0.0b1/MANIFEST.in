@@ -1,0 +1,3 @@
+recursive-include extensions/*/*/_static/* *.css *.js
+
+prune docs
