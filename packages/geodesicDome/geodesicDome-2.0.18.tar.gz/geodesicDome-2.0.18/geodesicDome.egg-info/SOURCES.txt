@@ -1,0 +1,6 @@
+README.md
+geodesicDome.egg-info/PKG-INFO
+geodesicDome.egg-info/SOURCES.txt
+geodesicDome.egg-info/dependency_links.txt
+geodesicDome.egg-info/requires.txt
+geodesicDome.egg-info/top_level.txt
