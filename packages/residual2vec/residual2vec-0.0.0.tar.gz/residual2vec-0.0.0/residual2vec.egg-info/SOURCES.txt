@@ -1,0 +1,11 @@
+README.md
+setup.py
+residual2vec/__init__.py
+residual2vec/residual2vec.py
+residual2vec/utils.py
+residual2vec.egg-info/PKG-INFO
+residual2vec.egg-info/SOURCES.txt
+residual2vec.egg-info/dependency_links.txt
+residual2vec.egg-info/not-zip-safe
+residual2vec.egg-info/requires.txt
+residual2vec.egg-info/top_level.txt
