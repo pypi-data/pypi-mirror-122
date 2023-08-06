@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: openGA
+Version: 0.1.6
+Summary: genetic algorithm framework
+Home-page: https://github.com/neal-nie/openGA
+Author: Neal Nie
+Author-email: neal.nie@hotmail.com
+License: LGPLv3+
+Description: # openGA
+        
+        open source genetic algorithm framework
+        
+        ## status
+        
+        developing.
+        
+Keywords: calibration adas automatic
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
