@@ -1,0 +1,3 @@
+[pysondb.cli]
+show = main:Plugin
+
