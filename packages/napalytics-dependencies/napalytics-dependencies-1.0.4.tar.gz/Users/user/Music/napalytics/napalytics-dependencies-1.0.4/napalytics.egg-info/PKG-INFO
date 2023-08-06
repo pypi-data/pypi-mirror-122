@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: napalytics-dependencies
+Version: 1.0.3
+Summary: A Python test framework for data testing across multiple data sources
+Home-page: https://github.com/ert068001/napalytics
+Author: author068001
+Author-email: author@068001.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# napalytics
+The dependencies for the napalytics package.
+-- These should be installed before installing and using the napalytics package
+
+# installation
+1. To install download the source files and extract. Then run python bootstrap.py. all the required dependencies will be installed
+
+2. To test if package has installed: run python in cmd then type import pyodbc. It should
+import the pyodbc package with no errors.
+
+# Usage
+Install or download and install the napalytics package from https://pypi.org/project/napalytics/

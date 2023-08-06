@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+napalytics-dependencies/__init__.py
+napalytics-dependencies/bootstrap.py
+napalytics-dependencies/packages
+napalytics.egg-info/PKG-INFO
+napalytics.egg-info/SOURCES.txt
+napalytics.egg-info/dependency_links.txt
+napalytics.egg-info/entry_points.txt
+napalytics.egg-info/top_level.txt
