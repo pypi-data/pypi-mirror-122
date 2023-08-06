@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: perceptron_pypi-Rukhsar111
+Version: 0.0.3
+Summary: its an implimentation of Perceptron
+Home-page: https://github.com/Rukhsar111/perceptron_pypi
+Author: Rukhsar111
+Author-email: rukhsar101095@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Rukhsar111/perceptron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# perceptron_pypi
+perceptron_pypi
+
+
