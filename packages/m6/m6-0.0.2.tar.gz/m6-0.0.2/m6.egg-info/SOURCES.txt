@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+m6/__init__.py
+m6/nothin.py
+m6.egg-info/PKG-INFO
+m6.egg-info/SOURCES.txt
+m6.egg-info/dependency_links.txt
+m6.egg-info/entry_points.txt
+m6.egg-info/requires.txt
+m6.egg-info/top_level.txt
