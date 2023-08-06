@@ -1,0 +1,113 @@
+@prefix : <http://example.org/relatives#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/relatives> a owl:Ontology .
+
+#
+#   Ontology
+#
+
+:Person
+    a owl:Class .
+
+:Child
+    a owl:Class ;
+    rdfs:subClassOf :Person .
+
+:Parent
+    a owl:Class ;
+    rdfs:subClassOf :Person .
+
+:hasParent
+    a owl:ObjectProperty .
+
+:hasChild
+    a owl:ObjectProperty ;
+    owl:inverseOf :hasParent .
+
+:hasGrandparent
+    a owl:ObjectProperty ;
+    owl:propertyChainAxiom ( :hasParent :hasParent ) .
+
+#
+#   Data
+#
+
+:Aaron
+    a owl:NamedIndividual .
+
+:Ann
+    a :Person,
+      owl:NamedIndividual .
+
+:Bill
+    a :Person,
+      owl:NamedIndividual .
+
+:Bob
+    a :Person,
+      owl:NamedIndividual ;
+    :hasParent :Bill .
+
+:Cathy
+    a :Person,
+      owl:NamedIndividual ;
+    :hasParent :Bill .
+
+:Fred
+    a :Person,
+      owl:NamedIndividual ;
+    :hasChild :James ;
+    :hasParent :Cathy .
+
+:Jacob
+    a :Person,
+      owl:NamedIndividual ;
+    :hasParent :Fred .
+
+:James
+    a :Person,
+      owl:NamedIndividual .
+
+:James2
+    a :Person,
+      owl:NamedIndividual ;
+    :hasChild :John .
+
+:John
+    a :Person,
+      owl:NamedIndividual ;
+    :hasChild
+        :Mary,
+        :Michael ;
+    :hasParent :James2 .
+
+:Mary
+    a :Person,
+        owl:NamedIndividual .
+
+:Michael
+    a :Person,
+      owl:NamedIndividual ;
+    :hasParent :John .
+
+:Simon
+    a :Person,
+      owl:NamedIndividual ;
+    :hasParent :Michael .
+
+:Tim
+    a :Child,
+      owl:NamedIndividual ;
+    :hasParent
+        :Simon,
+        :Valerie .
+
+:Valerie
+    a :Person,
+      owl:NamedIndividual .
+
+:Victor
+    a :Person,
+      owl:NamedIndividual .
