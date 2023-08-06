@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fast_bio
+Version: 0.0.2
+Summary: Fast utilities for bioinformatics, written in Cython
+Home-page: UNKNOWN
+Author: Cadel Watson
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# fast_bio
+
+
