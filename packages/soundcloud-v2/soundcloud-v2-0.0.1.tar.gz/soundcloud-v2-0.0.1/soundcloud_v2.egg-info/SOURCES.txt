@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+./soundcloud/__init__.py
+./soundcloud/soundcloud.py
+soundcloud_v2.egg-info/PKG-INFO
+soundcloud_v2.egg-info/SOURCES.txt
+soundcloud_v2.egg-info/dependency_links.txt
+soundcloud_v2.egg-info/requires.txt
+soundcloud_v2.egg-info/top_level.txt
