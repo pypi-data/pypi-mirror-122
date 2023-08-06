@@ -1,0 +1,5 @@
+include pyproject.toml
+recursive-include eccd_datasets *.parquet
+recursive-include eccd_datasets *.txt
+
+
