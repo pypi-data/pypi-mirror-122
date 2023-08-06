@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.rst
+Readme.txt
+setup.py
+spike_intf.py
+spike_intf.egg-info/PKG-INFO
+spike_intf.egg-info/SOURCES.txt
+spike_intf.egg-info/dependency_links.txt
+spike_intf.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: spike-intf
+Version: 0.0.1
+Summary: Spike_intf package
+Home-page: UNKNOWN
+Author: Bhavya Mehta
+Author-email: <bhavya@mettlesemi.com>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,riscv-isa-sim,spike
+Platform: UNKNOWN
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
