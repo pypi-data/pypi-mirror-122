@@ -1,0 +1,9 @@
+ondewo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ondewo/survey/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ondewo/survey/survey_pb2.py,sha256=Bg5MY7aToIQ7sA0iLY1lkw3Ryp6acYEa7mxpzklgnic,67258
+ondewo/survey/survey_pb2_grpc.py,sha256=lrwKeqgNzgsXVDLjFH0_JPQuldIV4YQtCDDWXqXXI2I,17787
+ondewo_survey_client-0.5.1.dist-info/LICENSE,sha256=b64U8Nlwl-DmaozBK6sSUjWnhkGg9syz9EueNgfDLtg,10257
+ondewo_survey_client-0.5.1.dist-info/METADATA,sha256=U3UQputyD0oLsKKXX6SxuD7nLL5e4WGYcwX4Rufl0Vc,2151
+ondewo_survey_client-0.5.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+ondewo_survey_client-0.5.1.dist-info/top_level.txt,sha256=k6xvj-4simLbghb9G4LX5lD3UvNgTBdB-WT8oPDlqqE,7
+ondewo_survey_client-0.5.1.dist-info/RECORD,,
