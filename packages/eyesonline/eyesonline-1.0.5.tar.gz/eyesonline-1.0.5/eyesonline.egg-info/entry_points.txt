@@ -1,0 +1,3 @@
+[console_scripts]
+eyesonline = eyesonlineui.app:run
+
