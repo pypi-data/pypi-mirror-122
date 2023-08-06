@@ -1,0 +1,15 @@
+numpy>=1.19.3
+click
+apischema>=0.15.2
+typing_extensions
+
+[graphql]
+graphql-server[aiohttp]==3.0.0b3
+aiohttp_cors
+
+[include_package_data]
+False
+
+[plotting]
+scipy>=1.5.4
+matplotlib>=3.2.2
