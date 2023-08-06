@@ -1,0 +1,3 @@
+[console_scripts]
+Piler = piler.piler:main
+
