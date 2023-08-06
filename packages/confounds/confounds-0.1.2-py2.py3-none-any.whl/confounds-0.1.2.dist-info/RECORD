@@ -1,0 +1,15 @@
+confounds/__init__.py,sha256=SJQdR-lIfb-N0RwzUtqP4xG5ij33v1qSIwomfHkcXBM,481
+confounds/_version.py,sha256=w5XJ-CqoO1Wc3KVkqGhRPrwfqy3zcp4Cz9-tP_MKjaQ,497
+confounds/base.py,sha256=2t0b0uHlx-P4hCH-c-k2ZtRXOXn9b0SQFdvZgk0HHyI,11146
+confounds/combat.py,sha256=M5M0zeU7iXoKaEZhHh3_n6gXLMwT_s_2t6gY45uPi9c,13296
+confounds/harmonize.py,sha256=xOdQgd89ROj3uTsyvTMn0PvoGlckLVrqfSc4_XApKuY,494
+confounds/metrics.py,sha256=DjptpfwHz4zxd5otIEhl6Yiy5WzUQocBOSk7Yeof3c8,273
+confounds/stratify.py,sha256=Ss0wGx9vCduVa54w3vTF8ZOg4oWH0oxBGGKpw5WWPg4,329
+confounds/utils.py,sha256=r4W-GgRWijN093bcUziMkW5bp_oYoMd5tJL3G4kAygE,4228
+confounds/visualize.py,sha256=a3Re93fnsOWQ6MoYnpG8S-BH-xfRL7cLU24HpGaCilc,1297
+confounds-0.1.2.dist-info/AUTHORS.rst,sha256=z4BwI_qp7qpy4ZGkt0YK_D0jfts6OKznp8Q_y7BL2H8,68
+confounds-0.1.2.dist-info/LICENSE,sha256=9u2kO8Eo_D7chprK7vqv_9SwGQMlYHZvYjLFVIn9YjQ,593
+confounds-0.1.2.dist-info/METADATA,sha256=uVj_oQF-AcB3y7jBUdgkDaD2fBWZuPuxw3xJbbHrVGI,1709
+confounds-0.1.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+confounds-0.1.2.dist-info/top_level.txt,sha256=jMg-Zlbuh6HNa29h_H6BZjgCSGXmHefzMJJoIoTRqAw,10
+confounds-0.1.2.dist-info/RECORD,,
