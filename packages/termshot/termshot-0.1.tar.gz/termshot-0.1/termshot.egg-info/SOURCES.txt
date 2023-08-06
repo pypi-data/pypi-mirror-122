@@ -1,0 +1,10 @@
+README.md
+setup.py
+termshot/__init__.py
+termshot/trmshot.py
+termshot.egg-info/PKG-INFO
+termshot.egg-info/SOURCES.txt
+termshot.egg-info/dependency_links.txt
+termshot.egg-info/not-zip-safe
+termshot.egg-info/requires.txt
+termshot.egg-info/top_level.txt
