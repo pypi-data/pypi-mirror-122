@@ -1,0 +1,14 @@
+protobuf==3.17.3
+types-protobuf==3.17.4
+
+[test]
+black
+codecov
+coverage
+flake8
+gitchangelog
+isort
+mkdocs
+mypy
+pytest
+pytest-cov
