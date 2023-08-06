@@ -1,0 +1,12 @@
+discord_slash_components_bridge/__init__.py,sha256=holTWq3PNZoKjbLO2GTTcB_sKiD1Yi-QQlOTG3JbpeQ,118
+discord_slash_components_bridge/client.py,sha256=nWpBBuV0alMKBQF4Lk6zbY4-K96P4z4XVAWPzglV-9k,1510
+discord_slash_components_bridge/const.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+discord_slash_components_bridge/contex.py,sha256=4XhYBq2NQUesFvq_NCWvgoOTDmBLy8hct_RdkJsVjmk,9787
+discord_slash_components_bridge/dpy_overrides.py,sha256=BIpGrN9LZuQlsrYpYWngwRjZOroixmQfkDkE6hR-yt4,12856
+discord_slash_components_bridge/model.py,sha256=dzrgc5v-9kJPyJRSrkauF4tsG0grBgrxpsDCRsesxMw,4297
+discord_slash_components_bridge/utils.py,sha256=XCsl90lg1hE1NRJKpK5TjJYVELznpQprWCgTOVMe88I,614
+discord_slash_components_bridge-0.0.3.dist-info/LICENSE,sha256=2PnLkXg-SPEV3woDkjwMFILNby2ZGEV_ojv6JFd7-1M,1084
+discord_slash_components_bridge-0.0.3.dist-info/METADATA,sha256=qi5Pw23v62s4ABjXw48otNy9dGi4xWzWcwnlwbQBd2g,2078
+discord_slash_components_bridge-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+discord_slash_components_bridge-0.0.3.dist-info/top_level.txt,sha256=Ekxc3emliAzl0Zpyqd4NDdNC2u95zeSUDlcjCpmNSFs,32
+discord_slash_components_bridge-0.0.3.dist-info/RECORD,,
