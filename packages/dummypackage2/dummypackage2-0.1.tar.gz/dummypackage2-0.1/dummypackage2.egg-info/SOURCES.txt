@@ -1,0 +1,7 @@
+setup.py
+dummypackage2.egg-info/PKG-INFO
+dummypackage2.egg-info/SOURCES.txt
+dummypackage2.egg-info/dependency_links.txt
+dummypackage2.egg-info/top_level.txt
+package/_init_.py
+package/dummy.py
