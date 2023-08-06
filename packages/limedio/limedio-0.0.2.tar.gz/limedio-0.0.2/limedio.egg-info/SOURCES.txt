@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+limedio/__init__.py
+limedio/cli.py
+limedio/errors.py
+limedio/info.py
+limedio/limedio.py
+limedio.egg-info/PKG-INFO
+limedio.egg-info/SOURCES.txt
+limedio.egg-info/dependency_links.txt
+limedio.egg-info/requires.txt
+limedio.egg-info/top_level.txt
