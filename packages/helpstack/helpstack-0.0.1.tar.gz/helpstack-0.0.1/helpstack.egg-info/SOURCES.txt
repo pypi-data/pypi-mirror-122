@@ -1,0 +1,17 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+helpstack/__init__.py
+helpstack/_nbdev.py
+helpstack/help_stack.py
+helpstack/warn_stack.py
+helpstack.egg-info/PKG-INFO
+helpstack.egg-info/SOURCES.txt
+helpstack.egg-info/dependency_links.txt
+helpstack.egg-info/entry_points.txt
+helpstack.egg-info/not-zip-safe
+helpstack.egg-info/requires.txt
+helpstack.egg-info/top_level.txt
