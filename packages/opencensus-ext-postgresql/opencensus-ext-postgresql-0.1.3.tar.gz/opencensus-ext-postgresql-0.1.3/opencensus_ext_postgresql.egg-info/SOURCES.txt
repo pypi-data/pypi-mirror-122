@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+opencensus/__init__.py
+opencensus/ext/__init__.py
+opencensus/ext/postgresql/__init__.py
+opencensus/ext/postgresql/trace.py
+opencensus_ext_postgresql.egg-info/PKG-INFO
+opencensus_ext_postgresql.egg-info/SOURCES.txt
+opencensus_ext_postgresql.egg-info/dependency_links.txt
+opencensus_ext_postgresql.egg-info/namespace_packages.txt
+opencensus_ext_postgresql.egg-info/not-zip-safe
+opencensus_ext_postgresql.egg-info/requires.txt
+opencensus_ext_postgresql.egg-info/top_level.txt
