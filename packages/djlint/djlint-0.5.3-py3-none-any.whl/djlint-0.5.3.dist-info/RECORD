@@ -1,0 +1,17 @@
+djlint/__init__.py,sha256=cOjt6WdYUKSTKlMY54HBg5AZR__gK164QklQTi7ZgLY,9970
+djlint/__main__.py,sha256=AZgAzxxGDtuCXlsQrTYeQMreRoGCtPR1gDOWcCERnhI,78
+djlint/formatter/__init__.py,sha256=NUtMrHcGtWLojCx-t65a4oRO9wtZRD4XlcvUNiMzdYM,14
+djlint/formatter/attributes.py,sha256=1Eyf0fdimH5WBP0TwUQi1zh96lrRea-sLSqE_QPCYHI,513
+djlint/formatter/compress_html.py,sha256=vIZjCT0Kg476WSv_CtGTphpwv2F4XnZG2JM4P7B_ibI,3992
+djlint/formatter/expand_html.py,sha256=b0UIp9tArfF0ybAqXGfGler7qsPnljDXJ80-Sp4wDvQ,5320
+djlint/formatter/indent_html.py,sha256=_yp6zMarlCLUZVNtqkexu0Iai6wIpsmInGaYWmZdT7g,5874
+djlint/helpers.py,sha256=G05SoYcxu41VBnnGbUGYnnLoN2pxbuI6NOL-mOROMwM,4343
+djlint/lint.py,sha256=Rz55om5E9lvGv5mQJWdGFkstXHkMHmQ-K2LlfFwU5rg,2784
+djlint/reformat.py,sha256=ITKfqrXZgJL396GqskogoY69QvTw35_0_cbaP0pLFBw,933
+djlint/rules.yaml,sha256=Na-ZbdpnaiMLk_ImZehsj59A7OS9j3O268g1aah2GuI,6692
+djlint/settings.py,sha256=0E0TCxlZhlQ6jkJq_wkLVsLogMDQIdM-aTBcQgE9w_U,16526
+djlint-0.5.3.dist-info/entry_points.txt,sha256=FDcNbR2yN6JdfSBtKBf5trO-EgExC2ukjIGTw5Ehfb0,38
+djlint-0.5.3.dist-info/LICENSE,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+djlint-0.5.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+djlint-0.5.3.dist-info/METADATA,sha256=sQWqEdyURV0vL6dbxUppRhiv6R4hkSGv2qfhSmPIQS8,4095
+djlint-0.5.3.dist-info/RECORD,,
