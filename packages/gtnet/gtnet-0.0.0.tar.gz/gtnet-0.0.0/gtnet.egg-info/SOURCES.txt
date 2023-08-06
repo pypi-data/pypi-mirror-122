@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+bin/gtnet-predict
+gtnet.egg-info/PKG-INFO
+gtnet.egg-info/SOURCES.txt
+gtnet.egg-info/dependency_links.txt
+gtnet.egg-info/not-zip-safe
+gtnet.egg-info/requires.txt
+gtnet.egg-info/top_level.txt

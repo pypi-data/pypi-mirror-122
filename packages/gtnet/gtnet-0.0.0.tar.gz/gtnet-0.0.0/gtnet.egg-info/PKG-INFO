@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gtnet
+Version: 0.0.0
+Summary: A package for running Genome Taxonomy Network predictions
+Home-page: https://github.com/exabiome/gtnet
+Author: Andrew Tritt
+Author-email: ajtritt@lbl.gov
+License: BSD
+Keywords: python microbiome microbial-taxonomy cross-platform open-data data-format open-source open-science reproducible-research
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Description-Content-Type: text/x-rst; charset=UTF-8
+
+# gtnet
+The Genome Taxonomy Network for assigning microbial taxonomy to DNA sequences
+
+
