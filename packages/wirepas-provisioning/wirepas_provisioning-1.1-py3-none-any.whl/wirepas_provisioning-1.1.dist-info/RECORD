@@ -1,0 +1,17 @@
+wirepas_provisioning-1.1.data/data/wirepas_provisioning-extras/package/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wirepas_provisioning-1.1.data/data/wirepas_provisioning-extras/package/README.md,sha256=qHLeEVyNL-pAcqn2aKL2dcVGML6GwxIMxkOHMaKTdkw,4903
+wirepas_provisioning-1.1.data/data/wirepas_provisioning-extras/package/requirements.txt,sha256=5JD_Ea4WlrpbN0jZoVq8u5X_hJRv74BLIPsXeSdTS8c,106
+wirepas_provisioning-1.1.data/data/wirepas_provisioning-extras/package/setup.py,sha256=tv4s36YnTpgAwLoCjWbQkg-OoesGuMvt3aPD_q0LOOA,2089
+wirepas_provisioning_server/__about__.py,sha256=ntrC4rXIww3T-bETrqOLM7EuGbkVfT-ikq0JVurlLsI,827
+wirepas_provisioning_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wirepas_provisioning_server/data.py,sha256=e56v6ixBybawZ7H-t5GYaXHcWqWkRmJb9ecA6dpWRnI,6027
+wirepas_provisioning_server/events.py,sha256=kuJ6FkbQa47BPnSyC0Aczw6T9d5mZMgCeaatLfHxnFY,708
+wirepas_provisioning_server/message.py,sha256=PirKdaFZkM4KLiUOd32xK86aYXEIKO2gtBVGeOxx3Q0,10869
+wirepas_provisioning_server/provisioning_server.py,sha256=eXSHTlCqZaWjFhCOzW38ISpu6MZpPyk6EsPfP_okRzE,4727
+wirepas_provisioning_server/session.py,sha256=B-_BRfTw9IOgDj4GusgRlZaH1KgfHASf-Sc3b4PdY1U,10527
+wirepas_provisioning-1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wirepas_provisioning-1.1.dist-info/METADATA,sha256=KcqgvDkgLzq8NuCVjVp5hOEuQMqazAFzB7PUMWZMPRc,5690
+wirepas_provisioning-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wirepas_provisioning-1.1.dist-info/entry_points.txt,sha256=GvGL3_KbnqrVvIVwJy2NEBv88Owf4106cQu8D5BjJcU,86
+wirepas_provisioning-1.1.dist-info/top_level.txt,sha256=MufhhdWbbAY_cTfqiqEX-PvdFcZPiEcV94ojqBM44sM,28
+wirepas_provisioning-1.1.dist-info/RECORD,,
