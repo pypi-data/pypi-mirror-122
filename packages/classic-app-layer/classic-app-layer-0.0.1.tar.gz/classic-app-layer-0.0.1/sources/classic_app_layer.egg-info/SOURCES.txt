@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sources/classic/app/__init__.py
+sources/classic/app/dto.py
+sources/classic/app/errors.py
+sources/classic/app/validation.py
+sources/classic_app_layer.egg-info/PKG-INFO
+sources/classic_app_layer.egg-info/SOURCES.txt
+sources/classic_app_layer.egg-info/dependency_links.txt
+sources/classic_app_layer.egg-info/requires.txt
+sources/classic_app_layer.egg-info/top_level.txt

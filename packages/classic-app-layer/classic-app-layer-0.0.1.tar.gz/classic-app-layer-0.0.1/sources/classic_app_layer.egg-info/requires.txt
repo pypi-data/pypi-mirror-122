@@ -1,0 +1,7 @@
+pydantic~=1.8.2
+
+[dev]
+pytest~=6.2.5
+pytest-cov~=2.12.1
+twine~=3.4.2
+build~=0.7.0
