@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: stdpio
+Version: 0.0.2
+Summary: A library to interact with the stdp.io REST API
+Home-page: https://stdp.io
+Author: stdp
+Author-email: info@stdp.io
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/stdp/stdpio/issues
+Keywords: stdp,stdp.io,neuromorphic,akida,brainchip
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stdp.io client library
+
+A library to interact with the stdp.io REST API
+
+## authenticating
+
+```
+
+#init
+stdp = stdpio(username="username", password="password", model_dir="/tmp/")
+
+```
+
+## fetching your Akida models
+
+```
+
+#get models
+models = stdp.my_models()
+
+# fetch all the model files & knowns
+for model in models:
+	# download the model file from stdp.io
+    stdp.fetch_model_file(model)
+    # print the labels and trained neurons for the model
+    print(stdp.fetch_known(model))
+
+```
+
