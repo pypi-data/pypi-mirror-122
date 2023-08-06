@@ -1,0 +1,1 @@
+A Encoding/Decoding algorithm I wrote that takes a password and gives none static responses
