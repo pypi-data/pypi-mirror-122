@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: opentdf
+Version: 0.1.0a1487
+Summary: Python Wrapper for OpenTDF SDK
+Home-page: https://developer.virtru.com/
+Author: Virtru
+Author-email: developers@virtru.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Description-Content-Type: text/markdown
+
+# OpenTDF SDK
+
+The OpenTDF Python SDK allows developers to easily create and manage encrypted [Trusted Data Format (TDF) objects](https://github.com/virtru/tdf-spec/) and interact with [Key Access and Attribute Provider (KAS, AP).](https://github.com/virtru/tdf-spec/tree/master/protocol)
+
+## Installation
+
+Upgrade pip3 to the latest version and run
+
+```shell
+pip3 install opentdf
+```
+
+## Authentication 
+
+OpenTDF has chosen Keycloak as its reference implementation IdP(https://github.com/virtru/opentdf-aux/tree/main/documentation/quickstart). 
+
+
+## Create Encrypted TDF Object (minimal example)
+
+```python
+from opentdf import TDFClient
+
+oidc_creds = OIDCCredentials()
+oidc_creds.set_client_credentials(client_id = "tdf-client",
+                                 client_secret = "123-456",
+                                 organization_name = "tdf",
+                                 oidc_endpoint = "https://localhost:8443")
+
+client = TDFClient(oidc_credentials = oidc_creds, kas_url = 'http://localhost:8080/kas')
+
+client.encrypt_file("sensitive.txt", "sensitive.txt.tdf")
+
+```
+
+[Terms of Service](https://www.virtru.com/terms-of-service/)
+[Privacy Policy](https://www.virtru.com/privacy-policy/)
+
+
