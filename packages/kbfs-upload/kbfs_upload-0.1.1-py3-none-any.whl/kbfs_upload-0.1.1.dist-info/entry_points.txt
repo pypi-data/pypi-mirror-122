@@ -1,0 +1,3 @@
+[console_scripts]
+kbfsu=kbfs_upload:main
+
