@@ -1,0 +1,10 @@
+tidy/__init__.py,sha256=Fp35tptOQoO5j5d222NHvZ7quj-d5RnAaE4IQnxU5nE,1702
+tidy/error.py,sha256=tU6ggMZtZDSJVc_GBVnHiX9V53u13gdmBWzB8Ise8DI,470
+tidy/lib.py,sha256=PAF2lvlh96gPVOUXH4u1G1ZP87-V9_h-H2-jGRGlGIE,9075
+tidy/test_tidy.py,sha256=zmSNSnBmpwYCHoRzVOBcAnb1eQWCis7ZAOWZ-eSIjlw,4279
+tidy/test_data/test.html,sha256=yBBtsFLC-GtD3LScs3pxG4YOevMStg0XQy-7HMZb7Ds,106
+uTidylib-0.8.dist-info/LICENSE,sha256=QhJUFX2aSubByXoqXbmUfxKUa6bSqTPdD0dOrkMtDeY,1158
+uTidylib-0.8.dist-info/METADATA,sha256=T75Epd3mQYgYwm36D9pjDIEE4yWPMCN7pInXPeB8km8,2977
+uTidylib-0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+uTidylib-0.8.dist-info/top_level.txt,sha256=m4XKkAej6EPiGxFdGj0w1JDHJ48URLRNBvipJyil5XY,5
+uTidylib-0.8.dist-info/RECORD,,
