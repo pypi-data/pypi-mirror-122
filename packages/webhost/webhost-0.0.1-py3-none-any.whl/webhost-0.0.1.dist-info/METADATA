@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: webhost
+Version: 0.0.1
+Summary: WEBHOST is a simple web framework made with python.
+Home-page: https://upload.pypi.org/legacy
+License: UNKNOWN
+Keywords: webhost
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Jinja2
+Requires-Dist: parse
+Requires-Dist: WebOb
+Requires-Dist: whitenoise
+
+WebHost is a very basic python webframework.
+
+Example Code:
+
+	from webhost.api import init, server
+
+	app = init()
+
+	settings = {'Http404': '404, Page not found!'}  # 404 page error.
+
+	app.config(settings)
+
+	def views(app):
+
+		@app.route('/')
+		def home(request, response):
+			response.text = Hello, This is the Home page"
+
+	server.run(app)
+
