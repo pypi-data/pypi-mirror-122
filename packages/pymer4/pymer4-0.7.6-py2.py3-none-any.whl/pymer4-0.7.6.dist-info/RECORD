@@ -1,0 +1,17 @@
+pymer4/__init__.py,sha256=pM0kppwn5aCuQPWCJ4zgVdwWqBCxt7slg7Yecz4ebaU,513
+pymer4/io.py,sha256=pCiTZc1dr3X5TWa5qT9FUwHOyrW3DV-kW4IRktrpfWo,8966
+pymer4/simulate.py,sha256=EQCagfjCo4Z_uQXW72Znvu7PKHg7-ZeljgEa2gcpCio,13410
+pymer4/stats.py,sha256=hUlHOTagbR70mkC7kfpKH1mYzgC9-nA5CBe9I_cdleE,24054
+pymer4/test_install.py,sha256=ky2SzafZvkNn1E3nueeP2LLiVgLMngw29S3DwnqqBCA,629
+pymer4/utils.py,sha256=fLE007CmLgDFEbc0moOsIsQVJ2wQhMDFM2wqMqOglOw,22036
+pymer4/version.py,sha256=6ExLXMYFTWCZcyllK3r9zYISqTzESgEG0InPGaQN_0E,105
+pymer4/models/Lm.py,sha256=-rfaD3R0Kat0xtNQvuSJ5jdzCJwuELPcf7xnULm_ztY,23101
+pymer4/models/Lm2.py,sha256=SuY5yaxbXdzjWqZhNTv_8T-aHufsG7JfNkadBtueV-Y,18782
+pymer4/models/Lmer.py,sha256=T0IZUZROKSFS_94mUFXvjW9LvTf7BM5kR2vIbMDMV8A,65710
+pymer4/models/__init__.py,sha256=Qx2rpw-g9mSgtuSFOU0J6ksQCP-RM3s6PmBgdIHPmus,125
+pymer4/resources/sample_data.csv,sha256=UDyTF-zc6pspTI6HDWmm5klhAF-_lBDHTLcHA7gJ_dI,18358
+pymer4-0.7.6.dist-info/LICENSE.txt,sha256=UqaIwWwj7VpPmo585wp2HfKR0bs-HLD9B_z2vHIf-XQ,1078
+pymer4-0.7.6.dist-info/METADATA,sha256=74qCHpUxlbXk8tLiN008Z19ow_Porura9JD0mSYslBE,1172
+pymer4-0.7.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pymer4-0.7.6.dist-info/top_level.txt,sha256=voe8jo5GU_7-ViI_Lq4Nqt9VnhSnamZ3KEzU8ReWE_0,7
+pymer4-0.7.6.dist-info/RECORD,,
