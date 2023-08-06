@@ -1,0 +1,3 @@
+[console_scripts]
+hypermodern-python-alterox=hypermodern_python_alterox.console:main
+
