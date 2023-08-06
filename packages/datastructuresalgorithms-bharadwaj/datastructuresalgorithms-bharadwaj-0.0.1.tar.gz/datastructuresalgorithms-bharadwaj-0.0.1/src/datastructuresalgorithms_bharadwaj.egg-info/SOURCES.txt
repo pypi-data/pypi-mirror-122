@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/datastructures_algorithms/__init__.py
+src/datastructures_algorithms/trie.py
+src/datastructuresalgorithms_bharadwaj.egg-info/PKG-INFO
+src/datastructuresalgorithms_bharadwaj.egg-info/SOURCES.txt
+src/datastructuresalgorithms_bharadwaj.egg-info/dependency_links.txt
+src/datastructuresalgorithms_bharadwaj.egg-info/top_level.txt
