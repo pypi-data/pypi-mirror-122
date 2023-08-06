@@ -1,0 +1,15 @@
+pythran_openblas/__init__.py,sha256=JNjzJWSU-xUuD-Hma-dCWSP_q1WmeMzbGcmEn6AtYKU,498
+pythran_openblas/placeholder.cp37-win_amd64.pyd,sha256=gWYmDnZw_gkomM1Klh4_9sE7Moy9jSD2mNEQa4alVIA,10240
+pythran_openblas/include/openblas/cblas.h,sha256=7hV9fv05YCrl9L51MTItAezVDet5CsD6hL1DoWwIcIw,47297
+pythran_openblas/include/openblas/openblas_config.h,sha256=OL4GNfd0mWTbAcBP-QY54gCIL6AnOvn4N1iYWwKcVFw,4328
+pythran_openblas/lib/openblas.lib,sha256=T3QibhZn6XEsvMjLZjyDU_qNEfpzy8CrMvkE5wMsVw4,38386416
+pythran_openblas/lib/pkgconfig/openblas.pc,sha256=8sLY9g4o79OjfotLDIwBOH8dHxdg8qp_eoF7gY_rHUE,586
+pythran_openblas/share/cmake/OpenBLAS/OpenBLASConfig.cmake,sha256=gF5ggITfKwrsEDu-B4HyQNad4O-Mge0tdcgZs1eqayo,3725
+pythran_openblas/share/cmake/OpenBLAS/OpenBLASConfigVersion.cmake,sha256=NsiSrAjivuHGaOOnvGYK2QYpRhljUXO5Ea8-g1QpSFk,2025
+pythran_openblas/share/cmake/OpenBLAS/OpenBLASTargets-debug.cmake,sha256=p3ZxGTN_aMvuCkHP_B0S8HmZxNvLaCXekYP_0OUYk8c,860
+pythran_openblas/share/cmake/OpenBLAS/OpenBLASTargets.cmake,sha256=4m1NhwPOcCrcJFUnzG37gpfQ-BU7bjKqwUQwJkdaMs0,3379
+pythran_openblas-0.3.6.dist-info/LICENSE,sha256=Z_XmMgWmZt8J_n3i9J0tgHKMgKarbjnB_G4HqJK2UEc,1518
+pythran_openblas-0.3.6.dist-info/METADATA,sha256=2z69fHi5ATIciyqRqceCIJyyPfJZAniwyy7zD12sywM,329
+pythran_openblas-0.3.6.dist-info/WHEEL,sha256=PjPR7B6w7QNhSVh1iCG2LXVkFpTHWCjPk8Lpo058axo,123
+pythran_openblas-0.3.6.dist-info/top_level.txt,sha256=437cw0FpkCX-nZYHwxzjly_cYdK5ZV8gV_wDXYsGTbE,17
+pythran_openblas-0.3.6.dist-info/RECORD,,
