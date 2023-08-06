@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: django-hyval
+Version: 1.0.1
+Summary: Encryption over django CharField
+Home-page: https://github.com/coci/django-hyval
+Author: Soroush Safari
+Author-email: soroush.safari1992@gmail.com
+License: GPLv3
+Description: # Hyval
+        
+        Hyval will store your information encrypted and decrypt it when needed :>
+        
+        ### Usage:
+        #### instalation:
+        
+        for install package :
+        ```
+        pip install django-hyval
+        ```
+        
+        #### example :
+        
+        1- in settings.py:
+        
+        ```
+        HIDE_MY_VALUE = {
+        	'salt' : 'test',
+        	'key': 'test',
+        	'length' : 32,
+        	'iteration': 1000,
+        }
+        ```
+        
+        2- in model:
+        
+        ```
+        from django.db import models
+        from hyval import HideMyValue
+        
+        
+        class TestHyval(models.Model):
+            name = models.CharField(max_length=50)
+            password = HideMyValue(max_length=32)
+        ```
+        
+        then:
+        ```
+        action = TestHyval()
+        action.name = "test"
+        action.password = "test"
+        action.save()
+        ```
+        Now your 'password' field on database stored with encryption so to retrieve value :
+        
+        ```
+        my_model = TestHyval.objects.get(pk=1)
+        my_model.password
+        >>> 'test'
+        ```
+        
+        ### mistake
+        there was mistake by me , so i deleted 'repository' and '.git' folder anciently, so there isn't any commit about past.
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
