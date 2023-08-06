@@ -1,0 +1,6 @@
+markov_matrix/__init__.py,sha256=pALoPYsAqOkODINMhF5Y8xGWuI8NPnumvFSVAAiLAII,41
+markov_matrix/matrix_chain.py,sha256=Z27R8C_x0YNwVviX2y6c5mRIXPeuiWz3urh0rAbO-ec,782
+markov_matrix-0.1.0.dist-info/LICENSE,sha256=rl33NhP7wGZmVg4Vh1q7Y-u_whiMIRx1ycsBL_vaBrQ,1075
+markov_matrix-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+markov_matrix-0.1.0.dist-info/METADATA,sha256=iJanSTgqCtAzymlrZwZg96FV5-ujqrBkxsj_WG8dLPc,442
+markov_matrix-0.1.0.dist-info/RECORD,,
