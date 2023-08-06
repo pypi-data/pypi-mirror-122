@@ -1,0 +1,10 @@
+setup.py
+amk_bipro/Binomialdistribution.py
+amk_bipro/Gaussiandistribution.py
+amk_bipro/Generaldistribution.py
+amk_bipro/__init__.py
+amk_bipro.egg-info/PKG-INFO
+amk_bipro.egg-info/SOURCES.txt
+amk_bipro.egg-info/dependency_links.txt
+amk_bipro.egg-info/not-zip-safe
+amk_bipro.egg-info/top_level.txt
