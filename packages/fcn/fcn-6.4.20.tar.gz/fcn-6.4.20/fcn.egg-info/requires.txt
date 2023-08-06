@@ -1,0 +1,7 @@
+chainer>=2.0.0
+gdown
+tqdm
+numpy
+scipy
+PyYAML
+scikit-image
