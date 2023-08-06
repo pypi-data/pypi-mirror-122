@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: inori
+Version: 0.0.1
+Summary: The Universal API Client Constructor.
+Home-page: https://github.com/jsfehler/inori
+Author: Joshua Fehler
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+License-File: LICENSE
+
+Inori - The Universal API Client Constructor 
+
+
