@@ -1,0 +1,3 @@
+[console_scripts]
+extract = app.extract_audio:main
+
