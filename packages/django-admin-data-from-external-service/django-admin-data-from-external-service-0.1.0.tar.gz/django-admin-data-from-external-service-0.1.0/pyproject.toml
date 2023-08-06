@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "django-admin-data-from-external-service"
+version = "0.1.0"
+description = "Helpers to extend Django admin with data from external service with minimal hacks"
+authors = ["Evgeniy Tatarkin <tatarkin.evg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/estin/django-admin-data-from-external-service"
+keywords = ["django", "admin"]
+classifiers = [
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries :: Application Frameworks",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages = [
+    { include = "dadfes" },
+    { include = "tests" }
+]
+include = [
+    "pytest.ini",
+]
+
+
+[tool.poetry.dependencies]
+# nothing
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+pytest-django = "^4.4"
+requests = "^2.0"
+requests-mock = "^1.9"
+flake8 = "^3.9"
+black = "^20.0b1"
+tox = "^3.24"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+(
+    /(
+         \.git
+        |\.github
+        |\.pytest_cache
+        |migrations
+    )/
+)
+'''
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
