@@ -1,0 +1,6 @@
+LICENSE
+README.md
+tdpdf.egg-info/PKG-INFO
+tdpdf.egg-info/SOURCES.txt
+tdpdf.egg-info/dependency_links.txt
+tdpdf.egg-info/top_level.txt
