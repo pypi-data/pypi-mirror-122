@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: streamlit-heroku
+Version: 0.0.1
+Summary: Tool to help create files needed to deploy Streamlit App on Heroku
+Home-page: https://github.com/danielschutz/streamlit_heroku
+Author: Daniel Schutz
+Author-email: danieljschutz@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/danielschutz/streamlit_heroku/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1>streamlit_heroku</h1>
+<p>This is a tool to help create necessary files to deploy a Streamlit app on Heroku</p>
+
+<h2>Installation<h2>
+<pre><code>pip install streamlit_heroku</code></pre>
+
