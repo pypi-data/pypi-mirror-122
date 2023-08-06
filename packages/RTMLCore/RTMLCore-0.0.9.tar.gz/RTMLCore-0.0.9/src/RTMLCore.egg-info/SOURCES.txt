@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/RTMLCore.egg-info/PKG-INFO
+src/RTMLCore.egg-info/SOURCES.txt
+src/RTMLCore.egg-info/dependency_links.txt
+src/RTMLCore.egg-info/top_level.txt
