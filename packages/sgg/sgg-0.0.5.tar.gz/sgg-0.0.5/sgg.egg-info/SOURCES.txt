@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sgg/__init__.py
+sgg/__main__.py
+sgg/ext.py
+sgg.egg-info/PKG-INFO
+sgg.egg-info/SOURCES.txt
+sgg.egg-info/dependency_links.txt
+sgg.egg-info/entry_points.txt
+sgg.egg-info/requires.txt
+sgg.egg-info/top_level.txt
