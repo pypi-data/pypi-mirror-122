@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: passhfiles
+Version: 1.0.3
+Summary: A software for browsing servers behind a passhport server
+Home-page: UNKNOWN
+Author: E.C. Pellegrini
+Author-email: pellegrini@ill.fr
+Maintainer: E.C. Pellegrini
+Maintainer-email: pellegrini@ill.fr
+License: GPL 3
+Platform: Unix
+Platform: Windows
+Requires-Dist: PyQt5
+Requires-Dist: PyYAML
+Requires-Dist: cryptography
+Requires-Dist: paramiko
+Requires-Dist: scp
+
+passhfiles is a software for browsing files on ressources behind a passhport server. It allows
+to browse, rename or remove file but also to transfer file from/to a local filesystem. As such, it can be used as a light sftp client.
+
+
