@@ -1,0 +1,10 @@
+Change log
+===========
+
+0.7 (05/10/2021)
+-------------------
+- new class:
+	analyse
+
+- fix
+	fix some bugs
