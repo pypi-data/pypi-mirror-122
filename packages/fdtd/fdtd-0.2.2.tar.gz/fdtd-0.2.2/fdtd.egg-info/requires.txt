@@ -1,0 +1,17 @@
+tqdm
+numpy
+scipy
+matplotlib
+
+[dev]
+black
+pytest
+nbstripout
+pre-commit
+ipykernel
+line_profiler
+
+[docs]
+sphinx
+nbsphinx
+sphinx-rtd-theme
