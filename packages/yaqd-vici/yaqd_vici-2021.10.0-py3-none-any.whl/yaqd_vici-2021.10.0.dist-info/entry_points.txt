@@ -1,0 +1,3 @@
+[console_scripts]
+yaqd-vici-two-position=yaqd_vici._vici_two_position:ViciTwoPosition.main
+
