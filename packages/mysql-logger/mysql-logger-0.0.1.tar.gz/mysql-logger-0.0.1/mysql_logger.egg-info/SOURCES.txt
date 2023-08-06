@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mysql_logger/__init__.py
+mysql_logger/mysql_logger.py
+mysql_logger.egg-info/PKG-INFO
+mysql_logger.egg-info/SOURCES.txt
+mysql_logger.egg-info/dependency_links.txt
+mysql_logger.egg-info/requires.txt
+mysql_logger.egg-info/top_level.txt
