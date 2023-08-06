@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+mlfc_distributions/Binomialdistribution.py
+mlfc_distributions/Gaussiandistribution.py
+mlfc_distributions/Generaldistribution.py
+mlfc_distributions/__init__.py
+mlfc_distributions.egg-info/PKG-INFO
+mlfc_distributions.egg-info/SOURCES.txt
+mlfc_distributions.egg-info/dependency_links.txt
+mlfc_distributions.egg-info/not-zip-safe
+mlfc_distributions.egg-info/top_level.txt
