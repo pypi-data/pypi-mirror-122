@@ -1,0 +1,3 @@
+[console_scripts]
+envirophat_mqtt = envirophat_mqtt.__main__:main
+
