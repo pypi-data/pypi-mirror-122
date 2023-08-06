@@ -1,0 +1,11 @@
+pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipeline/fall_detect.py,sha256=iFq4TplyWngJV2L0QEQvlSkkolsdJtlRismPmKMOMIo,22229
+pipeline/inference.py,sha256=cciiWHF0ydeJpqJu5RL1_DiXbMsIHq6b_zY8_7z0a0U,5499
+pipeline/movenet_model.py,sha256=SL_XiV8Wf84rH5oovFYTheEqgo2g7UsIugxHLLTjN2M,3068
+pipeline/pose_base.py,sha256=WfCN9TKNWEwvHXHyF-eRVQodsUBVxT_H2T7kKh75wgQ,4528
+pipeline/pose_engine.py,sha256=_lhBxFXWt3Wf5d0EezyiVhqHviTOj4EdTe8zA4dXRso,6435
+pipeline/posenet_model.py,sha256=_4cEyO77Rr9iJhD8wwaBfrjTiuyT5YlWIgED8XQXVNc,3460
+falldetect-1.0.9.dist-info/METADATA,sha256=Eo2d0i6t9DB64aZfvNZTlX5_8rGF8eBNICab82xprG8,8791
+falldetect-1.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+falldetect-1.0.9.dist-info/top_level.txt,sha256=Qdc1eKrvhKK_o9CPbdooOdDt7g3ZSXZDrNXHmUGl94Q,9
+falldetect-1.0.9.dist-info/RECORD,,
