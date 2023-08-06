@@ -1,0 +1,11 @@
+version_stamp/__init__.py,sha256=p_9bnBNpi1jHdKDsmBM7tN2Da3N-QOYEe8s09k9NIrk,152
+version_stamp/bathen.py,sha256=HrwW_CACy1SsHYV_XccUjBh79jgNqWw3ga9CYmXqg_g,532
+version_stamp/stamp_utils.py,sha256=VvBAlzeOyS8umoZtB2fqSZEB0m8HnGPP0acC82dQWzs,21270
+version_stamp/version.py,sha256=f_le1KPw75UWPuIbx6T53IkPru0jUj2tBExOeItThZw,60
+version_stamp/vmn.py,sha256=ah53UtDv8a9Og9PDP6lNGoe9wLzlKChqQMhmCVetHZI,63521
+vmn-0.4.0rc29.dist-info/LICENSE.txt,sha256=f6flbA23EQX0tZpqCsQCJesFmHb4XNOAOD99egZuaL4,35127
+vmn-0.4.0rc29.dist-info/METADATA,sha256=qDEriuD7XKuF5JWM5WY7VS4pZGj5t4cXqZJomG8kUVM,435
+vmn-0.4.0rc29.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vmn-0.4.0rc29.dist-info/entry_points.txt,sha256=1v5GbQiSC3z8ZF_dwxte6MeXbHSvUkBqiSVvXsjfzk0,48
+vmn-0.4.0rc29.dist-info/top_level.txt,sha256=nVR6dU2EinKSe5A4ZJa7NR1aOPNV7QMXvB5Sm-rWbJs,14
+vmn-0.4.0rc29.dist-info/RECORD,,
