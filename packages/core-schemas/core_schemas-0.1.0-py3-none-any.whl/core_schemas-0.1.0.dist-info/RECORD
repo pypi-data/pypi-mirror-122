@@ -1,0 +1,5 @@
+core_schemas/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+core_schemas/job.py,sha256=dF05k2X0NQPoaHApNzwxxs2PieH7ubgVK8DCI0MJM2c,31
+core_schemas-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+core_schemas-0.1.0.dist-info/METADATA,sha256=TydLW6yYvtioIHKRhH7FYdOuGu089f7MLnfmzKWLSeA,341
+core_schemas-0.1.0.dist-info/RECORD,,
