@@ -1,0 +1,15 @@
+tuxpkg/__init__.py,sha256=V4XkBlDwhZqyvAqOFdqXxqfUn_dUDNzoI1dWkyB8WR8,213
+tuxpkg/__main__.py,sha256=UxuZZaFO0QWHupDFjVEeWoBcPKMGWMpd-XOOkPyNtlk,1876
+tuxpkg/create_repository.py,sha256=d5ldY6RoxeouNedMO1wSFvop9-X4KE-fBqtOcaFvSFw,264
+tuxpkg/get_debian_rules.py,sha256=8sOWnO7OqJW7ERItz1uiVrTL4VEsawGAfPeTD1-aGMA,89
+tuxpkg/get_makefile.py,sha256=0IFlIuPQVd_7s-N_sJ1uODem-fBPry9oSXmaRwkV01Q,84
+tuxpkg/release.py,sha256=vDk9b2x5tkkEyHiOCJPgF3ISqG1IZt6FKeAG4SztWUo,254
+tuxpkg/data/create-repository,sha256=kgAoPSmLC3wO35BD6izSkv39DTNmPwxK-ofhfuWkPtM,1153
+tuxpkg/data/debianrules.mk,sha256=5hN7ZGptW2yCK30mX1MCDeogii7AmdtPFHbuvtrk-ag,559
+tuxpkg/data/release,sha256=N38TgF8N2eu-T8EwlR6qMoeifSQvNiJZ55zlOFeRrcI,1635
+tuxpkg/data/tuxpkg.mk,sha256=CC5x4EpBb7ykYVZ1vsM86XQ7XqiB666Jo0Xa39-KtuI,1575
+tuxpkg-0.1.0.dist-info/entry_points.txt,sha256=Q5lprfrzravZSAHGlYrUhlILxNjDEqomormndX_9Svs,47
+tuxpkg-0.1.0.dist-info/LICENSE,sha256=t22nJauVb55M5Fd4Cahwh5OWAipnPw0Xu4d1O8xMktQ,1081
+tuxpkg-0.1.0.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+tuxpkg-0.1.0.dist-info/METADATA,sha256=wOfGjr41QuQ_oqUqoxAfnt-c7V9fb9IPIgRlkq-JZ8s,282
+tuxpkg-0.1.0.dist-info/RECORD,,
