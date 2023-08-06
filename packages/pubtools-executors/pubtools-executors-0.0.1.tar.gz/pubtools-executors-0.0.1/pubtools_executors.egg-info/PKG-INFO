@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pubtools-executors
+Version: 0.0.1
+Summary: Pubtools-executors
+Home-page: https://github.com/release-engineering/pubtools-executors
+Author: Lubomir Gallovic
+Author-email: lgallovi@redhat.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/x-rst
+Provides-Extra: reST
+License-File: LICENSE
+
+pubtools-executors
+====================
+
+Collection of executors classes which can be used to run commands in different environments
+
+ChangeLog
+=========
+
+Unreleased
+----------
+
+
+
+0.0.1 
+-----
+
+- First pre-production release
+
+
+
