@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: APC-Power-Usage
+Version: 0.1.5
+Summary: APC Power Usage is an application which shows power consuption overtime for UPS units manufactured by APC.
+Home-page: https://github.com/kondinskis/apc-power-usage
+Author: Stefan Kondinski
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kondinskis/apc-power-usage/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+License-File: LICENSE.md
+Requires-Dist: Flask (>=2.0.1)
+Requires-Dist: SQLAlchemy (>=1.4.25)
+
+UNKNOWN
+

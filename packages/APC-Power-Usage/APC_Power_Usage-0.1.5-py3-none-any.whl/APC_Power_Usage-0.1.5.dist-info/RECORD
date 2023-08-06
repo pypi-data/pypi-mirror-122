@@ -1,0 +1,14 @@
+apc/__init__.py,sha256=3w_CTzQbE7zgVGnTypwmOcDDGB1UMNvUGhMbKIHjV2U,55
+apc/__main__.py,sha256=nrT7kTbb_avCkyEJ1a6THzaE9v4l9EHe2cytglyFtKk,181
+apc/apc.py,sha256=t2hA29_pZUMzhzQ6Jy49qxIu3MlsszfpjnV_tZ6SIPg,3208
+apc/config.py,sha256=UCY_UhrRIdBgPbiW1M__ys-KPbUcEvhj63LI_8dD4Q4,52
+apc/db.py,sha256=FFW4nOvA73uby1MwHXutSmsBVwIVTL8Z01H3LGWKhtc,702
+apc/web.py,sha256=scXFa6d0CJFzNtaylK2BWDbIhDjFUERpDj9oduKClbs,1395
+apc/static/dygraph/dygraph.min.css,sha256=hCr1lz4sMfG79q-9_redL0kaW56ffAQuWenodCI55JI,1131
+apc/static/dygraph/dygraph.min.js,sha256=TLbwGeB6kjIisQzo--MW4PF2pDOOXbSH9-qoMXq0QlE,123909
+apc/templates/index.html,sha256=MaDExFVQmby5NevdPXRNFaVbSOGKnDggHyOZv-Jt9Fk,1100
+APC_Power_Usage-0.1.5.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+APC_Power_Usage-0.1.5.dist-info/METADATA,sha256=jbDya6ZzbpmOuqIgeYcRoG51TXMighCUyblS_xx1j0c,622
+APC_Power_Usage-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+APC_Power_Usage-0.1.5.dist-info/top_level.txt,sha256=cYR6bY-GP33O13pPsLo36COhYNmSBOo6wWTwupKsOOE,4
+APC_Power_Usage-0.1.5.dist-info/RECORD,,
