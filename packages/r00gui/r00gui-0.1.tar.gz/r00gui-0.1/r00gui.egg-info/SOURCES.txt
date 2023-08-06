@@ -1,0 +1,13 @@
+.gitignore
+LICENSE.txt
+README.rst
+setup.py
+r00gui.egg-info/PKG-INFO
+r00gui.egg-info/SOURCES.txt
+r00gui.egg-info/dependency_links.txt
+r00gui.egg-info/top_level.txt
+r00gui/monitor/__init__.py
+r00gui/monitor/app.py
+r00gui/monitor/interface.py
+r00gui/monitor/interface.ui
+r00gui/monitor/w_messanger.ui
