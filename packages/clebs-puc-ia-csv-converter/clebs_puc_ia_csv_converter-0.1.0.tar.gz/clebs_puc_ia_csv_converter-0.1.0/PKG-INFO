@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: clebs-puc-ia-csv-converter
+Version: 0.1.0
+Summary: Convert csv to Json. For learning purposes.
+Author: clebson cardoso
+Author-email: clebsondm@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: pandas (>=1.3.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+
