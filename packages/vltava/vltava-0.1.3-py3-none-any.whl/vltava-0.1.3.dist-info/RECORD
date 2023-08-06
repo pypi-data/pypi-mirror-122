@@ -1,0 +1,10 @@
+vltava/__init__.py,sha256=5Otij26WDKG03ELPyvaryrcyxnIIx_XiFT5K3AV59jA,5722
+vltava/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vltava/resources/cs.stopwords,sha256=7tAKqylj8DcjTueay30D-pFFA8VOF0vYYC2z6OauvLo,5377
+vltava/resources/majka.w-lt,sha256=qHaqMT41HC-iyEI2H7sndV1Ob41dNEO75BUmcOmLs0Q,1065180
+vltava/resources/nlp_czech-morfflex-161115-no_dia.dict,sha256=QWwh_W9p-JSz7MJ--uWzwRC0asd6Ske2QKs5_bI0haM,4417213
+vltava-0.1.3.dist-info/LICENSE,sha256=cDMjDB-wllX3KzhSlOvPeZuJ8_IydQTnwYJCc-2jNOg,1070
+vltava-0.1.3.dist-info/METADATA,sha256=0ctswsIAaulCMk8dVN2-EPbpTA8rLZa_jwwfTK-Ec_8,2766
+vltava-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vltava-0.1.3.dist-info/top_level.txt,sha256=hXRV6RtjTYbsflDMKUcGWg3Zga94pg_LqDdAX5xRqm8,7
+vltava-0.1.3.dist-info/RECORD,,
