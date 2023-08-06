@@ -1,0 +1,13 @@
+rosBNO055.py,sha256=pUQAzlmPhk3tZQuCoVOifMCvOjEetX_CkF_yLkPh2yE,23259
+ros_inertial_measurement_unit.py,sha256=NOeiuxFnwXaEoTMeLbvF3PAbTArFAP9X2xL1NXyPSJM,5349
+ros_safe_inertial_measurement_unit.py,sha256=DPo6Z7N0ploLDaI9yo17ZxULvKjVtFjxxdv05a87ekg,31624
+imu4gopigo3ros-0.6.data/scripts/calibrateIMU,sha256=B9y2inUcLASz1ITzWO4QBnsT98TEfRMjYz_VMWfL9A4,2618
+imu4gopigo3ros-0.6.data/scripts/logIMU,sha256=UtKPlAzvVu7smtRz2S7Ofi6JUWHIhyZlSYMNxyb2S6g,7971
+imu4gopigo3ros-0.6.data/scripts/readIMU,sha256=XxvRk-pychn_9FyClw-WucrXm8F_1g89Xk0Wl8lvz1Q,6427
+imu4gopigo3ros-0.6.data/scripts/resetIMU,sha256=pLKaOD7UoVnTz_roq2XDbYywq7fD44qBNIs4Yyt1ntM,1688
+imu4gopigo3ros-0.6.data/scripts/startIMU,sha256=xdJWmtZxRxpksKEvhfnYvb3gIvtbxfOwZ_WvX3SqUxs,3197
+imu4gopigo3ros-0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+imu4gopigo3ros-0.6.dist-info/METADATA,sha256=0pMrrFMVXlAJVrAWf2PZI6kL8aQwjfda7UMouHje1Hs,5900
+imu4gopigo3ros-0.6.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+imu4gopigo3ros-0.6.dist-info/top_level.txt,sha256=UJDg2Sw_BEIxlluhqIzVyv2FnLDKKrzJnpOvkoIRdt4,75
+imu4gopigo3ros-0.6.dist-info/RECORD,,
