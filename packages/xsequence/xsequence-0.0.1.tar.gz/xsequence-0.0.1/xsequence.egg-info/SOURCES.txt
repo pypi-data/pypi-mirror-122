@@ -1,0 +1,5 @@
+setup.py
+xsequence.egg-info/PKG-INFO
+xsequence.egg-info/SOURCES.txt
+xsequence.egg-info/dependency_links.txt
+xsequence.egg-info/top_level.txt
