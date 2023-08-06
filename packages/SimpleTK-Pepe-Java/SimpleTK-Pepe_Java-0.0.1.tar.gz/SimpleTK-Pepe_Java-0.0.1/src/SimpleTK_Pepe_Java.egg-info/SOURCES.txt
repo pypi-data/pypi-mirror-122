@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SimpleTK/__init__.py
+src/SimpleTK/example.py
+src/SimpleTK_Pepe_Java.egg-info/PKG-INFO
+src/SimpleTK_Pepe_Java.egg-info/SOURCES.txt
+src/SimpleTK_Pepe_Java.egg-info/dependency_links.txt
+src/SimpleTK_Pepe_Java.egg-info/top_level.txt
