@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+distribuciones_jjm/Binomialdistribution.py
+distribuciones_jjm/Gaussiandistribution.py
+distribuciones_jjm/Generaldistribution.py
+distribuciones_jjm/__init__.py
+distribuciones_jjm.egg-info/PKG-INFO
+distribuciones_jjm.egg-info/SOURCES.txt
+distribuciones_jjm.egg-info/dependency_links.txt
+distribuciones_jjm.egg-info/not-zip-safe
+distribuciones_jjm.egg-info/top_level.txt
