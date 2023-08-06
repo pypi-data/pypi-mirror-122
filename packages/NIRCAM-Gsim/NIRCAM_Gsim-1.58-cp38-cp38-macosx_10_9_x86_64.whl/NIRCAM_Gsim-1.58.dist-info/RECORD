@@ -1,0 +1,15 @@
+NIRCAM_Gsim/NIRISS_grism_seed_disperser.py,sha256=zMRogt6hDJioWuGJThBjqkjrIp36j9xvxtGz7WH-uo0,2731
+NIRCAM_Gsim/__init__.py,sha256=_DHL-z6PWCe9Ux-Td7y1weOElhiRh3k1C8F0I3tmY68,72
+NIRCAM_Gsim/grism_seed_disperser.py,sha256=bhglgxHi61d0N1HEkAr2gVXbWNRz3wSIj0Lt-SUouVU,10151
+NIRCAM_Gsim/disperse/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+NIRCAM_Gsim/disperse/disperse.py,sha256=hQ8-mILH8tHhHH9Eq-bLlZi0hpcrmjNEzkDLwSv_f2A,4800
+NIRCAM_Gsim/observations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NIRCAM_Gsim/observations/helper.py,sha256=q9CZv25siD5bLU13Z4Ag-i8HG2u_jkY69kqB4HwXem4,462
+NIRCAM_Gsim/observations/observations.py,sha256=6rhQH1y1z_pU6ZXZuk-uNjWxj2CohUpq-IeC_wlDTv8,29758
+NIRCAM_Gsim/polyclip/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+NIRCAM_Gsim/polyclip/polyclip.py,sha256=pdrJyvGOi7n1q35zvi59nfqFCX6kp7V3Tc3Cp3-9A9U,2772
+NIRCAM_Gsim/polyclip/polyclip_c.cpython-38-darwin.so,sha256=nvgKu6p9COviAB3KDNAhlrBSNkiDMPLioVbIm6G084A,35392
+NIRCAM_Gsim-1.58.dist-info/METADATA,sha256=pP6b62j535IYK7kBdv0iXOdwxSnfgcYo8tMw2JPTAWQ,335
+NIRCAM_Gsim-1.58.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+NIRCAM_Gsim-1.58.dist-info/top_level.txt,sha256=EXGz0oPzXZC-rjnEQLxjsib_rL1V0Yt_JrDXno62kw0,12
+NIRCAM_Gsim-1.58.dist-info/RECORD,,
