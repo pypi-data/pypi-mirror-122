@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: azure-logger-bundle
+Version: 0.3.1
+Summary: Azure Logger bundle for the Pyfony framework
+Home-page: https://github.com/pyfony/azure-logger-bundle
+License: Proprietary
+Author: Jiri Koutny
+Author-email: jiri.koutny@datasentics.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: logger-bundle (>=0.7.0,<0.8.0)
+Requires-Dist: opencensus (>=0.7.7,<1.0.0)
+Requires-Dist: opencensus-ext-azure (>=1.0,<2.0)
+Requires-Dist: pyfony-bundles (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/pyfony/azure-logger-bundle
+Description-Content-Type: text/markdown
+
+# Azure Logger bundle for the Pyfony Framework
+
+**This package is distributed under the "DataSentics SW packages Terms of Use." See [license](https://raw.githubusercontent.com/pyfony/azure-logger-bundle/master/LICENSE)**
+
+### Installation
+
+```bash
+poetry add azure-logger-bundle
+```
+
+### Usage
+
+Get the __instrumentation key__
+
+![instrumentation_key](docs/instrumentation_key.png)
+
+In your project's `src/[ROOT_MODULE]/_config/config.yaml`
+
+```yaml
+parameters:
+  azureloggerbundle:
+    enabled: True
+    app_insights:
+      instrumentation_key: xxxx-xxxx-xxxx-xxxx
+```
+
+or use an environment variable
+
+```yaml
+      instrumentation_key: "%env(MY_SECRET_ENV)%"
+```
+
