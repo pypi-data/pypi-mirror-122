@@ -1,0 +1,5 @@
+Django<3.3
+polib
+coverage
+pyYaml
+path
