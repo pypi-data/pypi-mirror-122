@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pydiso/__init__.py
+pydiso/mkl_solver.c
+pydiso/mkl_solver.pyx
+pydiso/setup.py
+pydiso.egg-info/PKG-INFO
+pydiso.egg-info/SOURCES.txt
+pydiso.egg-info/dependency_links.txt
+pydiso.egg-info/requires.txt
+pydiso.egg-info/top_level.txt
