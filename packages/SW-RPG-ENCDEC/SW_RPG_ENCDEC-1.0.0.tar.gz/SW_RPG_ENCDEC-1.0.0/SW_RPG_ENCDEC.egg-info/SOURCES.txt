@@ -1,0 +1,8 @@
+LICENSE.lic
+README.txt
+pyproject.toml
+setup.cfg
+SW_RPG_ENCDEC.egg-info/PKG-INFO
+SW_RPG_ENCDEC.egg-info/SOURCES.txt
+SW_RPG_ENCDEC.egg-info/dependency_links.txt
+SW_RPG_ENCDEC.egg-info/top_level.txt
