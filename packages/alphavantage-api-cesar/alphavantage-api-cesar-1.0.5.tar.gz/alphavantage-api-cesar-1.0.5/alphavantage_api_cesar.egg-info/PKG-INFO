@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: alphavantage-api-cesar
+Version: 1.0.5
+Summary: Projeto desenvolvido para primeira semana do cesar inova afro bootcamp
+Home-page: https://github.com/ekdespe/
+Author: Erik Ferreira
+Author-email: ekdespe@gmail.com
+License: MIT
+Description: # alphav_client
+        A simple API client for the AlphaVantage API: https://www.alphavantage.co/documentation/
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
