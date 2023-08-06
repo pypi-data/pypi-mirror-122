@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+dcctk.egg-info/PKG-INFO
+dcctk.egg-info/SOURCES.txt
+dcctk.egg-info/dependency_links.txt
+dcctk.egg-info/not-zip-safe
+dcctk.egg-info/requires.txt
+dcctk.egg-info/top_level.txt
