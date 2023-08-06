@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: OpenHands
+Version: 0.1
+Summary: 👐OpenHands : Making Sign Language Recognition Accessible
+Home-page: https://openhands.ai4bharat.org
+Author: AI4Bhārat
+License: UNKNOWN
+Download-URL: https://pypi.org/project/OpenHands
+Project-URL: Source, https://github.com/AI4Bharat/OpenHands
+Project-URL: Issues, https://github.com/AI4Bharat/OpenHands/issues
+Project-URL: Documentation, https://openhands.readthedocs.io
+Description: # 👐OpenHands: Sign Language Recognition Library
+        
+        > _Making Sign Language Recognition Accessible_
+        
+        Check the documentation on how to use the library:  
+        [ReadTheDocs: 👐OpenHands](https://openhands.readthedocs.io)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
