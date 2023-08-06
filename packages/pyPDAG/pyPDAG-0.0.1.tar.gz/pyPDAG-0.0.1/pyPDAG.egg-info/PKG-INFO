@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyPDAG
+Version: 0.0.1
+Summary: pyPDAG
+Home-page: UNKNOWN
+Author: Syed Rahman
+Author-email: <syedhr264@gmail.com>
+License: UNKNOWN
+Keywords: python,pdag
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Python version for Partion-DAG as outlined in https://arxiv.org/pdf/1902.05173.pdf
+
