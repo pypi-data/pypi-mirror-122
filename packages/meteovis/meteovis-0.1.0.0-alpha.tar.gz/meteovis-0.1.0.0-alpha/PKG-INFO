@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: meteovis
+Version: 0.1.0.0-alpha
+Summary: A jupyter-based tool for visualizing and exploring meteorological and bioecological data hosted at UvA-TCE.
+Home-page: https://github.com/user/reponame
+Author: @jiqicn
+Author-email: qiji1988ben@gmail.com
+License: MIT
+Download-URL: https://github.com/jiqicn/meteovis
+Description: UNKNOWN
+Keywords: Visualization,Jupyter,Widgets,GIS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
