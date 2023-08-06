@@ -1,0 +1,8 @@
+setup.py
+Morse/MorseTests.py
+Morse/__init__.py
+Morse/main.py
+codigoMorse.egg-info/PKG-INFO
+codigoMorse.egg-info/SOURCES.txt
+codigoMorse.egg-info/dependency_links.txt
+codigoMorse.egg-info/top_level.txt
