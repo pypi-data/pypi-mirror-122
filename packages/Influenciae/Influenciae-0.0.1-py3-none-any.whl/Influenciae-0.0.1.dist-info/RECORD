@@ -1,0 +1,13 @@
+influenciae/__init__.py,sha256=S0K_sgUKzKHlK95mVkXeKK-dr5l2uBBR34YUsgvuP74,213
+influenciae/common/__init__.py,sha256=T22hAKNwEAyj4q6UhnxJB8tRO7PJgCXdTQ50198ERR4,40
+influenciae/influence/__init__.py,sha256=kh31oMa8PjIhnnYHDnU_tGQnqtfVQ5B1cW7slEzlJ6M,37
+influenciae/types/__init__.py,sha256=PT0QSjRA00JyoiuaN5Wjxv9Nc-YcrKSnWYE9Bt96pUs,97
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/utils.py,sha256=goTMCebeTJiQNNrI9VBSGdJ14sKO774CCGoQi3XWbB0,176
+tests/influence/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+tests/influence/test_example.py,sha256=3KxOqFXSGPTpaWIE3gIJ_UG-F28Vf7gox9K_Sx9oZYA,40
+Influenciae-0.0.1.dist-info/LICENSE,sha256=a7DepG0n27CGWjpH9QJmmOSCr3lh7hauCZT8GVoiDjk,1085
+Influenciae-0.0.1.dist-info/METADATA,sha256=fqDrifZqeylanT4rbxekY3Q4EUecbJIN2699lEt9oX8,1399
+Influenciae-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Influenciae-0.0.1.dist-info/top_level.txt,sha256=ZkO5Ylsn0YJWBk5psgdbBMHHXdLcd_UMSyDx6zyzyDo,18
+Influenciae-0.0.1.dist-info/RECORD,,
