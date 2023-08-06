@@ -1,0 +1,4 @@
+xes
+pypinyin
+pygame
+requests

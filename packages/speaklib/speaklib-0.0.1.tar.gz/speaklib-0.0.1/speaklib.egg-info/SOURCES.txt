@@ -1,0 +1,8 @@
+speaklib/__init__.py
+speaklib/oneByOne.py
+speaklib.egg-info/PKG-INFO
+speaklib.egg-info/SOURCES.txt
+speaklib.egg-info/dependency_links.txt
+speaklib.egg-info/requires.txt
+speaklib.egg-info/top_level.txt
+xesr/__init__.py
