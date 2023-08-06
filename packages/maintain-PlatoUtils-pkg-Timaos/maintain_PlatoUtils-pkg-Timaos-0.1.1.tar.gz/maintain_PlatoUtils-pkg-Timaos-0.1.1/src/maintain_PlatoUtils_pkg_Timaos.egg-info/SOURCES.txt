@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/maintain_PlatoUtils/__init__.py
+src/maintain_PlatoUtils/maintain_PlatoUtils.py
+src/maintain_PlatoUtils_pkg_Timaos.egg-info/PKG-INFO
+src/maintain_PlatoUtils_pkg_Timaos.egg-info/SOURCES.txt
+src/maintain_PlatoUtils_pkg_Timaos.egg-info/dependency_links.txt
+src/maintain_PlatoUtils_pkg_Timaos.egg-info/requires.txt
+src/maintain_PlatoUtils_pkg_Timaos.egg-info/top_level.txt
