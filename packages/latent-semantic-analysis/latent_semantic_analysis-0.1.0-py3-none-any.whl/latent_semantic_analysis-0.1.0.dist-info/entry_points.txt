@@ -1,0 +1,3 @@
+[console_scripts]
+lsa-train = latent_semantic_analysis.__main__:main
+

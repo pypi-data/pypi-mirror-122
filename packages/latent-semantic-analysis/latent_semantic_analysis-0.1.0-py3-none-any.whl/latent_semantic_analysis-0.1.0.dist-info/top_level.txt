@@ -1,0 +1,3 @@
+data
+latent_semantic_analysis
+tests

@@ -1,0 +1,17 @@
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/load_20newsgroups.py,sha256=lHwnU6HpSngahy068yiCysHzNjUJ2kvhZ0Hl51PAEWI,616
+latent_semantic_analysis/__init__.py,sha256=VSp6BFoce-b7EzPtw8cQ9zhN8W7OvuXWu8g06oZjjqw,71
+latent_semantic_analysis/__main__.py,sha256=qw_8-ljdQaVRApKFeEHnPN2ViczMw6nzc5ECpc4e--c,952
+latent_semantic_analysis/config.py,sha256=fZATy0yrNK9ApUhDcMzbLC0Kfx0YFVExbL0MGPcU4bI,3046
+latent_semantic_analysis/data.py,sha256=69ePzgsVi2ur7JjCLvCSpRr9ur5Cj5FOTjCQaP-1pfc,446
+latent_semantic_analysis/save.py,sha256=NkdJkxUka_CiQoiCd-ErO6wK6WMYYE1uJwBFkYYuiX4,1143
+latent_semantic_analysis/train.py,sha256=mA9gyPDtSdGbo9GqLiPvsezUyCJfltmWkN97lOtqspo,1832
+latent_semantic_analysis/utils.py,sha256=VBEchML0_cKmsSJoJJDUEVQpTF8fKDOrHFq5yccXAOs,1842
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pipeline.py,sha256=vzqoe4LU5TuO7oEAweM6G-rh-HdSbyiwEjzwNrgiAgc,765
+latent_semantic_analysis-0.1.0.dist-info/LICENSE,sha256=UTO8B5JAGoD8oqf96ZayDSm05U9AiFyHQLTdfgBXJLQ,1071
+latent_semantic_analysis-0.1.0.dist-info/METADATA,sha256=ARm5ncCup_Q3stl09f8PslAMtz1ky6Butoh7MNg12pc,4990
+latent_semantic_analysis-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+latent_semantic_analysis-0.1.0.dist-info/entry_points.txt,sha256=ucf68ajjURE0m8yPNt-UwzJNHHXuBY36B5g9S6dDHYg,70
+latent_semantic_analysis-0.1.0.dist-info/top_level.txt,sha256=yATBej6Yq50g4jQK1FOdJMe-hPVixgNEJ2C3KuCFNlE,36
+latent_semantic_analysis-0.1.0.dist-info/RECORD,,
