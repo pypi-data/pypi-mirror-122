@@ -1,0 +1,8 @@
+colorama
+passlib
+dnspython
+pytest
+loguru=='0.5.3'
+
+[:python_version<'3']
+ipaddr>=2.1.11
