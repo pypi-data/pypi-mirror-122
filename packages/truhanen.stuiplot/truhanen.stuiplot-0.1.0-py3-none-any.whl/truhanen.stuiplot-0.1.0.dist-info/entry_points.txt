@@ -1,0 +1,3 @@
+[console_scripts]
+stuiplot=truhanen.stuiplot:main
+
