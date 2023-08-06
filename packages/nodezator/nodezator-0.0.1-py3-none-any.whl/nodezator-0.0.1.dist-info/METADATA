@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: nodezator
+Version: 0.0.1
+Summary: A future python node editor
+Home-page: http://nodezator.com
+Author: Kennedy Richard
+Author-email: kennedy@kennedyrichard.com
+License: Unlicense
+Project-URL: Source, https://github.com/kennedyrichard/nodezator
+Project-URL: Bug Tracker, https://github.com/kennedyrichard/nodezator/issues
+Keywords: gui,desktop,application,pygame,graph,graphs,nodes,node,editor
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+Requires-Dist: numpy
+
+# Nodezator: A future python node editor
+
+Visit the [homepage][] to know more about this desktop application. To talk to the author [tweet][] or [email][] him.
+
+[homepage]: http://nodezator.com
+[tweet]: https://twitter.com/KennedyRichard
+[email]: mailto:kennedy@kennedyrichard.com
+
+
