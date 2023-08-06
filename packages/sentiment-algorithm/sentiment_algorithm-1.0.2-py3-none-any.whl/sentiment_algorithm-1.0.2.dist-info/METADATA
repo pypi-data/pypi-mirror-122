@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sentiment-algorithm
+Version: 1.0.2
+Summary: This package use newsreader algorithm to produce buy and sell signals, portfolio, ROI and sharpe ratio for stock #AAPL
+Home-page: UNKNOWN
+Author: Jiayi Li
+Author-email: jl884@duke.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: snscrape
+Requires-Dist: yfinance
+Requires-Dist: pyspark
+Requires-Dist: matplotlib
+Requires-Dist: nltk
+Requires-Dist: vaderSentiment
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: pathlib
+Requires-Dist: setuptools
+Requires-Dist: Cython
+
+UNKNOWN
+
+
