@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+portscanner_py/__init__.py
+portscanner_py.egg-info/PKG-INFO
+portscanner_py.egg-info/SOURCES.txt
+portscanner_py.egg-info/dependency_links.txt
+portscanner_py.egg-info/top_level.txt
