@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: colortab
+Version: 0.1.1
+Summary: Python-Markdown MkDocs colortab
+Home-page: UNKNOWN
+Author: beanflame
+License: MIT
+Keywords: markdown,extensions,mkdocs,plugins,colortab
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: markdown (>=3.0)
+
+# color tab
+
