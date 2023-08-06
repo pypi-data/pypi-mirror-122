@@ -1,0 +1,10 @@
+.gitignore
+Makefile
+README.md
+pyproject.toml
+setup.py
+dotdata/__init__.py
+dotdata.egg-info/PKG-INFO
+dotdata.egg-info/SOURCES.txt
+dotdata.egg-info/dependency_links.txt
+dotdata.egg-info/top_level.txt
