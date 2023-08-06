@@ -1,0 +1,4 @@
+fire
+flask_httpauth
+gunicorn
+v4l2py
