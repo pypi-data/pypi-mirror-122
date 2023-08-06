@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: disnake-docs
+Version: 1.0.3
+Summary: A disnake extension that adds a docs command.
+Home-page: https://github.com/Kraots/disnake_docs
+Author: Kraots
+License: MIT
+Project-URL: Code, https://github.com/Kraots/disnake_docs
+Description: [![Python versions](https://img.shields.io/pypi/pyversions/disnake.svg)](https://pypi.python.org/pypi/disnake-docs)
+        [![License](https://img.shields.io/pypi/l/jishaku.svg)](https://github.com/Kraots/disnake_docs/blob/master/LICENSE)
+        
+        ***
+        
+        ## About
+        ***
+        This extension's purpose is of adding a "docs" command, its purpose is to help documenting in chat.
+        
+        ## How To Load It
+        ***
+        ```py
+        from disnake.ext import commands
+        
+        bot = commands.Bot(...)
+        bot.load_extension('docs')
+        
+        bot.run(...)
+        ```
+        
+        ## Inspired By
+        ***
+        [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
