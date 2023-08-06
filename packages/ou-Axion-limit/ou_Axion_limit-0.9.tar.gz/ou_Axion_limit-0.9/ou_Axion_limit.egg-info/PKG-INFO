@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ou-Axion-limit
+Version: 0.9
+Summary: Calculate the AXion G_gamma limit
+Home-page: https://github.com/OuYangMinOa/ou_Axion_limit
+Author: OUYANG MINWEI
+Author-email: wesley91345@gmail.com
+License: MIT
+Keywords: Axion,TASEH,drak matter
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: License.txt
+
+Change log
+===========
+
+0.9 (06/10/2021)
+-------------------
+- fix :
+	fix some bugs
+
+
