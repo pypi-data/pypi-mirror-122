@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: weatherfor12hours
+Version: 1.0.1
+Summary: Python Distribution Utilities
+Home-page: https://github.com/dashakdc3/greetings.git
+Author: Ardit
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: weather,forecast,weather forcast
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Bug Tracking
