@@ -1,0 +1,10 @@
+rpy2
+
+[rcli]
+fire
+
+[test]
+pytest
+pandas
+fire
+twine

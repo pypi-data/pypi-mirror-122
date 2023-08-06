@@ -1,0 +1,3 @@
+[console_scripts]
+rcli = r.__main__:_rcli
+

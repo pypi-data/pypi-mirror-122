@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+import_r.egg-info/PKG-INFO
+import_r.egg-info/SOURCES.txt
+import_r.egg-info/dependency_links.txt
+import_r.egg-info/entry_points.txt
+import_r.egg-info/requires.txt
+import_r.egg-info/top_level.txt
+r/__init__.py
+r/__main__.py
+r/module.py
+r/package.py
+r/pandas.py
+r/tests/__init__.py
+r/tests/test_imports.py
