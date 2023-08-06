@@ -1,0 +1,11 @@
+librosa>=0.7.0
+madmom
+matplotlib
+mir_eval
+mirdata
+nn-fac==0.2.0
+numpy>=1.18.0
+pandas
+scipy>=0.13.0
+soundfile
+tensorly>=0.4.5
