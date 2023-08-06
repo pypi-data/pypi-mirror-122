@@ -1,0 +1,118 @@
+#!python
+
+import sys
+import os
+import shutil
+import logging
+import math
+import argparse
+
+import gpxpy
+import reverse_geocode
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='File renamer for GPX traces.')
+    parser.add_argument('-c', '--copy', action='store_true', help='copy instead of rename/move')
+    parser.add_argument('-d', '--debug', action='store_true', help='activate debug output')
+    parser.add_argument('-f', '--format', nargs=1, help='new format')
+    parser.add_argument('-l', '--long', action='store_true', help='use format for long name')
+    parser.add_argument('-t', '--short', action='store_true', help='use format for short name')
+    parser.add_argument('-r', '--rename', action='store_true', help='rename')
+    parser.add_argument('-s', '--simulate', action='store_true', help='dry run')
+    parser.add_argument('files', nargs='+', help='files to be processed')
+    args = parser.parse_args()
+
+    if args.debug:
+        logging.basicConfig(level=logging.DEBUG)
+
+    if not args.format:
+        args.format = '{startdate}-{starttime}_{edges}'
+        if args.long:
+            args.format = '{startdate}-{starttime}_{minlat},{minlon}-{maxlat},{maxlon}_{cities}_{length}_{points}'
+        elif args.short:
+            args.format = '{startdate}-{starttime}_{minlat},{minlon}-{maxlat},{maxlon}_{edges}_{length}'
+
+    meta = {}
+
+    for gpx_path in args.files:
+
+        meta['filepath'] = gpx_path
+        meta['dirname'], meta['filename'] = os.path.split(gpx_path)
+        meta['basename'], meta['ext'] = os.path.splitext(meta['filename'])
+
+        logging.debug('Opening file: {0}'.format(gpx_path))
+        gpx_file = open(gpx_path,'r')
+        gpx = gpxpy.parse(gpx_file)
+        logging.debug('File parsed: {0}'.format(gpx_path))
+        gpx_file.close()
+        logging.debug('File closed: {0}'.format(gpx_path))
+
+
+        logging.debug('File: {:}'.format(gpx_path))
+        time_start, time_end = gpx.get_time_bounds()
+        meta['startdate'] = '{:%Y%m%d}'.format(time_start)
+        meta['starttime'] = '{:%H%M}'.format(time_start)
+        meta['enddate'] = '{:%Y%m%d}'.format(time_end)
+        meta['endtime'] = '{:%H%M}'.format(time_end)
+        logging.debug('Start time: {:%Y%m%d-%H%M}'.format(time_start))
+
+        lat_min, lat_max, lon_min, lon_max = gpx.get_bounds()
+        meta['minlat'] = '{:.3f}'.format(lat_min)
+        meta['maxlat'] = '{:.3f}'.format(lat_max)
+        meta['minlon'] = '{:.3f}'.format(lon_min)
+        meta['maxlon'] = '{:.3f}'.format(lon_max)
+        logging.debug('Bound: {:.3f},{:.3f}-{:.3f},{:.3f}'.format(lat_min, lon_min, lat_max, lon_max))
+
+        path = []
+        city = ''
+        for track in gpx.tracks:
+            for segment in track.segments:
+                point_start = segment.points[0]
+                point_end = segment.points[-1]
+                city_start = reverse_geocode.search(((point_start.latitude, point_start.longitude),))[0]['city']
+                city_end = reverse_geocode.search(((point_end.latitude, point_end.longitude),))[0]['city']
+                logging.debug('Edges: {:.3f},{:.3f}-{:.3f},{:.3f} {:}-{:}'.format(
+                    point_start.latitude, point_start.longitude,
+                    point_end.latitude, point_end.longitude,
+                    city_start, city_end
+                ))
+
+                for point in segment.points:
+                    c = reverse_geocode.search(((point.latitude, point.longitude),))[0]['city']
+                    if city != c:
+                        city = c
+                        path.append(city)
+        logging.debug('Cities: {:}'.format('-'.join(path)))
+
+
+        meta['length'] = '{:.0f}Km'.format(gpx.length_3d()/1000.)
+        logging.debug('Length: {:.0f}Km'.format(gpx.length_3d()/1000.))
+
+        points = len(list(gpx.walk(only_points=True)))
+        meta['points'] = '{:}pt'.format(points)
+        logging.debug('Points: {:}pt'.format(points))
+
+        meta['cities'] = ('-'.join(path)).replace(' ', '')
+        if len(path) == 1:
+            meta['edges'] = path[0].replace(' ', '')
+        else:
+            meta['edges'] = ('-'.join([path[0], path[-1]])).replace(' ', '')
+
+        meta['newbasename'] = args.format.format(**meta)
+        meta['newfilename'] = meta['newbasename']+meta['ext']
+        meta['newfilepath'] = os.path.join(meta['dirname'], meta['newfilename'])
+
+        logging.debug('Long name: {:}'.format(meta['newfilepath']))
+        logging.debug('Meta :', meta)
+
+        if args.simulate:
+            print('{filepath} -> {newfilepath}'.format(**meta))
+        elif args.copy:
+            shutil.copy(meta['filepath'], meta['newfilepath'])
+        elif args.rename:
+            os.rename(meta['filepath'], meta['newfilepath'])
+        else:
+            for k,v in meta.items():
+                print('{:}: {:}'.format(k,v))
+
+    exit(0)
