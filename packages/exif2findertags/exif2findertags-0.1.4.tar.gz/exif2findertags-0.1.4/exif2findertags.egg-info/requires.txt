@@ -1,0 +1,14 @@
+wurlitzer<2.2.0,>=2.1.0
+click>=8.0
+cloup>=0.11.0
+osxmetadata>=0.99.33
+pathvalidate>=2.4.1
+pyobjc-core<8.0,>=7.2
+pyobjc-framework-AVFoundation<8.0,>=7.2
+pyobjc-framework-CoreServices<8.0,>=7.2
+pyobjc-framework-Metal<8.0,>=7.2
+pyobjc-framework-Quartz<8.0,>=7.2
+pyobjc-framework-Vision<8.0,>=7.2
+rich>=10.9.0
+textx>=2.3.0
+yaspin>=2.1.0
