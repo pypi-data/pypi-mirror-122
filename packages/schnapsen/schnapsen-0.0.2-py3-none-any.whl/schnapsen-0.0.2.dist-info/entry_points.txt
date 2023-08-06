@@ -1,0 +1,3 @@
+[console_scripts]
+schnapsen = schnapsen.cli:main
+
