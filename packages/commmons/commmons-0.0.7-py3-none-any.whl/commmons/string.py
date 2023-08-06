@@ -1,0 +1,7 @@
+import re
+
+_non_numeric = re.compile(r'[^\d]+')
+
+
+def strip_non_numeric(s: str) -> str:
+    return _non_numeric.sub('', s)
