@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: httpie-oauth2-client-credentials
+Version: 0.1.0
+Summary: httpie auth plugin for OAuth2.0 client credentials flow.
+Home-page: https://github.com/satodoc/httpie-oauth2-client-credentials
+Author: satdoc
+Author-email: satodoc-develop-public@outlook.com
+License: UNKNOWN
+Download-URL: https://github.com/satodoc/httpie-oauth2-client-credentials
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
