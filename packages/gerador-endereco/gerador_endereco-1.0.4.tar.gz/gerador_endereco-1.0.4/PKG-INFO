@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: gerador_endereco
+Version: 1.0.4
+Summary: API para criação de endereços aleatórios em um município específico
+Home-page: https://github.com/open-dsa/gerador_endereco
+Author: Michel Metran
+Author-email: michelmetran@gmail.com
+License: UNKNOWN
+Keywords: python,endereço aleatório,address
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Portuguese
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Gerador Endereço
+
+<br>
+
+Programa para gerar endereços aleatórios d'um município para popular um banco de dados.
+
+### Como Instalar?
+
+```bash
+# Instalar o pacote
+pip install gerador-endereco
+```
+
+### Como usar?
+
+
+- Inicialmente é necessário gerar um conjunto/lista de CEPs únicos e aleatórios, definindo apenas a unidade da federação e nome do município.
+Como resultado, são geradas duas listas: a primeira contendo CEPs e a segunda contendo bairros.
+
+```python
+import random
+from gerador_endereco import *
+
+listas = get_list_ceps_bairros(estado='sp', municipio='piracicaba')
+```
+
+<br>
+
+- Uma vez com essa lista de CEPs aleatórios, é possível obter o logradouro completo por meio da função.
+ 
+```python
+cep = random.choice(listas[0])
+get_random_complete_address(cep)
+```
+-------
+
+### Autor
+
+- [Michel Metran](https://michelmetran.github.io/)
+
+
