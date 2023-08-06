@@ -1,0 +1,3 @@
+[console_scripts]
+m6 = m6.__main__:main
+
