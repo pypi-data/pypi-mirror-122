@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: frequency_analysis
+Version: 0.1
+Summary: Symbol/symbol bigram/word/word bigram frequency analyzer with excel output.
+Home-page: https://github.com/uqqu/frequency_analysis
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: frequancy analysis bigram
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing :: Linguistic
