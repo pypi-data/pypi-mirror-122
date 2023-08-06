@@ -1,0 +1,11 @@
+README.md
+setup.py
+mlflow_onesaitplatform_plugin.egg-info/PKG-INFO
+mlflow_onesaitplatform_plugin.egg-info/SOURCES.txt
+mlflow_onesaitplatform_plugin.egg-info/dependency_links.txt
+mlflow_onesaitplatform_plugin.egg-info/entry_points.txt
+mlflow_onesaitplatform_plugin.egg-info/namespace_packages.txt
+mlflow_onesaitplatform_plugin.egg-info/not-zip-safe
+mlflow_onesaitplatform_plugin.egg-info/requires.txt
+mlflow_onesaitplatform_plugin.egg-info/top_level.txt
+onesaitplatformplugins/plugins.py
