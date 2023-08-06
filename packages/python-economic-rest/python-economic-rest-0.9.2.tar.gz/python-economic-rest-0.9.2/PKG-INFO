@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-economic-rest
+Version: 0.9.2
+Summary: Easy to use and dynamic python interface to the experimental e-conomic REST api
+Home-page: https://github.com/KristianOellegaard/python-economic-rest
+Author: Kristian Oellegaard
+Author-email: kristian@kristian.io
+License: BSD
+Keywords: economic e-conomic accounting bookkeeping
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+UNKNOWN
+
