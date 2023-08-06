@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: zuss
+Version: 2.1.0
+Summary: ZD USB Shifter SDK
+Home-page: https://github.com/Klareliebe7/zuss
+Author: zhengkunli
+Author-email: 1st.melchior@gmail.com
+License: MIT
+Description: Control USB Shifter via python SDK, send serial commands via COM connection.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.0

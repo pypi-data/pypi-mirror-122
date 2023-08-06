@@ -1,0 +1,10 @@
+setup.py
+zuss/__init__.py
+zuss/cmd.py
+zuss/usbswsdk.py
+zuss/usbswsdk_unittest.py
+zuss.egg-info/PKG-INFO
+zuss.egg-info/SOURCES.txt
+zuss.egg-info/dependency_links.txt
+zuss.egg-info/requires.txt
+zuss.egg-info/top_level.txt
