@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: flipkart-scrapping
+Version: 0.0.12
+Summary: Flipkart Web Scrapping Package
+Home-page: https://github.com/rajeshpatnala/flipkart-web-scrapping
+Author: Rajesh Kumar Patnala
+Author-email: patnala04@gmail.com
+License: UNKNOWN
+Keywords: python,web scrapping,flipkart,beautiful soup,data extraction,requests
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: pymongo
+Requires-Dist: requests
+
+This Package extracts the data from flipkart
+
+
