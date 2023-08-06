@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+django_hyval.egg-info/PKG-INFO
+django_hyval.egg-info/SOURCES.txt
+django_hyval.egg-info/dependency_links.txt
+django_hyval.egg-info/not-zip-safe
+django_hyval.egg-info/requires.txt
+django_hyval.egg-info/top_level.txt
+hyval/__init__.py
+hyval/field.py
+hyval/utils.py
