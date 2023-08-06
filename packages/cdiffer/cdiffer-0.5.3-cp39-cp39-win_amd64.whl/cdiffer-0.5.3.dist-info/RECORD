@@ -1,0 +1,9 @@
+cdiffer.cp39-win_amd64.pyd,sha256=MAiePzpF58pVxUzNQ3bcZR72MK-NZoBZDAdql7ouamk,449536
+Release/src/cdiffer.cp39-win_amd64.exp,sha256=B9ix2CiX4chqVDrUq8wnX-TwsUZV9frfDmWiXSZ1hvo,733
+Release/src/cdiffer.cp39-win_amd64.lib,sha256=0UbjTC2QYo6AOkrWQttqltzb4ifQHfJyLmTLK6W68Z8,2000
+Release/src/cdiffer.obj,sha256=3qHepXa4jB9ir8m5CJRWPxw-kErUa6Q5rCjA8msBvN8,3799211
+cdiffer-0.5.3.dist-info/LICENSE,sha256=wy3hHeT35aiAYX7f0wMpUxUg99zBMX7KhfuHVxAA45o,1088
+cdiffer-0.5.3.dist-info/METADATA,sha256=VAuVlmEEEoeYF6pK0AV9R3puIgsCDlqQWTpspxZ1ltQ,7978
+cdiffer-0.5.3.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+cdiffer-0.5.3.dist-info/top_level.txt,sha256=dPYFmHzMSXPd7Iaig9nLKaarmZmtbUT3Ah_W0JL3Sdo,8
+cdiffer-0.5.3.dist-info/RECORD,,
