@@ -1,0 +1,7 @@
+setup.py
+nexus_test/__init__.py
+nexus_test/main.py
+nexus_test.egg-info/PKG-INFO
+nexus_test.egg-info/SOURCES.txt
+nexus_test.egg-info/dependency_links.txt
+nexus_test.egg-info/top_level.txt
