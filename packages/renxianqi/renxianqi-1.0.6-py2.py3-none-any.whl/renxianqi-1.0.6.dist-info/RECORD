@@ -1,0 +1,17 @@
+renxianqi/__init__.py,sha256=f2Z3RWkPHGv3cKhf1B7VO9qlpmP2WtZDVn91-cCoIJc,205
+renxianqi/localdata_loader.py,sha256=e9l4nB9Xf4_NniwkHkUcGhhva7TYMdepcUU8QszjOBk,2522
+renxianqi/main.py,sha256=5zcbOkw1MNqzOwPPn4Rz_rhqcq4ShMRhX-1f2c_-6n4,379
+renxianqi/menu_setting.py,sha256=LyueqSJJLwWhLFkKAvBH-ZCxzNsncBM2P6i1t4jcOrQ,1839
+renxianqi/name_checker.py,sha256=hIzflzO-CKdGea4vr9tYGim1-ixZL0HyceuDipZ3zlE,6514
+renxianqi/name_parser.py,sha256=gjz3OwVBYlhA3j_Ct4kkHKK0Rt9x_MGB1MBdjHGptzc,1276
+renxianqi/pinyin_sort.py,sha256=xuumtkVPs1Ty4meRXGGicfmNb6Mb1nzrv4rRxCt5aWc,589
+renxianqi/setting.py,sha256=EsphHt6GJJ_mddElqsANiCOwYl6hqF_ra-Qc-r9tQYI,393
+renxianqi/shortcut.py,sha256=6FgV7hftNVVIoRQjSMeJNlh_sfrUwOmgogiMBvYOCVI,876
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=Pc9k0KifpH3yjSAKm5Pd5xb-3vuf_TvRj4OY5PDeGv0,453
+renxianqi-1.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+renxianqi-1.0.6.dist-info/METADATA,sha256=zCEGZhD4pjdhaUp5F9oauJvQTwtBFDNrpd5E9SdQ1sQ,1757
+renxianqi-1.0.6.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+renxianqi-1.0.6.dist-info/entry_points.txt,sha256=gHjY4RfOTwdwv7r6FZU11fy3PpZlxj81FUf639DlRmE,77
+renxianqi-1.0.6.dist-info/top_level.txt,sha256=GNIVuFRW2Ypzu5X7-Sk1iKGAol8knNaUpN2976_gn-c,16
+renxianqi-1.0.6.dist-info/RECORD,,
