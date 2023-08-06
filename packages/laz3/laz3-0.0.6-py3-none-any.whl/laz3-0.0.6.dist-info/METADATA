@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: laz3
+Version: 0.0.6
+Summary: A encoding algorithm using a password
+Home-page: https://github.com/KuriWasTaken/laz3/tree/main
+Author: Kuri
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/KuriWasTaken/laz3/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Laz3
+
+Laz3 is a powerful encryption algorithm written in python and encrypts using a password so the message is locked!
+# Versions
+0.0.6
+# Example 1
+
+Password: abcd 
+
+Message: "Hello World!"
+
+response: "E8085.0A980.0Z2695.0U2695.0D3430.0G12740.0p11760.0z3430.0c4165.0E2695.0Y735.0Z"
+
+# Example 2
+
+Password: Laz3IsCool! 
+
+Message: "Hello World!"
+
+response: "q29040.0T3520.0J9680.0c9680.0H12320.0B45760.0t42240.0T12320.0n14960.0V9680.0w2640.0J61600.0b"
+ 
+
+
