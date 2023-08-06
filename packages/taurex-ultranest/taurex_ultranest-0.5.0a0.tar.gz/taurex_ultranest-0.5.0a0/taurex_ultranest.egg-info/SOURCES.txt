@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+taurex_ultranest/__init__.py
+taurex_ultranest/ultranestoptimizer.py
+taurex_ultranest.egg-info/PKG-INFO
+taurex_ultranest.egg-info/SOURCES.txt
+taurex_ultranest.egg-info/dependency_links.txt
+taurex_ultranest.egg-info/entry_points.txt
+taurex_ultranest.egg-info/requires.txt
+taurex_ultranest.egg-info/top_level.txt
