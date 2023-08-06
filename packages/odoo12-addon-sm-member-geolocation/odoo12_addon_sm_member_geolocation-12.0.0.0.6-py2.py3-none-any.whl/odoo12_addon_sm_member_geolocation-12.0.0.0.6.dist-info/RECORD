@@ -1,0 +1,14 @@
+odoo/addons/sm_member_geolocation/__init__.py,sha256=Z0H-7tnW3JmMNtRFk_MxwVzutPYWpm0Ljnk9Fb4hEoc,45
+odoo/addons/sm_member_geolocation/__manifest__.py,sha256=WBK4D2kLbk6tZp8BfD7wybKMiCtpp-uHy9f27IOxKfM,496
+odoo/addons/sm_member_geolocation/models/__init__.py,sha256=Y9DLXuR4LS2Xhlza6plZQd47DjTHiQUcmdVGW9bRBTk,132
+odoo/addons/sm_member_geolocation/models/models_sm_geolocation_cron.py,sha256=hZ-He8dMdzc2U2324TyKn4HOwNfh57ojofGd3bQQQJc,447
+odoo/addons/sm_member_geolocation/models/models_sm_member.py,sha256=p4wj8wmWnAYPYmwT_LU48yCyAnULDc-qxWCEHFSSiOk,4146
+odoo/addons/sm_member_geolocation/models/models_sm_members_zone.py,sha256=sdERMz7MVvDcMoqCdRoUJPo9Lyu6ROqT1JqAB3FQMZI,1923
+odoo/addons/sm_member_geolocation/security/ir.model.access.csv,sha256=6WQa9TN69udpVJRHRtUujm5dn_OhPw1RHSShDZtEb0A,184
+odoo/addons/sm_member_geolocation/views/views_cron.xml,sha256=gB_R79cw3cMwI7-GNa0yg_M-FViu1xgjvW0xCAirshc,573
+odoo/addons/sm_member_geolocation/views/views_members.xml,sha256=LKFC236QsTFCnKsqXCLZv70Eo2ZByloml3JsyjOjZ4I,1475
+odoo/addons/sm_member_geolocation/views/views_members_zone.xml,sha256=lX1wlk1dsJ3rUJ61Y1SmzFS3OCzhwZ3lMd6TkszeGcA,2077
+odoo12_addon_sm_member_geolocation-12.0.0.0.6.dist-info/METADATA,sha256=CxteLa1Y_KE-ZTjxphr7RsqVgdVY59Bj5Fs4vLQpe9s,461
+odoo12_addon_sm_member_geolocation-12.0.0.0.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+odoo12_addon_sm_member_geolocation-12.0.0.0.6.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_sm_member_geolocation-12.0.0.0.6.dist-info/RECORD,,
