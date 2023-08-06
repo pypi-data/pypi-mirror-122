@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: basescript
+Version: 0.3.9
+Summary: Basic infrastructure for writing scripts
+Home-page: https://github.com/deep-compute/basescript
+Author: Deep Compute, LLC
+Author-email: contact@deepcompute.com
+License: MIT License
+Download-URL: https://github.com/deep-compute/basescript/tarball/0.3.9
+Keywords: basescript
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: pytz (==2018.3)
+Requires-Dist: six (>=1.11.0)
+Requires-Dist: structlog (==18.1.0)
+Requires-Dist: colorama (==0.3.9)
+Requires-Dist: deeputil (>=0.2.7)
+Requires-Dist: PyYAML (==5.1.1)
+
+UNKNOWN
+
