@@ -1,0 +1,7 @@
+grpcio>=1.16.1
+grpcio-tools>=1.16.1
+dill==0.3.2
+btrdb>=5.11.7
+tabulate==0.8.9
+certifi
+sphinx_glpi_theme
