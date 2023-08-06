@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+qualichat_qualitube.egg-info/PKG-INFO
+qualichat_qualitube.egg-info/SOURCES.txt
+qualichat_qualitube.egg-info/dependency_links.txt
+qualichat_qualitube.egg-info/top_level.txt
+qualitube/__init__.py
+qualitube/channel.py
+qualitube/client.py
+qualitube/exceptions.py
+qualitube/log.py
+qualitube/main.py
+qualitube/playlist_items.py
+qualitube/video.py
