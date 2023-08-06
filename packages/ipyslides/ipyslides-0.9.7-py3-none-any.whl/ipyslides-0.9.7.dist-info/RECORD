@@ -1,0 +1,11 @@
+ipyslides/__init__.py,sha256=ND2vDmZtUiJmfjk3mIX8LIOARlFCPyDsImNpW-LkFdo,1861
+ipyslides/_demo.py,sha256=2KGETEj-JMSJiGIK_YM0rcJ7qOIG4EOCvFKdInRLBFA,7200
+ipyslides/core.py,sha256=0RA48rNMi5hKKqKcoO6azGUhoKTw6Tr2uYdu8d2IzZI,32960
+ipyslides/data_variables.py,sha256=396CMSM0N-6GKWTaTorWRbGkcV1gRR9PYPJSI9LXtPg,21742
+ipyslides/objs_formatter.py,sha256=5JYizAZhL4dNHORNru8aVitmLBR4wUBXRmy1UdLIn9E,5471
+ipyslides/utils.py,sha256=8YbrPS3f-meky695FVRdGCsiFYogItPSLIrENembeEY,11853
+ipyslides-0.9.7.dist-info/LICENSE,sha256=mTMccfjXj_nIfHY8H0Wfa8oSIo744MKuYbFcwM2fpQM,1090
+ipyslides-0.9.7.dist-info/METADATA,sha256=S9r-0LSIBjqpKHmRK8W7nvyJkLPO-2qJ-pESSnMUshs,8074
+ipyslides-0.9.7.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ipyslides-0.9.7.dist-info/top_level.txt,sha256=9DteZe_DYu3FvWSyxL19fA5Co9tbYN522fgNhoBSpSU,10
+ipyslides-0.9.7.dist-info/RECORD,,
