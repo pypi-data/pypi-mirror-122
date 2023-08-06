@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lsdpiptest
+Version: 0.0.1
+Summary: test python to pip
+Home-page: UNKNOWN
+Author: Leesudong
+Author-email: 905412718@qq.com
+License: apache 3.0
+Platform: UNKNOWN
+Requires: numpy
+Requires: matplotlib
+
+UNKNOWN
+
+
