@@ -1,0 +1,10 @@
+setup.py
+xz29_probability/Binomialdistribution.py
+xz29_probability/Gaussiandistribution.py
+xz29_probability/Generaldistribution.py
+xz29_probability/__init__.py
+xz29_probability.egg-info/PKG-INFO
+xz29_probability.egg-info/SOURCES.txt
+xz29_probability.egg-info/dependency_links.txt
+xz29_probability.egg-info/not-zip-safe
+xz29_probability.egg-info/top_level.txt
