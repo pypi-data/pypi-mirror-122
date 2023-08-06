@@ -1,0 +1,11 @@
+manga_scrap/__init__.py,sha256=dsfiQAPVKap5hQmkvXMauegGQDYCqkgNkZnC7vU0uCM,280
+manga_scrap/excepciones.py,sha256=miekSfgelrqpNqAdX_IyYpXwutEExKUWJv1iSC500l4,645
+manga_scrap/modelos.py,sha256=ntYGYDrp4GDeWU54HlRTr35KocETQd6LNJC_BewuTqo,2591
+manga_scrap/proveedores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manga_scrap/proveedores/mangaList.py,sha256=G2q8N_eZFJPXIClAeGYldF9TVsrVByj99QnKk1mlDFs,3954
+manga_scrap/proveedores/nineMangaNet.py,sha256=5N6hh81EblnUtg99Oo6pD0rcB6dY5xaspfyUsSzSNfM,4105
+manga_scrap/proveedores/proveedor.py,sha256=ur3jzIXVujrblaOQZbWVibabb6ilcNZZM_A9BRDXY4E,3121
+manga_scrap/proveedores/prueba.py,sha256=Th2fpjLQI2X1YqTO4beL8bZtLsG9DR1KsWsAeKsnGMU,1661
+manga_scrap-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+manga_scrap-0.2.0.dist-info/METADATA,sha256=llEzM2VCGLIgSCxRgJfjXMjv3jlVYOZHKGVidjp18ec,425
+manga_scrap-0.2.0.dist-info/RECORD,,
