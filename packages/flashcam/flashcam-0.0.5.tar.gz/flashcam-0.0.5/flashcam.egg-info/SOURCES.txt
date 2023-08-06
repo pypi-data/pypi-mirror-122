@@ -1,0 +1,14 @@
+README.md
+setup.py
+bin/flashcam
+flashcam/__init__.py
+flashcam/config.py
+flashcam/unitname.py
+flashcam/usbcheck.py
+flashcam/v4lc.py
+flashcam/version.py
+flashcam.egg-info/PKG-INFO
+flashcam.egg-info/SOURCES.txt
+flashcam.egg-info/dependency_links.txt
+flashcam.egg-info/requires.txt
+flashcam.egg-info/top_level.txt
