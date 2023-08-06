@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: handystuff
+Version: 0.2.1
+Summary: Handy stuff that I end up copy-pasting from here and there
+Home-page: http://github.com/schlevik/handystuff
+Author: Viktor Schlegel
+Author-email: vtschlegel@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: jsonnet (>=0.17.0)
+Requires-Dist: colorlog (>=5.0.0)
+Provides-Extra: dispatch
+Requires-Dist: click (>=7.0.0) ; extra == 'dispatch'
+Provides-Extra: stats
+Requires-Dist: statsmodels (>=0.12) ; extra == 'stats'
+Requires-Dist: scipy (>=1.6.0) ; extra == 'stats'
+Requires-Dist: numpy (>=1.18) ; extra == 'stats'
+
+# Handystuff
+
+Pretty much the name: handy stuff I use in every-day python programming.
+
+Sane logging defaults, transparent python object construction from config files,
+data loaders/writers and some basic stats stuff.
+

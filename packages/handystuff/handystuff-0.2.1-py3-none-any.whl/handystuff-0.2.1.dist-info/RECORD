@@ -1,0 +1,15 @@
+handystuff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+handystuff/dispatch.py,sha256=q0-GJ_3cwv4Ihn8jMYKGcM8jvVwz7YLIjode73rgCnA,6439
+handystuff/imports.py,sha256=IsyhWrs3wIPm8Zso7uOKSfayQRF7isMl_86YpI-BKXc,7301
+handystuff/loaders.py,sha256=C1IppzN4RRQrOi3QhOcdLG8i_bPRdCzJSTX89gSvlKM,1059
+handystuff/logs.py,sha256=wUni7fwHDpkrLt19WoqrjxgE9lzmSBPGZJtCJmTKFlo,2204
+handystuff/prints.py,sha256=_KbhSpQIRvqhJhGSVG3IPCgjoih4rRds4kwr9A36OxQ,704
+handystuff/registry.py,sha256=DRq-X0uYEt4iTeEIJtusDNbPBWfXx7Wq-sf5rhLGX3I,1860
+handystuff/stats.py,sha256=pV228vH2xqDUZF5KYPMMuNaFvGYIjYi2y_DlLkl9EyY,970
+handystuff/resources/logging.jsonnet,sha256=aTtpXZutBfAycYYvRgjFG7fZn8j3HBFXrj8RPyigQ8s,2036
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+handystuff-0.2.1.dist-info/METADATA,sha256=nmg6IKXqzQffAgajhpwN6S0SDAZI_sIewFcrO3n9DV8,1089
+handystuff-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+handystuff-0.2.1.dist-info/top_level.txt,sha256=EFz9RJNjvQv9mc4Erm8Pnz9RfD8hQ0qfq_0rJHzunec,11
+handystuff-0.2.1.dist-info/RECORD,,
