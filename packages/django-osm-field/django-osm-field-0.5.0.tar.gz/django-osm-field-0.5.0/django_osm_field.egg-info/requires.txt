@@ -1,0 +1,13 @@
+Django>=2.2
+
+[dev]
+pre-commit
+
+[docs]
+Django
+sphinx_rtd_theme
+Sphinx<3.4,>=3.0
+
+[test]
+coverage[toml]<6,>=5
+Django
