@@ -1,0 +1,13 @@
+sunpath/SunCalculator.py,sha256=sLuJsTYElTO47DV8TRyuDte_ccqudfoEGP2KfavJBwE,2540
+sunpath/SunInterpolators.py,sha256=r9sSoMUMb0qlTgGqZlWxDR67wKx5A8cYn3UGRq46hh0,11522
+sunpath/SunPlotter.py,sha256=_1shKzjGM0B8Gw33lIdTu-AibPPPK6f1B8wxqnBc0Wo,9906
+sunpath/SunSpatial.py,sha256=A8O96xIvL-HmlaUJZzbLEAlUj1BzCGi397RNpg2ghac,3212
+sunpath/SunTemporal.py,sha256=A0H5sau0x1Fa_mZpnrWdh0Yt-k-uFYjImO-twK5wnZk,6342
+sunpath/__init__.py,sha256=4HczWv79PXpNAJHBHZu4lfLmzF_mFG8H6hYqAXcdA6I,128
+sunpath/colors.py,sha256=R72KIKSAI0cixugak0IVphG0CvthJ7owbZirwFTq9AA,1114
+sunpath/coordinates.py,sha256=7Bk9AflpmH0BlwWuokmJypNux4z9kB5gYkAinPuQQNA,2432
+sunpath-0.1.7.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+sunpath-0.1.7.dist-info/METADATA,sha256=6lMHzf4mB_zZ_RioQ9HyktZUlHmtwUTa0WQodEzL6S4,1143
+sunpath-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sunpath-0.1.7.dist-info/top_level.txt,sha256=Wdwz9nnU2xgEjeEkbSL1HDQI4vesfl9s-UBuaYADMCA,8
+sunpath-0.1.7.dist-info/RECORD,,
