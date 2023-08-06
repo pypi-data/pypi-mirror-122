@@ -1,0 +1,10 @@
+setup.py
+distributions_alexander/Binomialdistribution.py
+distributions_alexander/Gaussiandistribution.py
+distributions_alexander/Generaldistribution.py
+distributions_alexander/__init__.py
+distributions_alexander.egg-info/PKG-INFO
+distributions_alexander.egg-info/SOURCES.txt
+distributions_alexander.egg-info/dependency_links.txt
+distributions_alexander.egg-info/not-zip-safe
+distributions_alexander.egg-info/top_level.txt
