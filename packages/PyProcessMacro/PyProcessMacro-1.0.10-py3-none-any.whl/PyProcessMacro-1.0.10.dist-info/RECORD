@@ -1,0 +1,13 @@
+pyprocessmacro/__init__.py,sha256=HDIBv111SziI8MNg-WCdGVQTb48OTa3qVdtVIx1yNFg,154
+pyprocessmacro/models.py,sha256=TIq-l9UQxfPiyn0RwBtNkqO1nv20G8pI5KxUHBJcRxM,71277
+pyprocessmacro/models_modified.py,sha256=QZPYcmeBXTPhG7-D5JbC8O8MzWJoPib0tPs5TvI6TN8,72240
+pyprocessmacro/process.py,sha256=RldNvrf6-noB5dLZB4insNRBY5cCtGAu3FJtGn77zA8,73796
+pyprocessmacro/process_modified.py,sha256=wFo65bKx1EplOhqlewyx1IpoiFnWv61Xgmj382jYdKo,71361
+pyprocessmacro/utils.py,sha256=ZZnl6b5DPeK5f4B_qBKgr5yBLGt02tW1tn_HgoLrY08,19412
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_models_accuracy.py,sha256=idO7_VBBeOcFB_TaVpeKTlSijQcW0Dl63yMr8_4Zmsc,6081
+PyProcessMacro-1.0.10.dist-info/LICENSE.txt,sha256=e_iM8laJSfS2oXcCfrZxfi_r38cJmzn_IpM_1FHa2fU,1091
+PyProcessMacro-1.0.10.dist-info/METADATA,sha256=vlxyrEKbOoM4PZC_wwr6l28j-W5NMw8r4ETN7P-vbrk,27915
+PyProcessMacro-1.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyProcessMacro-1.0.10.dist-info/top_level.txt,sha256=NEaP_X3MEX9-rwOVmPXZfuhQLdg6lPRkPBzeG5wZ_i4,21
+PyProcessMacro-1.0.10.dist-info/RECORD,,
