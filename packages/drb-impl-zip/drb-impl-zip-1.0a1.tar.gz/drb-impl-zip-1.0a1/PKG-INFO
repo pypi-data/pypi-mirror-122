@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: drb-impl-zip
+Version: 1.0a1
+Summary: DRB Zip implementation
+Home-page: https://gitlab.com/drb-python/impl/zip
+Author: GAEL Systems
+Author-email: info@gael.fr
+License: UNKNOWN
+Description: # zip
+        
+        ZIP implementation with Drb data model.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
