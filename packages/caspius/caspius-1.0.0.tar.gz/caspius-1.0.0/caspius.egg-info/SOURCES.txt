@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+caspius.egg-info/PKG-INFO
+caspius.egg-info/SOURCES.txt
+caspius.egg-info/dependency_links.txt
+caspius.egg-info/top_level.txt

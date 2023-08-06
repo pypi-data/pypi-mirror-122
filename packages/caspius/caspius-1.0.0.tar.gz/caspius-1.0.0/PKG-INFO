@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: caspius
+Version: 1.0.0
+Summary: Easy logging system
+Home-page: https://github.com/dangost/caspius
+Author: dangost
+Author-email: dangost16@gmail.com
+License: MIT
+Keywords: python,logger,logging,caspius
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Logging system which can show timestamp, paint logs by your colors and handle every log by your functions
+
