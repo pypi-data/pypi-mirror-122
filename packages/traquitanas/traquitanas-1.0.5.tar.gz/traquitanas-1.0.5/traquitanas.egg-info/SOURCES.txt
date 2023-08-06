@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/__init__.py
+src/traquitanas.py
+tests/numeros_romanos.ipynb
+traquitanas.egg-info/PKG-INFO
+traquitanas.egg-info/SOURCES.txt
+traquitanas.egg-info/dependency_links.txt
+traquitanas.egg-info/requires.txt
+traquitanas.egg-info/top_level.txt
