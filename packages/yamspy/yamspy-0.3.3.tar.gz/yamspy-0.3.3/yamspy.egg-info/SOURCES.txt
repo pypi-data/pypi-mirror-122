@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+yamspy/__init__.py
+yamspy.egg-info/PKG-INFO
+yamspy.egg-info/SOURCES.txt
+yamspy.egg-info/dependency_links.txt
+yamspy.egg-info/requires.txt
+yamspy.egg-info/top_level.txt
