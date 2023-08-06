@@ -1,0 +1,3 @@
+[console_scripts]
+j=jeeves_core.cli:app
+
