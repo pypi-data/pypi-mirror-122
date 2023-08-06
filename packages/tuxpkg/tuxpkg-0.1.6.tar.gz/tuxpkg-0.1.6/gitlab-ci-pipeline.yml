@@ -1,0 +1,59 @@
+variables:
+  TUXPKG: tuxpkg
+
+rpm:
+  stage: build
+  image: fedora
+  variables:
+    FLIT_NO_NETWORK: 1
+  script:
+    - dnf install -y dnf-plugins-core rpm-build
+    - 'dnf builddep -y *.spec'
+    - make rpm
+  artifacts:
+    paths:
+      - dist/*.rpm
+
+deb:
+  stage: build
+  image: debian
+  variables:
+    FLIT_NO_NETWORK: 1
+  script:
+    - apt-get update
+    - apt-get install -qy auto-apt-proxy
+    - apt-get build-dep -qy .
+    - make deb
+  artifacts:
+    paths:
+      - dist/*.deb
+
+repository:
+  image: debian
+  only:
+    - tags
+  needs:
+    - deb
+    - rpm
+  stage: deploy
+  script:
+    - apt-get update
+    - apt-get install --no-install-recommends -qy dpkg-dev apt-utils createrepo-c rpm gpg gpg-agent python3
+    - ${TUXPKG} create-repository
+  artifacts:
+    paths:
+      - dist/repo
+
+pypi:
+  only:
+    - tags
+  image: debian
+  stage: deploy
+  variables:
+    FLIT_USERNAME: __token__
+  script:
+    - apt-get update
+    - apt-get install -qy --no-install-recommends git flit
+    - "echo I: FLIT_USERNAME: ${FLIT_USERNAME}"
+    - 'if [ -n "${FLIT_PASSWORD}" ]; then echo "I: FLIT_PASSWORD is set!"; else echo "E: FLIT_PASSWORD is NOT SET!"; fi'
+    - flit publish
