@@ -1,0 +1,14 @@
+README.md
+setup.py
+termpix/__init__.py
+termpix/demo.png
+termpix/demo.py
+termpix/requirements.txt
+termpix/termpix.py
+termpix/today.sh
+termpix.egg-info/PKG-INFO
+termpix.egg-info/SOURCES.txt
+termpix.egg-info/dependency_links.txt
+termpix.egg-info/entry_points.txt
+termpix.egg-info/requires.txt
+termpix.egg-info/top_level.txt
