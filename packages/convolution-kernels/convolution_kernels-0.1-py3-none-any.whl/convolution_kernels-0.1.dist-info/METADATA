@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: convolution-kernels
+Version: 0.1
+Summary: Python package that implements kernels/filters convolutions for time series modeling.
+Home-page: https://github.com/diegoarri91/convolution-kernels
+Author: Diego M. Arribas
+Author-email: diegoarri91@gmail.com
+License: MIT
+Keywords: python,pytorch,convolution,kernel,autograd
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+Requires-Dist: numpy (~=1.20.2)
+Requires-Dist: pytest (~=6.2.3)
+Requires-Dist: scipy (~=1.6.2)
+Requires-Dist: setuptools (~=52.0.0)
+Requires-Dist: torch (~=1.9.0)
+
+Python package that implements kernels/filters convolutions for time series modeling. Kernels 
+                      are defined as different linear combinations of basis functions with coefficients. Convolutions
+                      are implemented using PyTorch so we can use its automatic differentiation to fit the kernels.
+
