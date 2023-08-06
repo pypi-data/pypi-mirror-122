@@ -1,0 +1,17 @@
+yaqd_scpi/VERSION,sha256=P75kSdiSZSHBSZi2FxHJCv0n1cf996kIgezAfptkhTc,10
+yaqd_scpi/__init__.py,sha256=qVG9a4kPZ-KbOeAmogsLEIZUeWiDEydyfesb1tHrJa8,64
+yaqd_scpi/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_scpi/_scpi_sensor.py,sha256=PfxRX9g74IOxS2KA6xV7dD8UAH09AyFf5mrmoTVZwlI,1025
+yaqd_scpi/_scpi_set_continuous.py,sha256=tzdufW6YWF-LvMNk4m4p81dASyYzP7ENkFUdJrZBB9M,1318
+yaqd_scpi/_scpi_set_discrete.py,sha256=v526xG5aah2iM48wtKEwF-qZoEypB2fLc4CWdvL8T5k,1575
+yaqd_scpi/scpi-sensor.avpr,sha256=cdPQ0cgD-L6Pr4dNZ7c9EygcGgjKrE15TJaswMIRdwQ,8020
+yaqd_scpi/scpi-sensor.toml,sha256=KuY2BJYSmt3Gwgxi09TfJ-rQfz65-DQ3uc5oVRpT8wo,765
+yaqd_scpi/scpi-set-continuous.avpr,sha256=ewBMLhPK1zKhI3aZK2yYQLiSg8uq8vD5ezzyV43TjFw,9298
+yaqd_scpi/scpi-set-continuous.toml,sha256=DOss608-RJzukXrCzTkev1ZK-wPv7nZvLbhiVHuEptU,697
+yaqd_scpi/scpi-set-discrete.avpr,sha256=S7zNeGd0pgkM4Lc3kuOvlnnV0ExqZVcE-K1WVchxqGA,9590
+yaqd_scpi/scpi-set-discrete.toml,sha256=2kN8gwNNW0cnnXtMI7y9oUYc6Q8Oa7bVEmkKCAFOYS4,603
+yaqd_scpi-2021.10.0.dist-info/entry_points.txt,sha256=Q4pwGy58OK_C2ZynnMSNfqnd-gR4xWCwjduol9cEqZo,227
+yaqd_scpi-2021.10.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_scpi-2021.10.0.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+yaqd_scpi-2021.10.0.dist-info/METADATA,sha256=3a-hDHVSVmjv4F_C2QJrcIcSGYAO3MH0R6QSa9ncFtY,1761
+yaqd_scpi-2021.10.0.dist-info/RECORD,,
