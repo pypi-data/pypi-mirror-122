@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: language-data
+Version: 1.0.1
+Summary: Supplementary data about languages used by the langcodes module.
+Home-page: http://github.com/LuminosoInsight/language_data
+Maintainer: Elia Robyn Speer
+Maintainer-email: elia@explosion.ai
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+
+
+language_data is a supplement to the langcodes module, for working with
+standardized codes for human languages. It stores the more bulky and
+hard-to-index data about languages, particularly what they are named in
+various languages.
+
+For example, this stores the data that tell you that the code "en" means
+"English" in English, or that "francés" is the Spanish (es) name for French
+(fr).
+
+The documentation for language_data lives in its README file, which you can
+read on GitHub: https://github.com/LuminosoInsight/language_data
+
+
