@@ -1,0 +1,4 @@
+[console_scripts]
+renxianqi = renxianqi.main:main
+rxq = renxianqi.main:main
+
