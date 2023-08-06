@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+image_pred/__init__.py
+image_prediction.egg-info/PKG-INFO
+image_prediction.egg-info/SOURCES.txt
+image_prediction.egg-info/dependency_links.txt
+image_prediction.egg-info/top_level.txt

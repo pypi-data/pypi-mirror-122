@@ -1,0 +1,1 @@
+Image_Prediction is a simple python library for image predictions. It is made on top of keras and uses a pretrained model called ResNet50. It uses library numpy and matplotlib
