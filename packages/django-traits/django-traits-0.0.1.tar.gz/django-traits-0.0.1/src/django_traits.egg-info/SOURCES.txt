@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/django_traits.egg-info/PKG-INFO
+src/django_traits.egg-info/SOURCES.txt
+src/django_traits.egg-info/dependency_links.txt
+src/django_traits.egg-info/requires.txt
+src/django_traits.egg-info/top_level.txt
+src/traits/__init__.py
+src/traits/base.py
+src/traits/py.typed
