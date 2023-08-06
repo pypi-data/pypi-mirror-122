@@ -1,0 +1,67 @@
+\ifndef{talkMacrosCode}
+\define{talkMacrosCode}
+
+\define{\downloadfile{url}{filename}}{\ifndef{downloadFileSetup}\define{downloadFileSetup}\setupcode{import urllib.request}\endif
+\code{urllib.request.urlretrieve('\url','\filename')}
+}
+\define{\downloadcode{filename}}{\downloadfile{https://raw.githubusercontent.com/lawrennd/talks/gh-pages/\filename.py}{\filename.py}}
+
+\define{\installcode{library}}{\ifeq{\library}{pods}\ifndef{podsInstalled}\define{podsInstalled}\code{%pip install pods}\endif
+\else\ifeq{\library}{PyDeepGP}\ifndef{pydeepgpInstalled}\define{pydeepgpInstalled}\code{%pip install --upgrade git+https://github.com/SheffieldML/PyDeepGP.git}\endif
+\else\ifeq{\library}{mlai}\ifndef{mlaiInstalled}\define{mlaiInstalled}\code{%pip install mlai}\endif
+\else\ifeq{\library}{ndlpy}\ifndef{ndlpyInstalled}\define{ndlpyInstalled}\code{%pip install ndlpy}\endif
+\else\ifeq{\library}{lamd}\ifndef{lamdInstalled}\define{lamdInstalled}\code{%pip install lamd}\endif
+\else\ifeq{\library}{GPy}\ifndef{gpyInstalled}\define{gpyInstalled}\code{%pip install gpy}\endif
+\else\ifeq{\library}{EmuKit}\ifndef{emukitInstalled}\define{emukitInstalled}\code{%pip install emukit}\endif
+\else\ifeq{\library}{notutils}\ifndef{notutilsInstalled}\define{notutilsInstalled}\code{%pip install notutils}\endif
+\else\code{%pip install \library}
+\endif\endif\endif\endif\endif\endif\endif\endif}
+\define{\setupcode{block}}{\pythonblockstart
+\block
+\pythonblockend}
+\define{\loadfilecode{object}{filename}}{\pythonblockstart
+\ifdef{MAGICCODE}%load -s \object \filename.py\else
+from \filename import \object\endif
+\pythonblockend}
+
+\define{\code{block}}{\pythonblockstart
+\block
+\pythonblockend}
+
+\define{\loadcode{object}{module}}{\pythonblockstart
+import \module
+\pythonblockend
+\pythonblockstart
+\ifdef{MAGICCODE}%load -n \module.\object\else
+from \module import \object\endif
+\pythonblockend}
+
+\define{\showcode{block}}{\pythonblockstart
+\block
+\pythonblockend}
+
+\ifdef{HELPERCODE}
+\define{\setuphelpercode{block}}{\setupcode{\block}}
+\define{\loadhelpercode{object}{filename}}{\loadcode{\object}{\filename}}
+\define{\helpercode{block}}{\code{\block}}
+\endif
+
+\ifdef{MATLABCODE}
+\define{\matlabcode{block}}{\matlabblockstart
+\block
+\matlabblockend}
+\endif
+
+\ifdef{PLOTCODE}
+\define{\setupplotcode{block}}{\setupcode{\block}}
+\define{\loadplotcode{object}{filename}}{\loadcode{\object}{\filename}}
+\define{\plotcode{block}}{\code{\block}}
+\endif
+
+\ifdef{DISPLAYCODE}
+\define{\setupdisplaycode{block}}{\setupcode{\block}}
+\define{\loaddisplaycode{object}{filename}}{\loadcode{\object}{\filename}}
+\define{\displaycode{block}}{\code{\block}}
+\endif
+
+\endif
