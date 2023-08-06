@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: fastapi-static-digest
+Version: 1.0.0
+Summary: Static file digest cache busting for FastAPI/Starlette
+Home-page: UNKNOWN
+Author: Tyler M Kontra
+Author-email: tyler@tylerkontra.com
+License: MIT
+Project-URL: Source, https://github.com/ttymck/fastapi-static-digest
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: starlette
+
+# FastAPI Static Digest
+
+A Starlette/FastAPI plugin to digest and compress static files, and integrate with Jinja templates.
+
+`pip install fastapi-static-digest`
+
+# Usage
+
+```python
+# app.py
+
+app_root = Path(__file__).parent
+static_src =  app_root / "static"
+static = StaticDigest(source_dir=static_src)
+
+routes = [
+    Mount('/static', app=StaticFiles(directory=static.directory), name="static"),
+]
+
+app = Starlette(routes=routes)
+```
+
+```python
+# manage.py
+
+from .app import app_root
+
+
+@click.command()
+def compile():
+    src = app_root / "static"
+    click.echo("Source dir %s" % src)
+    compiler = StaticDigestCompiler(source_directory=src)
+    compiler.compile()
+    click.echo("Done.")
+```
+
+## Jinja2 Integration
+
+```python
+# app.py
+
+app_root = Path(__file__).parent
+static_src =  app_root / "static"
+static = StaticDigest(source_dir=static_src)
+templates = Jinja2Templates(app_root / "templates")
+static.register_static_url_for(templates)
+
+routes = [
+    Mount('/static', app=StaticFiles(directory=static.directory), name="static"),
+]
+
+app = Starlette(routes=routes)
+```
+
+```html
+<!-- index.html -->
+{{ static_url_for("static", "app.css" )}}
+```
+
+renders to 
+
+```html
+https://myhost.com/static/app.92fede82119d2e012f890e1102080a45.css
+```
+
+# Development
+
+PRs and issues are welcome! 
+
