@@ -1,0 +1,12 @@
+frpython/__init__.py,sha256=0ODJ-BIN2YtT6Eql6pXV2AqMF1xqUoM0s6sifjwdtxw,297
+frpython/booleen.py,sha256=uRMnbuNYy6KcDv8D8pAyFG_0RuGZf3J-HjFPEtX3aMU,852
+frpython/chaines.py,sha256=iRsN0KMslv8rtvtJ-MBucFRhsKgnwNHigXkJJNhhO_w,1404
+frpython/decimaux.py,sha256=iLX257mfzg1opmR3PxWhYwtEGEtxg7Nv3LJDaHZCJ-0,887
+frpython/entiers.py,sha256=dwPbHAUP_L7O6eJWPRq__GS3ZtVYeoMVjKM7SYrmz3Q,3522
+frpython/erreurs.py,sha256=ZBoolUWaGB32Sgof6eJiF22k4mnkDpjB1d3XRnE0sOk,178
+frpython/fonctions.py,sha256=VZAuQ5MUlwYX12mckmdx0Syy0XW6XiHd3cQqolvEw_g,2487
+frpython-1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+frpython-1.4.dist-info/METADATA,sha256=vhghQj77KaRPY1cpvB-CBm0HiYX867HvL3pPPXPrnZc,1504
+frpython-1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+frpython-1.4.dist-info/top_level.txt,sha256=NZNPo7fjLsVPIjLXdxJ2-Tc4Qy50FOrCznQbKDf3WU0,9
+frpython-1.4.dist-info/RECORD,,
