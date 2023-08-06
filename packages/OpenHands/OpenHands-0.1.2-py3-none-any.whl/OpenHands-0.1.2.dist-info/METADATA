@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: OpenHands
+Version: 0.1.2
+Summary: 👐OpenHands : Making Sign Language Recognition Accessible
+Home-page: https://openhands.ai4bharat.org
+Author: AI4Bhārat
+License: UNKNOWN
+Download-URL: https://pypi.org/project/OpenHands
+Project-URL: Source, https://github.com/AI4Bharat/OpenHands
+Project-URL: Issues, https://github.com/AI4Bharat/OpenHands/issues
+Project-URL: Documentation, https://openhands.readthedocs.io
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: albumentations (==0.5.2)
+Requires-Dist: tqdm (==4.59.0)
+Requires-Dist: omegaconf (==2.1.0)
+Requires-Dist: pytorch-lightning (==1.4.8)
+Requires-Dist: pytorchvideo (==0.1.1)
+Requires-Dist: hydra-core (==1.1.0)
+Requires-Dist: torch
+Requires-Dist: mediapipe (==0.8.7.3)
+Requires-Dist: natsort (==7.1.1)
+Requires-Dist: h5py (==3.3.0)
+Requires-Dist: torchvision (==0.9.1)
+Requires-Dist: opencv-python-headless (==4.5.2.52)
+Requires-Dist: torchmetrics (==0.5.1)
+Requires-Dist: timm (==0.4.9)
+Requires-Dist: transformers (==4.9.1)
+Requires-Dist: pandas (==1.2.4)
+Requires-Dist: hydra (==2.5)
+Requires-Dist: Pillow (==8.3.2)
+Requires-Dist: scikit-learn (==1.0)
+Requires-Dist: sphinx
+Requires-Dist: myst-parser
+Requires-Dist: sphinx-rtd-theme
+
+# 👐OpenHands: Sign Language Recognition Library
+
+> _Making Sign Language Recognition Accessible_
+
+Check the documentation on how to use the library:  
+[ReadTheDocs: 👐OpenHands](https://openhands.readthedocs.io)
+
+
