@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: uuoskit
+Version: 1.0.0
+Summary: Python Toolkit for EOSIO
+Home-page: UNKNOWN
+Author: The UUOSIO Team
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.21.1)
+Requires-Dist: certifi
+Requires-Dist: toolz
+Requires-Dist: funcy
+Requires-Dist: prettytable
+Requires-Dist: requests-unixsocket
+Requires-Dist: httpx
+
+UNKNOWN
+
+
