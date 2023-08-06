@@ -1,0 +1,11 @@
+gradescrape/__init__.py,sha256=HiSK4BHGrN4UYVEuKF4iX-fyAv-jBCbsmZrqP6_e334,146
+gradescrape/assignment.py,sha256=bSsxO9v4_00TZS1uems9PL0eqpG2UaMA5sPYf-cidr8,11962
+gradescrape/course.py,sha256=_OTcTaAN9qIOErhThLcPzo3NrkGoAGMEH0tkFMY6tD4,12382
+gradescrape/login.py,sha256=gGWHz7B5x2ZJ2C_yjivlYCFkhv5WMzHFSt-fNEZRaQw,1713
+gradescrape/session.py,sha256=iQxnv42_jolkioV85AxanIH8djELBhVlyo2sCgS0NH8,3039
+gradescrape/util.py,sha256=a43za5NPa8eYp97EHMD1fhGxEBoPd0mbrwzYYUZ6H8g,4195
+gradescrape-0.0.1.post1.dist-info/LICENSE,sha256=pGqUiirsFLl_CoOoWB8uSOgUXLqqcYKghajwFztNFXc,1309
+gradescrape-0.0.1.post1.dist-info/METADATA,sha256=aGgn_T7PWfslEGjdg-kwhIf4nm4rkfveUgG3oxCv8Es,715
+gradescrape-0.0.1.post1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gradescrape-0.0.1.post1.dist-info/top_level.txt,sha256=pk3O1BRSSP_Zaoq3pK-u1xqe4GAjdpVqbExM2Fz5hkY,12
+gradescrape-0.0.1.post1.dist-info/RECORD,,
