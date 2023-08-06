@@ -1,0 +1,3 @@
+recursive-include docking *
+global-exclude *.py[cod]
+include VERSION

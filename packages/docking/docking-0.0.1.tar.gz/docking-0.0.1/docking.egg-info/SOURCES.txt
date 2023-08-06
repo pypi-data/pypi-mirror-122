@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+docking/__init__.py
+docking/__main__.py
+docking.egg-info/PKG-INFO
+docking.egg-info/SOURCES.txt
+docking.egg-info/dependency_links.txt
+docking.egg-info/entry_points.txt
+docking.egg-info/not-zip-safe
+docking.egg-info/top_level.txt
+tests/__init__.py
+tests/__main__.py
