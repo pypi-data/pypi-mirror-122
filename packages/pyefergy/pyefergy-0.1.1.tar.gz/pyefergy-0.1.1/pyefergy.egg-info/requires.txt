@@ -1,0 +1,3 @@
+aiohttp>=3.4.4
+iso4217
+pytz
