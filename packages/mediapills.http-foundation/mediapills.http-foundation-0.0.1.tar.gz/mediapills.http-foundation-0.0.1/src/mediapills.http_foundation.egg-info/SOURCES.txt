@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+src/mediapills/__init__.py
+src/mediapills.http_foundation.egg-info/PKG-INFO
+src/mediapills.http_foundation.egg-info/SOURCES.txt
+src/mediapills.http_foundation.egg-info/dependency_links.txt
+src/mediapills.http_foundation.egg-info/top_level.txt
+src/mediapills.http_foundation.egg-info/zip-safe
+src/mediapills/http_foundation/__init__.py
+src/mediapills/http_foundation/requests.py
+src/mediapills/http_foundation/responses.py
