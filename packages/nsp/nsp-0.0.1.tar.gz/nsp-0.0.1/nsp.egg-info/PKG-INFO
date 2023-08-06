@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: nsp
+Version: 0.0.1
+Summary: Neural Network Signal Processing
+Home-page: UNKNOWN
+Author: Felipa Schwarz
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: 
+        # Neural Network Signal Processing
+        
+        Analyse activation patterns of neural networks as causal signals on directed acyclic graphs (DAGs).
+        
+        Developed by Felipa Schwarz (c) 2021
+        
+Keywords: python,neural network,analysis,activations,activation pattern,fourier analysis
+Platform: UNKNOWN
