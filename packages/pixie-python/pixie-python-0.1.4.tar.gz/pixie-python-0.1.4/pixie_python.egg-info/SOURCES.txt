@@ -1,0 +1,8 @@
+README.md
+setup.py
+pixie_python.egg-info/PKG-INFO
+pixie_python.egg-info/SOURCES.txt
+pixie_python.egg-info/dependency_links.txt
+pixie_python.egg-info/top_level.txt
+src/pixie/__init__.py
+src/pixie/pixie.py
