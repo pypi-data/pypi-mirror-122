@@ -1,0 +1,10 @@
+README.md
+setup.py
+gt_sat_infile_api/__init__.py
+gt_sat_infile_api/conection.py
+gt_sat_infile_api/login.py
+gt_sat_infile_api/parser.py
+gt_sat_infile_api.egg-info/PKG-INFO
+gt_sat_infile_api.egg-info/SOURCES.txt
+gt_sat_infile_api.egg-info/dependency_links.txt
+gt_sat_infile_api.egg-info/top_level.txt
