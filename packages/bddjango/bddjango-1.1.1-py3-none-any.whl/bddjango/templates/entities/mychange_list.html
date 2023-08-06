@@ -1,0 +1,39 @@
+{% extends 'admin/change_list.html' %}
+
+
+{% block object-tools %}
+    {{ block.super }}
+
+    <div class="container">
+
+    {#    <h2 style="background:#D3D3D3; color:white">&nbsp; </h2>#}
+    <br>
+
+    <div class="col-bg-6 container-fluid">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="import-csv/">
+            <button type="button" class="el-button el-button--default el-button--small" eid="1" data-name="export_as_csv">
+                <i class="fas fa-upload"></i>
+                <span>
+                    导入数据
+                </span>
+            </button>
+        </a>
+        &nbsp;&nbsp;
+       <a href="export_all_csv/" target="_blank">
+           <button type="button" class="el-button el-button--default el-button--small" eid="1" data-name="export_as_csv"><!----><!---->
+                <span class="fas fa-download"></span>
+                <span>
+                    全部导出
+                </span>
+            </button>
+       </a>
+
+
+        <h2 style="background:#D3D3D3; color:white">&nbsp; </h2>
+
+    </div>
+
+    </div>
+{% endblock %}
+
