@@ -1,0 +1,10 @@
+setup.py
+simona_mircheva/Binomialdistribution.py
+simona_mircheva/Gaussiandistribution.py
+simona_mircheva/Generaldistribution.py
+simona_mircheva/__init__.py
+simona_mircheva_distribution.egg-info/PKG-INFO
+simona_mircheva_distribution.egg-info/SOURCES.txt
+simona_mircheva_distribution.egg-info/dependency_links.txt
+simona_mircheva_distribution.egg-info/not-zip-safe
+simona_mircheva_distribution.egg-info/top_level.txt
