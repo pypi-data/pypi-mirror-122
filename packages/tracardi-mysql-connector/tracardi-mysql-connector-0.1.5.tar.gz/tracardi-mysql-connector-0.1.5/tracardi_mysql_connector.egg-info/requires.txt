@@ -1,0 +1,4 @@
+aiomysql
+pydantic
+tracardi-plugin-sdk>=0.6.17
+tracardi>=0.6.16
