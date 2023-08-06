@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: h5tiff
+Version: 0.1
+Summary: a flexible converter to extract tiff files from h5
+Home-page: https://github.com/fedem-p/h5_tiff_converter
+Author: Federico Puppo
+Author-email: federico.puppo@tum.de
+License: MIT
+Keywords: H5 Tiff Converter
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# h5_tiff_converter
+Converter from h5 files to tiff
+
+## File converter from h5 to tiff images
+
+script or notebook version.
+
+It gets as inputs the name to be used for saving the tiff files and a path to where the h5 file is.
+
+It unpacks the h5 file and creates a folder with a single tiff file for each image present in the h5 file
+
+
+

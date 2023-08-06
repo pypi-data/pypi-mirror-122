@@ -1,0 +1,3 @@
+[console_scripts]
+h5tiff = h5tiff.entry_points:h5_2_tiff_converter
+

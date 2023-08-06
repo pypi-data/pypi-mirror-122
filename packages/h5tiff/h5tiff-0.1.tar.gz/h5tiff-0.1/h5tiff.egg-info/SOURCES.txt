@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+code/__init__.py
+code/h5_2_tiff_converter.py
+h5tiff.egg-info/PKG-INFO
+h5tiff.egg-info/SOURCES.txt
+h5tiff.egg-info/dependency_links.txt
+h5tiff.egg-info/entry_points.txt
+h5tiff.egg-info/not-zip-safe
+h5tiff.egg-info/top_level.txt
