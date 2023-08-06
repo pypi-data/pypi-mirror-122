@@ -1,0 +1,10 @@
+goa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goa/__main__.py,sha256=e4nB72YP1mIwnHz6RcJq56ZDOESemnetWaonijcRvA8,33
+goa/algorithms.py,sha256=tuxAmD3U2gKHUMpt1xTPQGiDNq_A9Hbl8zyB4z-mdtw,16288
+goa/cli.py,sha256=9rajkVooswfhByxoWBsKCScOtJLllv16FNNiZwbbWwg,2587
+goa/problems.py,sha256=lGzlhpCEq_Z0p51PRLnEzkovynZjuFHW9JzyrYGav1M,4083
+goa/utils.py,sha256=KiHn-xeHiRWBT2m0FjWpXhHH7nkHHrK045wH3ROSHQ4,1389
+goa-0.1.1.dist-info/LICENSE,sha256=zeY-7mbcyDTFR5NLXKF2GY4L7YxpdVwIiCRnEq2xRdE,1074
+goa-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+goa-0.1.1.dist-info/METADATA,sha256=UUVXNEERxgOlY2o5nwSV_izJ7vF72eScNW5MC5ykdFg,616
+goa-0.1.1.dist-info/RECORD,,
