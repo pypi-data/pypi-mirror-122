@@ -1,0 +1,9 @@
+PyGithub==1.*
+requests==2.*
+slackclient==2.*
+
+[dev]
+coveralls==3.*
+flake8
+pytest==6.*
+pytest-cov==2.*
