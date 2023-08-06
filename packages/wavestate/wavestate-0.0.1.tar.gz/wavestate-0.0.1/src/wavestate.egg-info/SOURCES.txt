@@ -1,0 +1,16 @@
+MANIFEST.in
+NOTICE
+NOTICE.license
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+LICENSES/Apache-2.0.txt
+LICENSES/CC0-1.0.txt
+src/wavestate.egg-info/PKG-INFO
+src/wavestate.egg-info/SOURCES.txt
+src/wavestate.egg-info/dependency_links.txt
+src/wavestate.egg-info/top_level.txt
+src/wavestate/collection/__init__.py
+src/wavestate/collection/_version.py
+tools/check_versions.py

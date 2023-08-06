@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: wavestate
+Version: 0.0.1
+Summary: Toolkit for modeling interferometers, circuits, signals, and control systems
+Home-page: https://github.com/wavestate/wavestate-collection
+Author: Lee McCuller
+Author-email: mcculler@mit.edu
+License: Apache-2.0
+Project-URL: Bug Tracker, https://github.com/wavestate/wavestate-collection/issues
+Project-URL: Source Code, https://github.com/wavestate/wavestate-collection
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSES/Apache-2.0.txt
+License-File: LICENSES/CC0-1.0.txt
+License-File: NOTICE
+
+WaveState
+----------
+
+This is a collection of projects under the wavestate package namespace for
+modeling interferometers, circuits, quantum states, and control systems. This is
+the base metapackage to install the others.
+
+It's version will be updated as subpackages are migrated into the namespace.
+
+
+
