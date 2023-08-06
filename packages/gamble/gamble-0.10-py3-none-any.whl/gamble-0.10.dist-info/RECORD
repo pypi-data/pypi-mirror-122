@@ -1,0 +1,16 @@
+gamble/__init__.py,sha256=2TddoE9ImjVilHdrgDZiSdq_1aHCjANu6pZjT4PIPb4,91
+gamble/errors.py,sha256=1XzY-kL3kP-QOGD9ce5A_83KY7w8Eh99UdvAf-7Sxfs,662
+gamble/models/__init__.py,sha256=sxaOd5V7HgxdYTT2sUAO3DKKRxZCdycWUCanqowAGqY,270
+gamble/models/cards.py,sha256=49EvwqtuSgmQ8gYfOW0DLA4_Su8_NCziFbVHe-6jLls,17685
+gamble/models/dice.py,sha256=BtsmjbKEsky-mIySwrHYqmsQK42hH755sNaQV6uZRfM,8822
+gamble/models/golf.py,sha256=IMBU8JY3lQoKaaMeXPfcXG7p529qeMGHJ0sSKEtS1gU,2387
+tests/__init__.py,sha256=-nkUVpMeSIVP2JVKRRKkOcUgz2wllVG0zJd3BPXtiU0,58
+tests/conftest.py,sha256=_XmhREU0fTMePfK5anozrmczNlXaic-zKmkDvzV4IpI,78
+tests/models/__init__.py,sha256=yMV16Vossp71_kz2HS8Vws3RHzdainZLxPTJVqyjkaQ,31
+tests/models/test_cards.py,sha256=taYV4AEmJiZWXSWy56_VRexxt_dHERFgryhtHA28IrM,3824
+tests/models/test_dice.py,sha256=v09tE2yIX9WWyByyPv5bBWLAtrrUUbCXFxSxJ9CWOtk,3421
+gamble-0.10.dist-info/LICENSE,sha256=8fWToev_PhQorIHlB1XkdHrUIi0ruYBxeAFRcc9xrMI,1075
+gamble-0.10.dist-info/METADATA,sha256=RQZCvERdopHshXC5z25KlnKTZrkDnm0jtRWhMiZi-Fs,3030
+gamble-0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gamble-0.10.dist-info/top_level.txt,sha256=k3oY3Q6_nMk5aTed1iu7bNTsy4dfDoFDugO1gdHTE5E,13
+gamble-0.10.dist-info/RECORD,,
