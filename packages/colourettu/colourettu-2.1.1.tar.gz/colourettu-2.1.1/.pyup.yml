@@ -1,0 +1,12 @@
+requirements:
+  - .requirements/base.txt:
+      updates: all
+  - .requirements/build.txt:
+      updates: security
+  - .requirements/docs.txt:
+      updates: security
+  - .requirements/test.txt:
+      updates: security
+
+branch_prefix: pyup/
+schedule: "every month"

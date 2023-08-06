@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: colourettu
+Version: 2.1.1
+Summary: Colourettu is a collection of colour related functions.
+Home-page: http://minchin.ca/colourettu/
+Author: William Minchin
+Author-email: w_minchin@hotmail.com
+License: MIT License
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/x-rst
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: all
+License-File: LICENSE
+
+.. image:: https://raw.githubusercontent.com/MinchinWeb/colourettu/master/docs/colourettu-logo-4x.png
+    :align: center
+
+Colourettu is a small collection of colour functions in Python. These can be used to determine the (relative) luminosity of a colour and the contrast between two colours. There is also the palette class for dealing with a 'list' of colours.
+
+.. image:: https://img.shields.io/pypi/v/colourettu.svg?style=flat
+    :target: https://pypi.python.org/pypi/colourettu/
+    :alt: PyPI version number
+
+.. image:: https://img.shields.io/pypi/dm/colourettu.svg?style=flat
+    :target: https://pypi.python.org/pypi/colourettu/
+    :alt: Download Count
+
+.. image:: https://img.shields.io/github/workflow/status/MinchinWeb/colourettu/CI
+    :target: https://github.com/MinchinWeb/colourettu/actions/workflows/ci.yml
+    :alt: GitHub Workflow Status
+
+.. image:: https://coveralls.io/repos/MinchinWeb/colourettu/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/MinchinWeb/colourettu?branch=master
+
+.. image:: https://img.shields.io/pypi/l/colourettu.svg?style=flat&color=green
+    :target: https://github.com/MinchinWeb/colourettu/blob/master/LICENSE
+
+
+Installation
+------------
+
+::
+
+    pip install colourettu
+
+Documentation
+-------------
+
+Full documentation is available at http://minchin.ca/colourettu/
+
+Changelog
+---------
+
+Full changelog is available at http://minchin.ca/colourettu/changelog.html
+
+Links
+-----
+
+- Code, on GitHub: http://www.github.com/minchinweb/colourettu/
+- Report a Bug! https://github.com/minchinweb/colourettu/issues
+- Documentation: http://minchin.ca/colourettu/
+- Listing on PyPI: https://pypi.python.org/pypi/colourettu
+
+License
+-------
+
+*Colourettu* is licensed under the MIT license.
+
+
