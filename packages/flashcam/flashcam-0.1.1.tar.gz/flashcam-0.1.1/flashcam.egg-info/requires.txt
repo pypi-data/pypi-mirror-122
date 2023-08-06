@@ -1,0 +1,3 @@
+fire
+flask_httpauth
+v4l2py
