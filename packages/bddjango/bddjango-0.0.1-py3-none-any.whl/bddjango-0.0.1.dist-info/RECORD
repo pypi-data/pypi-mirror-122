@@ -1,0 +1,11 @@
+bdtools/MultipleConditionSearch.py,sha256=mJMhHrvKx2F0z88F_wyq1R-7dvCGWoNmehbhAa4sB-M,6121
+bdtools/__init__.py,sha256=oNeQb-zrwm6AehA5eojPUnvaSfexswOq1GgW2CxHc7A,21
+bdtools/admin_env_init.py,sha256=_et2lDBSRGDUPHaJSflH7YIqpY_DCI2tlUiMjh4-bVc,839
+bdtools/adminclass.py,sha256=ty-CBWPJwuz8flFkpYhzXJGFddj2g-414hmg5H8WUhc,12853
+bdtools/django.py,sha256=dKFkRl_uc3rrOaHAvCGGdKEJbPQ_bH89MNpK45bYfNA,9104
+bdtools/export_data.py,sha256=2loDivIbHWjROrGC64PFzls86FNciZQrxYxFN0SuPb0,3372
+bdtools/pure.py,sha256=Q6ZR-BHoYxmOWBWvxmZEoautwIYjCB1LPXtmbOj4I7Q,1958
+bddjango-0.0.1.dist-info/METADATA,sha256=w4STaC9KQgJQnPZsbM64K7Wc1fBNBGznrfHJ_vlbSGY,1062
+bddjango-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bddjango-0.0.1.dist-info/top_level.txt,sha256=rpkYSnURfJX_VNheNI5H7tiGqikQVziK0rDhRGHniv4,8
+bddjango-0.0.1.dist-info/RECORD,,
