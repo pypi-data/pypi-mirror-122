@@ -1,0 +1,4 @@
+[console_scripts]
+app=ml_models.driver.main:main
+cli=ml_models.console.console:main
+
