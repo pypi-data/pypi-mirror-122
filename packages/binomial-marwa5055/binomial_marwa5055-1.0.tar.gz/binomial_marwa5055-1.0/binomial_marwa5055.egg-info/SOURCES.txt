@@ -1,0 +1,10 @@
+setup.py
+binomial_marwa5055/Binomialdistribution.py
+binomial_marwa5055/Gaussiandistribution.py
+binomial_marwa5055/Generaldistribution.py
+binomial_marwa5055/__init__.py
+binomial_marwa5055.egg-info/PKG-INFO
+binomial_marwa5055.egg-info/SOURCES.txt
+binomial_marwa5055.egg-info/dependency_links.txt
+binomial_marwa5055.egg-info/not-zip-safe
+binomial_marwa5055.egg-info/top_level.txt
