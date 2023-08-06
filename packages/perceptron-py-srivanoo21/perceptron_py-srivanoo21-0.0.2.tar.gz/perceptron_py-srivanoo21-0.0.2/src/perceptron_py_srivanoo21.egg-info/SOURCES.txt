@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/perceptron_py_srivanoo21.egg-info/PKG-INFO
+src/perceptron_py_srivanoo21.egg-info/SOURCES.txt
+src/perceptron_py_srivanoo21.egg-info/dependency_links.txt
+src/perceptron_py_srivanoo21.egg-info/requires.txt
+src/perceptron_py_srivanoo21.egg-info/top_level.txt
