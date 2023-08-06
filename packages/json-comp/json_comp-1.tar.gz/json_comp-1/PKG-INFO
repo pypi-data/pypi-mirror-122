@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: json_comp
+Version: 1
+Summary: json_comp
+Home-page: UNKNOWN
+Author: Kartik singh
+Author-email: karti479@gmail.com
+License: UNKNOWN
+Keywords: json,compare,file,python,kartik singh
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+A package to perform comparison between 2 Json files
+
