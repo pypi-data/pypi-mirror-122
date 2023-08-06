@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tr4d3r.egg-info/PKG-INFO
+tr4d3r.egg-info/SOURCES.txt
+tr4d3r.egg-info/dependency_links.txt
+tr4d3r.egg-info/requires.txt
+tr4d3r.egg-info/top_level.txt
