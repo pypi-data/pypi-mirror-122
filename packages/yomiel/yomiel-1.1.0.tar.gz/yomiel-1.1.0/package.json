@@ -1,0 +1,10 @@
+{
+  "version": "1.1.0",
+  "repository": "github:guendto/yomiel",
+  "scripts": {
+    "release": "standard-version -s --releaseCommitMessageFormat 'chore(release): yomiel version {{currentTag}} (tG)'"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.1"
+  }
+}
