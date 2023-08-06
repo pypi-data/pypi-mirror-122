@@ -1,0 +1,15 @@
+aircraft: Airbus A320neo
+
+clean:
+  cd0:         0.017
+  k:           0.038
+  e:           0.807
+
+mach_crit:     0.632
+
+gears:         0.017
+
+flaps:
+  lambda_f:    0.900
+  cf/c:        0.176
+  Sf/S:        0.170
