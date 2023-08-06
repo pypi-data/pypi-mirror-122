@@ -1,0 +1,16 @@
+README.md
+__init__.py
+cli.py
+error.py
+interpreter.py
+lexer.py
+parser_.py
+q.py
+setup.py
+stdlib.py
+symbol_table.py
+values.py
+qlang.egg-info/PKG-INFO
+qlang.egg-info/SOURCES.txt
+qlang.egg-info/dependency_links.txt
+qlang.egg-info/top_level.txt
