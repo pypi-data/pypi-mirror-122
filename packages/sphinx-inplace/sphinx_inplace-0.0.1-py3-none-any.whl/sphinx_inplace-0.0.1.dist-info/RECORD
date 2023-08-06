@@ -1,0 +1,9 @@
+sphinx_inplace/__init__.py,sha256=xNX0SNfrPsNbw5p8z7mVfSU3yRqGHxnvVc6KbTAuJqk,134
+sphinx_inplace/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_inplace/file_tree.py,sha256=32oqtVoGwSPigRfVlG_lBpfpwKYob_GiWRQBVTiwVBY,6536
+sphinx_inplace/rst_generator.py,sha256=BADqYKwRSlbBUs5gH2l1ucWYKlKJXeiEVku1AZ4Sn1E,10789
+sphinx_inplace-0.0.1.dist-info/LICENSE,sha256=C-syd4KrFsN09LNKDh0Ex70jXlCWlL-kVjkTBnpGOWc,1085
+sphinx_inplace-0.0.1.dist-info/METADATA,sha256=VLLrpKUQhLNZqzBVumwrQoJlQ9dx8QxJzpy9ZHcCtmU,2127
+sphinx_inplace-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sphinx_inplace-0.0.1.dist-info/top_level.txt,sha256=GsTuJ3f2PxzU_UalCKdtv1jqYZAnE9-8OTQGvDZ6zdY,15
+sphinx_inplace-0.0.1.dist-info/RECORD,,
