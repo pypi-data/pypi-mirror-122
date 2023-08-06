@@ -1,0 +1,10 @@
+tstickers/__init__.py,sha256=R2CsoZAe-rhwZMImq7RXZ2PLewkTxRcYeNSFo-_Lb6I,1771
+tstickers/__main__.py,sha256=4y7j8rfT-ArKqLcFFqnfEObFCvDlf0KAoUN-kVp9oIo,73
+tstickers/caching.py,sha256=V5hE2YYAp3dR1cAnDp_0RwGFQ_2BpH16_sRNCnUovKY,1771
+tstickers/convert.py,sha256=ioxY-6z19TxBg--bazAvp3IOPnZu_xan65jGrSM5e9M,3610
+tstickers/downloader.py,sha256=V6rNYUCNsfHUasUkf72-OEU_2OjWs8MW16zQvlBrojY,7314
+tstickers-2021.4.1.dist-info/entry_points.txt,sha256=azAobQPLNDAYF5rwt1iBCNp2oMhs-7TckeBi57ty944,43
+tstickers-2021.4.1.dist-info/LICENSE.md,sha256=D5BOeVckVDNjnyUq_ddRrGtshrxi6qLA8YJbWwMfgv8,1088
+tstickers-2021.4.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+tstickers-2021.4.1.dist-info/METADATA,sha256=blNZBAihVY8eur-jWPH0o7qsa2jxtKPqzmh5U898X30,7622
+tstickers-2021.4.1.dist-info/RECORD,,
