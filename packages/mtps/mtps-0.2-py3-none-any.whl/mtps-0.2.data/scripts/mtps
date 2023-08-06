@@ -1,0 +1,26 @@
+#!/bin/bash
+
+version="0.2"
+
+echo """#!/usr/bin/python3
+import subprocess
+from subprocess import CompletedProcess
+
+def cmd(cmd:str, exit_on_error=True) -> CompletedProcess:
+    p1 = subprocess.run(cmd.split(' '), capture_output=True, text=True, check= exit_on_error)
+    return p1
+
+def main():
+    test = cmd('pwd').stdout
+    print(f'current dir -- {test}')
+    
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser()
+    args = parser.parse_args()
+    main()
+""" > $1
+
+chmod +x $1
+code $1
