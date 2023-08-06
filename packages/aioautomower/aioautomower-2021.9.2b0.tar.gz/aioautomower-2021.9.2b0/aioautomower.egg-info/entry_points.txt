@@ -1,0 +1,3 @@
+[console_scripts]
+automower = aioautomower.cli:2021.9.2b
+
