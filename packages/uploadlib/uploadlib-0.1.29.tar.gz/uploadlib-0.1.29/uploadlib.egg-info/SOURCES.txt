@@ -1,0 +1,9 @@
+setup.py
+uploadlib/__init__.py
+uploadlib/downloader.py
+uploadlib/uploader.py
+uploadlib.egg-info/PKG-INFO
+uploadlib.egg-info/SOURCES.txt
+uploadlib.egg-info/dependency_links.txt
+uploadlib.egg-info/requires.txt
+uploadlib.egg-info/top_level.txt
