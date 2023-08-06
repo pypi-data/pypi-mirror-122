@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: text-processor-encoding
+Version: 0.0.1
+Summary: For a generic prerpocessing module that takes care of any text data
+Home-page: https://github.com/Abinaya132/text-processor
+Author: Abinaya Govindan
+Author-email: abinaya4031@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
