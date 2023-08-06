@@ -1,0 +1,15 @@
+yarl/_quoting_c.c,sha256=Wyl0ipyszHKoteLX0uoz0-fI4Xjf70O_mokQCZAko54,455467
+yarl/_url.py,sha256=hKqfrlH1TyaMGs9Ep92j9TVV7Ys_i9gnAX-h_UjFW48,36016
+yarl/_quoting_c.cpython-37m-s390x-linux-gnu.so,sha256=L2Bp7rQ_P1krLm8tPnmHlqx0E5_A23WImqsl0wvIuCs,703880
+yarl/__init__.py,sha256=znBygJ5sUKf08wV8on5b_Hdjf1U8O1IbTmpBDleAn1A,156
+yarl/_quoting.py,sha256=A35UGLJW4EOOHZNNocSiK7tRNGKe1NgqH3jxMoYN2x0,519
+yarl/_quoting_c.pyi,sha256=plPeUkIbXp4Hzi0AbYII4JA0H9tCjtjw-UUPU5Na1s0,447
+yarl/_quoting_c.pyx,sha256=_xiVS3dNEvYcKdGx973DYBRRUVz4CURuG5iTdF4zXYk,11498
+yarl/_quoting_py.py,sha256=kaqwB_26TMQqsiDC7mmPifOuDeU2CV67X2WEeA8THGU,6386
+yarl/__init__.pyi,sha256=zyFL9Yi-6ZLZo8UoTMwB8QtpHKy9wapRiWwiLS9gyJE,3703
+yarl/py.typed,sha256=Ml3HXnuYFoaiowlyfo6IQ_Dmv9gGV8uhQbqwZDzsNE8,13
+yarl-1.7.0a0.dist-info/WHEEL,sha256=PFmfe1-vYMrCv0JReTH0Lbw0Zi6fezN5CMe-whfydT4,111
+yarl-1.7.0a0.dist-info/top_level.txt,sha256=vf3SJuQh-k7YtvsUrV_OPOrT9Kqn0COlk7IPYyhtGkQ,5
+yarl-1.7.0a0.dist-info/LICENSE,sha256=3macRWtprQNyQXKEVTtphKVkQfU9fQxuFadJGei59m0,11151
+yarl-1.7.0a0.dist-info/RECORD,,
+yarl-1.7.0a0.dist-info/METADATA,sha256=JDtbv2c9SbgUGNRstREsVhETnm5vj5QlGKBoSxsD6NQ,19524
