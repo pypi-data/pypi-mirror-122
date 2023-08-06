@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: passw0rd
+Version: 0.0.1
+Summary: Password Generator
+Home-page: https://github.com/joacomonsalvo/passw0rd
+Author: Joaco Monsalvo
+Author-email: 
+License: UNKNOWN
+Description: # Passw0rd
+        
+        The project consists of a password generator, which aims to help users use 
+        more secure passwords in their accounts. Avaliable in pypi.
+        
+        
+        ## Installation
+        
+        Install passw0rd with pip
+        
+        ```bash
+          pip install passw0rd
+        ```
+        
+Keywords: python,password,generator,pwd,passw0rd
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
