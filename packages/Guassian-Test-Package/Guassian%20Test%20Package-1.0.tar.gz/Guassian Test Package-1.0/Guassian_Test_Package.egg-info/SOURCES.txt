@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+./requirements/requirements.txt
+Guassian_Test_Package.egg-info/PKG-INFO
+Guassian_Test_Package.egg-info/SOURCES.txt
+Guassian_Test_Package.egg-info/dependency_links.txt
+Guassian_Test_Package.egg-info/requires.txt
+Guassian_Test_Package.egg-info/top_level.txt
+distributions/__init__.py
+distributions/distribution.py
+distributions/example.py
+distributions/gaussian.py
+distributions/numbers.txt

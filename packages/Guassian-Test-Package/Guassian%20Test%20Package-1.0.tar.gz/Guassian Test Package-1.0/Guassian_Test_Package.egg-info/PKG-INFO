@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Guassian-Test-Package
+Version: 1.0
+Summary: Nakul Python Gaussian Test Package
+Home-page: https://www.github.com/Nakulbajaj101/gaussian-test-package
+Author: Nakul Bajaj
+Author-email: bajaj.nakul@gmail.om
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+License-File: LICENCE
+
+UNKNOWN
+
