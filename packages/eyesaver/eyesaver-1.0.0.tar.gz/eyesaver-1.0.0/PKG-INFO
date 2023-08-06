@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: eyesaver
+Version: 1.0.0
+Summary: Save your eyes with this tool that lets you know when the screen changes a little bit. Excellent for late-night study videos.
+Home-page: https://github.com/sinan-morcel/eyesaver
+License: MIT
+Keywords: screen,cv,computer vision
+Author: Sinan Morcel
+Author-email: sinan.h.morcel@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Screen Capture
+Requires-Dist: Pillow (>=8.3.2,<9.0.0)
+Requires-Dist: beepy (>=1.0.7,<2.0.0)
+Requires-Dist: mss (>=6.1.0,<7.0.0)
+Requires-Dist: opencv-python (>=4.5.3,<5.0.0)
+Requires-Dist: scikit-image (>=0.18.3,<0.19.0)
+Requires-Dist: screeninfo (>=0.7,<0.8)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/sinan-morcel/eyesaver
+Description-Content-Type: text/markdown
+
+# EyeSaver
+
+This CLI-tool will tell you when there is a change happening on the screen by beeping. Now you can close your eyes and give them a rest during those late video-lecture nights, while being sure not to miss a single bullet in the presentation you're watching. 😉
+
