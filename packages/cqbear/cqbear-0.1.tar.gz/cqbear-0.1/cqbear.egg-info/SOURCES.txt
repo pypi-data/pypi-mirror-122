@@ -1,0 +1,13 @@
+README.md
+setup.py
+cqbear/__init__.py
+cqbear/bear.py
+cqbear/roar.py
+cqbear/sentence.py
+cqbear/sound.py
+cqbear/util.py
+cqbear.egg-info/PKG-INFO
+cqbear.egg-info/SOURCES.txt
+cqbear.egg-info/dependency_links.txt
+cqbear.egg-info/requires.txt
+cqbear.egg-info/top_level.txt

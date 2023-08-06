@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cqbear
+Version: 0.1
+Summary: A bear-like bot python module for go-cqhttp.
+Home-page: https://github.com/ChenSmallX/CqBear
+Author: ChenSmallX
+Author-email: 641751205@qq.com
+License: GNU
+Description: # CqBear
+        A bear-like bot python module for go-cqhttp.
+        
+Keywords: go-cqhttp,qqbot,Mirai,MiraiGo
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown
