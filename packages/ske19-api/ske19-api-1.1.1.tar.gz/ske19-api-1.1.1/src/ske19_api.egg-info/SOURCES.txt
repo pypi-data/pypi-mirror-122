@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ske19_api/__init__.py
+src/ske19_api/ske19.py
+src/ske19_api/student.py
+src/ske19_api.egg-info/PKG-INFO
+src/ske19_api.egg-info/SOURCES.txt
+src/ske19_api.egg-info/dependency_links.txt
+src/ske19_api.egg-info/requires.txt
+src/ske19_api.egg-info/top_level.txt
