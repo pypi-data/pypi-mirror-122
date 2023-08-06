@@ -1,0 +1,118 @@
+[tool.poetry]
+name = "karmabot"
+version = "2.0.1"
+description = "PyBites Karmabot - A Python based Slack Chatbot for Community interaction"
+homepage = "https://github.com/PyBites-Open-Source/karmabot"
+keywords = ["karmabot"]
+authors = ["PyBites <info@pybit.es>", "Patrick-Oliver Groß <mail@pogross.de>"]
+maintainers = ["Patrick-Oliver Groß <mail@pogross.de>"]
+readme = "README.md"
+repository = "https://github.com/PyBites-Open-Source/karmabot"
+license = "MIT"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Communications :: Chat",
+]
+
+[tool.poetry.dependencies]
+SQLAlchemy = "^1.4.20"
+feedparser = "^6.0.8"
+humanize = "^3.10.0"
+importlib-metadata = "^3.7.3"
+psycopg2-binary = "^2.9.1"
+pyjokes = "^0.6.0"
+python = "^3.8"
+python-dotenv = "^0.18.0"
+slack-bolt = "^1.6.1"
+slack-sdk = "^3.7.0"
+freezegun = "^1.1.0"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+codecov = "^2.1.11"
+coverage = {extras = ["toml"], version = "^5.5"}
+flake8 = "^3.9.2"
+flake8-bandit = "^2.1.2"
+flake8-bugbear = "^21.4.3"
+isort = "^5.9.1"
+mypy = "^0.910"
+nox = "^2021.6.12"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+pytest-mock = "^3.6.1"
+safety = "^1.10.3"
+pre-commit = "^2.13.0"
+flake8-blind-except = "^0.2.0"
+flake8-builtins = "^1.5.3"
+flake8-logging-format = "^0.6.0"
+flake8-debugger = "^4.0.0"
+flake8-use-fstring = "^1.1"
+
+[tool.poetry.scripts]
+karmabot = "karmabot.main:main"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+omit = [
+  "src/karmabot/__main__.py",
+  "src/karmabot/__init__.py",
+  "src/karmabot/main.py",
+  "src/karmabot/db/__all_models.py",
+  "src/karmabot/db/modelsbase.py",
+  ]
+source = ["karmabot"]
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.black]
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.nox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )
+)
+'''
+include = '\.pyi?$'
+line-length = 88
+target-version = ["py38", "py39"]
+
+[tool.isort]
+known_third_party = "dotenv,feedparser,humanize,pyjokes,pytest,requests,sqlalchemy,freezegun,slack_bolt,slack_sdk"
+profile = "black"
+
+[tool.mypy]
+mypy_path = "src,tests"
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = true
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = [
+  "freezegun",
+  "requests"
+]
+ignore_missing_imports = true
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry_core>=1.1.6"]
