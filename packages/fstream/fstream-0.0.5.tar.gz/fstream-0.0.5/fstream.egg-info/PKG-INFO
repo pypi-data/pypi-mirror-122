@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fstream
+Version: 0.0.5
+Summary: Faster async streams for Python.
+Home-page: https://github.com/33TU/fstream
+License: MIT
+Project-URL: Bug Tracker, https://github.com/33TU/fstream/issues
+Description: # fstream
+        Faster asyncio.Stream replacement for Python.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
