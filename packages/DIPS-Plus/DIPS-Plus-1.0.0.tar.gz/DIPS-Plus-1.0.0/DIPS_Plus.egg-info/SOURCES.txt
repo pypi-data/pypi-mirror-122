@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+DIPS_Plus.egg-info/PKG-INFO
+DIPS_Plus.egg-info/SOURCES.txt
+DIPS_Plus.egg-info/dependency_links.txt
+DIPS_Plus.egg-info/requires.txt
+DIPS_Plus.egg-info/top_level.txt
