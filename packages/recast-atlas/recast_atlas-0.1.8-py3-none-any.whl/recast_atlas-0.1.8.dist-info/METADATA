@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: recast-atlas
+Version: 0.1.8
+Summary: RECAST for ATLAS at the LHC
+Home-page: https://github.com/recast-hep/recast-atlas
+Author: Lukas Heinrich
+Author-email: lukas.heinrich@cern.ch
+License: Apache
+Project-URL: Documentation, https://github.com/recast-hep/recast-atlas
+Project-URL: Source Code, https://github.com/recast-hep/recast-atlas
+Project-URL: Issue Tracker, https://github.com/recast-hep/recast-atlas/issues
+Keywords: physics recast atlas
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (>=7.0)
+Requires-Dist: jsonschema (>=3.0.0)
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: yadage-schemas (==0.10.6)
+Provides-Extra: develop
+Requires-Dist: black ; extra == 'develop'
+Requires-Dist: flake8 (>=3.9.0) ; extra == 'develop'
+Requires-Dist: pytest ; extra == 'develop'
+Provides-Extra: kubernetes
+Requires-Dist: kubernetes (==9.0.0) ; extra == 'kubernetes'
+Provides-Extra: local
+Requires-Dist: pydotplus (==2.0.2) ; extra == 'local'
+Requires-Dist: adage (==0.10.1) ; extra == 'local'
+Requires-Dist: yadage-schemas (==0.10.6) ; extra == 'local'
+Requires-Dist: packtivity (==0.14.23) ; extra == 'local'
+Requires-Dist: yadage (==0.20.1) ; extra == 'local'
+Requires-Dist: pydot ; extra == 'local'
+Requires-Dist: pygraphviz ; extra == 'local'
+Provides-Extra: reana
+Requires-Dist: setuptools (<58.0.0) ; extra == 'reana'
+Requires-Dist: reana-client (==0.7.5) ; extra == 'reana'
+
+# RECAST for ATLAS
+
+[![CI](https://github.com/recast-hep/recast-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/recast-hep/recast-atlas/actions/workflows/ci.yml?query=branch%3Amaster)
+[![PyPI version](https://badge.fury.io/py/recast-atlas.svg)](https://badge.fury.io/py/recast-atlas)
+
+ATLAS tools to facilitate integration of ATLAS anlayses into RECAST
+
+## Gettting Started
+
+### Install
+
+This package is installable via the standard Python package management tools. E.g.:
+
+```
+python -m pip install recast-atlas
+```
+
+### Running RECAST
+
+The `recast` tool aims to enable both local execution as well as asynchronous execution on  a [REANA](http://reana.io) cluster. Via the 
+
+#### Locally:
+
+```
+recast run examples/rome --backend local
+```
+
+#### ...and on REANA
+
+```
+recast run examples/rome --backend reana
+```
+
+
+
+(On LXPLUS)
+
+```
+ssh http://lxplus-cloud.cern.ch
+source ~recast/public/setup.sh
+recast catalogue ls
+recast run examples/rome
+```
+
+
