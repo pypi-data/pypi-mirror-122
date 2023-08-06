@@ -1,0 +1,12 @@
+README.md
+setup.py
+name_sanitizer.egg-info/PKG-INFO
+name_sanitizer.egg-info/SOURCES.txt
+name_sanitizer.egg-info/dependency_links.txt
+name_sanitizer.egg-info/top_level.txt
+ns/__init__.py
+ns/__main__.py
+ns/cleaner.py
+ns/config.py
+ns/sanitizer.py
+ns/setup.py
