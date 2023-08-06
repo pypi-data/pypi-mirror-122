@@ -1,0 +1,35 @@
+// SqlPyGen grammar
+
+start: module (import_stmt | schema | query)*
+
+module: "--"  "module" ":" CNAME _NEWLINE
+import_stmt: "--" "from" MODULE_NAME "import" CNAME ("," CNAME)* _NEWLINE
+schema: "--" "schema" ":" CNAME _NEWLINE sql
+query: "--" "query" ":" CNAME _NEWLINE params? return_? sql
+
+params: "--" "params" ":" pname_ptype ("," pname_ptype)* _NEWLINE
+pname_ptype: CNAME ":" CNAME
+
+?return_: returnone | returnmany
+returnone: "--" "return" "?" ":" rtype ("," rtype)* _NEWLINE
+returnmany: "--" "return" "*" ":" rtype ("," rtype)* _NEWLINE
+?rtype: rtype_opt | rtype_not_opt
+rtype_opt: CNAME
+rtype_not_opt: CNAME "!"
+
+?sql: SQL_STRING _NEWLINE
+SQL_STRING: /(create|drop|insert|update|delete|select).+?;/is  // match upto semicolon
+
+MODULE_NAME: ("."|"..")? CNAME ("." CNAME)*
+
+%import common.CNAME
+%import common.NEWLINE -> _NEWLINE
+%import common.WS_INLINE
+%import common.SH_COMMENT
+
+EMPTY_LINE: WS_INLINE _NEWLINE
+SH_COMMENT_LINE: SH_COMMENT _NEWLINE
+
+%ignore WS_INLINE
+%ignore EMPTY_LINE
+%ignore SH_COMMENT_LINE
