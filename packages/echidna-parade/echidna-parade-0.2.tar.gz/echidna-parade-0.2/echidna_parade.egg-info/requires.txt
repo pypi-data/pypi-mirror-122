@@ -1,0 +1,7 @@
+pyyaml
+slither-analyzer
+crytic-compile
+
+[lint]
+black==20.8b1
+mypy==0.790

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+echidna_parade/__main__.py
+echidna_parade/campaign.py
+echidna_parade/config.py
+echidna_parade/echidna.py
+echidna_parade.egg-info/PKG-INFO
+echidna_parade.egg-info/SOURCES.txt
+echidna_parade.egg-info/dependency_links.txt
+echidna_parade.egg-info/entry_points.txt
+echidna_parade.egg-info/requires.txt
+echidna_parade.egg-info/top_level.txt
