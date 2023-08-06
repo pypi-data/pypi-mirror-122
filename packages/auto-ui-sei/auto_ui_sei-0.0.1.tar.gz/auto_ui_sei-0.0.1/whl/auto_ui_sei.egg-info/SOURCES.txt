@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+whl/auto_ui_sei.egg-info/PKG-INFO
+whl/auto_ui_sei.egg-info/SOURCES.txt
+whl/auto_ui_sei.egg-info/dependency_links.txt
+whl/auto_ui_sei.egg-info/top_level.txt
