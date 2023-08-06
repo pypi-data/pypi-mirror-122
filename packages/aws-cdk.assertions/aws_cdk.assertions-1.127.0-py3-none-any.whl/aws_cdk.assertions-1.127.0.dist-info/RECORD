@@ -1,0 +1,10 @@
+aws_cdk/assertions/__init__.py,sha256=VaNoq-0wDwibuhSty3-0Hb_UuUSHjSeFRWoMGW5ptn4,35089
+aws_cdk/assertions/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/assertions/_jsii/__init__.py,sha256=Q0ubP4BgwPZ9f9xlZjyUk1CVXLmuRYmz3aEj0XMdfVw,442
+aws_cdk/assertions/_jsii/assertions@1.127.0.jsii.tgz,sha256=mkCqqqt7rxlCT4WEd5suBCcU8KCJ-rtcnNb7D_K4StQ,619579
+aws_cdk.assertions-1.127.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.assertions-1.127.0.dist-info/METADATA,sha256=MVR6MiKaOnaL-qvCC1_qhBk7ScJRUZ19UrJhmHFV340,13936
+aws_cdk.assertions-1.127.0.dist-info/NOTICE,sha256=xVVrzzQrQHjCbOoZ5OnV7iqWEB1t5gLRkLJiYkXl0r8,27894
+aws_cdk.assertions-1.127.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.assertions-1.127.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.assertions-1.127.0.dist-info/RECORD,,
