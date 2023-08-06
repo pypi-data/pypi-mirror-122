@@ -1,0 +1,15 @@
+baobaxia/__init__.py,sha256=DzUCuyLR0DySsp1Zpv0unZ5m_Xa-dYEghpv4D5bud88,259
+baobaxia/acervo.py,sha256=FsGPvuO8ocx7N_r5bPfBZaQ5Dxz6eQ-eIFAMupC3oHg,9766
+baobaxia/client.py,sha256=v8XcVMzK0YC1Ao7aZu-VE4A-Tsuo_GQAJtwfur2HH6c,9000
+baobaxia/install.py,sha256=iIfaBAewiTby0WICDiXfho9uQHGu_EsAdXP69cz-Z94,5677
+baobaxia/rest.py,sha256=sTnjqVDfinT-d56u2_umEC7Cvo9426WhWB-8h0Zx5a0,14646
+baobaxia/root.py,sha256=t7amyMaEyCN8UG2JmrblYpx4fwO7GdoptFUwZZT6nXk,21376
+baobaxia/saberes.py,sha256=twLvWhrGYSY3Fatu6h06m_NJb0NbDmmMzW0q29P7gY8,10417
+baobaxia/sankofa.py,sha256=L3RxMpmygsXdDg75u1Nbq8i5NNIjg-AkKqZrpO8F13M,8135
+baobaxia/util.py,sha256=g2KaqkqVCdegBUlOOvNDhLHXwmCvQgkADuySSUM6Uzs,239
+baobaxia-0.1.8.dist-info/LICENSE,sha256=F7VC-9J9EElCIgqBPlONVnYLg47T5wCQ3a8H_dcTlGQ,35059
+baobaxia-0.1.8.dist-info/METADATA,sha256=x6jU3vTRQjE1tukoG8Vm03RZADE51lsTR2FotRURKcg,5401
+baobaxia-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+baobaxia-0.1.8.dist-info/entry_points.txt,sha256=P73sL7kK6OJm8MmNCuc4-EXPFvTX4od2bMR1F4kLorA,60
+baobaxia-0.1.8.dist-info/top_level.txt,sha256=x48ofppQXS43A-dooAcjHSgPym9rqOYUFXT2mwdCQfk,9
+baobaxia-0.1.8.dist-info/RECORD,,
