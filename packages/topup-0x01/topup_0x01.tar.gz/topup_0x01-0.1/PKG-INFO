@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: topup_0x01
+Version: 0.1
+Summary: Function Topup
+Home-page: UNKNOWN
+Author: group2
+Author-email: 6314120011@mutacth.com
+License: MIT
+Description: Library
+Keywords: TOPUP_0x01,topup_0x01,NECSINMUT,NECS1201WORK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
