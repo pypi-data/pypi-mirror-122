@@ -1,0 +1,12 @@
+ArbMasterPy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ArbMasterPy/authorisation.py,sha256=QrQaS881se8jE8oB9iwTfiNEV6XcfcBXK4nqk3A1qe0,986
+ArbMasterPy/export_to_amazon_master_wrapper.py,sha256=itMq2TbS4tMKWr9-ishSdwdPay3uA2fU3XEHCaA-5Xo,165
+ArbMasterPy/import_data_wrapper.py,sha256=2MiXU3o5aaA3NSFXWkZolMmEfYd7uTOvH9tjhtokwtI,254
+ArbMasterPy/james_1.py,sha256=ubh1LU0SEvtoIeiAbQe8sLiHB3TjXF9haywWxUGqIFE,2591
+ArbMasterPy/master_to_amazon.py,sha256=4DPqgCn0ehLCkBDN9HRuToKh_ff_3vN8D5Dr8ibLK64,8271
+ArbMasterPy/data/Amazon standard inventory - flat file.xlsm,sha256=CkC82MQWAlRls3pxNiqkW1wIVzFM_H8YA-NBcLRiktk,800791
+ArbMasterPy/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Arbitrage_Master_Sheet_Py-0.0.6.dist-info/METADATA,sha256=ulNAIpUgXcFtwpcUevkS-W_IBK1kAW-fZfKEPxfC7yk,481
+Arbitrage_Master_Sheet_Py-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Arbitrage_Master_Sheet_Py-0.0.6.dist-info/top_level.txt,sha256=YqGwpQg5Js5wJ8TPfLiLh6604KWZFe9EBZcVzpVBhN0,12
+Arbitrage_Master_Sheet_Py-0.0.6.dist-info/RECORD,,
