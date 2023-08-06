@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: consoledraw
+Version: 1.0.0
+Summary: A python module to update the console without flashing.
+Home-page: https://github.com/Matthias1590/ConsoleDraw
+Author: Matthias Wijnsma
+Author-email: matthiasx95@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ConsoleDraw
+A python module to update the console without flashing.
+
+
