@@ -1,0 +1,22 @@
+<ul class="tree-content js-tree-content{% if is_subtree %} subtree{% endif %}"
+    {% if action_url %} data-action-url="{{ action_url }}"{% endif %}>
+    {% for tree_branch in tree_branches %}
+        <li>
+            <div class="tree-branch js-tree-branch">
+                <div class="subtree-data js-subtree-data">
+                    {% if tree_branch.related_table_pk %}
+                        {% url 'report_designer:patterns:fields-list' pk=tree_branch.related_table_pk as fields_list_url %}
+                        <span class="subtree-btn js-subtree-btn" data-url="{{ fields_list_url }}"></span>
+                    {% elif tree_branch.is_relation %}
+                        <span class="subtree-btn subtree-not-relation js-subtree-btn"></span>
+                    {% endif %}
+                    <span class="subtree-title{% if tree_branch.related_table_pk and tree_branch.is_relation %} rd-draggable js-rd-draggable{% endif %}"
+                          data-pk="{{ tree_branch.related_table_pk }}"
+                          data-helper="clone">
+                        {{ tree_branch.title }}
+                    </span>
+                </div>
+            </div>
+        </li>
+    {% endfor %}
+</ul>
