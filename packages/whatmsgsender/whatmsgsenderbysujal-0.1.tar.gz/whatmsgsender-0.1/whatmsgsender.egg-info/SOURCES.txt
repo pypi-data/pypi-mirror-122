@@ -1,0 +1,9 @@
+Licence.txt
+README.md
+setup.py
+whatmsgsender/__init__.py
+whatmsgsender.egg-info/PKG-INFO
+whatmsgsender.egg-info/SOURCES.txt
+whatmsgsender.egg-info/dependency_links.txt
+whatmsgsender.egg-info/requires.txt
+whatmsgsender.egg-info/top_level.txt
