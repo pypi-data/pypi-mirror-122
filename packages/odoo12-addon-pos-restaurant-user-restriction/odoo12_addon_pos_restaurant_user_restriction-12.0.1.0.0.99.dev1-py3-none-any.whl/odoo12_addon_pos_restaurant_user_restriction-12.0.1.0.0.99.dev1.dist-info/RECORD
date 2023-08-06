@@ -1,0 +1,13 @@
+odoo/addons/pos_restaurant_user_restriction/README.rst,sha256=pEx1pIjKfsUXLz6-2mahGgKp8U5LV6ObX097jfUBnGw,2936
+odoo/addons/pos_restaurant_user_restriction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/pos_restaurant_user_restriction/__manifest__.py,sha256=LllIJzvYeynSDm5-sGfojYQkTNQziGNLhscIa9Gjn54,711
+odoo/addons/pos_restaurant_user_restriction/i18n/pos_restaurant_user_restriction.pot,sha256=2T_62s-OoonWUW5mCPeLA8WOQV-FszQcdurSAtvuYmA,344
+odoo/addons/pos_restaurant_user_restriction/readme/CONTRIBUTORS.rst,sha256=AU2YuMiRqUEb0Ep5pEkHWMfY7bMynl_4PAj8k5hmtLY,37
+odoo/addons/pos_restaurant_user_restriction/readme/DESCRIPTION.rst,sha256=QBfILw6yck4MigmQw_ckWl-hUluF4FRcdfv4zNK-eyQ,109
+odoo/addons/pos_restaurant_user_restriction/security/ir.model.access.csv,sha256=CgjZyR1yPcm0EM-Jx8d73SJBUwcQcHdAtJEYkpZ6RUY,536
+odoo/addons/pos_restaurant_user_restriction/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/pos_restaurant_user_restriction/static/description/index.html,sha256=1MGSz-PoLAieVXtjegg1B7IRqA1ZocWfybKfqibfF2A,12071
+odoo12_addon_pos_restaurant_user_restriction-12.0.1.0.0.99.dev1.dist-info/METADATA,sha256=peKedWtkmmx3rnIthI7xKKGBFHC4gEzjjolSa8oOKyI,3579
+odoo12_addon_pos_restaurant_user_restriction-12.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_pos_restaurant_user_restriction-12.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_pos_restaurant_user_restriction-12.0.1.0.0.99.dev1.dist-info/RECORD,,
