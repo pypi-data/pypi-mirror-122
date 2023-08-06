@@ -1,0 +1,3 @@
+[console_scripts]
+cricNotifier = cricNotifier.main:main
+

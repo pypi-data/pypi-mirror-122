@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+plyer
+PyYAML
+lxml
+coloredlogs
+
+[:sys_platform == "Windows"]
+windows-curses
+win10toast
+
+[:sys_platform == "linux"]
+dbus-python
