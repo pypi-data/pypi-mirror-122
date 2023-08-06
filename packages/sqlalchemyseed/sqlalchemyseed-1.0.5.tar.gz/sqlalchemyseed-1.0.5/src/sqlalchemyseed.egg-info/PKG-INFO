@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: sqlalchemyseed
+Version: 1.0.5
+Summary: SQLAlchemy Seeder
+Home-page: https://github.com/jedymatt/sqlalchemyseed
+Author: Jedy Matt Tabasco
+Author-email: jedymatt@gmail.com
+License: MIT
+Project-URL: Documentation, https://sqlalchemyseed.readthedocs.io/
+Project-URL: Source, https://github.com/jedymatt/sqlalchemyseed
+Project-URL: Tracker, https://github.com/jedymatt/sqlalchemyseed/issues
+Keywords: sqlalchemy,orm,seed,seeder,json,yaml
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: yaml
+Provides-Extra: docs
+License-File: LICENSE
+
+# sqlalchemyseed
+
+[![PyPI](https://img.shields.io/pypi/v/sqlalchemyseed)](https://pypi.org/project/sqlalchemyseed)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sqlalchemyseed)](https://pypi.org/project/sqlalchemyseed)
+[![PyPI - License](https://img.shields.io/pypi/l/sqlalchemyseed)](https://github.com/jedymatt/sqlalchemyseed/blob/main/LICENSE)
+[![Build Status](https://app.travis-ci.com/jedymatt/sqlalchemyseed.svg?branch=main)](https://app.travis-ci.com/jedymatt/sqlalchemyseed)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2ca97c98929b614658ea/maintainability)](https://codeclimate.com/github/jedymatt/sqlalchemyseed/maintainability)
+[![codecov](https://codecov.io/gh/jedymatt/sqlalchemyseed/branch/main/graph/badge.svg?token=W03MFZ2FAG)](https://codecov.io/gh/jedymatt/sqlalchemyseed)
+[![Documentation Status](https://readthedocs.org/projects/sqlalchemyseed/badge/?version=latest)](https://sqlalchemyseed.readthedocs.io/en/latest/?badge=latest)
+
+Sqlalchemy seeder that supports nested relationships.
+
+Supported file types
+
+- json
+- yaml
+- csv
+
+## Installation
+
+Default installation
+
+```shell
+pip install sqlalchemyseed
+```
+
+## Quickstart
+
+```python
+# main.py
+from sqlalchemyseed import load_entities_from_json
+from sqlalchemyseed import Seeder
+from db import session
+
+# load entities
+entities = load_entities_from_json('data.json')
+
+# Initializing Seeder
+seeder = Seeder(session)
+
+# Seeding
+seeder.seed(entities)
+
+# Committing
+session.commit()  # or seeder.session.commit()
+```
+
+## Documentation
+
+<https://sqlalchemyseed.readthedocs.io/>
+
+
