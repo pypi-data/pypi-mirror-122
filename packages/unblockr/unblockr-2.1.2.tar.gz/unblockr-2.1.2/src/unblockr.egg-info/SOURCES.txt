@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/unblockr/__init__.py
+src/unblockr/chrome.py
+src/unblockr/firefox.py
+src/unblockr.egg-info/PKG-INFO
+src/unblockr.egg-info/SOURCES.txt
+src/unblockr.egg-info/dependency_links.txt
+src/unblockr.egg-info/requires.txt
+src/unblockr.egg-info/top_level.txt

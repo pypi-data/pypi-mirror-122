@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: unblockr
+Version: 2.1.2
+Summary: A python package used for creating alternate browsers
+Home-page: UNKNOWN
+Author: Bob Brown
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# About Unblockr
+Unblockr is a python package used to create alternate browsers easily and without much coding knowledge. This can be used to bypass blocking extensions on school chromebooks. This package uses [selenium](https://pypi.org/project/selenium/) and [webbot](https://pypi.org/project/webbot/).
+
+# How To
+Before you begin, I highly recommend making an account on [replit.com](https://replit.com). In my opinion, it is the best site to use with Unblockr. Make an account [here](https://replit.com/signup).
+
+Create a repl in [replit.com](https://replit.com) by clicking the blue `+` button in the top right corner of the main page or by clicking on the menu and selecting **+ Create repl**. You will then be given several options. Select `python` for your repl __template__ and name your repl anything you want. Leave the privacy section as is. Then, click the **+ Create Repl** button and your new repl will open!
+
+To install unblockr, use the pip command `pip install unblockr` in the shell tab. Next, type `from unblockr import firefox` in your `main.py` file.  If you would like to use chrome instead, replace 'firefox' with 'chrome'. `main.py` should be the only file in your repl. Then run the file by click in the **Run** button or typing `CTRL + Enter`, your console should respond with a firefox window. Be sure to wait at least five seconds for the browser to load.
+
+# Errors
+When you receive an error (the text in the console appears in red and the browser doesn't load), try these things before reporting the error:
+* Make sure your first line looks like this: `from unblockr import firefox` or this: `from unblockr import chrome`.
+* Open the 'shell' tab on the right and type `pip install unblockr`. Then press enter.
+* Rerun the repl by pressing the **Run** button at the top or typing `CTRL + Enter`.
+* Reload the page.
+* Make sure the file is named `main.py`.
+
