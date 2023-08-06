@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: incver
+Version: 0.0.1
+Summary: incver - update version numbers
+Home-page: https://github.com/thebjorn/incver
+Author: Bjorn Pettersen
+Author-email: bp@datakortet.no
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+
+incver
+=========
+
+A simple tool to increase the version number of a package in files.
+
+

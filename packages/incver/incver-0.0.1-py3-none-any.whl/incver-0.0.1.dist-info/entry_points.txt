@@ -1,0 +1,3 @@
+[console_scripts]
+incver = incver.incver:incver_cmd
+
