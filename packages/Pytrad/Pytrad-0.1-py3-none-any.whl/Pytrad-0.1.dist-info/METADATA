@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Pytrad
+Version: 0.1
+Summary: Pytrad Python Package
+Home-page: https://github.com/cmu-phil/pytrad
+Author: CLeaR
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: graphviz
+Requires-Dist: statsmodels
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: pygraphviz
+Requires-Dist: networkx
+
+# pytrad
+Python translation (and extension) of the Tetrad java code.
+
+This branch is for organizing. Please feel free to modify anything if you think the organization could be improved, or you would like to integrate/develop any functions/tests.
+
+
