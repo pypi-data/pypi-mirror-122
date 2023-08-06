@@ -1,0 +1,151 @@
+#
+# (c) Copyright 2021 Stonebranch, Inc., All rights reserved.
+#
+# Stonebranch, Inc.
+# Universal Integration Platform Command Line Utility Configuration File
+# {{ UIP_CLI_VERSION }}
+#
+# This configuration file specifies options used by the UIP CLI. The options
+# and their values must be specified in proper YAML format as shown below.
+#
+#
+# 'login' options:
+####################
+# Option: userid
+# Default: None
+#
+#   Used to specify the user id needed to log into the Controller
+#
+#   Examples:
+#     userid: admin
+#
+#
+# Option: url
+# Default: None
+#
+#   Used to specify the url needed to connect to the Controller
+#
+#   Examples:
+#     url: http://localhost:8080/uc
+#
+###############################################################################
+###############################################################################
+#
+# 'init' command options:
+##########################
+# Option: variables
+# Default: None
+#
+#   The 'variables' option is used to configure the starter templates
+#   based on the options provided.
+#
+#   There are two ways to specify the options
+#     - JSON string:
+#     - JSON/YAML file:
+#
+#   JSON string examples:
+#     variables: '{"extension_name": "my_extension"}'
+#
+#   JSON/YAML file examples:
+#     variables: '@test.json'
+#     variables: '@C:\Users\SampleUser\Documents\test.yml'
+#
+###############################################################################
+###############################################################################
+#
+# 'build' command options:
+############################
+# Option: build-all
+# Default: False
+#
+#   The 'build-all' option is used to specify whether a full package build or
+#   only extension build is generated.
+#
+#   There are multiple ways to specify the option:
+#     - True/yes: if specified, full package build will be generated
+#     - False/no: if specified, only extension build will be generated
+#
+#   Note that 'True/yes' and 'False/no' are case-insensitive
+#
+#   Examples:
+#     build-all: false
+#     build-all: yes
+#     build-all: TRUE
+#     build-all: NO
+#
+###############################################################################
+###############################################################################
+#
+# 'upload' command options:
+#############################
+# Option: upload-all
+# Default: False
+#
+#   The 'upload-all' option is used to specify whether the full package or
+#   only extension is uploaded to the Controller. It is expected that the
+#   files to upload are already present/built. See the 'push' command for
+#   a combination of build and upload.
+#
+#   There are multiple ways to specify the option:
+#     - True/yes: if specified, full package upload will be uploaded
+#     - False/no: if specified, only extension upload will be uploaded
+#
+#   Note that 'True/yes' and 'False/no' are case-insensitive
+#
+#   Examples:
+#     upload-all: false
+#     upload-all: yes
+#     upload-all: TRUE
+#     upload-all: NO
+#
+###############################################################################
+###############################################################################
+#
+# 'push' command options:
+###########################
+# Option: push-all
+# Default: False
+#
+#   The 'push-all' option is used to specify whether the full package or
+#   only extension is built AND uploaded to the Controller.
+#
+#   There are multiple ways to specify the option:
+#     - True/yes: if specified, full package will be built and uploaded
+#     - False/no: if specified, only extension will be built and uploaded
+#
+#   Note that 'True/yes' and 'False/no' are case-insensitive
+#
+#   Examples:
+#     push-all: false
+#     push-all: yes
+#     push-all: TRUE
+#     push-all: NO
+#
+###############################################################################
+###############################################################################
+#
+# 'download' command options:
+################################
+# Option: template-name
+# Default: None (name fetched from template.json)
+#
+#   The 'template-name' option is used to specify the name of the Universal
+#   Template to download from the Controller.
+#
+#   Examples:
+#     template-name: sample-1
+#
+###############################################################################
+###############################################################################
+#
+# Configuration Options Section
+#
+###############################################################################
+#
+# userid: <userid>
+# url: <url>
+# variables: <JSON string | JSON/YAML file>
+# build-all: <yes/no>
+# upload-all: <yes/no>
+# push-all: <yes/no>
+# template-name: <name>
