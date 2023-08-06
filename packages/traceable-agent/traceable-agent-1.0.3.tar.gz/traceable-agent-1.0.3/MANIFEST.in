@@ -1,0 +1,3 @@
+include src/traceableai/filter/blocking.h.preprocessed
+include src/traceableai/filter/_blocking.*
+include src/traceableai/filter/libtraceable.so
