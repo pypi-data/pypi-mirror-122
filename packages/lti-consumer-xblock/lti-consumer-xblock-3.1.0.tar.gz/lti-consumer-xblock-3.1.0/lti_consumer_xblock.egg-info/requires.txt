@@ -1,0 +1,14 @@
+django-config-models
+XBlock
+xblock-utils
+lazy
+django
+lxml
+pycryptodomex
+django-filter
+bleach
+jsonfield
+edx-opaque-keys[django]
+mako
+pyjwkest
+oauthlib
