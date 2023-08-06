@@ -1,0 +1,3 @@
+[console_scripts]
+eosio-go = gscdk:run_tinygo
+
