@@ -1,0 +1,7 @@
+django_template_breakpoint/__init__.py,sha256=pxDfK-Z56Q92nF2OJQ6_8kEGKdXlFNGuLWIhF3I6c94,99
+django_template_breakpoint/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_template_breakpoint/templatetags/breakpoint.py,sha256=OpacETF9vMFdiSzhUZsahV28leaa1Se3OLml0EBh5n0,1259
+django_template_breakpoint-0.0.1.dist-info/LICENSE,sha256=Izlpa3wpdCmQukuPClHVSGsrpMXsfQZbpPQ8gK4O1nU,1081
+django_template_breakpoint-0.0.1.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+django_template_breakpoint-0.0.1.dist-info/METADATA,sha256=68Y3bGd2xPB0u-S909uoP48HSIxGNGTMQgChWzE68Jk,1351
+django_template_breakpoint-0.0.1.dist-info/RECORD,,
