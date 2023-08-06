@@ -1,0 +1,5 @@
+colorama==0.4.4
+isodate==0.6.0
+pyparsing==2.4.7
+rdflib==6.0.1
+six==1.16.0
