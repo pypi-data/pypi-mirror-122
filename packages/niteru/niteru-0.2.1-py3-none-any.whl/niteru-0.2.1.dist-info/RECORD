@@ -1,0 +1,11 @@
+niteru/__init__.py,sha256=-Cb-LNLbAg_tBzLXVotkE1AdYoy0YMYkx-2b2w6TgUo,431
+niteru/dataclasses.py,sha256=4VFwf51iKrKiG39G9SHcj0ohxU0wlECD9BcxnjHoBkY,146
+niteru/html_parser.py,sha256=n2cADpp4R7xENWxZ92-R-N04IpLJCPwbJGyxaO2upw8,1064
+niteru/similarity.py,sha256=LY1FKOyXMabgB57-kWHcpDEF_dBegQvkQg57zmSaRzU,2525
+niteru/structural_similarity.py,sha256=U_IWY8leLAY29FH5fKxEBtonwmF4AwzuWvjQ5qfLxO4,1794
+niteru/style_similarity.py,sha256=oKrHxa-qdws8yGekW6SNHahPgMNzRJ3FDw1uKWntldA,1422
+niteru/utils.py,sha256=CLKVnZclGMUgeXXbjsqbChoPVq75V-va4JDcLD-hHk4,118
+niteru-0.2.1.dist-info/LICENSE,sha256=bokiqiC-24jM6MEEf8nVrf0BWzhOp1ggOFuquaGAy8w,1070
+niteru-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+niteru-0.2.1.dist-info/METADATA,sha256=m7Mju0LTTiv29Q3cHjTvxpGWq6pS5lW-YvpOyzR4q7w,2874
+niteru-0.2.1.dist-info/RECORD,,
