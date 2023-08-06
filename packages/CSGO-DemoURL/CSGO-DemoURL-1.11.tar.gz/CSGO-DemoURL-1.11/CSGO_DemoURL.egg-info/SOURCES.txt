@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+CSGO_DemoURL.egg-info/PKG-INFO
+CSGO_DemoURL.egg-info/SOURCES.txt
+CSGO_DemoURL.egg-info/dependency_links.txt
+CSGO_DemoURL.egg-info/top_level.txt
