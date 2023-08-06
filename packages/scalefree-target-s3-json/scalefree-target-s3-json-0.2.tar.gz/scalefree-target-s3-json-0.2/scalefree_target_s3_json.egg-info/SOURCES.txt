@@ -1,0 +1,14 @@
+LICENSE
+README.md
+config.json.sample
+setup.cfg
+setup.py
+scalefree_target_s3_json.egg-info/PKG-INFO
+scalefree_target_s3_json.egg-info/SOURCES.txt
+scalefree_target_s3_json.egg-info/dependency_links.txt
+scalefree_target_s3_json.egg-info/entry_points.txt
+scalefree_target_s3_json.egg-info/requires.txt
+scalefree_target_s3_json.egg-info/top_level.txt
+target_s3_json/__init__.py
+target_s3_json/s3.py
+target_s3_json/utils.py
