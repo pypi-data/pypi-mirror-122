@@ -1,0 +1,6 @@
+__pycache__/
+dist/
+
+output.xbel
+*.whl
+*.tar.gz
