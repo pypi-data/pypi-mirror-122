@@ -1,0 +1,3 @@
+[console_scripts]
+pyrtshm = pyrtshm.__main__:main
+
