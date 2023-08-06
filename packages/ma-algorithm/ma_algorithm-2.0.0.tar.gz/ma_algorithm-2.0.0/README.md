@@ -1,0 +1,2 @@
+This package is a realization of SMA, EMA, SMA with LSTM. You can test the code with this colab here, followed by the instruction offered by the owner:
+https://colab.research.google.com/drive/1jMD5Q8LEO92JfypEzkDA7hziV8pOYAIn?usp=sharing
