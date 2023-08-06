@@ -1,0 +1,17 @@
+README.md
+setup.py
+bin/pycosnippets
+src/pycosnippets/__init__.py
+src/pycosnippets/__main__.py
+src/pycosnippets/cli.py
+src/pycosnippets/gists.py
+src/pycosnippets/pyco.py
+src/pycosnippets/settings.py
+src/pycosnippets/utils.py
+src/pycosnippets.egg-info/PKG-INFO
+src/pycosnippets.egg-info/SOURCES.txt
+src/pycosnippets.egg-info/dependency_links.txt
+src/pycosnippets.egg-info/requires.txt
+src/pycosnippets.egg-info/top_level.txt
+src/pycosnippets/templates/__init__.py
+src/pycosnippets/templates/template.py
