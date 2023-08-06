@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pydorea/__init__.py
+pydorea/auth.py
+pydorea/client.py
+pydorea.egg-info/PKG-INFO
+pydorea.egg-info/SOURCES.txt
+pydorea.egg-info/dependency_links.txt
+pydorea.egg-info/requires.txt
+pydorea.egg-info/top_level.txt
