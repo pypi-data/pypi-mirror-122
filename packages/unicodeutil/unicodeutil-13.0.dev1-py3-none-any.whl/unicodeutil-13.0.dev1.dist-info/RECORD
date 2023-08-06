@@ -1,0 +1,13 @@
+unicodeutil/Blocks.txt,sha256=gagrap_PGpwS9YjXod7Nc6mv3EyslbDrfldueULWwZ8,10346
+unicodeutil/CaseFolding.txt,sha256=mdIx18kWiLvoyozOvML0a1siL4RLq-SCcpW64R4qvl8,82810
+unicodeutil/HangulSyllableType.txt,sha256=ucUVjOlE0v7Ffg5Oy3Fr2r_Dvd5zUl8Xcv4D9how1HM,51346
+unicodeutil/Jamo.txt,sha256=hOrWOSSqp0uYiy6vJUqHMydu0QhjPOLvd6nuHeeBgWI,3237
+unicodeutil/UnicodeData.txt,sha256=vb_7v8itTTptAbWJFRBFjz029xcEIq9Oor7TIRpz6Ls,1851767
+unicodeutil/__init__.py,sha256=izWJllPIM4jKbD6h6FQCrO1AHG4gs-8AQKRJk9q6FUg,780
+unicodeutil/hangulutil.py,sha256=VIQ32Us_qT3aJ5kmz9LVQm_ZdvQm873QkxrA1vWeFWg,10286
+unicodeutil/unicodeutil.py,sha256=mntYB7j03AnZ1zlny-tXJRnYovEi77XdXSva7t6z0Mw,23613
+unicodeutil-13.0.dev1.dist-info/LICENSE,sha256=79HwZ7qGfYkIJ5xBLM8TZfSD6ASyWZtrDOuT1OJQyxM,1082
+unicodeutil-13.0.dev1.dist-info/METADATA,sha256=f0GiGOohX3qcVYHJMnCDUqWLMJM5EhbsNvvGguo5-5c,12127
+unicodeutil-13.0.dev1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+unicodeutil-13.0.dev1.dist-info/top_level.txt,sha256=-DPxV5lh6mYAB2kjIctvjyqDMaH-McWEV_HjXyBl2EY,12
+unicodeutil-13.0.dev1.dist-info/RECORD,,
