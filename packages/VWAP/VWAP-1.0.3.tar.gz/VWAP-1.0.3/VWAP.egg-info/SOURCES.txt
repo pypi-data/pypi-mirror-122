@@ -1,0 +1,13 @@
+README.md
+setup.py
+VWAP.egg-info/PKG-INFO
+VWAP.egg-info/SOURCES.txt
+VWAP.egg-info/dependency_links.txt
+VWAP.egg-info/requires.txt
+VWAP.egg-info/top_level.txt
+vwap/__init__.py
+vwap/data.py
+vwap/portfolio.py
+vwap/signal_figure.py
+vwap/signal_gen.py
+vwap/test.py
