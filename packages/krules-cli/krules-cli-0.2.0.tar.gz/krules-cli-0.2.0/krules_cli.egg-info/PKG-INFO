@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: krules-cli
+Version: 0.2.0
+Summary: KRules command line utility
+Home-page: https://github.com/airspot-dev/krules
+Author: Alberto Degli Esposti
+Author-email: alberto@arispot.tech
+License: Apache Licence 2.0
+Description: # krules-cli
+        
+        This is the KRules command line utility
+        
+        
+Keywords: krules knative kubernetes eventing microservices serverless
+Platform: UNKNOWN

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+krules_cli.egg-info/PKG-INFO
+krules_cli.egg-info/SOURCES.txt
+krules_cli.egg-info/dependency_links.txt
+krules_cli.egg-info/entry_points.txt
+krules_cli.egg-info/requires.txt
+krules_cli.egg-info/top_level.txt
