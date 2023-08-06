@@ -1,0 +1,11 @@
+vqf/__init__.py,sha256=btKycaEryV9JFjaNKxXWaT7TceQ9RNeryPsbUmf3Hus,367
+vqf/pyvqf.py,sha256=gZQh0Qia1jqyvYDTBTvX4swmTGWZM1VVn6wrw2leUNY,331
+vqf/utils.py,sha256=zI30Rin43NjuIu7GXrxmc8NkGsbryUK_75jYjxImSDw,478
+vqf/vqf.cpython-37m-darwin.so,sha256=rb2PYTnu2AsbLI8JuNWNRKMolMP4RIFtN0mz6gsJI7U,72240
+vqf/cpp/vqf.cpp,sha256=nZkatuZoQWfMOQPZwibOqD83GRWmOjlA_-qVkqe57sY,265
+vqf/cpp/vqf.hpp,sha256=3JGxSZAbGWYVLW0iaoWivuWyi_KDHwB60ppoYFSfg_8,403
+vqf/matlab/VQF.m,sha256=PWhi7DcUqOQWKhif999x49wQKUOt80wwGkk-We4EspA,402
+vqf-0.0.1.dist-info/METADATA,sha256=9kg-BRIbNjA1MzbHC4HY1JlGQwddQXiaV5L-mwO5GqE,2225
+vqf-0.0.1.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+vqf-0.0.1.dist-info/top_level.txt,sha256=vdLdC1xq7oxmOIpmuzKm4QfOV76b8DG1L9wsemBGsfs,4
+vqf-0.0.1.dist-info/RECORD,,
