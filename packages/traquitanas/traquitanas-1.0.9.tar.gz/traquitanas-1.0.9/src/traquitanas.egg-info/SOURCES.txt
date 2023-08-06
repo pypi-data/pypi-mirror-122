@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/geo/__init__.py
+src/geo/converts.py
+src/gerador/__init__.py
+src/gerador/traquitana.py
+src/traquitanas.egg-info/PKG-INFO
+src/traquitanas.egg-info/SOURCES.txt
+src/traquitanas.egg-info/dependency_links.txt
+src/traquitanas.egg-info/requires.txt
+src/traquitanas.egg-info/top_level.txt
