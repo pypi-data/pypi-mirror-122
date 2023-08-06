@@ -1,0 +1,10 @@
+coverage==5.5
+coveralls
+networkx
+nose
+numpy
+pandas
+pickle5
+python-libsbml
+pyyaml
+requests
