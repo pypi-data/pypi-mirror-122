@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: finetuner
+Version: 0.0.3.dev4
+Summary: Finetuner allows one to finetune any deep neural network for better embedding on search tasks
+Home-page: https://github.com/jina-ai/finetuner/
+Author: Jina AI
+Author-email: hello@jina.ai
+License: Apache 2.0
+Download-URL: https://github.com/jina-ai/finetuner/tags
+Project-URL: Documentation, https://finetuner.jina.ai
+Project-URL: Source, https://github.com/jina-ai/finetuner/
+Project-URL: Tracker, https://github.com/jina-ai/finetuner/issues
+Description: <p align="center">
+        <img src="https://github.com/jina-ai/finetuner/blob/main/docs/_static/logo-light.svg?raw=true" alt="Finetuner logo: Finetuner allows one to finetune any deep Neural Network for better embedding on search tasks. It accompanies Jina to deliver the last mile of performance-tuning for neural search applications." width="150px">
+        </p>
+        
+        
+        <p align="center">
+        <b>Finetuning any deep neural network for better embedding on neural search tasks</b>
+        </p>
+        
+        
+        ## [Documentation](https://finetuner.jina.ai)
+        
+Keywords: jina cloud-native neural-search query search index elastic neural-network encoding embedding serving docker container image video audio deep-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Unix Shell
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
