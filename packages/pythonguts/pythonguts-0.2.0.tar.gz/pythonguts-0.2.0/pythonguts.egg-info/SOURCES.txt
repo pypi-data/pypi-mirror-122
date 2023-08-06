@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pythonguts/__init__.py
+pythonguts/editpy.py
+pythonguts.egg-info/PKG-INFO
+pythonguts.egg-info/SOURCES.txt
+pythonguts.egg-info/dependency_links.txt
+pythonguts.egg-info/entry_points.txt
+pythonguts.egg-info/requires.txt
+pythonguts.egg-info/top_level.txt
+pythonguts/tests/__init__.py
+pythonguts/tests/test_pythonguts.py
+pythonguts/tests/data/dest.py.in
+pythonguts/tests/data/src.py.in

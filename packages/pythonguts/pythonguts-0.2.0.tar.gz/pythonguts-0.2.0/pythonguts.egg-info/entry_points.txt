@@ -1,0 +1,3 @@
+[console_scripts]
+editpy = pythonguts.editpy:main
+
