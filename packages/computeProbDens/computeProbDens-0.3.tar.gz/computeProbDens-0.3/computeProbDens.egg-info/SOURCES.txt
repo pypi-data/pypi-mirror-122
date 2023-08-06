@@ -1,0 +1,10 @@
+setup.py
+computeProbDens/Binomialdistribution.py
+computeProbDens/Gaussiandistribution.py
+computeProbDens/Generaldistribution.py
+computeProbDens/__init__.py
+computeProbDens.egg-info/PKG-INFO
+computeProbDens.egg-info/SOURCES.txt
+computeProbDens.egg-info/dependency_links.txt
+computeProbDens.egg-info/not-zip-safe
+computeProbDens.egg-info/top_level.txt
