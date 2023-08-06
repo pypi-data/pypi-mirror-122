@@ -1,0 +1,9 @@
+{% block main_content %}
+<div>
+    <form novalidate method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="uuid" value="{{ flow.current_task_record.uuid }}">
+        <button>Submit</button>
+    </form>
+</div>
+{% endblock %}
