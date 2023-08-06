@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tictacpy/__init__.py
+tictacpy/board.py
+tictacpy/errors.py
+tictacpy/game.py
+tictacpy.egg-info/PKG-INFO
+tictacpy.egg-info/SOURCES.txt
+tictacpy.egg-info/dependency_links.txt
+tictacpy.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tictacpy
+Version: 1.0.0
+Summary: Play tic tac toe with friends
+Home-page: https://github.com/ImpassiveMoon03/tictacpy
+Author: Robert Offord
+Author-email: impassivedeveloper@gmail.com
+License: MIT
+Keywords: Tictactoe
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# Tic-Tac-Py
+Tic Tac Py is a simple to use python package to play Tic Tac Toe
+
