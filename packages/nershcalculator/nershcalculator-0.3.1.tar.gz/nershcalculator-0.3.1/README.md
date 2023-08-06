@@ -1,0 +1,90 @@
+# Calculator
+
+> Does basic math operations
+
+Methods :
+
+-   _add_ - Adds the given number to the current number in the calculator memory
+-   _subtract_ - Subtracts the given number from the current number in the calculator memory
+-   _multiply_ - Multiplies current number in the calculator memory by the given number
+-   _divide_ - Divides current number in the calculator memory by the given number
+-   _root_ - Takes the given number root of the current number in the calculator
+-  _reset_ - Resets calculator memory, default: 0
+
+## Installation
+
+```sh
+pip install nershcalculator
+```
+
+## Usage
+
+Addition of numbers:
+
+```python
+>>> from nershcalculator import Calculator
+>>> calculations = Calculator()
+>>> calculations.add(5)
+'5.0'
+>>> calculations.add(10)
+'15.0'
+```
+
+Subtraction of numbers:
+
+```python
+>>> from nershcalculator import Calculator
+>>> calculations = Calculator()
+>>> calculations.subtract(5)
+'-5.0'
+>>> calculations.subtract(10)
+'-15.0'
+```
+
+Number multiplication:
+
+```python
+>>> from nershcalculator import Calculator
+>>> calculations = Calculator(5)
+>>> calculations.multiply(10)
+'50.0'
+>>> calculations.multiply(5)
+'250.0'
+```
+
+Number division:
+
+```python
+>>> from nershcalculator import Calculator
+>>> calculations = Calculator(5)
+>>> calculations.divide(5)
+'1.0'
+>>> calculations.divide(5)
+'0.2'
+```
+
+Taking n root out of a number:
+
+```python
+>>> from nershcalculator import Calculator
+>>> calculations = Calculator(125)
+>>> calculations.root(3)
+'5.0'
+```
+
+Resetting calculator:
+
+```python
+>>> from nershcalculator import Calculator
+>>> calculations = Calculator()
+>>> calculations.add(100)
+'100.0'
+>>> calculations.reset()
+'0.0'
+```
+
+## [Changelog](CHANGELOG.md)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
