@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: loter
+Version: 1.0
+Summary: Optimization Package to phase haplotypes
+Home-page: https://github.com/bcm-uga/Loter
+Author: Thomas Dias-Alves
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+UNKNOWN
+
