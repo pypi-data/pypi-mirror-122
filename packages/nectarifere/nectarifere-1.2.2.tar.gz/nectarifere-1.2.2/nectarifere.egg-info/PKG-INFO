@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nectarifere
+Version: 1.2.2
+Summary: Décorateur pour ambiancer vos codes.
+Home-page: https://github.com/XanAstia/Nectarifere.git
+Author: Xan Astia
+Author-email: xan.astia@live.fr
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Nectarifere
+
+To use this decorator:
+
+    from nectarifere.nectar import nectar
+
+    @nectar
+    def your_function(*args, **kwargs):
+      blabla
+
+
