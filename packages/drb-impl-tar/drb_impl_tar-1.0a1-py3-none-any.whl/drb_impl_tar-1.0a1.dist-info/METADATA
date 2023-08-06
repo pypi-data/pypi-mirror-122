@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: drb-impl-tar
+Version: 1.0a1
+Summary: DRB Tar implementation
+Home-page: https://gitlab.com/drb-python/impl/tar
+Author: GAEL Systems
+Author-email: info@gael.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: drb
+Requires-Dist: drb-impl-file
+
+# tar
+
+Drb implementation for tar container format
+
