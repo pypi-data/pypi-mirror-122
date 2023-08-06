@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/silverbots/__init__.py
+src/silverbots/telegram.py
+src/silverbots.egg-info/PKG-INFO
+src/silverbots.egg-info/SOURCES.txt
+src/silverbots.egg-info/dependency_links.txt
+src/silverbots.egg-info/top_level.txt
