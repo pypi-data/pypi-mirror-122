@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aio-tg-bot
+Version: 0.0.11
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: daveusa31
+License: UNKNOWN
+Project-URL: Source, https://github.com/daveusa31/tg-bot
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+
+UNKNOWN
+
