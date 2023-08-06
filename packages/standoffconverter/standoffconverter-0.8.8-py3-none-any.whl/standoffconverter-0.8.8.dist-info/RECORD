@@ -1,0 +1,10 @@
+standoffconverter/__init__.py,sha256=m8IYD2TeqhdQ4LqJk2CFk6HTwa8RHslpd-88lnlcEsI,57
+standoffconverter/base.py,sha256=DD-K9lXmzhJnshorJPPM6fJ4h1vE19A3uhLKyByg1Ac,8897
+standoffconverter/converters.py,sha256=QdYZekppc1FYv5Sa7GODXzuzFUE6HfGIlAulDHQIbLk,4322
+standoffconverter/standoffs.py,sha256=dJOFipyd81SxX2DFdNS0adJTeJvIywvmvpLpG3m3pvI,11456
+standoffconverter/utils.py,sha256=lYg9vdShZjCIRmp2UET8yhqZSGBs3O1gXlQpDl5RjTA,580
+standoffconverter/views.py,sha256=Gq25mXTQPO8V7DJFLHt62nZyeEf41ajt5Dj9pLeEXH8,6376
+standoffconverter-0.8.8.dist-info/METADATA,sha256=Z2guGgPq65ByW_DOhfe7y4JCg0Ky9dL_e8t-LtRhXqk,333
+standoffconverter-0.8.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+standoffconverter-0.8.8.dist-info/top_level.txt,sha256=d_7aMBazRwSuPEOdnV6q5XOxxOD2rRo6K1NzydMWOSs,18
+standoffconverter-0.8.8.dist-info/RECORD,,
