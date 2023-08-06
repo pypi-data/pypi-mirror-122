@@ -1,0 +1,8 @@
+Pillow
+fuzzywuzzy
+matplotlib
+numpy>=1.20
+opencv-python
+pdf2image
+pytesseract
+python-Levenshtein
