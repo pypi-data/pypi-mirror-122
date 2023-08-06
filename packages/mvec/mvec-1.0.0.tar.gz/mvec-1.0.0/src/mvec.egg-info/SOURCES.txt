@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mvec/__init__.py
+src/mvec/vector.py
+src/mvec.egg-info/PKG-INFO
+src/mvec.egg-info/SOURCES.txt
+src/mvec.egg-info/dependency_links.txt
+src/mvec.egg-info/top_level.txt
