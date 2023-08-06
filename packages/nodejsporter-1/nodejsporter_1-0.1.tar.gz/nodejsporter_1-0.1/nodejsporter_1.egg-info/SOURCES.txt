@@ -1,0 +1,8 @@
+LICENSE
+README.md
+nodejsporter
+setup.py
+nodejsporter_1.egg-info/PKG-INFO
+nodejsporter_1.egg-info/SOURCES.txt
+nodejsporter_1.egg-info/dependency_links.txt
+nodejsporter_1.egg-info/top_level.txt
