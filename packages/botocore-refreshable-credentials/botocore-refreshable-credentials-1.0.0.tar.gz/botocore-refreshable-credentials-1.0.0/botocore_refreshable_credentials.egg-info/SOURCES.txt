@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+botocore_refreshable_credentials/__init__.py
+botocore_refreshable_credentials/session.py
+botocore_refreshable_credentials.egg-info/PKG-INFO
+botocore_refreshable_credentials.egg-info/SOURCES.txt
+botocore_refreshable_credentials.egg-info/dependency_links.txt
+botocore_refreshable_credentials.egg-info/requires.txt
+botocore_refreshable_credentials.egg-info/top_level.txt
+botocore_refreshable_credentials.egg-info/zip-safe
