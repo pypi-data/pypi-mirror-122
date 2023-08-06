@@ -1,0 +1,10 @@
+numpy
+matplotlib
+scipy
+netCDF4
+opencv-python
+rasterio
+utm
+shapely
+simplekml
+palettable

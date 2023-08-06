@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: GEOAkaze
+Version: 0.0.8
+Summary: Geolocation correction using Akaze
+Home-page: UNKNOWN
+Author: Amir Souri
+Author-email: ahsouri@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GEOAkaze
+A computer-vision based algorithm to alleviate the geolocation distortion in satellite images
+
+
