@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: wai.tflite-model-maker
+Version: 0.0.1
+Summary: tflite model maker command-line utilities.
+Home-page: https://github.com/waikato-datamining/tensorflow/tree/master/tflite_model_maker
+Author: Peter Reutemann and TensorFlow Team
+Author-email: fracpete@waikato.ac.nz
+License: Apache 2.0 License
+Description: tflite model maker command-line utilities.
+        
+        Based on Jupyter Notebook located here:
+        
+        https://github.com/tensorflow/tensorflow/blob/7d7cab61b0fe1bf8e01890fda9161c0f0c6e1a1a/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb
+        
+        
+        Changelog
+        =========
+        
+        0.0.1 (2021-10-05)
+        ------------------
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
