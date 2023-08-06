@@ -1,0 +1,3 @@
+[console_scripts]
+markovname=markovname.__main__:main
+
