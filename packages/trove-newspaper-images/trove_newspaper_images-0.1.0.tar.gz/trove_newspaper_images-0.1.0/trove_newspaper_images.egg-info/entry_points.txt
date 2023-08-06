@@ -1,0 +1,3 @@
+[console_scripts]
+trove_newspaper_images.download = trove_newspaper_images.articles:download_images
+
