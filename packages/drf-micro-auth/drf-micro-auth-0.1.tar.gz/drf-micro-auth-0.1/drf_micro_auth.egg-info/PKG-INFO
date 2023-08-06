@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: drf-micro-auth
+Version: 0.1
+Summary: Authentication & Authorization solution in form of micro-service.
+Home-page: UNKNOWN
+Author: Daniel Kusy
+Author-email: daniel.kusy97+dev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE
+
+=======================================
+Django Rest Framework auth microservice
+=======================================
+
+Out-of-the-box solution for AAA services accessible through REST API.
+
+Detailed documentation is in the README.md in main folder.
+
+Quick start
+-----------
+
+1. Add "drf-micro-auth" to INSTALLED_APPS ::
+
+    INSTALLED_APPS = [
+        ...
+        'drf-micro-auth',
+    ]
+
+2. Include the polls URLconf in your project urls.py like this::
+
+    path('drf_micro_auth/', include('drf_micro_auth.urls')),
+
+3. Run ``python manage.py migrate`` to create the polls models.
+
+4. Start the development server and visit http://127.0.0.1:8000/drf_micro_auth/docs/ to explore endpoints.
+
