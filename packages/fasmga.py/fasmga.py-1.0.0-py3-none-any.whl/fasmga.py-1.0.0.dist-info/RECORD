@@ -1,0 +1,10 @@
+fasmga/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+fasmga/client.py,sha256=o8MMMLC261H96ETdeglNZPMVhMahntC19ZhwSeQNHIY,5090
+fasmga/errors.py,sha256=i2w40VqSFqYa5hUXPfP7V3db89vCR_tgF5IaKKKUOtw,327
+fasmga/url.py,sha256=yftRSFIHD8rnpcr0qiG5kyRIQUGBh6thL45EzTJgoNk,607
+fasmga/utils.py,sha256=gppPf1KUECzxCUF1DZN1t4v57oOgLYPYgdxEltHfTBQ,603
+fasmga.py-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fasmga.py-1.0.0.dist-info/METADATA,sha256=jArf5qa3ID8EL3_LwM9MS7MIjEtVZukg10TSq6xbkrQ,871
+fasmga.py-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fasmga.py-1.0.0.dist-info/top_level.txt,sha256=cR-IQAosZnYIcw7Uhf_lZLVCX4msy-nQg7Uso1xjv8E,7
+fasmga.py-1.0.0.dist-info/RECORD,,
