@@ -1,0 +1,105 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ["py39",]
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+import_heading_firstparty = "1st party:"
+import_heading_localfolder = "local:"
+import_heading_stdlib = "Standard library:"
+import_heading_thirdparty = "3rd party:"
+include_trailing_comma = true
+known_local_folder = ["app", "jarpyvscode", "tests",]
+line_length = 88
+multi_line_output = 3
+py_version = "auto"
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER",]
+use_parentheses = true
+
+[tool.mypy]
+allow_redefinition = true
+exclude = "(data/)|(typings/)"
+ignore_missing_imports = true
+mypy_path = "typings"
+show_column_numbers = true
+
+[tool.poetry]
+name = "jarpyvscode"
+version = "0.3.9"
+description = "Python backend for Jamil Raichouni's personal Visual Studio Code Extension jamilraichouni.jarpyvscode"
+authors = ["Jamil Raichouni <raichouni@gmail.com>",]
+maintainers = ["Jamil Raichouni <raichouni@gmail.com>",]
+license = "MIT"
+readme = "README.md"
+documentation = "https://jar1.gitlab.io/jarpyvscode"
+homepage = "https://jar1.gitlab.io/jarpyvscode"
+repository = "https://gitlab.com/jar1/jarpyvscode"
+include = ["LICENSE", "README.md", "pyproject.toml"]
+packages = [
+    {include = "jarpyvscode"},
+    {include = "tests"},
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9.7,<4.0"
+click = "*"
+cookiecutter = "*"
+json5 = "*"
+loguru = "*"
+pandas = "*"
+psutil = "*"
+
+[tool.poetry.dev-dependencies]
+anybadge = "*"
+black = "*"
+doc8 = "*"
+flake8 = "<=3.7"
+flake8-builtins = "*"
+flake8-docstrings = "*"
+flake8-isort = "*"
+flake8-quotes = "*"
+flake8-rst-docstrings = "*"
+flake8-unused-arguments = "*"
+isort = "*"
+jupyter = "*"
+line-profiler = "*"
+mypy = "*"
+notebook = "*"
+pydocstyle = "*"
+pyflakes = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+Sphinx = "*"
+sphinx-autobuild = "*"
+sphinx-rtd-theme = "*"
+toml = "*"
+uvicorn = "*"
+vulture = "*"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+
+[tool.poetry-dynamic-versioning.substitution]
+files = ["*.py", "*/__init__.py", "*/__version__.py", "*/_version.py"]
+patterns = ["(^__version__:\\s*str\\s*=\\s*['\\\"])[^'\\\"]*(['\\\"])"]
+
+[tool.pytest.ini_options]
+addopts = "--cov-config=tox.ini --cov-report=html --cov-report=term --cov-report=xml --cov=app --cov=jarpyvscode --durations=3 --rootdir=. -n6 -vvv"
+testpaths = "tests"
+norecursedirs = ".git docs/build"
+python_files = "test_*.py"
+python_classes = "*Suite"
+python_functions = "test*"
+markers = ["log"]  # Marks tests for the module log.py
+
+[tool.vulture]
+exclude = ["docs", "jarpyvscode/constants.py"]
+ignore_decorators = ["@app.delete", "@app.get", "@app.head", "@app.on_event", "@app.options", "@app.patch", "@app.post", "@app.put", "@app.trace", "@cli.command", "@click.group"]
