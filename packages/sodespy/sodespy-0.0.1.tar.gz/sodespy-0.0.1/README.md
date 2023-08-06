@@ -1,0 +1,122 @@
+# SodesPy
+
+**SodesPy** (**S**tochastic **O**rdinary **D**ifferential **E**quations **S**uite in **P**ython) is a high-performance library for numerically solving stochastic differential equations (SDEs).
+
+**SodesPy** provides many Ito and Stratonovich discretization schemes, an intuitive interface to define SDE systems and the option to solve them using CPU, GPUs or even TPUs.  
+
+With **SodesPy** you can solve, for example, the following (and many more) well known SDEs:
+
+- [Heston Model](https://en.wikipedia.org/wiki/Heston_model). A model for determining the evolution of the volatility of an underlying asset.
+- [Geometric Brownian Motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion). The basic model for stock prices under Black–Scholes framework.
+- [Ornstein Uhlenbeck Process](https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process). A model with applications in mathematical finance and physics.
+- [Affine short rate](https://en.wikipedia.org/wiki/Affine_term_structure_model#:~:text=An%20affine%20term%20structure%20model,to%20a%20spot%20rate%20model.&text=The%20affine%20class%20of%20term,and%20potentially%20additional%20state%20variables). A general class for short rate models.
+- [Stochastic SIR Epidemic Model](https://www.hindawi.com/journals/ijde/2019/9275051/). A compartmental epidemiologic model.
+- [Stochastic Lorenz Attractor](https://link.springer.com/article/10.1007/s10910-013-0293-x). A stochastic form of the classic Lorenz Attractor system.
+
+<!---
+- [Kanai Tajimi Earthquake Model](https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290733-9399%281987%29113%3A8%281119%29)
+-->
+
+
+
+
+Furthermore, **SodesPy** offers the following discretization schemes:
+
+- Classic: 
+  -  [Euler](https://www.springer.com/gp/book/9783540540625). Classical scheme with 0.5 strong convergence and general noise.
+
+
+- Stochastic Runge Kutta (SRK):
+  - [SRA1](https://www.researchgate.net/publication/220179973_Runge-Kutta_Methods_for_the_Strong_Approximation_of_Solutions_of_Stochastic_Differential_Equations). A SRK method of 1.5 strong covergence and aditive noise.
+  - [SRI1W1](https://www.researchgate.net/publication/220179973_Runge-Kutta_Methods_for_the_Strong_Approximation_of_Solutions_of_Stochastic_Differential_Equations). A SRK scheme of 1.5 of strong convergence and scalar noise.
+  
+  <!-- - [SRI1](https://www.researchgate.net/publication/220179973_Runge-Kutta_Methods_for_the_Strong_Approximation_of_Solutions_of_Stochastic_Differential_Equations). Stochastic Runge-Kutta (SRK) method of 1.0 strong convergence and general noise.
+    - [SRID1](https://www.researchgate.net/publication/220179973_Runge-Kutta_Methods_for_the_Strong_Approximation_of_Solutions_of_Stochastic_Differential_Equations). A SRK method of 1.5 strong convergence and diagonal noise.
+  - [SRIC1](https://www.researchgate.net/publication/220179973_Runge-Kutta_Methods_for_the_Strong_Approximation_of_Solutions_of_Stochastic_Differential_Equations). A SRK method of 1.5 strong convergence and commutative noise. -->
+
+<!-- - Derivative based:
+
+  -  [Euler](https://www.springer.com/gp/book/9783540540625). Classical scheme with 0.5 strong convergence and general noise. -->
+  <!-- -  [Log-Euler](https://www.springer.com/gp/book/9783540540625). A 0.5 strong convergence method with scalar noise.
+  -  [Predictor-Corrector1](https://www.springer.com/gp/book/9783540540625). A 1.0 weak convergence method with scalar noise. -->
+
+<!---
+-  ``Milstein-Andersen:``    (Weak 1.0 - Commutative Noise)
+-  ``Milstein-Platen:``      (Strong 1.0 - Commutative Noise)
+-  ``Platen-Wagner:``        (Strong 1.5 - Commutative Noise)
+-  ``Predictor-Corrector2:`` (Weak 2.0 - ?)
+ 
+-->
+  
+# Examples
+ 
+ If you want to define an Euler process you need to define the drift and diffusion functions, the discretization step and the initial condition. Taking this into account, an Euler process input file looks like:
+ 
+ ``` python
+    from sodespy import *
+     
+    scheme = "Euler"
+    noise_type = "Diagonal"
+
+    x0 = [.1, .1]
+    dt = 1 / 252
+
+    paths = 1000
+    tspan = (0.0, 1.0)
+
+    μs = [0.05, 0.044]
+    σs = [0.05, 0.044]
+
+    mu = [lambda x, t: μs[i] * x[i] for i in range(2)]
+    sigma = [lambda x, t: σs[i] * x[i] for i in range(2)]
+
+    sdes = SDESystem(mu, sigma, noise_type, scheme, x0, tspan, dt, paths)
+    sdes.simulate()
+```
+ 
+Another nice example that shows the flexibility of **SodesPy** is the Lorenz attractor, which can be written as:
+
+``` python
+    from sodespy import *
+
+    scheme = "Euler"
+    noise_type = "Diagonal"
+
+    paths = 1
+
+    tspan = (0.0, 20.0)
+    dt = 1 / 252
+
+    x0 = [1.0, 0.0, 0.0]
+
+    α = 10.0
+    β = 28.0
+    γ = 8 / 3
+
+    mu = [lambda x, t: α * (x[1] - x[0]), 
+          lambda x, t: x[0] * (β - x[2]) - x[1], 
+          lambda x, t: x[0] * x[1] - γ * x[2]]
+
+    sigma = [lambda x, t: 10.0, 
+             lambda x, t: 10.0, 
+             lambda x, t: 10.0]
+
+    sdes = SDESystem(mu, sigma, noise_type, scheme, x0, tspan, dt, paths)
+    sdes.simulate()
+ 
+    plt.plot(sdes.solution)
+    plt.show()
+```
+This will plot the beautiful Lorenz attractor:
+
+![Lorenz](https://user-images.githubusercontent.com/29048170/136620344-b577002c-dbb7-4d9a-a0da-a1579b10a76a.png)
+
+
+# Installation
+**SodesPy** can be installed via ```pip install sodespy```
+
+# Author
+**SodesPy** is authored by [mpkuperman](https://github.com/mpkuperman)
+
+# License
+**SodesPy** is distributed under the [GPL-3.0 License](LICENSE).
