@@ -1,0 +1,15 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysent3/__init__.py,sha256=u4QjaNAIaIXJqlMc-PXQ0NgT6243ESI1w5Sv2KZrKOY,55
+pysent3/base.py,sha256=fGSw-yGWAqOUT7Adx1_pM5T0xI6oovk0Ez3slv8tU9M,4935
+pysent3/hiv4.py,sha256=GJy4-gMaHIVKAUiCYHm_MvgRxXt7If01nLstIlQ4YCE,621
+pysent3/lm.py,sha256=ph_VacpJF4ctDDqthyeb2-1tTcEDIgGbaPJt0eLm3jA,638
+pysent3/utils.py,sha256=o28Jn7kDJRjU4hzPnFy8Mv7_RnUr_2QBVDpggvVxr_A,1763
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dict.py,sha256=NGKF-SILS56Uu82SWntJNXuk4K_G-fGEwLTmtAvjHU0,2008
+tests/test_utils.py,sha256=TUaLBKyM-Bu7KcOyMYndbZ6l7V7yRSQP7ORwAJOvJiI,315
+pysent3-0.1.1.dist-info/LICENSE,sha256=Ymrjx6up5-3so6bJMCC_2mWYcbuY5K65Va2isKK9yeA,17987
+pysent3-0.1.1.dist-info/METADATA,sha256=7zvzBZa4sDm_QL3N5jHd5k-b8y49SGMrysSh8W5LOsg,2461
+pysent3-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pysent3-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pysent3-0.1.1.dist-info/top_level.txt,sha256=Uj3NoSCSgWmCKI4sONQ88mD9pKIOkhu6TaoLRuzaE_c,23
+pysent3-0.1.1.dist-info/RECORD,,
