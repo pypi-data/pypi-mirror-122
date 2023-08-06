@@ -1,0 +1,9 @@
+LICENSE
+README.md
+gitignorant.py
+pyproject.toml
+setup.cfg
+gitignorant.egg-info/PKG-INFO
+gitignorant.egg-info/SOURCES.txt
+gitignorant.egg-info/dependency_links.txt
+gitignorant.egg-info/top_level.txt
