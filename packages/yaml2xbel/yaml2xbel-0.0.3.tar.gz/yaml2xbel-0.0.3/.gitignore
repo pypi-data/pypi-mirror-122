@@ -1,0 +1,6 @@
+__pycache__/
+dist/
+
+bookmarks.xbel
+*.whl
+*.tar.gz

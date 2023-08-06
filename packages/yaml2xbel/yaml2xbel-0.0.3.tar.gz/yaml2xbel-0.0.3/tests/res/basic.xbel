@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookmarks.xsl"?>
+<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML"
+		       "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">
+
+<xbel>
+	<folder>
+		<title>Comics</title>
+		<bookmark href="https://xkcd.com">
+			<title>xkcd</title>
+		</bookmark>
+	</folder>
+</xbel>

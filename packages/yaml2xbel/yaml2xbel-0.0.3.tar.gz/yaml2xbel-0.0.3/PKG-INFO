@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: yaml2xbel
+Version: 0.0.3
+Summary: XBEL generator from YAML
+Author-email: Ngô Ngọc Đức Huy <huyngo@disroot.org>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyyaml
+Project-URL: Home, https://sr.ht/~huyngo/yaml2xbel
+
+# XBEL generator from YAML
+
+This generator can generate XBEL for bookmark exchange and storage from YAML
+format.
+
+YAML input:
+
+```yaml
+Comics:
+  xkcd: 'https://xkcd.com'
+  SMBC: 'https://smbc-comics.com'
+  Pepper and Carrot: 'https://www.peppercarrot.com/'
+Specifications:
+  Activity Streams 2.0: 'https://www.w3.org/TR/activitystreams-core/'
+  SMTP: 'https://datatracker.ietf.org/doc/html/rfc5321'
+```
+
+This should generate two folders, "Comics" and "Specifications", with the first
+one containing `https://xkcd.com` bookmarked under title "xkcd" and so on.
+
