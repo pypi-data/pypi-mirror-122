@@ -1,0 +1,7 @@
+dacite
+python-dateutil
+requests
+
+[test]
+coveralls
+pytest
