@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: extract-audio
+Version: 0.31
+Summary: Extract audio from a directory of video files.
+Home-page: https://github.com/zevaverbach/extract-audio
+Author: Zev Averbach
+Author-email: zev@averba.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Installation
+
+```bash
+pip install extract-audio
+```
+
+## Prequisites
+
+ffmpeg
+
+```bash
+$ brew install ffmpeg
+```
+
+# Usage
+
+```bash
+extract <directory full of (only) video files>
+```
+This will produce m4a versions of the video files in that same directory.
+
+
