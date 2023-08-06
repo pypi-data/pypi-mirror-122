@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+delphivcl/__init__.py
+delphivcl/__version__.py
+delphivcl.egg-info/PKG-INFO
+delphivcl.egg-info/SOURCES.txt
+delphivcl.egg-info/dependency_links.txt
+delphivcl.egg-info/top_level.txt
