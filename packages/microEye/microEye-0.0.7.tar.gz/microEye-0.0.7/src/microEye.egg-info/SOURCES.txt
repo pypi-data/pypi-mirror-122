@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/microEye.egg-info/PKG-INFO
+src/microEye.egg-info/SOURCES.txt
+src/microEye.egg-info/dependency_links.txt
+src/microEye.egg-info/top_level.txt
+src/microEye/icons/1024.png
+src/microEye/icons/128.png
+src/microEye/icons/16.png
+src/microEye/icons/256.png
+src/microEye/icons/32.png
+src/microEye/icons/512.png
+src/microEye/icons/64.png
