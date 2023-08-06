@@ -1,0 +1,8 @@
+README.md
+setup.py
+dais/__init__.py
+dais.egg-info/PKG-INFO
+dais.egg-info/SOURCES.txt
+dais.egg-info/dependency_links.txt
+dais.egg-info/top_level.txt
+dais/data/__init__.py
