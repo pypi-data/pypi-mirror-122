@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: statez
+Version: 0.1.0
+Summary: Helps you to build fancy statemachines
+License: GPL-3
+Author: 4thel00z
+Author-email: 4thel00z@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
