@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cima_comutations_factors/__init__.py
+src/cima_comutations_factors/commutations.py
+src/cima_comutations_factors/config.py
+src/cima_comutations_factors_5.egg-info/PKG-INFO
+src/cima_comutations_factors_5.egg-info/SOURCES.txt
+src/cima_comutations_factors_5.egg-info/dependency_links.txt
+src/cima_comutations_factors_5.egg-info/top_level.txt
