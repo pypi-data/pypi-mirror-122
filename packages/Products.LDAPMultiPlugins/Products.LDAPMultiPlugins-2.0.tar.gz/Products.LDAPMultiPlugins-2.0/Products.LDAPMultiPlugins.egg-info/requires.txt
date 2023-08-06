@@ -1,0 +1,14 @@
+setuptools
+Zope2<4
+python-ldap<3
+Products.LDAPUserFolder<3
+Products.PluggableAuthService<2
+
+[docs]
+Sphinx
+sphinx_rtd_theme
+repoze.sphinx.autointerface
+pkginfo
+
+[exportimport]
+Products.GenericSetup<1.9

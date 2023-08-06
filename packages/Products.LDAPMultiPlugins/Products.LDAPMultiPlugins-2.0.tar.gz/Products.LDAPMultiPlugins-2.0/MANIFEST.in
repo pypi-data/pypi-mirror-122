@@ -1,0 +1,13 @@
+include *.py
+include *.rst
+include *.txt
+include buildout.cfg
+
+recursive-include docs Makefile
+recursive-include docs *.rst
+recursive-include docs *.py
+
+recursive-include Products *.dtml
+recursive-include Products *.png
+recursive-include Products *.py
+recursive-include Products *.zcml
