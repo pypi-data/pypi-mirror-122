@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: updated_docs
+Version: 0.1.0
+Summary: A package that checks whether you should update docs.
+Author-email: Mark Harvey <inspiredharvey@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/harvey251/updated-docs
+
+# Updated docs
+
+Checks if docs need to be updated
