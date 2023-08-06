@@ -1,0 +1,11 @@
+sync_ics2gcal/__init__.py,sha256=TGBRPNRvkssEkui8BknXq4Fu7xkbcHoM05u_Id1AZK8,238
+sync_ics2gcal/gcal.py,sha256=8PKBnAHZ6Z9T7-NmipwUmudd5dmz9ZdJfnXzmG9MfRI,11331
+sync_ics2gcal/ical.py,sha256=i2F1XvpjCakpmLk4TKW7kOggQ2uyyrZJB_gg786XZqM,5748
+sync_ics2gcal/manage_calendars.py,sha256=TUVqUieO_uDVKiZcZu-QSau48djEhQUk8CpUGrlPfDc,4569
+sync_ics2gcal/sync.py,sha256=xW066x5uRoDyejIQWp2EF3Af-6xxRiQWni3aeTYYAn4,6840
+sync_ics2gcal/sync_calendar.py,sha256=ln5tXyYfAQQFpRyD7vd739deHY2egols7IcZtsVbN44,1171
+sync_ics2gcal-0.1.3.dist-info/entry_points.txt,sha256=irFmqz6HbxwQXeXkyqeHbcCaKILl6vhdCqrxSOFVcUQ,118
+sync_ics2gcal-0.1.3.dist-info/LICENSE,sha256=F3ZuFkBdu_d8MMkkMqrK8ytUJY3IdVUZowwq30Y7AyE,1092
+sync_ics2gcal-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sync_ics2gcal-0.1.3.dist-info/METADATA,sha256=9ffSqFmm6tn7JvPliZqSX8pFcFuaGouCZZcw9Tdy4aU,4184
+sync_ics2gcal-0.1.3.dist-info/RECORD,,
