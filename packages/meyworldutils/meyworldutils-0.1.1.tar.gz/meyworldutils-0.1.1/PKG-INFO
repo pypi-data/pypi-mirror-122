@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: meyworldutils
+Version: 0.1.1
+Summary: A collection of functionalities used throughout my career.
+Home-page: https://github.com/PieterMey/meyworldutils
+Author: Pieter Meyer
+Author-email: meyerpieter.ds@gmail.com
+License: Apache License 2.0
+Description: A list of personal functionalities used throughout my career.
+        
+        Each functionality will be short and have a single purpose.
+        
+        Firstly, I will list each functionality with a one sentence description. Following each functionality will be demonstrated along with an example and output. 
+        
+        Enjoy.
+        
+        **Description**:
+        
+        - split_x_into_n: Splits two variables into a list of n parts from [0, ..., x] 
+        
+        - count_occurence:
+        
+        
+        **Examples**:
+        
+        - **split_x_into_n**:
+        
+        split(10, 5)
+        
+        output: [0, 2, ,4, 6, 8, 10]
+        
+        split(10, 5, include_zero=False)
+        
+        output: [2, 4, 6, 8, 10]
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
