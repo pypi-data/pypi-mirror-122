@@ -1,0 +1,6 @@
+MyZip.py
+setup.py
+lzy_MyZip.egg-info/PKG-INFO
+lzy_MyZip.egg-info/SOURCES.txt
+lzy_MyZip.egg-info/dependency_links.txt
+lzy_MyZip.egg-info/top_level.txt
