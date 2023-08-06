@@ -1,0 +1,10 @@
+typed_cap/__init__.py,sha256=Aq5Mo8mIgNzSC_503lmza0WxA7tiJxUR83sNiyYXn-s,50
+typed_cap/cap.py,sha256=HFelv-RTWRTJRytz0Nk5scqslapDmMyewd7gRhgNkPc,15707
+typed_cap/parser.py,sha256=CtFz2tcgyxJwVCaP1xtI-nwDc-gg0MnneHlOr87tWtc,1546
+typed_cap/types.py,sha256=l6omFpnGcGWBKlib_r2SeVfgwyg44kH75OFNLtQxOzg,2415
+typed_cap/utils.py,sha256=xiwaOzkhAJRs2XwSE_MmxuTG3s6LZ_h5dmns8r7aGbc,7972
+typed_cap-0.1.0.dist-info/LICENSE,sha256=DXXE05enKFeJ6JY5AaEfbP7F08cxjm4_r4wcpZrZ__U,1065
+typed_cap-0.1.0.dist-info/METADATA,sha256=ci9R6lM1rWEmsS60oyqX0HHCGQCIpZz3-PaaSY7u-0I,7299
+typed_cap-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+typed_cap-0.1.0.dist-info/top_level.txt,sha256=PDdhv4dkP5lSl_xohNHrRNBltW1m2qw_RwyDDISizxE,10
+typed_cap-0.1.0.dist-info/RECORD,,
