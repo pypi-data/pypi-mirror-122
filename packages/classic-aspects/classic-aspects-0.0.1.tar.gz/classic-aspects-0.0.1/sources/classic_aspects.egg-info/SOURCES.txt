@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sources/classic/aspects/__init__.py
+sources/classic/aspects/points.py
+sources/classic_aspects.egg-info/PKG-INFO
+sources/classic_aspects.egg-info/SOURCES.txt
+sources/classic_aspects.egg-info/dependency_links.txt
+sources/classic_aspects.egg-info/requires.txt
+sources/classic_aspects.egg-info/top_level.txt
