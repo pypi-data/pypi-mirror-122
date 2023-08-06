@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+shapaclass/model.py
+shapaclass.egg-info/PKG-INFO
+shapaclass.egg-info/SOURCES.txt
+shapaclass.egg-info/dependency_links.txt
+shapaclass.egg-info/requires.txt
+shapaclass.egg-info/top_level.txt
