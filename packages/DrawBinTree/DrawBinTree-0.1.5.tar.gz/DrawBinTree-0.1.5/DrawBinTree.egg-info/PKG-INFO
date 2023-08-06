@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: DrawBinTree
+Version: 0.1.5
+Summary: draw binary tree by matplotlib
+Home-page: https://github.com/jim0575/desktop-tutorial
+Author: james
+Author-email: jim0575@qq.com
+License: MIT Licence
+Keywords: pip,binary,tree
+Platform: any
+
+draw binary tree by matplotlib with three methods:
+
+			draw_full_tree(["A","B","C","D","",'F'])
+
+			draw_link_tree([['A',1,2],['B',3,-1],['C',4,5],['D',-1,-1],['F',-1,-1],['G',-1,-1]])
+
+			draw_list_tree(listtree=['A',['B',['C',None,None],None],['D',['F',None,None],None]])
+			
+
