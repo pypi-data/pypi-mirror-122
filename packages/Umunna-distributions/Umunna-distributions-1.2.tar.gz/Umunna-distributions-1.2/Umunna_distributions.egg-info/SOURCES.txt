@@ -1,0 +1,10 @@
+setup.py
+Umunna-distributions/Binomialdistribution.py
+Umunna-distributions/Gaussiandistribution.py
+Umunna-distributions/Generaldistribution.py
+Umunna-distributions/__init__.py
+Umunna_distributions.egg-info/PKG-INFO
+Umunna_distributions.egg-info/SOURCES.txt
+Umunna_distributions.egg-info/dependency_links.txt
+Umunna_distributions.egg-info/not-zip-safe
+Umunna_distributions.egg-info/top_level.txt
