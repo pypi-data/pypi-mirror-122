@@ -1,0 +1,3 @@
+[console_scripts]
+django-serve = django_serve.main:run
+
