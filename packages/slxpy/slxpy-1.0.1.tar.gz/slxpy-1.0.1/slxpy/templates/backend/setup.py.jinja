@@ -1,0 +1,31 @@
+{%- from "prelude.jinja" import sources, headers, module with context -%}
+import setuptools, pybind11.setup_helpers, pathlib
+
+PROJECT_ROOT = pathlib.Path(__file__).parent
+
+extensions = [
+  pybind11.setup_helpers.Pybind11Extension(
+    name="{{ module.name }}",
+    sources=[
+      {% for source in sources -%}
+        str(PROJECT_ROOT / "model" / "{{source}}"),
+      {% endfor %}
+      str(PROJECT_ROOT / "module.cc"),
+    ],
+    include_dirs=[
+      str(PROJECT_ROOT / "include"),
+      str(PROJECT_ROOT / "model"),
+    ],
+    define_macros=[
+    {{"  "}}("FMT_HEADER_ONLY", None),
+    {{"  "}}("PORTABLE_WORDSIZES", None),
+    {{"  "}}("SLXPY_EXTENSION_NAME", "{{ module.name }}"),
+    {% if module.version|length > 0 -%}{{"  "}}("SLXPY_EXTENSION_VERSION", "{{ module.version }}"),{% endif %}
+    {% if module.author|length > 0 -%}{{"  "}}("SLXPY_EXTENSION_AUTHOR", "{{ module.author }}"),{% endif %}
+    {% if module.license|length > 0 -%}{{"  "}}("SLXPY_EXTENSION_LICENSE", "{{ module.license }}"),{% endif -%}
+    ],
+    cxx_std=17,
+  )
+]
+
+setuptools.setup(ext_modules=extensions)
