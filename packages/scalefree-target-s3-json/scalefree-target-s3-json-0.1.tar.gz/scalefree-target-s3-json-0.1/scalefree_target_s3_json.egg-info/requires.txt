@@ -1,0 +1,9 @@
+pipelinewise-singer-python==1.*
+inflection==0.5.1
+boto3==1.17.39
+
+[test]
+pylint==2.10.*
+pytest==6.2.*
+pytest-cov==2.12.*
+nose==1.3.7
