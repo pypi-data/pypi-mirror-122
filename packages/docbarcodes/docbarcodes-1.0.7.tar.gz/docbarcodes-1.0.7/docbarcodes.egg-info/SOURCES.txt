@@ -1,0 +1,40 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+data/2021_LA_756.1234.5678.97_Musterfrau_Tamara_01_12-B.pdf
+data/2021_LA_756.1234.5678.97_Musterfrau_Tamara_01_12.pdf
+data/ZH Tax Sample - Formular 1.ptax20.pdf
+data/ZH Tax Sample - Formular 1.ptax20.pdf.barcodes_combined.yml
+data/ZH Tax Sample - Formular 1.ptax20.pdf.barcodes_combined_jype.yml
+data/ZH Tax Sample - Formular 1.ptax20.pdf.barcodes_raw.yml
+data/ZH Tax Sample - Formular 1.ptax20.pdf.barcodes_raw_jpype.yml
+data/drivers-license new york.jpg
+data/drivers-license new york.jpg.barcodes_combined.yml
+data/drivers-license new york.jpg.barcodes_raw.yml
+data/drivers-license-Sample.FL.DL.PDF
+data/pdf417-metadata.png
+data/swiss-payment-ig-qr-bill-en.pdf
+data/swiss_qr_bill_en_sample.pdf
+data/swiss_qr_bill_en_sample.png
+data/salary_swissdec/SalarySinglePage.pdf
+docbarcodes/__init__.py
+docbarcodes/cli.py
+docbarcodes/convertpdf.py
+docbarcodes/detect.py
+docbarcodes/extract.py
+docbarcodes.egg-info/PKG-INFO
+docbarcodes.egg-info/SOURCES.txt
+docbarcodes.egg-info/dependency_links.txt
+docbarcodes.egg-info/entry_points.txt
+docbarcodes.egg-info/requires.txt
+docbarcodes.egg-info/top_level.txt
+docbarcodes/zxing/__init__.py
+docbarcodes/zxing/ex_zxing.py
+docbarcodes/zxingjpype/__init__.py
+docbarcodes/zxingjpype/extract.py
+docbarcodes/zxingjpype/zxingreader.py
+docbarcodes/zxingjpype/jars/__init__.py
+docbarcodes/zxingjpype/jars/core-3.4.1.jar
+docbarcodes/zxingjpype/jars/javase-3.4.1.jar
