@@ -1,0 +1,15 @@
+DataTransfer/DataManager.py,sha256=SNekQDshCCwkpEnMrLLgwYBJvK0vDlZvEVOjm5nd0YU,4583
+DataTransfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DataTransfer/data_transfer.py,sha256=YQvo63A5vBNl5LicrJ6_hwq_zzbCj3-SDypKQQplcE8,4322
+DataTransfer/main.py,sha256=WnMQz_uK551kMqXd015C-ggfbd3U7B_C_Gv2I8bS6Is,1383
+Server/ErrorHandler.py,sha256=Is9spwJBZhp4J-wdTN19H_jFhPiiELpDAW0SrQYkA5k,2660
+Server/ServerHandler.py,sha256=9kuuEyJxsmTeU0eBg0WsWsund9T7yJ_u1npfU4slTt4,1571
+Server/ServerMain.py,sha256=cIMAgupXMQnuDPJDajuBAHDJPj9_rc3FyI47OK7G51w,1744
+Server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TestID/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TestID/newTest.py,sha256=P1aUjcPZYCLlAV6-BpO_0RuEZLQjSpwmJw99jNvR95c,1631
+TestID/test_id.py,sha256=4AITRHmih0y6hUgA9vnzIAOi7F4CZpKNSyhXmtVIoPY,5915
+HALdata-0.1.22.dist-info/METADATA,sha256=FMOLiQ6_fimGQesrGWU3H5Cm6_K5JZ-a9OOArXrefw4,2049
+HALdata-0.1.22.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+HALdata-0.1.22.dist-info/top_level.txt,sha256=3dSRxPuoA-jjD1CdkLHeVqT_xsaa3O1Xde65LGbIVrE,27
+HALdata-0.1.22.dist-info/RECORD,,
