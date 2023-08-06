@@ -1,0 +1,10 @@
+fscacher/__init__.py,sha256=Cg_RhkiY5FUqBVlZLAOTshXummp61VOALeskhyOJyQ0,415
+fscacher/_version.py,sha256=rj2Z5y5YbTtBNsKhu0vFY6OW3QygmeZOwcRcvp7O3Rk,497
+fscacher/cache.py,sha256=PEtM0wh7w0pTH7LAO-jZv1UqhomWa8ZG7YuU2TCU2KU,7329
+fscacher/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fscacher/tests/test_cache.py,sha256=XgWW8Sg3MKiah5C-WV-P2QSBdcwpGJAXcf_mL8gOQsQ,11566
+fscacher-0.1.6.dist-info/LICENSE,sha256=yFEZ9XeDJp4QsnneQkb3G-iLPvh35a8nxNRZEBBR4tM,1090
+fscacher-0.1.6.dist-info/METADATA,sha256=5nBfPyhSoSEAGwe-qbH7BsgDSpa7Gp0zPft9PTj8-W0,4755
+fscacher-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fscacher-0.1.6.dist-info/top_level.txt,sha256=V5d5x_G7tLaTqnezOu6v16NH3UqCT3mj8mX2L_C3_q4,9
+fscacher-0.1.6.dist-info/RECORD,,
