@@ -1,0 +1,14 @@
+pydoer/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+pydoer/commands.py,sha256=zCP1qtE1J-KRFzK6CxLiwOAfhqCRA3035s_qubo7yLg,3351
+pydoer/doerrc,sha256=OClkx9eyyLB5_MMfkZB2IuA9bGyGHjCRQuk4dE52jnU,3945
+pydoer/menu_creator.py,sha256=y1ZY8dWihLtoyU32nHgTSQ2ExdlD7-SmNkAqfCksuFI,11374
+pydoer/notification.py,sha256=OAzgv1EVn1XRwlj-saqqcIlKL5qdvdZgo3kZFKkoG6Y,3167
+pydoer/subclass_registry.py,sha256=XIipKLjWLHpt3UdzREJ2DPGihgVLJtvovYHA-2fzreA,3846
+pydoer/terminal_spawner.py,sha256=zMqGMuFrL5aaJkWljeaEFsQxNGjRuvRQ0TDx8BMmnhg,3255
+pydoer/windows.py,sha256=e_If8vAQXuz_7GFhR8afGCwQQjsbOu6xSVKMSGhZElI,2319
+pydoer-1.0.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pydoer-1.0.0.dist-info/METADATA,sha256=4Aic6dDOPUHseqwHJgvbHFLtKmZirMe5QTZq-4u95-o,6065
+pydoer-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydoer-1.0.0.dist-info/entry_points.txt,sha256=kfMdoEVNm4t7EB62RcyNwfkJa-XoBhMYaGlLk6xKNao,52
+pydoer-1.0.0.dist-info/top_level.txt,sha256=9PK7Tt3tMfsdTOFpArVCTnA4uvngutIK9naLkMBCBGM,7
+pydoer-1.0.0.dist-info/RECORD,,
