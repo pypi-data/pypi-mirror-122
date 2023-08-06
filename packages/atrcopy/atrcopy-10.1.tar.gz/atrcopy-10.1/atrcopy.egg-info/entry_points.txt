@@ -1,0 +1,3 @@
+[sawx.loaders]
+atrcopy = atrcopy.omnivore_loader
+
