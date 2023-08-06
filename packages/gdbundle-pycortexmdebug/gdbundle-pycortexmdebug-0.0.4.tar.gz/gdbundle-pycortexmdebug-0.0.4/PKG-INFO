@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gdbundle-pycortexmdebug
+Version: 0.0.4
+Summary: gdbundle wrapper for PyCortexMDebug
+Author: Tyler Hoffman
+Author-email: tyler@memfault.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: gdbundle (>=0.0.3,<0.1.0)
