@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: musicnet
+Version: 1.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: SpryGorgon
+Author-email: sprygorgon@mail.ru
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: librosa (>=0.8.1)
+Requires-Dist: joblib (>=1.0.1)
+Requires-Dist: scikit-learn (>=0.23.2)
+Requires-Dist: ipython (>=7.24.1)
+
+UNKNOWN
+
