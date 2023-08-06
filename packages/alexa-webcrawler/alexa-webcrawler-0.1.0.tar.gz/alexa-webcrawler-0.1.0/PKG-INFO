@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: alexa-webcrawler
+Version: 0.1.0
+Summary: 
+Author: Jonathan Liew
+Author-email: jonathan200934@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Alexa Webcrawler
+
+A CLI tool to show top website in different country from Alexa
+
