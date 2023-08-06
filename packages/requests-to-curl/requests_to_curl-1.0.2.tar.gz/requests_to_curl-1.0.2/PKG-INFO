@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: requests_to_curl
+Version: 1.0.2
+Summary: Library to convert python requests object to curl command.
+Home-page: https://github.com/ritajie/requests_to_curl
+Author: Deer
+Author-email: 1551755561@qq.com
+License: MIT License
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+
+UNKNOWN
+
