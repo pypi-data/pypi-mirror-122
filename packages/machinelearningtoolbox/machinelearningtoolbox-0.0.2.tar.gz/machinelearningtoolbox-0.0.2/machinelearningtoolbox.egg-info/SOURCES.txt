@@ -1,0 +1,11 @@
+setup.py
+machinelearningtoolbox/__init__.py
+machinelearningtoolbox/add.py
+machinelearningtoolbox/subtract.py
+machinelearningtoolbox.egg-info/PKG-INFO
+machinelearningtoolbox.egg-info/SOURCES.txt
+machinelearningtoolbox.egg-info/dependency_links.txt
+machinelearningtoolbox.egg-info/top_level.txt
+machinelearningtoolbox/extras/__init__.py
+machinelearningtoolbox/extras/divide.py
+machinelearningtoolbox/extras/multiply.py
