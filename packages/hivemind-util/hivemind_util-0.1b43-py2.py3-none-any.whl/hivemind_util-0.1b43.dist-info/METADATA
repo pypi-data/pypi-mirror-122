@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: hivemind-util
+Version: 0.1b43
+Summary: A simple wrapper for the Hivemind API
+Home-page: https://bitbucket.org/hvmd/hivemind.utility
+Author: Hivemind
+Author-email: support@hvmd.io
+License: UNKNOWN
+Download-URL: https://bitbucket.org/hvmd/hivemind.utility/get/master.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas (>=0.23.4)
+
+# Hivemind utility functions
+
+These functions provide lightweight wrappers around the Hivemind API calls.
+
+They handle construction of HTTP requests, pagination of results, and the pairing up of output data with corresponding input data. Apart from that they do nothing complicated at all, and can be used as a template for constructing your own more complicated API calls.
+
+Version history can be viewed at [HISTORY.md](https://bitbucket.org/hvmd/hivemind.utility/src/master/HISTORY.md).
+
+Example usage:
+```
+>>> from hivemindutil import hm
+>>> hm.help('dataset')
+- getDatasetRows(datasetId, baseUrl, apiKey, queries=[])
+Returns Dataset Rows for a dataset in the workflows tab.  Queries can be supplied as a list of strings where each string defines a (1) key path, (2) logical comparison and (3)value (e.g. "metadata.timestamp=2021-01-01" or "data.path.to.my.key>=0").
+
+
+- getDatasetRow(datasetId, baseUrl, apiKey, datasetRowId)
+Returns a specified row of a dataset.
+
+
+- deleteDatasetRows(datasetId, baseUrl, apiKey, datasetRowIds=[], allRows=False, raiseForStatus=True)
+Deletes specified rows in a dataset.  If allRows is set to True, the values passed to datasetRowIds are ignored, and all dataset rows are identified and deleted.
+
+
+- addDatasetRows(datasetId, baseUrl, apikey, rowsData=[])
+Bulk add rows to a dataset.  The value of rowsData should be a list of dictionaries of the rows data.
+
+
+- addDatasetRow(datasetId, baseUrl, apiKey, rowData={})
+Add a single row to a dataset.  Value for rowData should be the dictionary of the row data object.
+
+>>> r = addDatasetRow(1, 'https://studio.lambda.hvmd.io', 'API-XXXXXXXXXXXXXXXXXXXXXXXX', rowData={'foo': 'bar'})
+>>> r
+{
+  'data': {
+    'datasetRowId': 1,
+    'datasetId': 1,
+    'data': {'foo': 'bar'},
+    'metadata': {'creator': {'id': 0, 'type': 'User'},
+      'upstream': [],
+      'timestamp': '2021-08-10T15:26:47.2433333Z',
+      'sequenceId': 1,
+      'version': 1
+    }
+  }
+}
+```
+
