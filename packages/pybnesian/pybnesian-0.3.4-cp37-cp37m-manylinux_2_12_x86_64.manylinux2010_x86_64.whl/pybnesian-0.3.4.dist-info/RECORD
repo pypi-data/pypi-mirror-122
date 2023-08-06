@@ -1,0 +1,9 @@
+pybnesian.libs/libOpenCL-fe1c1827.so.1.0.0,sha256=XYf5w26BMVve9xsTDqTrf-gKBJhOxXBwX7EZWfW1pvI,131400
+pybnesian.libs/libarrow-05f0dbd9.so.500,sha256=HvOy5Gl34MfK0a_mdSBJSA4FIMnG81KgFO0rdfSR4RU,41542720
+pybnesian.libs/libarrow_python-1a35b8ce.so.500,sha256=wlJgryj6mF87b9mUdA9mSOlVzNhX4TRChmBgLMf0t-Y,2375504
+pybnesian/__init__.cpython-37m-x86_64-linux-gnu.so,sha256=tjUPx4uLfSQbZZnwi02vFjMGUicFfMryXv80eNW6buQ,10911112
+pybnesian-0.3.4.dist-info/WHEEL,sha256=684jcLQRpJoXoMsMBxhCs8WuIMcNZzUYWrb2O8fqOGc,150
+pybnesian-0.3.4.dist-info/top_level.txt,sha256=h0Vi1zXCf7qvMZ89TshMcmELANmiRxYEr9ldpOk8woc,10
+pybnesian-0.3.4.dist-info/METADATA,sha256=rJVLPjiIwA2ldK2QgUiAkKG5SYF6Kd0KaWhfXYU0wBg,10780
+pybnesian-0.3.4.dist-info/LICENSE,sha256=k1hsnDO7Twm_uc_DytZo2_eluvq3KrNvNegfvNZqVmQ,1052
+pybnesian-0.3.4.dist-info/RECORD,,
