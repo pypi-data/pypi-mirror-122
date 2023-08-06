@@ -1,0 +1,10 @@
+README.md
+setup.py
+pinyin/__init__.py
+pinyin/__main__.py
+pinyin/pinyin.py
+pinyin3k.egg-info/PKG-INFO
+pinyin3k.egg-info/SOURCES.txt
+pinyin3k.egg-info/dependency_links.txt
+pinyin3k.egg-info/entry_points.txt
+pinyin3k.egg-info/top_level.txt

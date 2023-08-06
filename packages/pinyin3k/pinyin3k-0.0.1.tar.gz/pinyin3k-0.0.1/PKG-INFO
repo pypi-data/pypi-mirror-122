@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pinyin3k
+Version: 0.0.1
+Summary: pinyin and TTL for Chinese learning
+Home-page: UNKNOWN
+Author: Yonghang Wang
+Author-email: wyhang@gmail.com
+License: Apache 2
+Description: UNKNOWN
+Keywords: pinyin
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
