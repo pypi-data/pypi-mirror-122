@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: roughrider.token
+Version: 0.1
+Summary: Token utilities
+Home-page: https://github.com/HorsemanWSGI/roughrider.token
+Author: Souheil CHELFOUH
+Author-email: trollfot@gmail.com
+License: ZPL
+Download-URL: http://pypi.python.org/pypi/roughrider.token
+Description: roughrider.token
+        ****************
+        
+        Utilities to generate and verify tokens (autodeprecating or not).
+        
+        Currently implemented :
+        
+          - Time-based One-time Password (TOTP)
+        
+        
+        TOTP Example
+        ============
+        
+        Below is an example of a token based on TOTP, self-deprecating after
+        a given number of seconds
+        
+        
+        .. code-block:: python
+        
+          from roughrider.token.hmac_factories import TOTTokenFactory
+        
+          factory = TOTTokenFactory(secret=b'secret', TTL=180)  # 3 min TTL
+          token = factory.generate('my word')
+          assert factory.challenge(token, 'my word') is True
+          assert factory.challenge(token, 'my other word') is False
+        
+        CHANGES
+        =======
+        
+        0.1 (2021-10-09)
+        ----------------
+        
+          * Initial release.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: test
