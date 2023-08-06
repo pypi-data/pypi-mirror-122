@@ -1,0 +1,14 @@
+redex>=0.1
+flax>=0.3
+einops>=0.3
+tensorflow>=2.6
+
+[development]
+numpy
+pylint==2.10
+
+[docs]
+sphinx
+furo
+nbsphinx
+ipykernel
