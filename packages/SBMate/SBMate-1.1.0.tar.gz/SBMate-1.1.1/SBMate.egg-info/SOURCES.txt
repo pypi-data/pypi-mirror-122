@@ -1,0 +1,17 @@
+README.md
+setup.py
+SBMate/__init__.py
+SBMate/constants.py
+SBMate/dag_analyzer.py
+SBMate/metric_calculator.py
+SBMate/sbmate.py
+SBMate/sbml_annotation.py
+SBMate/uniprot_kegg_analyzer.py
+SBMate.egg-info/PKG-INFO
+SBMate.egg-info/SOURCES.txt
+SBMate.egg-info/dependency_links.txt
+SBMate.egg-info/requires.txt
+SBMate.egg-info/top_level.txt
+knowledge_resources/chebi_graph.gpickle
+knowledge_resources/go_graph.gpickle
+knowledge_resources/sbo_graph.gpickle
