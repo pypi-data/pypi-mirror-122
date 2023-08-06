@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Image_Extract_from_URLs.egg-info/PKG-INFO
+Image_Extract_from_URLs.egg-info/SOURCES.txt
+Image_Extract_from_URLs.egg-info/dependency_links.txt
+Image_Extract_from_URLs.egg-info/entry_points.txt
+Image_Extract_from_URLs.egg-info/top_level.txt
+image_extract_from_urls/__init__.py
+image_extract_from_urls/__main__.py
+image_extract_from_urls.egg-info/PKG-INFO
+image_extract_from_urls.egg-info/SOURCES.txt
+image_extract_from_urls.egg-info/dependency_links.txt
+image_extract_from_urls.egg-info/entry_points.txt
+image_extract_from_urls.egg-info/top_level.txt
