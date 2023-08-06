@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chromedriverversion
+Version: 0.3.0
+Summary: Python Module to Download and Extract the Appropriate Version of ChromeDriver for your installed Version of Chrome
+License: GPLv3
+Author: Roby Culver
+Author-email: robyculver@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: packaging (>=21.0,<22.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/robyculver/chromedriver_version_finder/issues

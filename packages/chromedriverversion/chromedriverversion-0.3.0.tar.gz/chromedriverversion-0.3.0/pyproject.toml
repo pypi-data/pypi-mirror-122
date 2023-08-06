@@ -1,0 +1,31 @@
+[project]
+
+description = "Python Module to Download and Extract the Appropriate Version of ChromeDriver for your installed Version of Chrome, it's been tested on MacOS and Windows 10/Server 2012, 2016, and 2019.  Features to come for ubuntu and other linux installations"
+repository = "https://github.com/robyculver/chromedriver_version_finder"
+homepage = "https://github.com/robyculver/chromedriver_version_finder"
+documentation = "https://github.com/robyculver/chromedriver_version_finder"
+readme = "README.md"
+keywords = ["chromedriver", "chrome", "selenium tests"]
+
+[tool.poetry]
+name = "chromedriverversion"
+version = "0.3.0"
+description = "Python Module to Download and Extract the Appropriate Version of ChromeDriver for your installed Version of Chrome"
+authors = [
+	"Roby Culver <robyculver@gmail.com>"
+]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+packaging = "^21.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/robyculver/chromedriver_version_finder/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
