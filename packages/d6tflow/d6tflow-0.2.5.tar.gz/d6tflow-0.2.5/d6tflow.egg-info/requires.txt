@@ -1,0 +1,12 @@
+luigi>=3.0.1
+pandas
+pyarrow
+d6tcollect>=1.0.6
+
+[dask]
+toolz
+dask[dataframe]
+
+[pipe]
+d6tpipe
+jinja2
