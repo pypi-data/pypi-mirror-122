@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+tiny_algos/__init__.py
+tiny_algos/minmultiset.py
+tiny_algos/mod_arithmetic.py
+tiny_algos/multiset.py
+tiny_algos.egg-info/PKG-INFO
+tiny_algos.egg-info/SOURCES.txt
+tiny_algos.egg-info/dependency_links.txt
+tiny_algos.egg-info/top_level.txt
