@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+from typing import Any, Mapping
+
+from patchwork import core
+from patchwork.core.utils import cached_property
+
+
+class Context:
+    def __init__(self, worker: 'PatchworkWorker', task: core.Task, receiver: core.AsyncSubscriber):
+        self.worker = worker
+        self.task = task
+        self.receiver = receiver
+
+    @cached_property
+    def publishers(self) -> Mapping[str, core.AsyncPublisher]:
+        return self.worker.publishers
+
+    @property
+    def payload(self):
+        return self.task.payload
+
+
+class Dependency:
+
+    def resolve(self, ctx):
+        raise NotImplementedError()
+
+
+class Depends(Dependency):
+
+    def __init__(self, call):
+        self.call = call
+
+    def resolve(self, ctx):
+        return self.call()
+
+
+class Publisher(Dependency):
+    def __init__(self, publisher_name: str):
+        self.pub_name = publisher_name
+
+    def resolve(self, ctx: Context):
+        return ctx.worker.get_publisher(self.pub_name)
+
+
+class Payload(Dependency):
+    def __init__(self, schema: Any):
+        self.schema = schema
+
+    def resolve(self, ctx):
+        obj = self.schema()
+        ctx.payload.Unpack(obj)
+        return obj
+
+
+class Task(Dependency):
+
+    def resolve(self, ctx: Context):
+        return ctx.task
