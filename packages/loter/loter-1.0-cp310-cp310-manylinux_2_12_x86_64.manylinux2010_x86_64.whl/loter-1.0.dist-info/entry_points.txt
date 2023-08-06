@@ -1,0 +1,3 @@
+[console_scripts]
+loter_cli = loter.cli:main
+
