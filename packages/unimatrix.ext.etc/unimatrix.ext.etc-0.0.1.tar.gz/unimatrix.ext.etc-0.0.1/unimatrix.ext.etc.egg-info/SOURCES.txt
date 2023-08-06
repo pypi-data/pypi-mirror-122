@@ -1,0 +1,15 @@
+MANIFEST.in
+VERSION
+requirements.txt
+setup.py
+docs/source/conf.py
+unimatrix.ext.etc.egg-info/PKG-INFO
+unimatrix.ext.etc.egg-info/SOURCES.txt
+unimatrix.ext.etc.egg-info/dependency_links.txt
+unimatrix.ext.etc.egg-info/requires.txt
+unimatrix.ext.etc.egg-info/top_level.txt
+unimatrix/ext/etc/__init__.py
+unimatrix/ext/etc/package.json
+unimatrix/ext/etc/template.py
+unimatrix/ext/etc/tests/__init__.py
+unimatrix/ext/etc/tests/test_unit_render.py
