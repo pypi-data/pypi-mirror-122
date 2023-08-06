@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dofutils
+Version: 0.0.4
+Summary: Collection of useful things to build Dofus Retro bot or emulator
+Home-page: https://github.com/Dysta/Dofutils
+Keywords: dofus retro,dofus,retro,bot,emulateur
+Author: Dysta
+Requires-Python: >=3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black (>=21.9b0,<22.0)
+Requires-Dist: mypy (>=0.910,<0.911)
+Project-URL: Repository, https://github.com/Dysta/Dofutils
+Description-Content-Type: text/markdown
+
+# Dofutils
+Collection of useful things to build Dofus Retro bot/emulator. \
+Written in Python3. Require Python >= 3.8. and [Poetry](https://python-poetry.org/).
+
+## Installation
+use `pip install dofutils`
+
+## Developpement
+use `poetry run tests` to launch all tests. \
+use `poetry run fmt` to format the project. \
+use `poetry run tcheck` to type check the project.
+
+## Acknowledgement
+[Vincent Quatrevieux](https://github.com/vincent4vx) : the author of the original lib \
+[ArakneUtils](https://github.com/Arakne/ArakneUtils) : the original code
+
+## Author
+[Dysta](https://github.com/Dysta) (me)

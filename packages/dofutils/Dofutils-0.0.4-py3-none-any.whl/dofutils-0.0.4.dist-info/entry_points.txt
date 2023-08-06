@@ -1,0 +1,5 @@
+[console_scripts]
+fmt=scripts:fmt
+tcheck=scripts:type_check
+tests=scripts:tests
+
