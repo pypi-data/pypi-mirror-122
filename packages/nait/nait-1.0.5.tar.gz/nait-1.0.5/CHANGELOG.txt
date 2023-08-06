@@ -1,0 +1,7 @@
+NAIT 1.0.5 Change Log (release date)
+------------------------------------
+
+- Fixed 'ModuleNotFound' Error
+- Fixed Description
+- Changed Command Structure
+- Changed Epoch Size To 3000
