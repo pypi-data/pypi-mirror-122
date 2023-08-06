@@ -1,0 +1,93 @@
+#!/usr/bin/env python
+
+import sys
+import argparse
+
+from hocr.parse import hocr_page_iterator, hocr_page_to_word_data_fast
+from hocr.text import hocr_page_text
+
+
+def hocr_paragraph_text_conf(paragraph, minconf=75):
+    """
+    Reconstruct text that matches the FTS text from a hOCR paragraph.
+    Returns a tuple, first item in the tuple is the text, the second is a
+    boolean, indicating if this paragraph is to be merged into the next one, see
+    hocr_paragraphs for more information.
+
+    Args:
+
+    * paragraph: hOCR paragraph as returned by hocr_paragraphs
+
+    Returns:
+
+    * Tuple of (`str`, `bool`), where the `str` is the paragraph data, and the
+      boolean if this text continues is to be merged with the next paragraph.
+    """
+    word_confidences = []
+    par_text = ''
+
+    for line in paragraph['lines']:
+        line_words = ''
+        for word in line['words']:
+            if word['confidence'] >= minconf:
+                line_words += word['text'] + ' '
+
+        # Encode
+        line_words = line_words.encode('utf-8')
+        #line_words = line_words.strip().encode('utf-8')
+
+        # Write out
+        if line_words:
+            par_text += line_words.decode('utf-8')
+
+    if par_text:
+        # Strip last space
+        par_text = par_text[:-1]
+
+    return par_text
+
+
+def hocr_page_text_from_word_data_conf(word_data, minconf=75):
+    """
+    Extract text from a pre-parsed hOCR page
+
+    Args:
+
+    * word_data: as returned by ``hocr_page_to_word_data`` or
+      ``hocr_page_to_word_data_fast``
+
+    Returns: page contents (`str`)
+    """
+    text = ''
+
+    for paragraph in word_data:
+        par_text = hocr_paragraph_text_conf(paragraph, minconf=minconf)
+
+        # Newline is something we add, it is not part of the paragraph text
+        par_text += '\n'
+
+        text += par_text
+
+    return text
+
+def process_file(hocrfile, minconf):
+    page_count = 0
+
+    for page in hocr_page_iterator(hocrfile):
+        word_data = hocr_page_to_word_data_fast(page)
+
+        text = hocr_page_text_from_word_data_conf(word_data, minconf=minconf)
+        sys.stdout.write(text)
+
+        page_count += 1
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='hOCR to plaintext')
+    parser.add_argument('-f', '--infile', help='Filename to read',
+                        type=str, default=None)
+    parser.add_argument('-C', '--confidence-filter', help='Word level confidence filter',
+                        type=int, default=0)
+    args = parser.parse_args()
+
+    process_file(args.infile, args.confidence_filter)
