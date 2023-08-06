@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stats-arb-portfolio
+Version: 1.0.0
+Summary: StatsArbML
+Home-page: UNKNOWN
+Author: Carlos Gustavo Salas Flores
+Author-email: cs582@duke.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pytorch
+Requires-Dist: sklearn
+Requires-Dist: yfinance
+Requires-Dist: matplotlib
+
+stats-arb-portfolio is a buy/sell signals generator that uses Machine Learning algorithms to predict the best buy/sell signals, nonetheless, this should not be used as a determining signal to trade, instead use it as a complement to your own trading decisions.
+
+
