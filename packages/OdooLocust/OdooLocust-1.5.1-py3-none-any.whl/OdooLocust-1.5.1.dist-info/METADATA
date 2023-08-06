@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: OdooLocust
+Version: 1.5.1
+Summary: Easily load test Odoo using Locust and odoolib.
+Home-page: UNKNOWN
+Author: Nicolas Seinlet
+Author-email: UNKNOWN
+License: BSD
+Keywords: odoo locust odoolib loadtest
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Requires-Dist: locust (>=1.4.3)
+Requires-Dist: odoo-client-lib (>=1.2.2)
+
+See the home page for any information: https://github.com/odoo/OdooLocust.
+
+
