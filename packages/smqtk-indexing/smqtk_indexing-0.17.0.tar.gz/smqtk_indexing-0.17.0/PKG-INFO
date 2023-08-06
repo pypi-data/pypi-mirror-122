@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: smqtk-indexing
+Version: 0.17.0
+Summary: Algorithms, data structures and utilities around computingdescriptor k-nearest-neighbors.
+Home-page: https://github.com/Kitware/SMQTK-Indexing
+License: BSD-3-Clause
+Author: Kitware, Inc.
+Author-email: smqtk-developers@kitware.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: faiss
+Provides-Extra: sklearn
+Requires-Dist: dataclasses (>=0.8,<0.9); python_version < "3.7"
+Requires-Dist: faiss-cpu (>=1.7.0,<2.0.0); extra == "faiss"
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: scikit-learn (>=0.24.1,<0.25.0); extra == "sklearn"
+Requires-Dist: smqtk-core (>=0.18.0)
+Requires-Dist: smqtk-dataprovider (>=0.16.0)
+Requires-Dist: smqtk-descriptors (>=0.18.0)
+Project-URL: Documentation, https://smqtk-indexing.readthedocs.io/
+Project-URL: Repository, https://github.com/Kitware/SMQTK-Indexing
+Description-Content-Type: text/markdown
+
+# SMQTK - Indexing
+
+This package provides interfaces and implementations around the
+k-nearest-neighbor algorithm.
+
+This package defines interfaces and implementations around efficient,
+large-scale indexing of descriptor vectors.
+The sources of such descriptor vectors may come from a multitude of sources,
+such as hours of video archives.
+Some provided implementation plugins include [Locality-sensitive Hashing
+(LSH)](https://en.wikipedia.org/wiki/Locality-sensitive_hashing) and FAIR's
+[FAISS] library.
+
+## Documentation
+You can build the sphinx documentation locally for the most up-to-date
+reference:
+```bash
+# Install dependencies
+poetry install
+# Navigate to the documentation root.
+cd docs
+# Build the docs.
+poetry run make html
+# Open in your favorite browser!
+firefox _build/html/index.html
+```
+
