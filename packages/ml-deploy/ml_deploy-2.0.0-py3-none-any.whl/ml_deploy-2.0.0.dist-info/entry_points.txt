@@ -1,0 +1,3 @@
+[console_scripts]
+ml-deploy = ml_deploy.main:main
+

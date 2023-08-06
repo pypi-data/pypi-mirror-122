@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ml-deploy
+Version: 2.0.0
+Summary: Package to deploy ml model
+Home-page: http://192.168.7.138:8929/fauzantaufik/cad-it-ml/-/tree/master/python
+Author: Fauzan Taufik
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: Flask-Cors (==3.0.10)
+Requires-Dist: confluent-kafka (==1.6.1)
+Requires-Dist: gunicorn (==20.0.0)
+Requires-Dist: Flask-APScheduler (==1.12.2)
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: prometheus-client (==0.10.1)
+Requires-Dist: strictyaml (==1.4.4)
+Requires-Dist: mlflow (==1.18.0)
+
+UNKNOWN
+
+
