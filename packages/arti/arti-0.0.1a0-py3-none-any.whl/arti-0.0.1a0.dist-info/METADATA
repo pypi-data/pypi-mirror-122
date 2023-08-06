@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: arti
+Version: 0.0.1a0
+Summary: 
+Author: Replica
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: deprecation (>=2.1.0,<3.0.0)
+Requires-Dist: frozendict (>=2.0.6,<3.0.0)
+Requires-Dist: multimethod (>=1.6,<2.0)
+Requires-Dist: parse (>=1.19.0,<2.0.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: pyfarmhash (>=0.2.2,<0.3.0)
+Requires-Dist: python-box (>=5.4.1,<6.0.0)
+Requires-Dist: setuptools (>=58.2.0,<59.0.0)
+Requires-Dist: sgqlc (>=14.1,<15.0)
+Requires-Dist: toolz (>=0.11.1,<0.12.0)
