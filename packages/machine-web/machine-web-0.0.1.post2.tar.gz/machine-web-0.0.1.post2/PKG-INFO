@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: machine-web
+Version: 0.0.1.post2
+Summary: A simple plugin-based web framework
+Home-page: UNKNOWN
+Author: Igor Kraglik
+Author-email: kraglik.i.d@gmail.com
+License: BSDv3
+Project-URL: homepage, https://github.com/kraglik/machine
+Project-URL: repository, https://github.com/kraglik/machine
+Keywords: web,framework,machine
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Machine
+A very simple web framework implemented in Python.
+
+At the moment, http resource is more or less implemented, JsonRPC resource is waiting for its hour (far from complete yet).
+
