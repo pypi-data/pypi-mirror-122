@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: primes-eip-f
+Version: 2.0
+Summary: A tool to calculate prime numbers until n.
+Home-page: UNKNOWN
+Author: Fernando Sánchez
+Author-email: fersanpar0@gmail.com
+License: GNU GPLv3
+Keywords: pyprimes mathematical operations
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+PRIMES
+===============
+Este paquete contiene dos funciones encargadas de calcular los numeros primos hasta un numero dado, una de ellas esta hecha con python
+y la otra funcion con R-studio integrado en python. Este es un ejercicio que pertenece a la Escuela Internacional de Posgrados, master avanzado de 
+programacion en python para Hacking, BigData y Machine Learning.
+
+This program is free software: You can redistribute it and/or modify it under terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version
+
+
