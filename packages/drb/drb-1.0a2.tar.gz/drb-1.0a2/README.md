@@ -1,0 +1,166 @@
+# Data Request Broker
+This python module includes data model implementation of DRB (Data Request Broker).
+Implementations are provided outside this project and shall be included into the application according to the needs.
+See [documentation]() for details 
+# Library usage
+Installing ````drb```` with execute the following in a terminal:
+
+    pip install drb
+# Notes for developers
+## Dev environment setup
+The development environment includes all the features required to execute this module unitary test and to deploy it.
+When loading the project with pycharm, the tool automatically reads requirements file and sets up the virtual environment.
+
+Installation of a virtual environment is not mandatory but greatly recommended in order to avoid any confusion between system or other projects libraries. Linux package python3-venv shall be installed (```sudo apt install python3-venv``` on ubuntu)
+
+The command line to prepare the virtual environment:
+```commandline
+python3 -m venv venv
+source venv/bin/activate
+```
+Once successfully run, the command line prompt is updated with the virtual environment name:
+```commandline
+(venv) $~> _
+```
+Once the virtual environment installed, the dependencies shall be downloaded:
+```commandline
+(venv) $~> pip install -r requirements.txt --no-cache-dir
+Collecting pip==21.1.2
+  Downloading pip-21.1.2-py3-none-any.whl (1.5 MB)
+     |████████████████████████████████| 1.5 MB 54 kB/s 
+Collecting setuptools==57.0.0
+  Downloading setuptools-57.0.0-py3-none-any.whl (821 kB)
+     |████████████████████████████████| 821 kB 73 kB/s 
+Installing collected packages: pip, setuptools
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 44.0.0
+    Uninstalling setuptools-44.0.0:
+      Successfully uninstalled setuptools-44.0.0
+Successfully installed pip-21.1.2 setuptools-57.0.0
+```
+At this stage the environment is installed.
+
+Other environment virtualization solution such as [Vagrant](http://www.vagrantup.com) are also stable solutions for production.
+## Git Contributions
+### Contribution process
+We are pleased to receive all users contributions as merge requests. Each contribution shall be documented in english, and code styling shall follow [pep8](https://www.python.org/dev/peps/pep-0008) recommendations.
+You can also join the moderators team. Please contact me.
+
+Contribution process is based on gitlab best practice and processes the
+following schema:
+
+![](docs/modification_process.png)
+
+### How to contribute
+For authorized user allowed creating branch in the official repository and for the project launch stage. Starting from 24/08/2021 the contribution branching strategy was changed. Contributor is not anymore obliged to create its own fork. He can create a feature/debug branch into the official repository. Contributor still cannot push modification into the _main_ branch, and shall submit a merge request to be approved and merged by the maintainers.
+So the step-by-step procedure to contribute is: 
+- Locally clone the official repository with the command line : ```git clone git@gitlab.com:gael10/drb/drb-python/drb.git```
+- Implement features into ```feature-xxx``` branch, and bug into ```bug-xxx``` branch.
+- Once created the branch could be submitted as merge request as ```Draft``` proposal.
+- Once feature/bug finalized, ```Draft``` flag shall be removed and the assignees/maintainers notified for merge.
+
+Other contributions merge requests can also be submitted from users own forks of the projet. The adapted authorization shall be provided to the assignee to properly manage code review accessing sources.
+
+## Configuration management
+Thanks to the [```versioneer```](https://github.com/python-versioneer/python-versioneer) tool, the release process has been simplified.
+The version management and deployment are coupled and can be performed in a same process.
+This process secures the deployment process preventing a developer from accidentally deploying and erasing a release version. Versioneer tool checks the local repository then generates a ```dirty``` release when repository is not clean. This process can also be useful when developer needs to deploy snapshots.
+
+### Setup the environment
+The environment shall be configured to deploy the python library onto Pypi public  repository.
+The application used to manage module deployment is ```twine```. This application shall be configured via `````${HOME}/.pypirc````` file as followed:
+
+Alternatively, the private gael's repository can be set (See ```[gael]``` entry. 
+
+```properties
+[distutils]
+index-servers =
+  pypi
+  drb
+
+[pypi]
+username: __token__
+password: pypi-XXX
+
+[drb]
+repository = https://upload.pypi.org/legacy/
+username: __token__
+password: pypi-YYY
+
+[gael]
+repository: https://repository.gael-systems.com/repository/python-gael/
+username: username
+password: password
+```
+The important part is the ```drb``` section which defines the remote repository and credentials or token for the deployment (See https://pypi.org/help/#apitoken for details).
+
+### Perform the release and deployment
+The version management is performed automatically with git tags. Setting the version is coupled with the deployment process within the CI/CD process.
+
+To generate a new version, tag the master branch with the expected version and push the new tag version into git: 
+```commandline
+git tag 1.0-rc1
+git push origin 1.0-rc1
+```
+On pushing new tag, a pipeline is automatically executed to control 
+- code format compliance with [pep8](https://www.python.org/dev/peps/pep-0008/))
+- code source security with plugins [bandit](https://bandit.readthedocs.io) and [semgrep](https://semgrep.dev/)
+- code unittary tests with python 3.8 and python 3.9
+- code coverage computation
+- deploy the release into pypi repository.
+
+In case of an issue is identified in a tagged release, and a hotfix (post release) is required. A dedicated release-xx branch can be created starting from this tag at any time.
+
+#### Tag management
+Drb project follows the [pep440](https://www.python.org/dev/peps/pep-0440) recommendation for tag representation. Version are represented with the couple of (Major, Minor) version numbers. Modifiers such as alpha (`aN`), beta(`bN`), release candidate(`rcN`), or post releases (`.postN`) are possible:
+- alpha version: `1.0a1`
+- beta version: `1.0b1` 
+- release candidate version: `1.0rc1`
+- final version : `1.0`
+- post release (hotfix): `1.0.post1`
+
+### Command line
+The environment comes with a preconfigured Makefile able to set up and prepare python environment to run tests and coverage. It also provides target to deploy new release manually.
+
+```commandline
+make clean
+```
+Clean-up the environment from cache and lightweight components. It does not removed downloaded dependencies (from venv directory), nor distributions.
+
+```commandline
+make dist-clean
+```
+The `dist-clean` command full cleans the repository as it has been cloned first.
+Following the call of `dist-clean` the virtual environment and all the caches will be removed.
+
+```commandline
+make test
+```
+Run the unitary tests.
+
+```commandline
+make lint
+```
+Check if the source code properly follows the pep8 directives. This test is also used in gitlab piplines to accept pushed sources. 
+
+```commandline
+make coverage
+```
+Run the test coverage and generates a html report into `htmlcov` directory.
+
+```commandline
+make dist
+```
+Prepare a distribution locally into `dist` directory. When no tag is present on the current commit, or modified files are present into the local directory, the distribution process creates a dirty version to be safety deploy to the repository.
+
+```commandline
+make dist-deploy
+```
+Prepare and deploy a distribution into the gael's remote Pipy repository.
+This command is run automatically when pushing a new tag. 
+
+
