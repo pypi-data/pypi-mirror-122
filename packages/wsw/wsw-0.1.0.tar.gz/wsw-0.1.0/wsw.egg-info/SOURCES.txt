@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+wsw/__init__.py
+wsw/__main__.py
+wsw/words.py
+wsw.egg-info/PKG-INFO
+wsw.egg-info/SOURCES.txt
+wsw.egg-info/dependency_links.txt
+wsw.egg-info/entry_points.txt
+wsw.egg-info/requires.txt
+wsw.egg-info/top_level.txt

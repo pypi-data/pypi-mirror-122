@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: wsw
+Version: 0.1.0
+Summary: A command line tool to easily check what words start with certain characters.
+Home-page: UNKNOWN
+Author: Wasi Master
+Author-email: arianmollik323@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/wasi-master/word-starts-with/issues
+Project-URL: Source, https://github.com/wasi-master/word-starts-with
+Project-URL: Say Thanks, https://saythanks.io/to/arianmollik323@gmail.com
+Keywords: startswith,starts with,word,starts,with,wsw
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Topic :: Terminals
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# word-starts-with
+
+Find a word that starts with something
+
+Created for [r/askouija](https://www.reddit.com/r/askouija).
+
+## Usage
+
+### Simple one word usage
+
+```cmd
+python -m wsw [text]
+```
+
+or
+
+```cmd
+wsw [text]
+```
+
+Where `[text]` is the text you want to check.
+
+### Interactive session
+
+```cmd
+wsw
+```
+
+This will start a interactive session where you can put words again and again
+![Example](https://i.imgur.com/uXwwbp3.png)
+
+You can exit out of this by using Ctrl+C
+
+### Saving output to a file
+
+You can just append a `> filename` at the end of the command to pipe the output to a file e.g. `wsw [text] > text.txt`
+
+
