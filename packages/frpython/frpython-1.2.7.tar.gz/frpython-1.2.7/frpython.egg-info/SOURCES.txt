@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+frpython/__init__.py
+frpython/chaines.py
+frpython/decimaux.py
+frpython/entiers.py
+frpython/erreurs.py
+frpython.egg-info/PKG-INFO
+frpython.egg-info/SOURCES.txt
+frpython.egg-info/dependency_links.txt
+frpython.egg-info/top_level.txt
