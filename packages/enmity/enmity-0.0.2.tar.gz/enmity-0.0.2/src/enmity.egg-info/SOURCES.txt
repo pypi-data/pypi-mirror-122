@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/enmity/__init__.py
+src/enmity/__main__.py
+src/enmity/bot.py
+src/enmity/intents.py
+src/enmity/op.py
+src/enmity.egg-info/PKG-INFO
+src/enmity.egg-info/SOURCES.txt
+src/enmity.egg-info/dependency_links.txt
+src/enmity.egg-info/top_level.txt
