@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: primosutilsjdm
+Version: 1.0
+Summary: A function that return prime numbers
+Home-page: UNKNOWN
+Author: Juan David Marin
+Author-email: qcojuandavidmarin@gmail.com
+License: GNU GPLv3
+Keywords: pyprimos is a function that return prime numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+PIMOS UTILS
+================
+
+Este es un ejemplo simple de un paquete Python. Este paquete contiene un ejemplo de funciones para determinar los nÃºmeros promos en una secuencia.
+This program is free sowtware: You can redistribute it and/or modify it under the terms of license by the free software foundation, either version 3 of the license (at your option) any oher version.
+
+
