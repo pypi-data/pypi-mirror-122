@@ -1,0 +1,514 @@
+# -*- coding: utf-8 -*-
+
+import weakref
+from asyncio import AbstractEventLoop, Future
+
+import asyncio
+import importlib_metadata
+import logging
+import logging.config
+import multiprocessing
+import os
+import psutil
+import signal
+import sys
+import threading
+import warnings
+from datetime import datetime
+from functools import partial
+from humanize import naturalsize, naturaldelta
+from time import time
+from typing import Mapping, MutableMapping, Iterable
+
+from patchwork.core import AsyncPublisher, AsyncSubscriber, Component
+from patchwork.core.config.base import PatchworkConfig, Dependency, DependencyMap
+from patchwork.core.typing import LoggingConfig
+from patchwork.core.utils import cached_property
+from patchwork.node.core import Module
+from patchwork.node.core.router import Router
+from patchwork.node.executor import BaseExecutor
+from patchwork.node.manager.base import Manager
+
+
+class AsyncClientsMap(DependencyMap):
+
+    @classmethod
+    def __get_validators__(cls):
+        yield from super().__get_validators__()
+        yield cls.validate_async
+
+    @classmethod
+    def validate_async(cls, v: Mapping):
+        for dependency in v.values():
+            if not dependency.engine.is_asynchronous:
+                raise TypeError("Synchronous clients are not allowed in Patchwork nodes."
+                                "Such client blocks node event loop")
+
+
+class WorkerSettings(PatchworkConfig):
+
+    debug: bool = True
+
+    logging: LoggingConfig = LoggingConfig({
+        'version': 1,
+        'disable_existing_loggers': False,
+        'root': {
+            'level': 'DEBUG',
+            'handlers': ['console']
+        },
+        'formatters': {
+            'simple': {
+                'format': '%(relativeCreated)d\t%(name)s\t%(levelname)s\t%(message)s'
+            },
+        },
+        'handlers': {
+            'console': {
+                'level': 'DEBUG',
+                'class': 'logging.StreamHandler',
+                'formatter': 'simple'
+            }
+        }
+    })
+
+    # executor unit
+    executor: Dependency = Dependency(engine='patchwork.node.executor.base:BaseExecutor')
+
+    # manager unit
+    manager: Dependency = Dependency(
+        engine='patchwork.node.manager.http:HttpManager',
+        options={
+            'listen_on': '127.0.0.1:4444'
+        })
+
+    # optional list of additional modules to load
+    modules: DependencyMap = {}
+
+    # clients for queues
+    publishers: AsyncClientsMap = {
+        'default': {
+            'engine': 'patchwork.core.client.local:AsyncLocalPublisher'
+        }
+    }
+
+    # clients for queues
+    subscribers: AsyncClientsMap = {
+        'default': {
+            'engine': 'patchwork.core.client.local:AsyncLocalSubscriber'
+        }
+    }
+
+
+class PatchworkWorker(Module):
+
+    __instance = None
+
+    # worker settings dataclass
+    settings: WorkerSettings
+
+    _event_loop: AbstractEventLoop
+    monitor_task: Future
+
+    def __new__(cls, *args, **kwargs):
+        if PatchworkWorker.__instance is not None:
+            return PatchworkWorker.__instance
+
+        inst = super().__new__(cls, *args, **kwargs)
+        PatchworkWorker.__instance = inst
+        return inst
+
+    def __init__(self, settings_class: type = WorkerSettings, **kwargs):
+        super().__init__(**kwargs)
+        self._settings_schema = settings_class
+
+    @staticmethod
+    def get_instance() -> 'self':
+        return PatchworkWorker.__instance
+
+    @cached_property
+    def logger(self) -> logging.Logger:
+        return logging.getLogger('patchwork.worker')
+
+    @property
+    def event_loop(self):
+        return self._event_loop
+
+    @property
+    def process_name(self):
+        return f'#{os.getpid()}: {multiprocessing.current_process().name}'
+
+    @cached_property
+    def manager(self) -> Manager:
+        """
+        Returns worker manager instance
+        :return:
+        """
+        return self.settings.manager.instantiate(parent=self)
+
+    @cached_property
+    def executor(self) -> BaseExecutor:
+        """
+        Returns worker executor instance
+        :return:
+        """
+        return self.settings.executor.instantiate(parent=self)
+
+    @cached_property
+    def modules(self):
+        return {k: v.instantiate(parent=self) for k, v in self.settings.modules.items()}
+
+    def get_module(self, name: str) -> Module:
+        """
+        Returns module instance by given name
+        :param name:
+        :return:
+        """
+        return self.modules[name]
+
+    @cached_property
+    def publishers(self):
+        # clients don't need parent
+        return {k: v.instantiate(name=k) for k, v in self.settings.publishers.items()}
+
+    @cached_property
+    def subscribers(self):
+        # clients don't need parent
+        return {k: v.instantiate(name=k) for k, v in self.settings.subscribers.items()}
+
+    def get_publisher(self, name) -> AsyncPublisher:
+        return self.publishers[name]
+
+    def get_subscriber(self, name) -> AsyncSubscriber:
+        return self.subscribers[name]
+
+    def main(self):
+        """
+        Runs the worker. This method is blocking until worker receive TERM signal.
+        :return:
+        """
+        ev_loop = self._get_event_loop()
+
+        # put executor start at event loop
+        start_task = ev_loop.create_task(self.run())
+        start_task.add_done_callback(self._on_started)
+
+        # noinspection PyBroadException
+        try:
+            self.logger.debug("Starting worker event loop")
+            ev_loop.run_forever()
+            self.logger.debug("Worker event loop completed")
+        except Exception:
+            self.logger.fatal("Worker execution ends with unexpected exception", exc_info=True)
+
+    async def _load_settings(self):
+        """
+        Load settings from worker settings JSON file and then updates values
+        using environment variables if JSON file has no `locked_settings` flag enabled.
+        :return:
+        """
+        try:
+            self.settings = self._settings_schema()
+        except Exception as e:
+            self.logger.error(f"Unable to load settings: {e}")
+            return False
+
+        if self.settings.debug:
+            warnings.warn("Debug mode enabled")
+        return True
+
+    def _on_started(self, fut: Future):
+        exc = fut.exception()
+        if exc:
+            self.logger.error(f"Worker cannot be started due to exception: {type(exc).__name__}({exc})")
+
+            # stop event loop if executor is not running
+            # TODO: some cleanups are necessary?
+            self._event_loop.stop()
+
+            if getattr(self.settings, "debug", False):
+                raise exc
+
+            return
+
+        if fut.result() is False:
+            self.logger.error("Worker didn't start. See logs above for more details")
+            self.terminate_worker()
+            return
+
+        self.logger.debug("Node is up and running")
+
+        # noinspection PyBroadException
+        try:
+            node_version = importlib_metadata.version('patchwork.node')
+        except importlib_metadata.PackageNotFoundError:
+            node_version = 'development'
+
+        if self.settings.debug:
+            print("\nPatchwork Node is up and running.")
+            print(f"Version: {node_version}")
+            print("Send TERM or INT signal to terminate")
+            print("DEBUG MODE ENABLED, DO NOT RUN IN DEBUG ON PRODUCTION")
+
+    async def _start(self):
+
+        assert threading.current_thread() is threading.main_thread(), "Worker must start in MainThread"
+        self._event_loop = asyncio.get_running_loop()
+
+        self._setup_signals()
+
+        if not await self._load_settings():
+            return False
+
+        self._setup_logger()
+        self.logger.debug("Worker initialized")
+
+        # first starts manager
+        self.logger.debug("Starting manager")
+        await self.manager.run()
+        self.logger.info("Manager started")
+
+        # then start additional modules, all at once, if modules depends on each other should await
+        # internally. Use get_module() worker method to get module instance and await on state flag
+        # Be careful of deadlocks
+
+        start_jobs = [mod.run() for mod in self.modules.values()]
+        if start_jobs:
+            self.logger.debug("Starting additional modules")
+            await asyncio.wait(start_jobs)
+            self.logger.info("All additional modules started")
+        else:
+            self.logger.debug("No additional modules to start")
+
+        # start clients
+        for p in self.publishers.values():
+            await p.run()
+        self.logger.info("All publishers started")
+        for s in self.subscribers.values():
+            await s.run()
+        self.logger.info("All subscribers started")
+
+        # end executor at the end when everything is ready
+        self.logger.debug("Starting executor")
+        await self.executor.run()
+        self.logger.info("Executor started")
+
+        self.monitor_task = asyncio.create_task(self._monitor_submodules(
+            (self.manager, self.executor) + tuple(self.modules.values())
+        ))
+        self.monitor_task.add_done_callback(self._on_monitor_stop)
+
+    async def _monitor_submodules(self, submodules: Iterable[Component]):
+        flags = {asyncio.ensure_future(s_mod.state.wait()): weakref.ref(s_mod) for s_mod in submodules}
+        while True:
+            try:
+                done, pending = await asyncio.wait(flags.keys(), return_when=asyncio.FIRST_COMPLETED)
+
+                if len(done) != 1:
+                    self.logger.error(f"Monitor got invalid number of done flags, expected: 1, got: {len(flags)}")
+                    continue
+
+                done = done.pop()
+                s_mod_ref = flags.pop(done)
+
+                # dereference
+                s_mod = s_mod_ref()
+
+                if s_mod is None:
+                    self.logger.warning(f"Stopped module disappeared")
+                    continue
+
+                self.logger.warning(f"{s_mod} terminated unexpectedly")
+                recovered = await s_mod.recover()
+            except asyncio.CancelledError:
+                # cancel all active waiters
+                for fut in flags.keys():
+                    fut.cancel()
+
+                raise
+            else:
+                if recovered:
+                    # recovered!
+                    flags[asyncio.ensure_future(s_mod.state.wait())] = weakref.ref(s_mod)
+                    continue
+                else:
+                    self.logger.fatal(f"{s_mod} cannot be recovered after unexpected termination")
+                    # if submodule cannot be recovered it means that application is in inconsistent
+                    # and potentially invalid state, terminate it
+                    self.terminate_worker()
+
+    def _on_monitor_stop(self, fut: asyncio.Future):
+        if fut.cancelled():
+            # monitor should never completes, it's run forever until cancelled
+            self.logger.debug("Submodules monitor stopped")
+            return
+
+        exc = fut.exception()
+        if exc:
+            self.logger.fatal(f"Submodules monitor terminate with exception: {exc.__class__.__name__}({exc})")
+        else:
+            self.logger.fatal(f"Submodules monitor terminates unexpectedly")
+
+        self._event_loop.create_task(self.terminate())
+
+    def _setup_logger(self):
+        if self.settings.logging:
+            logging.config.dictConfig(self.settings.logging)
+
+        now = time()
+        self.logger.info(f"Logging configured. Current time is {now} ({datetime.fromtimestamp(now)})")
+
+    def add_router(self, router: Router):
+        """
+        Register and setup given processor. Awaits until processor setup is done
+        :param router:
+        :return:
+        """
+        self.executor.add_router(router)
+
+    def _setup_signals(self):
+        # setup signals using asyncio
+        self._event_loop.add_signal_handler(signal.SIGUSR1, partial(self._handle_info_signal, signal.SIGUSR1, None))
+        self._event_loop.add_signal_handler(signal.SIGTERM, partial(self._handle_term_signal, signal.SIGTERM, None))
+        self._event_loop.add_signal_handler(signal.SIGINT, partial(self._handle_term_signal, signal.SIGTERM, None))
+
+        self._terminate_request = asyncio.Event()
+
+    def get_state(self) -> MutableMapping:
+        process = psutil.Process(os.getpid())
+        stats = process.as_dict(attrs=(
+            'pid', 'status', 'nice', 'io_counters', 'memory_info', 'cpu_times', 'create_time', 'memory_percent',
+            'cpu_percent'
+        ))
+
+        cpu_limit = process.rlimit(psutil.RLIMIT_CPU)
+        mem_limit = process.rlimit(psutil.RLIMIT_RSS)
+        threads = threading.enumerate()
+
+        async_tasks = [t for t in asyncio.Task.all_tasks(loop=self._event_loop) if not t.done()]
+        process_started = datetime.fromtimestamp(stats['create_time'])
+
+        result = {
+            'process': {
+                'pid': stats['pid'],
+                'status': stats['status'],
+                'nice': stats['nice']
+            },
+            'resources': {
+                'io counters': stats['io_counters'],
+                'memory usage': naturalsize(stats['memory_info'].rss),
+                'memory system [%]': f'{stats["memory_percent"]:.02f} %',
+                'cpu times': stats['cpu_times'],
+                'cpu usage [%]': f'{stats["cpu_percent"]:.02f} %',
+                'started at': str(process_started),
+                'uptime': naturaldelta(time() - stats['create_time']),
+                'threads': [
+                    {'name': t.name, 'daemon': t.daemon, 'alive': t.is_alive()} for t in threads
+                ]
+            },
+            'limits': {},
+            'futures': [f"{t._state} {t._coro.cr_code.co_name}() on {t._coro.cr_frame.f_locals['self']}"
+                        for t in async_tasks],
+            'worker': self.executor.get_state()
+        }
+
+        if mem_limit[1] != -1:
+            result['limit']['memory'] = {
+                'used': f'{(stats["memory_info"].rss/mem_limit[1]):.02f}',
+                'limit': f'{naturalsize(mem_limit[0])} | {naturalsize(mem_limit[1])}'
+            }
+
+        if cpu_limit[0] != -1:
+            result['limit']['cpu'] = {
+                'used': f'{(stats["cpu_times"].user/cpu_limit[1])*100:.02f} %',
+                'limit': cpu_limit,
+            }
+
+        return result
+
+    def _handle_info_signal(self, signum, frame):
+        stats = self.get_state()
+
+        sys.stdout.write(f"Executor state information\n"
+                         f"--------------------------\n")
+        self._print_stats_dict(stats)
+        sys.stdout.flush()
+
+    def _print_stats_dict(self, data: Mapping, indentation=1):
+        indent = "\t" * indentation
+        for name, value in data.items():
+            if not value:
+                continue
+
+            sys.stdout.write(f'{indent}{name} = ')
+
+            if isinstance(value, dict):
+                sys.stdout.write('\n')
+                self._print_stats_dict(value, indentation+1)
+            elif isinstance(value, (list, tuple)):
+                sys.stdout.write('[\n{}]\n'.format(",\n".join(f"\t{v}" for v in value)))
+            else:
+                sys.stdout.write(f'{value}\n')
+
+    def _handle_term_signal(self, signum, frame):
+        self.terminate_worker()
+
+    def terminate_worker(self):
+        if self._terminate_request.is_set():
+            self.logger.error("Termination signal received again, suicide")
+
+            # restore python sigterm default handler
+            signal.signal(signal.SIGTERM, signal.SIG_DFL)
+
+            # send re-send sigterm to terminate process
+            os.kill(os.getpid(), signal.SIGTERM)
+
+        self._terminate_request.set()
+
+        self.logger.info(f"Worker termination request received, terminating...")
+        stop_job = self._event_loop.create_task(self.terminate())
+        stop_job.add_done_callback(self._stop_job_done)
+
+    async def _stop(self):
+        # stop submodules monitor
+        self.logger.debug("Stopping submodules monitor...")
+        self.monitor_task.cancel()
+
+        self.logger.debug("Waiting executor to complete...")
+        # wait for executor, because working processors may depends on submodules, so terminate them
+        # firstly
+        await self.executor.terminate()
+        self.logger.info("Executor completed")
+
+        # stop clients, there should be no messages pending on clients as executor is completed
+        for s in self.subscribers.values():
+            await s.terminate()
+        for p in self.publishers.values():
+            await p.terminate()
+
+        stop_jobs = [mod.terminate() for mod in self.modules.values()]
+        if stop_jobs:
+            self.logger.debug("Waiting for submodules stop jobs to complete...")
+            # executor is down, stop all submodules simultaneously, stop jobs should not depends on each other
+            await asyncio.wait(stop_jobs)
+            self.logger.info("Submodules completed")
+        else:
+            self.logger.debug("No stop jobs for submodules")
+
+        self.logger.debug("Waiting for manager to stop...")
+        await asyncio.wait([asyncio.create_task(self.manager.terminate())])
+        self.logger.info("Manager stopped")
+
+        self_task = asyncio.current_task(loop=self._event_loop)
+        tasks_left = [t for t in asyncio.all_tasks(self._event_loop) if not t.done() and t != self_task]
+
+        if tasks_left:
+            self.logger.error(f"{len(tasks_left)} tasks left in the event loop after stopping all modules")
+        else:
+            self.logger.debug("No tasks left after stop job, event loop can be stopped clearly")
+
+    def _stop_job_done(self, fut: Future):
+        fut.result()
+        self._event_loop.stop()
+
+    @classmethod
+    def _get_event_loop(cls):
+        return asyncio.get_event_loop()
