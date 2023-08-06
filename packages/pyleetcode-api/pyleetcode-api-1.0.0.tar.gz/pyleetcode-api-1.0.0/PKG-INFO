@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyleetcode-api
+Version: 1.0.0
+Summary: Leetcode API
+Home-page: UNKNOWN
+Author-email: pv.safronov@gmail.com
+License: UNKNOWN
+Keywords: Swagger,Leetcode API
+Platform: UNKNOWN
+
+    Leetcode API implementation.  # noqa: E501
+    
+
