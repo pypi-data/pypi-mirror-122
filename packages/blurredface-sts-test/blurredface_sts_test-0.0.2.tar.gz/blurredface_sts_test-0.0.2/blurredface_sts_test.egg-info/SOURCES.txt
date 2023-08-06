@@ -1,0 +1,7 @@
+setup.py
+blurredface_sts_test/__init__.py
+blurredface_sts_test/face.py
+blurredface_sts_test.egg-info/PKG-INFO
+blurredface_sts_test.egg-info/SOURCES.txt
+blurredface_sts_test.egg-info/dependency_links.txt
+blurredface_sts_test.egg-info/top_level.txt
