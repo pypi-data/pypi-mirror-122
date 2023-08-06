@@ -1,0 +1,12 @@
+Changelog
+=========
+
+0.2 - 2021-10-05
+----------------
+
+- Various Python 3 compatibility fixes.
+
+0.1 - 2014-09-01
+----------------
+
+- Initial release.

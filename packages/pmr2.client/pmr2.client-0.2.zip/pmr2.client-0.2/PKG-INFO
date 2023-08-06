@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pmr2.client
+Version: 0.2
+Summary: Client for PMR
+Home-page: https://github.com/PMR/pmr2.client
+Author: Tommy Yu
+Author-email: tommy.yu@auckland.ac.nz
+License: gpl
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+
+.. contents::
+
+Introduction
+============
+
+A requests and requests-oauthlib based PMR client.
+
+Contributors
+============
+
+Tommy Yu, Author
+
+Changelog
+=========
+
+0.2 - 2021-10-05
+----------------
+
+- Various Python 3 compatibility fixes.
+
+0.1 - 2014-09-01
+----------------
+
+- Initial release.
+
+
+
