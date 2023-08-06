@@ -1,0 +1,8 @@
+http_exceptions/__init__.py,sha256=PeW2-Vxs-FPB0Af_EPxNDPX7Aj5aGbnzTNae8tvjS4s,2377
+http_exceptions/client_exceptions.py,sha256=TM8iHEJB3NWrbOS6CIzoG2ccP6VFjcz8kHk7HhLkyGk,9046
+http_exceptions/http_exception.py,sha256=l_oem7Cka65fsXWjSrY_7TwqZ5JWr4F5mbFY_0jW-i0,919
+http_exceptions/server_exceptions.py,sha256=HDqmUMU96eOcAH-CDwni3KKcQKYEhgdGTAatVCi_4aY,3783
+http_exceptions-0.0.3.dist-info/METADATA,sha256=APIL-JOgZ68EVO4StcIKjkFYbx1Q3lCI3NtB-oO0sdA,1835
+http_exceptions-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+http_exceptions-0.0.3.dist-info/top_level.txt,sha256=nCsOu8w0eKykZ5L75RPpbMclcCQvAnVxrTtT26W_xiM,16
+http_exceptions-0.0.3.dist-info/RECORD,,
