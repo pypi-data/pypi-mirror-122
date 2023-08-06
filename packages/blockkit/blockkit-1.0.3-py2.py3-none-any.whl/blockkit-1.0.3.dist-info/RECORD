@@ -1,0 +1,16 @@
+blockkit/__init__.py,sha256=ym6bNsRSAC5t0Appienv7MKWhtX6mIpxXAHDFOZYnt0,157
+blockkit/blocks.py,sha256=_sZL_uSE7Se2TMrv6Ca0QZYVd8D-n9iz4CH_4RkwIr4,5547
+blockkit/components.py,sha256=K10EyrUfurjP_bgAowiywWrvpD59BTZR0vc4Cx-4mMg,149
+blockkit/display.py,sha256=T0XGonaehrhShW9mjZpIbwDpgtKNzMcwtZAaP8g7sZo,889
+blockkit/elements.py,sha256=vrsmhgnurPFA41jM7zihy4GFixGQ8ENlUgUHtiKy1aM,17093
+blockkit/enums.py,sha256=R5sX-OHl4G70Vv3QM7cBWi6GGjZGqvvlQY7vBKRUUN8,329
+blockkit/fields.py,sha256=puYcdgjaGySlCctKPSSTXofAw4lcq2B7YRMzUXrIsTU,4514
+blockkit/generators.py,sha256=ECiyBfft3qynNDoA2OsbQaUMUsZgSkztCJVAkXLj2hI,4624
+blockkit/objects.py,sha256=xQVc6PIfV9nURLYxSvR74poDz4Bd4a0OY0fitvHrgUM,3765
+blockkit/surfaces.py,sha256=l0ZMKuGgd8E4E9FHK_8Ey39RmhwgMWB5RA6wYPg_Kqo,3727
+blockkit/validators.py,sha256=Medz9Xg4cuZcx1-wPx9EjjU3HYu7NlNMB6L_kLbdm30,772
+blockkit-1.0.3.dist-info/LICENSE,sha256=EoXAN7NS4i7gUxVigVu5s1kVF0X5-ng8hB6ZUYiSjNE,1074
+blockkit-1.0.3.dist-info/METADATA,sha256=S_U2rcDvhfqKIpmIduHkroAcNblRRmSZJJnj8TvGHHY,4537
+blockkit-1.0.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+blockkit-1.0.3.dist-info/top_level.txt,sha256=PbKqfQ0G6dIEfPCv0gMERgZWjtulnvoK0cbjpnkYF9o,9
+blockkit-1.0.3.dist-info/RECORD,,
