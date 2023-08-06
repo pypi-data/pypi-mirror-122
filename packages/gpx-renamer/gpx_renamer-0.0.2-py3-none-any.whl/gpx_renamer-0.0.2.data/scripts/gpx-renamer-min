@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gpx-renamer -r $@
