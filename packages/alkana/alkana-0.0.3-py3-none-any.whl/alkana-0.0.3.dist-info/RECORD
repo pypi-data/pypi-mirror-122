@@ -1,0 +1,10 @@
+alkana/__init__.py,sha256=xWx8UQUvj4i5TMXQdPoSG046E0N_-qJl7KTO-c8PRFE,123
+alkana/console.py,sha256=ICnXXHsYwngKaHnWbKj9cdaaBku0d8uvcYdAdVrCpv4,269
+alkana/data.py,sha256=lw0d217ad9JsVgOBfZwQVRqNSTgQcQJZmpi1sDFx7dw,1845056
+alkana/external_data.py,sha256=l9PRXEn7YXCdlRsTF8lAjtL0H27OHcl3Fi0RKaqoR60,336
+alkana/main.py,sha256=7cmc3exnJf9dxuVbxFqUjL4gHaC7VVRt6eO0FgHlPmg,513
+alkana-0.0.3.dist-info/METADATA,sha256=Ovk_p5-XB_cLP43KHB9fwx4NoWKnuSwiMvHiuhOl1A0,1778
+alkana-0.0.3.dist-info/RECORD,,
+alkana-0.0.3.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+alkana-0.0.3.dist-info/entry_points.txt,sha256=FRD68oxHCkcXXQXLzxYxXoa9oFOkrYMpUVV-Bi38Edw,51
+alkana-0.0.3.dist-info/top_level.txt,sha256=-gaThmpf6MqqBVy7CjaITJmdg9SOj8NK-ei6axErm5I,7
