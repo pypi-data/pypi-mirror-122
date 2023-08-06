@@ -1,0 +1,13 @@
+mof/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mof/increment_version.py,sha256=JA69jEhy5kdVEuAgtyybbXkeSdPhNl6PusJMF_lhsIQ,306
+mof/mof.py,sha256=Cr2X0ha4YdzIK2JLOoU5SFhTRs2AfAmyLTIDpmdkW6A,9589
+mof/version.py,sha256=3ITyQfKn-h4AMdaHk5rHJaliZbCnbLZ7O3QQnAJH8yI,18
+mof/data/clusters.tar.gz,sha256=1P7qomSIF0VIolMFqN1IkPqQDT384yTK_XBeVamxt60,1106547
+mof/data/downloads.tsv,sha256=TxqGFIL_jkqBVfR9SJZIFX6oMkPTSYK8KUcEiY8jO2A,57416
+mof/data/trees.tar.gz,sha256=i1R15IxW6sG3aUcyUMLoBDd3oAV9quNq9YM4hIBLfW0,14636454
+mof-0.1.2.dist-info/LICENSE,sha256=Z8Kgy0Xu0fpc14FfG1fHP6XD-HHinz64BHWhpjnIVdY,1070
+mof-0.1.2.dist-info/METADATA,sha256=fVfHn4KFz6508P6hjsakIEgOXzdKZDmy04b0A4vqqKo,445
+mof-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mof-0.1.2.dist-info/entry_points.txt,sha256=zOctF3gmJfl_oQdT4zdRRBqv7B8lxEhtOxzri_QXKOU,38
+mof-0.1.2.dist-info/top_level.txt,sha256=1WHgPDHUxDn-8H_4qcLnUGtkb_sNsyGeZxkuD8muRLw,4
+mof-0.1.2.dist-info/RECORD,,
