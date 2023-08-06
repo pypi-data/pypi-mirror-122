@@ -1,0 +1,11 @@
+roborabbit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roborabbit/connection.py,sha256=kJSb6ubzT09ORwVzOQ0M5W0qeoT-wSLu-XA__M1_Iy4,1376
+roborabbit/logger.py,sha256=dWNkCi8D_UovhJBzVGG1iBLW9d6wpeh-QhNSj1WUhTY,133
+roborabbit/main.py,sha256=-JGnFcRIbNWw77RNiD_99apUgyssMciN4ykYQJNkYX0,1183
+roborabbit/rmq.py,sha256=BPz7yQbkTcmMoYOxyI_JIAchsOqSt3VK5NdyUO3UtyE,4554
+roborabbit/roborabbit.py,sha256=AXejHUmWChktFeiPjztZI1xmuMVDVWwBokvIaDqpuMY,1279
+roborabbit-0.2.7.dist-info/entry_points.txt,sha256=phLkWmdmprACLLxizD5q4Twt2mcIfCpkVHIA_M8foZY,51
+roborabbit-0.2.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+roborabbit-0.2.7.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+roborabbit-0.2.7.dist-info/METADATA,sha256=C3qKU8TVI5Ic3edmYhtNEF5VJr4nuxMU-Gyrpqahe2w,3489
+roborabbit-0.2.7.dist-info/RECORD,,
