@@ -1,0 +1,3 @@
+[drb.impl]
+mage = drb_impl_image.image_node_factory
+
