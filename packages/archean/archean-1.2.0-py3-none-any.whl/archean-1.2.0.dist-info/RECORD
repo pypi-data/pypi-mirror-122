@@ -1,0 +1,12 @@
+archean/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archean/__main__.py,sha256=fBOnBSuWIkq6UYTWSz3nmM40Gh_fxTGT9JhFf6r2ZGg,3457
+archean/cleanup.py,sha256=jERW6_RuX41yJ2D9tqNP31MmC7CrFkQWXU4A9AklUm8,13948
+archean/db_writer.py,sha256=P39G7Xn54CWAOkfoWYExMjVG827ifdqGS-vXB-wrhlA,6777
+archean/wiki_downloader.py,sha256=6fqPSEhFl8A-n-w691Avga0EDLB8qDsLkj0s-vyKrsk,3849
+archean/wiki_reader.py,sha256=aENsdvD1qsjVkudFE7ZOt5HbFZfQGuRBXDgeX5gc6Sw,13418
+archean-1.2.0.dist-info/LICENSE,sha256=EIJI_M8Nblya2nFX-KchVm40dUICQQIo6J0OoXJu3Ps,1069
+archean-1.2.0.dist-info/METADATA,sha256=2swhs3IW8bgZ5-4vhtPRuJNIwgf-EZL7ZQN0MJNYW2o,5530
+archean-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+archean-1.2.0.dist-info/entry_points.txt,sha256=248pXvMOUc-DvyAhkMov4qIShqJasEQ-ZDMXKP8IFzc,51
+archean-1.2.0.dist-info/top_level.txt,sha256=JK4YzKUFkwQPpo_oT1MzfbEs5Aqfc8IZsiksmHbflaA,8
+archean-1.2.0.dist-info/RECORD,,
