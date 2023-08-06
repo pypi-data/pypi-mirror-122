@@ -1,0 +1,14 @@
+Kookbook.py
+LICENSE
+MANIFEST.in
+README.md
+cdnget.py
+setup.py
+bin/cdnget
+cdnget.egg-info/PKG-INFO
+cdnget.egg-info/SOURCES.txt
+cdnget.egg-info/dependency_links.txt
+cdnget.egg-info/entry_points.txt
+cdnget.egg-info/requires.txt
+cdnget.egg-info/top_level.txt
+tests/cdnget_test.py
