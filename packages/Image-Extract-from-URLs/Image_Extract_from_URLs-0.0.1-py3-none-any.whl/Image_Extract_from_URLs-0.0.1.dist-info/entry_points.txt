@@ -1,0 +1,3 @@
+[console_scripts]
+image_extract_from_urls = image_extract_from_urls.__main__:main
+
