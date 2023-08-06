@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: url-finder
+Version: 0.1.1
+Summary: An easy utility to extract links from text.
+Home-page: https://github.com/kajdev/url-finder
+Author: kajdev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# url-finder
+A small python module to detect all real links in a given string.
+
+
+## Example
+
+```py
+import url_finder
+
+text = """
+Picking out google.com is trivial. As well as youtube.com,
+and even knows what is a real tld, and what is not.a.real.top-level-domain!
+"""
+
+assert url_finder.get_urls(text) == ["https://google.com", "https://youtube.com"]
+```
+
+## Install
+```
+pip install url-finder
+```
+
+
