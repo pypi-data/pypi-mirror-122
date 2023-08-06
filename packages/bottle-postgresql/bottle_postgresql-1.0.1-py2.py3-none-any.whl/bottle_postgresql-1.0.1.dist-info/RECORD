@@ -1,0 +1,8 @@
+bottle_postgresql.py,sha256=-m_n3M5_mtltJI4MkDZ48PpIOUi6oi5D1AxV29nvR9Y,9994
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bottle_postgresql_test.py,sha256=xF_r2twZYi5Bjs37279bdotEkSy76GiPMI7Asn-2r0I,3683
+bottle_postgresql-1.0.1.dist-info/LICENSE,sha256=L7G8tXV6gpFwDJ8JSb7zjDZQISd7mnAJwlnEvcAJSfM,1065
+bottle_postgresql-1.0.1.dist-info/METADATA,sha256=2MTSqrunsmsUE_QVRMWHYIl3Uzn0bQ-E6GNfd2ZwzLI,5293
+bottle_postgresql-1.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+bottle_postgresql-1.0.1.dist-info/top_level.txt,sha256=haZZBdp4HlxdC4wnWpqct7sw1F2caSW7CRJjKpTuWmU,24
+bottle_postgresql-1.0.1.dist-info/RECORD,,
