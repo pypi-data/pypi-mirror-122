@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gym-tictactoe-np
+Version: 0.1.1
+Summary: 3D TicTacToe environment for OpenAI's gym written with Numpy.
+Home-page: https://github.com/IshanManchanda/gym-tictactoe-np
+License: MIT
+Author: Ishan Manchanda
+Author-email: ishanmanchanda70@gmail.com
+Requires-Python: >=3.7,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gym (>=0.20.0,<0.21.0)
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Project-URL: Repository, https://github.com/IshanManchanda/gym-tictactoe-np
+Description-Content-Type: text/markdown
+
+# gym-tictactoe-np
+
+3D TicTacToe environment for OpenAI's gym. Optimized and written using numpy for parallel gameplay and rapid training
+
