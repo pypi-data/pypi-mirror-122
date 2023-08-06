@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+psycopg2_utils/__init__.py
+psycopg2_utils/cursor.py
+psycopg2_utils/pool.py
+psycopg2_utils/pooled_cursor_wrapper.py
+psycopg2_utils.egg-info/PKG-INFO
+psycopg2_utils.egg-info/SOURCES.txt
+psycopg2_utils.egg-info/dependency_links.txt
+psycopg2_utils.egg-info/requires.txt
+psycopg2_utils.egg-info/top_level.txt
