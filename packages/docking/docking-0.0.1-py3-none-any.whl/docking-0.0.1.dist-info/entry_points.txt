@@ -1,0 +1,3 @@
+[console_scripts]
+docking = docking.__main__:main
+
