@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+software_copyright_export_code/__init__.py
+software_copyright_export_code.egg-info/PKG-INFO
+software_copyright_export_code.egg-info/SOURCES.txt
+software_copyright_export_code.egg-info/dependency_links.txt
+software_copyright_export_code.egg-info/top_level.txt
