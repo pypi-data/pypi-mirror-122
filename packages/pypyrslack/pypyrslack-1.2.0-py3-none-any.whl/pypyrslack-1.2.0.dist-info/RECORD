@@ -1,0 +1,10 @@
+pypyrslack/__init__.py,sha256=NtJsmmsmWsSeyZnIsGbG89IFmrznLzG-F3ebocf0ayQ,66
+pypyrslack/errors.py,sha256=VPXvlddsG47rcWnoUKfLkaZQ3wS_zTXpvsAx_F5_1X4,286
+pypyrslack/version.py,sha256=32OmStSYbq3W79PHdYkxvoW8vAW3bTw0xkvJaf3ZriM,422
+pypyrslack/steps/__init__.py,sha256=NtJsmmsmWsSeyZnIsGbG89IFmrznLzG-F3ebocf0ayQ,66
+pypyrslack/steps/send.py,sha256=F-qDSuzNRSK35w2xGxnFy8gdvanBM8ewgixPMg4CucY,1906
+pypyrslack-1.2.0.dist-info/LICENSE,sha256=huv_Ym1QDTLjGNx9XHC22yj4w00PiGzsoOWz0vf_nR0,11352
+pypyrslack-1.2.0.dist-info/METADATA,sha256=wPl_waOxrDN1laxeTtwUzuJInP7ms6WjJrB9rbnqHSQ,4062
+pypyrslack-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pypyrslack-1.2.0.dist-info/top_level.txt,sha256=qPGoM_PBzQvIjEgIyV9bn33kxLuFDTqQQohs4KVPf1s,11
+pypyrslack-1.2.0.dist-info/RECORD,,
