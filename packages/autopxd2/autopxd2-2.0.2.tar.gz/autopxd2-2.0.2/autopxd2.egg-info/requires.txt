@@ -1,0 +1,8 @@
+Click
+pycparser
+
+[:python_version >= "3.6"]
+importlib_resources
+
+[dev]
+pytest
