@@ -1,0 +1,11 @@
+README.md
+setup.py
+distributions-shatakshi700/Binomialdistribution.py
+distributions-shatakshi700/Gaussiandistribution.py
+distributions-shatakshi700/Generaldistribution.py
+distributions-shatakshi700/__init__.py
+distributions_shatakshi700.egg-info/PKG-INFO
+distributions_shatakshi700.egg-info/SOURCES.txt
+distributions_shatakshi700.egg-info/dependency_links.txt
+distributions_shatakshi700.egg-info/not-zip-safe
+distributions_shatakshi700.egg-info/top_level.txt
