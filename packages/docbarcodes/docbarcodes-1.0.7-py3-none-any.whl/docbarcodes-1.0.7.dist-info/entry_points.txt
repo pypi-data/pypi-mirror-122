@@ -1,0 +1,3 @@
+[console_scripts]
+docbarcodes = docbarcodes.cli:app
+
