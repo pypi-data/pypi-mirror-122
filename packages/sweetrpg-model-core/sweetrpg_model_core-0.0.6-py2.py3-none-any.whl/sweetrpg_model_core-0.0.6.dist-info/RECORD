@@ -1,0 +1,15 @@
+sweetrpg_model_core/__init__.py,sha256=IMbb_pa7EAvZj1qup4SfkR_YmezG-xyLX-Mm2C5p8bg,444
+sweetrpg_model_core/convert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sweetrpg_model_core/convert/date.py,sha256=Ki9XN64fGg295BbTb9B0_vlDgNaUlqBemofobWjsgzc,2543
+sweetrpg_model_core/convert/document.py,sha256=I5gjeXXUnoOaou7wxRb1W6LVvWI02GWgeEm_dXrL1xU,1727
+sweetrpg_model_core/convert/model.py,sha256=BfG9q73frDD6uxEGQ_-ZCS7kvCCKHC9M3FP7mzgMpZM,864
+sweetrpg_model_core/model/__init__.py,sha256=-aZck5Mj_bhTjywk0RQsOjeBg88ZJ9bMT4Lu2tN3xy4,81
+sweetrpg_model_core/model/base.py,sha256=Bp3zcO2vpzLGIum_v-O_U-Aicv7vUFOr_psxWASmUyc,2190
+sweetrpg_model_core/schema/__init__.py,sha256=-aZck5Mj_bhTjywk0RQsOjeBg88ZJ9bMT4Lu2tN3xy4,81
+sweetrpg_model_core/schema/base.py,sha256=ic54I5ZAs4QERoyIeOSNyH_43vEHk6XZP6g_Qdw2rvw,1612
+sweetrpg_model_core-0.0.6.dist-info/LICENSE,sha256=l9scQGsqoUwsODCDicrQeU-CHjRnoRzEw_Fe2hO5kW8,1065
+sweetrpg_model_core-0.0.6.dist-info/METADATA,sha256=91eXBhCHsidFLZ7UQvue2KVl8bnAWqUGf4vB-3tAaJk,2082
+sweetrpg_model_core-0.0.6.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sweetrpg_model_core-0.0.6.dist-info/entry_points.txt,sha256=kqJWwDByJu9U9Le1AAo-ZHMsYv7-AttpsMWjdux0uOo,66
+sweetrpg_model_core-0.0.6.dist-info/top_level.txt,sha256=QREWMCQ0AkJVIlWKvcLPIbO2GsNwBirlyk3V4rw9648,20
+sweetrpg_model_core-0.0.6.dist-info/RECORD,,
