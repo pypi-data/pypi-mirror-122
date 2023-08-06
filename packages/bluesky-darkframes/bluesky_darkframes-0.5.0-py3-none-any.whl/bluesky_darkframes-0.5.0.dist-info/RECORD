@@ -1,0 +1,13 @@
+bluesky_darkframes/__init__.py,sha256=pcNHfe_qC-wLgrQJ4Wt9xl2f4JDjQXWVlNwvnNsLTdM,21374
+bluesky_darkframes/_version.py,sha256=VxgGr1irtlfyyc4JHaeqzu2a-Fe8q_33YoGf2zLclwU,497
+bluesky_darkframes/sim.py,sha256=hvdTnlpambsCUJlsFTgzTHzQ_0_sooye6DcJqBg0v1s,4447
+bluesky_darkframes/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bluesky_darkframes/tests/conftest.py,sha256=3WlzF__qZ8_O9DaY0JPphwxlse9TjJKvnt99l_LKBxs,46
+bluesky_darkframes/tests/tests.py,sha256=o3hpnGArH3kXbqq4RcFGo99y1AZFsNeBS-wB28fxQkg,11145
+bluesky_darkframes-0.5.0.dist-info/AUTHORS.rst,sha256=SQbQ44-VQNL-ln0qFmS6B-HWGQnt6ruhEBgwW6xIK0w,173
+bluesky_darkframes-0.5.0.dist-info/LICENSE,sha256=F_Rb4SCJPNralkrAiM3GXn2PmiKkvkhAqW-eZlBY_0c,1557
+bluesky_darkframes-0.5.0.dist-info/METADATA,sha256=DdZ07zXBrTow2uIzeumWen2avK61Zay4iI5BjxM45uw,1141
+bluesky_darkframes-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bluesky_darkframes-0.5.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+bluesky_darkframes-0.5.0.dist-info/top_level.txt,sha256=EY6JjAEN7q_xlZl-pqoEJ3OTNJU0h7j9DhjmzF2KB5A,19
+bluesky_darkframes-0.5.0.dist-info/RECORD,,
