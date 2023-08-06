@@ -1,0 +1,4 @@
+azure-core<2.0.0,>=1.6.0
+msrest>=0.6.10
+opentelemetry-api!=1.10a0,<2.0.0,>=1.5.0
+opentelemetry-sdk!=1.10a0,<2.0.0,>=1.5.0
