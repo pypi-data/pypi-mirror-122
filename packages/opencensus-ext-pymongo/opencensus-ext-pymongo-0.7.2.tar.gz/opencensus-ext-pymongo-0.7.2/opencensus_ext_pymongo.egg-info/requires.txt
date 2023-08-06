@@ -1,0 +1,2 @@
+opencensus<1.0.0,>=0.8.0
+pymongo>=3.1.0
