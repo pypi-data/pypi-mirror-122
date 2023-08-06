@@ -1,0 +1,10 @@
+instrumentum/__init__.py,sha256=SQRz6bieustv65EZ_4NjPs6UKNED-AHl_3se5Zblayc,254
+instrumentum/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instrumentum/features/stepwise.py,sha256=YzCtifXurNCUL1RM5fEGot2X8TRNfNfqrnUW2fmbxUg,5895
+instrumentum/image_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instrumentum/instrumentum.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instrumentum/time_series/__init__.py,sha256=dsQ28rFQ3KHK5IkAHawZMN6NLv1kDk56CzaTTbPVwJA,1302
+instrumentum-0.4.0.dist-info/LICENSE,sha256=_HWFjtbKFiBRJtibZQXLrvs5ktSv2Zmzrr9IHNdi_zE,1077
+instrumentum-0.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+instrumentum-0.4.0.dist-info/METADATA,sha256=CnbyjD-X3MU-dWQ16AGCRFhen_cS4ItdECq6bOZp6sY,1279
+instrumentum-0.4.0.dist-info/RECORD,,
