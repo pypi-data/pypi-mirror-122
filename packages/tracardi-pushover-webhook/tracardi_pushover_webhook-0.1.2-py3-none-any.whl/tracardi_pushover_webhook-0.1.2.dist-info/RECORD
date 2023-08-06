@@ -1,0 +1,9 @@
+tracardi_pushover_webhook/plugin.py,sha256=mNlJeLFuLgPv90vfJbSatv1jDojHMIC10dhcF-iwWpI,3911
+tracardi_pushover_webhook/model/pushover_config.py,sha256=I-tWnzZ2azY1t9z8O5PjHFxNMttaxXl6xTTJWb4_yYk,229
+tracardi_pushover_webhook/model/__pycache__/pushover_config.cpython-38.pyc,sha256=Tq3CjqEAhnUzeymfIji0SMxqpgkbd0_j5vCqkEL9Q2I,718
+tracardi_pushover_webhook/tests/test_plugin.py,sha256=UKfjKBT8EycNEO6Yt_rzLqAxFBau_g2pa34KGqknMkY,357
+tracardi_pushover_webhook-0.1.2.dist-info/LICENSE.md,sha256=M51Sny-lRl6yh42-pZ_b5s4Lh4sWZrTOlbT6KhF2On4,1074
+tracardi_pushover_webhook-0.1.2.dist-info/METADATA,sha256=A4J_FXAvjonNlpM5D6cGK3UVjQ0WS-CytucKNpwEwyo,1290
+tracardi_pushover_webhook-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tracardi_pushover_webhook-0.1.2.dist-info/top_level.txt,sha256=uPShoFiX6PgchfB1OjeuaNpQDGeyhsC7qvumNqz-_8s,26
+tracardi_pushover_webhook-0.1.2.dist-info/RECORD,,
