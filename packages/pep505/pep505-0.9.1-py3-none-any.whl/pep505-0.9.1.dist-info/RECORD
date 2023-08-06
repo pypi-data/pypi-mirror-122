@@ -1,0 +1,13 @@
+pep505/__init__.py,sha256=QKzLa0w4I8Ykh5qR35ssTkp_BU5LksablFBh1zbXEFs,51
+pep505/_test.py,sha256=m-0y_uePJvNvX8_KZ8e0PADnnC-OSoWoto3k7-ysshI,1868
+pep505/hook.py,sha256=u8UTBN2-p3_0veG7gj1FVBZjU9xiMBjYSA8wUx4NwWc,3332
+pep505/parser.py,sha256=hZ7-SknocXpFDC18MAdlFkNrRT6-3_IIOUR0oG1cLOE,315473
+pep505/test.py,sha256=P5fRYkLIQQX4d3KfxJMrvfEH_lJokx1IbJljv80l_vY,159
+pep505/pegen/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+pep505/pegen/parser.py,sha256=L-4f3kpkouzjbcn4ImBktaxWQGjtQrqTI5l8PII1afo,11293
+pep505/pegen/tokenizer.py,sha256=1PIqp7A8mnBsWO7eUikisARcAO32XFSv7Wxu217NM08,3697
+pep505-0.9.1.dist-info/LICENSE,sha256=_DS1OwiGM_Df2jzIYFiuDIheTpf8tvNJ8-kXBWzA5LY,1068
+pep505-0.9.1.dist-info/METADATA,sha256=XYTCcwxcmltH9TLfng1dxE3_rDkaeR1fHxy2LN3MiuE,4748
+pep505-0.9.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pep505-0.9.1.dist-info/top_level.txt,sha256=N72qllfutEVSyLnkPyQeFqGE0Boyg5nOC5GyWBRSlnI,7
+pep505-0.9.1.dist-info/RECORD,,
