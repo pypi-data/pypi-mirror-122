@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Neuron-pypi-SivaNagendra-sn
+Version: 0.0.2
+Summary: Yhis package implements perceptron
+Home-page: https://github.com/SivaNagendra-sn/Neuron_pypi
+Author: SivaNagendra-sn
+Author-email: sivanagendra.paruchuri@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SivaNagendra-sn/Neuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+
+This is a Perceptron network and can be implemented with your own datasets.
+
+Installation:
+```bash
+pip install Neuron-pypi-SivaNagendra-sn==0.0.1
+```
+
+How to Use:
+```python
+from Neuron.perceptron import Perceptron
+
+## get X and y and then use below commands
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+
+
