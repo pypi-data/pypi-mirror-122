@@ -1,0 +1,13 @@
+flask
+toolchest
+
+[dist]
+build
+setuptools_scm
+twine
+
+[test]
+flake8
+pytest
+pytest-cov
+tox
