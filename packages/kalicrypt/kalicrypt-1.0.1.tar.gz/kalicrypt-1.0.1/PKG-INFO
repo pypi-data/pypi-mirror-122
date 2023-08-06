@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: kalicrypt
+Version: 1.0.1
+Summary: Simple encryption of string values
+Home-page: UNKNOWN
+Author: CoderKali
+Author-email: thecoders4780@outlook.com
+License: MIT
+Keywords: encryption
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+README
+======
+
+This is a simple library used to encrypt and decrypt text values.
+This library is also capapble of encrypting numbers, alphanumeric values.
+This library uses simple methods to encrypt strings.
+This library is easy-to-use, so python beginners needn't worry!
+Thank you for using kcrypt
+HAPPY CODING!!!
+
+CHANGE LOG
+==========
+
+1.0.1 (08/10/2021)
+------------------
+- First Release
+

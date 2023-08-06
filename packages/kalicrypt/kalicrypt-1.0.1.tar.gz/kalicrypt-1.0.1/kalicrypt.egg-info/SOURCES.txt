@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+kalicrypt/__init__.py
+kalicrypt.egg-info/PKG-INFO
+kalicrypt.egg-info/SOURCES.txt
+kalicrypt.egg-info/dependency_links.txt
+kalicrypt.egg-info/top_level.txt
