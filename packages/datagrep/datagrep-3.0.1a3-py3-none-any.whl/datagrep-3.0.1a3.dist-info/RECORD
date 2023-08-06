@@ -1,0 +1,11 @@
+datagrep/__init__.py,sha256=EPmgXOdWKks5S__ZMH7Nu6xpAeVrZpfxaFy4pykuyeI,22
+datagrep/__main__.py,sha256=obM-2GIGdi1dvPO51cY_Bs-y6jJf6LDjZ1h-6TZWPN4,49
+datagrep/main.py,sha256=dyIOfD18qGDD1eGvYHH6QPo9E2smrxzuZQnUNDNGyTs,776
+datagrep/platform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datagrep/platform/__main__.py,sha256=sE-5-ePqt7E_qna061utiHytajmURy_Z0ycGnMK1vYw,44
+datagrep/platform/main.py,sha256=EsQtHNf1ZrQBdXKLyu6dTat7IqK2VaifGWKhpu12-FU,2799
+datagrep-3.0.1a3.dist-info/entry_points.txt,sha256=KLnMaqmDcX2c5PJc08ZzHh9b0_WK8B-b553INqr45NA,77
+datagrep-3.0.1a3.dist-info/LICENSE,sha256=yvy8xdnViZDoKqx_G-3IKI4iNYMxq2VeqH-PThSwzn8,1071
+datagrep-3.0.1a3.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+datagrep-3.0.1a3.dist-info/METADATA,sha256=-ek1sn81ocgWah5EGQCraTklU4HvqYjkh6DWgDg6124,697
+datagrep-3.0.1a3.dist-info/RECORD,,
