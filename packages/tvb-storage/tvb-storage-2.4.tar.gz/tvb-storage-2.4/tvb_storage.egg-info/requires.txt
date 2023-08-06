@@ -1,0 +1,9 @@
+h5py
+numpy
+scipy
+
+[encrypt]
+syncrypto
+
+[test]
+pytest
