@@ -1,0 +1,10 @@
+jsonnet>=0.17.0
+colorlog>=5.0.0
+
+[dispatch]
+click>=7.0.0
+
+[stats]
+statsmodels>=0.12
+scipy>=1.6.0
+numpy>=1.18
