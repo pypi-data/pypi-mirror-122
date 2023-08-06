@@ -1,0 +1,8 @@
+jupyter
+matplotlib
+numpy
+pandas
+plotly
+scikit-learn
+scipy
+sktime>=0.8
