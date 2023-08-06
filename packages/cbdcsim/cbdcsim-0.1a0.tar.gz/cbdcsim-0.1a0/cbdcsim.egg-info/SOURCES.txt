@@ -1,0 +1,10 @@
+README.md
+setup.py
+cbdcsim/__init__.py
+cbdcsim/__main__.py
+cbdcsim.egg-info/PKG-INFO
+cbdcsim.egg-info/SOURCES.txt
+cbdcsim.egg-info/dependency_links.txt
+cbdcsim.egg-info/entry_points.txt
+cbdcsim.egg-info/requires.txt
+cbdcsim.egg-info/top_level.txt

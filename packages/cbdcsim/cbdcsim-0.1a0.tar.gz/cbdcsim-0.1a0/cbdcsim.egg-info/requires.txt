@@ -1,0 +1,10 @@
+joblib
+click
+decorator
+numpy
+pandas
+python-dateutil
+pytz
+scipy
+threadpoolctl
+xlrd
