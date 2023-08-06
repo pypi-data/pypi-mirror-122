@@ -1,0 +1,7 @@
+README
+setup.py
+genshin_bili.egg-info/PKG-INFO
+genshin_bili.egg-info/SOURCES.txt
+genshin_bili.egg-info/dependency_links.txt
+genshin_bili.egg-info/requires.txt
+genshin_bili.egg-info/top_level.txt
