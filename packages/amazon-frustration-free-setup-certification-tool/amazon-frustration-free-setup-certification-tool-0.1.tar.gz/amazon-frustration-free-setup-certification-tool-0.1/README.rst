@@ -1,0 +1,44 @@
+Amazon Frustration Free Setup Certification Tool
+================================================
+
+Python-based automation test scripts which can help Non-Amazon device partners to launch their devices with FFS with shorten self-certification time. The document will describe how to run those scripts to complete the certification tests, especially the provisioning performance test.
+
+Frustration Free Setup Overview
+-------------------------------
+See `Understanding Frustration-Free Setup`_ for more information.
+
+Frustration Free Setup Certification Process
+--------------------------------------------
+See `Provisionee Certification Guide`_ for more information.
+
+Requirements and Getting started
+--------------------------------
+- 1 Android phone in USB debugging mode
+    - Alexa App installed and login with your Amazon account
+    - The phone is connected with your test machine (Windows, MacOS or Linux) with USB connection.
+- 1 Provisioner device, which is registered to your Amazon account, see recommended devices from `Understanding Frustration-Free Setup - Testing Your Device`_
+- 1 Provisionee device, your device under test, called DUT in this document.
+- 2 Control devices, `Amazon Smart Plugs`_ are recommended
+    - Please register both to your Amazon account.
+    - Please plug DUT on top of one smart plug, and turn that plug **ON** if DUT has been registered to your Amazon account, or **OFF** if DUT is in factory reset mode.
+    - Please plug the provisioner device on top of the other smart plug, and turn it **ON**.
+- Please submit your DUT to pre-register our device setup service via `Submit Test Devices`_
+
+.. image:: diagram.png
+    :alt: Diagram of Test Environment
+
+Run Test Scripts
+----------------
+See `Source on GitHub`_ for more details
+
+License
+-------
+
+This project is licensed under the Apache-2.0 License.
+
+.. _Understanding Frustration-Free Setup: https://developer.amazon.com/docs/frustration-free-setup/understanding-ffs.html
+.. _Provisionee Certification Guide: https://developer.amazon.com/docs/frustration-free-setup/provisionee-certification.html
+.. _Understanding Frustration-Free Setup - Testing Your Device: https://developer.amazon.com/docs/frustration-free-setup/understanding-ffs.html#testing-your-device
+.. _Amazon Smart Plugs: https://www.amazon.com/dp/B089DR29T6
+.. _Submit Test Devices: https://developer.amazon.com/frustration-free-setup/console/manage/submit-test-devices
+.. _Source on GitHub: https://github.com/amzn/amazon-frustration-free-setup-certification-tool/
