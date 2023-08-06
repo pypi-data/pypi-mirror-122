@@ -1,0 +1,10 @@
+{% load i18n %}
+{% with remotes=signin_form.remotes %}
+    {% if remotes %}
+        <br>
+        <div>
+        {% if or_clause %}{% trans "Or sign in with" %}{% else %}{% trans "Sign in with" %}{% endif %}:
+        {% for remote in remotes %}<a href="{{ remote.url_auth_start }}">{{ remote.title }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}.
+        </div>
+    {% endif %}
+{% endwith %}
