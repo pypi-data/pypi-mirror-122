@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: roughrider.cors
+Version: 0.1
+Summary: CORS Policy for Web applications
+Home-page: https://github.com/HorsemanWSGI/roughrider.cors
+Author: Souheil CHELFOUH
+Author-email: trollfot@gmail.com
+License: ZPL
+Download-URL: http://pypi.python.org/pypi/roughrider.cors
+Description: roughrider.cors
+        ***************
+        
+        This package allows you to create a policy that can handle CORS.
+        It can be used with any python framework as it's totally agnostic.
+        It can cook response headers, even for preflight requests.
+        
+        
+        Example
+        =======
+        
+        .. code-block:: python
+        
+          from roughrider.cors.policy import CORSPolicy
+        
+          cors = CORSPolicy(
+              methods=['GET', 'POST'],
+              allow_headers=['Accept-Encoding'],
+              expose_headers=['Accept-Encoding'],
+              max_age=19000
+          )
+        
+          headers = list(cors.headers())
+        
+          # Arguments for the preflight should be extracted from the request.
+          # depending on the type of framework you use (WSGI, ASGI...)
+          preflight_headers = list(cors.preflight(
+              origin='http://example.com',
+              acr_headers='X-Custom-Header, Accept-Encoding'
+          ))
+        
+        CHANGES
+        =======
+        
+        0.1 (2021-10-09)
+        ----------------
+        
+          * Initial release.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: test
