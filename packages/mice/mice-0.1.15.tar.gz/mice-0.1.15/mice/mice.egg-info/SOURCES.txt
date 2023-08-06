@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+REQUIREMENTS
+pyproject.toml
+setup.py
+mice/mice.egg-info/PKG-INFO
+mice/mice.egg-info/SOURCES.txt
+mice/mice.egg-info/dependency_links.txt
+mice/mice.egg-info/requires.txt
+mice/mice.egg-info/top_level.txt
