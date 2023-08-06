@@ -1,0 +1,10 @@
+setup.py
+ude2_distributions/Binomialdistribution.py
+ude2_distributions/Gaussiandistribution.py
+ude2_distributions/Generaldistribution.py
+ude2_distributions/__init__.py
+ude2_distributions.egg-info/PKG-INFO
+ude2_distributions.egg-info/SOURCES.txt
+ude2_distributions.egg-info/dependency_links.txt
+ude2_distributions.egg-info/not-zip-safe
+ude2_distributions.egg-info/top_level.txt
