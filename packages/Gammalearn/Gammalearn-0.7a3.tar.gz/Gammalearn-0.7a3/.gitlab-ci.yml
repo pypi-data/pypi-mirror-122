@@ -1,0 +1,38 @@
+image: "python:3.8"
+stages:
+    - test
+
+before_script:
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - source "$HOME/miniconda/etc/profile.d/conda.sh"
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
+  - conda create -n glearn python=3.8
+  - conda activate glearn
+  - conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia
+  - conda env update -f environment.yml
+  - git clone https://github.com/cta-observatory/dl1-data-handler.git
+  - cd dl1-data-handler
+  - python setup_light.py install
+  - cd ..
+
+test:
+    stage: test
+    script:
+        - pip install .
+        - coverage run -m unittest
+        - coverage xml
+        - cd examples
+        - gammalearn experiment_settings_val.py
+        - gammalearn experiment_settings_train_MC.py
+        - gammalearn experiment_settings_test_MC.py
+        - gammalearn experiment_settings_test_real.py
+        - gammalearn experiment_settings_square_pixels.py
+        - gammalearn experiment_settings_square_pixels_over.py
+        - gammalearn experiment_settings_square_pixels_bicubic.py
+        - gammalearn experiment_settings_file_spawn.py
+        - gammalearn experiment_settings_profiler.py
+    artifacts:
+      reports:
+        cobertura: coverage.xml

@@ -1,0 +1,23 @@
+name: glearn
+channels:
+  - gammalearn
+  - cta-observatory
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - pip
+  - pytorch-lightning>=1.4.6
+  - ctapipe=0.10
+  - ctapipe-extra
+  - coverage
+  - matplotlib
+  - pandas
+  - pytables
+  - indexedconv
+  - pip:
+    - astropy
+    - ctaplot
+    - lstchain==0.7.3
+    - pyirf
+    - torch-tb-profiler

@@ -1,0 +1,15 @@
+torch>=1.7
+tensorboard
+torchvision
+numpy
+matplotlib
+tables
+sphinxcontrib-katex
+pytorch-lightning>=1.4
+indexedconv>=1.3
+ctapipe>=0.10
+ctaplot
+dl1_data_handler
+lstchain>=0.7
+coverage
+torch-tb-profiler
