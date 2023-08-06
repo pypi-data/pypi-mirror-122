@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: englishdictionary
+Version: 0.0.1
+Summary: Define words in the English dictionary.
+Home-page: https://github.com/UCYT5040/englishdictionary
+Author: UCYT5040 & Saunders Tech
+Author-email: support@saunderstech.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# English Dictionary
+
+## Usage
+
+### `define(word:str, limit:int=50:)`
+
+#### Arguments
+**`word`** - A `str` of a single word to define. **Required**
+
+**`limit`** - `int` that limits how many results, ordered by popularity. **Default:** `50`
+
+#### Return
+`dict`
+#### Example
+```py
+>>> edict.define("hello")
+[{'partOfSpeech': 'exclamation', 'definitions': [{'definition': 'used as a greeting or to begin a phone conversation.', 'example': 'hello there, Katie!', 'synonyms': [], 'antonyms': []}]}, {'partOfSpeech': 'noun', 'definitions': [{'definition': 'an utterance of ‘hello’; a greeting.', 'example': 'she was getting polite nods and hellos from people', 'synonyms': [], 'antonyms': []}]}, {'partOfSpeech': 'verb', 'definitions': [{'definition': 'say or shout ‘hello’.', 'example': 'I pressed the phone button and helloed', 'synonyms': [], 'antonyms': []}]}]
+```
+
+### `phonetics(word:str, limit:int=50:)`
+
+#### Arguments
+**`word`** - A `str` of a single word to find phonetics for. **Required**
+
+**`limit`** - `int` that limits how many results, ordered by popularity. **Default:** `50`
+
+#### Return
+`dict`
+#### Example
+```py
+>>> edict.phonetics("hello")
+[{'text': 'həˈləʊ', 'audio': '//ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_gb_1.mp3'}, {'text': 'hɛˈləʊ'}]
+```
+
+
