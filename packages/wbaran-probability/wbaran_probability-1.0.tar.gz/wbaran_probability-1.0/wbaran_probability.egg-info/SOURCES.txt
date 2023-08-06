@@ -1,0 +1,10 @@
+setup.py
+wbaran_probability/Binomialdistribution.py
+wbaran_probability/Gaussiandistribution.py
+wbaran_probability/Generaldistribution.py
+wbaran_probability/__init__.py
+wbaran_probability.egg-info/PKG-INFO
+wbaran_probability.egg-info/SOURCES.txt
+wbaran_probability.egg-info/dependency_links.txt
+wbaran_probability.egg-info/not-zip-safe
+wbaran_probability.egg-info/top_level.txt
