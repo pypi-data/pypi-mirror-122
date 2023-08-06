@@ -1,0 +1,7 @@
+numpy
+
+[test]
+autograd
+coverage[toml]
+pytest
+pytest-cov
