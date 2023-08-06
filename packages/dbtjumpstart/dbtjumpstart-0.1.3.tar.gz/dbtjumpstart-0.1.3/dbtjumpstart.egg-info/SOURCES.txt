@@ -1,0 +1,9 @@
+LICENSE
+README.md
+dbtjumpstart/main.py
+dbtjumpstart/setup.py
+dbtjumpstart.egg-info/PKG-INFO
+dbtjumpstart.egg-info/SOURCES.txt
+dbtjumpstart.egg-info/dependency_links.txt
+dbtjumpstart.egg-info/requires.txt
+dbtjumpstart.egg-info/top_level.txt
