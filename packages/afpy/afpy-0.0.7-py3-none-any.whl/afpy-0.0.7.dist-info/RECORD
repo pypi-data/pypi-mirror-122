@@ -1,0 +1,13 @@
+afpy/__init__.py,sha256=rsZToRNiLtzluN70LD0Uh5cNnF-qeppzGn5VsB7V3QY,146
+afpy/cli.py,sha256=t_QUa0OplNBU6UbeUc0G9xvLPZNlN9iYiPgpv95lhww,258
+afpy/cwd.py,sha256=Ba2RYuVjrfn9un506dfridR4O88LTFGZ4WptbytkffY,108
+afpy/files.py,sha256=HohdHHnbVkqBM6tzOc_90UQ_D0514rPqpGIHnaNyjX4,4527
+afpy/pathify.py,sha256=NeDgJPIK7YIl_7dF_GF2N8zW31EPwydhc9gjc1q4ySc,276
+afpy/plot.py,sha256=mL_aQ8ZqMTs9ZnotRSwXNueoMWumkAFx_usBRYm8XVo,6831
+afpy/string.py,sha256=iqgrWDCNGmSRyWm1N-x4m0qWi75nJ3u9mDG7h7MqACs,223
+afpy/yml.py,sha256=7BJXR8BFaLoZQ6Ge4hLPtVId5dSjgZq93BHICpiAR1M,1015
+afpy-0.0.7.dist-info/LICENSE,sha256=dWbtl-u7x1h4waXgeQBae1NC0cO0_WBbxrEnpmk2pcE,1071
+afpy-0.0.7.dist-info/METADATA,sha256=Zw4NWANY8vhvEfip1Alkjdx5itydgrFSfFWVSBHYM0Q,610
+afpy-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+afpy-0.0.7.dist-info/top_level.txt,sha256=nkScN4sd58zcDncMjr58KwFo7ElJTRMLOzcbPXCnKns,5
+afpy-0.0.7.dist-info/RECORD,,
