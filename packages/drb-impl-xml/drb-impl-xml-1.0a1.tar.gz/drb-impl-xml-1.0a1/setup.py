@@ -1,0 +1,32 @@
+import versioneer
+from setuptools import setup, find_packages
+
+
+REQUIREMENTS = ['drb', 'defusedxml>=0.7.1']
+
+with open('README.md', 'r') as fh:
+    long_description = fh.read()
+
+setup(
+    name='drb-impl-xml',
+    packages=find_packages(include=['drb_impl_xml']),
+    description='DRB XML implementation',
+    long_description=long_description,
+    author='GAEL Systems',
+    author_email='info@gael.fr',
+    url='https://gitlab.com/drb-python/impl/xml',
+    install_requires=REQUIREMENTS,
+    setup_requires=['setuptools_scm'],
+    test_suite='tests',
+    classifiers=[
+        "Programming Language :: Python :: 3.8",
+        "License :: OSI Approved :: Apache Software License",
+        "Operating System :: OS Independent",
+
+    ],
+    python_requires='>=3.8',
+    entry_points={'drb.impl': 'xml = drb_impl_xml.xml_node_factory'},
+    use_scm_version=True,
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
+)

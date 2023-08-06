@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: drb-impl-xml
+Version: 1.0a1
+Summary: DRB XML implementation
+Home-page: https://gitlab.com/drb-python/impl/xml
+Author: GAEL Systems
+Author-email: info@gael.fr
+License: UNKNOWN
+Description: # xml 
+        
+        XML implementation with Drb data model.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
