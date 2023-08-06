@@ -1,0 +1,7 @@
+opencv-python
+Pillow
+imutils
+numpy
+Appium-Python-Client
+selenium
+PyAutoGUI==0.9.53
