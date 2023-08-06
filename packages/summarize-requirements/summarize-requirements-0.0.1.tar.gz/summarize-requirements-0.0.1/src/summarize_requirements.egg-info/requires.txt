@@ -1,0 +1,6 @@
+requests==2.26.0
+requirements-parser==0.2.0
+
+[dev]
+check-manifest>=0.47
+pytest>=3.7

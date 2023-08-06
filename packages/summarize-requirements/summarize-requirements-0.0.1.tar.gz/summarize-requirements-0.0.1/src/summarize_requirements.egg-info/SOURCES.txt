@@ -1,0 +1,13 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/summarize_requirements.py
+src/test_summarize_requirements.py
+src/summarize_requirements.egg-info/PKG-INFO
+src/summarize_requirements.egg-info/SOURCES.txt
+src/summarize_requirements.egg-info/dependency_links.txt
+src/summarize_requirements.egg-info/requires.txt
+src/summarize_requirements.egg-info/top_level.txt
