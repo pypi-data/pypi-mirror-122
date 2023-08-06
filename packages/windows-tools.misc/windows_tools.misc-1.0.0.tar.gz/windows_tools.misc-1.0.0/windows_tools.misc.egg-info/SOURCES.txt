@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+windows_tools.misc.egg-info/PKG-INFO
+windows_tools.misc.egg-info/SOURCES.txt
+windows_tools.misc.egg-info/dependency_links.txt
+windows_tools.misc.egg-info/namespace_packages.txt
+windows_tools.misc.egg-info/not-zip-safe
+windows_tools.misc.egg-info/top_level.txt
+windows_tools/misc/__init__.py
