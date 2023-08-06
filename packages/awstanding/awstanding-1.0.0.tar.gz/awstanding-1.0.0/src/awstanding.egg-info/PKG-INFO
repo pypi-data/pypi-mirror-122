@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: awstanding
+Version: 1.0.0
+Summary: Load parameters from AWS Parameter Store
+Home-page: https://github.com/jiss2891/awstanding
+Author: Juan Ignacio Sánchez Sampayo
+Author-email: jiss2891@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jiss2891/awstanding/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# AWStanding
+Easily load variables from AWS Parameter store into environment variables.
+
+# Quickstart
+```python
+from awstanding.parameter_store import load_parameters
+load_parameters({'/some/path/to/something/stored': 'IMPORTANT_SETTING'})
+
+import os
+print(os.environ.get('IMPORTANT_SETTING'))
+'super-important-value'
+```
+
+# Using with python-decouple
+```python
+import os
+from awstanding.parameter_store import load_parameters
+from decouple import config
+load_parameters({'/some/path/to/something/stored': 'IMPORTANT_SETTING'})
+
+IMPORTANT_SETTING = config('IMPORTANT_SETTING', default='some-default')
+print(IMPORTANT_SETTING)
+'super-important-value'
+```
+
+
