@@ -1,0 +1,10 @@
+setup.py
+llu_distributions/Binomialdistribution.py
+llu_distributions/Gaussiandistribution.py
+llu_distributions/Generaldistribution.py
+llu_distributions/__init__.py
+llu_distributions.egg-info/PKG-INFO
+llu_distributions.egg-info/SOURCES.txt
+llu_distributions.egg-info/dependency_links.txt
+llu_distributions.egg-info/not-zip-safe
+llu_distributions.egg-info/top_level.txt
