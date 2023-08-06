@@ -1,0 +1,7 @@
+setuptools==56.2.0
+dill==0.3.3
+tqdm==4.49.0
+Sphinx==4.0.1
+easy-parallel-py3==0.1.6.4
+atom3-py3==0.1.9.8
+click==7.0.0
