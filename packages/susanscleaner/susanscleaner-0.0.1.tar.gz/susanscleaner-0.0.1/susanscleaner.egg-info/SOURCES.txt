@@ -1,0 +1,8 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+susanscleaner.egg-info/PKG-INFO
+susanscleaner.egg-info/SOURCES.txt
+susanscleaner.egg-info/dependency_links.txt
+susanscleaner.egg-info/top_level.txt
