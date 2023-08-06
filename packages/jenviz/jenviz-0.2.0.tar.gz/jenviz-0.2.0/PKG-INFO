@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jenviz
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/toabctl/jenviz
+Author: Thomas Bechtold
+Author-email: thomasbechtold@jpberlin.de
+License: Apache-2.0
+Description: README.rst
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: tests
