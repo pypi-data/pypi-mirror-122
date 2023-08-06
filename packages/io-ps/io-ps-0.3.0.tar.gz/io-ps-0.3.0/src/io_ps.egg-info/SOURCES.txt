@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/io-ps/__init__.py
+src/io-ps/main.py
+src/io_ps.egg-info/PKG-INFO
+src/io_ps.egg-info/SOURCES.txt
+src/io_ps.egg-info/dependency_links.txt
+src/io_ps.egg-info/top_level.txt
