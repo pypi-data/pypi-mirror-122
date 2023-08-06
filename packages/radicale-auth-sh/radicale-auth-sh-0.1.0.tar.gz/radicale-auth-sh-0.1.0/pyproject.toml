@@ -1,0 +1,33 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+dist-name = "radicale-auth-sh"
+module = "radicale_auth_sh"
+author = "Ashwin V. Mohanan"
+author-email = "y4d71nsar@relay.firefox.com"
+home-page = "https://codeberg.org/ashwinvis/radicale-auth-sh"
+description-file = "README.md"
+classifiers = [ "License :: OSI Approved :: Apache Software License",]
+requires = [
+  "argon2-cffi < 21.0.0",
+  "radicale >= 3.0.0",
+  "setuptools",
+]
+requires-python = ">=3.6"
+keywords = "authentication, radicale, argon2, caldav, carddav"
+
+[tool.flit.metadata.requires-extra]
+test = [
+  "pytest",
+  "pytest-cov",
+]
+dev = [
+  "scriv[toml]",
+  "build"
+]
+
+[tool.scriv]
+version = "literal: src/radicale_auth_sh/__init__.py: __version__"
+format = "md"

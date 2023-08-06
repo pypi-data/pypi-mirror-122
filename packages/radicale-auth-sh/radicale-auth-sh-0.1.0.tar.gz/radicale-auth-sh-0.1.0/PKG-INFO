@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: radicale-auth-sh
+Version: 0.1.0
+Summary: Plugin radicale-auth-sh
+Home-page: https://codeberg.org/ashwinvis/radicale-auth-sh
+Keywords: authentication, radicale, argon2, caldav, carddav
+Author: Ashwin V. Mohanan
+Author-email: y4d71nsar@relay.firefox.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: argon2-cffi < 21.0.0
+Requires-Dist: radicale >= 3.0.0
+Requires-Dist: setuptools
+Requires-Dist: scriv[toml] ; extra == "dev"
+Requires-Dist: build ; extra == "dev"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: test
+
+# radicale-auth-sh
+
+A simple Radicale **salted and hashed password** authentication plugin. This
+uses a static password as described in the [docs][docs]. However in contrast to
+the original example, the password is not stored in plain-text, but encrypted
+using [Argon2][Argon2].
+
+[docs]: https://radicale.org/3.0.html#documentation/plugins/getting-started
+[Argon2]: https://argon2-cffi.readthedocs.io/
+
+## Usage
+
+To set the password:
+
+    python -m radicale_auth_sh.config
+
+And enter the password. Remember to note it down somewhere, preferably in your
+password manager. Restart the Radicale server to start the authentication.
+
+To reset the password, go to `~/.config/radicale/config` and delete the
+`[auth]` section.
+
+## Limitations
+
+- Only a user level `~/.config/radicale/config` is supported
+- Suits single user / single master password usage
+
