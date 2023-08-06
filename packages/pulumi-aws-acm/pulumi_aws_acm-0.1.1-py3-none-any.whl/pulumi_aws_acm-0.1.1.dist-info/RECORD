@@ -1,0 +1,8 @@
+pulumi_aws_acm/__init__.py,sha256=FNGfTo_4RUaGgSrRQlbn7VOpt-nd7_iYbIqlF5st9Qo,3686
+pulumi_aws_acm/tests.py,sha256=rJt0-4YWshEzO4FG_96UX8SpYHyxFIQb4MkxpP916eg,3010
+pulumi_aws_acm-0.1.1.data/data/requirements.txt,sha256=FegrDExjGa4goB1J0NOfEdf1hqZEWyni3W7kgQz7YZ0,46
+pulumi_aws_acm-0.1.1.dist-info/LICENSE,sha256=swd4Kr7840UUsmggeG06E-eu_2LIqfnLpWnUXXoNvd0,1072
+pulumi_aws_acm-0.1.1.dist-info/METADATA,sha256=c6hrxdKsHI4j2LZ8PGtxhF0uPi5ECx__oPiM0wrKaqU,1576
+pulumi_aws_acm-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pulumi_aws_acm-0.1.1.dist-info/top_level.txt,sha256=FcuorP8_LgqTNrcVXt-wHC5v1tiaDS5scNOR8-Z0vZc,15
+pulumi_aws_acm-0.1.1.dist-info/RECORD,,
