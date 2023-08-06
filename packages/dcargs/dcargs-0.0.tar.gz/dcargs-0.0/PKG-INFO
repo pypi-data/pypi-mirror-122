@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dcargs
+Version: 0.0
+Summary: Automagic CLIs with dataclasses
+Home-page: http://github.com/brentyi/dcargs
+Author: brentyi
+Author-email: brentyi@berkeley.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: testing
+Provides-Extra: type-checking
