@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: passogva
+Version: 1.1
+Summary: A FIPS-181 Automated Password Generator implementation. Generates random, pronounceable words.
+Home-page: UNKNOWN
+Author: Steven Hazel
+Author-email: sah@awesame.org
+Maintainer: Steven Hazel
+Maintainer-email: sah@awesame.org
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+UNKNOWN
+
