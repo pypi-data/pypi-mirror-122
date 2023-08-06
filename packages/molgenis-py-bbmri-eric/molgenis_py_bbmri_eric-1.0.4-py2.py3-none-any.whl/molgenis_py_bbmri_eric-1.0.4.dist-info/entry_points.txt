@@ -1,0 +1,3 @@
+[console_scripts]
+eric = molgenis.bbmri_eric.cli:run
+
