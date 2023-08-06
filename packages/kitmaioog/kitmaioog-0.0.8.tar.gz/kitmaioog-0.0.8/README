@@ -1,0 +1,12 @@
+โมดูลการเข้ารหัสแบบบ้านๆ
+
+- วิธีการเรียกใช้ Module
+  from kitmaioog import cyphertext
+
+- วิธีใช้การเข้ารหัส 
+  use = cyphertext()
+  use.encode()
+
+- วิธีการถอดรหัส
+  use = cyphertext()
+  use.decode()
