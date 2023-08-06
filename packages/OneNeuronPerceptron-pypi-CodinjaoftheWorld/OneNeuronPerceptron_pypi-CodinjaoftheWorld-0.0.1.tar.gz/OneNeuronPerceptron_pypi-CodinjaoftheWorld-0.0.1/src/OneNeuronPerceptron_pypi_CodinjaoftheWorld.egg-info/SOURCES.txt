@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/OneNeuronPerceptron_pypi_CodinjaoftheWorld.egg-info/PKG-INFO
+src/OneNeuronPerceptron_pypi_CodinjaoftheWorld.egg-info/SOURCES.txt
+src/OneNeuronPerceptron_pypi_CodinjaoftheWorld.egg-info/dependency_links.txt
+src/OneNeuronPerceptron_pypi_CodinjaoftheWorld.egg-info/requires.txt
+src/OneNeuronPerceptron_pypi_CodinjaoftheWorld.egg-info/top_level.txt
+src/oneNeuron/__init__.py
+src/oneNeuron/perceptron.py
