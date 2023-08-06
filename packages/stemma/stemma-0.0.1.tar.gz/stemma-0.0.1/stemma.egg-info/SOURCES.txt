@@ -1,0 +1,7 @@
+README.md
+setup.py
+stemma/__init__.py
+stemma.egg-info/PKG-INFO
+stemma.egg-info/SOURCES.txt
+stemma.egg-info/dependency_links.txt
+stemma.egg-info/top_level.txt
