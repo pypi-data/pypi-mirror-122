@@ -1,0 +1,11 @@
+setup.py
+AWS_rds_uploader/RDS_engine.py
+AWS_rds_uploader/__init__.py
+Formula1_data_scraper.egg-info/PKG-INFO
+Formula1_data_scraper.egg-info/SOURCES.txt
+Formula1_data_scraper.egg-info/dependency_links.txt
+Formula1_data_scraper.egg-info/requires.txt
+Formula1_data_scraper.egg-info/top_level.txt
+Scraper/F1_drivers_and_times_data.py
+Scraper/__init__.py
+Scraper/__main__.py
