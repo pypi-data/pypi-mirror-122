@@ -1,0 +1,7 @@
+README.md
+setup.py
+fronni/src/fronni.egg-info/PKG-INFO
+fronni/src/fronni.egg-info/SOURCES.txt
+fronni/src/fronni.egg-info/dependency_links.txt
+fronni/src/fronni.egg-info/requires.txt
+fronni/src/fronni.egg-info/top_level.txt
