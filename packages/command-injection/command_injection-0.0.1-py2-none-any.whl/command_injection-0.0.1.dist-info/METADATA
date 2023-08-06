@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: command-injection
+Version: 0.0.1
+Summary: Simple Command Injection Scanner
+Home-page: https://github.com/Gaurav-Jadhav/Command-Injection
+Author: Gaurav Jadhav
+Author-email: jadhavgaurav.v@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Command Injection Scanner for Web Applications with the intent of automatic testing.
+
+
