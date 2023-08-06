@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyseat
+Version: 0.0.1.1
+Summary: Structure entropy agglomerative tree (SEAT) for clustering
+Home-page: https://github.com/deepomicslab/seat
+Author: Lingxi Chen
+Author-email: chanlingxi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
