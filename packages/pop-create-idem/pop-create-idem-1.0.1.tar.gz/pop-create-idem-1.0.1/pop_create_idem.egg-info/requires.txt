@@ -1,0 +1,16 @@
+bs4
+idem>=13.0.1
+inflect
+openapi3==1.3.0
+pop>=20
+pop-config>=7.0.2
+pop-create>=7.1.3
+textwrap3
+
+[botocore]
+botocore
+tqdm
+
+[full]
+tqdm
+botocore
