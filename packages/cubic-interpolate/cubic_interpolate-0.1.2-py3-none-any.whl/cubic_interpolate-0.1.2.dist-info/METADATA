@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: cubic-interpolate
+Version: 0.1.2
+Summary: Find the cubic interpolation for a given data
+Home-page: UNKNOWN
+Author: Kenan Kassab
+Author-email: kenankassab1997@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Cubic Interpolation
+
+This package helps you find the cubic interpolation for a given points(x,y) using the matrix form.
+
+It has the method "c_interp" which return a plot of the cubic interpolation.
+it takes two parameters (x,y)
+
+x: an array that holds the x-coordinates of the given data.
+
+y: an array that holds the y-coordinates of the given data.
+
+Instructions:
+
+First you must install the following packages:
+1. Numpy:
+   
+   pip install numpy
+2. Matplotlib:
+   
+   pip install matplotlib
+
+Install the package:
+
+pip install cubic_interpolate
+
+
+
