@@ -1,0 +1,9 @@
+ma_algorithm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ma_algorithm/exponential_moving_average.py,sha256=sDBGRSbz9rBMV62vhTZtK7yTvZ9qduwoKTR3Wkh_qfc,9194
+ma_algorithm/simple_moving_average.py,sha256=UxmYGwMuTpI9vOcHPlgtUdNrkz-4NCZ7jYnhII_voNE,9144
+ma_algorithm/simple_moving_average_with_lstm.py,sha256=Eo3xZG27lxdTYFxhjsli_jTTJap_LYO2-wPQJ6D-2Wo,15313
+ma_algorithm-2.0.0.dist-info/LICENSE,sha256=tnHZMEdbvJMTHgYjGjKuqhP5bg22OrpoyLsYGUuwwg8,1069
+ma_algorithm-2.0.0.dist-info/METADATA,sha256=ooJiBBP7OdyBYiEaJl5DAoOSIVccMUTok1eWjT2TVZQ,753
+ma_algorithm-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ma_algorithm-2.0.0.dist-info/top_level.txt,sha256=Dj0-L3Z2J_hMcssDoBS6wqzYw7vNXgR0iOkaXANyNWI,13
+ma_algorithm-2.0.0.dist-info/RECORD,,
