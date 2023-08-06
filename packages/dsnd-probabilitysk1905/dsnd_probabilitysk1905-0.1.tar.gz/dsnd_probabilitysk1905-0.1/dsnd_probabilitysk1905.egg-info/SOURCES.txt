@@ -1,0 +1,10 @@
+setup.py
+dsnd_probabilitysk1905/Binomialdistribution.py
+dsnd_probabilitysk1905/Gaussiandistribution.py
+dsnd_probabilitysk1905/Generaldistribution.py
+dsnd_probabilitysk1905/__init__.py
+dsnd_probabilitysk1905.egg-info/PKG-INFO
+dsnd_probabilitysk1905.egg-info/SOURCES.txt
+dsnd_probabilitysk1905.egg-info/dependency_links.txt
+dsnd_probabilitysk1905.egg-info/not-zip-safe
+dsnd_probabilitysk1905.egg-info/top_level.txt
