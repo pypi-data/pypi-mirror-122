@@ -1,0 +1,1 @@
+versionFromGradle='3.34.0',projectVersion='3.34.0.3',branch='rel-zizler',lastCommitHash='70d341dd70a74cd22da97d5af6d0f48b294f1855',gitDescribe='jenkins-3.35.0.2-6-g70d341d',compiledOn='2021-10-07 11:46:53',compiledBy='jenkins'
