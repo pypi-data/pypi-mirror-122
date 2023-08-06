@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hlochinmay"
+version = "0.1.1"
+description = "This package takes name of the user as an argurement in the hello function and then greets the user. from hlochinmay.hlochinmay import hello. hello(<name>)"
+authors = ["chinmay <bhagyesh.deshmukh29@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.scripts]
+hello = "hlochinmay.hlochinmay:hello"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
