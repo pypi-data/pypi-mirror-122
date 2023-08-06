@@ -1,0 +1,48 @@
+@startuml
+
+caption The //**hush**// package's modules.
+
+header
+WARNING: This document is //only// guaranteed to be up-to-date as of 2021-10-04.
+endheader
+
+object hush {
+    //get_secret()//
+}
+
+object hush.hush {
+    get_secret()
+}
+
+object hush.cli {
+    main()
+}
+
+object hush.plugin {
+    //hookimpl()//
+    //manager()//
+}
+
+object hush.plugin.host {
+    manager()
+}
+
+object hush.plugin.specs {
+    get_secret()
+}
+
+object hush.plugin.builtin {
+    envvar_get()
+    hookimpl()
+    pass_get()
+}
+
+hush --> hush.hush
+hush.cli --> hush
+hush.hush --> hush.plugin
+hush.plugin --> hush.plugin.host
+hush.plugin --> hush.plugin.builtin
+hush.plugin.host --> hush.plugin.specs
+hush.plugin.host --> hush.plugin.builtin
+
+@enduml
