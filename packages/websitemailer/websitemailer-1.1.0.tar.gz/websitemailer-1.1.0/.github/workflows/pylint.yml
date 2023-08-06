@@ -1,0 +1,19 @@
+name: Dashboard Mailer post commit steps
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+      - name: Tox
+        run: |
+          pip install tox
+          tox -- --email_username ${{ secrets.email_username }} --email_password ${{ secrets.email_password }} --smtp_server smtp.gmail.com --pop_server pop.gmail.com
+
