@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: schnapsen
+Version: 0.0.1
+Summary: A platform for coding and running card playing bots
+Home-page: https://github.com/intelligent-systems-course/
+Maintainer: Michael Cochez
+Maintainer-email: nospam@nospam.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/intelligent-systems-course/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+
+If you want to use the platform to implement your own bots, run
+
+``bash
+pip install .
+```
+
+To get started, and be able to edit the code run:
+
+```bash
+pip install -e .
+```
+
+
