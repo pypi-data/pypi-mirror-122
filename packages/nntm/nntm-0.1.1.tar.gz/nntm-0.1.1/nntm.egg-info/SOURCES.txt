@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+nntm/__init__.py
+nntm.egg-info/PKG-INFO
+nntm.egg-info/SOURCES.txt
+nntm.egg-info/dependency_links.txt
+nntm.egg-info/requires.txt
+nntm.egg-info/top_level.txt
