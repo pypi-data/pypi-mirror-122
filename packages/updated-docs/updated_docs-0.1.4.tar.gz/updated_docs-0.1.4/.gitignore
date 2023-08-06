@@ -1,0 +1,10 @@
+# jet brains
+.idea
+
+venv*/
+
+.coverage
+.pytest_cache
+
+.tox
+dist
