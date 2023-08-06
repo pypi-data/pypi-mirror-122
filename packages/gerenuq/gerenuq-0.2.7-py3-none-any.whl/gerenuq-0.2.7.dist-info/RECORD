@@ -1,0 +1,10 @@
+gerenuq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gerenuq/gerenuq.py,sha256=sf91qHra62YSt9E3mlkHPDcPi7EIb2QL6Jof6aF-qYc,12603
+gerenuq/gerenuq_cl.py,sha256=R7S1UfCB1WQM7ThwN9zLnODjRGiZB3X4mxSmT4BlCA0,16197
+gerenuq/gerenuq_cl_docker.py,sha256=SFBe-VkQHewuV4vJOeFagwcMXY7sNnv8h1cuyYqM8a8,6507
+gerenuq-0.2.7.dist-info/LICENSE,sha256=vng9NFOAdCaBMyby-Hdu8I7GeIGmu8n4mZfvq-XGsHI,10250
+gerenuq-0.2.7.dist-info/METADATA,sha256=r2ioE5Kwv318IO7U6oYUisUMA5DWLEyF-astEz1wA0c,4387
+gerenuq-0.2.7.dist-info/WHEEL,sha256=gm79cMopkncyn0iSnI0vQNiDJ8t9on0H4_iz-CrpXMk,92
+gerenuq-0.2.7.dist-info/entry_points.txt,sha256=QweNgJFtle93lGhX6l14i2tTrQq_nr9UGJcgZ3y43ek,53
+gerenuq-0.2.7.dist-info/top_level.txt,sha256=oKsiYCT_GxL8PR2AnBSKtdbG0FUa2CW0RN7KnKHlFt4,8
+gerenuq-0.2.7.dist-info/RECORD,,
