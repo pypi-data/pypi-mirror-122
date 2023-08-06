@@ -1,0 +1,17 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.py
+yape/__init__.py
+yape/gn.py
+yape/grun.py
+yape/mingraph.py
+yape/nodeop.py
+yape/nodestate.py
+yape/ty.py
+yape/util.py
+yape/walkproto.py
+yape.egg-info/PKG-INFO
+yape.egg-info/SOURCES.txt
+yape.egg-info/dependency_links.txt
+yape.egg-info/top_level.txt

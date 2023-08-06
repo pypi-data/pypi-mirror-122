@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: yape
+Version: 0.1.0
+Summary: Yape - Yet another pipeline executor
+Home-page: https://github.com/guludo/yape
+License: UNKNOWN
+Keywords: pipeline
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Yape - Yet another pipeline executor
+####################################
+
+Documentation to come soon...
+
+
