@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tidyhome/__init__.py
+src/tidyhome/lookup.py
+src/tidyhome/tidyhome.py
+src/tidyhome.egg-info/PKG-INFO
+src/tidyhome.egg-info/SOURCES.txt
+src/tidyhome.egg-info/dependency_links.txt
+src/tidyhome.egg-info/requires.txt
+src/tidyhome.egg-info/top_level.txt
+src/tidyhome/tests/__init__.py
+src/tidyhome/tests/test_tidyhome.py
