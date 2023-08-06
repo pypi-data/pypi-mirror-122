@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-ms-dynamics=tap_dynamics:main
+    
