@@ -1,0 +1,10 @@
+setup.py
+new_project123/Binomialdistribution.py
+new_project123/Gaussiandistribution.py
+new_project123/Generaldistribution.py
+new_project123/__init__.py
+new_project123.egg-info/PKG-INFO
+new_project123.egg-info/SOURCES.txt
+new_project123.egg-info/dependency_links.txt
+new_project123.egg-info/not-zip-safe
+new_project123.egg-info/top_level.txt
