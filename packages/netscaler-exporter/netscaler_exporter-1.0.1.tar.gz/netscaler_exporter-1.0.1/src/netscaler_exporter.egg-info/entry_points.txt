@@ -1,0 +1,4 @@
+[console_scripts]
+build_netscaler_exporter_conf = netscaler_exporter.build_conf:main
+netscaler_exporter = netscaler_exporter.netscaler_exporter:main
+
