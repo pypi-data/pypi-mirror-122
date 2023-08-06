@@ -1,0 +1,3 @@
+[console_scripts]
+hello=hlochinmay.hlochinmay:hello
+
