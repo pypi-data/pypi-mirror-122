@@ -1,0 +1,4 @@
+NAIT 1.0.0 Change Log (release date)
+------------------------------------
+
+- First Release
