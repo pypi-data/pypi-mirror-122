@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: uspy
+Version: 0.10.1
+Summary: LEEM data analysis (and more...?)
+Home-page: UNKNOWN
+Author: Simon Fischer, Lars Buß, Jon-Olaf Krisponeit
+License: MIT
+Keywords: physics LEEM microscopy spectroscopy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: ~=3.6
+License-File: LICENSE.md
+
+UNKNOWN
+
