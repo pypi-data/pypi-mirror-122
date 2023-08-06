@@ -1,0 +1,16 @@
+COPYING.md
+README.md
+setup.py
+viridicle/__init__.py
+viridicle/data_prep.c
+viridicle/data_prep.h
+viridicle/graph_ops.c
+viridicle/graph_ops.h
+viridicle/utils.py
+viridicle/viridicle.c
+viridicle/viridicle.py
+viridicle.egg-info/PKG-INFO
+viridicle.egg-info/SOURCES.txt
+viridicle.egg-info/dependency_links.txt
+viridicle.egg-info/requires.txt
+viridicle.egg-info/top_level.txt
