@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+rcedit/__init__.py
+rcedit/rcedit.py
+rcedit.egg-info/PKG-INFO
+rcedit.egg-info/SOURCES.txt
+rcedit.egg-info/dependency_links.txt
+rcedit.egg-info/top_level.txt
