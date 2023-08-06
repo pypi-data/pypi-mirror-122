@@ -1,0 +1,14 @@
+pennylane
+torch
+
+[dev]
+autopep8
+bumpversion
+twine
+wheel
+
+[test]
+flights_time_series_dataset
+pytest
+pytest-cov
+time_series_predictor
