@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: waifu_pypics
+Version: 1.0.2
+Summary: A Python wrapper for Waifu-Pics Api
+Home-page: https://github.com/This-is-not-Reidy/Waifu-Pypics.git
+Author: Reidy
+License: UNKNOWN
+Project-URL: Author Discord, https://discord.com/users/848593011038224405
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Waifu-Pypics
+==========
+
+Python Wrapper for [Waifu-Pics](https://waifu.pics>) Api
+
+Installing
+----------
+
+To install this library use the command:
+
+```bash
+pip install waifu-pypics
+```
+
+
+
+Sync Example
+------------
+```python
+from waifu_pypics import Waifu
+    
+
+waifu = Waifu()
+    
+    
+print(waifu.get_image('hug'))
+```
+
+
+
+Async Example
+-------------
+
+```python
+
+import asyncio
+
+from waifu_pypics import WaifuAsync
+
+
+waifu = WaifuAsync()
+
+
+if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(waifu.get_image('hug'))
+    loop.close()
+```
+
+

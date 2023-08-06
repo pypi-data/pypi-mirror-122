@@ -1,0 +1,11 @@
+README.md
+setup.py
+waifu_pypics/__init__.py
+waifu_pypics/async_client.py
+waifu_pypics/client.py
+waifu_pypics/errors.py
+waifu_pypics.egg-info/PKG-INFO
+waifu_pypics.egg-info/SOURCES.txt
+waifu_pypics.egg-info/dependency_links.txt
+waifu_pypics.egg-info/requires.txt
+waifu_pypics.egg-info/top_level.txt
