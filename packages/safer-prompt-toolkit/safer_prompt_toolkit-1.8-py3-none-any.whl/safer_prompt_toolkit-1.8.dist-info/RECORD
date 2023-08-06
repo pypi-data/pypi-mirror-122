@@ -1,0 +1,8 @@
+safer_prompt_toolkit/__init__.py,sha256=e2qFN0mhKiU6U5f0H8O28HHRPkjE_G_yfyHWIbqQISM,242
+safer_prompt_toolkit/_extra_prompt_toolkit_utilities.py,sha256=i4yCLLiyC1OkU9q0tl7JQ49la6DILG7NEXukB0GVw5c,2497
+safer_prompt_toolkit/_safer_prompt_toolkit.py,sha256=jkMa9VCbVjqd1taaw_FwEjbpBQHIXfYem6WhX0LYlQY,5224
+safer_prompt_toolkit-1.8.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+safer_prompt_toolkit-1.8.dist-info/METADATA,sha256=DqBuBie-soJGCkSE80C2DKFDjIfJuft8lXUC4z5hGHY,3607
+safer_prompt_toolkit-1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+safer_prompt_toolkit-1.8.dist-info/top_level.txt,sha256=is0Vl0JyI_kH_j75mGBx9HuuFmScwb4OU2Vt4pKq5V4,21
+safer_prompt_toolkit-1.8.dist-info/RECORD,,
