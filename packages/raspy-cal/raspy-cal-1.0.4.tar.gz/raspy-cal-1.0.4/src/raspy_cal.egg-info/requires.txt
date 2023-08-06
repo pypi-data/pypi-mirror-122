@@ -1,0 +1,7 @@
+pyrasfile
+pywin32
+raspy-auto
+scipy
+HydroErr
+matplotlib
+platypus-opt
