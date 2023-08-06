@@ -1,0 +1,16 @@
+stockobjects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockobjects/basequote.py,sha256=vuwvET-zpSAjuH3Wx7CP1RuYUp9C12wufmmO7gEeW7k,1164
+stockobjects/company.py,sha256=dED9N4s7CfRqjFhrsgKafPtj9RTyQozW78p7YZYJ9MQ,3413
+stockobjects/companycollection.py,sha256=aW474Qo6BjtfghHAJZgHsPmegs86qsaThnaqUslExqQ,219
+stockobjects/companyquote.py,sha256=WT9fqUZGXi_HpHrAV-xgh3VeWSj7Jej6Lt02JAsiNHw,1326
+stockobjects/parsing.py,sha256=JKRi-BNcRvoYEmVlddsdpU21cS8Bvh_GU-No75XgnNg,2919
+stockobjects/quotecollection.py,sha256=RqpdcQ9-J2Afyo3t0oTDiX6g28Uci8mF9vmnzzFwueI,707
+stockobjects/sector.py,sha256=fQ9gQUt0xKyeVUrLXjmXskdrcKUi4-30j-nECWZDlsw,7648
+stockobjects/sectorcollection.py,sha256=yu1QwkxtY8cEUWpyWeQWBOd5xrg2RFkBleKzId6WWgw,5799
+stockobjects/sectorquote.py,sha256=ruclZhMuIQpi6yED6GFetqyDSu9T1RQtFkc1vN604UI,1059
+stockobjects/stockobjectsexceptions.py,sha256=0GL8ieAfmdwxew_rM_2GQCGlXY0-ZpzJknXB5-S5T4M,1348
+ctf_stockobjects-0.0.4.dist-info/LICENSE,sha256=mzF39Qjuds1_ecaT5x-7C_I-BBv0CXs3MnDr13HXEaE,1075
+ctf_stockobjects-0.0.4.dist-info/METADATA,sha256=3sujUvWA0oDl3cmyQn0-lq-ujkSaKBCMoIJFUKi9Tmk,2132
+ctf_stockobjects-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ctf_stockobjects-0.0.4.dist-info/top_level.txt,sha256=2eEyrPukXyN1B3hEFBLFwfaa2S_hKwkYQzJgn3Vg6K4,13
+ctf_stockobjects-0.0.4.dist-info/RECORD,,
