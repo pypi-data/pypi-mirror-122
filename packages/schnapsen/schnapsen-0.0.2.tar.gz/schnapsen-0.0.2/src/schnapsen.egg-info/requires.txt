@@ -1,0 +1,12 @@
+torch
+class_resolver>=0.0.10
+click==8.0.1
+
+[dev]
+ipykernel
+
+[test]
+flake8
+mypy
+pytest
+unittest-templates

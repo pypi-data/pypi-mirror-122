@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/schnapsen/__init__.py
+src/schnapsen/cli.py
+src/schnapsen/fizzbuzz.py
+src/schnapsen.egg-info/PKG-INFO
+src/schnapsen.egg-info/SOURCES.txt
+src/schnapsen.egg-info/dependency_links.txt
+src/schnapsen.egg-info/entry_points.txt
+src/schnapsen.egg-info/requires.txt
+src/schnapsen.egg-info/top_level.txt
