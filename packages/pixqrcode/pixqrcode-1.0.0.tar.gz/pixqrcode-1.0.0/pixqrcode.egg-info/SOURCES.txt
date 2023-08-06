@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+pixqrcode.egg-info/PKG-INFO
+pixqrcode.egg-info/SOURCES.txt
+pixqrcode.egg-info/dependency_links.txt
+pixqrcode.egg-info/top_level.txt
+src/__init__.py
