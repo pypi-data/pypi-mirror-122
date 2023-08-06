@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_ladeira/Binomialdistribution.py
+distributions_ladeira/Gaussiandistribution.py
+distributions_ladeira/Generaldistribution.py
+distributions_ladeira/__init__.py
+distributions_ladeira.egg-info/PKG-INFO
+distributions_ladeira.egg-info/SOURCES.txt
+distributions_ladeira.egg-info/dependency_links.txt
+distributions_ladeira.egg-info/not-zip-safe
+distributions_ladeira.egg-info/top_level.txt
