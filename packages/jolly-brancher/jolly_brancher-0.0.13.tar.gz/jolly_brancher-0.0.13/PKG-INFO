@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: jolly_brancher
+Version: 0.0.13
+Summary: CLI tool that creates git branches from JIRA tickets
+Home-page: https://github.com/ahonnecke/jolly-brancher
+Author: Ashton Von Honnecke
+Author-email: ashton@pixelstub.com
+License: MIT
+Project-URL: Authentication, https://jira.readthedocs.io/en/latest/examples.html#username-api-token
+Project-URL: Token, https://id.atlassian.com/manage-profile/security/api-tokens
+Platform: Linux
+Platform: Mac
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Provides-Extra: testing
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+
+==============
+jolly_brancher
+==============
+
+
+A sweet branch creation tool
+
+
+Description
+===========
+
+The overarching goal here is to facilitate developer time and remove
+duplicative work.
+
+As a developer, I am more productive (and more descriptive) when I
+only have to write the description for what I'm working one one time
+(or barring that, as few times as possible).
+
+In order to streamline and facilitate the developer's workflow this
+tool aims to connect an arbitrary ticketing system (currently only
+JIRA is supported) to a git forge (currently only GitHub is
+supported).
+
+
