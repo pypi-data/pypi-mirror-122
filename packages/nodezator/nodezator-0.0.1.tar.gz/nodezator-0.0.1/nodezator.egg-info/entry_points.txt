@@ -1,0 +1,3 @@
+[gui_scripts]
+nodezator = nodezator.__main__:main
+
