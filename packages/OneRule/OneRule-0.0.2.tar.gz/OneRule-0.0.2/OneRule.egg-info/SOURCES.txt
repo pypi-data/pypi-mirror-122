@@ -1,0 +1,7 @@
+README.md
+setup.py
+OneRule.egg-info/PKG-INFO
+OneRule.egg-info/SOURCES.txt
+OneRule.egg-info/dependency_links.txt
+OneRule.egg-info/not-zip-safe
+OneRule.egg-info/top_level.txt
