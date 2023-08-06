@@ -1,0 +1,11 @@
+halcyon/__init__.py,sha256=b9hPE85H28aH8HYSNLNkwhkLCoHZFNxdmKjdI2iRsLI,22
+halcyon/__main__.py,sha256=Drcphzorbu75qRpgfdBKFe_scXygBZYVQ5eEI6bBH2Q,3629
+halcyon/halcyon.py,sha256=e6r0lsBLSksY3flu3CsL1_my5F6YDeN8QraTOsFruHI,10053
+halcyon/message.py,sha256=AO0DRGl-tonu1MJ-5npcUlxIOEZbBfsc-Vi0xcE_TZs,3589
+halcyon/restrunner.py,sha256=AhovBo6eNz6wMN30hKTTVdYf-uZhIyRs1KA6Q3KHB1E,10025
+halcyon/room.py,sha256=cvd6GBrx88BlBqpyOK5VhFRl5rDR6uuKyvD2OIqzvpQ,3707
+halcyon_matrix-1.0.0.dist-info/LICENSE,sha256=3md6gM8YQhw3Bnm6Q_agVf5dQ_gUxxPsqyDHiusBVsk,1516
+halcyon_matrix-1.0.0.dist-info/METADATA,sha256=EJQRVv6hMMeCK1gmh10qZpjfA4LFovyYFH4FWf-PnIk,3758
+halcyon_matrix-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+halcyon_matrix-1.0.0.dist-info/top_level.txt,sha256=7YRsa_zI4EoHnd5Y_9SHEzShnjCgcB5XhrHp35wrwv8,8
+halcyon_matrix-1.0.0.dist-info/RECORD,,
