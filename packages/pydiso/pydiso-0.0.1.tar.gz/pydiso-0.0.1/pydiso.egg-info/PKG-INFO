@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pydiso
+Version: 0.0.1
+Summary: Wrapper for intel's pardiso implementation in the MKL
+Home-page: https://www.simpeg.xyz
+Author: SimPEG developers
+Author-email: josephrcapriotti@gmail.com
+License: MIT License
+Download-URL: https://github.com/jcapriot/pydiso-mkl
+Keywords: sparse,solver,wrapper
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
