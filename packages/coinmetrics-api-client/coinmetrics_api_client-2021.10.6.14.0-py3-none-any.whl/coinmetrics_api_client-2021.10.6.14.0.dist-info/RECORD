@@ -1,0 +1,11 @@
+coinmetrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coinmetrics/_data_collection.py,sha256=su3SAYqKozwJFtpHeqz-OjxjpUy2Bo3S65O5zTuTfbU,6046
+coinmetrics/_typing.py,sha256=bgo17A7vOxxY2MyTAc1EyZdd553WHGZyvgxM2Oli0so,483
+coinmetrics/_utils.py,sha256=tZ0yWryuzpeLlX00qplaXU3-JW1T-Q_xb1ceU-g16PA,3946
+coinmetrics/api_client.py,sha256=IGcl76TWx_xJSC1G_Lv9pjsQDmIUhFIVycEx6xFEbmY,88322
+coinmetrics/constants.py,sha256=DzjPC8VN-sazqq376SfFJtFtV6EW_g3d3qejjntg238,84
+coinmetrics_api_client-2021.10.6.14.0.dist-info/entry_points.txt,sha256=U74qwvwf-IwjfLwlMxZpeacaM-vUC_B8M82KLRQovFY,45
+coinmetrics_api_client-2021.10.6.14.0.dist-info/LICENSE,sha256=6_F1jp69fYBgvvjD5PNA7nSkia8qts_oa7FyfcFN29c,1088
+coinmetrics_api_client-2021.10.6.14.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+coinmetrics_api_client-2021.10.6.14.0.dist-info/METADATA,sha256=KjpyE8It92rFciDFT6Kf4Ny2RqQbCq16rGVzUSSFST0,5031
+coinmetrics_api_client-2021.10.6.14.0.dist-info/RECORD,,
