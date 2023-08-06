@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tr4d3r
+Version: 0.1.0
+Summary: A rebalancing trade bot library. A good one.
+Home-page: https://github.com/phurwicz/tr4d3r
+Author: Pavel
+Author-email: pavelhurwicz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tr4d3r
+A rebalancing trade bot library. A good one.
+
+
