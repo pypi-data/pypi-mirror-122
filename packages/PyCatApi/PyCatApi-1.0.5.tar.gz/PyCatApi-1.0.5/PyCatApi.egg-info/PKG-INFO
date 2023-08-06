@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: PyCatApi
+Version: 1.0.5
+Summary: A Python wrapper for TheCatApi
+Home-page: https://github.com/TheFarGG/pycatapi/
+Author: TheFarGG
+License: MIT
+Description: # PyCatApi
+        PyCatApi is a Python wrapper for [TheCatApi](https://thecatapi.com/) written by [TheFarGG](https://github.com/TheFarGG/)
+        
+        ## Example usage
+        ```py
+        from pycatapi import Client
+        
+        #Define our client here
+        c = Client()
+        
+        img = c.get_cat()
+        print(f"Cat\n{img}")
+        ```
+        
+        ### This will give us the url to a cat image 🐈
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
