@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/memrise/__init__.py
+src/memrise/constant.cp39-win_amd64.pyd
+src/memrise/memdb.cp39-win_amd64.pyd
+src/memrise/memrise.cp39-win_amd64.pyd
+src/memrise.egg-info/PKG-INFO
+src/memrise.egg-info/SOURCES.txt
+src/memrise.egg-info/dependency_links.txt
+src/memrise.egg-info/requires.txt
+src/memrise.egg-info/top_level.txt
