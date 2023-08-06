@@ -1,0 +1,4 @@
+requests
+requests_oauthlib
+osrparse
+typing_utils
