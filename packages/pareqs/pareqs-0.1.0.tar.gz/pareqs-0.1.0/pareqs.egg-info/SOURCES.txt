@@ -1,0 +1,11 @@
+README.md
+setup.py
+pareqs/__init__.py
+pareqs/pareqs.py
+pareqs.egg-info/PKG-INFO
+pareqs.egg-info/SOURCES.txt
+pareqs.egg-info/dependency_links.txt
+pareqs.egg-info/requires.txt
+pareqs.egg-info/top_level.txt
+pareqs/models/__init__.py
+pareqs/models/pares.py
