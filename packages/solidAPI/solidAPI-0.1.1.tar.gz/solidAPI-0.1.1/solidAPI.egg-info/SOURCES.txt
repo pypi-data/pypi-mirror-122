@@ -1,0 +1,7 @@
+README.md
+setup.py
+solidAPI/__init__.py
+solidAPI.egg-info/PKG-INFO
+solidAPI.egg-info/SOURCES.txt
+solidAPI.egg-info/dependency_links.txt
+solidAPI.egg-info/top_level.txt
