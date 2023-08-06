@@ -1,0 +1,8 @@
+README.md
+colortab.py
+setup.py
+colortab.egg-info/PKG-INFO
+colortab.egg-info/SOURCES.txt
+colortab.egg-info/dependency_links.txt
+colortab.egg-info/requires.txt
+colortab.egg-info/top_level.txt
