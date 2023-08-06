@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+SylvacV2/__init__.py
+SylvacV2/main.py
+SylvacV2.egg-info/PKG-INFO
+SylvacV2.egg-info/SOURCES.txt
+SylvacV2.egg-info/dependency_links.txt
+SylvacV2.egg-info/top_level.txt
