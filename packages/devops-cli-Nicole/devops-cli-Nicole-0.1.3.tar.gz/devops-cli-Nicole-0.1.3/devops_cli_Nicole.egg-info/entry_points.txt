@@ -1,0 +1,3 @@
+[console_scripts]
+devops-cli = cli_tool.click_demo:process
+
