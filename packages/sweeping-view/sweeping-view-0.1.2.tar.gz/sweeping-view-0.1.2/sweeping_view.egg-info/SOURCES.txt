@@ -1,0 +1,16 @@
+.gitignore
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+sweeping_view/__init__.py
+sweeping_view/_version.py
+sweeping_view/avf.py
+sweeping_view/base.py
+sweeping_view/exceptions.py
+sweeping_view/mime_types.py
+sweeping_view/rmv.py
+sweeping_view.egg-info/PKG-INFO
+sweeping_view.egg-info/SOURCES.txt
+sweeping_view.egg-info/dependency_links.txt
+sweeping_view.egg-info/top_level.txt
