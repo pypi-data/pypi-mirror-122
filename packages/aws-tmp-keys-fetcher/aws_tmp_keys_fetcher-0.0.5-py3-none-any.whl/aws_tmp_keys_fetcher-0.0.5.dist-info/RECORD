@@ -1,0 +1,9 @@
+aws_tmp_keys_fetcher/__init__.py,sha256=gxoWDsHivLVPAZUqnUtC8j0O6pmjW5Hfx0OXNrjFV3Y,157
+aws_tmp_keys_fetcher/__main__.py,sha256=iKu6TcO6vMxMmwm0gE8VTbjmc86fKp4GvJCTwh-GUt8,27
+aws_tmp_keys_fetcher/cli.py,sha256=tz6xnLxvSc23PK1TjXjbogRfICnQGP_h31hAn9hwcr8,5770
+pyproject.toml,sha256=R8uW-1p7C5X3rYtyzSVFDmrq3ty0sEHyN7kW19--BxA,1164
+aws_tmp_keys_fetcher-0.0.5.dist-info/entry_points.txt,sha256=_pQmpGHPhBok6nE70CW2vPXirkKP1UBUEHobw5dEbsU,83
+aws_tmp_keys_fetcher-0.0.5.dist-info/LICENSE,sha256=SQ7Nc3B6fBsIw4mKK5fLG3OBS7l9mBbXg1nHggW5bqE,1069
+aws_tmp_keys_fetcher-0.0.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+aws_tmp_keys_fetcher-0.0.5.dist-info/METADATA,sha256=UGahFFsWn64e-C3mNZFz30Db1nOkEam_OylRByEfh88,3544
+aws_tmp_keys_fetcher-0.0.5.dist-info/RECORD,,
