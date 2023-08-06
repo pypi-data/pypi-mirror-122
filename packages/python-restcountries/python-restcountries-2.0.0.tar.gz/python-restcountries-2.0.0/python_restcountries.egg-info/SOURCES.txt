@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+python_restcountries.egg-info/PKG-INFO
+python_restcountries.egg-info/SOURCES.txt
+python_restcountries.egg-info/dependency_links.txt
+python_restcountries.egg-info/requires.txt
+python_restcountries.egg-info/top_level.txt
+restcountries/__init__.py
+restcountries/base.py
+restcountries/tests/__init__.py
+restcountries/tests/conftest.py
+restcountries/tests/countries_data.py
+restcountries/tests/test_base.py
