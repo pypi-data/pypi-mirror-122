@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+multi-group-GP/__init__.py
+multi_group_GP.egg-info/PKG-INFO
+multi_group_GP.egg-info/SOURCES.txt
+multi_group_GP.egg-info/dependency_links.txt
+multi_group_GP.egg-info/top_level.txt
