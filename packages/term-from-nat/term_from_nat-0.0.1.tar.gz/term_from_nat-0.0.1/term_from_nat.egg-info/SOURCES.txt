@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+term_from_nat.py
+term_from_nat.egg-info/PKG-INFO
+term_from_nat.egg-info/SOURCES.txt
+term_from_nat.egg-info/dependency_links.txt
+term_from_nat.egg-info/entry_points.txt
+term_from_nat.egg-info/requires.txt
+term_from_nat.egg-info/top_level.txt
