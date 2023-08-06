@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: toast-cmb
+Version: 2.3.14
+Summary: ALIAS to Time Ordered Astrophysics Scalable Tools
+Home-page: https://github.com/hpc4cmb/toast
+Author: Theodore Kisner, Reijo Keskitalo
+Author-email: tskisner.public@gmail.com
+License: BSD
+Description: This package is a deprecated alias.  Use https://pypi.org/project/toast instead.
+Platform: all
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
