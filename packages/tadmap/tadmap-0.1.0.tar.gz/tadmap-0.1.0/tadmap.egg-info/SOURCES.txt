@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+tadmap/__init__.py
+tadmap/compute_tad_representation.py
+tadmap/tadmap_base_config.py
+tadmap/tadmap_utils.py
+tadmap.egg-info/PKG-INFO
+tadmap.egg-info/SOURCES.txt
+tadmap.egg-info/dependency_links.txt
+tadmap.egg-info/not-zip-safe
+tadmap.egg-info/requires.txt
+tadmap.egg-info/top_level.txt
+tadmap/data/__init__.py
+tadmap/data/_tadmap_data.py
