@@ -1,0 +1,9 @@
+figure/__init__.py,sha256=eACzxYeUS-z8gjlHX71JEJa2TSo8uAOzAotZ6VohCAA,541
+figure/api_requestor.py,sha256=onV-KZUQDU983Ug5hFnZrAqqHTo0rt5Nirz8IhojisE,3938
+figure/error.py,sha256=E3ajaXxRHIZ4A9uxJr4a6UVYg2gi-eKawbexxbuOtuk,2943
+figure/resource.py,sha256=dQgd8ur5CdNAgmurbQBIivZ4bGXcAL3N--l0NOv83sM,6660
+figure_sdk-0.3.2.dist-info/LICENSE,sha256=tzIa5BPmZtTIl2dtQuIBwqs-uHO4BebCGf8iamdRs-k,1091
+figure_sdk-0.3.2.dist-info/METADATA,sha256=Sm4Qe1YJOH_y9iDVJ85Wu0VBUIQNZ_4BgjsPFinGu4k,787
+figure_sdk-0.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+figure_sdk-0.3.2.dist-info/top_level.txt,sha256=6VL4j141kW8Q6wsUlXEMHewF3dRo4j0ir-3Lk04uRss,7
+figure_sdk-0.3.2.dist-info/RECORD,,
