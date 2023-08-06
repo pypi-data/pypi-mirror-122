@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pydorea
+Version: 0.0.1
+Summary: DoreaDB Python Driver
+Home-page: https://dorea.mrxzx.info/
+Author: ZhuoEr Liu
+Author-email: mrxzx.info@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: doson4py (==0.1.1)
+
+UNKNOWN
+
