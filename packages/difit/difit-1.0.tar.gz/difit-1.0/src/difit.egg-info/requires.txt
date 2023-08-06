@@ -1,0 +1,23 @@
+sphinx>=3.2.1
+nibabel
+dipy
+setuptools
+pytest
+tox
+pytest-cov
+numpy
+twine
+pydeps
+fury
+multiprocess
+nipype
+weasyprint
+nilearn
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
