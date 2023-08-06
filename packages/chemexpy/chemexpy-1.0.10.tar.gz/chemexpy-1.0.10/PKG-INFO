@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chemexpy
+Version: 1.0.10
+Summary: Cheminformatics package for compound feature evaluation
+Home-page: https://github.com/AusteKan/Chemexpy
+Author: Auste Kanapeckaite
+Author-email: auste.kan@algorithm379.com
+License: GNU General Public License version 3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
