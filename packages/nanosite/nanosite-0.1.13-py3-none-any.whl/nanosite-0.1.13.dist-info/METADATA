@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nanosite
+Version: 0.1.13
+Summary: Speedy static site generator in Python.
+Home-page: https://github.com/qema/nanosite
+Author: Andrew Wang
+Author-email: azw7@cornell.edu
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: markdown
+
+UNKNOWN
+
