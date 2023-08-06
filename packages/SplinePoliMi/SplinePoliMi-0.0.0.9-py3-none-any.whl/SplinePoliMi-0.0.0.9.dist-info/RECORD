@@ -1,0 +1,13 @@
+SplinePoliMi/BasisFunction.h,sha256=1rZ6hjE2OUfSIsoJrgC3d4fb8oGOM-fdaLPppbT1pSA,12911
+SplinePoliMi/CLibrary.py,sha256=Y0snz9S-etBpafzfyB2GlhLmYBR-9hwMUBmfD8rWsOc,650
+SplinePoliMi/ComputeSpline.h,sha256=B9fztdzeFGewqtU9a_sUyw7e5_j3vBnc-rDv7IyWsJ8,5345
+SplinePoliMi/Main.cpp,sha256=uh9AcNP9z8yBqFVdYizCaQHcSnSHR_Tm4O5w3MW020c,5706
+SplinePoliMi/Settings.h,sha256=0d7U-tXhxchGj6tVyFiOIv8aTO2F-46Iw_w37zz5XX4,1980
+SplinePoliMi/Spline.h,sha256=XUgkKFDcDOEHp1_gLyOWyAtn4p2c7bcZ4qmPCgzcE2g,54159
+SplinePoliMi/Spline.py,sha256=Pg9rHZ_b2OZBZDQe2o_dZgOOECUUrgicL7YypEbgyXo,14871
+SplinePoliMi/Utilities.h,sha256=kvePJzNdzmMAB6FmCRJqawiHuX3YWl2qkC_gXBMYqy4,5824
+SplinePoliMi/__init__.py,sha256=_HdFE6OwNFoK-undgGDxqYt5ccGkdhXwF4JncWbFoA4,57
+SplinePoliMi-0.0.0.9.dist-info/METADATA,sha256=3LqIyse2S2_21mgvY7Keem9_ShPbfyww_oWQenIQgjY,475
+SplinePoliMi-0.0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SplinePoliMi-0.0.0.9.dist-info/top_level.txt,sha256=U2OvVtBQ-JcVnX_Y_QrTYqkl7wuIZkLlecjQz0inL7I,13
+SplinePoliMi-0.0.0.9.dist-info/RECORD,,
