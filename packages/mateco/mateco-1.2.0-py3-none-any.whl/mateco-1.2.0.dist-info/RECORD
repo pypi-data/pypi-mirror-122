@@ -1,0 +1,10 @@
+mateco/__init__.py,sha256=kPHyoon4NUMUGavVKIyjZ3MJPAvH2Rpuge1d7ZA8nDs,1715
+mateco/__main__.py,sha256=r8vBI02xbBl2rEsyGrQK40tXh_DA_A-jfH40Gs5fNY4,112
+mateco/_const.cp39-win_amd64.pyd,sha256=l1niyRqkVa3ONBAlYxVD97iYJyokkGaLAirVmjTDrVI,44032
+mateco/ipa.cp39-win_amd64.pyd,sha256=4cxGW52y0WlGNLy4vkwg1V1Xiq4OehUiovnC1qMtHx0,52736
+mateco/tts.cp39-win_amd64.pyd,sha256=uKuuF2et7_rorn7IaxAT7MA-AxVKDCduF2nAnB7O5KQ,113664
+mateco-1.2.0.dist-info/LICENSE,sha256=SELwrfzhzSJ6VoLThzBoMEP-E1jEB3igFzo_xeZE54c,1090
+mateco-1.2.0.dist-info/METADATA,sha256=P9ek8Gq5StXURY7AwQAUv9BJ4JVFQkhVyJ2MaP01nSc,3977
+mateco-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mateco-1.2.0.dist-info/top_level.txt,sha256=ELAvGsEsuCKoZ08JAqbVBz0aTbLO_vhorcvivHU-1hI,7
+mateco-1.2.0.dist-info/RECORD,,

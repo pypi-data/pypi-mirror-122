@@ -1,0 +1,173 @@
+Metadata-Version: 2.1
+Name: mateco
+Version: 1.2.0
+Summary: Convert Text to Speech and IPA
+Home-page: https://github.com/tquangsdh20/mateco
+Author: Joseph Quang
+Author-email: tquang.sdh20@hcmut.edu.vn
+License: MIT
+Keywords: tts,prettyTTS,pretty voices,gtts,speech,pyttsx3,freetts,voicemaker,text to pretty speech,ipa,internal phonetic alphabet
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Customer Service
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Japanese
+Classifier: Natural Language :: Dutch
+Classifier: Natural Language :: Arabic
+Classifier: Natural Language :: Italian
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: Spanish
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Natural Language :: French
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides: IPA
+Provides: TTS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (~=2.26.0)
+Requires-Dist: pygame (~=2.0.1)
+Requires-Dist: bs4
+
+<p align="center">
+  <h1 align="center">Master Text Converter</h1>
+</p>
+
+## Features
+
+- Support text to speech with many pretty voices options
+- Support download file mp3 from TTS
+- Support convert text to IPA (International Phonetic Alphabet) with English UK and English US
+
+## Installation
+**Windows**
+```
+python -m pip install mateco
+```
+**Linux**
+```
+pip install mateco
+```
+**macOS**
+```
+sudo pip3 install mateco
+```
+## How does it work?
+
+### Work with module TTS
+
+#### Initialatize module and setup language
+
+
+```python
+from mateco import TTS
+mod = TTS()
+#Setup language
+mod.setup_language()
+```
+
+    Choose Language: 
+    
+        1. English UK
+        2. English US
+        3. Chinese
+        4. Janpanese
+        5. French
+        6. Spanish Mexico
+        7. Italian
+        8. German
+        9. Russian
+        10. Dutch
+        11. Korean
+        12. Arabic
+        13. Spanish Spain
+    
+    Enter your choice:  2
+    
+
+#### Setup voice
+
+
+```python
+mod.setup_voice()
+```
+
+    Voice Options for English US: 
+            1. Joey     - Male
+            2. Justin   - Little Boy
+            3. Matthew  - Male
+            4. Salli    - Female
+            5. Joanna   - Female
+            6. Ivy      - Little Girl
+            
+        Enter your choose:  4
+    
+
+#### Update the text you want to convert & Save it
+
+
+```python
+mod.update('I try this, try that, try everything.')
+mod.play()
+mod.save('output/audio.mp3')
+```
+
+### Work with module IPA 
+
+#### Initialize module IPA
+
+
+```python
+from mateco import IPA
+#Default is English UK
+mod = IPA()
+```
+
+#### Update text to convert
+
+
+```python
+en_uk = mod.get_ipa('I dropped my food on my foot')
+print(en_uk)
+```
+
+    aɪ drɒpt maɪ fuːd ɒn maɪ fʊt
+    
+
+#### Test with boths
+
+
+```python
+#Setup English UK IPA
+mod = IPA(1)
+en_uk = mod.get_ipa('potato, tomato')
+print('Bristh say:',en_uk)
+#Setup English US IPA
+mod = IPA(2)
+en_us = mod.get_ipa('potato, tomato')
+print('America say:',en_us)
+```
+
+    Bristh say: pəˈteɪtəʊ, təˈmɑːtəʊ
+    America say: pəˈteɪˌtoʊ, təˈmeɪˌtoʊ
+    
+### Change Log
+
+<b>PLANNING</b>  
+Module TTS: Support Text to Pretty Speech with 13 languages.  
+Module IPA: Support Text to IPA  
+Note: Resource Online converter is Limited, you maybe get error message "Too Many Requests". You need to use proxy or wait for it refresh.
+
+### URL: https://github.com/tquangsdh20/mateco/
+
+
