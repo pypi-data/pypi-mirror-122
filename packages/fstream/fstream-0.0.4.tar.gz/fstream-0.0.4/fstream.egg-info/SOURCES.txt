@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+fstream/__init__.py
+fstream.egg-info/PKG-INFO
+fstream.egg-info/SOURCES.txt
+fstream.egg-info/dependency_links.txt
+fstream.egg-info/top_level.txt
+fstream/protocol/__init__.py
+fstream/protocol/base.py
+fstream/protocol/buffered.py
+fstream/protocol/chunked.py
