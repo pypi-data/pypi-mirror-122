@@ -1,0 +1,3 @@
+[console_scripts]
+ya-fattura-elettronica-generator = ya_fattura_elettronica_generator.main:main
+
