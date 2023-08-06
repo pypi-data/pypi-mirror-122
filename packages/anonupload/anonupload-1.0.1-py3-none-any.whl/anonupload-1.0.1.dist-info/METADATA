@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: anonupload
+Version: 1.0.1
+Summary: file upload to anonfile server
+Home-page: https://github.com/jakbin/anonfile-upload
+Author: Jak Bin
+License: UNKNOWN
+Keywords: anonfile,anonymous,upload
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# anonfile-upload-script
+An upload script for anonfile.com made in python. Supports multiple files.
+
+![GitHub Contributors](https://img.shields.io/github/contributors/jakbin/anonfile-upload)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/jakbin/anonfile-upload)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/jakbin/anonfile-upload)
+
+![Python 3.6](https://img.shields.io/badge/python-3.6-yellow.svg)
+
+![Pypi 20.3](https://img.shields.io/badge/pypi-20.3-orange.svg)
+
+
+## Installation
+
+```bash
+pip3 install anonupload
+```
+
+## Usage
+
+```bash
+anon {path-to-file 1} {path-to-file 2}...
+```
+## You can change file name before upload on anonfile server
+
+
