@@ -1,0 +1,15 @@
+msnhnet_onnx/__init__.py,sha256=boaQQZRgET4tyOpVYygI2IgEzOKS4ZP_iossWDG9jE4,400
+msnhnet_onnx/constants.py,sha256=j-BzCGqmdyRPuQ3jcFRAHtVAZ5ivK7SLqGACycwkx-E,369
+msnhnet_onnx/onnx_wrapper.py,sha256=zMQUy6j5_FTgJzSMiVBlO3UC3r0eWIVTj1ZwFb2fjJI,11230
+msnhnet_onnx/schemas.py,sha256=Yuqc4aZhGeVDQ_FIJKvddBN7Ti02A55ovPPB66GqQtM,7152
+msnhnet_onnx/util.py,sha256=OPD6Q_PMzZg0hP9bjvBIm1pVPYsYNRq814ArxOjbH-s,3392
+msnhnet_onnx/x2msnhnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msnhnet_onnx/x2msnhnet/handler.py,sha256=JxeG2BCGeOFWbdWR6xfuZsvvk1f5lVLVwaj0ISAq3sM,4364
+msnhnet_onnx/x2msnhnet/onnx2msnhnet.py,sha256=Y4H1XltfXtP3trmY9ph_UjL_MGVURwktOFdg0oNWerA,21726
+msnhnet_onnx/x2msnhnet/util.py,sha256=dhfr4rn36yjoihSwCYINl47ht5TgK9iBF-cI5meUiuo,2182
+msnhnet_onnx/x2msnhnet/handlers/__init__.py,sha256=du9MRkr0xyjkNJ_AdfTqnsbaVTYI3izCSpjPz4zAgVQ,134
+msnhnet_onnx/x2msnhnet/handlers/nn.py,sha256=CTJesmUbwkEU3cA6pNAhictyHHZpA6N4JJVsUMJjS0E,8101
+msnhnet_onnx-0.0.1a0.dist-info/METADATA,sha256=qp9gywsW0YZpwe-P-fA_vnq0z9yiVgK_-rrG2RzGZtY,712
+msnhnet_onnx-0.0.1a0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+msnhnet_onnx-0.0.1a0.dist-info/top_level.txt,sha256=-wsnKtgto53PbkvTAHnEcXMRBjmzffWa65Qph78xoC0,13
+msnhnet_onnx-0.0.1a0.dist-info/RECORD,,
