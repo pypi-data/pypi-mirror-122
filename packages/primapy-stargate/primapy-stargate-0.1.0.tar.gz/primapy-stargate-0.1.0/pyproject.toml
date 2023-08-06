@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "primapy-stargate"
+version = "0.1.0"
+description = "Hub for Oracles"
+authors = ["Team AMOps <amops@prima.it>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+isort = "^5.9.3"
+mypy = "^0.910"
+pre-commit = "^2.15.0"
+pylint = "^2.11.1"
+pytest = "^6.2.4"
+pytest-xdist = "^2.4.0"
+
+[tool.pylint.BASIC]
+min-public-methods = 0
+
+    [tool.pylint."MESSAGES CONTROL"]
+    persistent = "no"
+    max-line-length = 120
+    disable = [
+        "duplicate-code",
+        "missing-module-docstring",
+        "fixme",
+    ]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true
+pretty = true
+show_error_codes = true
+show_error_context = true
+implicit_reexport = true
+namespace_packages = true
+
+    [[tool.mypy.overrides]]
+    module = "tests.*"
+    disallow_untyped_defs = false
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
