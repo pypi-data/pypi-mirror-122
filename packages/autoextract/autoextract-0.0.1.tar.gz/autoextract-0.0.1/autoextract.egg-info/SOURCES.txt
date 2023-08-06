@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+autoextract/__init__.py
+autoextract/extract.py
+autoextract.egg-info/PKG-INFO
+autoextract.egg-info/SOURCES.txt
+autoextract.egg-info/dependency_links.txt
+autoextract.egg-info/top_level.txt
