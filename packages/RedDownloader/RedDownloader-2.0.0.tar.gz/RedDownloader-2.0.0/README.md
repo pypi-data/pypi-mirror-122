@@ -1,0 +1,72 @@
+A very easy to use library to download videos from reddit with sound without installing external installation of ffmpeg. The library can also be used to download pictures all just with a reddit post link
+note that this package does only download media from posts with images/video directly uploaded to reddit and not from sources like imgur or youtube / vimeo.
+
+Usage:
+
+THIS SECTION OF DOCUMENTATION IS FOR RedDownloader 2.0.0 (Newest)
+
+To Import package just do:
+
+```python
+from RedDownloader import RedDownloader
+```
+
+RedDownloader 2.0.0 unlike RedDownloader 1.0.0 is auth less you don't need to have a praw bot to use this package (RedDownloader 1.0.0 required a registered praw bot)
+
+After importing, Downloading is just a single line of code
+
+```python
+d = RedDownloader.Download(url)
+```
+
+This will automatically download media from the passed url it would automatically detect if it's a picture/video with default options. to pass in an output filename just pass in the output parameter as:
+
+```python
+RedDownloader.Download(url , output="MyAwesomeRedditMedia")
+```
+
+default file name is "downloaded"
+you don't have to pass in extensions to the output parameter
+
+Another argument is the ```quality``` argument which defines the resolution to download if the filetype is a video the avaliable options to choose from are 360 , 720 , 1080 please note that higher resolution would result in bigger file size. An example:
+
+```python
+RedDownloader.Download(url , output="MyAwesomeRedditMedia" , quality = 1080)
+```
+
+The package has been tested for videos with no sound
+
+THIS SECTION OF DOCUMENTATION IS FOR RedDownloader 1.0.0 (Please switch to 2.0.0 if not already)
+
+To Import package just do:
+
+```python
+from RedDownloader import RedDownloader
+```
+
+```python
+d = RedDownloader.Downloader("clientID", "clientSecret", "userAgent")
+```
+
+this will initialize your praw bot make sure you have a registered praw application registered
+
+```python
+d.download(url)
+```
+This will automatically download media from the passed url it would automatically detect if it's a picture/video with default options. to pass in an output filename just pass in the output parameter as:
+
+```python
+d.download(url , output="MyAwesomeRedditMedia")
+```
+
+you don't have to pass in extensions to the output parameter
+
+Another argument is the ```quality``` argument which defines the resolution to download if the filetype is a video the avaliable options to choose from are 360 , 720 , 1080 please note that higher resolution would result in bigger file size. An example:
+
+```python
+d.download(url , , output="MyAwesomeRedditMedia" , quality = 1080)
+```
+
+The package has been tested for videos with no sound and it works really well!
+
+Arnav Bajaj
