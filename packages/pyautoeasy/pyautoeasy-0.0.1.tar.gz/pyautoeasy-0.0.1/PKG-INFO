@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyautoeasy
+Version: 0.0.1
+Summary: A simple GUI automation tool to automate your boring tasks
+Home-page: UNKNOWN
+Author: Dingu Sagar
+Author-email: <dingusagar@gmail.com>
+License: UNKNOWN
+Description: 
+        # pyautoeasy
+        
+        pyautoeasy is wrapper around the famous [pyautogui](https://pypi.org/project/PyAutoGUI/) library. 
+        
+        pyautoeasy makes it easy to grab different points in the screen and give them meaningful variable names.
+        After this it generates a sample program with these generated points as high level objects that can be used easily to do various operations like click, type etc. 
+        
+        
+        Todo:
+        - Improve docs
+        - create command line utility
+        - packaging
+Keywords: python,pyautoeasy,pyautogui,automate gui,automate ui,ui automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
