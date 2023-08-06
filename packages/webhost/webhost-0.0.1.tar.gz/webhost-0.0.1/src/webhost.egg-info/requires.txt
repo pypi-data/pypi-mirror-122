@@ -1,0 +1,4 @@
+Jinja2
+parse
+WebOb
+whitenoise
