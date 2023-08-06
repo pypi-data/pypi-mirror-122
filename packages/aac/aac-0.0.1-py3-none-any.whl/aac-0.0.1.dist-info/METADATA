@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: aac
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: MBSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: coverage (==6.0)
+Requires-Dist: jsonschema (==4.0.1)
+Requires-Dist: pyrsistent (==0.18.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: pathspec (==0.9.0)
+Requires-Dist: platformdirs (==2.4.0)
+Requires-Dist: regex (==2021.9.30)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: pluggy (==1.0.0)
+Provides-Extra: all
+Requires-Dist: nose2 (==0.10.0) ; extra == 'all'
+Requires-Dist: coverage (==6.0) ; extra == 'all'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'all'
+Requires-Dist: black (==21.9b0) ; extra == 'all'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'all'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'all'
+Requires-Dist: pycodestyle (==2.7.0) ; extra == 'all'
+Requires-Dist: pyflakes (==2.3.1) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: black (==21.9b0) ; extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'dev'
+Requires-Dist: pycodestyle (==2.7.0) ; extra == 'dev'
+Requires-Dist: pyflakes (==2.3.1) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: nose2 (==0.10.0) ; extra == 'test'
+Requires-Dist: coverage (==6.0) ; extra == 'test'
+
+UNKNOWN
+
