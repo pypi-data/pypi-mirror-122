@@ -1,0 +1,11 @@
+molgenis-py-client>=2.3.1
+requests>=2.21.0
+dataclasses
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
