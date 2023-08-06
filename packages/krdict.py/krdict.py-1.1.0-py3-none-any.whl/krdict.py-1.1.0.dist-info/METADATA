@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: krdict.py
+Version: 1.1.0
+Summary: "A module that helps with querying the Korean Learner's Dictionary API."
+Home-page: https://github.com/omarkmu/krdict.py
+Author: Omar M.
+Author-email: omarkmu@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/omarkmu/krdict.py
+Project-URL: Bug Tracker, https://github.com/omarkmu/krdict.py/issues
+Project-URL: Documentation, https://krdictpy.readthedocs.io/en/v1.1.0
+Keywords: korean dictionary api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
