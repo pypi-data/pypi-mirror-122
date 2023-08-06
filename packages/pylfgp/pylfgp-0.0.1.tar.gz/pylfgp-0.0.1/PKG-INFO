@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pylfgp
+Version: 0.0.1
+Summary: Python package for Latent Factor Group Penalty (LFGP) approach
+Home-page: UNKNOWN
+Author: Qi Xu, Arlina Shen, and Annie Qu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+Package Documentation:
+
+Description:
+In this package `pylfgp`, we propose a latent factor model to predict the true labels given crowd labels in crowdsourcing problem.
+
+
