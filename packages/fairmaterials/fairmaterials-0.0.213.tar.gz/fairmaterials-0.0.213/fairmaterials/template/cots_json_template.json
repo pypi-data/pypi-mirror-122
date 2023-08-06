@@ -1,0 +1,214 @@
+{
+    "CotsMetadata": {
+        "FolderAndFileNameMetadata": {
+            "SchemaMetadata": {
+                "@context": "https://www.schema.org",
+                "@type": "Product",
+                "description": "Metadata about the cots"
+            },
+            "additionalProperty": {
+                "DeviceGroup": {
+                    "@type": "PropertyValue",
+                    "description": "From undamaged group(As-ReceivedParts) or damaged group (by Lasers or OverVoltaged)",
+                    "value": "<<specific_data$prva>>",
+                    "unit":"Null"
+                },
+                "IsReconstructed": {
+                    "@type": "PropertyValue",
+                    "description": "Indicates that the folder contains reconstructed data. Raw images are taken while rotating the object along an axis perpendicular to the x-ray to detector axis. These images are combined into a 3D image, background is removed, and corrected for drift and temperature fluctuations. Then the 3D image is sliced with the normal of the images parallel to the rotation axis of the object. Slicing is done at voxel size resolution",
+                    "value": "<<specific_data$isre>>",
+                    "unit":"Null"
+                },
+                "LaserDirection": {
+                    "@type": "PropertyValue",
+                    "description": "If it was deamaged by laser, this label indicates the direction. if not, this vaule will be null",
+                    "value": "<<specific_data$ladi>>",
+                    "unit":"Null"
+                },
+                "SampleGroupTracking": {
+                    "@type": "PropertyValue",
+                    "description": "Samples are scanned on a batch, this label identifies what samples were run together. (Samp38a40_OV1a7 – we set up ten of these samples at a time, this label identifies what samples were run together. As-received samples are not labelled, damaged ones are given a special name (OV is overvoltaged) . So this label indicates that the entire scan included as-received samples 38-40 and OV samples 1 through 7 (note that each folder only contains data from one of these 10 samples). This name is primarily used for internal tracking and doesn’t provide much information outside of that.)",
+                    "value": "<<specific_data$scgr>>",
+                    "unit":"Null"
+                },
+                "SampleNumber": {
+                    "@type": "PropertyValue",
+                    "description": "Sample number",
+                    "value": "<<specific_data$sanu>>",
+                    "unit":"Null"
+                },
+                "SampleType": {
+                    "@type": "PropertyValue",
+                    "description": "Name of the sample type",
+                    "value": "<<specific_data$saty>>",
+                    "unit":"Null"
+                },
+                "ScanBinNumber": {
+                    "@type": "PropertyValue",
+                    "description": "Number of scan bin",
+                    "value": "<<specific_data$scbi>>",
+                    "unit":"Null"
+                },
+                "ScanData": {
+                    "@type": "PropertyValue",
+                    "description": "Date the scan was performed",
+                    "value": "<<specific_data$scda>>",
+                    "unit":"Null"
+                },
+                "ScanDetector": {
+                    "@type": "PropertyValue",
+                    "description": "Detector of scan",
+                    "value": "<<specific_data$scde>>",
+                    "unit":"Null"
+                },
+                "ScanExposureTime": {
+                    "@type": "PropertyValue",
+                    "description": "Exposure time of scan",
+                    "value": "<<specific_data$scex>>",
+                    "unit":"second"
+                },
+                "ScanFilter": {
+                    "@type": "PropertyValue",
+                    "description": "Filter of scan",
+                    "value": "<<specific_data$scfi>>",
+                    "unit":"Null"
+                },
+                "ScanID": {
+                    "@type": "PropertyValue",
+                    "description": "A ID associated the scan, it’s used for internal tracking",
+                    "value": "<<specific_data$scid>>",
+                    "unit":"Null"
+                },
+                "ScanMethod": {
+                    "@type": "PropertyValue",
+                    "description": "The Scan method",
+                    "value": "<<specific_data$scme>>",
+                    "unit":"Null"
+                },
+                "ScanPower": {
+                    "@type": "PropertyValue",
+                    "description": "Power of scan",
+                    "value": "<<specific_data$scpo>>",
+                    "unit":"Watt"
+                },
+                "ScanVoltage": {
+                    "@type": "PropertyValue",
+                    "description": "Voltage of scan",
+                    "value": "<<specific_data$scvi>>",
+                    "unit":"Kilovolt"
+                },
+                "ScanVoxelSize": {
+                    "@type": "PropertyValue",
+                    "description": "Physical length of a voxel on the sensor",
+                    "value": "<<specific_data$vosi>>",
+                    "unit":"Micrometer"
+                },
+                "filename": {
+                    "@type": "PropertyValue",
+                    "description": "Raw filename",
+                    "value": "<<specific_data$rafi>>",
+                    "unit":"Null"
+                }
+            }
+        },
+        "InfoMetadata": {
+            "SchemaMetadata": {
+                "@context": "https://www.schema.org",
+                "@type": "Product",
+                "description": "Metadata from the header.txt file in the folder"
+            },
+            "additionalProperty": {
+                "Current": {
+                    "@type": "PropertyValue",
+                    "description": "The current of the source, it will affect xray strength",
+                    "value": "<<specific_data$curr>>",
+                    "unit":"microamperes"
+                },
+                "DataType": {
+                    "@type": "PropertyValue",
+                    "description": "Data Types: In the uchar situation, each voxel is 8bits grayscale data (unsigned char type). In the ushort situation, each voxel is 16bits grayscale data (unsigned short type)",
+                    "value": "<<specific_data$daty>>",
+                    "unit":"Null"
+                },
+                "DtoRADistance": {
+                    "@type": "PropertyValue",
+                    "description": "Dto RA Distance: Detector to object distance",
+                    "value": "<<specific_data$dtrd>>",
+                    "unit":"Micrometer"
+                },
+                "ExpTimes": {
+                    "@type": "PropertyValue",
+                    "description": "Exposure time of sensor",
+                    "value": "<<specific_data$exti>>",
+                    "unit":"Second"
+                },
+                "ImageHeight": {
+                    "@type": "PropertyValue",
+                    "description": "Number of voxels in vertical direction",
+                    "value": "<<specific_data$imhe>>",
+                    "unit":"Voxel"
+                },
+                "ImageWidth": {
+                    "@type": "PropertyValue",
+                    "description": "Number of voxels in horizontal direction",
+                    "value": "<<specific_data$imwi>>",
+                    "unit":"Voxel"
+                },
+                "ImagesTaken": {
+                    "@type": "PropertyValue",
+                    "description": "Number of images were taken for this device",
+                    "value": "<<specific_data$imta>>",
+                    "unit":"Null"
+                },
+                "OpticalMagnification": {
+                    "@type": "PropertyValue",
+                    "description": "Magnifying power",
+                    "value": "<<specific_data$opma>>",
+                    "unit":"Zooming ratio"
+                },
+                "PixelSize": {
+                    "@type": "PropertyValue",
+                    "description": "Physical length of a voxel on the sensor",
+                    "value": "<<specific_data$pisi>>",
+                    "unit":"Micrometer"
+                },
+                "StoRADistance": {
+                    "@type": "PropertyValue",
+                    "description": "Sto RA Distance: Source to object distance",
+                    "value": "<<specific_data$strd>>",
+                    "unit":"Micrometer"
+                },
+                "Voltage": {
+                    "@type": "PropertyValue",
+                    "description": "The voltage of the source, it will affect xray strength",
+                    "value": "<<specific_data$volt>>",
+                    "unit":"Kilovolt"
+                }
+            }
+        },
+        "JsonFileMetadata": {
+            "SchemaMetadata": {
+                "@context": "https://www.schema.org",
+                "@type": "Product",
+                "description": "Metadata about the json file itself"
+            },
+            "additionalProperty": {
+                "Author": {
+                    "@type": "PropertyValue",
+                    "description": "Author information",
+                    "value": "Alp Sehirlioglu for V1.1 Liangyi Huang for v1.0"
+                },
+                "License": {
+                    "@type": "PropertyValue",
+                    "description": "License information",
+                    "value": "This cots_json_template.json is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/"
+                },
+                "Version": {
+                    "@type": "PropertyValue",
+                    "description": "Current Version information",
+                    "value": "1.1"
+                }
+            }
+        }
+    }
+}
