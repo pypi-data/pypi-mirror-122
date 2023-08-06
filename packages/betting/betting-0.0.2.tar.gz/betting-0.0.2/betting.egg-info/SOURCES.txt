@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+betting/__init__.py
+betting/convert.py
+betting.egg-info/PKG-INFO
+betting.egg-info/SOURCES.txt
+betting.egg-info/dependency_links.txt
+betting.egg-info/top_level.txt
