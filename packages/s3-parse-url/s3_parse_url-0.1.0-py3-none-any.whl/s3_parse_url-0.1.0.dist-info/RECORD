@@ -1,0 +1,14 @@
+s3_parse_url/__init__.py,sha256=pWpXqzWefYVEfEMP6pMJQSkKAZ5cd-KRXznEBi3SEog,1015
+s3_parse_url/base.py,sha256=UVjgiVqF2iOiqiLZA7lJ3t9q4ckPnAxKEdwCqWGaQvQ,2828
+s3_parse_url/exceptions.py,sha256=v3iqcSbPUo7X6ZTEbuhMpTZllVMmgJ6H71y91cVuMyI,99
+s3_parse_url/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_parse_url/ext/clients.py,sha256=V0hdpL6cx9kiZiZSkmghfBQvgkHEnTg-7A65eL7-_ho,1087
+s3_parse_url/storages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_parse_url/storages/amazon.py,sha256=zyyfv4bb3mby0ziX4yIKOMZVy5ujmIog5RG1VhG2xRI,133
+s3_parse_url/storages/mail_ru.py,sha256=jhmwGPSpdErzbD5M6dczGxbQHzsbgxxxruB2oYK2u4U,335
+s3_parse_url/storages/minio.py,sha256=BaBKrsT9tGwZF7BUSCdkFbkLYHnR4JQZZC_NCGjYjrU,400
+s3_parse_url/storages/selectel.py,sha256=lbnV_LPJs3VuJyNvcJ5IAC-_GQ7XIqrcQ-hnyzNzSV0,187
+s3_parse_url/storages/yandex.py,sha256=L-rEx91ev3PQk7d-5MNZz1SzMY8sW0N7KDpsZ7pQeag,199
+s3_parse_url-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+s3_parse_url-0.1.0.dist-info/METADATA,sha256=zkNwUn4aNmRshIKTVu7hyXVVTRpvnXn0MvgD0E2gt8I,359
+s3_parse_url-0.1.0.dist-info/RECORD,,
