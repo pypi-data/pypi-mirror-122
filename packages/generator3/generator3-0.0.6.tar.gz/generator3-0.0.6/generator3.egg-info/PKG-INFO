@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: generator3
+Version: 0.0.6
+Summary: Parse Scratch's large project JSONs and convert them to scratchblocks notation
+Home-page: https://github.com/themysticsavages/generator3
+Author: themysticsavages
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# generator3
+generator3 is a Python package to export Scratch sprite scripts to the well known scratchblocks syntax.
+## Installation
+```bash
+$ python3 -m pip install generator3
+```
+## Usage
+```python
+from generator3 import generator3
+# Converts to scratchblocks and puts each sprites' scripts in a HTML file
+Generator(pid).toBlocks()
+
+```
+This is still in progress so not every block will be rendered!<br>
+Made with ❤️ by themysticsavages
+
