@@ -1,0 +1,7 @@
+[console_scripts]
+ssdk = ssdk.cli.ssdk:main
+ssdk-lib = ssdk.cli.lib:main
+
+[gui_scripts]
+ssdk-background = ssdk.cli.ssdk:main
+
