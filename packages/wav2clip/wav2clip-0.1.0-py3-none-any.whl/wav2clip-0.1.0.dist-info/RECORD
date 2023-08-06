@@ -1,0 +1,13 @@
+wav2clip/__init__.py,sha256=JuZCohkHyX9A0sDOzBhJ52Ek4eqWJeKxKKoxw1fLgxg,1050
+wav2clip/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wav2clip/model/encoder.py,sha256=06cVgX1sIt4JXUKhyuNwK-J5oJV1f9l1jnLhWhdU4ew,3999
+wav2clip/model/resnet.py,sha256=8ditoTfnXh42xcqgXERApuCazHZc6QU46VtJ5yicRao,6449
+wav2clip/pre_training/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wav2clip/pre_training/dataset.py,sha256=YpY9GPBzucfrSVBBdFfPOnL2tp7kX1Wy8ICO8YCDY3c,3711
+wav2clip/pre_training/loss.py,sha256=dTT2WOhGQMijDBypSaar5nQibBzKnk9RFxMJ6didKz4,1126
+wav2clip/pre_training/model.py,sha256=04E5j_UVi3JeB34dp7kcOXFbt8MzE6ysTwoV8jlp87w,4761
+wav2clip-0.1.0.dist-info/LICENSE.md,sha256=XawkyCZTUnvSV5UEx7nLOj3NUMtwTOb03x2D-4dru9s,1065
+wav2clip-0.1.0.dist-info/METADATA,sha256=Od07t0xM_CuYU8ObYDmfHibFHR1Q2tOiKE5_S2UEgDU,1537
+wav2clip-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wav2clip-0.1.0.dist-info/top_level.txt,sha256=xKUdfFzZe6zQ7UBtUGQ7THFCF4ojM391pPU0x5JMbwI,9
+wav2clip-0.1.0.dist-info/RECORD,,
