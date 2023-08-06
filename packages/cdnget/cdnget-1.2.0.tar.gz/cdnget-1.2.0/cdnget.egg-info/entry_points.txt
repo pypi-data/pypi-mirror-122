@@ -1,0 +1,3 @@
+[console_scripts]
+cdnget = cdnget:main
+
