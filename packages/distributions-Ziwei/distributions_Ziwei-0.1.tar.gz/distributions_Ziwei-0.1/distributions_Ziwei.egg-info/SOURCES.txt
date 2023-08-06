@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_Ziwei/Binomialdistribution.py
+distributions_Ziwei/Gaussiandistribution.py
+distributions_Ziwei/Generaldistribution.py
+distributions_Ziwei/__init__.py
+distributions_Ziwei.egg-info/PKG-INFO
+distributions_Ziwei.egg-info/SOURCES.txt
+distributions_Ziwei.egg-info/dependency_links.txt
+distributions_Ziwei.egg-info/not-zip-safe
+distributions_Ziwei.egg-info/top_level.txt
