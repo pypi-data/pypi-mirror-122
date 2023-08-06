@@ -1,0 +1,9 @@
+bluesky-queueserver
+fastapi
+pyzmq
+requests
+uvicorn
+starlette
+
+[:python_version < "3.8"]
+typing-extensions
