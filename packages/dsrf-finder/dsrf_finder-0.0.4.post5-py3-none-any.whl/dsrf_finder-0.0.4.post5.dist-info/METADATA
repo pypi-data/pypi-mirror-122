@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: dsrf-finder
+Version: 0.0.4-5
+Summary: This library intends to make parsing HTML (e.g. scraping the web) as simple, intuitive and make the scrape as fast as possible.
+Home-page: https://github.com/thedsrf/dsrf_finder
+Author: Anas bin hasan bhuiyan
+Author-email: dsrf.anas@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/thedsrf/dsrf_finder/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests-html
+Requires-Dist: jsonpath-ng
+
+## DSRF Finder : An web scraper
+
+### Description
+
+ This library intends to make parsing HTML (e.g. scraping the web) as simple, intuitive and make the scrape as fast as possible.
+#
+To install [dsrf-finder](https://github.com/thedsrf/dsrf_finder) library in your system please follow the steps:
+
+### Installation
+
+ Simply install using this command
+ ```bash
+  pip install dsrf-finder
+ ```
+
+ Install git-clone
+
+ ```bash
+  pip install git-clone
+ ```
+ Clone dsrf-finder
+ ```bash
+   git clone https://github.com/thedsrf/dsrf-finder.git
+ ```
+ Go to the project directory
+
+ ```bash
+   cd dsrf_finder
+ ```
+
+ Install dependencies
+
+ ```bash
+   pip install -r requirements.txt
+ ```
+ #
+ If anything gose wrong in installation please contact in dsrf.anas@gmail.com
+
+### Docomentation
+ [CSS Selector](https://github.com/thedsrf/dsrf-finder/blob/main/doc/css%20selector.md) , [xpath selection](https://github.com/thedsrf/dsrf-finder/blob/main/doc/xpath.md) , [dsrf finder](https://github.com/thedsrf/dsrf-finder/blob/main/doc/dsrf%20finder.md)
+ #
+ 
+### Version of Library
+ `version: 0.0.4_5`
+
+ Based on **Python version: 3.6** or higher. 
+ 
+ **N.B:** Py version **v.3.9** is recomanded.  
+ #
+
+## License
+
+ [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/thedsrf/dsrf-finder/blob/main/LICENSE)
+#
+
+### Developer
+Developed by: [Anas bin hasan bhuiyan](https://www.twitter.com/anas__bhuiyan)
+
+ &copy; dsrf.firm.pvt.ltd
+ #
+
+
