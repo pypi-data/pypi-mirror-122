@@ -1,0 +1,209 @@
+{
+  "properties": {
+    "MetaData": {
+      "properties": {
+        "LastUpdatedTime": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "CreateTime": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        }
+      },
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "ExchangeRate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "singer.decimal"
+    },
+    "Balance": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "singer.decimal"
+    },
+    "TotalAmt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "singer.decimal"
+    },
+    "SyncToken": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "domain": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "VendorRef": {
+      "$ref": "ref_schema.json"
+    },
+    "DepartmentRef": {
+      "$ref": "ref_schema.json"
+    },
+    "APAccountRef": {
+      "$ref": "ref_schema.json"
+    },
+    "PrivateNote": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "TxnDate": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "Id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "Line": {
+      "items": {
+        "properties": {
+          "LineNum": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "AccountBasedExpenseLineDetail": {
+            "properties": {
+              "CustomerRef": {
+                "$ref": "ref_schema.json"
+              },
+              "ClassRef": {
+                "$ref": "ref_schema.json"
+              },
+              "AccountRef": {
+                "$ref": "ref_schema.json"
+              },
+              "BillableStatus": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "TaxCodeRef": {
+                "$ref": "ref_schema.json"
+              }
+            },
+            "type": [
+              "null",
+              "object"
+            ]
+          },
+          "ItemBasedExpenseLineDetail": {
+            "properties": {
+              "ItemRef": {
+                "$ref": "ref_schema.json"
+              },
+              "CustomerRef": {
+                "$ref": "ref_schema.json"
+              },
+              "ClassRef": {
+                "$ref": "ref_schema.json"
+              },
+              "TaxCodeRef": {
+                "$ref": "ref_schema.json"
+              },
+              "BillableStatus": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "Qty": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "UnitPrice": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              }
+            },
+            "type": [
+              "null",
+              "object"
+            ]
+          },
+          "Id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Amount": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "singer.decimal"
+          },
+          "DetailType": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ]
+      },
+      "type": [
+        "null",
+        "array"
+      ]
+    },
+    "CurrencyRef": {
+      "$ref": "ref_schema.json"
+    },
+    "DocNumber": {
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  },
+  "type": [
+    "null",
+    "object"
+  ]
+}
