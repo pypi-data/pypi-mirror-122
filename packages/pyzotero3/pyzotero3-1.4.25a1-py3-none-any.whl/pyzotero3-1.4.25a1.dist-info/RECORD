@@ -1,0 +1,11 @@
+pyzotero/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyzotero/zotero.py,sha256=jHr7ikX8vj8wXl4V2D48aWSktHDLctI_qI1JY4fRNyU,72979
+pyzotero/zotero_errors.py,sha256=-KsvTFk_fJksYYpWQ47hGxGwlwjflHoclU4wz37zBr4,3735
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_zotero.py,sha256=HxS-Q98vh18fxUvOsiRwHcfGiF4cn_5domA1O7RPMT0,27327
+test/api_responses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyzotero3-1.4.25a1.dist-info/AUTHORS,sha256=ZMicxg7lRScOYbxzMPznlzMbmrFIUIHwg-NvljEMbRQ,110
+pyzotero3-1.4.25a1.dist-info/METADATA,sha256=O-IqBFT5fOdbQf9DtbzkWsB5hQlCervMujDHb_WyH3o,5077
+pyzotero3-1.4.25a1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+pyzotero3-1.4.25a1.dist-info/top_level.txt,sha256=NgZE0k5IBQgw2ga1iYLXj6su_xyoB6XJdHOB36NH288,14
+pyzotero3-1.4.25a1.dist-info/RECORD,,
