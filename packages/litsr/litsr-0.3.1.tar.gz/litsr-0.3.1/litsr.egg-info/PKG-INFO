@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: litsr
+Version: 0.3.1
+Summary: Super-Resolution Toolbox Based on PyTorch Lightning
+Home-page: UNKNOWN
+Author: Hanlin Wu
+Author-email: hlwu.bnu@gmail.com
+License: Apache License 2.0
+Description: # LitSR
+        
+        Super-resolution ToolBox Based on PyTorch Lightning
+Keywords: computer vision,super resolution
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

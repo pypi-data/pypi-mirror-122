@@ -1,0 +1,13 @@
+addict
+future
+lmdb
+numpy
+opencv-python
+Pillow
+pyyaml
+scikit-image
+scipy
+torch>=1.7
+torchvision
+pytorch-lightning
+tqdm
