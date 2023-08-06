@@ -1,0 +1,8 @@
+beautifulsoup4>=4.9.3
+numpy
+requests
+Pillow>=8.0.1
+jupyter
+pandas
+w3lib
+pyyaml
