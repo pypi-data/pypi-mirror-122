@@ -1,0 +1,436 @@
+#!python
+# """
+# This is a packager bot for nodejs modules from npmjs.org
+# """
+# *****************************************************************************
+# Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
+# licensed under the Mulan PSL v2.
+
+# You can use this software according to the terms and conditions of the Mulan PSL v2.
+# You may obtain a copy of Mulan PSL v2 at:
+#     http://license.coscl.org.cn/MulanPSL2
+# THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR
+# PURPOSE.
+# See the Mulan PSL v2 for more details.
+# Author: Sunchendong
+# Create: 2020-08-08
+# Description: provide a tool to package nodejs module automatically
+# ******************************************************************************/
+
+import urllib
+import urllib.request
+from pprint import pprint
+from os import path
+import json
+import sys
+import re
+import datetime
+import argparse
+import subprocess
+import os
+import platform
+from pathlib import Path
+
+json_file_template = '{pkg_name}.json'
+name_tag_template = 'Name:\t\t{pkg_name}'
+summary_tag_template = 'Summary:\t{pkg_sum}'
+version_tag_template = 'Version:\t{pkg_ver}'
+release_tag_template = 'Release:\t1%{?dist}'
+license_tag_template = 'License:\t{pkg_lic}'
+home_tag_template = 'URL:\t\t{pkg_home}'
+source_tag_template = 'Source0:\t{pkg_source}'
+buildreq_tag_template = 'BuildRequires:\t{req}'
+
+
+class PyPorter:
+    __url_template = 'https://registry.npmjs.org/{pkg_name}/{specified_version}'
+    __build_noarch = True
+    __json = None
+    __module_name = ""
+    __spec_name = ""
+    __pkg_name = ""
+    __build_noarch = True  
+
+    def __init__(self, pkg, pkg_version):
+        """
+        receive json from pypi.org
+        """
+        url = self.__url_template.format(pkg_name=pkg, specified_version=pkg_version)
+        resp = ""
+        with urllib.request.urlopen(url) as u:
+            self.__json = json.loads(u.read().decode('utf-8'))
+        if (self.__json is not None):
+            self.__module_name = self.__json["name"]
+            print(self.__module_name)
+            self.__spec_name = "nodejs-" + self.__module_name
+            self.__pkg_name = "nodejs-" + self.__module_name
+
+    def get_spec_name(self):
+        return self.__spec_name
+
+    def get_module_name(self):
+        return self.__module_name
+
+    def get_pkg_name(self):
+        return self.__pkg_name
+
+    def get_version(self):
+        return self.__json["version"]
+
+    def get_summary(self):
+        return self.__json["description"]
+
+    def get_home(self):
+        for r in self.__json:
+            if r == "homepage":
+                return self.__json["homepage"]
+            if r == "repository":
+                rs = self.__json["repository"]
+                return rs["url"]
+        return ""
+
+    def get_license(self):
+        for r in self.__json:
+            if r == "license":
+                return self.__json["license"]
+            if r == "licenses":
+                rs = self.__json["licenses"]
+                return rs[0]["type"]
+        return ""
+
+    def get_source_url(self):
+        """
+        return URL for source file for the latest version
+        return "" in errors
+        """
+        v = self.__json["dist"]
+        return v["tarball"]
+
+    def get_requires(self):
+        """
+        return all requires no matter if extra is required.
+        """
+        print("BuildRequires:\tnodejs-packaging")
+        for v in self.__json:
+            if v == "dependencies":
+                rs = self.__json["dependencies"]
+                for mod in rs:
+                    print("BuildRequires:\tnpm({req})".format(req=mod))
+            if v == "devDependencies":
+                rs = self.__json["devDependencies"]
+                for mod in rs:
+                    if mod == "mocha":
+                        print("Requires:\t" + mod)
+                    else:
+                        print("Requires:\tnpm({req})".format(req=mod))
+        return ""
+
+    def is_build_noarch(self):
+        return self.__build_noarch
+
+    def get_buildarch(self):
+        if self.__build_noarch is True:
+            print("BuildArch:\tnoarch")
+
+    def get_description(self):
+        """
+        return description.
+        Usually it's json["info"]["description"]
+        If it's rst style, then only use the content for the first paragraph, and remove all tag line.
+        For empty description, use summary instead.
+        """
+        desc = self.__json["description"].splitlines()
+        return self.__json["description"]
+
+    def get_build_requires(self):
+        req_list = []
+        rds = []
+        for v in self.__json:
+            if v == "dependencies":
+                rds = self.__json["dependencies"]
+        if rds is not None:
+            for rp in rds:
+                br = refine_requires(rp)
+                if (br == ""):
+                    continue
+                name = str.lstrip(br).split(" ")
+                req_list.append(name[0])
+        return req_list
+
+    def store_json(self, spath):
+        """
+        save json file
+        """
+        fname = json_file_template.format(pkg_name=self.__pkg_name)
+        json_file = os.path.join(spath, fname)
+
+        # if file exist, do nothing
+        if path.exists(json_file) and path.isfile(json_file):
+            with open(json_file, 'r') as f:
+                resp = json.load(f)
+        else:
+            with open(json_file, 'w') as f:
+                json.dump(self.__json, f)
+
+
+def transform_module_name(n):
+    """
+    return module name with version restriction.
+    Any string with '.' or '/' is considered file, and will be ignored
+    Modules start will be changed to nodejs- for consistency.
+    """
+    # remove ()
+    ns = re.split("[()]", n)
+    ver_constrain = []
+    ns[0] = ns[0].strip()
+    # ns[0] = "nodejs-" + ns[0]
+    if ns[0].find("/") != -1 or ns[0].find(".") != -1:
+        return ""
+    return ns[0]
+
+
+def refine_requires(req):
+    """
+    return only requires without ';' (thus no extra)
+    """
+    ra = req.split(";", 1)
+    return transform_module_name(ra[0])
+
+
+def download_source(porter, tgtpath):
+    """
+    download source file from url, and save it to target path
+    """
+    if os.path.exists(tgtpath) == False:
+        print("download path %s does not exist\n", tgtpath)
+        return False
+    s_url = porter.get_source_url()
+    return subprocess.call(["wget", s_url, "-P", tgtpath])
+
+
+def prepare_rpm_build_env(root):
+    """
+    prepare environment for rpmbuild
+    """
+    if os.path.exists(root) is False:
+        print("Root path %s does not exist\n" & buildroot)
+        return ""
+
+    buildroot = os.path.join(root, "rpmbuild")
+    if (os.path.exists(buildroot) == False):
+        os.mkdir(buildroot)
+
+    for sdir in ['SPECS', 'BUILD', 'SOURCES', 'SRPMS', 'RPMS', 'BUILDROOT']:
+        bpath = os.path.join(buildroot, sdir)
+        if os.path.exists(bpath) is False:
+            os.mkdir(bpath)
+
+    return buildroot
+
+
+def try_pip_install_package(pkg):
+    """
+    install packages listed in build requires
+    """
+    # try pip installation
+    pip_name = pkg.split("-")
+    if len(pip_name) == 2:
+        ret = subprocess.call(["pip3", "install", "--user", pip_name[1]])
+    else:
+        ret = subprocess.call(["pip3", "install", "--user", pip_name[0]])
+
+    if ret != 0:
+        print("%s can not be installed correctly, Fix it later, go ahead to do building..." % pip_name)
+    return True
+
+
+def package_installed(pkg):
+    print(pkg)
+    ret = subprocess.call(["rpm", "-qi", pkg])
+    if ret == 0:
+        return True
+
+    return False
+
+
+def dependencies_ready(req_list):
+    """
+    TODO: do not need to do dependency check here, do it in pyporter_run
+    """
+    return ""
+
+
+def build_package(specfile):
+    """
+    build rpm package with rpmbuild
+    """
+    ret = subprocess.call(["rpmbuild", "-ba", specfile])
+    return ret
+
+
+def build_install_rpm(porter, rootpath):
+    ret = build_rpm(porter, rootpath)
+    if (ret != ""):
+        return ret
+
+    arch = "noarch"
+    if (porter.is_build_noarch()):
+        arch = "noarch"
+    else:
+        arch = platform.machine()
+
+    pkgname = os.path.join(rootpath, "rpmbuild", "RPMS", arch, porter.get_pkg_name() + "*")
+    ret = subprocess.call(["rpm", "-ivh", pkgname])
+    if ret != 0:
+        return "Install failed\n"
+
+    return ""
+
+
+def build_rpm(porter, rootpath):
+    """
+    full process to build rpm
+    """
+    buildroot = prepare_rpm_build_env(rootpath)
+    if buildroot == "":
+        return False
+
+    specfile = os.path.join(buildroot, "SPECS", porter.get_spec_name() + ".spec")
+
+    req_list = build_spec(porter, specfile)
+    ret = dependencies_ready(req_list)
+    if ret != "":
+        print("%s can not be installed automatically, Please handle it" % ret)
+        return ret
+
+    download_source(porter, os.path.join(buildroot, "SOURCES"))
+
+    build_package(specfile)
+
+    return ""
+
+def build_spec(porter, output):
+    """
+    print out the spec file
+    """
+    if os.path.isdir(output):
+        output = os.path.join(output, porter.get_spec_name() + ".spec")
+    tmp = sys.stdout
+    if output != "":
+        sys.stdout = open(output, 'w+')
+
+    print("%{?nodejs_find_provides_and_requires}")
+    print("")
+    print("%global packagename {name}".format(name=porter.get_module_name()))
+    print("")
+    print(name_tag_template.format(pkg_name=porter.get_spec_name()))
+    print(version_tag_template.format(pkg_ver=porter.get_version()))
+    print(release_tag_template)
+    print(summary_tag_template.format(pkg_sum=porter.get_summary()))
+    print(license_tag_template.format(pkg_lic=porter.get_license()))
+    print(home_tag_template.format(pkg_home=porter.get_home()))
+    print(source_tag_template.format(pkg_source=porter.get_source_url()))
+    print("")
+    print("")
+    print("ExclusiveArch:	%{nodejs_arches} noarch")
+    porter.get_buildarch()
+    print("")
+    porter.get_requires()
+    print("")
+    print("%description")
+    print(porter.get_description())
+    print("")
+    print("")
+    build_req_list = porter.get_build_requires()
+    print("%prep")
+    print("%autosetup -n package")
+    print("# setup the tests")
+    print("")
+    print("%build")
+    print("# nothing to do!")
+    print("")
+    print("%install")
+    print("if [ -f license ]; then")
+    print(" mv license LICENSE")
+    print("fi")
+    print("if [ -f License ]; then")
+    print(" mv License LICENSE")
+    print("fi")
+    print("if [ -d bin ]; then")
+    print("\tmkdir -p %{buildroot}%{_bindir}") 
+    print("\tcp -ar bin/* %{buildroot}%{_bindir}")
+    print("fi")
+    print("mkdir -p %{buildroot}%{nodejs_sitelib}/%{packagename}")
+    print("cp -ra * %{buildroot}%{nodejs_sitelib}/%{packagename}")
+    print("pushd %{buildroot}")
+    print("touch filelist.lst")
+    print("find . -type f -printf \"/%h/%f\\n\" >> filelist.lst")
+    print("sed -i '$d' filelist.lst")
+    print("popd")
+    print("mv %{buildroot}/filelist.lst .")
+    print("%nodejs_symlink_deps")
+    print("%check")
+    print("%nodejs_symlink_deps --check")
+    print("")
+    print("%files  -f filelist.lst")
+    print("%changelog")
+    date_str = datetime.date.today().strftime("%a %b %d %Y")
+    print("* {today} Nodejs_Bot <Nodejs_Bot@openeuler.org>".format(today=date_str))
+    print("- Package Spec generated")
+    sys.stdout = tmp
+
+    return build_req_list
+
+
+def do_args(root):
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("-s", "--spec", help="Create spec file", action="store_true")
+    parser.add_argument("-R", "--requires", help="Get required nodejs modules", action="store_true")
+    parser.add_argument("-b", "--build", help="Build rpm package", action="store_true")
+    parser.add_argument("-B", "--buildinstall", help="Build&Install rpm package", action="store_true")
+    parser.add_argument("-r", "--rootpath", help="Build rpm package in root path", type=str, default=dft_root_path)
+    parser.add_argument("-d", "--download", help="Download source file indicated path", action="store_true")
+    parser.add_argument("-p", "--path", help="indicated path to store files", type=str, default=os.getcwd())
+    parser.add_argument("-j", "--json", help="Get Package JSON info", action="store_true")
+    parser.add_argument("-o", "--output", help="Output to file", type=str, default="")
+    parser.add_argument("pkg", type=str, help="The Nodejs Module Name")
+    parser.add_argument("special_version", nargs='?', const=1, type=str, default="latest", help="version")
+    return parser
+
+
+def porter_creator(pkg, pkg_version):
+    return PyPorter(pkg, pkg_version)
+
+
+if __name__ == "__main__":
+
+    dft_root_path = os.path.join(str(Path.home()))
+    parser = do_args(dft_root_path)
+    args = parser.parse_args()
+    porter = porter_creator(args.pkg, args.special_version)
+
+    if (args.requires):
+        req_list = porter.get_build_requires()
+        if not req_list:
+            print("No building requires")
+        else:
+            for req in req_list:
+                print(req)
+    elif (args.spec):
+        build_spec(porter, args.output)
+    elif (args.build):
+        ret = build_rpm(porter, args.rootpath)
+        if ret != "":
+            print("build failed : BuildRequire : %s\n" % ret)
+            sys.exit(1)
+    elif (args.buildinstall):
+        ret = build_install_rpm(porter, args.rootpath)
+        if ret != "":
+            print("Build & install failed\n")
+            sys.exit(1)
+    elif (args.download):
+        download_source(porter, args.path)
+    elif (args.json):
+        porter.store_json(args.path)
