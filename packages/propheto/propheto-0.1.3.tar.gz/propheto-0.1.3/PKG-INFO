@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: propheto
+Version: 0.1.3
+Summary: Propheto - MLOps Software Platform
+Home-page: https://github.com/Propheto-io/propheto
+License: Apache-2.0
+Author: Dan McDade
+Author-email: dan@propheto.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.17.105,<2.0.0)
+Requires-Dist: cloudpickle (>=1.6.0,<2.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: tqdm (>=4.61.1,<5.0.0)
+Requires-Dist: troposphere (>=3.0.1,<4.0.0)
+Description-Content-Type: text/x-rst
+
+Propheto
+========
+
+MLOps software tooling for cloud environments.
+
+
