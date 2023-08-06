@@ -1,0 +1,10 @@
+setup.py
+huma_dist/Binomialdistribution.py
+huma_dist/Gaussiandistribution.py
+huma_dist/Generaldistribution.py
+huma_dist/__init__.py
+huma_dist.egg-info/PKG-INFO
+huma_dist.egg-info/SOURCES.txt
+huma_dist.egg-info/dependency_links.txt
+huma_dist.egg-info/not-zip-safe
+huma_dist.egg-info/top_level.txt
