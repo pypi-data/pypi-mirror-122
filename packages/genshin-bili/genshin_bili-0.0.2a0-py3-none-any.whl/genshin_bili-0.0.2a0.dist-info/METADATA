@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: genshin-bili
+Version: 0.0.2a0
+Summary: A Simple Spider and Downloader to download videos from Genshin Impact Offical Bilibili Page
+Home-page: https://gitee.com/jerrypaullee/genshin-bili
+Author: ConstasJ
+Author-email: 2020212726@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: selenium
+Requires-Dist: html5lib
+Requires-Dist: you-get
+Requires-Dist: ffmpy3
+
+UNKNOWN
+
+
