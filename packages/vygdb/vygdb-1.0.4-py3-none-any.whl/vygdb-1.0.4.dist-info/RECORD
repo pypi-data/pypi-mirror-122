@@ -1,0 +1,11 @@
+vygdb/__init__.py,sha256=snFZU3Enu2KC3-9vvrWswsVoinyBuQ-DCIXuG5zPi6c,1651
+vygdb/gdb_client.py,sha256=jAKf8rKKCSUMc3ldjx8Fn5GwZVkKGEHSgV2EkCsJDTw,16086
+vygdb/server.py,sha256=M7o1681fwDfTgDBVBGtdKqzI3tQG8q8Du-YoG8Wvg_U,2651
+vygdb/main/main.html,sha256=zrD_EMHONERJ66Rut5UbIqJHzDJFtGc6jMDuBBQAOA8,4217
+vygdb/main/main.js,sha256=ll0p0UM765D2F8Vp921zSdXKxgH6A2gkbGFd9FThA8U,10738
+vygdb/main/wsinit.js,sha256=LfUonWhcDPeyjOUdvZPFdsayzV4jBKlYM64L3OkaCQ0,2735
+vygdb-1.0.4.dist-info/METADATA,sha256=j7Jm8_-4TK1m7pcw6jR3n-b41KoIsrWE1RB4QW1-zSs,627
+vygdb-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vygdb-1.0.4.dist-info/entry_points.txt,sha256=ys-Y7OjL6eoswpnVDczPx9Zfo3SEwDzaoa_NWd9Tk6s,46
+vygdb-1.0.4.dist-info/top_level.txt,sha256=0OdomoGCb5KAs5CMfft_Up1O-pGeLjl6TukdCDZq4QE,6
+vygdb-1.0.4.dist-info/RECORD,,
