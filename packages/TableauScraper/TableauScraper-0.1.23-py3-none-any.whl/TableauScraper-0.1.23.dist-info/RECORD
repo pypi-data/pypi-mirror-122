@@ -1,0 +1,14 @@
+tableauscraper/TableauScraper.py,sha256=f3OWcnW2XS6sglhOE8HqX3Ez-9j13m6HSKmMuzYwhDQ,4282
+tableauscraper/TableauWorkbook.py,sha256=JchV7kvPlXc-Z8U38PR_mPs3iRuBDc9gBuN3EgcR26U,10005
+tableauscraper/TableauWorksheet.py,sha256=7UyAU44Vj92UmWeAQl5cOXv3QWIP5RWgjZlHmCTROI4,15823
+tableauscraper/__init__.py,sha256=6H84RTbCVz7z5h9i7jCDos8S9ByaymA5riArEWlOJ38,245
+tableauscraper/api.py,sha256=3BiAbXTIm5uLYPOn7nMGAsi--CXGjSi3A7id3irFFY0,11727
+tableauscraper/dashboard.py,sha256=ui8tMaef5_bKAxpJceJkAPwY71mEaA5Efl9fdeW52lg,6511
+tableauscraper/parameterControl.py,sha256=SzaBu4xYXF_Q7MlZ8Vxc0gQ0inLiEXWGgv--2QdtLAM,1134
+tableauscraper/selectItem.py,sha256=cfGzY9p8cZK4ULb_s0btLqKmOG-HaxkVbKUZ5wXhjXw,1661
+tableauscraper/utils.py,sha256=1lIDEc9HaZC76UWxBdcrr2QrJAv4IpQGrbhJj71zsbE,31017
+TableauScraper-0.1.23.dist-info/LICENSE,sha256=nEP4nfiFuHNeEa0GQ00Ps54R3jkgsssWZ8SdCpq3B8M,1082
+TableauScraper-0.1.23.dist-info/METADATA,sha256=ERPL1Pl5paD5QKbFQ62ieYfK6Ok9qywfnEKlwxmey7c,14268
+TableauScraper-0.1.23.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TableauScraper-0.1.23.dist-info/top_level.txt,sha256=L4seQjXGOhbdZkkws3VHaPVNrFXi73MYnzxCDoGD5o4,15
+TableauScraper-0.1.23.dist-info/RECORD,,
