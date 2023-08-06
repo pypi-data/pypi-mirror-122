@@ -1,0 +1,11 @@
+deleter/__init__.py,sha256=xciNhTGsLDdTSxpMYHDQ2xhgJ5mWyzUTOc_L4KeWO_Q,70
+deleter/__main__.py,sha256=1qLr6w1UecBjFjf58fu_pvF1Kh6Sq-Si8HmozJrQDeI,528
+deleter/core.py,sha256=SCnYGGu8ZAJKKO99FLo9S8ENOJV0PGAi6FjhZcvQ-Qw,441
+deleter/deleters.py,sha256=wZYlZW3eab5pMIO3_lsdwWzoNpfbm-LDTyerYjgNcw0,2063
+deleter/util.py,sha256=_aA5krJdeEBeZWYjPwa-5_uMk7URIEYUbCBEVidBBW8,284
+deleter-0.0.1.dist-info/LICENSE,sha256=kHZ6mlljWJdylfSF7LTWcJGW3ZSPLkgvpHAU-yq6_Cs,1064
+deleter-0.0.1.dist-info/METADATA,sha256=8SjmfkbwMG4z5BBWYgXrtP4wLVjAMExzpfm4ZiPiuEs,1492
+deleter-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deleter-0.0.1.dist-info/entry_points.txt,sha256=8y1tQcJ_n0I97yjFzRJQuYdPfgcCXnUvzxagZJC-nc8,57
+deleter-0.0.1.dist-info/top_level.txt,sha256=J4rczKUGgb4dB01_rk_s-3_ekf2tIP6X1AEmSWrZhe8,8
+deleter-0.0.1.dist-info/RECORD,,
