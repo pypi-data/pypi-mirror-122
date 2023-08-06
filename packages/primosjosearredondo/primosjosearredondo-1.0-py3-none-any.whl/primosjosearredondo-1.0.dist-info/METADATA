@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: primosjosearredondo
+Version: 1.0
+Summary: A tool to obtain all the prime numbers smaller than a given number
+Home-page: UNKNOWN
+Author: Jose Maria Arredondo
+Author-email: josemariaarrebo@gmail.com
+License: GNU GPLv3
+Keywords: prime numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+primosjosearredondo
+
+Este es un paquete para obtener los numeros primos hasta un determinado natural.
+This program is free software.
+
+
