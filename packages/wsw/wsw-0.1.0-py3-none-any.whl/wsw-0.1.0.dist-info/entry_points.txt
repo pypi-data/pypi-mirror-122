@@ -1,0 +1,3 @@
+[console_scripts]
+wsw = wsw.__main__:run
+
