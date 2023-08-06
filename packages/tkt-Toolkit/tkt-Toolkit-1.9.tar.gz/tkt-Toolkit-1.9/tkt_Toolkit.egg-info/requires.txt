@@ -1,0 +1,12 @@
+httpx
+googletrans==3.1.0a0
+SpeechRecognition
+termcolor
+mediapipe
+opencv-python
+keyboard
+pytesseract
+pyzbar
+piexif
+pydub
+pygame
