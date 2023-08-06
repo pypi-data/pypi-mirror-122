@@ -1,0 +1,10 @@
+[smqtk_plugins]
+smqtk_indexing.impls.hash_index.linear=smqtk_indexing.impls.hash_index.linear
+smqtk_indexing.impls.hash_index.sklearn_balltree=smqtk_indexing.impls.hash_index.sklearn_balltree
+smqtk_indexing.impls.lsh_functor.itq=smqtk_indexing.impls.lsh_functor.itq
+smqtk_indexing.impls.lsh_functor.simple_rp=smqtk_indexing.impls.lsh_functor.simple_rp
+smqtk_indexing.impls.nn_index.faiss=smqtk_indexing.impls.nn_index.faiss
+smqtk_indexing.impls.nn_index.flann=smqtk_indexing.impls.nn_index.flann
+smqtk_indexing.impls.nn_index.lsh=smqtk_indexing.impls.nn_index.lsh
+smqtk_indexing.impls.nn_index.mrpt=smqtk_indexing.impls.nn_index.mrpt
+
