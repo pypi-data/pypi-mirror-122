@@ -1,0 +1,9 @@
+numpy>=1.21.1
+twisted>=21.7.0
+
+[dev]
+black
+flake8
+sdsstools
+twine
+wheel
