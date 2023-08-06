@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+kshitizpackage/__init__.py
+kshitizpackage/functions.py
+kshitizpackage/greet.py
+kshitizpackage.egg-info/PKG-INFO
+kshitizpackage.egg-info/SOURCES.txt
+kshitizpackage.egg-info/dependency_links.txt
+kshitizpackage.egg-info/top_level.txt
