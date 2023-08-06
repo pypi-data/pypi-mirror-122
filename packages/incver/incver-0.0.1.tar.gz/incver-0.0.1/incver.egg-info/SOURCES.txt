@@ -1,0 +1,10 @@
+README.rst
+setup.py
+incver.egg-info/PKG-INFO
+incver.egg-info/SOURCES.txt
+incver.egg-info/dependency_links.txt
+incver.egg-info/entry_points.txt
+incver.egg-info/not-zip-safe
+incver.egg-info/top_level.txt
+upversion/__init__.py
+upversion/upversion.py
