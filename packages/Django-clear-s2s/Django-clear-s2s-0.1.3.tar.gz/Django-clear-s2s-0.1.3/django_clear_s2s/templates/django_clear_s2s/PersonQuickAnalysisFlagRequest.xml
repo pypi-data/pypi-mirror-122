@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pqf:PersonQuickAnalysisFlagRequest xmlns:pqf="http://clear.thomsonreuters.com/api/search/2.0">
+    <PermissiblePurpose>
+        <GLB>Q</GLB>
+        <DPPA>0</DPPA>
+        <VOTER>7</VOTER>
+    </PermissiblePurpose>
+    <Reference>S2S Person Quick Analysis Flag</Reference>
+    <Criteria>
+        <pq1:PersonQuickAnalysisFlagCriteria xmlns:pq1="com/thomsonreuters/schemas/flags-search">
+            {% if entity_id %}
+                <EntityId>{ entity_id }</EntityId>
+            {% endif %}
+            {% if group_id %}
+                <GroupId>{ group_id }</GroupId>
+            {% endif %}
+            {% if relatives_include_akas_option %}
+                <RelativesIncludeAkaOption>{ relatives_include_akas_option }</RelativesIncludeAkaOption>
+            {% endif %}
+            <PersonRiskFlags>
+                {% if assoc_with_ofac_global_pep %}
+                    <AssocWithOFACGlobalPEP>{{ assoc_with_ofac_global_pep|stringformat:"i"|lower }}</AssocWithOFACGlobalPEP>
+                {% endif %}
+                {% if ofac %}
+                    <OFAC>{{ ofac|stringformat:"i"|lower }}</OFAC>
+                {% endif %}
+                {% if world_check %}
+                    <WorldCheck>{{ world_check|stringformat:"i"|lower }}</WorldCheck>
+                {% endif %}
+                {% if residential_used_as_business_address %}
+                    <ResidentialUsedAsBusinessAddress>{{ residential_used_as_business_address|stringformat:"i"|lower }}</ResidentialUsedAsBusinessAddress>
+                {% endif %}
+                {% if global_sanctions %}
+                    <GlobalSanctions>{{ global_sanctions|stringformat:"i"|lower }}</GlobalSanctions>
+                {% endif %}
+                {% if prison_address %}
+                    <PrisonAddress>{{ prison_address|stringformat:"i"|lower }}</PrisonAddress>
+                {% endif %}
+                {% if po_box_address %}
+                    <POBoxAddress>{{ po_box_address|stringformat:"i"|lower }}</POBoxAddress>
+                {% endif %}
+                {% if bankruptcy %}
+                    <Bankruptcy>{{ bankruptcy|stringformat:"i"|lower }}</Bankruptcy>
+                {% endif %}
+                {% if assoc_relative_with_residential_used_as_business %}
+                    <AssocRelativeWithResidentialUsedAsBusiness>{{ assoc_relative_with_residential_used_as_business|stringformat:"i"|lower }}</AssocRelativeWithResidentialUsedAsBusiness>
+                {% endif %}
+                {% if assoc_relative_with_prison_address %}
+                    <AssocRelativeWithPrisonAddress>{{ assoc_relative_with_prison_address|stringformat:"i"|lower }}</AssocRelativeWithPrisonAddress>
+                {% endif %}
+                {% if assoc_relative_with_po_box_address %}
+                    <AssocRelativeWithPOBoxAddress>{{ assoc_relative_with_po_box_address|stringformat:"i"|lower }}</AssocRelativeWithPOBoxAddress>
+                {% endif %}
+                {% if criminal %}
+                    <Criminal>{{ criminal|stringformat:"i"|lower }}</Criminal>
+                {% endif %}
+                {% if multiple_ssn %}
+                    <MultipleSSN>{{ multiple_ssn|stringformat:"i"|lower }}</MultipleSSN>
+                {% endif %}
+                {% if ssn_multiple_individuals %}
+                    <SSNMultipleIndividuals>{{ ssn_multiple_individuals|stringformat:"i"|lower }}</SSNMultipleIndividuals>
+                {% endif %}
+                {% if recorded_as_deceased %}
+                    <RecordedAsDeceased>{{ recorded_as_deceased|stringformat:"i"|lower }}</RecordedAsDeceased>
+                {% endif %}
+                {% if age_younger_than_ssn %}
+                    <AgeYoungerThanSSN>{{ age_younger_than_ssn|stringformat:"i"|lower }}</AgeYoungerThanSSN>
+                {% endif %}
+                {% if address_reported_less_ninety_days %}
+                    <AddressReportedLessNinetyDays>{{ address_reported_less_ninety_days|stringformat:"i"|lower }}</AddressReportedLessNinetyDays>
+                {% endif %}
+                {% if ssn_format_invalid %}
+                    <SSNFormatInvalid>{{ ssn_format_invalid|stringformat:"i"|lower }}</SSNFormatInvalid>
+                {% endif %}
+                {% if healthcare_sanction %}
+                    <HealthcareSanction>{{ healthcare_sanction|stringformat:"i"|lower }}</HealthcareSanction>
+                {% endif %}
+                {% if phone_number_inconsistent_address %}
+                    <PhoneNumberInconsistentAddress>{{ phone_number_inconsistent_address|stringformat:"i"|lower }}</PhoneNumberInconsistentAddress>
+                {% endif %}
+                {% if arrest %}
+                    <Arrest>{{ arrest|stringformat:"i"|lower }}</Arrest>
+                {% endif %}
+                {% if real_time_incarceration_and_arrest %}
+                    <RealTimeIncarcerationAndArrest>{{ real_time_incarceration_and_arrest|stringformat:"i"|lower }}</RealTimeIncarcerationAndArrest>
+                {% endif %}
+                {% if associated_with_marijuana_business %}
+                    <AssociatedWithMarijuanaBusiness>{{ associated_with_marijuana_business|stringformat:"i"|lower }}</AssociatedWithMarijuanaBusiness>
+                {% endif %}
+            </PersonRiskFlags>
+            <PersonRiskFlagsSearchOptions>
+                {% if associate_address_limit_option %}
+                    <AssociateAddressLimitOption>{{ associate_address_limit_option|lower }}</AssociateAddressLimitOption>
+                {% endif %}
+                {% if associate_time_frame_limit_option %}
+                    <AssociateTimeFrameLimitOption>{{ associate_time_frame_limit_option|lower }}</AssociateTimeFrameLimitOption>
+                {% endif %}
+            </PersonRiskFlagsSearchOptions>
+        </pq1:PersonQuickAnalysisFlagCriteria>
+    </Criteria>
+</pqf:PersonQuickAnalysisFlagRequest>
