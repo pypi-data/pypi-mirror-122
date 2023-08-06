@@ -1,0 +1,16 @@
+gdbundle_pycortexmdebug/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdbundle_pycortexmdebug/cmdebug/.git,sha256=uQ9mhBeEEjey4uaS4i59PYF8SkDEOTGOBHj_N6gf1J0,59
+gdbundle_pycortexmdebug/cmdebug/.gitignore,sha256=yC4lK99mH-F_1Q0iQkwyqIU_dMl_bh_kNFrqD0HdMz8,303
+gdbundle_pycortexmdebug/cmdebug/LICENSE,sha256=KsHAlRRCvOoLzlqhkgaRXE7EWfgsOyBltYVBOuNt4zk,35119
+gdbundle_pycortexmdebug/cmdebug/MANIFEST.in,sha256=X7mNjGQR6TSOURy5aljJ87hP8b5Fpj4_W6Eagx_Az8g,23
+gdbundle_pycortexmdebug/cmdebug/README.md,sha256=iWUjzC4DpbIlcvGt0BGy8QnA3P5xyuk9Vm5oCANQgFY,3128
+gdbundle_pycortexmdebug/cmdebug/cmdebug/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdbundle_pycortexmdebug/cmdebug/cmdebug/dwt_gdb.py,sha256=lqdi-axdcElN2BpJ0urNfrP1EGBuQxGfT9eA_8Fn7PQ,5191
+gdbundle_pycortexmdebug/cmdebug/cmdebug/svd.py,sha256=0PalYtlvRIcQurBe4fq_1hi1dSKAyx11Sy4NoWgMIbs,14901
+gdbundle_pycortexmdebug/cmdebug/cmdebug/svd_gdb.py,sha256=ic-_vNDIMue1v2WcAl055rVCfJLfaF9q7qS5qj61yNI,17090
+gdbundle_pycortexmdebug/cmdebug/scripts/gdb.py,sha256=BvzZSzBnwNnNQMHHd2cIeQI9qChkwTi0A6GuJY_1Nbs,888
+gdbundle_pycortexmdebug/cmdebug/setup.py,sha256=bmyDmxd4_Kd-iMIdFFYOD5shZi1A5sKUbUiI5wT-id8,947
+gdbundle_pycortexmdebug/gdb_loader.py,sha256=0bZHCsGKmMvLIXyhGnnv7k4oLfkBHTP20uvUumVglAs,767
+gdbundle_pycortexmdebug-0.0.4.dist-info/WHEEL,sha256=Fs47bPI6GdEUUVU2cC1ZH87S4TSequgq1XeoqimcqIE,87
+gdbundle_pycortexmdebug-0.0.4.dist-info/METADATA,sha256=NNj0f_GYK5itpkJrj87MpFD64y2wgzVu4nO-SywZ3wI,1120
+gdbundle_pycortexmdebug-0.0.4.dist-info/RECORD,,
