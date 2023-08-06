@@ -1,0 +1,6 @@
+numpy
+urllib3
+Pillow
+imageio
+imageio-ffmpeg
+PyAudio

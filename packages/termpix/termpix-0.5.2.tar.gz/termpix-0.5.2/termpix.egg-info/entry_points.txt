@@ -1,0 +1,3 @@
+[console_scripts]
+termpix = termpix.termpix:main
+
