@@ -1,0 +1,11 @@
+spacy
+plotly
+emojis
+pandas
+colorama
+wordcloud
+matplotlib
+tldextract
+questionary
+rich
+qualitube@ https://github.com/qualichat/qualitube/archive/stable/v0.1.4.zip

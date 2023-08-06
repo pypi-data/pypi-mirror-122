@@ -1,0 +1,1 @@
+https://github.com/qualichat/qualitube/tarball/main#egg=qualitube-0.1.4
