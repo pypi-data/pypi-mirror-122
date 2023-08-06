@@ -1,0 +1,35 @@
+import setuptools
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="quantile-data-kit",
+    version="0.0.1",
+    author="Jules Huisman",
+    author_email="jules.huisman@quantile.nl",
+    description="An internal Quantile development kit for making working with data easier.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/quantile-development/quantile-data-kit",
+    project_urls={
+        "Bug Tracker": "https://github.com/quantile-development/quantile-data-kit/issues",
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        "pandas==1.3.3",
+        "dask==2021.9.1",
+        "dagster==0.12.13",
+        "mlflow==1.20.2",
+        "scikit-learn==1.0",
+        "distributed==2021.9.1",
+        "yake==0.4.8",
+    ],
+    extras_require={"test": ["pytest==6.2.5"]},
+    packages=["qdk"],
+    python_requires=">=3.8",
+)
