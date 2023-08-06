@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: show_upper_by_non
+Version: 0.0.1
+Summary: show upper/lower name
+Home-page: UNKNOWN
+Author: NonDarkZone
+Author-email: nonthiwat339@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: show_upper_lower,UPPER,NETSINMUT,NETS2411
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
