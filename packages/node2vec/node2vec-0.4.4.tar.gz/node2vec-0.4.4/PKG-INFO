@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: node2vec
+Version: 0.4.4
+Summary: Implementation of the node2vec algorithm
+License: MIT
+Author: elior
+Author-email: elior.cohen.p@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gensim (>=4.1.2,<5.0.0)
+Requires-Dist: joblib (>=1.1.0,<2.0.0)
+Requires-Dist: networkx (>=2.5,<3.0)
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: tqdm (>=4.55.1,<5.0.0)
