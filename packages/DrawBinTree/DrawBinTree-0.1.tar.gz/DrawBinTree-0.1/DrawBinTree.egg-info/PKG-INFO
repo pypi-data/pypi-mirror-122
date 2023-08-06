@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: DrawBinTree
+Version: 0.1
+Summary: draw binary tree by matplotlib
+Home-page: https://github.com/jim0575/desktop-tutorial
+Author: james
+Author-email: jim0575@qq.com
+License: MIT Licence
+Keywords: pip,binary,tree
+Platform: any
+
+draw binary tree by matplotlib with two methods
+
