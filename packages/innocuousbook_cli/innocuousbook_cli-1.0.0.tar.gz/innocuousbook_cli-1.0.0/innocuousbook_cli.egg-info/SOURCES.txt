@@ -1,0 +1,10 @@
+README.md
+setup.py
+innocuousbook_cli/innocuousbook.py
+innocuousbook_cli.egg-info/PKG-INFO
+innocuousbook_cli.egg-info/SOURCES.txt
+innocuousbook_cli.egg-info/dependency_links.txt
+innocuousbook_cli.egg-info/entry_points.txt
+innocuousbook_cli.egg-info/not-zip-safe
+innocuousbook_cli.egg-info/requires.txt
+innocuousbook_cli.egg-info/top_level.txt
