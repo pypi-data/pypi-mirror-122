@@ -1,0 +1,3 @@
+[console_scripts]
+carlo = carlo.__main__:main
+
