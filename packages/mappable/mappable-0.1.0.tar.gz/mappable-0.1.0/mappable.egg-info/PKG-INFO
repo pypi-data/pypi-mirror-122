@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mappable
+Version: 0.1.0
+Summary: An interactive data annotation tool.
+Home-page: https://mappable.ai/
+Author: Mark Neumann
+Author-email: mark.neumann.1992@gmail.com
+License: Unlicensed
+Description: ### Anno
+        
+        A tool for data annotation!
+Keywords: annotation data text machine learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
