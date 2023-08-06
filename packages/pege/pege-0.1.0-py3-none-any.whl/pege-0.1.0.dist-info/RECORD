@@ -1,0 +1,11 @@
+pege/__init__.py,sha256=rQO3flgO3bnnepDCF7WZNqBnvU7FxQcHRuIHayk1Zy8,93
+pege/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pege/constants.py,sha256=--uKlHRFXWbmAVQ9G-4JGy5V8z0ncBgOpynmVSAdVnI,619
+pege/egnn.py,sha256=pUBrw5N6PGH4jzSvdD0_A4MVj2NCW3PV3BZvtIWS-ZY,839
+pege/pdbmender_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pege/pege.pth,sha256=kyUMcD06eiFO9roZqmVXaRS8GMkAdq0PQo-1OikmaXs,712027
+pege/pege.py,sha256=5bM9X9J0P4qb9T-7DtG6hxKrrB7ba7i1x_7CzxVvx6o,5532
+pege/utils.py,sha256=Ex7nibzpfROLv9k_xuC-SqP9AP40EjNZ4uR9_bmaxVk,7099
+pege-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+pege-0.1.0.dist-info/METADATA,sha256=hfVaAyj1K29RhEmKaXDq0ALDvR7n9WG8rJ8y_GYpLaw,1768
+pege-0.1.0.dist-info/RECORD,,
