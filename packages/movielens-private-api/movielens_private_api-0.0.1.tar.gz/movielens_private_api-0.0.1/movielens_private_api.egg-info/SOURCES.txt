@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+movielens_private_api/__init__.py
+movielens_private_api/movielens.py
+movielens_private_api.egg-info/PKG-INFO
+movielens_private_api.egg-info/SOURCES.txt
+movielens_private_api.egg-info/dependency_links.txt
+movielens_private_api.egg-info/requires.txt
+movielens_private_api.egg-info/top_level.txt
