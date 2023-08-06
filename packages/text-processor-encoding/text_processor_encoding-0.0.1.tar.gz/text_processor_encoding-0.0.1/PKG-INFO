@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: text_processor_encoding
+Version: 0.0.1
+Summary: For a generic prerpocessing module that takes care of any text data
+Home-page: https://github.com/Abinaya132/text-processor
+Author: Abinaya Govindan
+Author-email: abinaya4031@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+pip install .
+
+from text_processor_encoding import preprocess_text
+
+
+preprocess_text.decode_text("Lionel Andrés Messi has won a record six Ballon d'Or awards,a record six European Golden Shoes, and in 2020 was named to the Ballon d'Or Dream Team")
+
+
+
+
+preprocess_text.remove_punctuation("Lionel Andrés Messi has won a record six Ballon d'Or awards,a record six European Golden Shoes, and in 2020 was named to the Ballon d'Or Dream Team")
+
+
