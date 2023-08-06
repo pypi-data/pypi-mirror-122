@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+celebrity_births_test34324253252.egg-info/PKG-INFO
+celebrity_births_test34324253252.egg-info/SOURCES.txt
+celebrity_births_test34324253252.egg-info/dependency_links.txt
+celebrity_births_test34324253252.egg-info/requires.txt
+celebrity_births_test34324253252.egg-info/top_level.txt
+project/__init__.py
+project/__main__.py
+project/celebrities_births.py
