@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:EIDVPersonSearch xmlns:p="com/thomsonreuters/schemas/eidvsearch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="com/thomsonreuters/schemas/eidvsearch eidvsearch.xsd">
+    <PermissiblePurpose>
+        <GLB>Q</GLB>
+        <DPPA>0</DPPA>
+        <VOTER>7</VOTER>
+    </PermissiblePurpose>
+    <EIDVPersonSearchRequest>
+        <EIDVName>EIDVPersonUS</EIDVName>
+        <EIDVVersion>1</EIDVVersion>
+        <InternalID>InternalID</InternalID>
+        <UserReference>CLEAR ID Confirm Person Search 1</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 2</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 3</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 4</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 5</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 6</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 7</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 8</UserReference>
+        <UserReference>CLEAR ID Confirm Person Search 9</UserReference>
+        <Criteria>
+            {% if first_name %}
+                <FirstName>{{ first_name }}</FirstName>
+            {% endif %}
+            
+            {% if last_name %}
+                <LastName>{{ last_name }}</LastName>
+            {% endif %}
+
+            {% if dob %}
+                <BirthDate><Day>01</Day><Month>01</Month><Year>1951</Year></BirthDate>
+            {% endif %}
+
+            {% if ssn %}
+                <SSN>{{ ssn }}</SSN>
+            {% endif %}
+            
+            {% if street %}
+                <Street>{street}</Street>
+            {% endif %}
+            {% if city %}
+                <City>{city}</City>
+            {% endif %}
+            {% if state %}
+                <State>{state}</State>
+            {% endif %}
+            {% if zip_code %}
+                <ZipCode>{zip_code}</ZipCode>
+            {% endif %}
+
+            {% if phone_number %}
+                <PhoneNumber>{phone_number}</PhoneNumber>
+            {% endif %}
+                        
+            {% if npi_number %}
+                <NPINumber>{{ npi_number }}</NPINumber>
+            {% endif %}
+        </Criteria>
+    </EIDVPersonSearchRequest>
+</p:EIDVPersonSearch>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cqf:CompanyQuickAnalysisFlagRequest xmlns:cqf="http://clear.thomsonreuters.com/api/search/2.0">
+    <PermissiblePurpose>
+        <GLB>Q</GLB>
+        <DPPA>0</DPPA>
+        <VOTER>7</VOTER>
+    </PermissiblePurpose>
+    <Reference>S2S Company Quick Analysis Flag</Reference>
+    <Criteria>
+        <cq1:CompanyQuickAnalysisFlagCriteria xmlns:cq1="com/thomsonreuters/schemas/flags-search">
+            {% if entity_id %}
+                <EntityId>{ entity_id }</EntityId>
+            {% endif %}
+            {% if group_id %}
+                <GroupId>{ group_id }</GroupId>
+            {% endif %}
+            <CompanyRiskFlags>
+                {% if ofac %}
+                    <OFAC>{{ ofac|stringformat:"i"|lower }}</OFAC>
+                {% endif %}
+                {% if world_check %}
+                    <WorldCheck>{{ world_check|stringformat:"i"|lower }}</WorldCheck>
+                {% endif %}
+                {% if global_sanctions %}
+                    <GlobalSanctions>{{ global_sanctions|stringformat:"i"|lower }}</GlobalSanctions>
+                {% endif %}
+                {% if business_used_as_residential_address %}
+                    <BusinessUsedAsResidentialAddress>{{ business_used_as_residential_address|stringformat:"i"|lower }}</BusinessUsedAsResidentialAddress>
+                {% endif %}
+                {% if prison_address %}
+                    <PrisonAddress>{{ prison_address|stringformat:"i"|lower }}</PrisonAddress>
+                {% endif %}
+                {% if po_box_address %}
+                    <POBoxAddress>{{ po_box_address|stringformat:"i"|lower }}</POBoxAddress>
+                {% endif %}
+                {% if bankruptcy %}
+                    <Bankruptcy>{{ bankruptcy|stringformat:"i"|lower }}</Bankruptcy>
+                {% endif %}
+                {% if listing_linked_to_business_phone %}
+                    <ListingLinkedToBusinessPhone>{{ listing_linked_to_business_phone|stringformat:"i"|lower }}</ListingLinkedToBusinessPhone>
+                {% endif %}
+                {% if listing_linked_to_business_address %}
+                    <ListingLinkedToBusinessAddress>{{ listing_linked_to_business_address|stringformat:"i"|lower }}</ListingLinkedToBusinessAddress>
+                {% endif %}
+                {% if listing_linked_to_same_fein %}
+                    <ListingLinkedToSameFEIN>{{ listing_linked_to_same_fein|stringformat:"i"|lower }}</ListingLinkedToSameFEIN>
+                {% endif %}
+                {% if key_nature_of_suit %}
+                    <KeyNatureOfSuit>{{ key_nature_of_suit|stringformat:"i"|lower }}</KeyNatureOfSuit>
+                {% endif %}
+                {% if pending_class_action %}
+                    <PendingClassAction>{{ pending_class_action|stringformat:"i"|lower }}</PendingClassAction>
+                {% endif %}
+                {% if going_concerns %}
+                    <GoingConcerns>{{ going_concerns|stringformat:"i"|lower }}</GoingConcerns>
+                {% endif %}
+                {% if msb_listing %}
+                    <MSBListing>{{ msb_listing|stringformat:"i"|lower }}</MSBListing>
+                {% endif %}
+                {% if marijuana_related_business %}
+                    <MarijuanaRelatedBusiness>{{ marijuana_related_business|stringformat:"i"|lower }}</MarijuanaRelatedBusiness>
+                {% endif %}
+            </CompanyRiskFlags>
+        </cq1:CompanyQuickAnalysisFlagCriteria>
+    </Criteria>
+</cqf:CompanyQuickAnalysisFlagRequest>
