@@ -1,0 +1,16 @@
+iceportal_apis/__init__.py,sha256=Bbe8KCFDw9YEmP7Sb1_0J6iZcwbuqzYktu11E7ubzyw,13645
+iceportal_apis/constants.py,sha256=1ubPrKR94TzlUfJkxqw6SuG0QUY4lv5YGHqKFf-ZMVg,291
+iceportal_apis/deprecated.py,sha256=KtMvdYGEcYg7UiZnpE-GdvZHrLQM0pfRbbc0kTr9g0w,20846
+iceportal_apis/exceptions.py,sha256=xHPSNbMxN_KAiSqyIHCRfRdrXReFmXv7rVTkxhCyhVo,2281
+iceportal_apis/interfaces.py,sha256=ZlA4roL0B4z4lXmY9XZdwfRWGfX8BWNbPC-1EjGjLRM,6400
+iceportal_apis/types.py,sha256=YM6U8HQegt2lUOfpdGdM_XZUqHASQPoX0attvmrTc74,424
+iceportal_apis/mocking/__init__.py,sha256=SHPNAOq2leqnAp66y-H90ElDXGoPtUc6cucAKFgxN0Q,2833
+iceportal_apis/mocking/data.py,sha256=HUkNaEFcJ3_nIOeyQ_pgoMqkoa8FGRkipPWKHyrAZrQ,34952
+iceportal_apis/mocking/sample_data/connections_8000055_00.json,sha256=Y5WZFftyI0a-E752So-iHsLlbSgcL0IUkHrwSuLb0C4,51870
+iceportal_apis/mocking/sample_data/status.json,sha256=HUnxyof0rVMxEvT5XU_uNIm_nsPMfvisnjnuMisaSMk,498
+iceportal_apis/mocking/sample_data/trip.json,sha256=B8hbgzjW0K2-9HexP6n9ekd1uo0P2QCnA8R6hpXEY4A,17324
+iceportal_apis-1.1.0.dist-info/LICENSE,sha256=pN4sGIybvVcsPZfAREnQsRNr89-faeOtzacp2k28gzY,1093
+iceportal_apis-1.1.0.dist-info/METADATA,sha256=czMoV16qxOpYiDc6ZBxS_CdsMVY8dvKiBg8-2DUo44I,19391
+iceportal_apis-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+iceportal_apis-1.1.0.dist-info/top_level.txt,sha256=akqNOLBThoko8r2PrjCpe0_5f1Z7sEAhEaNz-JGXzXM,15
+iceportal_apis-1.1.0.dist-info/RECORD,,
