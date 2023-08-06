@@ -1,0 +1,10 @@
+setup.py
+aldian_probability/Binomialdistribution.py
+aldian_probability/Gaussiandistribution.py
+aldian_probability/Generaldistribution.py
+aldian_probability/__init__.py
+aldian_probability.egg-info/PKG-INFO
+aldian_probability.egg-info/SOURCES.txt
+aldian_probability.egg-info/dependency_links.txt
+aldian_probability.egg-info/not-zip-safe
+aldian_probability.egg-info/top_level.txt
