@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gscdk.egg-info/PKG-INFO
+gscdk.egg-info/SOURCES.txt
+gscdk.egg-info/dependency_links.txt
+gscdk.egg-info/entry_points.txt
+gscdk.egg-info/top_level.txt
+pysrc/__init__.py
