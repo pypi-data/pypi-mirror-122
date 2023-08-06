@@ -1,0 +1,10 @@
+mediapills/__init__.py,sha256=uTYfgIp1XUOdJGDc9jmkvYv7M6PjzqMbzI1mRocLF-c,1189
+mediapills/http_foundation/__init__.py,sha256=fgwR_Wbmwe3iXDDfwLtR0Gp_Kj7U0-f8PhDOO1incAc,1112
+mediapills/http_foundation/requests.py,sha256=c4VH2AZT7aX_vyWS368Qd9W9kSgac7C8pAqVADphh9Y,2340
+mediapills/http_foundation/responses.py,sha256=BMWLSRmjvw3ZNS3jEdy_Wj1ruWz6tVQ_jt6prJQzcVU,5019
+mediapills.http_foundation-0.0.1.dist-info/LICENSE.md,sha256=Cb1daMEd0hNvB8p1bUx7GjKhIBut6m1I3ldCuCtvvvY,1075
+mediapills.http_foundation-0.0.1.dist-info/METADATA,sha256=rzywKzryEUxqbuvltdccycawy6GhwWtnYyT4Z03Yqlw,2431
+mediapills.http_foundation-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mediapills.http_foundation-0.0.1.dist-info/top_level.txt,sha256=-5y0dv5idbxnYScb6CO0clALokGsoaH-F38ffbSOF_E,11
+mediapills.http_foundation-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mediapills.http_foundation-0.0.1.dist-info/RECORD,,
