@@ -1,0 +1,66 @@
+[tool.black]
+line-length = 110
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[tool.isort]
+profile = "black"
+src_paths = ["moped"]
+sections = ["FUTURE", "STDLIB", "FIRSTPARTY", "THIRDPARTY", "LOCALFOLDER"]
+import_heading_stdlib = ""
+import_heading_framework = ""
+import_heading_firstparty = ""
+import_heading_thirdparty = ""
+import_heading_localfolder = ""
+honor_noqa = true
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+disallow_untyped_defs = true
+exclude = "tests/*.py"
+
+[tool.pylint.messages_control]
+max-line-length = 120
+disable = [
+  "no-self-use",
+  "too-many-instance-attributes",
+  "too-many-arguments",
+  "too-many-locals",
+  "too-many-branches",
+  "too-many-public-methods",
+  "too-many-statements",
+  "too-many-ancestors",
+  "too-many-lines",
+  "super-init-not-called",
+  "non-parent-init-called",
+  "arguments-differ",
+  "invalid-name",
+  "import-outside-toplevel",
+  "unspecified-encoding",
+  "protected-access",
+  "wrong-import-order",
+  "inconsistent-return-statements",
+  "no-member",
+  "unused-argument",
+]
