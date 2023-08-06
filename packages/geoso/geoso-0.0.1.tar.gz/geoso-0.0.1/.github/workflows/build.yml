@@ -1,0 +1,66 @@
+on:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+
+name: build
+jobs:
+    py-check:
+        runs-on: ${{ matrix.config.os }}
+        name: ${{ matrix.config.os }} (${{ matrix.config.py }})
+        strategy:
+            fail-fast: false
+            matrix:
+                config:
+                    # The library is only tested on Linux because at the moment the other OS on GitHub Actions does not support docker container.
+                    # Therefore, the postgres service won't be available for testing.
+                    # - { os: windows-latest, py: "3.7" }
+                    # - { os: macOS-latest, py: "3.7" }
+                    - { os: ubuntu-latest, py: "3.6" }
+                    - { os: ubuntu-latest, py: "3.7" }
+                    - { os: ubuntu-latest, py: "3.8" }
+        services:
+            # Label used to access the service container
+            postgres:
+                # Docker Hub image
+                image: postgis/postgis:10-2.5
+                # Provide the password for postgres
+                env:
+                    POSTGRES_PASSWORD: postgres
+                    POSTGRES_DB: geoso_test
+                ports:
+                    - 5432:5432
+                # Set health checks to wait until postgres has started
+                options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+        env:
+            SDKROOT: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+        steps:
+            - name: CHECKOUT CODE
+              uses: actions/checkout@v2
+            - name: SETUP PYTHON
+              uses: actions/setup-python@v1
+              with:              
+                  python-version: ${{ matrix.config.py }}
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install --user --no-cache-dir Cython
+                  pip install --user -r requirements.txt
+                  pip install --user -r requirements_dev.txt
+            - name: PKG-TEST              
+              run: 
+                python -m unittest discover tests/
+              env:
+                TEST_DB_USER: postgres
+                TEST_DB_PASS: postgres
+                TEST_DB_HOSTNAME: localhost
+                TEST_DB_PORT: 5432
+                TEST_DB_DATABASE: geoso_test
+                TEST_DB_SCHEMA: geoso
+                TEST_CONSUMER_KEY: ${{ secrets.TEST_CONSUMER_KEY }}
+                TEST_CONSUMER_SECRET: ${{ secrets.TEST_CONSUMER_SECRET }}
+                TEST_ACCESS_TOKEN: ${{ secrets.TEST_ACCESS_TOKEN }}
+                TEST_ACCESS_SECRET: ${{ secrets.TEST_ACCESS_SECRET }}
