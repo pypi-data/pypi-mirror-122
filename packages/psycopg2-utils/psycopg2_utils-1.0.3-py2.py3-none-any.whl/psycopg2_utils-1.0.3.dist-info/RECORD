@@ -1,0 +1,9 @@
+psycopg2_utils/__init__.py,sha256=KflKNGXHZcEHhVYawCliKftYp70LbSgYTNNgoBGi_HI,109
+psycopg2_utils/cursor.py,sha256=AbK0RRDNEumm3IZN5CDz1vPDqlAlvkY4Fpol2dD22ls,2532
+psycopg2_utils/pool.py,sha256=ou-MUgYS0Sc8Ajm9ZXJyzh1RrI84xJt2zBqwgo187pg,3804
+psycopg2_utils/pooled_cursor_wrapper.py,sha256=LxSQCGTrnpxGmbUjSVybHXwKSpQKzENmFq5NmeWXnlE,1708
+psycopg2_utils-1.0.3.dist-info/LICENSE,sha256=vMqotsCflOgfBmluF52-BYRku9-8gjttScraHXHoSsM,1022
+psycopg2_utils-1.0.3.dist-info/METADATA,sha256=PYCDg_-XewEFsix9EELYJhWTBFZLg8Or5l-HHW8flAw,3087
+psycopg2_utils-1.0.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+psycopg2_utils-1.0.3.dist-info/top_level.txt,sha256=zYfN3JrouCXcF7_GgfVf444kV5DBRuDzyh_tWoUU9Bs,15
+psycopg2_utils-1.0.3.dist-info/RECORD,,
