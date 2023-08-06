@@ -1,0 +1,9 @@
+README.md
+setup.py
+pydmdeeg/DMD.py
+pydmdeeg/__init__.py
+pydmdeeg.egg-info/PKG-INFO
+pydmdeeg.egg-info/SOURCES.txt
+pydmdeeg.egg-info/dependency_links.txt
+pydmdeeg.egg-info/requires.txt
+pydmdeeg.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+optht
+pandas
+seaborn
+numpy
+matplotlib
+scipy

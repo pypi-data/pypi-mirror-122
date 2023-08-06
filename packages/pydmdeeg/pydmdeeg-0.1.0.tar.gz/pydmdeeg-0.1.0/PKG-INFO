@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pydmdeeg
+Version: 0.1.0
+Summary: Dynamic mode decomposition applied to EEG data
+Home-page: https://github.com/christiangoelz/pydmd
+Author: Christian Goelz
+Author-email: c.goelz@gmx.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
