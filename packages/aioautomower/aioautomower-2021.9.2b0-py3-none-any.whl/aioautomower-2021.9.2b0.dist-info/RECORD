@@ -1,0 +1,10 @@
+aioautomower/__init__.py,sha256=pOuDch-jV5MVjcHf66NE2TQIHdB8lcZ3rh9dxxbSMA4,97
+aioautomower/cli.py,sha256=-SyNnED4D0W4VtC8MAporzCn75saE9PqQ5SS2-wic_A,1748
+aioautomower/rest.py,sha256=-nvniHmyP9eX79a7_f3XHlDQUvlK4odVzVRGTryg9dY,9033
+aioautomower/session.py,sha256=Ch06wzb4wl1nRIEcn2i2xj-c0szSp396qOgH5vJBMjU,10144
+aioautomower-2021.9.2b0.dist-info/LICENSE,sha256=AUj9xmeyQpGzQgucc1MiolWNHVBS7cN__mP-b6k-WD0,555
+aioautomower-2021.9.2b0.dist-info/METADATA,sha256=aYqgupanrbRCpLMA4mMpw78Vr6Ws7LrtCNmJDI6wHfc,4925
+aioautomower-2021.9.2b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aioautomower-2021.9.2b0.dist-info/entry_points.txt,sha256=vC0guXOQtHCNASHsYBjxk6GgLyYkcyTVFS_ra8jHsCY,58
+aioautomower-2021.9.2b0.dist-info/top_level.txt,sha256=-ISk0-81L0MuDAaWVKIGXZ4HMRsk_Modj0ihlHTar5w,13
+aioautomower-2021.9.2b0.dist-info/RECORD,,
