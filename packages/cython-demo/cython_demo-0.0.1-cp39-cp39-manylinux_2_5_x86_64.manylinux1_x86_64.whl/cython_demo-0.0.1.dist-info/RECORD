@@ -1,0 +1,11 @@
+cythondemo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythondemo/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythondemo/config/meta.py,sha256=AFqpxvNKwZuHVrlBEnGbS7KXtJUxMeUtHyXApthnbmQ,162
+cythondemo/math/cmath.cpython-39-x86_64-linux-gnu.so,sha256=_ndUTwxQ-jYt_CdE0Zh4vzPYr51YV76pVpIzWnUd8i0,85960
+cythondemo/math/math.py,sha256=6Ha6RSGTRWr298xgJ7PwIQXtqKg6FSF80ErqkWOQ8ro,114
+cythondemo/math/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cython_demo-0.0.1.dist-info/METADATA,sha256=PvbAS-sifEWBe2WiOjE62AKKWq_tZ-KwJVu5Tc1_06w,1808
+cython_demo-0.0.1.dist-info/WHEEL,sha256=iuJampfqNHu8Jql92HARcx0WcRybGD95leoevPxbuW4,144
+cython_demo-0.0.1.dist-info/top_level.txt,sha256=RZbGGRb_JjS-y7ia3HM7GqtQL6MdRpdRtx9jWr-T9Mc,11
+cython_demo-0.0.1.dist-info/RECORD,,
+cython_demo-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
