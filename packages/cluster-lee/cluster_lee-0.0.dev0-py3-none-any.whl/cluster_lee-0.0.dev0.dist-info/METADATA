@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cluster-lee
+Version: 0.0.dev0
+Summary: Package Dependency: Validates package requirements
+Home-page: https://github.com/alien2327/cluster-lee
+Author: YohanLee
+Author-email: alien2327@gmail.com
+Maintainer: YohanLee
+Maintainer-email: alien2327@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+UNKNOWN
+
