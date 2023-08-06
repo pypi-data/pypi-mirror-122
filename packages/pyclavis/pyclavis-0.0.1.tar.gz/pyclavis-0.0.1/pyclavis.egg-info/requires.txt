@@ -1,0 +1,5 @@
+pygitgrab
+pyjsoncfg
+pyautogui
+pyperclip
+cryptography
