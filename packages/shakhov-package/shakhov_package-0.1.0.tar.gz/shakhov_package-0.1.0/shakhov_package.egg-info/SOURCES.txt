@@ -1,0 +1,8 @@
+setup.py
+shakhov_package/__init__.py
+shakhov_package/plot_extra.py
+shakhov_package.egg-info/PKG-INFO
+shakhov_package.egg-info/SOURCES.txt
+shakhov_package.egg-info/dependency_links.txt
+shakhov_package.egg-info/requires.txt
+shakhov_package.egg-info/top_level.txt
