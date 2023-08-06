@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: wf-wida-utils
+Version: 1.0.0
+Summary: Tools for working with WIDA assessments data
+Home-page: https://github.com/WildflowerSchools/wf-wida-utils
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Keywords: database
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: pandas (>=1.3)
+
+# wida_utils
+
+Tools for working with WIDA assessments data
+
+## Install
+
+`pip install wf-wida-utils`
+
+## Tasks
+* TBD
+
+
