@@ -1,0 +1,11 @@
+subscriptions/__init__.py,sha256=Ty5aCoK-8RtMNNYobVGicgPEp56_uJV_52JB5uASg38,21473
+subscriptions/__version__.py,sha256=qpoKqLiJRRjbBS1tycqeDpfj7Q8wLhnlYpuJZslCZJ0,17
+subscriptions/decorators.py,sha256=1UGYCOlRrK7DSYUjXg2RkES_30hg38Clz-A5qWHhd70,741
+subscriptions/exceptions.py,sha256=GUGuxxg-EXhb0fh6YV87BWleAXjqdzPz6Vg_KjfhE8g,380
+subscriptions/tests.py,sha256=pw5Xal0CTbfNmLr7u0axG0VWAXD6S9qt58z8ARifNeg,1328
+subscriptions/types.py,sha256=gNNf4CkDb62-uFB_1o_812ynaQT7kOWiUUAjmu8CgGI,2468
+stripe_subscriptions-0.5.3.dist-info/LICENSE.txt,sha256=fDz8VYFooVdX0VpH-2uMzCcymdOaB2g5VWKq9ZaO3Nc,1067
+stripe_subscriptions-0.5.3.dist-info/METADATA,sha256=t-y8n-U4ToHND_Lnp8AHx3ZmuOzRJCMXhqFjDH5rJfk,18664
+stripe_subscriptions-0.5.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stripe_subscriptions-0.5.3.dist-info/top_level.txt,sha256=Z8jXF9_JjItqBZm9qPndsoIgJzCmi-E7CT7q6ms71nE,14
+stripe_subscriptions-0.5.3.dist-info/RECORD,,
