@@ -1,0 +1,4 @@
+[console_scripts]
+SACL = spnets.SaConvLSTM:hello
+STL = spnets.STLSTM:hello
+

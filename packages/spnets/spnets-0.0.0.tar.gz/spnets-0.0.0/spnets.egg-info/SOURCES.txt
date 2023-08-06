@@ -1,0 +1,10 @@
+README.md
+setup.py
+spnets/STLSTM.py
+spnets/SaConvLSTM.py
+spnets/__init__.py
+spnets.egg-info/PKG-INFO
+spnets.egg-info/SOURCES.txt
+spnets.egg-info/dependency_links.txt
+spnets.egg-info/entry_points.txt
+spnets.egg-info/top_level.txt
