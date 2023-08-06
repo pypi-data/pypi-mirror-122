@@ -1,0 +1,11 @@
+turn_by_turn/__init__.py,sha256=MTI4QiJkXqTq75Awvyw7obfrTakoF1hYtUPvUawrifY,588
+turn_by_turn/constants.py,sha256=nkEKWZnAzcmYqISjfkO78Zi_nNEBMDFdsUlay54uWOI,1059
+turn_by_turn/errors.py,sha256=AYeKBly7eQxcbPdx3HAGoC6RI9tYKaYQWSLmzIHRUTY,807
+turn_by_turn/io.py,sha256=8_L88RTyEfKhHP75YFSKXY7CP5Dp-HzIw_MVf08UH6Q,6117
+turn_by_turn/structures.py,sha256=6ySMof3KPtDdrlpO9VxzG1OgxpOOJXyzK5e_BKqZ8Bw,1449
+turn_by_turn/utils.py,sha256=DkCtgnEO5NKHo3YCbNMWXj9hd7s_e4TQNfEunxhFTcA,4343
+turn_by_turn-0.1.3.dist-info/LICENSE,sha256=UciAeq9Kqi4-g5FKkoVjoBhDj164mgP2AgDnEDu55_8,1070
+turn_by_turn-0.1.3.dist-info/METADATA,sha256=gS-BaVqtkWzFHbDdUHHNG48nSaetV1vwAHKH3CJlVh0,4409
+turn_by_turn-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+turn_by_turn-0.1.3.dist-info/top_level.txt,sha256=IQK1prmuIpK57LD8rzSglLB87IndotAbGb8r8n6sNHA,13
+turn_by_turn-0.1.3.dist-info/RECORD,,
