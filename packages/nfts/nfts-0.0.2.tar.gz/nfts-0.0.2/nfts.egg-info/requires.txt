@@ -1,0 +1,16 @@
+moonstreamdb
+humbug
+pandas
+requests
+tqdm
+web3
+
+[dev]
+black
+mypy
+types-requests
+
+[distribute]
+setuptools
+twine
+wheel
