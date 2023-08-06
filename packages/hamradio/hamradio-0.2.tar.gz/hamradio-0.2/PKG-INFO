@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: hamradio
+Version: 0.2
+Summary: Utilities for Ham radio
+Home-page: https://github.com/schlatterbeck/hamradio
+Author: Ralf Schlatterbeck
+Author-email: rsc@runtux.com
+License: GNU Library or Lesser General Public License (LGPL)
+Description: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
