@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: one_ring
+Version: 0.1.1
+Summary: High level async programming
+Home-page: https://github.com/Yaser-Amiri/one-ring
+Author: Yaser Amiri
+Author-email: yaser.amiri95@gmail.com
+License: MIT
+Description: # One Ring
+        
+        The main purpose of this library is to facilitate concurrent programming with Asyncio,
+        to achieve this purpose it will give you basic tools of CSP (like `channel` and `select`),
+        structured concurrency and of course some sugars for Asyncio.
+        
+Keywords: csp async asyncio nursery
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
