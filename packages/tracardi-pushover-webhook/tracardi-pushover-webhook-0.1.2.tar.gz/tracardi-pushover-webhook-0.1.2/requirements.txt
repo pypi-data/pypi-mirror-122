@@ -1,0 +1,9 @@
+pydantic
+tracardi-plugin-sdk>=0.6.17
+tracardi-dot-notation>=0.6.4
+tracardi
+aiohttp
+aiodns
+urllib3
+
+twine
