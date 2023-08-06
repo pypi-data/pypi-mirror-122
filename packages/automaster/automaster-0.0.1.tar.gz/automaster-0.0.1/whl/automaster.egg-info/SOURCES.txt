@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+whl/AutoUI.pyd
+whl/automaster.egg-info/PKG-INFO
+whl/automaster.egg-info/SOURCES.txt
+whl/automaster.egg-info/dependency_links.txt
+whl/automaster.egg-info/top_level.txt
