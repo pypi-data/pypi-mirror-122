@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        samutil=samutil.__cli__:main
+    
