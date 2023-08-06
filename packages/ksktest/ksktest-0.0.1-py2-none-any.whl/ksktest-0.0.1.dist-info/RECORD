@@ -1,0 +1,8 @@
+ksktest/init.py,sha256=7knxSIKqFIthn-dewA5VINq3kdnAUULhQOqKygeyaPs,21
+ksktest/package.py,sha256=nb9tz1P9yHKZI1TDBIkYWHS2kFhlWsAkBlLPDWyXh7E,31
+package/init.py,sha256=7knxSIKqFIthn-dewA5VINq3kdnAUULhQOqKygeyaPs,21
+package/package.py,sha256=nb9tz1P9yHKZI1TDBIkYWHS2kFhlWsAkBlLPDWyXh7E,31
+ksktest-0.0.1.dist-info/METADATA,sha256=Tzqv9iCGxp-V3W9og0NnhFpMnr_AeGtms7C5KSxUukg,227
+ksktest-0.0.1.dist-info/WHEEL,sha256=IhjwRKCBU_-qWYU-9mADzLY2DSoO4crUVcAQt39lCCc,92
+ksktest-0.0.1.dist-info/top_level.txt,sha256=s0QW3vyAtGFzcnhg_AOBQSVNS0wfCyKrnDz8t6ieNSE,16
+ksktest-0.0.1.dist-info/RECORD,,
