@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+afpy/__init__.py
+afpy/cli.py
+afpy/cwd.py
+afpy/files.py
+afpy/pathify.py
+afpy/plot.py
+afpy/string.py
+afpy/yml.py
+afpy.egg-info/PKG-INFO
+afpy.egg-info/SOURCES.txt
+afpy.egg-info/dependency_links.txt
+afpy.egg-info/top_level.txt
