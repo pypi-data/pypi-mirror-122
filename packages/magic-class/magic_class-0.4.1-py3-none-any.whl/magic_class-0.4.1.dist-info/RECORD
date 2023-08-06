@@ -1,0 +1,17 @@
+magicclass/__init__.py,sha256=BiBNubloqG4wop_DNrccgj6RV7KB7TSc5sh9XMAUnFs,195
+magicclass/_base.py,sha256=RkiVOl--3UFJ4xzbN1hbAOXDPqdMlzuk28a-kcqEO40,18303
+magicclass/class_gui.py,sha256=VSuWYzSRBqhYHHcuB2gbZyEsq1v8mngBhQIegFi5ZhI,7828
+magicclass/core.py,sha256=lPltz-FpViQtZsV6ZJOiv4bovj1TSGEPmYcefEgpS5M,8029
+magicclass/field.py,sha256=VZlSC5JFb8UN69AIRbybknEMzMy8i4cDPLvWrfDy3qc,3890
+magicclass/macro.py,sha256=Da1IIbtole_eNI4rpKp3T3ALKo5qytN5vr7W2yH-UwA,6552
+magicclass/menu_gui.py,sha256=KaJcfxa8ltpH7-A0UhYFagKWzPBXzizDLnCH8shlIzI,5146
+magicclass/signature.py,sha256=-7YlNz-nnLPvb7ZsRpSMBNUE1E2vLorzVRo5hygMbgA,2573
+magicclass/tester.py,sha256=_93m5Lp7WMaqa1JYkYljHqJAEILw-DxlSd3UoadsQ4M,5055
+magicclass/utils.py,sha256=f-MHs3quYjAxytcRhpVR_Dx3B6NSFc2VlFVJI-BcBa4,5833
+magicclass/widgets.py,sha256=bPw2I5iEonqECMYy1kZlDAo0settdTlO1Dg4ltixCEI,15433
+magicclass/wrappers.py,sha256=W81vcvENKrSdeba7S-odEQWrqEiNOAw0dxwsHP98pgY,5429
+magic_class-0.4.1.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+magic_class-0.4.1.dist-info/METADATA,sha256=6p25BSqpDK9z3j1XOzAQu_UnUjhL_z3LmR6N4nZ3CzA,3262
+magic_class-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+magic_class-0.4.1.dist-info/top_level.txt,sha256=Zuw5DhCkLthQURWHCcTmRGQqCrjs6XM-g9AmOILl0Zc,11
+magic_class-0.4.1.dist-info/RECORD,,
