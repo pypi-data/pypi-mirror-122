@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: geodesicDome
+Version: 0.8.0
+Summary: Geodesic Dome
+Home-page: UNKNOWN
+Author: Sam, Lewis, James, Kevin, Jacob, Manan
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+
+About
+-------
+The purpose of this library is to assist in storing the vertices in a geodesic dome,
+and contain methods to allow neighbourhood searches and tessellation of the vertices
+to be performed efficiently.
+
+The library provides:
+* Tessellation for a geodesic dome surface
+* Provide index based storage and neighbouring search algorithm
+* Provide functionality for uneven surface tessellation
+
+Installation
+-------
+To install our library run this command in your terminal:
+pip install geodesicDome
+    
+
