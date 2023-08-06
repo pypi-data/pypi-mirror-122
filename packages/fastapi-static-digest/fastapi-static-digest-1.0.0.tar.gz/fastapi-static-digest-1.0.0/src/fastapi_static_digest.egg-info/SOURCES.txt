@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fastapi_static_digest/__init__.py
+src/fastapi_static_digest/compiler.py
+src/fastapi_static_digest/digest.py
+src/fastapi_static_digest.egg-info/PKG-INFO
+src/fastapi_static_digest.egg-info/SOURCES.txt
+src/fastapi_static_digest.egg-info/dependency_links.txt
+src/fastapi_static_digest.egg-info/requires.txt
+src/fastapi_static_digest.egg-info/top_level.txt
