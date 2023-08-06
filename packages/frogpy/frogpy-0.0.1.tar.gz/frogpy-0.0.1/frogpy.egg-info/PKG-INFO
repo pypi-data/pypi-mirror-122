@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: frogpy
+Version: 0.0.1
+Summary: frogpy: Implement algorithms and solve equations
+Home-page: https://github.com/xiang-tao
+Author: Tao Xiang
+Author-email: xiangtao@smail.xtu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+# dinosaur
+Shared Python files to achieve some mathematical algorithms and equation solving
+
+
