@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+lewdsapi/lewdsfunpy.egg-info/PKG-INFO
+lewdsapi/lewdsfunpy.egg-info/SOURCES.txt
+lewdsapi/lewdsfunpy.egg-info/dependency_links.txt
+lewdsapi/lewdsfunpy.egg-info/top_level.txt
