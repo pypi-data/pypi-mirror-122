@@ -1,0 +1,5 @@
+jieba
+gensim
+wordcloud
+matplotlib
+sqlite3
