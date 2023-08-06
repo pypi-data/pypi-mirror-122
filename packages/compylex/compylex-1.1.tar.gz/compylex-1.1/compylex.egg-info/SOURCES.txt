@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+compylex/__init__.py
+compylex/compiler.py
+compylex.egg-info/PKG-INFO
+compylex.egg-info/SOURCES.txt
+compylex.egg-info/dependency_links.txt
+compylex.egg-info/not-zip-safe
+compylex.egg-info/top_level.txt
