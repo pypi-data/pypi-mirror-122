@@ -1,0 +1,13 @@
+click_odoo/__init__.py,sha256=gCdsFTU_0yicOHeBFCgH6dYOwVbnbRLyuCm4ge-k0bg,277
+click_odoo/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+click_odoo/cli.py,sha256=A-Ps1-KX48bO4JJH-fxRQ_8L8CYAV4_bhOyJFIuxA9w,1946
+click_odoo/compat.py,sha256=Y4CydB9cXDCwBR-0AKccXFyHqH64a1iI0imEYmbJb5c,1057
+click_odoo/console.py,sha256=ZBQqgSKjGQZOE22Vz0-1T5twDnBBsXSRHWHUO57k53Q,1620
+click_odoo/env.py,sha256=H2ByDePMatLTjXaiJggkJlhhaDEGHydPGbfwC09rfUM,1614
+click_odoo/env_options.py,sha256=HYqnecmpAsXHSw71C9fQGgcotafOm3tz7Qm79lnNVak,8181
+click_odoo-1.5.0.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+click_odoo-1.5.0.dist-info/METADATA,sha256=Xgl_EcIt9kCSew2EUiZQ5uYKWu18KxXzOCTLjFogpJA,19476
+click_odoo-1.5.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+click_odoo-1.5.0.dist-info/entry_points.txt,sha256=Dli_xm6DhYIxNBqRKAfn_0t6Fl7Cv2ins1E5l6jL0aU,70
+click_odoo-1.5.0.dist-info/top_level.txt,sha256=ZMwlM5izfp2Dj3WLOTyaitsrt6uPp_fxJMpL4W8A1KU,11
+click_odoo-1.5.0.dist-info/RECORD,,
