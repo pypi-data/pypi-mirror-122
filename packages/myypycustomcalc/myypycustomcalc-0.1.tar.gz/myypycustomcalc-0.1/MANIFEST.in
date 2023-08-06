@@ -1,0 +1,2 @@
+graft myypycustomcalc/static
+graft myypycustomcalc/templates
