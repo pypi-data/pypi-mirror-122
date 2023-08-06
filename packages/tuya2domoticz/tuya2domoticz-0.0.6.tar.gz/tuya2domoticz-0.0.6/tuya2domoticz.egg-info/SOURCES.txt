@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tuya2domoticz/__init__.py
+tuya2domoticz/__main__.py
+tuya2domoticz/t2d_device.py
+tuya2domoticz/t2d_devman.py
+tuya2domoticz/t2dconnector.py
+tuya2domoticz.egg-info/PKG-INFO
+tuya2domoticz.egg-info/SOURCES.txt
+tuya2domoticz.egg-info/dependency_links.txt
+tuya2domoticz.egg-info/requires.txt
+tuya2domoticz.egg-info/top_level.txt
+tuya2domoticz/conf/tuya2domoticz.initd
+tuya2domoticz/conf/tuya2domoticz.service
