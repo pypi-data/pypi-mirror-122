@@ -1,0 +1,6 @@
+numpy
+matplotlib
+fractions
+ase>=3.18.1
+itertools
+argparse
