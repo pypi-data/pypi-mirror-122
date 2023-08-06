@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "repository": "github:guendto/jomiel-kore",
+  "scripts": {
+    "release": "standard-version -s --releaseCommitMessageFormat 'chore(release): jomiel-kore version {{currentTag}} (tG)'"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.1"
+  }
+}
