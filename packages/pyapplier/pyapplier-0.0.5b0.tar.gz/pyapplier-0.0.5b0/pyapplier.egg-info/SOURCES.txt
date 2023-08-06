@@ -1,0 +1,8 @@
+README.md
+pyapplier.py
+setup.py
+pyapplier.egg-info/PKG-INFO
+pyapplier.egg-info/SOURCES.txt
+pyapplier.egg-info/dependency_links.txt
+pyapplier.egg-info/requires.txt
+pyapplier.egg-info/top_level.txt
