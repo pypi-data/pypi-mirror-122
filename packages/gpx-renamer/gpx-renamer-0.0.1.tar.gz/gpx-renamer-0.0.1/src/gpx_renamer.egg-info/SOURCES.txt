@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+bin/gpx-renamer
+bin/gpx-renamer-long
+bin/gpx-renamer-min
+bin/gpx-renamer-short
+src/gpx_renamer.egg-info/PKG-INFO
+src/gpx_renamer.egg-info/SOURCES.txt
+src/gpx_renamer.egg-info/dependency_links.txt
+src/gpx_renamer.egg-info/requires.txt
+src/gpx_renamer.egg-info/top_level.txt
