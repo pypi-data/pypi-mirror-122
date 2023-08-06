@@ -1,0 +1,14 @@
+black
+build
+coverage
+coveralls
+flake8
+mypy
+pydocstyle
+pytest
+pytest-cov
+rstcheck
+setuptools
+Sphinx
+tox
+wheel
