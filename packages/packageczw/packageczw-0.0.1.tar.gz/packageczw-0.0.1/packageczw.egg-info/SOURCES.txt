@@ -1,0 +1,8 @@
+setup.py
+packageczw/Module1.py
+packageczw/Module2.py
+packageczw/__init__.py
+packageczw.egg-info/PKG-INFO
+packageczw.egg-info/SOURCES.txt
+packageczw.egg-info/dependency_links.txt
+packageczw.egg-info/top_level.txt

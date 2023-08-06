@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: packageczw
+Version: 0.0.1
+Summary: 测试
+Home-page: https://github.com/czw52460183
+Author: 陈之文
+Author-email: czw52460183@qq.com
+License: UNKNOWN
+Description: 测试*9乘法表
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
