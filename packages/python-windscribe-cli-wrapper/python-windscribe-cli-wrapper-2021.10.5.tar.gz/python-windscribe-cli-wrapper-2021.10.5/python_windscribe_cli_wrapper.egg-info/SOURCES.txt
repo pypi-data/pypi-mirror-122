@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+python_windscribe_cli_wrapper.egg-info/PKG-INFO
+python_windscribe_cli_wrapper.egg-info/SOURCES.txt
+python_windscribe_cli_wrapper.egg-info/dependency_links.txt
+python_windscribe_cli_wrapper.egg-info/requires.txt
+python_windscribe_cli_wrapper.egg-info/top_level.txt
+windscribe/__init__.py
+windscribe/windscribe.py

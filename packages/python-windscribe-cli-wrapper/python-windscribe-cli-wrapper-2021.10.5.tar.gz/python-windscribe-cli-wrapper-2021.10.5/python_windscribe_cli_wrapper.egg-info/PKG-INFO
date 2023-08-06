@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-windscribe-cli-wrapper
+Version: 2021.10.5
+Summary: Python Windscribe VPN CLI wrapper (Fixed https://github.com/Dayzpd/Python-Windscribe)
+Home-page: https://gitlab.com/anton.alvariumsoft/python-windscribe-cli-wapper
+Author: anton.alvariumsoft
+Author-email: anton.alvariumsoft@gmail.com
+License: MIT
+Keywords: windscribe vpn
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Development Status :: 2 - Pre-Alpha
+License-File: LICENSE
+
+UNKNOWN
+
