@@ -1,0 +1,16 @@
+product_crawler/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+product_crawler/config.py,sha256=oRbrm_OfI2T_q8gNPXzzjJhjyGY2WJE9QIpFHdtkU6c,205
+product_crawler/crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+product_crawler/crawler/crawler.py,sha256=iHLGgTtGdW7uMJ1oJYcBQ-77CrnPuYAP2brUCebzc5g,1941
+product_crawler/crawler/parser.py,sha256=dxMskHke3H185Qjc1Ygrzgsr4qjRfQr3mh5LMz-Ujkk,2005
+product_crawler/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+product_crawler/helpers/fetch_website_body.py,sha256=Mx1baIfM9CCZ9XQpH77V51asH71LhRtqJ8fwuEnsQ1I,558
+product_crawler/main.py,sha256=6X_mGrZ7X_aKG41YApPpybydPZU-cPWmv0ddKDV9TK4,1289
+product_crawler/scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+product_crawler/scraper/scraper.py,sha256=XHWwG5vC0cJ1B854Of99HlD-rKvqxOKmYMCz4xXdVW4,2643
+product_crawler/storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+product_crawler/storage/storage.py,sha256=jhc_PZdo57oEnP6A3qibJfE_f49KHh-DDHIhyqRa_gI,1759
+product_crawler-0.1.0.dist-info/entry_points.txt,sha256=8E_zp4ydYM4AuskB18YSqAPZ0MmUfKADqt35fbq66Vk,60
+product_crawler-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+product_crawler-0.1.0.dist-info/METADATA,sha256=i4VndGot5kG5E5C1kj6xI1_8IOM6odhJc7w4WO7RCeU,525
+product_crawler-0.1.0.dist-info/RECORD,,
