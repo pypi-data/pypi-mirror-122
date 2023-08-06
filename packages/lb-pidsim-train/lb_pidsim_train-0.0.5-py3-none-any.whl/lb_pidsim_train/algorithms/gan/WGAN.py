@@ -1,0 +1,1 @@
+NotImplementedError ("WGAN not implemented.")
