@@ -1,0 +1,51 @@
+{
+    "story": {
+        "id": "invalidusername",
+        "metadata": {
+            "storyType": "TYPE_PUBLIC_USER_STORY",
+            "title": "invalidusername",
+            "emoji": "⭐",
+            "canonicalUrlSuffix": "story/invalidusername/invalidusername"
+        },
+        "snaps": [
+            {
+                "id": "1PgHW1XZSgWteDhyTiIFbgAAgcnlmYnB0ZWpiAXxms2FCAXxms17GAAAAAA",
+                "media": {
+                    "type": "VIDEO",
+                    "mediaUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
+                    "mediaStreamingUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
+                    "mediaPreviewUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg"
+                },
+                "overlayImage": {
+                    "mediaUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
+                    "mediaStreamingUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg"
+                },
+                "captureTimeSecs": "1633810603"
+            },
+            {
+                "id": "1PgHW1XZSgWteDhyTiIFbgAAgZWZqZ2t2ZGN4AXxpJwZoAXxpJwRfAAAAAA",
+                "media": {
+                    "type": "IMAGE",
+                    "mediaUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg"
+                },
+                "captureTimeSecs": "1633851737"
+            },
+            {
+                "id": "1PgHW1XZSgWteDhyTiIFbgAAgdGlyeXpodGx4AXxpR4jsAXxpR4XzAAAAAA",
+                "media": {
+                    "type": "IMAGE",
+                    "mediaUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg"
+                },
+                "captureTimeSecs": "1633853867"
+            },
+            {
+                "id": "1PgHW1XZSgWteDhyTiIFbgAAgdnJlc2hjeWd5AXxqhQjjAXxqhQaeAAAAAA",
+                "media": {
+                    "type": "IMAGE",
+                    "mediaUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg"
+                },
+                "captureTimeSecs": "1633874675"
+            }
+        ]
+    }
+}
