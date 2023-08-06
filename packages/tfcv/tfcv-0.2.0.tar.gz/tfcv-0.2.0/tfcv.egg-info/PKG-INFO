@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: tfcv
+Version: 0.2.0
+Summary: Computer vision for tensorflow
+Home-page: https://github.com/fferflo/tfcv
+Author: Florian Fervers
+Author-email: florian.fervers@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
