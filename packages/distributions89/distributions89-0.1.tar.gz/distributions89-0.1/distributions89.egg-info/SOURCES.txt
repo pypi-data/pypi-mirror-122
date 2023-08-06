@@ -1,0 +1,10 @@
+setup.py
+distributions89/Binomialdistribution.py
+distributions89/Gaussiandistribution.py
+distributions89/Generaldistribution.py
+distributions89/__init__.py
+distributions89.egg-info/PKG-INFO
+distributions89.egg-info/SOURCES.txt
+distributions89.egg-info/dependency_links.txt
+distributions89.egg-info/not-zip-safe
+distributions89.egg-info/top_level.txt
