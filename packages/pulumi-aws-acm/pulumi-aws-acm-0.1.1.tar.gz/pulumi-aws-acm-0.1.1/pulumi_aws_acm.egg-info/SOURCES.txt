@@ -1,0 +1,12 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+pulumi_aws_acm/__init__.py
+pulumi_aws_acm/tests.py
+pulumi_aws_acm.egg-info/PKG-INFO
+pulumi_aws_acm.egg-info/SOURCES.txt
+pulumi_aws_acm.egg-info/dependency_links.txt
+pulumi_aws_acm.egg-info/not-zip-safe
+pulumi_aws_acm.egg-info/requires.txt
+pulumi_aws_acm.egg-info/top_level.txt
