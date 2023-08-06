@@ -1,0 +1,10 @@
+setup.py
+distvic/Binomialdistribution.py
+distvic/Gaussiandistribution.py
+distvic/Generaldistribution.py
+distvic/__init__.py
+distvic.egg-info/PKG-INFO
+distvic.egg-info/SOURCES.txt
+distvic.egg-info/dependency_links.txt
+distvic.egg-info/not-zip-safe
+distvic.egg-info/top_level.txt
