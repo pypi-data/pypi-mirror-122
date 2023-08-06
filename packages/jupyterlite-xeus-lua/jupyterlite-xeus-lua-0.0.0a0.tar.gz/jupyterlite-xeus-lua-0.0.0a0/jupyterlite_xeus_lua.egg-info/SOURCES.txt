@@ -1,0 +1,5 @@
+setup.py
+jupyterlite_xeus_lua.egg-info/PKG-INFO
+jupyterlite_xeus_lua.egg-info/SOURCES.txt
+jupyterlite_xeus_lua.egg-info/dependency_links.txt
+jupyterlite_xeus_lua.egg-info/top_level.txt
