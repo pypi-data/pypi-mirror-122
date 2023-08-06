@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simple-db
+Version: 1.0
+Summary: A lightweight, NoSQL database for Python.
+Home-page: https://github.com/J-Obog/simple-db
+Author: JObog
+Author-email: jobogbaimhe@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
