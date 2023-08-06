@@ -1,0 +1,10 @@
+restcountries/__init__.py,sha256=E8FysGgM4janC5EQbu9WEHZWUHp8andvgG3DAE9B9aI,115
+restcountries/base.py,sha256=SvfX5S2bysIGJik7i3KAEAwcPUDsZ5G7qMvvlTzapsk,8790
+restcountries/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restcountries/tests/conftest.py,sha256=S7qYjhVcmFClRa_7pylXlLWOMuAN_fUnYpw1IzuHF08,10429
+restcountries/tests/countries_data.py,sha256=W5iMHNxsEOrQzDUreeZYm4sdAoHd70OhovQgnWVGO1Q,7990
+restcountries/tests/test_base.py,sha256=w7MrwMWcUnH3gdk7E5aJfrdf0vj7ya0sOLWRn017zok,9505
+python_restcountries-2.0.0.dist-info/METADATA,sha256=2x5dIJj017DldLaaEHR0KZGEZ6cX9IBiuTo-YX_m7KI,2901
+python_restcountries-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_restcountries-2.0.0.dist-info/top_level.txt,sha256=vAxJhXFudcpyHKUD0gvarG8XQMG8nhdqkt6gEX7WOcQ,14
+python_restcountries-2.0.0.dist-info/RECORD,,
