@@ -1,0 +1,6 @@
+taskqueue/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskqueue/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskqueue-0.0.0.dist-info/LICENSE,sha256=_2N4sMUZiaIPfRx1HDP0kDE112CKjRyKipsmj08dwvU,1076
+taskqueue-0.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+taskqueue-0.0.0.dist-info/METADATA,sha256=p8lceT6gcbKdNHc9IcBfBLQt4jFXzGPv0pwpQSFiE3I,1724
+taskqueue-0.0.0.dist-info/RECORD,,
