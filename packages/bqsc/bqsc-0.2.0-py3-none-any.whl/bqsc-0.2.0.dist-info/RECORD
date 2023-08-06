@@ -1,0 +1,8 @@
+bqsc/__init__.py,sha256=PqIEOgUfL1tVBDAqtrpElz_gjq6iL566z5Vb_aLAjaI,70
+bqsc/column_info.py,sha256=LkTLOUbtu2uLUW0lpNR2K0ApPtqCKk0Dbttm7L1n4Bk,533
+bqsc/load.py,sha256=mX8C9bF4rfeLLso9d49lAJmycgRa-SD2mtzK9IHlJdM,665
+bqsc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bqsc/table_info.py,sha256=BXmRwEGDfGo7IdCXiISvbxbHc9s5GVDWRttNNMeHwhk,26
+bqsc-0.2.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+bqsc-0.2.0.dist-info/METADATA,sha256=4jLZ4YleudHpqLwA-mToPwAr-slp6n0H1t8F9XHPu8s,420
+bqsc-0.2.0.dist-info/RECORD,,
