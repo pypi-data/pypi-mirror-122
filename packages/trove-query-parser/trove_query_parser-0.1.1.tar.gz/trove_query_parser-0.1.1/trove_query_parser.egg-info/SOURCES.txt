@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+trove_query_parser/__init__.py
+trove_query_parser/_nbdev.py
+trove_query_parser/parser.py
+trove_query_parser.egg-info/PKG-INFO
+trove_query_parser.egg-info/SOURCES.txt
+trove_query_parser.egg-info/dependency_links.txt
+trove_query_parser.egg-info/entry_points.txt
+trove_query_parser.egg-info/not-zip-safe
+trove_query_parser.egg-info/requires.txt
+trove_query_parser.egg-info/top_level.txt

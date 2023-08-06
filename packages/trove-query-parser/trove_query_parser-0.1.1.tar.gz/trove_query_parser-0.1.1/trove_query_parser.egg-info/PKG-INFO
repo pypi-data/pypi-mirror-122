@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: trove-query-parser
+Version: 0.1.1
+Summary: Convert search parameters from the Trove web interface into a form the API understands.
+Home-page: https://github.com/wragge/trove_query_parser/tree/master/
+Author: Tim Sherratt
+Author-email: tim@timsherratt.org
+License: MIT License
+Description: # Trove query parser
+        > Convert a query from the Trove web interface into a set of parameters that can be used with the Trove API.
+        
+        
+        ## Installation
+        
+        `pip install trove-query-parser`
+        
+        ## How to use
+        
+        * Construct a search in the Trove 'Newspapers and Gazettes' category.
+        * Copy the search url.
+        * Feed the url to the `parse_query` function.
+        
+        ```python
+        from trove_query_parser.parser import parse_query
+        
+        parse_query('https://trove.nla.gov.au/search/category/newspapers?keyword=wragge&l-artType=newspapers&l-state=Queensland&l-category=Article&l-illustrationType=Cartoon')
+        ```
+        
+        
+        
+        
+            {'q': 'wragge',
+             'zone': 'newspaper',
+             'l-state': ['Queensland'],
+             'l-category': ['Article'],
+             'l-illustrated': 'true',
+             'l-illtype': ['Cartoon']}
+        
+        
+        
+        See the [documentation](https://wragge.github.io/trove_query_parser/) for a more detailed example.
+        
+        ## Limitations
+        
+        Currently this only works with the 'Newspapers & Gazettes' category. Other categories may be added in time.
+        
+        ----
+        
+        Created by [Tim Sherratt](https://timsherratt.org) ([@wragge](https://twitter.com/wragge)) for the [GLAM Workbench](https://glam-workbench.net/).
+        
+Keywords: Trove
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
