@@ -1,0 +1,5 @@
+requests
+iso8601~=0.1.16
+pytz~=2021.1
+tzlocal<3.0,>=2.1
+deprecation~=2.1.0
