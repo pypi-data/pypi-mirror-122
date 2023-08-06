@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+wav2clip/__init__.py
+wav2clip.egg-info/PKG-INFO
+wav2clip.egg-info/SOURCES.txt
+wav2clip.egg-info/dependency_links.txt
+wav2clip.egg-info/requires.txt
+wav2clip.egg-info/top_level.txt
+wav2clip/model/__init__.py
+wav2clip/model/encoder.py
+wav2clip/model/resnet.py
+wav2clip/pre_training/__init__.py
+wav2clip/pre_training/dataset.py
+wav2clip/pre_training/loss.py
+wav2clip/pre_training/model.py

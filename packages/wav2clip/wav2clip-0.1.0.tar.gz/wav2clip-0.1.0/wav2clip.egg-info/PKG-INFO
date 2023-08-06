@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: wav2clip
+Version: 0.1.0
+Summary: Wav2CLIP: Learning Robust Audio Representations From CLIP.
+Home-page: https://github.com/descriptinc/lyrebird-wav2clip
+Author: Ho-Hsiang Wu
+Author-email: hohsiang@descript.com
+License: MIT
+Keywords: audio,representation,learning,music,sound,representation learning,wav2clip
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Editors
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE.md
+
+# Wav2CLIP
+
+Official implementation of the paper WAV2CLIP: LEARNING ROBUST AUDIO REPRESENTATIONS FROM CLIP
+
+## Installation
+
+```
+pip install wav2clip
+```
+
+## Usage
+
+### Clip-Level Embeddings
+```
+import wav2clip
+
+model = wav2clip.get_model()
+embeddings = wav2clip.embed_audio(audio, model)
+```
+
+### Frame-Level Embeddings
+```
+import wav2clip
+
+model = wav2clip.get_model(frame_length=16000, hop_length=16000)
+embeddings = wav2clip.embed_audio(audio, model)
+```
+
+
