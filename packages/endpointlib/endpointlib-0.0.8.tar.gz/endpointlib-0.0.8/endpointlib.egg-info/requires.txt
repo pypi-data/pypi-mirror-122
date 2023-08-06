@@ -1,0 +1,4 @@
+paho-mqtt==1.5.1
+pyserial-asyncio==0.5
+asyncio-mqtt==0.10.0
+aiologger==0.6.1
