@@ -1,0 +1,10 @@
+setup.py
+oskarryn_udacity_distributions/Binomialdistribution.py
+oskarryn_udacity_distributions/Gaussiandistribution.py
+oskarryn_udacity_distributions/Generaldistribution.py
+oskarryn_udacity_distributions/__init__.py
+oskarryn_udacity_distributions.egg-info/PKG-INFO
+oskarryn_udacity_distributions.egg-info/SOURCES.txt
+oskarryn_udacity_distributions.egg-info/dependency_links.txt
+oskarryn_udacity_distributions.egg-info/not-zip-safe
+oskarryn_udacity_distributions.egg-info/top_level.txt
