@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: balaboba
+Version: 1.0.2
+Summary: Module for interacting with Yandex Balaboba
+Home-page: https://github.com/monosans/balaboba
+Author: monosans
+Author-email: hsyqixco@protonmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# balaboba
+
+Модуль для взаимодействия с [Яндекс Балабоба](https://yandex.ru/lab/yalm).
+
+Асинхронная версия [здесь](https://github.com/monosans/aiobalaboba).
+
+## Установка
+
+```sh
+python -m pip install balaboba
+```
+
+Или просто скопируйте [код](https://github.com/monosans/balaboba/blob/main/balaboba/__init__.py) себе.
+
+## Пример использования
+
+### Базовый пример
+
+Используется стандартный вариант стилизации, для запроса создаётся новый экземпляр requests.Session:
+
+```python
+from balaboba import balaboba
+
+response = balaboba("Привет")
+print(response)
+```
+
+Вывод: `Привет! Я рад тебя видеть на моём канале. Здесь ты сможешь встретить много интересных аниме, музыки, видео, и многого другого.`
+
+### Продвинутый пример
+
+Используется 11-ый вариант стилизации "Народные мудрости", для запроса используется существующий экземпляр requests.Session:
+
+```python
+from balaboba import balaboba
+from requests import Session
+
+with Session() as session:
+    response = balaboba("Привет", intro=11, session=session)
+print(response)
+```
+
+## Дисклеймер с сайта
+
+Нейросеть не знает, что говорит, и может сказать всякое — если что, не обижайтесь. Распространяя получившиеся тексты, помните об ответственности.
+
+## License / Лицензия
+
+[MIT](LICENSE)
+
+
