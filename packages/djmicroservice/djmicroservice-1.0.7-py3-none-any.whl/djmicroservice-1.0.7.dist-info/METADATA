@@ -1,0 +1,179 @@
+Metadata-Version: 2.1
+Name: djmicroservice
+Version: 1.0.7
+Summary: django micro service app.
+Home-page: https://github.com/tangdyy/djmicroservice
+Author: Tang dayong
+Author-email: 674822668@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: django
+Requires: djangorestframework
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# djmicroservice
+django restfull框架下的微服务应用包。
+
+一. 安装
+* 依赖包
+
+    + django >=2.0
+    + djangorestframework >=3.8
+    + djangorestframework-jwt >=1.6
+    + djkeeper >=0.2
+    + South >=1.0
+    + coreapi >=2.3.3
+    + simple-rest-client >=0.5.2
+    + stomp.py >=4.1.20
+
+* 安装
+
+	```
+	#pip install -r requirements.txt
+	#python setup.py install
+	```
+
+* 配置 
+
+    + django 配置 
+        - INSTALLED_APPS配置项增加
+
+		```
+		INSTALLED_APPS = [
+			'django.contrib.auth',
+			'django.contrib.contenttypes',
+			'django.contrib.sessions',
+			'django.contrib.messages',
+			'django.contrib.staticfiles',    
+			'rest_framework',
+			'djmicroservice',
+		]
+        ```
+
+
+        - 增加 REST_FRAMEWORK配置项  
+
+        ```
+        REST_FRAMEWORK = {
+            'DEFAULT_PERMISSION_CLASSES': (
+            ),
+            'DEFAULT_AUTHENTICATION_CLASSES': (
+                'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+            ),
+        }
+        ```
+
+        - 增加 REST_FRAMEWORK配置项 
+
+		```
+		REST_FRAMEWORK = {
+			'DEFAULT_PERMISSION_CLASSES': (
+			),
+			'DEFAULT_AUTHENTICATION_CLASSES': (
+				'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+			),
+		}
+		```
+
+		- 增加 JWT_AUTH配置项 
+
+		```
+		JWT_AUTH = {
+			'JWT_ENCODE_HANDLER':'rest_framework_jwt.utils.jwt_encode_handler',		
+			'JWT_DECODE_HANDLER':'rest_framework_jwt.utils.jwt_decode_handler',		
+			'JWT_PAYLOAD_HANDLER':'user.jwt.handlers.onlyuser_jwt_payload_handler',		
+			'JWT_PAYLOAD_GET_USER_ID_HANDLER':'rest_framework_jwt.utils.jwt_get_user_id_from_payload_handler',		
+			'JWT_RESPONSE_PAYLOAD_HANDLER':'user.jwt.handlers.onlyuser_jwt_response_payload_handler',		
+			'JWT_SECRET_KEY': SECRET_KEY,
+			'JWT_GET_USER_SECRET_KEY': None,
+			'JWT_PUBLIC_KEY': None,
+			'JWT_PRIVATE_KEY': None,
+			'JWT_ALGORITHM': 'HS256',
+			'JWT_VERIFY': True,
+			'JWT_VERIFY_EXPIRATION': True,
+			'JWT_LEEWAY': 0,
+			'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=36000),
+			'JWT_AUDIENCE': None,
+			'JWT_ISSUER': None,		
+			'JWT_ALLOW_REFRESH': True,
+			'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),		
+			'JWT_AUTH_HEADER_PREFIX': 'JWT',
+			'JWT_AUTH_COOKIE': None,		
+		}
+		```
+
+
+		- 增加 DJMICROSERVICE配置项
+
+		```
+		DJMICROSERVICE = { 
+			#微服务名字
+			'NAME': DEFAULT_NAME ,
+			#微服务URL
+			'URL': 'http://127.0.0.1:8000/',
+			#是否是主节点
+			'MASTER': True, 
+			#微服务资源
+			'RESOURCES': {        
+			}, 
+			#服务发现配置 
+			'DISCOVER': {
+				#是否注册
+				'REGISTER': False,
+				#心跳
+				'HEARTBEAT': 15,
+				#发现者引擎 
+				'ENGINE': 'djmicroservice.discovers.backends.StaticDiscover',
+				#引擎配置
+				'OPTIONS': {
+					'SERVICES':[
+					]
+				},
+			},
+			#客户端配置
+			'CLIENT':{        
+				#认证管理微服务名
+				'AUTH': None,
+				'OBTAIN': None,
+				'REFRESH': None,
+				'VERIFY': None,
+				'USER': None,
+				'PASSWORD': None,
+				'JWT_HEADER_PFX': 'JWT',
+				'TIMEOUT': 2,
+				'AUTO_LOGIN': False,
+			},  
+			#消息队列端配置  
+			'MQ':{
+				#消息队列引擎
+				'ENGINE': 'djmicroservice.mq.backends.ActiveMQ',
+				#引擎配置
+				'OPTIONS': {
+					#消息服务器地址,可以多个
+					'SERVERS': [('127.0.0.1',61613)],
+					#消息服务器登录名
+					'USER': 'admin',
+					#消息服务器密码
+					'PASSWORD': 'admin',
+				},
+				'HANDLERS': { 
+				},
+			},
+			'SERVICE_MANAGER':{
+				#服务管理地址
+				'BIND':('127.0.0.1',56560),
+				'AUTH_KEY':None,
+				#要启动的服务
+				'SERVICES':[        
+					('onlyuser.mq.service.MQService', 1),
+				]
+			}
+		}
+		```
+
+二. RESTful API规范
+
