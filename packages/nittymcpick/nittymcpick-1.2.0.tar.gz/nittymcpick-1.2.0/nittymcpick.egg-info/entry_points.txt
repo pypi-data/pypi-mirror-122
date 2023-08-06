@@ -1,0 +1,3 @@
+[console_scripts]
+nittymcpick = nittymcpick.__main__:main
+
