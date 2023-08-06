@@ -1,0 +1,16 @@
+opinecli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opinecli/auth.py,sha256=NE2F6AufANsJcWLVqEPLE_QaDgA2HgZuDY8QSn0JuU0,923
+opinecli/cli.py,sha256=WAihOFSnTMyDSBSCrW1av0HdyUg6YqkDoTx8evFLuv4,773
+opinecli/config.py,sha256=yp3F6WtO-Vxt9PVcMbnCgFrkrehLl6ElUj7UiIkzTqs,2241
+opinecli/data.py,sha256=4uaTk8bccPdIJIIx6gxP9vYIm9wBJ7OGEXzjlqY4Fcs,2956
+opinecli/init.py,sha256=X6EOji0L3aTRAQMnRsuUff54_59k8plsBlwkT9m0b34,289
+opinecli/organization.py,sha256=zzkilC8Gp-wFaOJjlj2viRWa6FAs7Vl3KxaJin9xNWc,1319
+opinecli/project.py,sha256=FrkS91cbpzs55wQmfm0s2OBcDixaZ-uex4KHmsAYopw,5860
+opinecli/subscription.py,sha256=1kUtQp9OTz1gCgKzLn5S41Jb64w6XA5fo-DNgCyybr0,3860
+opinecli/system.py,sha256=2e8z2YkzI10yCHDh7YVRIFleWsflvtjpSJ9RE4a4X_c,1215
+opinecli/user.py,sha256=pvFvfiFNopAttVf2t5k0rGPbhvxaoAPhWSH0_J56DkQ,3075
+opine_cli-0.2.0.dist-info/METADATA,sha256=CNjyYyrzgtEI6FTidr-3Jv00m7ccZ-fjls46f2Vcn2Y,2642
+opine_cli-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+opine_cli-0.2.0.dist-info/entry_points.txt,sha256=lPabbw1jxPpwnJQNJhkqlDfTFhSuuWmj7Q_rfpmLHYQ,45
+opine_cli-0.2.0.dist-info/top_level.txt,sha256=RIzHBtipTh5IwNrmVP1oy2U8VWb5YDc41toQ7tOGuOE,9
+opine_cli-0.2.0.dist-info/RECORD,,
