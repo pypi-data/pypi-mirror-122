@@ -1,0 +1,7 @@
+joblib
+numpy
+sympy
+mpmath
+scipy
+matplotlib
+tqdm
