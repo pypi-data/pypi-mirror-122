@@ -1,0 +1,1 @@
+simple_profanity_filter

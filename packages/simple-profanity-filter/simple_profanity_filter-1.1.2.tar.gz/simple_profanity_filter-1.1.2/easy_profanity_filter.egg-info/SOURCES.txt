@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+easy_profanity_filter.egg-info/PKG-INFO
+easy_profanity_filter.egg-info/SOURCES.txt
+easy_profanity_filter.egg-info/dependency_links.txt
+easy_profanity_filter.egg-info/not-zip-safe
+easy_profanity_filter.egg-info/top_level.txt
+simple_profanity_filter/__init__.py
