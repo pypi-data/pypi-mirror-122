@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: epicas
+Version: 0.1.0
+Summary: An AutoML framework designed for epidemiological forecasting
+Home-page: https://github.com/caominhduy/epicas
+Author: Duy Cao
+Author-email: caominhduy@gmail.com
+License: UNKNOWN
+Keywords: AutoML,ARIMA,attention,epidemiology,forecast,infectious,machine learning,TensorFlow
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7.0
+Requires-Dist: tensorflow (>=2.6.0)
+Requires-Dist: keras-self-attention (>=0.50.0)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: statsmodels (>=0.13.0)
+Requires-Dist: tqdm
+Requires-Dist: numpy
+
+
+Epicas stands for Epidemiological Forecasting. Epicas is an AutoML framework based on TensorFlow and statsmodels.
+
+For instructions or details about source code, please see at https://github.com/caominhduy/epicas
+
+This package is still under development. Feel free to contact developer at caominhduy@gmail.com if any issue arises.
+
+
