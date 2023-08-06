@@ -1,0 +1,14 @@
+thop/__init__.py,sha256=HXJYMApKzSvGyTVlo5XfiY-QKTLnQ9E8Uf7VSDTFK5k,121
+thop/fx_profile.py,sha256=AIGfrS3Uw_uVB-VeIC3Ym8dDR0j8rUKBemdy8Q0G_Ao,4036
+thop/profile.py,sha256=wBZ7rAdOiq6OB4s-RxEJCjk4P4cO-pZEbEPpH_4X39s,7742
+thop/rnn_hooks.py,sha256=QaKg7hhJZNluJDA5Au-4OJwQaLABV8pULEqRcthxpO4,5745
+thop/utils.py,sha256=J6EIPMc52ru225g_k91SU5ZCm_TkXoJo3QJbMv-NiiU,685
+thop/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thop/vision/basic_hooks.py,sha256=vcVtaMT3M__u6cCLH_3HakmPR-dVV-YKPVYjeo0gmIQ,3941
+thop/vision/efficientnet.py,sha256=fRO7RAt4aUm4c_pMcXQSVAtvevyDCxBPhDDZBSJAq8U,220
+thop-0.0.4.post2110061704.dist-info/LICENSE,sha256=NvV3rSiPG-roGItuwJgI6u0njAi4KEusxpS7Vv-_Pfw,1067
+thop-0.0.4.post2110061704.dist-info/METADATA,sha256=S8o8i7zqESulenL9_Y6VOOCpbIDp7ZbD-31QrdxdwrA,2692
+thop-0.0.4.post2110061704.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+thop-0.0.4.post2110061704.dist-info/top_level.txt,sha256=HQ7D0gSvDJ31CNR-f0EuXNVve05RYBmwyIkHQKiEhU8,5
+thop-0.0.4.post2110061704.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+thop-0.0.4.post2110061704.dist-info/RECORD,,
