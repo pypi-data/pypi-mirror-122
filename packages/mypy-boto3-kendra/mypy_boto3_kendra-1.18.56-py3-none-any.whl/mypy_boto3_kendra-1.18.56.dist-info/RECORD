@@ -1,0 +1,15 @@
+mypy_boto3_kendra/__init__.py,sha256=A9Pfz3ca-8otlkpjR1VdXhaZeGe0j4c-NUVap2Uy5nA,409
+mypy_boto3_kendra/__init__.pyi,sha256=VPYCrOASPtdPjxDzGlitH5R3iWle-rJNxAJLGyoG7iY,408
+mypy_boto3_kendra/__main__.py,sha256=dKW4Gpp0TkKMVh5SDthw3O2crZuxjaz6xQ1q9kFmgME,893
+mypy_boto3_kendra/client.py,sha256=1poz9CnzrCYvmNvq8t5goUNLhE06TwT3QurupJi1zWc,30081
+mypy_boto3_kendra/client.pyi,sha256=IFtd9FHQW0I1Yl3g7EbP37eoMuwWuOKuLdYOLRvbw6o,30031
+mypy_boto3_kendra/literals.py,sha256=sr19ICV5Nyb5xnSk-GNw-Vq9cFSE72oKzcNdb1NvAtk,11109
+mypy_boto3_kendra/literals.pyi,sha256=VtcaLdJAQ5D0mhAKZQkOly_ZNi8eWA-kD0ZiXe1TrZE,11107
+mypy_boto3_kendra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_kendra/type_defs.py,sha256=H9shTumI1xFwnmGl8cSSEMBMyNUUP9BnchiXkRvyA7s,70945
+mypy_boto3_kendra/type_defs.pyi,sha256=Sp71DFUCoC5109yyzUl9UaCVph2v6S5zwocOdp9Hscs,70837
+mypy_boto3_kendra/version.py,sha256=FQub2V22QzfRplRf9WyHwBXfJ7ZfQdQ3Iadbu8MSS2M,61
+mypy_boto3_kendra-1.18.56.dist-info/METADATA,sha256=OyqmHxV-yByriy1QgPn1GTKmHPE6R7nu3bUp2zVKYdM,14966
+mypy_boto3_kendra-1.18.56.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mypy_boto3_kendra-1.18.56.dist-info/top_level.txt,sha256=5kcIM5QHVOF958NNOuIsBbYj7Abp_9zqARzReR6FzRU,18
+mypy_boto3_kendra-1.18.56.dist-info/RECORD,,
