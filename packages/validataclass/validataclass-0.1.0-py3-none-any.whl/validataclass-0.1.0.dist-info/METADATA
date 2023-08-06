@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: validataclass
+Version: 0.1.0
+Summary: Library for input validation designed for (but not restricted to) JSON-based APIs, neatly integrating with dataclasses.
+Home-page: https://github.com/binary-butterfly/validataclass
+Author: binary butterfly GmbH
+Author-email: lexi.stelter@binary-butterfly.de
+License: MIT
+Project-URL: Issue Tracker, https://github.com/binary-butterfly/validataclass/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dateutil
+
+# validataclass
+
+[![Unit tests](https://github.com/binary-butterfly/validataclass/actions/workflows/tests.yml/badge.svg)](https://github.com/binary-butterfly/validataclass/actions/workflows/tests.yml)
+
+Python library for input validation designed for (but not restricted to) JSON-based APIs, neatly integrating with dataclasses. 
+
+**Status:** In development / alpha.
+
+
+## Installation
+
+To install validataclass using [pip](https://pip.pypa.io/en/stable/getting-started/), just run:
+
+```shell
+pip install validataclass
+```
+
+
+## Usage
+
+~~See `docs/` for documentation on how to use this library and for examples.~~
+
+The documentation is a work in progress and will be part of version 0.2.0.
+
+Until then, take a look at the code. It's well documented using docstrings, including lots of examples.
+
+
+## Development
+
+### Virtual environment
+
+To setup a virtualenv for development of the library, run `make venv`.
+
+Alternatively you can manually run the following commands (which do the same as the make target):
+
+```
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+$ pip install -e .
+```
+
+
+### Running unit tests
+
+Unit tests can be run using `make tox` or by directly executing `tox`.
+
+For this to work you need to either be inside the virtualenv (see above) or to have [tox](https://tox.wiki/en/latest/) installed
+in your system locally.
+
+
