@@ -1,0 +1,13 @@
+README.md
+setup.py
+version.py
+multianalyzer/__init__.py
+multianalyzer/_multianalyzer.pyx
+multianalyzer/file_io.py
+multianalyzer/setup.py
+multianalyzer.egg-info/PKG-INFO
+multianalyzer.egg-info/SOURCES.txt
+multianalyzer.egg-info/dependency_links.txt
+multianalyzer.egg-info/not-zip-safe
+multianalyzer.egg-info/requires.txt
+multianalyzer.egg-info/top_level.txt
