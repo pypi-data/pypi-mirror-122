@@ -1,0 +1,12 @@
+[tool]
+[tool.commitizen]
+name = "cz_git_jira_conventional"
+version = "2.3.0"
+tag_format = "v$version"
+version_files = [
+    "VERSION",
+    "pyproject.toml:version",
+    "setup.py"
+]
+jira_base_url = "https://jira.yourdomain.com"
+git_repo = "https://github.com/vuonglv1612/cz-git-jira-conventional"
