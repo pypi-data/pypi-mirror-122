@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ticketrenderer
+Version: 0.3.0
+Summary: A library used to render Figure tickets from ticket templates
+Home-page: https://github.com/Postcard/ticket-renderer-python
+Author: Benoît Guigal
+Author-email: benoit@postcardgroup.com
+License: UNKNOWN
+Download-URL: https://github.com/Postcard/ticket-renderer-python/tarball/0.3.0
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: jinja2 (==3.0.2)
+Requires-Dist: mock (==4.0.3)
+
+UNKNOWN
+
