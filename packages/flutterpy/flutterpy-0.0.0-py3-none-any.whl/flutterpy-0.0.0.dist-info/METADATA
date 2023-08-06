@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: flutterpy
+Version: 0.0.0
+Summary: Package for the evaluation of wind-induced flutter effects in structures.
+Home-page: https://github.com/mtnzguillermo/flutterpy
+Author: Guillermo Martínez-López
+Author-email: guillermo.martinez-lopez@tum.de
+License: UNKNOWN
+Keywords: flutter,wind,aeroelasticity
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.17.4)
+Requires-Dist: scipy (>=1.7.1)
+Requires-Dist: sympy (>=1.8)
+Requires-Dist: matplotlib (>=3.4.3)
+
+# FlutterPy
+Python package for the evaluation of wind-induced flutter effects in structures. It provides a toolbox to speed up the post-processing of wind tunnel tests or computational simulations results and obtain the flutter derivatives.
+
+
