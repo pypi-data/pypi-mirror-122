@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+supplys/Binomialdistribution.py
+supplys/Gaussiandistribution.py
+supplys/Generaldistribution.py
+supplys/__init__.py
+supplys.egg-info/PKG-INFO
+supplys.egg-info/SOURCES.txt
+supplys.egg-info/dependency_links.txt
+supplys.egg-info/not-zip-safe
+supplys.egg-info/top_level.txt
