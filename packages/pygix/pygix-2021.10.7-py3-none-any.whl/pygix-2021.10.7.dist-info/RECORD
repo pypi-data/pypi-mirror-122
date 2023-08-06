@@ -1,0 +1,15 @@
+pygix/__init__.py,sha256=YN4IgEAGZ9Za6djX5psxZly3anXE9byevJ09-TyjwnM,1662
+pygix/_version.py,sha256=xf2BibRTd5_y-pS34ys-mn_4AHa0cMCIlGydqp7o-ow,2512
+pygix/grazing_geometry.py,sha256=kph-er3Gq2bm7etKjPGYNDugzXEmt39RlvnpRf8APjg,37415
+pygix/grazing_units.py,sha256=jReQ_KuBv0LMo2qSr3D0vczlvIqRUpT5j5Mmlwg6Xto,7770
+pygix/io.py,sha256=xtlZTYS1J5d-W7BRV-RKxrR43-xUTdUfjYy0tQT_U9I,8814
+pygix/lattice.py,sha256=h2VSC2zWhACAQqA-ZIYC0YIST7Pdfx1dkF5VHhjabnQ,8556
+pygix/plotting.py,sha256=m8-ydJXFrsN9Dh8QV4KeWR5fZJwERn1iZNM34g45TOo,11119
+pygix/process.py,sha256=fYQuXtM422uq8qxsaZ0xUeaG85C-h3-gUknehVg4A9M,12788
+pygix/tools.py,sha256=HJNJo2jK89OcFMJx2lTaBe2PYW6d97oeHHSNggrciGI,10583
+pygix/transform.py,sha256=uIau_HhMgv42kRFpZ9-kwF_GhxXws396JH_zq3h_mJQ,79301
+pygix-2021.10.7.dist-info/LICENSE,sha256=HU1EDpZNOouWzEh494ex9ukeOtbeEctXLjJxasoSOic,1096
+pygix-2021.10.7.dist-info/METADATA,sha256=gKn1bvS9Qh85_2nipZcuWtHKq5WWAG4HTDMgHwYiOKM,4008
+pygix-2021.10.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pygix-2021.10.7.dist-info/top_level.txt,sha256=YFsjy-qGYQj2IAR9536rZ6eqrm7nf09sykvIYCCeUXw,6
+pygix-2021.10.7.dist-info/RECORD,,
