@@ -1,0 +1,23 @@
+from http.server import BaseHTTPRequestHandler
+from typing import Any, Type
+from vtelem.classes.http_request_mapper import HttpRequestMapper as HttpRequestMapper, RequestHandle as RequestHandle
+from vtelem.classes.time_keeper import TimeKeeper as TimeKeeper
+from vtelem.daemon import DaemonBase as DaemonBase, DaemonState as DaemonState, MainThread as MainThread
+from vtelem.mtu import Host as Host
+from vtelem.registry.service import ServiceRegistry as ServiceRegistry
+from vtelem.telemetry.environment import TelemetryEnvironment as TelemetryEnvironment
+
+LOG: Any
+
+class HttpDaemon(DaemonBase):
+    server: Any
+    ssl_context: Any
+    closed: bool
+    uses_tls: bool
+    def __init__(self, name: str, address: Host = ..., handler_class: Type[BaseHTTPRequestHandler] = ..., env: TelemetryEnvironment = ..., time_keeper: TimeKeeper = ...) -> None: ...
+    def use_tls(self, keyfile_path: str, certfile_path: str) -> None: ...
+    def get_base_url(self) -> str: ...
+    def add_handler(self, request_type: str, path: str, handle: RequestHandle, description: str = ..., data: dict = ..., response_type: str = ...) -> None: ...
+    def close(self) -> bool: ...
+    def serve(self, *args, main_thread: MainThread = ..., **kwargs) -> int: ...
+    def run(self, *_, **kwargs) -> None: ...
