@@ -1,0 +1,26 @@
+safety_road_mapping/.env.example,sha256=yIdNTQRy9W7Kl0MVBVokvkMGq35f58DbEoohJNE_GEs,6
+safety_road_mapping/__init__.py,sha256=9YXoaZNVOjO_zJEy7kb6CuiyLg7Dknzq0bXzNQyoPMs,1205
+safety_road_mapping/__version__.py,sha256=bwvWpUk0EyEUuvD53CeliZB1Kg0oNPGd4LQm5A7KRo0,23
+safety_road_mapping/examples/how-to-use.ipynb,sha256=pcnOcU7StrJ7yH00W3zm_pyIuyJ1AOyWgErhU_CMYR0,342054
+safety_road_mapping/examples/test_routes.ipynb,sha256=wrqArZCN4MTgWGt2efPddMeke1BUoMWLib6AUFkobWE,12029
+safety_road_mapping/extract_data/consolidate_data.ipynb,sha256=Lig5-oPKOpMlaTIoWl5sgeKitb56AQXBV7kFdS_VCSY,44896
+safety_road_mapping/extract_data/data/.gitignore,sha256=f4ee9qZE9tjn_ia58lFxS7DCipU-CmpsMkuLjPiAJWA,18
+safety_road_mapping/extract_data/eda_accidents.ipynb,sha256=VvjmAc20AbCfbBRak1t59AGdJC8Vil-WbSh5pIXqhbA,123654
+safety_road_mapping/extract_data/get_data.ipynb,sha256=OOh_cnq0WSsLoIpDlhNrjk0Oq2GKyXeY6LZpDY1dFFM,4120
+safety_road_mapping/extract_data/trechos.csv,sha256=6q5Jw94AYZc54myBsJr--m6Ba4xZSng4JbHUQwziDZ8,1010
+safety_road_mapping/maps/final_map.html,sha256=Q9Z8A2dcbnPtNfk_cPa63jPjZVTrkVQAcZXxNoakryc,706720
+safety_road_mapping/maps/final_map2.html,sha256=Hfm1v7arEiMDlJq7g3Kn19gzXexed3Ig2JaG7B_k6eA,160446
+safety_road_mapping/maps/map_C. AGUDOS_Ambev S.A. - CDD Ribeirao Preto.html,sha256=2Zq9_7XbDEEyyO2NXya4QEZGTcmZ10RgVVOw0Jp0f6E,55453
+safety_road_mapping/maps/map_C. ANÁPOLIS_Ambev S.A- CDD F. Brasilia.html,sha256=hvfReNJkRP1YCmCH_hBLXM1wxLn4exGEt7WPFTQFpfE,49490
+safety_road_mapping/maps/map_C. CAMAÇARI_CRBS S.A - CDD Salvador.html,sha256=VJlhx92iil1LRitaBYUx8QV9HOUALSqapbkHM8uyuRg,26819
+safety_road_mapping/maps/map_C. JACAREÍ_Ambev S.A. - CDD Campinas.html,sha256=RQ_A-MnjDEhfWbfGu3t8Afv803ceuGmWRJPTGt37SH8,65128
+safety_road_mapping/maps/map_C. NOVA MINAS_CRBS S.A - CDL Santa Luzia.html,sha256=mjhMTGi6sNO8rhcX_eLEo8VMCWqMPiFJIHKwnp5Wmto,49685
+safety_road_mapping/maps/map_C. NOVA RIO_AMBEV S.A. - CDD VITÓRIA.html,sha256=w5bh22SaxnbeT0fzPdT_3d4gOo3kO5nilf14WNCO_ik,230210
+safety_road_mapping/maps/map_C. NOVA RIO_CRBS S.A - CDD Niteroi.html,sha256=HXLr8QJjbd1WGtzGV2QDzVHWFBfc4lmK2-eoPkZkhRY,37903
+safety_road_mapping/maps/map_C. NOVA RIO_F. CDR Extrema-DC.html,sha256=q0wjRdFacDCgLSpuQm_i7LRM5ucVbiDusgYcIxCcVTI,157923
+safety_road_mapping/maps/map_C. PERNAMBUCO_Ambev S.A. - CDD Olinda.html,sha256=t_YJmCRuoH6asRhzZbtU4WtIz1NxqIfT7rbrRF59Aqc,32191
+safety_road_mapping/maps/map_C. ÁGUAS CLARAS DO SUL_CRBS S.A - CDD Porto Alegre.html,sha256=NwfND2k5JM0b3XVEMPWHfGxb76l5a7QpzcHwT9de-04,30745
+safety_road_mapping/safety.py,sha256=2M40aea10sKM2hlxQ-AxVij2FSerWq-vBKoUD3jE2p8,25983
+safety_road_mapping-0.1.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+safety_road_mapping-0.1.5.dist-info/METADATA,sha256=HOdGL-wmeGHb6ENlY-BNaB1NPWioO_fR_6ElWNrrTdc,3580
+safety_road_mapping-0.1.5.dist-info/RECORD,,
