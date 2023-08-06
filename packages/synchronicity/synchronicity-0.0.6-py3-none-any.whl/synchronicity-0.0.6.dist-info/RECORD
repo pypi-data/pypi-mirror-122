@@ -1,0 +1,11 @@
+synchronicity/__init__.py,sha256=9iYiwQr5lo6Ovzbk-O32QazHRZ2cV1UGDNQcD8c9k7A,39
+synchronicity/synchronizer.py,sha256=PzmnYpLhYqJldwdZ3d3zK0YmKSyJh3zrAMPxj8iFgWo,5576
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_generators.py,sha256=Xag9-xJ_FijpSqNRrkDJG6hpFmIynIOhsrQs0Yw36qs,1294
+test/test_metaclass.py,sha256=sUT5TWklg1tFHLOvYaNuSb6264tFKonfKGZNwNnpAEE,909
+test/test_pickle.py,sha256=ewRDvPTF-ft82L-aiWOmlNAiKy65zfncqfC9izGZifk,366
+test/test_synchronicity.py,sha256=xIL9OrVB7WX96lmWaoVwqAxnnPUwdf3y_JwcOEomcWA,9741
+synchronicity-0.0.6.dist-info/METADATA,sha256=vFkX67xEXML1iqroftsJaonPraMY02gTghNlGwqg5r8,138
+synchronicity-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+synchronicity-0.0.6.dist-info/top_level.txt,sha256=9c4f3KZLwwFSC1glUBu1hEytmNWIlekVDzcPdxz5J3g,19
+synchronicity-0.0.6.dist-info/RECORD,,
