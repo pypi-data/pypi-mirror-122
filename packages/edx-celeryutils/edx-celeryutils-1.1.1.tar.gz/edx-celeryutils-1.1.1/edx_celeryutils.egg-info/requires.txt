@@ -1,0 +1,5 @@
+jsonfield
+django-model-utils
+future
+Django>=1.11
+celery
