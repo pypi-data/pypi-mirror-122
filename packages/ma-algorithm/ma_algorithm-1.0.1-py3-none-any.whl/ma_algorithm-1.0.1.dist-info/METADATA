@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ma-algorithm
+Version: 1.0.1
+Summary: Python Code Implementation for ma_algorithm
+Home-page: UNKNOWN
+Author-email: ntwty5@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: alpha-vantage
+Requires-Dist: seaborn
+
+UNKNOWN
+
+
