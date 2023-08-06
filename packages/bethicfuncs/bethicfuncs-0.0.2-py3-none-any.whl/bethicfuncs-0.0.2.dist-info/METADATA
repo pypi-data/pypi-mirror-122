@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bethicfuncs
+Version: 0.0.2
+Summary: A package with bethic functions
+Home-page: https://github.com/your_package/homepage/
+Author: bethic team
+Author-email: bethic@bethic.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bethicfunc
+
