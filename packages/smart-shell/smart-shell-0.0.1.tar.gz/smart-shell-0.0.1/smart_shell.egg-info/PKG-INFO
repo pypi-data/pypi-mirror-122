@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: smart-shell
+Version: 0.0.1
+Summary: AI command line tools
+Home-page: https://github.com/joseph-mcallister/smart-shell
+Author: Joe McAllister
+Author-email: joseph.l.mcallister+smart-shell@gmail.com
+License: GNU GENERAL PUBLIC LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Setup + Example
+`pip install -r requirements.txt`
+`python3 ai.py setup`
+`python3 ai.py "Print files in current directory"`
+
+## Building bundle
+`pyinstaller --onefile --distpath ../downloads/latest --name smart-shell client.py`
+
+## TODO
+- Show good error if no internet connect
+- Run `which <first-command>` and prompt to download if not available
+- Add anonymized telemetry for successful commands
+
