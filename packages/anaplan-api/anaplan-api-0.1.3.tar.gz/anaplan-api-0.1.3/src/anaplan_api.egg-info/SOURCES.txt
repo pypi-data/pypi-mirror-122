@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/anaplan_api/AnaplanConnection.py
+src/anaplan_api/__init__.py
+src/anaplan_api/anaplan.py
+src/anaplan_api/anaplan_auth.py
+src/anaplan_api/anaplan_resource_dictionary.py
+src/anaplan_api.egg-info/PKG-INFO
+src/anaplan_api.egg-info/SOURCES.txt
+src/anaplan_api.egg-info/dependency_links.txt
+src/anaplan_api.egg-info/top_level.txt
