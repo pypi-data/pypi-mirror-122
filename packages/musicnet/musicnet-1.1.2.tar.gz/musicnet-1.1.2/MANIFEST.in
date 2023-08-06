@@ -1,0 +1,5 @@
+include LICENCE
+include MusicClassifier.rfc
+MusicClassifier.spgn
+include README.md
+include requirements.txt
