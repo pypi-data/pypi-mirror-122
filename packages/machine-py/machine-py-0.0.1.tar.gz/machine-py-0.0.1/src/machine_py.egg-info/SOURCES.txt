@@ -1,0 +1,132 @@
+README.md
+setup.py
+src/machine_py.egg-info/PKG-INFO
+src/machine_py.egg-info/SOURCES.txt
+src/machine_py.egg-info/dependency_links.txt
+src/machine_py.egg-info/requires.txt
+src/machine_py.egg-info/top_level.txt
+src/machinepy/__init__.py
+src/machinepy/Classification/__init__.py
+src/machinepy/Classification/KNN/__init__.py
+src/machinepy/Classification/KNN/knn.py
+src/machinepy/Classification/LDA/__init__.py
+src/machinepy/Classification/LDA/lda.py
+src/machinepy/Classification/Logistic Regression/__init__.py
+src/machinepy/Classification/Logistic Regression/logistic_reg.py
+src/machinepy/Classification/Logistic Regression L1/Logistic_lasso_reg.py
+src/machinepy/Classification/Logistic Regression L1/__init__.py
+src/machinepy/Classification/Logistic Regression L1L2/__init__.py
+src/machinepy/Classification/Logistic Regression L1L2/logistic_elasticnet_reg.py
+src/machinepy/Classification/Logitic Regression L2/__init__.py
+src/machinepy/Classification/Logitic Regression L2/logistic_ridge_reg.py
+src/machinepy/Classification/Naive Bayes/__init__.py
+src/machinepy/Classification/Naive Bayes/gaussian_NB.py
+src/machinepy/Classification/Perceptron/__init__.py
+src/machinepy/Classification/Perceptron/perceptron.py
+src/machinepy/Classification/QDA/QDAClassifier.py
+src/machinepy/Classification/QDA/__init__.py
+src/machinepy/Classification/RBF Neural Net/RBFN.py
+src/machinepy/Classification/RBF Neural Net/__init__.py
+src/machinepy/Classification/SVM/__init__.py
+src/machinepy/Classification/SVM/svm.py
+src/machinepy/Clustering/__init__.py
+src/machinepy/Clustering/Fuzzy C-Mean/__init__.py
+src/machinepy/Clustering/Fuzzy C-Mean/cmeans.py
+src/machinepy/Clustering/Gaussian Mixture Model/GMM.py
+src/machinepy/Clustering/Gaussian Mixture Model/__init__.py
+src/machinepy/Clustering/Heirarchical Clustering/HCA.py
+src/machinepy/Clustering/Heirarchical Clustering/__init__.py
+src/machinepy/Clustering/K-Means/K-Means.py
+src/machinepy/Clustering/K-Means/__init__.py
+src/machinepy/Clustering/K-Means++/K-mean_pp.py
+src/machinepy/Clustering/K-Means++/__init__.py
+src/machinepy/Clustering/K-Median/__init__.py
+src/machinepy/Clustering/K-Median/k_median.py
+src/machinepy/Clustering/K-Median++/__init__.py
+src/machinepy/Clustering/K-Median++/kmedian_pp.py
+src/machinepy/Clustering/Mean-Shift/__init__.py
+src/machinepy/Clustering/Mean-Shift/mean_shift.py
+src/machinepy/Clustering/Spectral Clustering/__init__.py
+src/machinepy/Clustering/Spectral Clustering/spectral.py
+src/machinepy/Dimensionality Redcuction/__init__.py
+src/machinepy/Dimensionality Redcuction/Discriminant Neighborhood Embedding/DNE.py
+src/machinepy/Dimensionality Redcuction/Discriminant Neighborhood Embedding/__init__.py
+src/machinepy/Dimensionality Redcuction/Isomap/ISOMAP.py
+src/machinepy/Dimensionality Redcuction/Isomap/__init__.py
+src/machinepy/Dimensionality Redcuction/Kernel LDA/__init__.py
+src/machinepy/Dimensionality Redcuction/Kernel LDA/kernel_LDA.py
+src/machinepy/Dimensionality Redcuction/Kernel PCA/Kernel_PCA.py
+src/machinepy/Dimensionality Redcuction/Kernel PCA/__init__.py
+src/machinepy/Dimensionality Redcuction/LDA/LDA.py
+src/machinepy/Dimensionality Redcuction/LDA/__init__.py
+src/machinepy/Dimensionality Redcuction/PCA/PCA.py
+src/machinepy/Dimensionality Redcuction/PCA/__init__.py
+src/machinepy/Dimensionality Redcuction/Probabilistic PCA/Probabilistic_PCA.py
+src/machinepy/Dimensionality Redcuction/Probabilistic PCA/__init__.py
+src/machinepy/Dimensionality Redcuction/Random Projection/Rnadom_projection.py
+src/machinepy/Dimensionality Redcuction/Random Projection/__init__.py
+src/machinepy/Dimensionality Redcuction/cMDS/__init__.py
+src/machinepy/Dimensionality Redcuction/cMDS/cMDS.py
+src/machinepy/Regression/__init__.py
+src/machinepy/Regression/Bayesian Ridge Regression/__init__.py
+src/machinepy/Regression/Bayesian Ridge Regression/bayesian_ridge_reg.py
+src/machinepy/Regression/Chebyshev-FLNN/CFLNN.py
+src/machinepy/Regression/Chebyshev-FLNN/__init__.py
+src/machinepy/Regression/Gaussian Processes/GP_regressor.py
+src/machinepy/Regression/Gaussian Processes/__init__.py
+src/machinepy/Regression/KNN Regression/KNN_reg.py
+src/machinepy/Regression/KNN Regression/__init__.py
+src/machinepy/Regression/LInear Regression L2/__init__.py
+src/machinepy/Regression/LInear Regression L2/linear_reg_L2.py
+src/machinepy/Regression/Laguerre-FLNN/LFLNN.py
+src/machinepy/Regression/Laguerre-FLNN/__init__.py
+src/machinepy/Regression/Legendre-FLNN/LeFLNN.py
+src/machinepy/Regression/Legendre-FLNN/__init__.py
+src/machinepy/Regression/Linear Regression/__init__.py
+src/machinepy/Regression/Linear Regression/linear_regression.py
+src/machinepy/Regression/Linear Regression L1/__init__.py
+src/machinepy/Regression/Linear Regression L1/linear_regression_L1.py
+src/machinepy/Regression/Linear Regression L1L2/__init__.py
+src/machinepy/Regression/Linear Regression L1L2/linear_reg_L1L2.py
+src/machinepy/Regression/Local Regression/__init__.py
+src/machinepy/Regression/Local Regression/llr.py
+src/machinepy/Regression/MLE Linear Regression/MLE_reg.py
+src/machinepy/Regression/MLE Linear Regression/__init__.py
+src/machinepy/Regression/Nadaraya-Watson Regression/__init__.py
+src/machinepy/Regression/Nadaraya-Watson Regression/nadaraya_watson.py
+src/machinepy/Regression/Perceptron_ADALINE Regression/__init__.py
+src/machinepy/Regression/Perceptron_ADALINE Regression/perceptron_reg.py
+src/machinepy/Regression/RANSAC/RANSAC.py
+src/machinepy/Regression/RANSAC/__init__.py
+src/machinepy/Regression/RBF Neural Nets/RBFN_reg.py
+src/machinepy/Regression/RBF Neural Nets/__init__.py
+src/machinepy/SSL-Clustering/__init__.py
+src/machinepy/SSL-Clustering/COP K-Means/__init__.py
+src/machinepy/SSL-Clustering/COP K-Means/cop_kmean.py
+src/machinepy/SSL-Clustering/Constrained K-Means/__init__.py
+src/machinepy/SSL-Clustering/Constrained K-Means/constrained_kmeans.py
+src/machinepy/SSL-Clustering/Seed K-Means/__init__.py
+src/machinepy/SSL-Clustering/Seed K-Means/seed_kmeans.py
+src/machinepy/SSL-Dimensionality Reduction/__init__.py
+src/machinepy/SSL-Dimensionality Reduction/Manifold/SSDR_Manifold.py
+src/machinepy/SSL-Dimensionality Reduction/Manifold/__init__.py
+src/machinepy/SSL-Dimensionality Reduction/SSDR (M,CM,CMU)/SSDR_constrained.py
+src/machinepy/SSL-Dimensionality Reduction/SSDR (M,CM,CMU)/__init__.py
+src/machinepy/SSL-Regression/__init__.py
+src/machinepy/SSL-Regression/Classification/__init__.py
+src/machinepy/SSL-Regression/Clustering/__init__.py
+src/machinepy/SSL-Regression/Co-Training Regression/__init__.py
+src/machinepy/SSL-Regression/Dimensionality Redcuction/__init__.py
+src/machinepy/SSL-Regression/Regression/__init__.py
+src/machinepy/SSL-Regression/SSL-Clustering/__init__.py
+src/machinepy/SSL-Regression/SSL-Dimensionality Reduction/__init__.py
+src/machinepy/SSL-Regression/SSL_Classification/__init__.py
+src/machinepy/SSL_Classification/__init__.py
+src/machinepy/SSL_Classification/Cluster and Label/__init__.py
+src/machinepy/SSL_Classification/Cluster and Label/cluster_and_label.py
+src/machinepy/SSL_Classification/Co-Training/__init__.py
+src/machinepy/SSL_Classification/Co-Training/co_train.py
+src/machinepy/SSL_Classification/Pseudo Labelling/__init__.py
+src/machinepy/SSL_Classification/Pseudo Labelling/pseudo_label.py
+src/machinepy/SSL_Classification/Self-Training/__init__.py
+src/machinepy/SSL_Classification/Self-Training/self_train.py
