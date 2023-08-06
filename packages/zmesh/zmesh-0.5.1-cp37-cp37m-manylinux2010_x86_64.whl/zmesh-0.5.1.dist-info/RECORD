@@ -1,0 +1,12 @@
+zmesh/_zmesh.cpp,sha256=kzwPImptsgIt6_jvmaHucA88kfmBXedAIDn_XJoZA8A,673762
+zmesh/_zmesh.pyx,sha256=ZUMF2P6M8gvEZvPrbIAIDkcA9l69gm4_MzLuv1tQMbw,8377
+zmesh/__init__.py,sha256=3DzvmKJxT9we1tTrii2lgHU-9JnRep27IfMMmel7RlU,78
+zmesh/mesh.py,sha256=hTehHoQhIcoKaH1kKsykDy2HnUxCIK3Oj8q7GzGgIPk,6607
+zmesh/_zmesh.cpython-37m-x86_64-linux-gnu.so,sha256=S6N0QUzh0Xx27andVJu0MmyZFYgRNan1qpZLHpqfFP8,4498024
+zmesh-0.5.1.dist-info/WHEEL,sha256=0MSpaUzP5zzwal1dxeHUy0SBa34DZ1IXf7uOC2KAHL4,112
+zmesh-0.5.1.dist-info/top_level.txt,sha256=nI43ZuTLu-QmoPDDGO5U-Wflyq_6Ec4Bhv-VAMjCPeY,6
+zmesh-0.5.1.dist-info/METADATA,sha256=tkTssiT0YotnqrKl2_yGzrIYn2jkwNtdtfh2GNJl0AQ,4610
+zmesh-0.5.1.dist-info/pbr.json,sha256=gUxZpC5c9tyK9Y5Blbdq95ZhJDQIsQASke5xMWae2cw,47
+zmesh-0.5.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zmesh-0.5.1.dist-info/RECORD,,
+zmesh-0.5.1.dist-info/AUTHORS,sha256=Aa4H7O3dtmfq0lF_eATudy11i8K6QAI8LykzASr9bL0,52
