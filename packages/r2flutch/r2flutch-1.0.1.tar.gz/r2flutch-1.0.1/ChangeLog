@@ -1,0 +1,33 @@
+CHANGES
+=======
+
+1.0.1
+-----
+
+* Using base64: when listing content
+* Update README.md
+* Update gif
+* Add Demo to README
+* Update README.md
+* Update README
+* Update README.md
+* Minor changes
+* Minor changes
+* Update README
+
+1.0.0
+-----
+
+* Ready to release
+* Packaged to use pypi
+* Added pypi Setup
+* Prepared package to pypi
+* First app version
+* Add tests and code checks
+* Add LICENSE
+* Refactor code of r2f plugin
+* Some code refactor
+* Update gitignore
+* Remove files
+* First version
+* Initial commit
