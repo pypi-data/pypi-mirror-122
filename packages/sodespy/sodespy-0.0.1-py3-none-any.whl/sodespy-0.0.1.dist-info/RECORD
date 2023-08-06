@@ -1,0 +1,14 @@
+sodespy/__init__.py,sha256=QV4QUqrr0PNvRGHsmK2nnq8ZzBcdW_xvpcF1Oka4PqI,86
+sodespy/noise.py,sha256=NvOMxEPvJZ1vS-2irDVuqfwn0oU2iJFQ7wetrvRPyv0,1212
+sodespy/sde_system.py,sha256=xipkSXscGlKyu2u9O0OQyKFXmsO4LlUVphqBJB3DjHg,4585
+sodespy/timing.py,sha256=Iaa9uRwrPuJ5VMMfHkfOA_d5WExGtMW0DOI-7ATXCpE,321
+sodespy/schemes/SRA1.py,sha256=FfzQkUbUV2-Tn3_qcyCMHT7yylAABqCBTCE3Uofst1M,870
+sodespy/schemes/SRI1W1.py,sha256=_XJZ___6vYC8zRylR6EGHfzoTE4wGVKZf60bXb50W5U,1935
+sodespy/schemes/__init__.py,sha256=caAemwP4Urrecl4nbWMguY6e52UONx5hGPS16cRDQ2M,94
+sodespy/schemes/euler.py,sha256=YZnCrka-pxy7km7OQ1rN_OqiVvFExJoOyS_KykCl9k8,494
+sodespy/schemes/scheme_base.py,sha256=H3CQsgDApTJ9MzX9Dc_r9lAxtEFDuUsbrKpEkjOSf4I,373
+sodespy-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sodespy-0.0.1.dist-info/METADATA,sha256=K0pICNuLXkp2jUuHSLHZZCLaqZgRVUMs4bvnfQ5kb3w,5975
+sodespy-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sodespy-0.0.1.dist-info/top_level.txt,sha256=JB1gXrKDczqPnQvylJSS2L7Ipovolwc648aVIwONjQA,8
+sodespy-0.0.1.dist-info/RECORD,,
