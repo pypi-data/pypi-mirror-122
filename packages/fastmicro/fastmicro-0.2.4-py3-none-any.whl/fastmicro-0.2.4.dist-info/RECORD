@@ -1,0 +1,15 @@
+fastmicro/__init__.py,sha256=Kj1s_39rNqPe9a20Rhkz3TrL91BEcGAaQn7Jyq-WefM,79
+fastmicro/entrypoint.py,sha256=dVZNNZ-JP9NkE7SZZr1ZxhaVO1_XvPUN5osei1cz8MI,11768
+fastmicro/env.py,sha256=GzguFJnuNBPLj-4wjavaRc-q0R3yvREi6Ht4lThx-3Y,973
+fastmicro/messaging/__init__.py,sha256=vvnYCTjVGQht68ObrLpPEb5ewnu78VZ6UeRXHMEgwgI,5930
+fastmicro/messaging/kafka.py,sha256=-YFEAPjFzN8dKzHmdG5JY7LPVdYZdfuE3w8o4Lo_9h4,7618
+fastmicro/messaging/memory.py,sha256=iMGys1aqTLPZE7cgpuZzE-fefU94fEgqRmhNQTgLxGY,4611
+fastmicro/messaging/redis.py,sha256=kGkSpQ4xCVS9_znyP73XcqGyk3HIaI8cXo7r94a3Skk,5058
+fastmicro/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastmicro/serializer/__init__.py,sha256=P2HQENIrf2Lu0fg16hJQSdL4lWAYh85hsomR5PvE2Oc,339
+fastmicro/serializer/json.py,sha256=4cA7Tac_GGDjWL9Hppz1K_xJ2AKPTZt54emOhTBqXxA,454
+fastmicro/serializer/msgpack.py,sha256=WTsUTbr5FayVoX8Y_VhXYyGaqO-uOPd-CVYZNHmBpeY,458
+fastmicro/service.py,sha256=z8W_OULBvTZwC3HvL6d8eFYFiDPZ-BGr9Q7q0o8glW8,1958
+fastmicro-0.2.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+fastmicro-0.2.4.dist-info/METADATA,sha256=Kpy_wD4bC4t-xkBmRNYTyIFN45tzMYYT24hfu0Vxdnc,6287
+fastmicro-0.2.4.dist-info/RECORD,,
