@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Mshpy
+Version: 0.0.8
+Summary: Simplified Earth magnetosheath model
+Home-page: UNKNOWN
+Author: Jaewoong Jung
+Author-email: <jjung11@alaska.edu>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mshpy
+
+The Mshpy module provides simplified magnetosheath model.
+See
+* Full [documentation](https://mshpy.readthedocs.io/en/latest/)
+
+# Installation
+
+Installation is avaliable through pypi
+
+```
+    $ pip install Mshpy
+```
+
+# Example
+Example is available in the documentation.
+
+
