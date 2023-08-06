@@ -1,0 +1,10 @@
+helpstack/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+helpstack/_nbdev.py,sha256=jqOt11GEt9xSDYgwg-_l19aAPD0abq8Z9QSh5EbxB-4,373
+helpstack/help_stack.py,sha256=N0WIH5DkA7O6ag3Ut-bPSpVSa0sO7RmxC7iH-liNYt4,2766
+helpstack/warn_stack.py,sha256=2zI5qVCjYRVNt3OSJBEuZvvxIZ4aJYpVLiZOf8F9rSI,2768
+helpstack-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+helpstack-0.0.1.dist-info/METADATA,sha256=8jtVSq6evNGtNs_e8P4j1SC8anUElHukHUtJ5i2cXjg,1895
+helpstack-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+helpstack-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+helpstack-0.0.1.dist-info/top_level.txt,sha256=oi3sW-K35UClM2NYzfeahactFVwr1t37yu8HcgrMBBg,10
+helpstack-0.0.1.dist-info/RECORD,,
