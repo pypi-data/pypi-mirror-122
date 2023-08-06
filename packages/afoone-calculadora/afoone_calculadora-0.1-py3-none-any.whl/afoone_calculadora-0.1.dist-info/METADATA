@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: afoone-calculadora
+Version: 0.1
+Summary: Calculator package for testing pypi
+Home-page: https://github.com/afoone/calculadora
+Author: Alfonso Tienda
+Author-email: afoone@hotmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
