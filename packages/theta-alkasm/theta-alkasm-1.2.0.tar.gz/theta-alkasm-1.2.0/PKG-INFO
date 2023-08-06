@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: theta-alkasm
+Version: 1.2.0
+Summary: Extensions for multithreaded Python applications.
+Home-page: https://github.com/alkasm/theta
+License: MIT
+Author: Alexander Reynolds
+Author-email: alex@theory.shop
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/alkasm/theta
+Description-Content-Type: text/markdown
+
+# theta
+
+Extensions for multithreaded Python applications.
+
+## Install
+
+```sh
+pip install theta-alkasm
+```
+
+## Development
+
+In a virtual environment:
+
+```
+$ poetry install
+$ poetry check
+$ poetry run pytest
+$ poetry run black theta
+$ poetry run mypy theta
+```
+
