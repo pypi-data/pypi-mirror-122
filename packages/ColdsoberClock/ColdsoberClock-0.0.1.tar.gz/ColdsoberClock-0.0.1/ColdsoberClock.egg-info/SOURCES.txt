@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ColdsoberClock.egg-info/PKG-INFO
+ColdsoberClock.egg-info/SOURCES.txt
+ColdsoberClock.egg-info/dependency_links.txt
+ColdsoberClock.egg-info/requires.txt
+ColdsoberClock.egg-info/top_level.txt
+GuiClock/__init__.py
