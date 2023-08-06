@@ -1,0 +1,3 @@
+[console_scripts]
+life-start = life_web_ui:start
+
