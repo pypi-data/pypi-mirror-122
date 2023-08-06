@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "setuptools>=54",
+    "wheel"
+]
+
+build-backup = "setuptools.build_meta"
