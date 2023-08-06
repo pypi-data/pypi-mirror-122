@@ -1,0 +1,5 @@
+cqls
+opencc
+pyyaml
+scipy
+transformers
