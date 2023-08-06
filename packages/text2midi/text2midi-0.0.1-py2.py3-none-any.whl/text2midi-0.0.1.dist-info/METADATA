@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: text2midi
+Version: 0.0.1
+Summary: text2midi
+Home-page: https://github.com/nshdesai/text2midi
+Author: Nishkrit Desai
+Author-email: nishkritdesai10@gmail.com
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# text2midi
+A program that takes text and converts it to MIDI art
+
+## Usage
+
+For now, you can run `text2midi` as follows. This will take the first argument (the message string), and generate the MIDI file that draws out the given message string.
+```bash
+python -m text2midi "<message_string>" path/to/output/file.mid
+```
+
+For example, you could run something like,
+
+```bash
+python -m text2midi "Hello, World\!" hello_world.mid
+```
+
+Now, to actually see this MIDI file (in piano roll) you can use the DAW of your choice. Logic Pro X, Reaper, GarageBand (?) would work just fine. 
+
