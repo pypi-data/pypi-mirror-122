@@ -1,0 +1,11 @@
+ogip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ogip/cli.py,sha256=x5RFuSsRfKmRQOJKHE-jQxl-cxR3K__mDHIMH5QcTHc,543
+ogip/core.py,sha256=GqbfG0Xh1uqgombtU9FJyikV1U_F0DNPgq7LtTPIr68,459
+ogip/spec.py,sha256=_YbPCg0OrzwC7L_WlEnbRD5aJkovbjbRJwjPBb-HPdQ,16375
+ogip/tools.py,sha256=jmOGNtRIIfWjZm8aUQszUE69vl6wyyHTGp5j7tjkTt4,2764
+ogip-0.1.4.dist-info/COPYING,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ogip-0.1.4.dist-info/METADATA,sha256=fFSgyZ4v0JVUBbZaKwdh4L44pKV2ZC4GT7rO1mw1wIo,2971
+ogip-0.1.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+ogip-0.1.4.dist-info/entry_points.txt,sha256=6SznsscHZ89MT1ba6o5NsjH10in0VwK2ECNW53qK-fU,39
+ogip-0.1.4.dist-info/top_level.txt,sha256=VieVoTVnS6RAD9A4GIwDeTKNPFlQtOLGAWE3iRdV4gA,5
+ogip-0.1.4.dist-info/RECORD,,
