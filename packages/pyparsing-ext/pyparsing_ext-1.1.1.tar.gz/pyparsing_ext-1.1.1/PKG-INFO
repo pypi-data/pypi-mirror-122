@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyparsing_ext
+Version: 1.1.1
+Summary: A cool tool for parsing. It is an extension of pyparsing. One can build his own programming language with it.
+Home-page: https://github.com/Freakwill/pyparsing_ext
+Author: William Song
+Author-email: songcwzjut@163.com
+License: MIT
+Keywords: Parsing,Text Processing
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Natural Language :: English
+
+See github
+
