@@ -1,0 +1,15 @@
+celltypist/__init__.py,sha256=Xfk9S0yOPntUajrVK79vuVkX0gIYwwGScBWVMUq4yWo,118
+celltypist/annotate.py,sha256=xbIMXSLhzgfYbp5NIuimkgCOChE41rJ0EUWBnxAENjc,5672
+celltypist/classifier.py,sha256=CKxFE2bb98m3BP0dCiBjt80bRvRQog6CTLJWh4qz5ws,23765
+celltypist/command_line.py,sha256=CRDqPdiNppEVI_QbkVGlYWf3tQCoUmAy4qRIE5oJ690,7382
+celltypist/logger.py,sha256=YHwi6JruMUdYhsqMc4KHutLGkX2zuJ7W2H3VEm3xIrU,226
+celltypist/models.py,sha256=FRNwojiPyYaBqFCjuWU36DgGUXJx93_S3kYT45d4uyw,9741
+celltypist/samples.py,sha256=aRPYixOHX44TeCxqVW9IgMMcQWVQvNix42uYN98MtpE,570
+celltypist/train.py,sha256=Bex6VjfENbFP2tFgcQ00e7YmQ4vk_TwXYplYQ3K6dM8,17377
+celltypist/data/samples/sample_cell_by_gene.csv,sha256=DXKb16nk2PWozMFn8iJTD07OjTNLk50ht5a9d9r5Z_I,53473636
+celltypist-0.1.5.dist-info/LICENSE,sha256=JwOsUaVPtRnplHbwsX1StIUi1UuyGG88HmbDUnoq1Pw,1056
+celltypist-0.1.5.dist-info/METADATA,sha256=cekLpnxZIRwRt6Ak3oAjjRD_vgQmsqIMqTrCzhtGcfA,30008
+celltypist-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+celltypist-0.1.5.dist-info/entry_points.txt,sha256=murf4ibbFYZ0w-4eRff1w0wKQtK-dRTqSmgAxyAtRNs,61
+celltypist-0.1.5.dist-info/top_level.txt,sha256=bgGVimuLg37fmvYvGzyHRXUCshNejuonMV6NdqMZ7fs,11
+celltypist-0.1.5.dist-info/RECORD,,
