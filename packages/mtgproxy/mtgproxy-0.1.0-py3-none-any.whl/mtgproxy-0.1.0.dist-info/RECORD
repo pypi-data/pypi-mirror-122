@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/command.py,sha256=y8LNvhMOx75tJ8jBx2c4otWubL1SecgQIUQRvK9fMEU,473
+src/commons.py,sha256=G4Uqtnl4XS1bBX8DNJmBW4XYO17izq4G525FjGuyETc,455
+src/create_proxy.py,sha256=BwQNvquQSFL-XO-xuKUBra23RhdbFXTtaNoghr1P4Ew,7307
+mtgproxy-0.1.0.dist-info/entry_points.txt,sha256=QB8ow2qb9UPoDWCe1lbue4PO6B8LBITRLhXMlDNVO_g,45
+mtgproxy-0.1.0.dist-info/LICENSE,sha256=dWiVR5vIAaPlQUJEyt-yoa55zydR0UHbExTLLbAqbMI,1062
+mtgproxy-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mtgproxy-0.1.0.dist-info/METADATA,sha256=8RdiLlywt2MwiFIayGNWI9RQwO5Ax_CvqH2_lsDG7g4,2527
+mtgproxy-0.1.0.dist-info/RECORD,,

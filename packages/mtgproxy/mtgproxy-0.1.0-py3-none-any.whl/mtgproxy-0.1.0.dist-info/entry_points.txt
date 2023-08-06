@@ -1,0 +1,3 @@
+[console_scripts]
+mtgproxy=src.command:main
+
