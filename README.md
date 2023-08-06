@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2021-10-01 20:31 and 2021-10-11 00:11.
 
-The repo is 45% (18000/40000) complete.
+The repo is 50% (20000/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-122/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| openhub-api | 388 |
-| multidict | 360 |
-| yarl | 278 |
-| utilmy | 240 |
-| bitcoin-explorer | 204 |
-| ingradient-lib-temp | 185 |
-| spanishconjugator | 144 |
-| pyagrum-nightly | 135 |
-| cloudrail-knowledge | 120 |
-| Aspidites | 119 |
-| OpenGeode-core | 109 |
-| redlibssh2 | 103 |
-| pygame | 94 |
-| pdfo | 91 |
-| wrapt | 90 |
-| ruptures | 75 |
-| raylib | 72 |
-| wechaty-grpc | 68 |
-| coverage | 68 |
-| awscrt | 67 |
-| scout-apm | 66 |
-| auto-pull-request | 66 |
-| aizoo | 66 |
-| nd2 | 60 |
-| assisted-service-client | 60 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-122).
 
 
