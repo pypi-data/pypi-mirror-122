@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+app/__init__.py
+app/extract_audio.py
+extract_audio.egg-info/PKG-INFO
+extract_audio.egg-info/SOURCES.txt
+extract_audio.egg-info/dependency_links.txt
+extract_audio.egg-info/entry_points.txt
+extract_audio.egg-info/top_level.txt
