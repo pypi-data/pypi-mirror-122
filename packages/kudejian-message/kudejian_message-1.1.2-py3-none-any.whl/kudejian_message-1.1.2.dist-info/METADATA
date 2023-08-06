@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kudejian-message
+Version: 1.1.2
+Summary: Get Yootk Information.
+Home-page: http://www.yootk.com
+Author: 李兴华
+License: UNKNOWN
+Platform: UNKNOWN
+
+获取Yootk网站信息的组件模块
+
