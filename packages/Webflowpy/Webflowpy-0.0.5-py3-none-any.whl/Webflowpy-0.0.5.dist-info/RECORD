@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_Webflow.py,sha256=x5lEZ8lk4JxIg466co3VYx_T-uM1mr-gbEHf5wVCu_Q,2318
+webflowpy/Webflow.py,sha256=o0na7O0mD8dydvnWzeyaMOGc4UTHEpoc2g6za2cx7pQ,7258
+webflowpy/WebflowResponse.py,sha256=gEjmFk6pkWmUWvOtlXecy8Mmx854zuDkxHCu9mqDxxQ,2762
+webflowpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webflowpy/_version.py,sha256=Q8tidNrneSrFRyn4y8aTpJtmtLgZScaIIgERa9doe1c,498
+webflowpy/log.py,sha256=lIl-1jj5P3yOprhg6YhIi_ESJ1l33rLT_rih1Y3-Ukk,4505
+webflowpy/settings.py,sha256=xCHmys9YEwbDJ6hOqlVPwj4Cn2W_4Oh4AaGdqQe1Kh0,2373
+webflowpy/utils.py,sha256=bn7U6iUJ636EzmZhyaMHNx31C7tjky4l18nToTXjQ2g,2092
+Webflowpy-0.0.5.dist-info/LICENSE,sha256=hRWWP9-MP0mlSDpzESdH9ncqfsAy22on_XqQSzilfFo,1069
+Webflowpy-0.0.5.dist-info/METADATA,sha256=QxtL62O0NtdwHHGIQvaroxGSJHGJBo30mc719nB4UYc,1907
+Webflowpy-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Webflowpy-0.0.5.dist-info/top_level.txt,sha256=nkBLdjtXgYsUzqN6rFLVslfxJSO3e_KwVkMhoN2NDqo,16
+Webflowpy-0.0.5.dist-info/RECORD,,
