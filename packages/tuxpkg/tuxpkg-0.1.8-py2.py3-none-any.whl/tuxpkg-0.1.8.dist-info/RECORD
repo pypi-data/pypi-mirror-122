@@ -1,0 +1,12 @@
+tuxpkg/__init__.py,sha256=QQBzV9wemzX3VuWvAkYNOoAtLVoEr9TKyPS53erBJnM,75
+tuxpkg/__main__.py,sha256=Vufyhp1ZDPQXFe8OS-TVpayXTFCAsEGReEJYEUMUdvs,1893
+tuxpkg/actions.py,sha256=xG5tfiHZYx-hARdMeb6KnCWUE3a4sYT1GAk4AE-XT90,617
+tuxpkg/data/create-repository,sha256=iKsWFSXYwnMC-zTyp8a935yBiOOzhlUEKTPlz4C_NIg,1468
+tuxpkg/data/debianrules.mk,sha256=5hN7ZGptW2yCK30mX1MCDeogii7AmdtPFHbuvtrk-ag,559
+tuxpkg/data/release,sha256=yXppwPIW3fhnO9f3RjQzkQhs5KE0zO3Jh6zzBWM0fbA,1639
+tuxpkg/data/tuxpkg.mk,sha256=CC5x4EpBb7ykYVZ1vsM86XQ7XqiB666Jo0Xa39-KtuI,1575
+tuxpkg-0.1.8.dist-info/entry_points.txt,sha256=Q5lprfrzravZSAHGlYrUhlILxNjDEqomormndX_9Svs,47
+tuxpkg-0.1.8.dist-info/LICENSE,sha256=t22nJauVb55M5Fd4Cahwh5OWAipnPw0Xu4d1O8xMktQ,1081
+tuxpkg-0.1.8.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+tuxpkg-0.1.8.dist-info/METADATA,sha256=h3wAe5OcvBY9Ml8LdYAXEE0zKT_uy81YEWNAs-Tf1fI,282
+tuxpkg-0.1.8.dist-info/RECORD,,
