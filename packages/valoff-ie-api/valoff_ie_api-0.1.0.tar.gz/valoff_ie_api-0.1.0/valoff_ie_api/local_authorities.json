@@ -1,0 +1,280 @@
+[{
+        "Laadcode": 1,
+        "LaCode": 50,
+        "LaDesc": "CARLOW COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "CARLOW"
+    },
+    {
+        "Laadcode": 2,
+        "LaCode": 50,
+        "LaDesc": "CAVAN COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "CAVAN"
+    },
+    {
+        "Laadcode": 3,
+        "LaCode": 50,
+        "LaDesc": "CLARE COUNTY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "CLARE"
+    },
+    {
+        "Laadcode": 4,
+        "LaCode": 2,
+        "LaDesc": "CORK CITY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "CORK"
+    },
+    {
+        "Laadcode": 4,
+        "LaCode": 50,
+        "LaDesc": "CORK COUNTY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "CORK"
+    },
+    {
+        "Laadcode": 5,
+        "LaCode": 50,
+        "LaDesc": "DONEGAL COUNTY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "DONEGAL"
+    },
+    {
+        "Laadcode": 6,
+        "LaCode": 2,
+        "LaDesc": "DUBLIN CITY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "DUBLIN"
+    },
+    {
+        "Laadcode": 6,
+        "LaCode": 29,
+        "LaDesc": "DUN LAOGHAIRE RATHDOWN CO CO",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "DUBLIN"
+    },
+    {
+        "Laadcode": 6,
+        "LaCode": 28,
+        "LaDesc": "FINGAL COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "DUBLIN"
+    },
+    {
+        "Laadcode": 7,
+        "LaCode": 2,
+        "LaDesc": "GALWAY CITY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "GALWAY"
+    },
+    {
+        "Laadcode": 7,
+        "LaCode": 50,
+        "LaDesc": "GALWAY COUNTY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "GALWAY"
+    },
+    {
+        "Laadcode": 8,
+        "LaCode": 50,
+        "LaDesc": "KERRY COUNTY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "KERRY"
+    },
+    {
+        "Laadcode": 9,
+        "LaCode": 50,
+        "LaDesc": "KILDARE COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "KILDARE"
+    },
+    {
+        "Laadcode": 10,
+        "LaCode": 50,
+        "LaDesc": "KILKENNY COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "KILKENNY"
+    },
+    {
+        "Laadcode": 11,
+        "LaCode": 1,
+        "LaDesc": "LAOIS COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "LAOIS"
+    },
+    {
+        "Laadcode": 12,
+        "LaCode": 1,
+        "LaDesc": "LEITRIM COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "LEITRIM"
+    },
+    {
+        "Laadcode": 13,
+        "LaCode": 50,
+        "LaDesc": "LIMERICK CITY AND COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "LIMERICK"
+    },
+    {
+        "Laadcode": 14,
+        "LaCode": 50,
+        "LaDesc": "LONGFORD COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "LONGFORD"
+    },
+    {
+        "Laadcode": 15,
+        "LaCode": 50,
+        "LaDesc": "LOUTH COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "LOUTH"
+    },
+    {
+        "Laadcode": 16,
+        "LaCode": 50,
+        "LaDesc": "MAYO COUNTY COUNCIL",
+        "LaReval": false,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "MAYO"
+    },
+    {
+        "Laadcode": 17,
+        "LaCode": 50,
+        "LaDesc": "MEATH COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "MEATH"
+    },
+    {
+        "Laadcode": 18,
+        "LaCode": 50,
+        "LaDesc": "MONAGHAN COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "MONAGHAN"
+    },
+    {
+        "Laadcode": 19,
+        "LaCode": 50,
+        "LaDesc": "OFFALY COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "OFFALY"
+    },
+    {
+        "Laadcode": 20,
+        "LaCode": 1,
+        "LaDesc": "ROSCOMMON COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "ROSCOMMON"
+    },
+    {
+        "Laadcode": 21,
+        "LaCode": 50,
+        "LaDesc": "SLIGO COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "SLIGO"
+    },
+    {
+        "Laadcode": 6,
+        "LaCode": 30,
+        "LaDesc": "SOUTH DUBLIN COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "DUBLIN"
+    },
+    {
+        "Laadcode": 28,
+        "LaCode": 50,
+        "LaDesc": "TIPPERARY COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "TIPPERARY"
+    },
+    {
+        "Laadcode": 24,
+        "LaCode": 50,
+        "LaDesc": "WATERFORD CITY AND COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "WATERFORD"
+    },
+    {
+        "Laadcode": 25,
+        "LaCode": 50,
+        "LaDesc": "WESTMEATH COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "WESTMEATH"
+    },
+    {
+        "Laadcode": 26,
+        "LaCode": 50,
+        "LaDesc": "WEXFORD COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "WEXFORD"
+    },
+    {
+        "Laadcode": 27,
+        "LaCode": 50,
+        "LaDesc": "WICKLOW COUNTY COUNCIL",
+        "LaReval": true,
+        "IsActiveListing": true,
+        "ListingActive": true,
+        "County": "WICKLOW"
+    }
+]
