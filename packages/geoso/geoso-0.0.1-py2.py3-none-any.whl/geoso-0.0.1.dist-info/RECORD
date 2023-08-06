@@ -1,0 +1,13 @@
+geoso/__init__.py,sha256=1T3wEEWtn-dRX6p0p2ZyKJ7mBD0gN2rt8Fb5TKpC2Xk,396
+geoso/clean_text.py,sha256=8oCUDpI4vPv54Mk0QzWIZm8lgP1Ii5teimUtzwZwfq8,7280
+geoso/cli.py,sha256=vvUmcshlbMkFzThdy_ywk2_gy2GTG8fDYOn-C5ijwZE,17822
+geoso/geoso.py,sha256=KQCr_jS7dkkZ9ak2v4jZpU7pXg5yOGFO0qxx5GVp4gI,76
+geoso/postgres.py,sha256=WYxLBrX-Wbd9c620FVzHB7aUfpoksEW1xvrI1F0W9_0,37048
+geoso/utils.py,sha256=usw1HNa7CLfRHjMwiniVEmXRS55C_6-k54DU17gAQXo,4607
+geoso-0.0.1.dist-info/LICENSE,sha256=TGV0miBhIDaUhytFlKEubaF5hyBgfTK34Wc42RWQ1uk,1073
+geoso-0.0.1.dist-info/METADATA,sha256=-FeJVtCXp-au9qb1M0WLMoZwmcBg3a0g-3xr5GWOWpE,1833
+geoso-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+geoso-0.0.1.dist-info/dependency_links.txt,sha256=PFh3lp0qhvaXSlTmurFntLckuLiFgOCOyUoZBAc9Cpg,241
+geoso-0.0.1.dist-info/entry_points.txt,sha256=tXMAMGenXmESZyOeJtJDBanUFs0gsHTJrVhDyiAOfdQ,42
+geoso-0.0.1.dist-info/top_level.txt,sha256=A6vg6I_9rQoVPuQppbhwmrdcdsnfWJ0Ka2cf9uS2hQ8,6
+geoso-0.0.1.dist-info/RECORD,,
