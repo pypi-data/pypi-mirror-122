@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: bad-helloworld-2
+Version: 1.0
+Summary: hello world to break dependencies...
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: ## Hello world
+        
+        This package is called __"bad-helloworld-2"__ for it's kind of stange purpose - cause _ResolutionFailure: Your dependencies could not be resolved_.
+        
+        To achieve so high goal the package __"bad-helloworld-1"__ will be also created.
+        
+        
+        ## Installation
+        
+        Run the following to install:
+        
+        ```python
+        pip install bad-helloworld-2
+        ```
+        
+        ## Usage
+        
+        ...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
