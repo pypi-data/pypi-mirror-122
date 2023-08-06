@@ -1,0 +1,13 @@
+README.md
+setup.py
+pulumi_aws_s3_replicated_bucket/__init__.py
+pulumi_aws_s3_replicated_bucket/_utilities.py
+pulumi_aws_s3_replicated_bucket/provider.py
+pulumi_aws_s3_replicated_bucket/py.typed
+pulumi_aws_s3_replicated_bucket/replicated_bucket.py
+pulumi_aws_s3_replicated_bucket.egg-info/PKG-INFO
+pulumi_aws_s3_replicated_bucket.egg-info/SOURCES.txt
+pulumi_aws_s3_replicated_bucket.egg-info/dependency_links.txt
+pulumi_aws_s3_replicated_bucket.egg-info/not-zip-safe
+pulumi_aws_s3_replicated_bucket.egg-info/requires.txt
+pulumi_aws_s3_replicated_bucket.egg-info/top_level.txt
