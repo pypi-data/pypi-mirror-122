@@ -1,0 +1,4 @@
+psycopg2
+confluent_kafka
+avro-python3
+requests
