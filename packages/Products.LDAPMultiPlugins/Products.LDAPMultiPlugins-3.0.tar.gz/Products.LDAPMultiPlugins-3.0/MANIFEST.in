@@ -1,0 +1,13 @@
+include *.py
+include *.rst
+include *.txt
+include buildout.cfg
+include tox.ini
+
+recursive-include docs Makefile
+recursive-include docs *.rst
+recursive-include docs *.py
+
+recursive-include src *.dtml
+recursive-include src *.py
+recursive-include src *.zcml
