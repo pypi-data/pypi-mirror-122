@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autosel/__init__.py
+autosel/main.py
+autosel.egg-info/PKG-INFO
+autosel.egg-info/SOURCES.txt
+autosel.egg-info/dependency_links.txt
+autosel.egg-info/requires.txt
+autosel.egg-info/top_level.txt
