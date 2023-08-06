@@ -1,0 +1,17 @@
+stactools/goes/__init__.py,sha256=hZQ16SpWwZs_K_BfB0CR3mpwHk3Zm7GlkfEYQoTyjaE,315
+stactools/goes/attributes.py,sha256=64DTQGRjhmWXeuQi34dnAL-dxXEeku1_5D_te2IBI4M,1700
+stactools/goes/bands.py,sha256=Qi7i3s1YsMjcGoa_MmilcWZIvuQgG5r1Y76plY6DF2A,3074
+stactools/goes/cog.py,sha256=qBMePzvrYt2szRL_tpEoaHVYNGYLeZ6AGYM6JnBK0i8,3547
+stactools/goes/commands.py,sha256=ZrqBTuIGzJVgLhqL5VuqhFbRKHAfj3VUrUNONPM6Aao,1157
+stactools/goes/dataset.py,sha256=wfLlpUiAg5Eb2sAocsrMiatCYSrpHT9Jbfz45QZCTqo,7214
+stactools/goes/enums.py,sha256=SXRutdH_Yt7DSGen2OifHhEJhedFX_7NWMj_BpWGwrI,4316
+stactools/goes/errors.py,sha256=9cvbooDuj50mm9GN2VZ_MZC6nE3UdxGUVn4p9JyNeIY,725
+stactools/goes/file_name.py,sha256=xcD1oYLxFakxVrgzsyWKeMOuB1kwEVm8Q1dbJxmnLQ8,6624
+stactools/goes/product.py,sha256=LW5-lE2eTir_sbFjwyLg8PxYv3KakUg1pKutk7Xg1fQ,22516
+stactools/goes/stac.py,sha256=zBID4TDVqAu35Y7QoUEEXC_FZPwC6MdAO1-aE6LmJS8,11695
+stactools/goes/utils.py,sha256=QZ28_A4QKA-1tn2n9BzfgbxcxS6SoyjLKcO0snHCnzk,1531
+stactools_goes-0.1.6.dist-info/LICENSE,sha256=kGshx52lEVXCvfof1klIqE0XMDNNK05-b3xtn6rH8E4,641
+stactools_goes-0.1.6.dist-info/METADATA,sha256=MshokV-UcTvddK7NyNKYRk-k6L6OZbmzIRrconnLrZI,1736
+stactools_goes-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stactools_goes-0.1.6.dist-info/top_level.txt,sha256=0eoUA-AbTfjFtxXr3W-vQdRyNmpGnA0wlTL3ppTPCG8,10
+stactools_goes-0.1.6.dist-info/RECORD,,
