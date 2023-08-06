@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "yalambda"
+version = "0.5.0"
+description = "Yandex.Cloud Functions toolkit"
+authors = ["decorator-factory <42166884+decorator-factory@users.noreply.github.com>"]
+license = "MIT"
+homepage = "https://github.com/decorator-factory/yalambda"
+readme = "README.md"
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+dataclass-factory = "^2.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
