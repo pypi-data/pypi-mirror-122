@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: GradescopeBase
+Version: 0.0.4.8
+Summary: Utilities for building Gradescope autograders
+Home-page: https://github.com/61c-teach/GradescopeBase
+Author: Stephan Kaminsky
+Author-email: skaminsky115@berkeley.edu
+License: MIT
+Keywords: gradescope http service
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# GradescopeBase
+This is the base of any Gradescope autograder.
+
+# Creator
+
+* ThaumicMekanism [Stephan K.]
+
