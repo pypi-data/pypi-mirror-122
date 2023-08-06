@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: coldclock
+Version: 0.0.2
+Summary: GUI clock for tkinter based projects
+Home-page: UNKNOWN
+Author: coldsober irene
+Author-email: nseirene3@gmail.com
+License: MIT
+Description: 
+        this is a library for GUI project, you can import this library and then specify the label to hol the clock
+        and then work with it smoothly without keep typing codes.
+        
+        
+        CHANGE LOG
+        ===========
+        
+        0.0.1 (06/10/2021)
+        ---------------------
+        FIRST RELEASE
+Keywords: clock,time,date,datetime
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
