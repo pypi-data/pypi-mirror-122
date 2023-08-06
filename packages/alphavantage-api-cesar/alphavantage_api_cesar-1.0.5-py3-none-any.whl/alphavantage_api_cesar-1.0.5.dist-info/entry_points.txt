@@ -1,0 +1,3 @@
+[console_scripts]
+alphavantage = stock_time_series.__main__:main
+
