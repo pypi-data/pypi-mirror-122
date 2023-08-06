@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: myfirstdummypackage
+Version: 0.1.2
+Summary: My own dummy package for lab2
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas (<1.0)
+
+UNKNOWN
+
