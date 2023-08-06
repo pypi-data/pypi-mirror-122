@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pydo=pydo.entrypoints.cli:cli
+    
