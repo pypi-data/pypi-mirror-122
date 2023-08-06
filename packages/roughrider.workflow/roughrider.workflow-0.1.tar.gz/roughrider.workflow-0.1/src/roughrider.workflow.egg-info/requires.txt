@@ -1,0 +1,4 @@
+roughrider.predicate
+
+[test]
+pytest
