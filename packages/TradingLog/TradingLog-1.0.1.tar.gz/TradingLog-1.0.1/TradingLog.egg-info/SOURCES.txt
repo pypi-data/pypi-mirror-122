@@ -1,0 +1,6 @@
+README.md
+setup.py
+TradingLog.egg-info/PKG-INFO
+TradingLog.egg-info/SOURCES.txt
+TradingLog.egg-info/dependency_links.txt
+TradingLog.egg-info/top_level.txt
