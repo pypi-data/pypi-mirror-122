@@ -1,0 +1,6 @@
+aiohttp[speedups]
+idem>=13.2.0
+pop>=20.0.0
+pop-config[async]>=7.0.2
+rend>=6.3.1
+pop-loop>=1.0.4
