@@ -1,0 +1,11 @@
+parseaia/__init__.py,sha256=g5hb1GHKIX30uASk55tziJTYzdKKDFe20J_hxCz2DtA,25
+parseaia/codeclasses.py,sha256=hQm6TPfz3gYWT9Iqg4NhBgRL7oN4ljJa1V1639jG0Ts,2873
+parseaia/dictionaryutils.py,sha256=Vq38GkKUlvAi1rVtuLUjSLzZEGriKHc1O2sL9b1mWfo,1665
+parseaia/funcs.py,sha256=w36slwgs7Oup5knAJwvTuvpf5p3WGpmZ2CfmkWwchoI,552
+parseaia/main.py,sha256=-DSxvhElETtRsFOMmrCTn0zebXuvkiYrceHkzssoHrM,3417
+parseaia/uiclasses.py,sha256=gg0SV5Q7p6Oo1FYOFhn4KFHspvJewot6ogx5pFbk-pk,1711
+parseaia-0.2.0.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+parseaia-0.2.0.dist-info/METADATA,sha256=yRnHvWbNU5xnyjl3ZSVrOE55zW5jXbMM5qnp2JbJ7lU,1513
+parseaia-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+parseaia-0.2.0.dist-info/top_level.txt,sha256=oQxu1DhU8ECX1j-7KBTWQusIIneGG_zAC3lK0rCGdQ4,9
+parseaia-0.2.0.dist-info/RECORD,,
