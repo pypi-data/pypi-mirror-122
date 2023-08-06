@@ -1,0 +1,5 @@
+graphviz
+python-jenkins
+
+[tests]
+flake8
