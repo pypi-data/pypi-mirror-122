@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: bagua-cuda113
+Version: 0.8.1.dev22
+Summary: Bagua is a flexible and performant distributed training algorithm development framework.
+Home-page: https://github.com/BaguaSys/bagua
+Author: Kuaishou AI Platform & DS3 Lab
+Author-email: admin@mail.xrlian.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: setuptools-rust
+Requires-Dist: colorama
+Requires-Dist: deprecation
+Requires-Dist: pytest-benchmark
+Requires-Dist: scikit-optimize (==0.8.1)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: numpy
+Requires-Dist: flask
+Requires-Dist: prometheus-client
+Requires-Dist: parallel-ssh
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: gorilla
+Requires-Dist: gevent
+Requires-Dist: xxhash (==v2.0.2)
+
+UNKNOWN
+
