@@ -1,0 +1,6 @@
+typer
+rich
+rich-rst
+bs4
+lxml
+requests
