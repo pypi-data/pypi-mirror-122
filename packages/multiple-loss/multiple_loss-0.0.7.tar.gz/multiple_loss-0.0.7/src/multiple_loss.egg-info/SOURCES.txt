@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/multiple_loss/__init__.py
+src/multiple_loss/contrastive_loss.py
+src/multiple_loss/multilabelloss.py
+src/multiple_loss.egg-info/PKG-INFO
+src/multiple_loss.egg-info/SOURCES.txt
+src/multiple_loss.egg-info/dependency_links.txt
+src/multiple_loss.egg-info/top_level.txt
