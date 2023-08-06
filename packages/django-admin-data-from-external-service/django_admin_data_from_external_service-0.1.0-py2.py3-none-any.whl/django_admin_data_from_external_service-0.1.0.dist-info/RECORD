@@ -1,0 +1,14 @@
+dadfes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dadfes/admin.py,sha256=V6zYdMjfpSczIvEFpGmLyLzSlpmVV7EPFqc2l5tmmcU,2692
+dadfes/apps.py,sha256=anwsDpn4Qk_etwdB3iM6nhSDGlHBJgT8tldrtzxuTw4,87
+dadfes/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest.ini,sha256=VSlvz9H-p-KAONpGVw9MJhHDnnm68QdTuFmI58eqRhw,49
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/app/models.py,sha256=67Lby9vPBQhnMCYz9BpM5DZZrN97oHiMPvsgCcCxatc,910
+tests/settings.py,sha256=1Gx35bGL2e62GaY6M62XOTG9HFgrSzXk4wKsbgkftGU,1542
+tests/test_admin.py,sha256=wVgXRurJ-B5Te-DgQvLogsmgfOv1Cq7UmTQ_fKqxJvg,1221
+tests/urls.py,sha256=iCTSLZkugwTz4jf-F2aFTpUCqKxq6f4-rQXy4ij38eM,119
+django_admin_data_from_external_service-0.1.0.dist-info/WHEEL,sha256=Fs47bPI6GdEUUVU2cC1ZH87S4TSequgq1XeoqimcqIE,87
+django_admin_data_from_external_service-0.1.0.dist-info/METADATA,sha256=lNCwBu43jvzFpTyBAbb9RWRKqA03-aKa_XOiWN70APM,1386
+django_admin_data_from_external_service-0.1.0.dist-info/RECORD,,
