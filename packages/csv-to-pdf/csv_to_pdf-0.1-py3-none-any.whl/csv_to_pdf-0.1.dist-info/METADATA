@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: csv-to-pdf
+Version: 0.1
+Summary: CSV to formatted PDF converter.
+Home-page: https://github.com/accops-yatharth/csv-to-pdf
+Author: Yatharth Mathur
+Author-email: yatharth.mathur@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Python package to convert CSV file into formatted PDFs.
+
