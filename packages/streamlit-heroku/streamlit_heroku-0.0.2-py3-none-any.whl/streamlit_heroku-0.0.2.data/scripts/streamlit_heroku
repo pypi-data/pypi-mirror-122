@@ -1,0 +1,4 @@
+#!python 
+from streamlit_heroku import main
+
+main.main()
