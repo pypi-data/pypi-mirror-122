@@ -1,0 +1,59 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "jeeves-core"
+description = "Pythonic replacement for GNU Make: core"
+version = "0.1.1"
+license = "MIT"
+
+authors = []
+
+readme = "README.md"
+
+repository = "https://github.com/jeeves-sh/jeeves-core"
+
+keywords = []
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[tool.poetry.scripts]
+j = "jeeves_core.cli:app"
+
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+python-benedict = "^0.24.3"
+boltons = "^21.0.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+
+wemake-python-styleguide = "^0.15"
+flake8-pytest-style = "^1.5"
+
+safety = "^1.10"
+
+pytest = "^6.2"
+pytest-cov = "^2.12"
+pytest-randomly = "^3.8"
+
+m2r2 = "^0.2"
+tomlkit = "^0.7"
+flakehell = "^0.9.0"
+mkdocs = "^1.2.2"
+octadocs = "^0.2.0"
+mkdocstrings = "^0.16.2"
+mkdocs-material = "^7.3.2"
+flake8 = "3.9.0"
+
+[tool.flakehell]
+base = "https://raw.githubusercontent.com/Recall-Masters/standards/main/pyproject.toml"
