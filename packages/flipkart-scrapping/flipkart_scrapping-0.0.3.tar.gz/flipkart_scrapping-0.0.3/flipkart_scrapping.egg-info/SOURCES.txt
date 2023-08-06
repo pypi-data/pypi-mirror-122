@@ -1,0 +1,9 @@
+setup.py
+flipkart_scrapping/FlipkartScrapping.py
+flipkart_scrapping/__init__.py
+flipkart_scrapping/settings.py
+flipkart_scrapping.egg-info/PKG-INFO
+flipkart_scrapping.egg-info/SOURCES.txt
+flipkart_scrapping.egg-info/dependency_links.txt
+flipkart_scrapping.egg-info/requires.txt
+flipkart_scrapping.egg-info/top_level.txt
