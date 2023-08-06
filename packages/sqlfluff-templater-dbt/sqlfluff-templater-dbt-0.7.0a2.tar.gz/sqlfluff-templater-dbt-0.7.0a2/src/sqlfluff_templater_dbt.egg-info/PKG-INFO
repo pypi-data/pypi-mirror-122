@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sqlfluff-templater-dbt
+Version: 0.7.0a2
+Summary: Lint your dbt project SQL.
+Home-page: UNKNOWN
+License: MIT License
+Description: 
+        # dbt plugin for SQLFluff
+        
+        This plugin works with [SQLFluff](https://pypi.org/project/sqlfluff/), the
+        SQL linter for humans, to correctly parse and compile SQL projects using
+        [dbt](https://pypi.org/project/dbt/).
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
