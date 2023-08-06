@@ -1,0 +1,11 @@
+pip3
+pyserial
+numpy
+scipy
+PyQt5==5.14
+pyqtwebengine
+pyqtgraph
+matplotlib
+requests
+flask
+flask-socketio
