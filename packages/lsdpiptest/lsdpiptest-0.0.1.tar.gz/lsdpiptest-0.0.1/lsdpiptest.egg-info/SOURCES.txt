@@ -1,0 +1,7 @@
+setup.py
+lsdpiptest/__init__.py
+lsdpiptest/testCode.py
+lsdpiptest.egg-info/PKG-INFO
+lsdpiptest.egg-info/SOURCES.txt
+lsdpiptest.egg-info/dependency_links.txt
+lsdpiptest.egg-info/top_level.txt
