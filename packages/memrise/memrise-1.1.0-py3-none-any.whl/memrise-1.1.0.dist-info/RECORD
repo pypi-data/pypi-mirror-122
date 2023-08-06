@@ -1,0 +1,9 @@
+memrise/__init__.py,sha256=k2vs3jpnqHYL5V4cWMZEQKR1xlpHZ6TNyb013LW6J-Y,2411
+memrise/constant.cp39-win_amd64.pyd,sha256=ypqo4ecPfo907gRwJj-Sn-DeihyIj7W54NH9Tzd9_EI,32256
+memrise/memdb.cp39-win_amd64.pyd,sha256=mlEvhUHMy7ujDqWLhlHeWZmCl2k4GYNTloEJldwZuFU,73216
+memrise/memrise.cp39-win_amd64.pyd,sha256=b4qwdBll3K0ucG0mtoYQ41xnRuI4Zl9WXclO3iVgTIY,79872
+memrise-1.1.0.dist-info/LICENSE,sha256=SELwrfzhzSJ6VoLThzBoMEP-E1jEB3igFzo_xeZE54c,1090
+memrise-1.1.0.dist-info/METADATA,sha256=fuFMdI2bU3eE6AsdmAruhRIfm6aPDGFZfPmVbRtcYXM,3504
+memrise-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+memrise-1.1.0.dist-info/top_level.txt,sha256=PxLDSr-q485_zcPnxpFHdu5kZ4p8DSXNJ9GNsa-YSXo,8
+memrise-1.1.0.dist-info/RECORD,,
