@@ -1,0 +1,10 @@
+kbfs_upload/__init__.py,sha256=qftZTi9xArZe_mLpTbSG4WIgVMG_JNDBhXjKilAwpkU,489
+kbfs_upload/__main__.py,sha256=ROC0RwRwqTIzCF48MXatTZ-HhoB7d9pSmUPYAO3ZUis,72
+kbfs_upload/config.py,sha256=VHW3Oq4zlIwUXvsPbHw0yel_b8l5qyabbfKo-gxBahQ,1264
+kbfs_upload/server.py,sha256=63boMlYGUOmkKgb99648hnYCOo6R-aan_fGh69GLVKU,1128
+kbfs_upload/utils.py,sha256=ODnM3xa65-zRNrtRXLmNmum52hWhphxaSWMn1xFwY7U,2207
+kbfs_upload-0.1.0.dist-info/entry_points.txt,sha256=EZuTVx3Z3sHmWP-u24L6-XxhMMgN4GniDVwChg80Dh8,42
+kbfs_upload-0.1.0.dist-info/LICENSE,sha256=IweAWPKFFPR4yU_cQMfVUIm9ZnLk1kn8BKZNvVIwiXY,1141
+kbfs_upload-0.1.0.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+kbfs_upload-0.1.0.dist-info/METADATA,sha256=Cwvv03Z8mGmiHSg_GsenpUG-O6b9g3_UJ7TFKrG6VAs,534
+kbfs_upload-0.1.0.dist-info/RECORD,,
