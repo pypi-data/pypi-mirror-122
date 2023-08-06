@@ -1,0 +1,7 @@
+
+
+recursive-include gyptis *.cpp
+include README.rst
+include CHANGELOG.rst
+include LICENCE.txt
+recursive-include examples *.csv
