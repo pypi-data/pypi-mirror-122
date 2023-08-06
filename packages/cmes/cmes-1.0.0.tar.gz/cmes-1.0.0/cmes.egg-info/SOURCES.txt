@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+cmes/__init__.py
+cmes/chatic.py
+cmes.egg-info/PKG-INFO
+cmes.egg-info/SOURCES.txt
+cmes.egg-info/dependency_links.txt
+cmes.egg-info/requires.txt
+cmes.egg-info/top_level.txt
