@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: json-tools2
+Version: 0.0.1
+Summary: JSON Tools Library
+Home-page: https://github.com/stonezhong/json_tools2
+Author: Stone Zhong
+Author-email: stonezhong@hotmail.com
+License: MIT
+Description: # JSON related tools
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
