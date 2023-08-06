@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2021 Daniel Laidig <laidig@control.tu-berlin.de>
+#
+# SPDX-License-Identifier: MIT
+
+# webapps
+include csgimu/webapps/lib-csgimu/index.html
+include csgimu/webapps/lib-csgimu/lib-csgimu.js
+include csgimu/webapps/lib-csgimu/style.css
+prune csgimu/webapps/**/node_modules
+prune csgimu/webapps/**/dist
+
+# matlab code
+recursive-include csgimu/matlab/ *.m
