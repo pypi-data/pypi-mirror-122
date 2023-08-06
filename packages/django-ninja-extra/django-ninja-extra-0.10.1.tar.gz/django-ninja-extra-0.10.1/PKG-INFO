@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: django-ninja-extra
+Version: 0.10.1
+Summary: Django Ninja Extra - Class Based Utility and more for Django Ninja(Fast Django REST framework)
+Home-page: https://github.com/eadwinCode/django-ninja-extra
+Author: Ezeudoh Tochukwu
+Author-email: tochukwu.ezeudoh@gmail.com
