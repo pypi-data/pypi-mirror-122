@@ -1,0 +1,16 @@
+deteefapi/__init__.py,sha256=6yOYzm-Jrbq1kyfeIcdUj8A9O5DBvbuzcYH29CNWGmk,135
+deteefapi/dtf.py,sha256=hhRuaH7Vx1o0HiGKZuUSVoyRAds2KaUXjLYc8G8HmB8,5541
+deteefapi/entry.py,sha256=IQZfMaxhk578RxvkTic1v27Zo7c72Xq3MoxkDjWlsaI,3267
+deteefapi/objects.py,sha256=2yfG-SVPQgEYB1I0NWp1Z1aElQtbYQP04SCB_Ch0FAU,4880
+deteefapi/webhook.py,sha256=myWXk-nemgnLYfSpb6BVGtO9h8AmOeFyrBWSYiydP7k,6607
+deteefapi/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deteefapi/test/test_basic.py,sha256=lw_VbbU3Gb5EpWSDDseqctiS-PUP2sW82WGhTzFe6Ko,1484
+deteefapi/test/test_check_data.py,sha256=sAAkQaFcxs6J4ltqjy2ix4eMAZgTV0ruvbaZXL-_mNM,2453
+deteefapi/test/test_massive.py,sha256=I9IthlwXgBnOF3_FXCzdZ6rQp0neFqCFhwg4cpFfiPI,706
+deteefapi/test/test_media.py,sha256=Bd6rqUGb_bNvocMNmt_Yt_ziHnAyFkxN3gVxS60xxhQ,880
+deteefapi/test/test_tools.py,sha256=EBMcJIXmD9GzJYMDKgC9UWkcplBTqPFWao3baxeXKdk,3350
+deteefapi/test/test_webhook.py,sha256=aR3CQUa8xQ9EGQRe1X_1VmztBhwGm-mrKj5SipWIjdk,1412
+deteefapi-0.4.2.dist-info/METADATA,sha256=JnRbVGkGOZc75IlqRaPLp_wf9lxU0_KPP8qjasH1TE4,243
+deteefapi-0.4.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+deteefapi-0.4.2.dist-info/top_level.txt,sha256=VRLDuScRRFurf8EeLO5CpYiiomY26nzYx4ZdP1XvgxY,10
+deteefapi-0.4.2.dist-info/RECORD,,
