@@ -1,0 +1,17 @@
+twinfield/__init__.py,sha256=p5hShzpPOG_kLgg5aS9KLFVg0tBXj8iaUJX_96C3dZY,95
+twinfield/api.py,sha256=kceQr6ASZzVU863QyS50luF8SAOR-2_1KyHGXzNs_Wk,6389
+twinfield/browse.py,sha256=ObwHm9YrYLCawBjiYMN3hsNHms5NDPg85aVH5vYhlzM,4286
+twinfield/core.py,sha256=CVpRwILDJ6pBllX4uIecWxmYlhWzGenfZu2Q9DfuEP4,1624
+twinfield/dimensions.py,sha256=c8VggpNmXmUzi0a5cbbSfgAx-ZElEHU-2kJhULYyK6c,7611
+twinfield/exceptions.py,sha256=e_dxcT5zv2KIy8S5QmgzqxXz90xHiROhfDrl6tXOSu8,628
+twinfield/login.py,sha256=5FrULR6fJHRHavl1h96Cdg_y7YC0NbXZeti5fELL-2M,2332
+twinfield/messages.py,sha256=cRLEGyifbFzWwvPpEpVcrOnozfWBMzq0xOUGFcT5sA0,2769
+twinfield/metadata.py,sha256=eO-UupWlh-Pgj33v2dHrwprgiAzMw9Yok6G2OEgeAgM,3319
+twinfield/offices.py,sha256=Xp7AyvyYrIzNH2BmRt66XipMrsTWUzyvzwSxnvzEWOs,3117
+twinfield/tests/__init__.py,sha256=3PiGgi8qPabbWXRH1MYCdcRRSpmo3WzmW3pevNKbSFI,321
+twinfield/tests/test_twinfield.py,sha256=fOUaa8UMXr_akgPihGsMZy1ojwSdqiFUu0AgEiGyW6g,2293
+twinfield-2.0.0rc1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+twinfield-2.0.0rc1.dist-info/METADATA,sha256=q9Jd0kdmXuewoiUxqJmlYpwgX1wC2G5VzL7r5NbK-Fk,2329
+twinfield-2.0.0rc1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+twinfield-2.0.0rc1.dist-info/top_level.txt,sha256=W0s-gX2Bp4EUFMd3_3miWTALWkGALJ_Ox6SYFVAQrqg,10
+twinfield-2.0.0rc1.dist-info/RECORD,,
