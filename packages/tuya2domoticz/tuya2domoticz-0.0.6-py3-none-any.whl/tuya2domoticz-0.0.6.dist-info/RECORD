@@ -1,0 +1,12 @@
+tuya2domoticz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tuya2domoticz/__main__.py,sha256=Y0wJv7qy-vfpYDlNaynW2rSvzZu6_EdRuHjv_jVAolY,7194
+tuya2domoticz/t2d_device.py,sha256=VhgulxZdC6ZVaXYcsEyV-a8gTSxjxKeq2bFjf-QibMA,2874
+tuya2domoticz/t2d_devman.py,sha256=lcNfMp3BiTBsoHeRqq38_uWrD8Zel3yij_GRzQUa-L4,1572
+tuya2domoticz/t2dconnector.py,sha256=XxnJ97AZpGz-e8kEdeKbjbsDaJtFj7KSDtKiQsOXdPY,2923
+tuya2domoticz/conf/tuya2domoticz.initd,sha256=_7-vbl5waXs86Lsv6lmTnUyd2mEAi7ntgrDXogHdrDc,1624
+tuya2domoticz/conf/tuya2domoticz.service,sha256=hN2Y9pt-nSnEDIiOvulEkqRlWobyvSBX806xwAY_lqg,236
+tuya2domoticz-0.0.6.dist-info/LICENSE,sha256=H1cWuGwH3ebezryMTeUO-8NUrdOH9HIAb1IWszAlEDE,1073
+tuya2domoticz-0.0.6.dist-info/METADATA,sha256=GnQU0y93YN9PDPCB5p-dbSxFyyUDSZ1F_KQgu0zMN9o,6546
+tuya2domoticz-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tuya2domoticz-0.0.6.dist-info/top_level.txt,sha256=0q0kRXtQ6JR93XgYP0JFmimWD9wqGvjV0QAL823dGF0,14
+tuya2domoticz-0.0.6.dist-info/RECORD,,
