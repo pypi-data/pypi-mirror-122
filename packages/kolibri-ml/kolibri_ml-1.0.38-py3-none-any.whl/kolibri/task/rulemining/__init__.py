@@ -1,0 +1,1 @@
+from kolibri.task.rulemining.association_rules import AssociationRules
