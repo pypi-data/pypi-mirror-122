@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dbapi2abc
+Version: 1.1.1
+Summary: Provide an Abstract Base Class for PEP249 compliant databases
+Home-page: https://github.com/campbsb/dbapi2abc
+Author: Steve Campbell
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/campbsb/dbapi2abc/issues
+Project-URL: Say Thanks!, https://saythanks.io/to/campbsb
+Project-URL: Source, https://github.com/campbsb/dbapi2abc/
+Description: # dbapi2abc
+        
+        This package provides abstract classes to present an interface to
+        [PEP249](https://www.python.org/dev/peps/pep-0249/) compliant database Connection and Cursor objects.
+        
+        This allows you to use type hints on functions handling database
+        connections and cursors without needing to specify the specific
+        backend database engine being used.
+        
+        ```
+        from dbapi2abc import Connection, Cursor
+        
+        class MyObject():
+            def __init__(self, db: Connection):
+                self.db = db
+        
+            def run_some_query(self) -> Cursor:
+                cur = self.db.cursor()
+                cur.execute("SELECT * FROM Table")
+                return cur
+        ```        
+Keywords: PEP249,Database,Database API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: Typing :: Typed
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown

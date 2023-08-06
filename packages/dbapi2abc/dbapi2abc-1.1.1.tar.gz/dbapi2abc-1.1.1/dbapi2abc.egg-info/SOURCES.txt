@@ -1,0 +1,8 @@
+README.md
+setup.py
+dbapi2abc/__init__.py
+dbapi2abc/dbapi2abc.py
+dbapi2abc.egg-info/PKG-INFO
+dbapi2abc.egg-info/SOURCES.txt
+dbapi2abc.egg-info/dependency_links.txt
+dbapi2abc.egg-info/top_level.txt
