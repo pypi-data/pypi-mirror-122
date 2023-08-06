@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: qrunner
+Version: 0.0.1
+Summary: APP自动化测试框架
+Home-page: UNKNOWN
+Author: 杨康
+Author-email: 772840356@qq.com
+License: UNKNOWN
+Platform: Android
+Platform: IOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tidevice
+Requires-Dist: facebook-wda
+Requires-Dist: uiautomator2
+Requires-Dist: selenium
+Requires-Dist: weditor
+Requires-Dist: pytest
+Requires-Dist: pytest-html
+Requires-Dist: pytest-rerunfailures
+Requires-Dist: allure-pytest
+
+# app自动化测试框架
+
+## 支持安卓和IOS
+## 支持原生和h5以及图像识别
+
+
