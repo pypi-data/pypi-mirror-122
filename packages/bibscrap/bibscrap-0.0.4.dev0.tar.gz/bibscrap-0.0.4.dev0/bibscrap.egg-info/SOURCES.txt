@@ -1,0 +1,12 @@
+LICENSE.rst
+README.rst
+pyproject.toml
+setup.cfg
+bibscrap/__init__.py
+bibscrap/__main__.py
+bibscrap.egg-info/PKG-INFO
+bibscrap.egg-info/SOURCES.txt
+bibscrap.egg-info/dependency_links.txt
+bibscrap.egg-info/entry_points.txt
+bibscrap.egg-info/requires.txt
+bibscrap.egg-info/top_level.txt
