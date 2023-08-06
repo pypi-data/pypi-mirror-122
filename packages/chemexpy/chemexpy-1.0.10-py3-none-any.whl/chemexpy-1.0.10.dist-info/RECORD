@@ -1,0 +1,17 @@
+chemexpy/__init__.py,sha256=KdoL0HNsoQOgpMjWrmgtJrr5zZcAalVJPefNc7o25NU,367
+chemexpy/correlation_plot.py,sha256=9_kKbRo2n0DqjB_B3zGyC1q1N0zceuqAfMiofztnXqA,1688
+chemexpy/data_prep.py,sha256=fdEbPlc8yDPut1VwDk2zx0RtN5MjR8GOWhhFBCfy7C4,4685
+chemexpy/feature_check.py,sha256=tPeyW2dfBDTZtd_8tAuWPwAH7ND_g8DhJeb9WosY8LM,2150
+chemexpy/feature_plot.py,sha256=CBF1aH-Mdb2r2teWlv4xCSZ4PdF92Hb5opGqtvn4uV4,1294
+chemexpy/feature_violinplots.py,sha256=bq3qOjPKZdDvWri3HeOYHaigeO2Khbf_CPRrPe4zbFA,1751
+chemexpy/molecule_check.py,sha256=6CgutpW4xdsybiCmzrA7W3DfZgbCYz7dKDoVmxVHD-8,4934
+chemexpy/normality_check.py,sha256=h9wX4FSFKrDe-TR2Vmqqqmm7WgtdyxXN6h9ClOpm8Bs,1520
+chemexpy/scatter_plot.py,sha256=62hXMBihSvYw6QkJy-dP6FL0iAtA9iUtZUoViwIrErk,1209
+chemexpy/similarity_dendogram.py,sha256=y2L-ej31B4no9t_KZjmjrl3wsMJPy0YgpBvfnbwCzqk,2593
+chemexpy/similarity_heatmap.py,sha256=bOLotLmll7SgUrP8fvo0kWIhhWTeDT95wYcDRb9g2kA,2019
+chemexpy/similarity_search.py,sha256=w95U4oKscIt0o6rQI9_hzALXL70pUDbOKN-yH6cyZzc,1986
+chemexpy-1.0.10.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemexpy-1.0.10.dist-info/METADATA,sha256=4m50lIwNoIWDQw3jij3BK4oL_fmX0qAhsU5yeSVNGuM,660
+chemexpy-1.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+chemexpy-1.0.10.dist-info/top_level.txt,sha256=nKMfgos-3GPXROz7_9wrDbg7PBx3dfS36sgfepk4SiQ,9
+chemexpy-1.0.10.dist-info/RECORD,,
