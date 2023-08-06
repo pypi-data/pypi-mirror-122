@@ -1,0 +1,10 @@
+waitress
+flask
+flask_restful
+click
+click_log
+paste
+pyyaml
+numpy
+pandas
+scikit-learn
