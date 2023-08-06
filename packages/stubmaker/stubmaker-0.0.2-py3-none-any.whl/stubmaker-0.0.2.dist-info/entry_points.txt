@@ -1,0 +1,3 @@
+[console_scripts]
+stubmaker = make_stubs:main
+
