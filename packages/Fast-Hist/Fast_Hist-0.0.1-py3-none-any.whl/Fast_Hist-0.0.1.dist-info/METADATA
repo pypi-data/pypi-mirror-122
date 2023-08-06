@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Fast-Hist
+Version: 0.0.1
+Summary: fast way to plot a histogram
+Home-page: UNKNOWN
+Author: Batol Hamoud
+Author-email: batoulmhamoud509@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Fast Hist
+
+This package offers a fast way to plot histogram
+
+It contains the method "fast_hist" which draw a plot of histogram of set of data.
+It takes one parameter which is the set of the data that you want to plot a histogram of it
+
+
+Instructions:
+
+You need to install Matplotlib package:
+   
+   pip install matplotlib
+
+To install this package:
+
+pip install Fast-Hist
+
+
+
