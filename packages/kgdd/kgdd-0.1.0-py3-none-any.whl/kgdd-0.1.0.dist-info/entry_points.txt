@@ -1,0 +1,3 @@
+[console_scripts]
+kgdd = kgdd.__main__:main
+

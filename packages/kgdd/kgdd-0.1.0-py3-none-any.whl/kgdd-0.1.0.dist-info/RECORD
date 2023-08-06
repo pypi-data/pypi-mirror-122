@@ -1,0 +1,13 @@
+kgdd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kgdd/__main__.py,sha256=4WGJmf8U_-4uboWAygp_tetgZ-_LL8QCJcDoI24AhzQ,1463
+kgdd/kg_reader.py,sha256=IM8mk5Wo5fDzpwGP0xbNL1zSBVW961IN6aF_YGi4e5c,721
+kgdd/kg_tester.py,sha256=lXaz5aQIVlWXqNphEjgCxcuaLAHj-YO6FtIusJ7QvYA,6637
+kgdd/logger.py,sha256=gatUGlsJT68rtSZQGFX8TP1g9x24AhYkyqzhNinhHYk,1170
+kgdd/test.py,sha256=siyG2c_EmNyYJw0Rxiper72n6ZU6aGrAcoJu-3D5VlU,833
+kgdd/test_file.py,sha256=URG_T9ZqtkpQJ_sgc_hhfkifTQ_ZmVeIh0OmLgvAa04,456
+kgdd/test_file_parser.py,sha256=lfbHK6hsoCNxANTRCTuxruB7RD2Ml5MkVttAtWx1wAc,403
+kgdd-0.1.0.dist-info/METADATA,sha256=IhjDeF05MUPP8b8-wSQRjqDs_3uo5XtXQCCABFiYZSw,416
+kgdd-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kgdd-0.1.0.dist-info/entry_points.txt,sha256=1bCeZyh8GtdTFKqJwA8P1Zf_IjAyd1sf2l4R22xGdJQ,45
+kgdd-0.1.0.dist-info/top_level.txt,sha256=8mjyEDf-2DmaiXav3NI-2e_Dqr2iBwqmaV1qJt0uTvs,5
+kgdd-0.1.0.dist-info/RECORD,,
