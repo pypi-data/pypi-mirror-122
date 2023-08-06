@@ -1,0 +1,7 @@
+build
+calitp
+dist
+docs
+docs-build
+examples
+tmp
