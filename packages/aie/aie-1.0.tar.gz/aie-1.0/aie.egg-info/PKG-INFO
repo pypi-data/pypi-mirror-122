@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: aie
+Version: 1.0
+Summary: it is i.
+Home-page: https://github.com/filau/aie
+Author: Firmin Launay
+Author-email: hey@firminlaunay.me
+License: LGPL-3.0
+Download-URL: https://github.com/filau/aie/archive/refs/tags/1.0.tar.gz
+Description: it is i.  
+        
+        ```python
+        from aie import i
+        print(i)  # i >>>>>>> j
+        ```
+        
+        
+Keywords: i
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

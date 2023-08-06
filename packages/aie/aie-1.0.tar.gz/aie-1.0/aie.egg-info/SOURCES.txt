@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+aie/__init__.py
+aie.egg-info/PKG-INFO
+aie.egg-info/SOURCES.txt
+aie.egg-info/dependency_links.txt
+aie.egg-info/top_level.txt
