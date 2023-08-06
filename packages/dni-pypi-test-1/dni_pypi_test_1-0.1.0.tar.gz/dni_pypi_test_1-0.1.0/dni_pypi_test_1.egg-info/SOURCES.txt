@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dni/__init__.py
+dni/_version.py
+dni/constants.py
+dni/exceptions.py
+dni_pypi_test_1.egg-info/PKG-INFO
+dni_pypi_test_1.egg-info/SOURCES.txt
+dni_pypi_test_1.egg-info/dependency_links.txt
+dni_pypi_test_1.egg-info/top_level.txt
