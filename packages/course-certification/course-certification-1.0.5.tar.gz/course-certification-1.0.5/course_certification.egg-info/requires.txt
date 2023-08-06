@@ -1,0 +1,9 @@
+imgkit==0.1.8
+pystache==0.5.4
+gspread==4.0.1
+pdfkit
+google-auth-oauthlib==0.4.6
+oauth2client==4.0.0
+oauthlib==3.0.1
+requests-oauthlib==1.2.0
+tqdm==4.61.0

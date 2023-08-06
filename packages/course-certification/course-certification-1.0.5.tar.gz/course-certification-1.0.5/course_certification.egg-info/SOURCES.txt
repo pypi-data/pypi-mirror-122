@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+certification/__init__.py
+certification/certificate_generator.py
+course_certification.egg-info/PKG-INFO
+course_certification.egg-info/SOURCES.txt
+course_certification.egg-info/dependency_links.txt
+course_certification.egg-info/entry_points.txt
+course_certification.egg-info/not-zip-safe
+course_certification.egg-info/requires.txt
+course_certification.egg-info/top_level.txt
