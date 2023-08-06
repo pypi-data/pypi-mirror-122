@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: residual2vec
+Version: 0.0.0
+Summary: residual2vec: debiasing graph embedding with random graphs
+Home-page: https://github.com/skojaku/residual2vec
+Author: Sadamori Kojaku
+License: MIT
+Keywords: graph embedding
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: faiss
+Requires-Dist: numba
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+Residual2Vec: debiasing graph embedding using the random graphs 
+
+
