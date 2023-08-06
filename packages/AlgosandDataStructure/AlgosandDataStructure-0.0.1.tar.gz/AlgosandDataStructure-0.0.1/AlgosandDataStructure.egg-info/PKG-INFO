@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: AlgosandDataStructure
+Version: 0.0.1
+Summary: Package with implementation of some useful algorithms and data structures commonly used in competitive programming
+Home-page: https://github.com/joaogabrielferr/AlgosandDataStructures
+Author: Joao Gabriel Ferreira
+Author-email: joaogabrielferr@gmail.com
+License: MIT License
+Keywords: Competitive programming
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# AlgosandDataStructures
+A python package that provides useful algorithms and data structures commonly used in competitive programming contests.
+
+
