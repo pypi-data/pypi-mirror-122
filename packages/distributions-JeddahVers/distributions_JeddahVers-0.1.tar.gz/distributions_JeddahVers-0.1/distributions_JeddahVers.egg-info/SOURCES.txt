@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_JeddahVers/Binomialdistribution.py
+distributions_JeddahVers/Gaussiandistribution.py
+distributions_JeddahVers/Generaldistribution.py
+distributions_JeddahVers/__init__.py
+distributions_JeddahVers.egg-info/PKG-INFO
+distributions_JeddahVers.egg-info/SOURCES.txt
+distributions_JeddahVers.egg-info/dependency_links.txt
+distributions_JeddahVers.egg-info/not-zip-safe
+distributions_JeddahVers.egg-info/top_level.txt
