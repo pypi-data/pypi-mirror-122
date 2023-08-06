@@ -1,0 +1,8 @@
+Change log
+===========
+
+1.0.3 (06/10/2021)
+-------------------
+- New function:
+	find_span : find total scan range with given integration time and step size
+
