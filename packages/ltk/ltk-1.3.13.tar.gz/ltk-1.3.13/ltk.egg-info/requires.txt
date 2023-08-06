@@ -1,0 +1,13 @@
+blessings
+click
+gitpython
+pexpect
+requests[security]
+tabulate
+tinydb
+watchdog
+
+[security]
+ndg-httpsclient
+pyOpenSSL
+pyasn1
