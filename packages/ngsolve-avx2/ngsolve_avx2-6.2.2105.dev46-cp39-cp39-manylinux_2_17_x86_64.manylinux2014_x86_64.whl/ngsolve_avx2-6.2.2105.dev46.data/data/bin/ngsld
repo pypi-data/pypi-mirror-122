@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+NGSCXX_DIR=$( cd $(dirname $0); pwd )
+ /opt/rh/devtoolset-10/root/usr/bin/c++  -L/tmp/pip-build-env-oyn3lhe8/overlay/lib -lmkl_rt -L$NGSCXX_DIR/../lib/python3.9/site-packages/netgen_avx2.libs -Wl,--rpath=$NGSCXX_DIR/../lib/python3.9/site-packages/netgen_avx2.libs $*
