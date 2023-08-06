@@ -1,0 +1,15 @@
+.coveragerc
+.flake8
+.gitignore
+LICENSE
+README.rst
+rollback.py
+setup.cfg
+setup.py
+.github/workflows/checks.yml
+.github/workflows/release.yml
+rollback.egg-info/PKG-INFO
+rollback.egg-info/SOURCES.txt
+rollback.egg-info/dependency_links.txt
+rollback.egg-info/top_level.txt
+tests/test_rollback.py
