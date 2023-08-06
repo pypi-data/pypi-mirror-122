@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init.py
+setup.py
+getrektphineass.egg-info/PKG-INFO
+getrektphineass.egg-info/SOURCES.txt
+getrektphineass.egg-info/dependency_links.txt
+getrektphineass.egg-info/top_level.txt

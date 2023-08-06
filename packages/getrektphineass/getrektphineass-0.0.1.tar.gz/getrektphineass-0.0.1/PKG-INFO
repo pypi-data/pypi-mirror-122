@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: getrektphineass
+Version: 0.0.1
+Summary: This program proves that I am cool
+Home-page: UNKNOWN
+Author: Me
+Author-email: randommail@gmail.com
+License: MIT
+Description: This is library which proves that I am better than Phineas
+        
+        
+        CHANGE Long
+        ===========
+        
+        0.0.1 (5/10/2021)
+        ------------------
+        - First Release
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
