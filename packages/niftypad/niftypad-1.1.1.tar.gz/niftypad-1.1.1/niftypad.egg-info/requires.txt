@@ -1,0 +1,10 @@
+matplotlib
+nibabel
+numpy
+scikit-learn
+tqdm
+
+[dev]
+pytest
+pytest-cov
+pytest-timeout
