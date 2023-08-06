@@ -1,0 +1,14 @@
+numpy
+pandas
+snscrape
+yfinance
+pyspark
+matplotlib
+nltk
+vaderSentiment
+seaborn
+scipy
+pathlib
+setuptools
+matplotlib
+Cython

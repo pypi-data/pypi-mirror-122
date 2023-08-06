@@ -1,0 +1,11 @@
+README.md
+setup.py
+portfolio/__init__.py
+portfolio/data.py
+portfolio/simulation.py
+portfolio/test.py
+sentiment_algorithm.egg-info/PKG-INFO
+sentiment_algorithm.egg-info/SOURCES.txt
+sentiment_algorithm.egg-info/dependency_links.txt
+sentiment_algorithm.egg-info/requires.txt
+sentiment_algorithm.egg-info/top_level.txt
