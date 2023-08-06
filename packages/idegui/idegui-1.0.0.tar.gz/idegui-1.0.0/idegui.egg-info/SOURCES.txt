@@ -1,0 +1,9 @@
+setup.py
+idegui/__init__.py
+idegui/__main__.py
+idegui/popup.py
+idegui/window.py
+idegui.egg-info/PKG-INFO
+idegui.egg-info/SOURCES.txt
+idegui.egg-info/dependency_links.txt
+idegui.egg-info/top_level.txt
