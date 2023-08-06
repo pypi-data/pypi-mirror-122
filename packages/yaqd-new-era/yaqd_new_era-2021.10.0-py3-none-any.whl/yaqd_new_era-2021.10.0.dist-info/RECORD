@@ -1,0 +1,11 @@
+yaqd_new_era/VERSION,sha256=P75kSdiSZSHBSZi2FxHJCv0n1cf996kIgezAfptkhTc,10
+yaqd_new_era/__init__.py,sha256=Vr3-2KvBxAWO_PbMCSnO0PX4FhD0R5xlaUAhUfpEHmo,80
+yaqd_new_era/__version__.py,sha256=aIq6BYZ2Vu4z6qhpulwJjQVwfXWBRNlRKwBX_hECB00,493
+yaqd_new_era/_new_era_ne1000.py,sha256=XPBBz-IesDwe6QFbG3jNJ8S9aplVPJI54fvhaszB0Z8,5690
+yaqd_new_era/new-era-ne1000.avpr,sha256=gJIcGjg9ANrQmVOGOKK-cEA1YEGK6VQgSnWKNb5zLDQ,11976
+yaqd_new_era/new-era-ne1000.toml,sha256=iKfT5NBassy4uy--qCyYncMxhLBklcQ7N3RZo_92MwE,1598
+yaqd_new_era-2021.10.0.dist-info/entry_points.txt,sha256=tNhaIHXMTpoEXScZeGoDNhawHypAVPjV94mRm6wg3WI,86
+yaqd_new_era-2021.10.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+yaqd_new_era-2021.10.0.dist-info/WHEEL,sha256=VUbF57hf4yRZWWrOOjp25Fr4BQX9EtnVSbnP2vNxHDM,81
+yaqd_new_era-2021.10.0.dist-info/METADATA,sha256=jcBUYOAjxFRWLrzwHf9cNNf520gqoIw4KWNs7bZH5Ag,1709
+yaqd_new_era-2021.10.0.dist-info/RECORD,,

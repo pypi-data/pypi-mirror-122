@@ -1,0 +1,3 @@
+[console_scripts]
+yaqd-new-era-ne1000=yaqd_new_era._new_era_ne1000:NewEraNe1000.main
+
