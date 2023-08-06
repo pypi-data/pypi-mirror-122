@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+likee/__init__.py
+likee/config.py
+likee/likee.py
+likee/utils.py
+likee.egg-info/PKG-INFO
+likee.egg-info/SOURCES.txt
+likee.egg-info/dependency_links.txt
+likee.egg-info/requires.txt
+likee.egg-info/top_level.txt

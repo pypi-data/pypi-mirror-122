@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: likee
+Version: 0.0.13
+Summary: Python Likee Downloader
+Home-page: UNKNOWN
+Author: Purya Jafari
+Author-email: purya.jafari@hotmail.com
+License: UNKNOWN
+Keywords: python,likee,downloader
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that allows to download from like
+
