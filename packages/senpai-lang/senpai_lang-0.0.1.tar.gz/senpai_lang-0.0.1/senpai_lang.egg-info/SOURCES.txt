@@ -1,0 +1,28 @@
+MANIFEST.in
+README.md
+setup.py
+senpai_lang/__init__.py
+senpai_lang/__main__.py
+senpai_lang.egg-info/PKG-INFO
+senpai_lang.egg-info/SOURCES.txt
+senpai_lang.egg-info/dependency_links.txt
+senpai_lang.egg-info/not-zip-safe
+senpai_lang.egg-info/requires.txt
+senpai_lang.egg-info/top_level.txt
+senpai_lang/examples/cat.senpai
+senpai_lang/examples/fizzbuz.senpai
+senpai_lang/examples/hello world.senpai
+senpai_lang/examples/quine.senpai
+senpai_lang/examples/truth machine.senpai
+senpai_lang/lib/containers.py
+senpai_lang/lib/file.py
+senpai_lang/lib/lib_docs.md
+senpai_lang/lib/senpai_os.py
+senpai_lang/lib/stack.py
+senpai_lang/pyutils/__init__.py
+senpai_lang/src/__init__.py
+senpai_lang/src/classes.py
+senpai_lang/src/grammar.lark
+senpai_lang/src/parser.py
+senpai_lang/src/senpai_builtins.py
+senpai_lang/src/senpai_import.py
