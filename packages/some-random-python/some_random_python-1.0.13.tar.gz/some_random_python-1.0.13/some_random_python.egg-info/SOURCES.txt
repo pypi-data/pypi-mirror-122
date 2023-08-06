@@ -1,0 +1,10 @@
+README.md
+setup.py
+smr_py/__init__.py
+smr_py/errors.py
+smr_py/smr_async.py
+smr_py/smr_sync.py
+some_random_python.egg-info/PKG-INFO
+some_random_python.egg-info/SOURCES.txt
+some_random_python.egg-info/dependency_links.txt
+some_random_python.egg-info/top_level.txt
