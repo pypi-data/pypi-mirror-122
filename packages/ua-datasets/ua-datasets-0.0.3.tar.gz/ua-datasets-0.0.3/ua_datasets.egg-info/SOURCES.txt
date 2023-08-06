@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ua_datasets/__init__.py
+ua_datasets.egg-info/PKG-INFO
+ua_datasets.egg-info/SOURCES.txt
+ua_datasets.egg-info/dependency_links.txt
+ua_datasets.egg-info/top_level.txt
+ua_datasets/src/__init__.py
+ua_datasets/src/question_answering/__init__.py
+ua_datasets/src/question_answering/uasquad_question_answering.py
+ua_datasets/src/question_answering/utils.py
+ua_datasets/src/text_classification/__init__.py
+ua_datasets/src/text_classification/text_classification.py
+ua_datasets/src/token_classification/__init__.py
+ua_datasets/src/token_classification/part_of_speech.py
