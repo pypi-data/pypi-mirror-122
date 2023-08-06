@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+sfcc_connector.egg-info/PKG-INFO
+sfcc_connector.egg-info/SOURCES.txt
+sfcc_connector.egg-info/dependency_links.txt
+sfcc_connector.egg-info/not-zip-safe
+sfcc_connector.egg-info/requires.txt
+sfcc_connector.egg-info/top_level.txt
