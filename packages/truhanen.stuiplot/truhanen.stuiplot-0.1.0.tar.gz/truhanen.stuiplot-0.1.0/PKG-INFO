@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: truhanen.stuiplot
+Version: 0.1.0
+Summary: Script for plotting s-tui logs
+Home-page: https://github.com/truhanen/stuiplot
+License: MIT
+Author: Tuukka Ruhanen
+Author-email: tuukka.t.ruhanen@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: matplotlib (>=3.4.0)
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: pandas (>=1.3.0)
+Description-Content-Type: text/markdown
+
+# stuiplot
+
+Script for plotting s-tui logs.
+
+## Usage
+
+```
+$ stuiplot --help
+usage: stuiplot [-h] [--figure-path FIGURE_PATH] [--align-threshold ALIGN_THRESHOLD] [--minutes MINUTES] log [log ...]
+
+Read s-tui csv log files & plot CPU frequency, temperature, &
+utilization percentage as a function of time. All values shown are
+means over all CPU cores.
+
+positional arguments:
+  log                   path to s-tui log file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --figure-path FIGURE_PATH
+                        if given, don't show the figure but write it to this file
+  --align-threshold ALIGN_THRESHOLD
+                        CPU utilization threshold for aligning the data on the time axis
+  --minutes MINUTES     amount of time to show
+```
+
+## Installation
+
+Install from PyPI with `pip install truhanen.stuiplot` and from sources with
+`pip install .`.
