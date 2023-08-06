@@ -1,0 +1,8 @@
+README.md
+setup.py
+arth/__init__.py
+arth.egg-info/PKG-INFO
+arth.egg-info/SOURCES.txt
+arth.egg-info/dependency_links.txt
+arth.egg-info/top_level.txt
+arth/data/__init__.py
