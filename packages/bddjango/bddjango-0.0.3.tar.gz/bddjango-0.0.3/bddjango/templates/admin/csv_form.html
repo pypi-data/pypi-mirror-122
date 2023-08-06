@@ -1,0 +1,18 @@
+{% extends 'admin/base.html' %}
+
+{% block content %}
+    <div>
+        <form method="post" action="." enctype="multipart/form-data"  class="el-button el-button--default el-button--small">
+            {% csrf_token %}
+            <input type="file" name="csv_file" />
+            <input type="submit" class="el-button el-button--default el-button--small"  value="上传" />
+        </form>
+    </div>
+
+    <br />
+    <button type="button" class="el-button el-button--default el-button--small" eid="1" style="font-size: small" onclick="history.go(-1)"><!----><!---->
+        &nbsp;<&nbsp;&nbsp;返回
+    </button>
+{% endblock %}
+
+
