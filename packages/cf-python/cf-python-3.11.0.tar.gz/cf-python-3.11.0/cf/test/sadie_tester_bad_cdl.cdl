@@ -1,0 +1,3 @@
+netcdf test_file {
+  (add badness)
+}

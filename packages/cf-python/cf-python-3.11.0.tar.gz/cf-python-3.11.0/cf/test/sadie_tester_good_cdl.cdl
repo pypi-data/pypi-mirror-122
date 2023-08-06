@@ -1,0 +1,35 @@
+netcdf combined {
+dimensions:
+	grid_latitude = 10 ;
+	grid_longitude = 9 ;
+variables:
+	double grid_latitude(grid_latitude) ;
+		grid_latitude:units = "degrees" ;
+		grid_latitude:standard_name = "grid_latitude" ;
+	double grid_longitude(grid_longitude) ;
+		grid_longitude:units = "degrees" ;
+		grid_longitude:standard_name = "grid_longitude" ;
+	int latitude(grid_latitude, grid_longitude) ;
+		latitude:units = "degree_N" ;
+		latitude:standard_name = "latitude" ;
+	int longitude(grid_longitude, grid_latitude) ;
+		longitude:units = "degreeE" ;
+		longitude:standard_name = "longitude" ;
+	double eastward_wind(grid_latitude, grid_longitude) ;
+		eastward_wind:coordinates = "latitude longitude" ;
+		eastward_wind:standard_name = "eastward_wind" ;
+		eastward_wind:cell_methods = "grid_longitude: mean (interval: 1 day comment: ok) grid_latitude: maximum where sea" ;
+		eastward_wind:cell_measures = "area: areacella" ;
+		eastward_wind:units = "m s-1" ;
+	double areacella(grid_longitude, grid_latitude) ;
+		areacella:units = "m2" ;
+		areacella:standard_name = "cell_area" ;
+
+// global attributes:
+		:Conventions = "CF-1.8" ;
+data:
+
+ grid_latitude = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ;
+
+ grid_longitude = 0, 1, 2, 3, 4, 5, 6, 7, 8 ;
+}

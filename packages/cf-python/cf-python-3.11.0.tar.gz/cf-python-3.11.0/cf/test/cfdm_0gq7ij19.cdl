@@ -1,0 +1,69 @@
+netcdf test_file {
+dimensions:
+	grid_longitude = 9 ;
+	bounds2 = 2 ;
+	grid_latitude = 10 ;
+	atmosphere_hybrid_height_coordinate = 1 ;
+variables:
+	double grid_longitude_bounds(grid_longitude, bounds2) ;
+	double grid_longitude(grid_longitude) ;
+		grid_longitude:standard_name = "grid_longitude" ;
+		grid_longitude:units = "degrees" ;
+		grid_longitude:bounds = "grid_longitude_bounds" ;
+	double grid_latitude(grid_latitude) ;
+		grid_latitude:standard_name = "grid_latitude" ;
+		grid_latitude:units = "degrees" ;
+	double bounds(atmosphere_hybrid_height_coordinate, bounds2) ;
+		bounds:formula_terms = "orog: surface_altitude a: bounds_1 b: bounds_2" ;
+	double atmosphere_hybrid_height_coordinate(atmosphere_hybrid_height_coordinate) ;
+		atmosphere_hybrid_height_coordinate:standard_name = "atmosphere_hybrid_height_coordinate" ;
+		atmosphere_hybrid_height_coordinate:bounds = "bounds" ;
+		atmosphere_hybrid_height_coordinate:formula_terms = "orog: surface_altitude a: a b: b" ;
+	int latitude(grid_latitude, grid_longitude) ;
+		latitude:standard_name = "latitude" ;
+		latitude:units = "degree_N" ;
+	int longitude(grid_longitude, grid_latitude) ;
+		longitude:standard_name = "longitude" ;
+		longitude:units = "degreesE" ;
+	string greek_letters(grid_latitude) ;
+		greek_letters:standard_name = "greek_letters" ;
+	double bounds_1(atmosphere_hybrid_height_coordinate, bounds2) ;
+	double a(atmosphere_hybrid_height_coordinate) ;
+		a:units = "m" ;
+	double bounds_2(atmosphere_hybrid_height_coordinate, bounds2) ;
+	double b(atmosphere_hybrid_height_coordinate) ;
+	double surface_altitude(grid_longitude, grid_latitude) ;
+		surface_altitude:standard_name = "surface_altitude" ;
+		surface_altitude:units = "m" ;
+	double cell_measure(grid_longitude, grid_latitude) ;
+		cell_measure:units = "km 2" ;
+	char rotated_latitude_longitude ;
+		rotated_latitude_longitude:grid_mapping_name = "rotated_latitude_longitude" ;
+		rotated_latitude_longitude:grid_north_pole_latitude = 38. ;
+		rotated_latitude_longitude:grid_north_pole_longitude = 190. ;
+	double ancillary0(grid_longitude, grid_latitude) ;
+		ancillary0:standard_name = "ancillary0" ;
+		ancillary0:units = "m.s-1" ;
+	double ancillary1(grid_latitude, grid_longitude) ;
+		ancillary1:standard_name = "ancillary1" ;
+		ancillary1:units = "m.s-1" ;
+	double ancillary2(grid_longitude) ;
+		ancillary2:standard_name = "ancillary2" ;
+		ancillary2:units = "m.s-1" ;
+	double ancillary3(grid_latitude) ;
+		ancillary3:standard_name = "ancillary3" ;
+		ancillary3:units = "m.s-1" ;
+	double eastward_wind(atmosphere_hybrid_height_coordinate, grid_latitude, grid_longitude) ;
+		eastward_wind:standard_name = "eastward_wind" ;
+		eastward_wind:units = "m s-1" ;
+		eastward_wind:flag_values = 1LL, 2LL, 4LL ;
+		eastward_wind:flag_meanings = "a bb ccc" ;
+		eastward_wind:cell_measures = "area: cell_measure" ;
+		eastward_wind:coordinates = "latitude longitude greek_letters" ;
+		eastward_wind:grid_mapping = "rotated_latitude_longitude" ;
+		eastward_wind:ancillary_variables = "ancillary0 ancillary1 ancillary2 ancillary3" ;
+		eastward_wind:cell_methods = "grid_longitude: mean grid_latitude: max" ;
+
+// global attributes:
+		:Conventions = "CF-1.8" ;
+}
