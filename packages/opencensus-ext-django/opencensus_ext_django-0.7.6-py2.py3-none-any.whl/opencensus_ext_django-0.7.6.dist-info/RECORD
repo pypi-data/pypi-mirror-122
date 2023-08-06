@@ -1,0 +1,9 @@
+opencensus/__init__.py,sha256=F0UD44DuZCpVvI1PX5rW4FcKQ004ORdqeOhf4JsheIY,66
+opencensus/ext/__init__.py,sha256=F0UD44DuZCpVvI1PX5rW4FcKQ004ORdqeOhf4JsheIY,66
+opencensus/ext/django/__init__.py,sha256=3cwrGSSn3JMa-Au3B1875PPwj3Ndg-lxgslMZRNsW3s,596
+opencensus/ext/django/middleware.py,sha256=2d9KygShHw8tEuQzBjQOJ2F6foeuB9riSmxPx0EXCrQ,10954
+opencensus_ext_django-0.7.6.dist-info/METADATA,sha256=zyOkYHtrV8pNZavNp11SXan3q09S83t-wEaSER6WQdg,2363
+opencensus_ext_django-0.7.6.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+opencensus_ext_django-0.7.6.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+opencensus_ext_django-0.7.6.dist-info/top_level.txt,sha256=J24OU61lnFeMMuwOLPtTNywYsd2Bzp5KbBCPtAhDgaI,11
+opencensus_ext_django-0.7.6.dist-info/RECORD,,
