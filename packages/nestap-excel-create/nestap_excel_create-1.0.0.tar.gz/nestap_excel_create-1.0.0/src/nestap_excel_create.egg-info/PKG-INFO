@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: nestap-excel-create
+Version: 1.0.0
+Summary: This package helps create excel files more efficiently and quickly
+Home-page: https://github.com/alokcs17/nestap_excel
+Author: Adesh Gupta and Alok Bharti
+Author-email: adesh@nestap.in
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/alokcs17/nestap_excel/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Create Excel
+
+This Package will help you to create Excel file more quickly and efficiently.
+
+## How to Install it?
+
+On Windows:
+```
+pip install nestap_excel_create
+```
+
+On Linux:
+```
+sudo pip3 install nestap_excel_create
+```
+
+## How to Use it?
+
+### Initializing The Package
+
+```
+from nestap_excel_create.create_excel_helper import create_excel
+
+     columns = [
+                  ('eno', 'Employee Number'),
+                  ('ename', 'Employee Name'),
+                  ('esal', 'Employee Salary'),
+                  ('eaddr', 'Employee Address')
+
+              ],
+              
+     create_excel([
+        {
+            'sheet_name': Your sheet name,
+            'columns_keys': columns 
+            'data_list': list(data)
+        }
+    ]) # Provide the list of the dictionary while Initializing
+    
+```
+
+### This Nestap Excel Package create excel more quickly and efficiently.
+
