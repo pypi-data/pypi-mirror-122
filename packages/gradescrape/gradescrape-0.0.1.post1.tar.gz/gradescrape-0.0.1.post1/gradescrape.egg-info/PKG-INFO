@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gradescrape
+Version: 0.0.1.post1
+Summary: requests-based library to automatically provision assignments on Gradescope
+Home-page: https://github.com/guineawheek/gradescrape
+Author: guineawheek
+Author-email: guineawheek@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gradescrape
+
+A messily written library to automate gradescope with
+
+this is intended for use for course staffs -- don't spam their api pls
+

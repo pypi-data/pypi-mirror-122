@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+gradescrape/__init__.py
+gradescrape/assignment.py
+gradescrape/course.py
+gradescrape/login.py
+gradescrape/session.py
+gradescrape/util.py
+gradescrape.egg-info/PKG-INFO
+gradescrape.egg-info/SOURCES.txt
+gradescrape.egg-info/dependency_links.txt
+gradescrape.egg-info/requires.txt
+gradescrape.egg-info/top_level.txt
