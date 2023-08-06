@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bayeshist
+Version: 0.1.post1
+Summary: Bayesian histograms for estimation of binary event rates
+Home-page: https://github.com/dionhaefner/bayeshist
+Author: Dion Häfner
+Author-email: mail@dionhaefner.de
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bayesian histograms
+Bayesian histograms for estimation of binary event rates.
+
+
