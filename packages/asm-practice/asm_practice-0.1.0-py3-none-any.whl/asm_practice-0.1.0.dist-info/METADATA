@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: asm-practice
+Version: 0.1.0
+Summary: 
+Author: novafacing
+Author-email: rowanbhart@gmail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pygments (>=2.10.0,<3.0.0)
+Requires-Dist: black (>=21.9b0,<22.0)
+Requires-Dist: isort (>=5.9.3,<6.0.0)
+Requires-Dist: pwntools (>=4.7.0b0)
+Requires-Dist: qiling (>=1.2.4,<2.0.0)
