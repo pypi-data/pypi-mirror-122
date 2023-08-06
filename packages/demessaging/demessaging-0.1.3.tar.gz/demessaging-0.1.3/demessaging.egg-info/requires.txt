@@ -1,0 +1,10 @@
+websocket_client
+docstring_parser
+pydantic
+typing_extensions
+jinja2
+
+[backend]
+isort>=5.7.0
+black
+autoflake
