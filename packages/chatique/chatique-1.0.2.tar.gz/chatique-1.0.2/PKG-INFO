@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chatique
+Version: 1.0.2
+Summary: Just something not important
+Home-page: https://github.com/lecrkohuty/cmes
+Author: lecrkohuty
+Author-email: lecrkohuty@gmail.com
+License: MIT
+Download-URL: https://github.com/lecrkohuty/cmes/archive/v_1.0.0.tar.gz
+Keywords: colab
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Test
+

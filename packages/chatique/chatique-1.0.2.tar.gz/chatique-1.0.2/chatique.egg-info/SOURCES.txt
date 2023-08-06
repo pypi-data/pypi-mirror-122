@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+chatique/__init__.py
+chatique/chatique.py
+chatique.egg-info/PKG-INFO
+chatique.egg-info/SOURCES.txt
+chatique.egg-info/dependency_links.txt
+chatique.egg-info/requires.txt
+chatique.egg-info/top_level.txt
