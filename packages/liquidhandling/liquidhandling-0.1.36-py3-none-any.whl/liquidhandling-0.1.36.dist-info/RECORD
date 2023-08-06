@@ -1,0 +1,14 @@
+liquidhandling/CherryPicking.py,sha256=6qCne_EGLfywTch6HEH4FSjvAVjKrcSfM9eukpYlh4s,10730
+liquidhandling/Plates.py,sha256=pLNwuSwg-SFMKrLbJrXQNwWGsC4E6fgIXnJYMIFA8Io,10506
+liquidhandling/Properties.py,sha256=wUzZMnJtom7BV58wdGDRUTMb1IenENR1Z0kWNHswaVM,46
+liquidhandling/VolumeManager.py,sha256=sHEbDTqsz-xm05xiPSqQBvWgrWLAGkNySvwEmcN_8YM,3137
+liquidhandling/__init__.py,sha256=Jt62cObQOpehAMWPj5txMDxSXMW_gbXEfgKN-c9fzyQ,228
+liquidhandling/hudson/RapidPick.py,sha256=IhONpif9TMYpzWKbqW6qkdUMZWiB_M_GvZczsEz-sSc,68
+liquidhandling/hudson/SoftLinx.py,sha256=in6jhgSBSJA3VHPrVW_xn62OdKhJPvH8XFh25yN7ru8,41172
+liquidhandling/hudson/SoloSoft.py,sha256=Pp51BfS03OZpbaA432lCTn6mohinxQfTWLgAWrZcacc,30520
+liquidhandling/hudson/__init__.py,sha256=uYdcrtT8KRrxvqF7GFhO-cd0iYzXKudm5Xm0LbQR-64,159
+liquidhandling-0.1.36.dist-info/LICENSE,sha256=h-5PGu0UNzvUB80ipSOQgd31XZMQWDf0RZ83T8h_-CQ,1078
+liquidhandling-0.1.36.dist-info/METADATA,sha256=E_xBRcj-uZYaF05xjzq4j-dIn3h9JGW6jNC4y_yP0sk,2428
+liquidhandling-0.1.36.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+liquidhandling-0.1.36.dist-info/top_level.txt,sha256=AUddRa4UZOKaCXdNgSXzKBxhwmnEwPQ9AedoNfqh3RQ,15
+liquidhandling-0.1.36.dist-info/RECORD,,
