@@ -1,0 +1,16 @@
+README.md
+setup.py
+faradaydreams/__init__.py
+faradaydreams/convex_solvers.py
+faradaydreams/measurement_operator.py
+faradaydreams/models.py
+faradaydreams/recover_faraday_spectra.py
+faradaydreams/utilities.py
+faradaydreams.egg-info/PKG-INFO
+faradaydreams.egg-info/SOURCES.txt
+faradaydreams.egg-info/dependency_links.txt
+faradaydreams.egg-info/requires.txt
+faradaydreams.egg-info/top_level.txt
+tests/__init__.py
+tests/op_tests.py
+tests/solver_tests.py
