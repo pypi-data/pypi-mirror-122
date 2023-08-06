@@ -1,0 +1,137 @@
+{ decls }
+namespace bgfx {  }
+template <typename T> class ImVector;
+class ImGuiTextFilter;
+class ImGuiStorage;
+class ImDrawCmd;
+class ImDrawChannel;
+class ImDrawVert;
+class ImVec4;
+class ImVec2;
+class ImFont;
+class ImFontAtlasCustomRect;
+class ImFontConfig;
+class ImFontGlyph;
+namespace ImGui { class ImFileInfo; }
+
+[ libbgfx_pythonCppyy.dylib ]
+# List of selected classes
+class Group
+class ImColor
+class ImDrawChannel
+class ImDrawCmd
+class ImDrawCmdHeader
+class ImDrawData
+class ImDrawList
+class ImDrawListSplitter
+class ImDrawVert
+class ImFont
+class ImFontAtlas
+class ImFontAtlasCustomRect
+class ImFontConfig
+class ImFontGlyph
+class ImFontGlyphRangesBuilder
+class ImGuiIO
+class ImGuiInputTextCallbackData
+class ImGuiListClipper
+class ImGuiOnceUponAFrame
+class ImGuiPayload
+class ImGuiSizeCallbackData
+class ImGuiStorage
+class ImGuiStorage::ImGuiStoragePair
+class ImGuiStyle
+class ImGuiTableColumnSortSpecs
+class ImGuiTableSortSpecs
+class ImGuiTextBuffer
+class ImGuiTextFilter
+class ImGuiTextFilter::ImGuiTextRange
+class ImGuiViewport
+class ImNewWrapper
+class ImVec2
+class ImVec4
+class ImVector<ImDrawChannel>
+class ImVector<ImDrawCmd>
+class ImVector<ImDrawVert>
+class ImVector<ImFont*>
+class ImVector<ImFontAtlasCustomRect>
+class ImVector<ImFontConfig>
+class ImVector<ImFontGlyph>
+class ImVector<ImGui::ImFileInfo>
+class ImVector<ImGuiStorage::ImGuiStoragePair>
+class ImVector<ImGuiTextFilter::ImGuiTextRange>
+class ImVector<ImVec2>
+class ImVector<ImVec4>
+class ImVector<char>
+class ImVector<float>
+class ImVector<unsigned int>
+class ImVector<unsigned short>
+class ImVector<void*>
+class Mesh
+class MeshState
+class MeshState::Texture
+class Primitive
+class _ImGuiExtra
+class _MeshLoader
+class bgfx::Access
+class bgfx::Attachment
+class bgfx::Attrib
+class bgfx::AttribType
+class bgfx::BackbufferRatio
+class bgfx::CallbackI
+class bgfx::Caps
+class bgfx::Caps::GPU
+class bgfx::Caps::Limits
+class bgfx::DynamicIndexBufferHandle
+class bgfx::DynamicVertexBufferHandle
+class bgfx::Encoder
+class bgfx::EncoderStats
+class bgfx::Fatal
+class bgfx::FrameBufferHandle
+class bgfx::IndexBufferHandle
+class bgfx::IndirectBufferHandle
+class bgfx::Init
+class bgfx::Init::Limits
+class bgfx::InstanceDataBuffer
+class bgfx::InternalData
+class bgfx::Memory
+class bgfx::OcclusionQueryHandle
+class bgfx::OcclusionQueryResult
+class bgfx::PlatformData
+class bgfx::ProgramHandle
+class bgfx::RenderFrame
+class bgfx::RendererType
+class bgfx::Resolution
+class bgfx::ShaderHandle
+class bgfx::Stats
+class bgfx::TextureFormat
+class bgfx::TextureHandle
+class bgfx::TextureInfo
+class bgfx::Topology
+class bgfx::TopologyConvert
+class bgfx::TopologySort
+class bgfx::Transform
+class bgfx::TransientIndexBuffer
+class bgfx::TransientVertexBuffer
+class bgfx::UniformHandle
+class bgfx::UniformInfo
+class bgfx::UniformType
+class bgfx::VertexBufferHandle
+class bgfx::VertexLayout
+class bgfx::VertexLayoutHandle
+class bgfx::ViewMode
+class bgfx::ViewStats
+header bgfx_extra.h
+header imgui.h
+header imgui_extra.h
+header bgfx.h
+header platform.h
+# List of selected namespaces
+namespace bx
+namespace bgfx
+namespace ImGui
+namespace entry
+# List of selected typedefs and outer classes
+typedef PrimitiveArray
+typedef GroupArray
+# List of selected vars
+var bgfx::kInvalidHandle
