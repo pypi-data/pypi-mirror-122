@@ -1,0 +1,10 @@
+setup.py
+vie_distributions/Binomialdistribution.py
+vie_distributions/Gaussiandistribution.py
+vie_distributions/Generaldistribution.py
+vie_distributions/__init__.py
+vie_distributions.egg-info/PKG-INFO
+vie_distributions.egg-info/SOURCES.txt
+vie_distributions.egg-info/dependency_links.txt
+vie_distributions.egg-info/not-zip-safe
+vie_distributions.egg-info/top_level.txt
