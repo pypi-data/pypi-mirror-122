@@ -1,0 +1,8 @@
+COPYING
+README.md
+setup.py
+climatik/__init__.py
+climatik.egg-info/PKG-INFO
+climatik.egg-info/SOURCES.txt
+climatik.egg-info/dependency_links.txt
+climatik.egg-info/top_level.txt
