@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+ijmgraph.egg-info/PKG-INFO
+ijmgraph.egg-info/SOURCES.txt
+ijmgraph.egg-info/dependency_links.txt
+ijmgraph.egg-info/top_level.txt
