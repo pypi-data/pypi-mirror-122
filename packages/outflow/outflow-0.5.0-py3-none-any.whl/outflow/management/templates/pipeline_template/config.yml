@@ -1,0 +1,15 @@
+databases:
+  default:
+    dialect: sqlite
+    path: outflow.db
+
+## Task parameters can be used to specify runtime value for task in the config file
+
+# tasks:
+#   my_task:
+#     parameters:
+#       my_param1: param_value1
+
+## Possible backend are "default" for sequential execution, "parallel" for local parallel execution using multiprocessing,
+## and "slurm" for distributed execution on a slurm computing cluster.
+backend: default
