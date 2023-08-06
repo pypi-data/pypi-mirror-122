@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/nntm/__init__.py
+src/nntm.egg-info/PKG-INFO
+src/nntm.egg-info/SOURCES.txt
+src/nntm.egg-info/dependency_links.txt
+src/nntm.egg-info/requires.txt
+src/nntm.egg-info/top_level.txt
+src/nntm/datasets/__init__.py
+src/nntm/datasets/_numerai_main.py
