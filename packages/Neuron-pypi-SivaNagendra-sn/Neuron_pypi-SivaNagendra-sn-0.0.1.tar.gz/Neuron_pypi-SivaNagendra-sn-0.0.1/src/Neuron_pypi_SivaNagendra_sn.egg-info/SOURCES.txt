@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Neuron/__init__.py
+src/Neuron/perceptron.py
+src/Neuron_pypi_SivaNagendra_sn.egg-info/PKG-INFO
+src/Neuron_pypi_SivaNagendra_sn.egg-info/SOURCES.txt
+src/Neuron_pypi_SivaNagendra_sn.egg-info/dependency_links.txt
+src/Neuron_pypi_SivaNagendra_sn.egg-info/requires.txt
+src/Neuron_pypi_SivaNagendra_sn.egg-info/top_level.txt
