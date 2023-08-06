@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+MusicClassifier.rfc
+README.md
+requirements.txt
+setup.py
+musicnet.egg-info/PKG-INFO
+musicnet.egg-info/SOURCES.txt
+musicnet.egg-info/dependency_links.txt
+musicnet.egg-info/not-zip-safe
+musicnet.egg-info/requires.txt
+musicnet.egg-info/top_level.txt
