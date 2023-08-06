@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kingspan-connect-sensor
+Version: 1.0
+Summary: API to get oil tank from Kingspan SENSiT sensors
+Home-page: https://github.com/masaccio/kingspan-connect-sensor
+Author: Jon Connell
+Author-email: python@figsandfudge.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kingspan-connect-sensor
+API to get oil tank from Kingspan SENSiT sensors
+
+
