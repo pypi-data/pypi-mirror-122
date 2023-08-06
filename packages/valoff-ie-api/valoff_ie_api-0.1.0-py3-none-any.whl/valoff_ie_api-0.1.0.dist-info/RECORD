@@ -1,0 +1,9 @@
+valoff_ie_api/__init__.py,sha256=nc5lqBqY28SLDngUjffx2vwFKLHQIgo0jrGM8KaOqpM,58
+valoff_ie_api/categories.json,sha256=kfxu2YGAkKKb5OyIviXhmfncFv4VqraleYiCKWWbDd4,2373
+valoff_ie_api/download.py,sha256=zgn1Roj6mjMupfnE8HTKN6tQJP6kCLJpP8RwDEL4NgE,3491
+valoff_ie_api/local_authorities.json,sha256=V0zlm8sUpsU__uIpJ10vqlEiFQ34wEafD9ZZhduwWBU,6792
+valoff_ie_api/tests/test_download.py,sha256=vM2Q_K2bqLXpICtIA_vak5a_QCvV35Ke_jNi57VbRWg,833
+valoff_ie_api-0.1.0.dist-info/LICENSE,sha256=Vn2CD3EgUEUy8pg9_cUn8TafOy_xWow8ersco46RcT4,1088
+valoff_ie_api-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+valoff_ie_api-0.1.0.dist-info/METADATA,sha256=ZTFOY7fUVxavZXGWCvhCt6XTgR0bjLionGT-f3S7p3s,607
+valoff_ie_api-0.1.0.dist-info/RECORD,,

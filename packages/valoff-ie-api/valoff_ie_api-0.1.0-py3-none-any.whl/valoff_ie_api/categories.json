@@ -1,0 +1,81 @@
+[{
+        "categoryid": 0,
+        "categorydesc": "OFFICE",
+        "msrepl_tran_version": "8a0b1945-1f33-4db6-af4f-dee03554b8ef"
+    },
+    {
+        "categoryid": 1,
+        "categorydesc": "FUEL/DEPOT",
+        "msrepl_tran_version": "9467e340-3ea1-409b-96aa-db4153bd9a24"
+    },
+    {
+        "categoryid": 2,
+        "categorydesc": "LEISURE",
+        "msrepl_tran_version": "2b1e8412-3659-4746-864a-df03c85e14d4"
+    },
+    {
+        "categoryid": 3,
+        "categorydesc": "INDUSTRIAL USES",
+        "msrepl_tran_version": "b76e8d69-758d-4db8-af58-24762210be99"
+    },
+    {
+        "categoryid": 4,
+        "categorydesc": "HEALTH",
+        "msrepl_tran_version": "920a9609-a53d-460a-8531-570ca1e43ac6"
+    },
+    {
+        "categoryid": 5,
+        "categorydesc": "HOSPITALITY",
+        "msrepl_tran_version": "4fc68041-bf1c-4546-b4f0-bcd6d9126fcc"
+    },
+    {
+        "categoryid": 6,
+        "categorydesc": "MINERALS",
+        "msrepl_tran_version": "d2aa8788-a8b1-46a4-918b-2a8de2283b01"
+    },
+    {
+        "categoryid": 7,
+        "categorydesc": "MISCELLANEOUS",
+        "msrepl_tran_version": "862f18ed-20dc-417e-8f8d-cb1433da8cb0"
+    },
+    {
+        "categoryid": 8,
+        "categorydesc": "RETAIL (SHOPS)",
+        "msrepl_tran_version": "bb406b74-6c9f-4746-bbe5-ccb6b1619149"
+    },
+    {
+        "categoryid": 9,
+        "categorydesc": "UTILITY",
+        "msrepl_tran_version": "8349461f-225c-4b5e-8c52-14eb07b981cb"
+    },
+    {
+        "categoryid": 18,
+        "categorydesc": "RETAIL (WAREHOUSE)",
+        "msrepl_tran_version": "261368b6-af2a-4eea-8fcb-ddac525f4c9b"
+    },
+    {
+        "categoryid": 23,
+        "categorydesc": "NO CATEGORY SELECTED",
+        "msrepl_tran_version": "530b5554-d833-4cd1-bdbc-f85e451c027d"
+    },
+    {
+        "categoryid": 31,
+        "categorydesc": "CENTRAL VALUATION LIST",
+        "msrepl_tran_version": "b712303d-8e58-4f12-adf4-e47c3eefaa12"
+    },
+    {
+        "categoryid": 35,
+        "categorydesc": "CHECK CATEGORY",
+        "msrepl_tran_version": "3e9a6e7c-3631-43b3-9bc0-01af40e177b8"
+    },
+    {
+        "categoryid": 45,
+        "categorydesc": "NON-LIST",
+        "msrepl_tran_version": "cb130a24-c34b-472b-9f3e-189816427b7e"
+    },
+    {
+        "categoryid": 46,
+        "categorydesc": "NON-LIST EXEMPT",
+        "msrepl_tran_version": "3f85f156-618a-4e17-9aea-70d0c1e3de48"
+    }
+]
