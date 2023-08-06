@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+UNICODE-COPYRIGHT
+setup.py
+pyunormalize.egg-info/PKG-INFO
+pyunormalize.egg-info/SOURCES.txt
+pyunormalize.egg-info/dependency_links.txt
+pyunormalize.egg-info/not-zip-safe
+pyunormalize.egg-info/top_level.txt
+tests/test_pyunormalize.py
+tests/unicode_conformance.py
+tools/build_unicode.py
