@@ -1,0 +1,3 @@
+[console_scripts]
+adacord=cli.main:app
+
